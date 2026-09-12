@@ -1,0 +1,155 @@
+manifest:
+  name: dataset-eurlex-pre-experiment
+  date: 2026-09-07
+  purpose: infrastructure_documentation_and_pre_experiment_validation_only
+  empirical_results_used: false
+  ra_executed_here: false
+
+files_reviewed:
+  - methodology/v1.1.0/codebook.md
+  - methodology/v1.1.0/reference_coding_schema.json
+  - methodology/v1.1.0/experimental_output_schema.json
+  - methodology/v1.1.0/methodology_manifest.yaml
+  - methodology/v1.1.1/experimental_output_schema.json
+  - methodology/v1.1.1/methodology_manifest.yaml
+  - methodology/v1.1.1/README.md
+  - methodology/v1.1.2/experimental_output_schema.json
+  - methodology/v1.1.2/methodology_manifest.yaml
+  - methodology/v1.1.2/README.md
+  - 04_prompts/G0.md
+  - 04_prompts/G1.md
+  - 04_prompts/G2.md
+  - 04_prompts/README.md
+  - config/project.yaml
+  - config/experiment.yaml
+  - docs/RESEARCH_DESIGN.md
+  - prompts/ETAPA_06_G0_G1_G2.md
+  - prompts/ETAPA_07_COMPARACAO.md
+  - docs/protocol/PRE_EXPERIMENT_READINESS_AUDIT.md
+  - docs/protocol/reference_experimental_crosswalk.md
+  - docs/protocol/EXPERIMENTAL_REFERENCE_MATCHING_PROTOCOL.md
+  - tests/test_experimental_pipeline.py
+  - tests/fixtures/experimental_mock.json
+
+hashes_sha256:
+  02_corpus/act.md: B24A02EA241CA631B606660BB48BB5A2222B29F849C4E4552FB99F871B2E8FD4
+  methodology/v1.1.0/codebook.md: C160E153907A786C04070CB09F6E9BAA11DE709A4432A5F89EBE375A8A7EB472
+  methodology/v1.1.0/reference_coding_schema.json: ABBC4325A5E749CF31836FB24314C27ED22061D6E6539FB435FCE8236D5AD2EC
+  methodology/v1.1.0/experimental_output_schema.json: AAA0C351836120CADEF86D051EF8D950675577AFBABEFD5AC5D3931F33AE875C
+  methodology/v1.1.0/methodology_manifest.yaml: 4BB92019F932A836707D81D087503B60913B3770CDC3881B05FC0662D036FB00
+  methodology/v1.1.1/experimental_output_schema.json: 7DAF8A24AAB48542533C168BA403902C3F504ED7705C5A818191EFFA6638D750
+  methodology/v1.1.1/methodology_manifest.yaml: 3A52D4C74AA7E5917F8B05A0CBFB8F339F26DF31D9442E626A4C90C66ADE258A
+  methodology/v1.1.1/README.md: C259652F2C50CDEF7E55911E52504A6B315C2066ADBC1F5224EDA215FB6DEAB6
+  methodology/v1.1.2/experimental_output_schema.json: 1F5CC0C53E6F74FFF321BE414D551C2E675495FD278F55AB4302A92D5E427314
+  methodology/v1.1.2/methodology_manifest.yaml: 034D64A7BD3414EDD21C1B89BA50A9AF3796D930BB8CE27B374747169CC855DA
+  methodology/v1.1.2/README.md: AE9F8446A8EF32D510984A0483E871F82B6DB7755A8B7AD0F3CEBFE8E694CCBB
+  04_prompts/G0.md: 2D53289CA2FAECE4EB6AEBE5DB4E6B4B422A83FF76578AE157F4309B7678DEDE
+  04_prompts/G1.md: 1E0158D48EBC9CAB9C426FD803904EE8319A8C2C602BECE2F7232028F97D0342
+  04_prompts/G2.md: 5CD3DED115341AAC5EFC476FD3ADEC5EB5C58A8B2EAD1B0F3D934158C4B9F9E5
+  config/project.yaml: DC85FB2F51897D6FDAFBA30F0137300476BB1B345FD9018AC51FFFED8F99EEB9
+  config/experiment.yaml: 2E5951380325BBE83C291832B69CE5026BC75A68F242D87D14B12A93E9B32673
+  docs/RESEARCH_DESIGN.md: AE061BDD76D79244ACB25E7C08F79FBCBD26648EC4168C59D82435C95AD773A7
+  prompts/ETAPA_06_G0_G1_G2.md: 8C63521EAF3BB4FD3B78846B9B057D4F50FF88FF810A99AF5A00AD42F298EA78
+  prompts/ETAPA_07_COMPARACAO.md: FD738D772E51D5114800DD7A65E06C6A7D61290E7595D37C50807145246191C0
+  docs/protocol/PRE_EXPERIMENT_READINESS_AUDIT.md: C8A5C99A85119A28CAD578C6A0C40B3E2E4B130B21AB5C994DFEE6912762C3CA
+  docs/protocol/reference_experimental_crosswalk.md: A015F3DA3BDBF0D02725162E1ACC14462E7BC52775DF24E2FB122A3219ED1F34
+  docs/protocol/EXPERIMENTAL_REFERENCE_MATCHING_PROTOCOL.md: 0D126ABBD75181613F49EA4521B69438AA087F1B9BB01C5C8D3A5B92F60A803A
+  tests/test_experimental_pipeline.py: 874C9C67C48300F9ECAEC1929EE3287E50AF04CFA622128005001D278989724B
+  tests/fixtures/experimental_mock.json: B5EA8EA031482926D2C53BD73BDC3DCFF5B0B6DD8FECABF92E63DC5416B7B82D
+
+issues_found:
+  - id: LEAK-001
+    field: candidate_origin
+    severity: confirmed
+    description: "v1.1.0 experimental schema requires reference candidate-construction provenance."
+    risk: "G0/G1/G2 could learn lexical/structural/both origin information."
+  - id: CFG-001
+    field: model_and_reasoning_effort
+    severity: pending
+    description: "config/experiment.yaml keeps both values null until the authorized execution phase."
+  - id: PROMPT-001
+    field: experimental_prompts
+    severity: pending
+    description: "04_prompts/G0.md, G1.md and G2.md are placeholders and remain undefined."
+
+experimental_v1_1_1:
+  necessary: true
+  path: methodology/v1.1.1
+  status: historical_pre_experiment_correction
+  change: remove_candidate_origin_from_experimental_output_only
+  reference_codebook_changed: false
+  reference_schema_changed: false
+  benchmark_construction_changed: false
+  empirical_results_used: false
+
+experimental_v1_1_2:
+  necessary: true
+  path: methodology/v1.1.2
+  status: proposed_pre_experiment
+  supersedes_for_experiment: 1.1.1
+  change: represent_R_I_T_as_zero_or_more_actor_label_strings
+  actor_ordering_affects_normalization: false
+  reference_actor_subroles_introduced: false
+  reference_methodology_changed: false
+  reference_schema_changed: false
+  benchmark_construction_changed: false
+  empirical_results_used: false
+  common_across_conditions:
+    - G0
+    - G1
+    - G2
+
+matching_protocol:
+  path: docs/protocol/EXPERIMENTAL_REFERENCE_MATCHING_PROTOCOL.md
+  prospective: true
+  exact_location_matching: defined
+  hierarchical_location_overlap: defined
+  actor_relation_identity: defined
+  one_to_one_matching: required
+  duplicate_handling: defined
+  split_relations: defined
+  merged_relations: defined
+  deterministic_tie_breaking: defined
+  manual_review: unresolved_ambiguity_only_and_condition_blinded_where_possible
+
+scripts_created:
+  files:
+    - scripts/experimental/_common.py
+    - scripts/experimental/validate_experimental_output.py
+    - scripts/experimental/compare_run_to_reference.py
+    - scripts/experimental/compare_G0_G1_G2.py
+    - scripts/experimental/build_error_taxonomy.py
+  guard_behavior: "All CLI entry points fail closed with REFERENCE_NOT_LOCKED before reference lock."
+
+tests_executed:
+  command: python -m unittest discover -s tests -p 'test_*.py' -v
+  result: passed
+  test_count: 10
+  coverage:
+    - TP_FP_FN
+    - precision_recall_F1
+    - normalized_location_matching
+    - R_I_T_and_mechanism_agreement
+    - division_by_zero
+    - error_categories
+    - missing_candidate_id_in_experimental_fixture
+    - candidate_id_matching_in_posthoc_artifact
+    - reference_lock_guard
+    - v1_1_2_zero_one_and_multiple_actor_arrays
+    - v1_1_2_scalar_actor_rejection
+    - actor_order_independent_normalization
+  guard_check:
+    command: python scripts/experimental/validate_experimental_output.py tests/fixtures/experimental_mock.json
+    result: expected_abort
+    message: REFERENCE_NOT_LOCKED
+
+status:
+  reference_locked: false
+  RA_completed: false_or_external_pending
+  human_gate_executed: false
+  benchmark_locked: false
+  G0_executed: false
+  G1_executed: false
+  G2_executed: false
+  experimental_interface_version: 1.1.2
+  pre_experiment_infrastructure_ready: true

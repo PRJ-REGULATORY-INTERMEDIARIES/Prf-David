@@ -1,0 +1,28 @@
+attempt: stage4_attempt_02
+role: R2
+status: completed_validated
+execution_context: independent_context_R2
+input_packet: R2_coding_input.json
+allowed_shared_inputs:
+  - ../../02_corpus/act.md
+  - ../../methodology/v1.1.0/codebook.md
+  - ../../methodology/v1.1.0/reference_coding_schema.json
+strings_authorized_in_substantive_context: false
+forbidden_inputs:
+  - R1_coding_input.json
+  - R1_output.json
+  - RA_output.json
+  - ../stage4_attempt_01/
+  - ../../05_runs/
+output_target: R2_output.json
+substantive_fields_preexecution: none
+execution_note: Execute only after explicit authorization; preserve raw output before validation.
+completion:
+  raw_output: R2_output_raw.json
+  raw_output_sha256: 18855B2053447D061BE3C1FCFAE9EBDBD579620D922A6394223F57B0F21AD2F6
+  validated_output: R2_output.json
+  validated_output_sha256: 18855B2053447D061BE3C1FCFAE9EBDBD579620D922A6394223F57B0F21AD2F6
+  validation_log: R2_validation_log.md
+  validation_status: pass
+  raw_preserved_before_validation: true
+  substantive_post_hoc_corrections: none

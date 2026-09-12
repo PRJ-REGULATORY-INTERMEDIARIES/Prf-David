@@ -1,0 +1,84 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "dataset-eurlex/production-v1.0/coding-matrix-record",
+  "title": "dataset-eurlex production R-I-T coding matrix record",
+  "description": "Common source-bounded relation record for the three-case production workflow. It is a proposal until researcher adjudication.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "case_id",
+    "celex",
+    "relation_id",
+    "source_location",
+    "evidence_quote",
+    "R",
+    "I",
+    "T",
+    "action",
+    "object",
+    "mediating_function",
+    "mechanism",
+    "relation_type",
+    "confidence",
+    "external_context_required",
+    "coder_note"
+  ],
+  "properties": {
+    "case_id": {"type": "string", "minLength": 1},
+    "celex": {"type": "string", "minLength": 1},
+    "relation_id": {"type": "string", "minLength": 1},
+    "source_location": {"type": "string", "minLength": 1},
+    "evidence_quote": {"type": "string", "minLength": 1},
+    "R": {"$ref": "#/$defs/actor_array"},
+    "I": {"$ref": "#/$defs/actor_array"},
+    "T": {"$ref": "#/$defs/actor_array"},
+    "action": {"type": "array", "items": {"type": "string"}},
+    "object": {"type": "array", "items": {"type": "string"}},
+    "mediating_function": {"type": "array", "items": {"type": "string"}},
+    "mechanism": {
+      "type": "string",
+      "enum": [
+        "reporting",
+        "verification",
+        "certification",
+        "auditing",
+        "monitoring_supervision",
+        "ranking_rating",
+        "standard_setting",
+        "enforcement_support",
+        "coordination",
+        "information_transmission",
+        "delegated_implementation",
+        "accreditation",
+        "other_mechanism",
+        "none_or_direct"
+      ]
+    },
+    "relation_type": {
+      "type": "string",
+      "enum": ["intermediated", "direct", "uncertain", "not_supported"]
+    },
+    "confidence": {
+      "type": "string",
+      "enum": ["high", "medium", "low", "not_assessed"]
+    },
+    "external_context_required": {"type": "boolean"},
+    "coder_note": {"type": "string"}
+  },
+  "$defs": {
+    "actor": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["label", "role", "evidence_refs"],
+      "properties": {
+        "label": {"type": "string", "minLength": 1},
+        "role": {"type": "string", "minLength": 1},
+        "evidence_refs": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "actor_array": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/actor"}
+    }
+  }
+}

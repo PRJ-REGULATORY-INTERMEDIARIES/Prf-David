@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Regulatory Intermediation — Discussion Panel</title>
+<style>
+  :root{
+    --bg:#f6f8fb;
+    --panel:#ffffff;
+    --panel-soft:#f9fbfd;
+    --text:#24313f;
+    --muted:#6b7785;
+    --line:#dfe5ec;
+    --accent:#3b6ea8;
+    --accent-soft:#edf4fb;
+    --green:#3b8c63;
+    --green-soft:#eef8f2;
+    --yellow:#a9781f;
+    --yellow-soft:#fff8e8;
+    --red:#b75c5c;
+    --red-soft:#fff1f1;
+    --purple:#745da8;
+    --purple-soft:#f5f0fb;
+    --shadow:0 8px 24px rgba(42,61,79,.07);
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--text);
+    font-family:Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    line-height:1.5;
+  }
+  button,input,textarea,select{font:inherit}
+  .app{min-height:100vh}
+  .topbar{
+    position:sticky;top:0;z-index:50;
+    background:rgba(255,255,255,.95);
+    border-bottom:1px solid var(--line);
+    backdrop-filter:blur(10px);
+  }
+  .topbar-inner{
+    max-width:1450px;margin:auto;padding:12px 20px;
+    display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap;
+  }
+  .brand{font-weight:750;color:#203448}
+  .brand span{color:var(--accent);font-weight:650}
+  .top-actions{display:flex;gap:8px;flex-wrap:wrap}
+  .btn{
+    border:1px solid var(--line);background:#fff;color:var(--text);
+    border-radius:10px;padding:9px 12px;cursor:pointer;
+  }
+  .btn:hover{border-color:#a9bad0;background:#f8fbff}
+  .tabs-wrap{
+    background:#fff;border-bottom:1px solid var(--line);
+    position:sticky;top:57px;z-index:40;
+  }
+  .tabs{
+    max-width:1450px;margin:auto;padding:9px 20px;
+    display:flex;gap:8px;overflow-x:auto;
+  }
+  .tab-btn{
+    white-space:nowrap;border:0;background:transparent;color:var(--muted);
+    border-radius:9px;padding:9px 12px;cursor:pointer;font-weight:600;
+  }
+  .tab-btn.active{background:var(--accent-soft);color:var(--accent)}
+  main{max-width:1450px;margin:auto;padding:28px 20px 60px}
+  .tab-panel{display:none}
+  .tab-panel.active{display:block}
+  .hero{
+    display:grid;grid-template-columns:1.25fr .75fr;gap:18px;align-items:stretch;margin-bottom:22px;
+  }
+  .hero-card,.card{
+    background:var(--panel);border:1px solid var(--line);border-radius:16px;
+    box-shadow:var(--shadow);padding:20px;
+  }
+  .kicker{color:var(--accent);font-size:.78rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase}
+  h1{font-size:clamp(2rem,4.7vw,4rem);line-height:1.04;margin:.15em 0 .28em}
+  h2{margin:0 0 6px;font-size:clamp(1.4rem,2.6vw,2rem)}
+  h3{margin:.1em 0 .6em;font-size:1.08rem}
+  .lead{color:var(--muted);font-size:1.08rem;max-width:900px}
+  .soft-note{
+    background:var(--panel-soft);border:1px solid var(--line);border-radius:13px;padding:15px;color:#445262
+  }
+  .quote{
+    background:var(--accent-soft);border-left:4px solid #8fb3d9;padding:15px 16px;border-radius:12px;
+    color:#34495e;
+  }
+  .grid{display:grid;grid-template-columns:repeat(12,1fr);gap:16px}
+  .half{grid-column:span 6}
+  .third{grid-column:span 4}
+  .wide{grid-column:1/-1}
+  .badge{
+    display:inline-block;padding:4px 8px;border-radius:999px;font-size:.75rem;font-weight:700;
+    border:1px solid var(--line);color:var(--muted);background:#fafbfc;margin-bottom:9px;
+  }
+  .badge.blue{background:var(--accent-soft);border-color:#d3e2f2;color:var(--accent)}
+  .badge.green{background:var(--green-soft);border-color:#cfe9d9;color:var(--green)}
+  .badge.yellow{background:var(--yellow-soft);border-color:#f0dfb1;color:var(--yellow)}
+  .badge.red{background:var(--red-soft);border-color:#f0d0d0;color:var(--red)}
+  .badge.purple{background:var(--purple-soft);border-color:#dfd5ef;color:var(--purple)}
+  .prompt{font-weight:700;color:#26394b;font-size:1.02rem}
+  .proposed{color:#536171;margin-top:7px}
+  .example{margin-top:10px;color:#667484;font-size:.93rem;padding-left:11px;border-left:3px solid #d8e0e9}
+  .decision-row{display:flex;gap:8px;flex-wrap:wrap;margin-top:13px}
+  .choice{
+    border:1px solid var(--line);background:#fff;border-radius:9px;padding:7px 10px;cursor:pointer;color:#485667
+  }
+  .choice:hover{background:#f7f9fc}
+  .choice.active.yes{border-color:#98ceb0;background:var(--green-soft);color:#2c7850}
+  .choice.active.no{border-color:#e1acac;background:var(--red-soft);color:#944848}
+  .choice.active.uncertain{border-color:#dfc880;background:var(--yellow-soft);color:#8a641d}
+  .choice.active.modify{border-color:#cbbbe4;background:var(--purple-soft);color:#665092}
+  .comment-box{margin-top:14px}
+  .comment-box label{display:block;font-size:.82rem;color:var(--muted);margin-bottom:5px}
+  textarea,input,select{
+    width:100%;border:1px solid var(--line);border-radius:10px;background:#fff;color:var(--text);
+    padding:10px 11px;outline:none;
+  }
+  textarea:focus,input:focus,select:focus{border-color:#9cb8d6;box-shadow:0 0 0 3px rgba(59,110,168,.08)}
+  textarea{min-height:88px;resize:vertical}
+  .section-head{
+    display:flex;align-items:end;justify-content:space-between;gap:15px;flex-wrap:wrap;margin-bottom:15px
+  }
+  .section-sub{color:var(--muted);max-width:850px}
+  .progress{color:var(--muted);font-size:.88rem}
+  .flow{
+    display:grid;grid-template-columns:1fr auto 1fr auto 1fr;gap:10px;align-items:center;margin:16px 0;
+  }
+  .node{
+    padding:14px;border:1px solid var(--line);border-radius:12px;background:#fbfcfe;text-align:center;
+  }
+  .arrow{color:#7c98b4;font-weight:800}
+  .mini{font-size:.84rem;color:var(--muted)}
+  .table-wrap{overflow:auto;border:1px solid var(--line);border-radius:14px;background:#fff}
+  table{width:100%;border-collapse:collapse;font-size:.91rem}
+  th,td{padding:11px 10px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+  th{background:#f6f9fc;color:#47586a}
+  td{color:#435263}
+  .rule-steps{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+  .step{background:#fff;border:1px solid var(--line);border-radius:13px;padding:15px}
+  .step-num{font-size:.76rem;font-weight:800;color:var(--accent);text-transform:uppercase;letter-spacing:.07em}
+  .spectrum{display:grid;grid-template-columns:repeat(5,1fr);gap:8px}
+  .spectrum div{border:1px solid var(--line);border-radius:10px;background:#fbfcfe;padding:11px;text-align:center}
+  .note-panel{
+    margin-top:18px;background:#fff;border:1px solid var(--line);border-radius:16px;padding:17px;box-shadow:var(--shadow)
+  }
+  .note-panel-head{display:flex;justify-content:space-between;gap:10px;align-items:center;margin-bottom:10px}
+  .note-title{font-weight:750}
+  .saved{font-size:.8rem;color:var(--muted)}
+  .decision-list{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+  .decision-item{border:1px solid var(--line);border-radius:12px;padding:13px;background:#fbfcfe}
+  .decision-item strong{display:block;margin-bottom:4px}
+  .footer{text-align:center;color:var(--muted);font-size:.82rem;margin-top:36px}
+  body.focus .topbar, body.focus .tabs-wrap{display:none}
+  body.focus main{max-width:1200px;padding-top:20px}
+  body.focus .hero{grid-template-columns:1fr}
+  @media(max-width:980px){
+    .hero{grid-template-columns:1fr}
+    .half,.third{grid-column:1/-1}
+    .rule-steps{grid-template-columns:1fr 1fr}
+    .flow{grid-template-columns:1fr}
+    .arrow{transform:rotate(90deg);text-align:center}
+    .decision-list{grid-template-columns:1fr}
+  }
+  @media(max-width:650px){
+    main{padding:20px 13px 45px}
+    .topbar-inner,.tabs{padding-left:13px;padding-right:13px}
+    .rule-steps,.spectrum{grid-template-columns:1fr}
+    .tabs-wrap{top:96px}
+  }
+  @media print{
+    .topbar,.tabs-wrap,.top-actions,.choice{display:none!important}
+    body{background:#fff}
+    .tab-panel{display:block!important;page-break-after:always}
+    .card,.hero-card,.note-panel{box-shadow:none}
+  }
+</style>
+</head>
+<body>
+<div class="app">
+  <div class="topbar">
+    <div class="topbar-inner">
+      <div class="brand">Regulatory Intermediation <span>Discussion Panel</span></div>
+      <div class="top-actions">
+        <button class="btn" onclick="toggleFocus()">Presentation mode</button>
+        <button class="btn" onclick="exportNotes()">Export all notes</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="tabs-wrap">
+    <div class="tabs">
+      <button class="tab-btn active" data-tab="overview">Overview</button>
+      <button class="tab-btn" data-tab="questions">Questions</button>
+      <button class="tab-btn" data-tab="cases">Cases</button>
+      <button class="tab-btn" data-tab="coding">Coding Matrix</button>
+      <button class="tab-btn" data-tab="rules">Decision Rules</button>
+      <button class="tab-btn" data-tab="notes">Meeting Notes</button>
+    </div>
+  </div>
+
+  <main>
+    <!-- OVERVIEW -->
+    <section class="tab-panel active" id="overview">
+      <div class="hero">
+        <div class="hero-card">
+          <div class="kicker">R–I–T coding discussion</div>
+          <h1>Where should we draw the boundary of intermediation?</h1>
+          <p class="lead">
+            This panel is intended as a conversation aid rather than a fixed codebook.
+            The aim is to test possible interpretations, compare borderline cases, and record the choices that should guide later coding.
+          </p>
+        </div>
+        <div class="hero-card">
+          <div class="badge blue">Working idea</div>
+          <p style="margin-top:0">
+            A third actor may be treated as an intermediary when it performs a recognizable function that is connected to the regulatory relationship between R and T.
+          </p>
+          <p class="mini">
+            The key issue is not necessarily whether the actor has binding authority, but whether its role matters to how regulation is produced, transmitted, monitored, verified, interpreted, or implemented.
+          </p>
+        </div>
+      </div>
+
+      <div class="grid">
+        <div class="card half">
+          <div class="badge green">Possible starting point</div>
+          <h3>A softer formulation</h3>
+          <div class="quote">
+            “Could we treat intermediation as a functional connection to the R–T relationship, rather than requiring formal authority over the target?”
+          </div>
+        </div>
+
+        <div class="card half">
+          <div class="badge yellow">Main boundary</div>
+          <h3>What seems most important to clarify</h3>
+          <p class="proposed">
+            When does a third actor move from being merely relevant to the regulatory environment to being part of the regulatory relationship itself?
+          </p>
+        </div>
+      </div>
+
+      <div class="note-panel">
+        <div class="note-panel-head">
+          <div class="note-title">Overview notes</div>
+          <div class="saved">saved locally</div>
+        </div>
+        <textarea data-note="overview_notes" placeholder="Initial reactions, framing, terms David prefers, points to revisit..."></textarea>
+      </div>
+    </section>
+
+    <!-- QUESTIONS -->
+    <section class="tab-panel" id="questions">
+      <div class="section-head">
+        <div>
+          <h2>Key questions</h2>
+          <div class="section-sub">
+            The wording is intentionally exploratory. The proposed answers are hypotheses to test, not conclusions to defend.
+          </div>
+        </div>
+        <div class="progress" id="progressText">0 / 8 decisions recorded</div>
+      </div>
+
+      <div class="grid" id="questionGrid"></div>
+
+      <div class="note-panel">
+        <div class="note-panel-head">
+          <div class="note-title">Questions — general comments</div>
+          <div class="saved">saved locally</div>
+        </div>
+        <textarea data-note="questions_general" placeholder="Patterns across the questions, terminology changes, new questions that emerge..."></textarea>
+      </div>
+    </section>
+
+    <!-- CASES -->
+    <section class="tab-panel" id="cases">
+      <div class="section-head">
+        <div>
+          <h2>Borderline cases</h2>
+          <div class="section-sub">
+            These are discussion examples meant to reveal where the conceptual boundary becomes difficult.
+          </div>
+        </div>
+      </div>
+
+      <div class="grid">
+        <div class="card wide">
+          <div class="badge green">Case 1</div>
+          <h3>Non-binding report, but mandatory consideration</h3>
+          <div class="flow">
+            <div class="node"><strong>T</strong><br>Member States<br><span class="mini">progress / behaviour / data</span></div>
+            <div class="arrow">→</div>
+            <div class="node"><strong>I?</strong><br>Independent body<br><span class="mini">assessment / report</span></div>
+            <div class="arrow">→</div>
+            <div class="node"><strong>R</strong><br>Commission<br><span class="mini">must take the report into account</span></div>
+          </div>
+          <p class="proposed">
+            Possible interpretation: this may be a relatively strong intermediary case because the third actor's output is formally built into the regulatory process, even if its conclusion is not binding.
+          </p>
+          <div class="comment-box">
+            <label>Comments / decision</label>
+            <textarea data-note="case_1" placeholder="How would David classify this case? What wording should be used in the codebook?"></textarea>
+          </div>
+        </div>
+
+        <div class="card third">
+          <div class="badge red">Case 2</div>
+          <h3>General scientific information</h3>
+          <p class="example">A scientific organization publishes research that the Commission may consult.</p>
+          <p class="proposed">Possible interpretation: probably not enough by itself. A more specific institutional connection may be needed.</p>
+          <div class="comment-box"><label>Comments</label><textarea data-note="case_2"></textarea></div>
+        </div>
+
+        <div class="card third">
+          <div class="badge red">Case 3</div>
+          <h3>Target self-reporting</h3>
+          <p class="example">Member States submit their own emissions data directly to the Commission.</p>
+          <p class="proposed">Possible interpretation: usually a direct R–T reporting relationship rather than intermediation.</p>
+          <div class="comment-box"><label>Comments</label><textarea data-note="case_3"></textarea></div>
+        </div>
+
+        <div class="card third">
+          <div class="badge green">Case 4</div>
+          <h3>Independent verifier</h3>
+          <p class="example">An operator must have emissions data checked by an accredited verifier.</p>
+          <p class="proposed">Possible interpretation: a clearer intermediary case because a distinct actor performs a recognized verification function.</p>
+          <div class="comment-box"><label>Comments</label><textarea data-note="case_4"></textarea></div>
+        </div>
+
+        <div class="card third">
+          <div class="badge yellow">Case 5</div>
+          <h3>Scientific advisory body</h3>
+          <p class="example">A board evaluates climate progress and gives recommendations to the Commission.</p>
+          <p class="proposed">Possible interpretation: likely depends on how formally the advisory function is embedded in the regulatory process.</p>
+          <div class="comment-box"><label>Comments</label><textarea data-note="case_5"></textarea></div>
+        </div>
+
+        <div class="card third">
+          <div class="badge yellow">Case 6</div>
+          <h3>Public consultation</h3>
+          <p class="example">Civil society organizations submit observations before the Commission adopts an act.</p>
+          <p class="proposed">Possible interpretation: participation alone may be too broad unless the actor has a more defined regulatory function.</p>
+          <div class="comment-box"><label>Comments</label><textarea data-note="case_6"></textarea></div>
+        </div>
+
+        <div class="card third">
+          <div class="badge blue">Case 7</div>
+          <h3>Regulator-facing intermediary</h3>
+          <p class="example">An expert body never directs the target but provides formal assessments to the regulator.</p>
+          <p class="proposed">Possible interpretation: direct interaction with T may not be necessary if the actor has a meaningful role in how R assesses or governs T.</p>
+          <div class="comment-box"><label>Comments</label><textarea data-note="case_7"></textarea></div>
+        </div>
+      </div>
+
+      <div class="note-panel">
+        <div class="note-panel-head">
+          <div class="note-title">Cases — general observations</div>
+          <div class="saved">saved locally</div>
+        </div>
+        <textarea data-note="cases_general" placeholder="New examples, exceptions, recurring patterns, terms that need refinement..."></textarea>
+      </div>
+    </section>
+
+    <!-- CODING -->
+    <section class="tab-panel" id="coding">
+      <div class="section-head">
+        <div>
+          <h2>Possible coding matrix</h2>
+          <div class="section-sub">
+            The matrix separates the existence of intermediation from its direction, institutionalization, and degree of authority.
+          </div>
+        </div>
+        <button class="btn" onclick="toggleMatrix()">Compact / full</button>
+      </div>
+
+      <div class="table-wrap">
+        <table id="matrixTable">
+          <thead>
+            <tr><th>Variable</th><th>Question</th><th>Possible values</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>regulator_R</td><td>Who appears to exercise the relevant regulatory function?</td><td>Commission / authority / other</td></tr>
+            <tr><td>target_T</td><td>Whose behaviour, status, or performance is being regulated or assessed?</td><td>Member State / firm / institution</td></tr>
+            <tr><td>candidate_I</td><td>Is there a distinct third actor that may play a connecting role?</td><td>named actor / body / organization</td></tr>
+            <tr><td>I_distinct_from_R_T</td><td>Is the actor institutionally distinct from R and T?</td><td>yes / no / unclear</td></tr>
+            <tr><td>I_function</td><td>What function does the actor perform?</td><td>monitoring / reporting / assessment / verification / expertise / coordination / implementation</td></tr>
+            <tr><td>I_mechanism</td><td>How is that function exercised?</td><td>report / audit / certificate / recommendation / standard / data transmission</td></tr>
+            <tr><td>R_uses_I_output</td><td>Does the actor's output enter the regulator's process?</td><td>yes / no / unclear</td></tr>
+            <tr><td>R_use_status</td><td>How strongly is the regulator connected to the output?</td><td>must consider / may consider / receives / unspecified</td></tr>
+            <tr><td>I_acts_on_T</td><td>Does the actor interact with or act upon the target?</td><td>yes / no / unclear</td></tr>
+            <tr><td>I_acts_on_R</td><td>Does the actor provide input to or support the regulator?</td><td>yes / no / unclear</td></tr>
+            <tr><td>binding_on_R</td><td>Does the actor's output constrain the regulator?</td><td>yes / no / partly</td></tr>
+            <tr><td>binding_on_T</td><td>Can the actor directly constrain the target?</td><td>yes / no / partly</td></tr>
+            <tr><td>institutionalized_role</td><td>Is the role formally established or recognized?</td><td>yes / no / uncertain</td></tr>
+            <tr><td>intermediation_direction</td><td>Where does the connecting function operate?</td><td>regulator-facing / target-facing / bilateral</td></tr>
+            <tr><td>relationship_type</td><td>What architecture best describes the relation?</td><td>R–I–T / R–T / other / uncertain</td></tr>
+            <tr><td>intermediary_status</td><td>Overall interpretation</td><td>yes / no / uncertain</td></tr>
+            <tr><td>confidence</td><td>How confident are we in the interpretation?</td><td>high / medium / low</td></tr>
+            <tr><td>evidence_text</td><td>What legal text supports the interpretation?</td><td>exact provision</td></tr>
+            <tr><td>decision_note</td><td>What is the short rationale?</td><td>free text</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="note-panel">
+        <div class="note-panel-head">
+          <div class="note-title">Coding matrix comments</div>
+          <div class="saved">saved locally</div>
+        </div>
+        <textarea data-note="coding_notes" placeholder="Variables to add/remove, categories to rename, distinctions David thinks are unnecessary or important..."></textarea>
+      </div>
+    </section>
+
+    <!-- RULES -->
+    <section class="tab-panel" id="rules">
+      <div class="section-head">
+        <div>
+          <h2>Possible decision logic</h2>
+          <div class="section-sub">
+            A simple sequence for discussion. Each step can be softened or revised after the meeting.
+          </div>
+        </div>
+      </div>
+
+      <div class="rule-steps">
+        <div class="step">
+          <div class="step-num">Step 1</div>
+          <h3>Find the R–T relation</h3>
+          <p class="mini">Is there a recognizable regulatory relationship to begin with?</p>
+          <textarea data-note="rule_step_1" placeholder="Comment on this step..."></textarea>
+        </div>
+        <div class="step">
+          <div class="step-num">Step 2</div>
+          <h3>Look for a distinct third actor</h3>
+          <p class="mini">Is there someone or some body beyond R and T?</p>
+          <textarea data-note="rule_step_2" placeholder="Comment on this step..."></textarea>
+        </div>
+        <div class="step">
+          <div class="step-num">Step 3</div>
+          <h3>Identify the function</h3>
+          <p class="mini">What does that actor actually do in regulatory terms?</p>
+          <textarea data-note="rule_step_3" placeholder="Comment on this step..."></textarea>
+        </div>
+        <div class="step">
+          <div class="step-num">Step 4</div>
+          <h3>Test the connection</h3>
+          <p class="mini">How does that function matter to the R–T relationship?</p>
+          <textarea data-note="rule_step_4" placeholder="Comment on this step..."></textarea>
+        </div>
+      </div>
+
+      <div class="card wide" style="margin-top:16px">
+        <div class="badge blue">Possible practical test</div>
+        <div class="quote">
+          “Can we explain, from the legal text, how this third actor contributes to the way R regulates, evaluates, monitors, verifies, influences, or supports T?”
+        </div>
+        <div class="comment-box">
+          <label>Comments on the practical test</label>
+          <textarea data-note="practical_test"></textarea>
+        </div>
+      </div>
+
+      <div class="card wide" style="margin-top:16px">
+        <div class="badge purple">Possible authority spectrum</div>
+        <div class="spectrum">
+          <div><strong>Informative</strong><br><span class="mini">provides information</span></div>
+          <div><strong>Advisory</strong><br><span class="mini">offers recommendations</span></div>
+          <div><strong>Procedural</strong><br><span class="mini">must be considered</span></div>
+          <div><strong>Delegated</strong><br><span class="mini">performs assigned regulatory task</span></div>
+          <div><strong>Binding</strong><br><span class="mini">affects legal outcome directly</span></div>
+        </div>
+        <div class="comment-box">
+          <label>Comments on this spectrum</label>
+          <textarea data-note="authority_spectrum"></textarea>
+        </div>
+      </div>
+
+      <div class="note-panel">
+        <div class="note-panel-head">
+          <div class="note-title">Decision rules — general comments</div>
+          <div class="saved">saved locally</div>
+        </div>
+        <textarea data-note="rules_general"></textarea>
+      </div>
+    </section>
+
+    <!-- NOTES -->
+    <section class="tab-panel" id="notes">
+      <div class="section-head">
+        <div>
+          <h2>Meeting notes & final decisions</h2>
+          <div class="section-sub">
+            A place to consolidate what was agreed after the exploratory discussion.
+          </div>
+        </div>
+      </div>
+
+      <div class="decision-list">
+        <div class="decision-item">
+          <strong>1. Binding authority required?</strong>
+          <textarea data-note="final_1" placeholder="Final decision..."></textarea>
+        </div>
+        <div class="decision-item">
+          <strong>2. Non-binding reports as intermediation?</strong>
+          <textarea data-note="final_2" placeholder="Final decision..."></textarea>
+        </div>
+        <div class="decision-item">
+          <strong>3. Mandatory consideration of an output?</strong>
+          <textarea data-note="final_3" placeholder="Final decision..."></textarea>
+        </div>
+        <div class="decision-item">
+          <strong>4. Advisory bodies?</strong>
+          <textarea data-note="final_4" placeholder="Final decision..."></textarea>
+        </div>
+        <div class="decision-item">
+          <strong>5. Regulator-facing intermediaries?</strong>
+          <textarea data-note="final_5" placeholder="Final decision..."></textarea>
+        </div>
+        <div class="decision-item">
+          <strong>6. Consultation participants?</strong>
+          <textarea data-note="final_6" placeholder="Final decision..."></textarea>
+        </div>
+        <div class="decision-item">
+          <strong>7. Strength separate from existence?</strong>
+          <textarea data-note="final_7" placeholder="Final decision..."></textarea>
+        </div>
+        <div class="decision-item">
+          <strong>8. Roles coded per relationship?</strong>
+          <textarea data-note="final_8" placeholder="Final decision..."></textarea>
+        </div>
+      </div>
+
+      <div class="note-panel">
+        <div class="note-panel-head">
+          <div class="note-title">Draft final boundary rule</div>
+          <div class="saved">saved locally</div>
+        </div>
+        <textarea data-note="final_boundary_rule" style="min-height:150px" placeholder="A distinct third actor may be coded as an intermediary when..."></textarea>
+      </div>
+
+      <div class="note-panel">
+        <div class="note-panel-head">
+          <div class="note-title">Open issues / next steps</div>
+          <div class="saved">saved locally</div>
+        </div>
+        <textarea data-note="open_issues" style="min-height:140px" placeholder="Issues to test on the corpus, new examples to retrieve, codebook changes, screening implications..."></textarea>
+      </div>
+
+      <div class="note-panel">
+        <div class="note-panel-head">
+          <div class="note-title">Free meeting notes</div>
+          <div class="saved">saved locally</div>
+        </div>
+        <textarea data-note="meeting_free_notes" style="min-height:220px" placeholder="Any additional notes from the conversation..."></textarea>
+      </div>
+    </section>
+
+    <div class="footer">Regulatory Intermediation — discussion aid for R–I–T coding</div>
+  </main>
+</div>
+
+<script>
+const tabs = document.querySelectorAll(".tab-btn");
+const panels = document.querySelectorAll(".tab-panel");
+
+tabs.forEach(btn=>{
+  btn.addEventListener("click",()=>{
+    tabs.forEach(b=>b.classList.remove("active"));
+    panels.forEach(p=>p.classList.remove("active"));
+    btn.classList.add("active");
+    document.getElementById(btn.dataset.tab).classList.add("active");
+    window.scrollTo({top:0,behavior:"smooth"});
+    localStorage.setItem("rit_active_tab",btn.dataset.tab);
+  });
+});
+
+const savedTab = localStorage.getItem("rit_active_tab");
+if(savedTab){
+  const target = document.querySelector(`.tab-btn[data-tab="${savedTab}"]`);
+  if(target) target.click();
+}
+
+const questions = [
+  {
+    id:"q1",
+    q:"Does an intermediary need authority over the target?",
+    a:"Working view: perhaps not. A useful distinction may be between intermediation and the strength of authority.",
+    ex:"An expert body evaluates Member State progress but cannot compel compliance.",
+    options:["Likely no","Likely yes","Depends","Reframe"]
+  },
+  {
+    id:"q2",
+    q:"Could the producer of a non-binding report still be an intermediary?",
+    a:"Working view: possibly yes, especially where the legal framework gives the report a defined place in the regulatory process.",
+    ex:"The Commission must take an independent assessment into account.",
+    options:["Likely yes","Likely no","Depends","Reframe"]
+  },
+  {
+    id:"q3",
+    q:"How much weight should we give to 'shall take into account'?",
+    a:"Working view: it may be relatively strong evidence of an institutionalized connection, even if the output is not binding.",
+    ex:"I assesses T → R must consider the assessment → R evaluates T.",
+    options:["Strong evidence","Some evidence","Not enough","Reframe"]
+  },
+  {
+    id:"q4",
+    q:"What if the regulator may use the report, but is not required to?",
+    a:"Working view: this may still count, but perhaps with lower confidence or a need for additional evidence.",
+    ex:"A formal scientific body may provide advice used by the Commission.",
+    options:["Could include","Uncertain","Probably exclude","Reframe"]
+  },
+  {
+    id:"q5",
+    q:"When is an information provider more than just an information provider?",
+    a:"Working view: some identifiable connection to a regulatory function may be needed.",
+    ex:"A university publishes climate research independently of the legal mechanism.",
+    options:["Need formal link","Need functional link","Either may suffice","Reframe"]
+  },
+  {
+    id:"q6",
+    q:"Should consultation participation count as intermediation?",
+    a:"Working view: probably not by itself, unless participation is tied to a more specific and continuing regulatory function.",
+    ex:"NGOs submit comments during an open consultation.",
+    options:["Usually no","Sometimes","Yes","Reframe"]
+  },
+  {
+    id:"q7",
+    q:"Can an intermediary be entirely regulator-facing?",
+    a:"Working view: perhaps yes, if the actor has a meaningful role in how the regulator assesses, monitors, or governs the target.",
+    ex:"An expert body reports to the Commission based on Member State data.",
+    options:["Likely yes","Likely no","Depends","Reframe"]
+  },
+  {
+    id:"q8",
+    q:"Should we code roles relationship by relationship rather than actor by actor?",
+    a:"Working view: yes. The same organization may play different roles in different regulatory episodes.",
+    ex:"An agency may be an intermediary in one provision and simply a source of information in another.",
+    options:["Likely yes","Likely no","Depends","Reframe"]
+  }
+];
+
+function clsFor(opt){
+  const o = opt.toLowerCase();
+  if(o.includes("yes") || o.includes("include") || o.includes("strong") || o.includes("formal link")) return "yes";
+  if(o.includes("no") || o.includes("exclude")) return "no";
+  if(o.includes("depend") || o.includes("uncertain") || o.includes("some") || o.includes("sometimes") || o.includes("functional")) return "uncertain";
+  return "modify";
+}
+
+function renderQuestions(){
+  const grid = document.getElementById("questionGrid");
+  grid.innerHTML = "";
+  questions.forEach((item,i)=>{
+    const saved = localStorage.getItem("rit_decision_"+item.id);
+    const div = document.createElement("div");
+    div.className = "card half";
+    div.innerHTML = `
+      <div class="badge blue">Question ${i+1}</div>
+      <div class="prompt">${item.q}</div>
+      <div class="proposed">${item.a}</div>
+      <div class="example">${item.ex}</div>
+      <div class="decision-row">
+        ${item.options.map(opt=>`<button class="choice ${saved===opt ? "active "+clsFor(opt):""}" onclick="choose('${item.id}','${opt}',this)">${opt}</button>`).join("")}
+      </div>
+      <div class="comment-box">
+        <label>Comments / David's wording</label>
+        <textarea data-note="comment_${item.id}" placeholder="Add a note on this question..."></textarea>
+      </div>
+    `;
+    grid.appendChild(div);
+  });
+  bindNotes();
+  updateProgress();
+}
+
+function choose(id,opt,el){
+  localStorage.setItem("rit_decision_"+id,opt);
+  el.parentElement.querySelectorAll(".choice").forEach(x=>x.className="choice");
+  el.classList.add("active",clsFor(opt));
+  updateProgress();
+}
+
+function updateProgress(){
+  const count=questions.filter(q=>localStorage.getItem("rit_decision_"+q.id)).length;
+  document.getElementById("progressText").textContent=`${count} / ${questions.length} decisions recorded`;
+}
+
+function bindNotes(){
+  document.querySelectorAll("[data-note]").forEach(el=>{
+    const key="rit_note_"+el.dataset.note;
+    if(el.dataset.bound==="1") return;
+    el.value=localStorage.getItem(key)||"";
+    el.addEventListener("input",()=>localStorage.setItem(key,el.value));
+    el.dataset.bound="1";
+  });
+}
+
+let compact=false;
+function toggleMatrix(){
+  compact=!compact;
+  const keep=[0,1,2,4,5,6,7,12,13,14,15,17,18];
+  document.querySelectorAll("#matrixTable tbody tr").forEach((r,i)=>{
+    r.style.display=compact && !keep.includes(i) ? "none":"";
+  });
+}
+
+function toggleFocus(){
+  document.body.classList.toggle("focus");
+}
+
+function exportNotes(){
+  let out="REGULATORY INTERMEDIATION — MEETING RECORD\n\n";
+  out+="QUESTION DECISIONS\n";
+  questions.forEach((q,i)=>{
+    out+=`\n${i+1}. ${q.q}\nDecision: ${localStorage.getItem("rit_decision_"+q.id)||"[not recorded]"}\n`;
+    out+=`Comment: ${localStorage.getItem("rit_note_comment_"+q.id)||"[none]"}\n`;
+  });
+  out+="\n\nALL TAB NOTES\n";
+  document.querySelectorAll("[data-note]").forEach(el=>{
+    const label=el.dataset.note.replaceAll("_"," ");
+    out+=`\n${label.toUpperCase()}\n${localStorage.getItem("rit_note_"+el.dataset.note)||"[none]"}\n`;
+  });
+  const blob=new Blob([out],{type:"text/plain;charset=utf-8"});
+  const a=document.createElement("a");
+  a.href=URL.createObjectURL(blob);
+  a.download="regulatory-intermediation-meeting-record.txt";
+  a.click();
+  URL.revokeObjectURL(a.href);
+}
+
+renderQuestions();
+bindNotes();
+</script>
+</body>
+</html>

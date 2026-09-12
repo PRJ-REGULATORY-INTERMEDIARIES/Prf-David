@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "dataset-eurlex/production-v1.0/researcher-review-matrix-record",
+  "title": "dataset-eurlex researcher review matrix record",
+  "description": "Review bridge containing the Claude proposal, Luna review, canonical evidence, and blank researcher adjudication fields.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "case_id",
+    "relation_id",
+    "claude_proposal",
+    "luna_review",
+    "canonical_evidence",
+    "researcher_decision",
+    "researcher_final_R",
+    "researcher_final_I",
+    "researcher_final_T",
+    "researcher_final_relation_type",
+    "researcher_note"
+  ],
+  "properties": {
+    "case_id": {"type": "string", "minLength": 1},
+    "relation_id": {"type": "string", "minLength": 1},
+    "claude_proposal": {"$ref": "#/$defs/nullable_object"},
+    "luna_review": {"$ref": "#/$defs/nullable_object"},
+    "canonical_evidence": {"type": "array", "items": {"type": "string"}},
+    "researcher_decision": {
+      "type": ["string", "null"],
+      "enum": ["APPROVE", "CHANGE", "EXCLUDE", "UNRESOLVED", null]
+    },
+    "researcher_final_R": {"$ref": "#/$defs/actor_array"},
+    "researcher_final_I": {"$ref": "#/$defs/actor_array"},
+    "researcher_final_T": {"$ref": "#/$defs/actor_array"},
+    "researcher_final_relation_type": {
+      "type": ["string", "null"],
+      "enum": ["intermediated", "direct", "uncertain", "not_supported", null]
+    },
+    "researcher_note": {"type": "string"}
+  },
+  "$defs": {
+    "nullable_object": {"type": ["object", "null"]},
+    "actor": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["label", "role", "evidence_refs"],
+      "properties": {
+        "label": {"type": "string", "minLength": 1},
+        "role": {"type": "string", "minLength": 1},
+        "evidence_refs": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "actor_array": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/actor"}
+    }
+  }
+}

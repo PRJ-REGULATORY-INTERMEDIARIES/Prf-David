@@ -1,0 +1,28 @@
+source:
+  provider: EUR-Lex
+  celex: 32023R0956
+  title: >
+    Regulation (EU) 2023/956 of the European Parliament and of the Council
+    of 10 May 2023 establishing a carbon border adjustment mechanism
+  document_type: regulation
+  date: 2023-05-10
+  language: en
+  version: original legal act (CELEX 32023R0956), not a consolidated version
+  official_url: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32023R0956
+  accessed_at: 2026-09-07T19:20:09-03:00
+
+acquisition:
+  file: act_official.xhtml
+  format: official EUR-Lex XHTML/HTML
+  size_bytes: 499130
+  sha256: B61FD911875E5C9C7839EFDB3998A040CE75477C77E9259E0091BAB329F7DDDF
+
+selection:
+  purpose: three-case prospective production set
+  rationale: >
+    Selected under the pre-coding selection matrix for substantive green-transition
+    relevance, complementarity with the European Climate Law, institutional diversity,
+    official availability, and manageable complete reading. Selection did not use
+    prior empirical outputs, R-I-T results, intermediary knowledge, or keyword hits.
+  previous_empirical_results_used: false
+  selection_on_dependent_variable: false

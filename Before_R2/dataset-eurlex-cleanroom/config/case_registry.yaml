@@ -1,0 +1,53 @@
+# CASE REGISTRY — dataset-eurlex-cleanroom
+# Fixed, closed set of three cases for this clean-room rebuild.
+# Do not add, remove, or reorder cases without explicit researcher instruction.
+
+project: dataset-eurlex-cleanroom
+registry_version: "1.0"
+cases_are_fixed: true
+case_count: 3
+
+cases:
+  - case_id: case_01
+    celex: 32021R1119
+    short_name: european_climate_law
+    official_title: >-
+      Regulation (EU) 2021/1119 of the European Parliament and of the Council
+      of 30 June 2021 establishing the framework for achieving climate
+      neutrality and amending Regulations (EC) No 401/2009 and (EU) 2018/1999
+      ('European Climate Law')
+    oj_reference: "OJ L 243, 9.7.2021, p. 1"
+    language: EN
+
+  - case_id: case_02
+    celex: 32023R0956
+    short_name: cbam
+    official_title: >-
+      Regulation (EU) 2023/956 of the European Parliament and of the Council
+      of 10 May 2023 establishing a carbon border adjustment mechanism
+    oj_reference: "OJ L 130, 16.5.2023, p. 52"
+    language: EN
+
+  - case_id: case_03
+    celex: 32023R1115
+    short_name: eudr
+    official_title: >-
+      Regulation (EU) 2023/1115 of the European Parliament and of the Council
+      of 31 May 2023 on the making available on the Union market and the
+      export from the Union of certain commodities and products associated
+      with deforestation and forest degradation and repealing Regulation
+      (EU) No 995/2010
+    oj_reference: "OJ L 150, 9.6.2023, p. 206"
+    language: EN
+
+acquisition:
+  source_authority: "EUR-Lex / Publications Office of the European Union (CELLAR)"
+  method: content_negotiation
+  endpoint_pattern: "http://publications.europa.eu/resource/celex/{CELEX}"
+  request_headers:
+    Accept: application/xhtml+xml
+    Accept-Language: eng
+  note: >-
+    The endpoint 303-redirects to the CELLAR resource holding the official
+    Official Journal XHTML rendition (CONVEX-generated, ELI-structured).
+    The resolved CELLAR URL is recorded per case in source_manifest.yaml.

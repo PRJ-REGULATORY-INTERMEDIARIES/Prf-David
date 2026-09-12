@@ -1,0 +1,155 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "dataset-eurlex/coding-schema/1.0.0",
+  "title": "dataset-eurlex regulatory intermediation coding record",
+  "description": "Source-bounded schema for a candidate regulatory relationship. It does not encode an empirical case.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "candidate_id",
+    "source_location",
+    "article",
+    "paragraph",
+    "excerpt",
+    "is_regulatory_act",
+    "regulatory_act_type",
+    "actor",
+    "target",
+    "instrument",
+    "action",
+    "object",
+    "evidence",
+    "confidence",
+    "notes",
+    "candidate_status",
+    "rule_source",
+    "standard_setter",
+    "direct_regulator",
+    "oversight_authority",
+    "enforcement_authority",
+    "R",
+    "I",
+    "T",
+    "mediating_function",
+    "condition_A",
+    "condition_A_evidence",
+    "condition_B",
+    "condition_B_evidence",
+    "condition_C",
+    "condition_C_evidence",
+    "condition_D",
+    "condition_D_evidence",
+    "condition_E",
+    "condition_E_evidence",
+    "final_relational_result",
+    "primary_mechanism",
+    "secondary_mechanism",
+    "verbatim_evidence",
+    "observability_class",
+    "additional_context_required",
+    "uncertainty_note",
+    "strategies"
+  ],
+  "properties": {
+    "candidate_id": {"type": "string", "minLength": 1},
+    "source_location": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["celex", "article", "paragraph", "point", "recital", "subparagraph"],
+      "properties": {
+        "celex": {"type": ["string", "null"]},
+        "article": {"type": ["string", "null"]},
+        "paragraph": {"type": ["string", "null"]},
+        "point": {"type": ["string", "null"]},
+        "recital": {"type": ["string", "null"]},
+        "subparagraph": {"type": ["string", "null"]}
+      }
+    },
+    "article": {"type": ["string", "null"]},
+    "paragraph": {"type": ["string", "null"]},
+    "excerpt": {"type": "string"},
+    "is_regulatory_act": {"type": "boolean"},
+    "regulatory_act_type": {"type": ["string", "null"]},
+    "actor": {"$ref": "#/$defs/actor_list"},
+    "target": {"$ref": "#/$defs/actor_list"},
+    "instrument": {"type": "array", "items": {"type": "string"}},
+    "action": {"type": "array", "items": {"type": "string"}},
+    "object": {"type": "array", "items": {"type": "string"}},
+    "evidence": {"type": "array", "items": {"type": "string"}},
+    "confidence": {"$ref": "#/$defs/confidence"},
+    "notes": {"type": "array", "items": {"type": "string"}},
+    "candidate_status": {"$ref": "#/$defs/candidate_status"},
+    "rule_source": {"$ref": "#/$defs/actor_list"},
+    "standard_setter": {"$ref": "#/$defs/actor_list"},
+    "direct_regulator": {"$ref": "#/$defs/actor_list"},
+    "oversight_authority": {"$ref": "#/$defs/actor_list"},
+    "enforcement_authority": {"$ref": "#/$defs/actor_list"},
+    "R": {"$ref": "#/$defs/role_value"},
+    "I": {"$ref": "#/$defs/role_value"},
+    "T": {"$ref": "#/$defs/role_value"},
+    "mediating_function": {"type": "array", "items": {"type": "string"}},
+    "condition_A": {"$ref": "#/$defs/condition"},
+    "condition_A_evidence": {"type": "array", "items": {"type": "string"}},
+    "condition_B": {"$ref": "#/$defs/condition"},
+    "condition_B_evidence": {"type": "array", "items": {"type": "string"}},
+    "condition_C": {"$ref": "#/$defs/condition"},
+    "condition_C_evidence": {"type": "array", "items": {"type": "string"}},
+    "condition_D": {"$ref": "#/$defs/condition"},
+    "condition_D_evidence": {"type": "array", "items": {"type": "string"}},
+    "condition_E": {"$ref": "#/$defs/condition"},
+    "condition_E_evidence": {"type": "array", "items": {"type": "string"}},
+    "final_relational_result": {
+      "type": "string",
+      "enum": ["positive", "negative", "conditional", "insufficient_evidence"]
+    },
+    "primary_mechanism": {
+      "type": "string",
+      "enum": ["reporting", "certification", "ranking_rating", "auditing", "other_mechanism", "none_or_direct"]
+    },
+    "secondary_mechanism": {"type": "array", "items": {"type": "string"}},
+    "verbatim_evidence": {"type": "array", "items": {"$ref": "#/$defs/evidence_item"}},
+    "observability_class": {
+      "type": "string",
+      "enum": ["DIRECT", "INFERRED", "EXTERNAL", "NOT_OBSERVABLE"]
+    },
+    "additional_context_required": {"type": "array", "items": {"type": "string"}},
+    "uncertainty_note": {"type": "string"},
+    "strategies": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["responsibilization", "empowerment", "evidence"],
+      "properties": {
+        "responsibilization": {"type": "string", "enum": ["YES", "NO", "UNCLEAR", "NOT_OBSERVABLE"]},
+        "empowerment": {"type": "string", "enum": ["YES", "NO", "UNCLEAR", "NOT_OBSERVABLE"]},
+        "evidence": {"type": "array", "items": {"type": "string"}}
+      }
+    }
+  },
+  "$defs": {
+    "condition": {"type": "string", "enum": ["YES", "NO", "UNCLEAR"]},
+    "confidence": {"type": "string", "enum": ["high", "medium", "low", "not_assessed"]},
+    "candidate_status": {"type": "string", "enum": ["candidate", "direct_relationship", "not_candidate", "insufficient_evidence"]},
+    "role_value": {"type": ["string", "null"]},
+    "actor": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["label", "role", "evidence"],
+      "properties": {
+        "label": {"type": "string"},
+        "role": {"type": "string"},
+        "evidence": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "actor_list": {"type": "array", "items": {"$ref": "#/$defs/actor"}},
+    "evidence_item": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["location", "quote", "observability"],
+      "properties": {
+        "location": {"type": "string"},
+        "quote": {"type": "string"},
+        "observability": {"type": "string", "enum": ["DIRECT", "INFERRED", "EXTERNAL", "NOT_OBSERVABLE"]}
+      }
+    }
+  }
+}

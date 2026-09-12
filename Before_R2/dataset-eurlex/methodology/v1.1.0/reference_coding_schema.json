@@ -1,0 +1,210 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "dataset-eurlex/reference-coding-schema/1.1.0",
+  "title": "dataset-eurlex reference coding record",
+  "description": "Source-bounded schema for R1, R2, RA and the adjudicated benchmark.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "candidate_id",
+    "candidate_origin",
+    "source_location",
+    "screening_status",
+    "is_regulatory_act",
+    "regulatory_act_type",
+    "rule_source",
+    "standard_setter",
+    "direct_regulator",
+    "oversight_authority",
+    "enforcement_authority",
+    "R",
+    "I",
+    "T",
+    "action",
+    "object",
+    "mediating_function",
+    "instrument",
+    "procedure",
+    "relational_test",
+    "relational_result",
+    "primary_mechanism",
+    "secondary_mechanisms",
+    "evidence_items",
+    "confidence",
+    "interpretive_note",
+    "additional_context_required",
+    "notes"
+  ],
+  "properties": {
+    "candidate_id": {"type": "string", "minLength": 1},
+    "candidate_origin": {
+      "type": "string",
+      "enum": ["lexical", "structural", "both"]
+    },
+    "source_location": {"$ref": "#/$defs/source_location"},
+    "screening_status": {
+      "type": "string",
+      "enum": ["candidate", "direct_relationship", "not_candidate", "insufficient_evidence"]
+    },
+    "is_regulatory_act": {"type": "boolean"},
+    "regulatory_act_type": {"type": ["string", "null"]},
+    "rule_source": {"$ref": "#/$defs/actor_list"},
+    "standard_setter": {"$ref": "#/$defs/actor_list"},
+    "direct_regulator": {"$ref": "#/$defs/actor_list"},
+    "oversight_authority": {"$ref": "#/$defs/actor_list"},
+    "enforcement_authority": {"$ref": "#/$defs/actor_list"},
+    "R": {"$ref": "#/$defs/role_value"},
+    "I": {"$ref": "#/$defs/role_value"},
+    "T": {"$ref": "#/$defs/role_value"},
+    "action": {"type": "array", "items": {"type": "string"}},
+    "object": {"type": "array", "items": {"type": "string"}},
+    "mediating_function": {"type": "array", "items": {"type": "string"}},
+    "instrument": {"type": "array", "items": {"type": "string"}},
+    "procedure": {"type": "array", "items": {"type": "string"}},
+    "relational_test": {"$ref": "#/$defs/relational_test"},
+    "relational_result": {
+      "type": "string",
+      "enum": ["positive", "negative", "conditional", "insufficient_evidence"]
+    },
+    "primary_mechanism": {"$ref": "#/$defs/mechanism"},
+    "secondary_mechanisms": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/mechanism"}
+    },
+    "evidence_items": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/evidence_item"}
+    },
+    "secondary_dimensions": {"$ref": "#/$defs/secondary_dimensions"},
+    "confidence": {"$ref": "#/$defs/confidence"},
+    "interpretive_note": {"type": "string"},
+    "additional_context_required": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "notes": {"type": "array", "items": {"type": "string"}}
+  },
+  "$defs": {
+    "source_location": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["celex", "article", "paragraph", "point", "subparagraph", "recital"],
+      "properties": {
+        "celex": {"type": ["string", "null"]},
+        "article": {"type": ["string", "null"]},
+        "paragraph": {"type": ["string", "null"]},
+        "point": {"type": ["string", "null"]},
+        "subparagraph": {"type": ["string", "null"]},
+        "recital": {"type": ["string", "null"]}
+      }
+    },
+    "actor": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["label", "role", "evidence_refs"],
+      "properties": {
+        "label": {"type": "string", "minLength": 1},
+        "role": {"type": "string", "minLength": 1},
+        "evidence_refs": {
+          "type": "array",
+          "items": {"type": "string", "minLength": 1}
+        }
+      }
+    },
+    "actor_list": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/actor"}
+    },
+    "role_value": {
+      "type": ["array", "null"],
+      "items": {"$ref": "#/$defs/actor"}
+    },
+    "condition_result": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["result", "evidence_refs"],
+      "properties": {
+        "result": {"type": "string", "enum": ["YES", "NO", "UNCLEAR"]},
+        "evidence_refs": {
+          "type": "array",
+          "items": {"type": "string", "minLength": 1}
+        }
+      }
+    },
+    "relational_test": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["condition_A", "condition_B", "condition_C", "condition_D", "condition_E"],
+      "properties": {
+        "condition_A": {"$ref": "#/$defs/condition_result"},
+        "condition_B": {"$ref": "#/$defs/condition_result"},
+        "condition_C": {"$ref": "#/$defs/condition_result"},
+        "condition_D": {"$ref": "#/$defs/condition_result"},
+        "condition_E": {"$ref": "#/$defs/condition_result"}
+      }
+    },
+    "mechanism": {
+      "type": "string",
+      "enum": [
+        "reporting",
+        "verification",
+        "certification",
+        "auditing",
+        "monitoring_supervision",
+        "ranking_rating",
+        "standard_setting",
+        "enforcement_support",
+        "coordination",
+        "information_transmission",
+        "delegated_implementation",
+        "accreditation",
+        "other_mechanism",
+        "none_or_direct"
+      ]
+    },
+    "evidence_item": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["evidence_id", "location", "quote", "evidence_role", "observability", "supports"],
+      "properties": {
+        "evidence_id": {"type": "string", "minLength": 1},
+        "location": {"type": "string", "minLength": 1},
+        "quote": {"type": "string", "minLength": 1},
+        "evidence_role": {
+          "type": "string",
+          "enum": ["normative_text", "actor_identification", "relationship", "mechanism", "interpretation"]
+        },
+        "observability": {
+          "type": "string",
+          "enum": ["DIRECT", "INFERRED", "EXTERNAL", "NOT_OBSERVABLE"]
+        },
+        "supports": {
+          "type": "array",
+          "items": {"type": "string", "minLength": 1}
+        }
+      }
+    },
+    "secondary_dimensions": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "responsibilization": {
+          "type": "string",
+          "enum": ["YES", "NO", "UNCLEAR", "NOT_OBSERVABLE"]
+        },
+        "empowerment": {
+          "type": "string",
+          "enum": ["YES", "NO", "UNCLEAR", "NOT_OBSERVABLE"]
+        },
+        "evidence_refs": {
+          "type": "array",
+          "items": {"type": "string", "minLength": 1}
+        }
+      }
+    },
+    "confidence": {
+      "type": "string",
+      "enum": ["high", "medium", "low", "not_assessed"]
+    }
+  }
+}

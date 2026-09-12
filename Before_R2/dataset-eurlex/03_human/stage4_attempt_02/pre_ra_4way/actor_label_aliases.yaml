@@ -1,0 +1,38 @@
+version: 1
+scope: conservative_actor_identity_aliases_for_pre_ra_4way_comparison
+normalization_before_alias_lookup:
+  - Unicode NFKC
+  - casefold
+  - trim
+  - collapse whitespace
+  - normalize curly quotation marks and Unicode dash variants
+  - remove only trailing trivial punctuation
+aliases:
+  "European Commission": "Commission"
+  "European Environment Agency (EEA)": "EEA"
+  "European Scientific Advisory Board on Climate Change": "Advisory Board"
+  "Commission's Joint Research Centre (JRC)": "Commission's Joint Research Centre"
+  "Management Board (of the EEA)": "Management Board"
+  "Executive Director (of the EEA)": "Executive Director"
+  "Energy Union Committee (Article 44(1)(b))": "Energy Union Committee"
+  "Energy Union Committee (Article 44(1)(b) of Regulation (EU) 2018/1999)": "Energy Union Committee"
+  "Advisory Board (via its chairperson)": "Advisory Board via chairperson"
+  "Advisory Board (through its chairperson)": "Advisory Board via chairperson"
+  "members of the Advisory Board": "Advisory Board members"
+  "candidates for Advisory Board membership (senior scientific experts)": "candidates for Advisory Board membership"
+  "Member States (collectively)": "Member States"
+  "Member States (assessed under Articles 6-7)": "Member States"
+  "Member State concerned (recipient of a Article 7(2) recommendation)": "Member State concerned"
+  "all parts of society (social partners, academia, business, citizens, civil society)": "all parts of society"
+  "sectors of the economy (that choose to prepare voluntary roadmaps)": "sectors of the economy"
+  "Member States and the European Parliament, the Council and the Commission": "Member States, European Parliament, Council and Commission"
+  "Member States, the European Parliament, the Council and the Commission": "Member States, European Parliament, Council and Commission"
+audit_policy:
+  semantic_inference: forbidden
+  fuzzy_matching: forbidden
+  splitting_or_merging_compound_actor_labels: forbidden
+  unlisted_aliases: treated_as_distinct
+  note: >
+    Each entry maps an explicit abbreviation, full institutional name, transparent
+    parenthetical qualifier, or wording variant to a shared actor-identity label.
+    The source outputs remain unchanged.

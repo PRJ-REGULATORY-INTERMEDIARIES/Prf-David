@@ -1,0 +1,1106 @@
+Criar:
+
+```text
+Prf-David/dataset-eurlex-cleanroom/
+```
+
+e **não copiaria para ela nenhum CSV, output de LLM, adjudicação ou resultado empírico do projeto atual**. O projeto antigo vira arquivo metodológico. Essa separação já era um safeguard explícito da arquitetura anterior: materiais históricos podem informar teoria e método, mas não podem fornecer ground truth ou decisões empíricas. 
+
+## Arquitetura nova
+
+```text
+dataset-eurlex-cleanroom/
+│
+├── README.md
+├── AGENTS.md
+│
+├── config/
+│   ├── project.yaml
+│   └── cases.yaml
+│
+├── methodology/
+│   ├── METHODOLOGY_LOCK.md
+│   ├── CODEBOOK.md
+│   ├── coding_schema.json
+│   ├── actor_role_schema.json
+│   ├── mechanism_taxonomy.yaml
+│   └── CHANGELOG.md
+│
+├── prompts/
+│   ├── PRIMARY_INTERPRETIVE_READER.md
+│   ├── SECONDARY_CRITICAL_REVIEWER.md
+│   └── HUMAN_ADJUDICATION_GUIDE.md
+│
+├── cases/
+│   ├── case_01/
+│   │   ├── source/
+│   │   ├── corpus/
+│   │   ├── primary/
+│   │   ├── secondary/
+│   │   └── human/
+│   ├── case_02/
+│   └── case_03/
+│
+├── dataset/
+│   ├── relation_evidence.csv
+│   ├── actor_role_map.csv
+│   ├── intermediary_mechanisms.csv
+│   ├── act_regime_summary.csv
+│   ├── unresolved.csv
+│   └── provenance.csv
+│
+├── scripts/
+│   ├── acquire_eurlex.py
+│   ├── normalize_xhtml.py
+│   ├── split_corpus.py
+│   ├── validate_outputs.py
+│   └── build_dataset.py
+│
+├── tests/
+└── logs/
+```
+
+A diferença científica central será esta:
+
+$$
+\boxed{\text{ato = unidade documental}}
+$$
+
+$$
+\boxed{\text{relação/episódio = unidade de codificação e evidência}}
+$$
+
+$$
+\boxed{\text{ator-em-papel = unidade substantiva de mapeamento}}
+$$
+
+$$
+\boxed{\text{ato/regime = unidade comparativa}}
+$$
+
+Isso preserva o RIT relacional sem transformar o produto final numa coleção arbitrária de micro-relações. A memória metodológica anterior já estabelecia que papéis são relacionais e que a presença de strings ou atores não substitui reconstrução substantiva. 
+
+---
+
+# Workflow que eu congelaria antes de qualquer nova análise
+
+## Etapa 0 — Clean-room setup
+
+Criar a pasta nova.
+
+Registrar expressamente:
+
+> resultados empíricos anteriores são proibidos como input.
+
+Pode-se consultar apenas:
+
+* literatura;
+* proposta conceitual de David;
+* regras metodológicas generalizadas;
+* aprendizados abstratos do piloto.
+
+Não consultar:
+
+* relações anteriores;
+* classificações de EEA;
+* decisões sobre committees;
+* número de relações;
+* CSVs anteriores;
+* adjudicações humanas anteriores.
+
+---
+
+## Etapa 1 — Nova aquisição das fontes
+
+Baixar novamente, diretamente do EUR-Lex:
+
+| Caso        | CELEX        |
+| ----------- | ------------ |
+| Climate Law | `32021R1119` |
+| CBAM        | `32023R0956` |
+| EUDR        | `32023R1115` |
+
+Preservar:
+
+```text
+act_official.xhtml
+source_manifest.yaml
+```
+
+Registrar:
+
+* URL;
+* timestamp;
+* tamanho;
+* SHA-256;
+* idioma;
+* CELEX.
+
+Não reutilizar os XHTML antigos.
+
+---
+
+## Etapa 2 — Transformação determinística em Markdown
+
+Para cada ato produzir:
+
+```text
+act_full.md
+act_operative.md
+act_recitals.md
+corpus_manifest.yaml
+```
+
+`act_full.md`:
+texto integral.
+
+`act_operative.md`:
+enacting terms + anexos normativamente relevantes.
+
+`act_recitals.md`:
+recitals, apenas para contexto interpretativo.
+
+Nenhuma tradução, resumo ou análise.
+
+O processamento anterior mostrou que CBAM e EUDR podem ser convertidos de forma bastante compacta sem perder artigos ou anexos; o importante é repetir agora a transformação a partir da nova fonte e congelar novos hashes. 
+
+---
+
+# Etapa 3 — Congelamento metodológico
+
+**Esta etapa deve ocorrer antes de qualquer LLM abrir os atos.**
+
+Criar e hash-ear:
+
+```text
+METHODOLOGY_LOCK.md
+CODEBOOK.md
+coding_schema.json
+PRIMARY_INTERPRETIVE_READER.md
+SECONDARY_CRITICAL_REVIEWER.md
+```
+
+Depois:
+
+```text
+methodology_locked: true
+```
+
+E não mudar nada até terminar os três casos.
+
+Esse é provavelmente o maior ganho do reboot: **nenhuma calibração entre Case 01 e Case 02**.
+
+---
+
+# O núcleo conceitual que eu congelaria
+
+## 1. R-I-T é relacional
+
+Não existe:
+
+```text
+EEA = I
+Commission = R
+Member States = T
+```
+
+como propriedades permanentes.
+
+Existe:
+
+```text
+actor × regulatory context × role
+```
+
+---
+
+## 2. Reconstrução antes da classificação
+
+O leitor deve identificar:
+
+1. arquitetura do ato;
+2. atores;
+3. regulatory episodes;
+4. R e T;
+5. terceiros atores;
+6. função desses terceiros;
+7. I ou outro papel.
+
+---
+
+## 3. Intermediação pode ser target-facing ou regulator-facing
+
+### Target-facing
+
+```text
+R → I → T
+```
+
+Ex.:
+
+* auditing;
+* verification;
+* certification;
+* compliance support.
+
+### Regulator-facing
+
+```text
+I → R → T
+```
+
+ou outros fluxos dinâmicos.
+
+Ex.:
+
+* expertise;
+* assessment;
+* formal scientific advice;
+* reporting;
+* information filtering.
+
+O critério não é contato direto com T.
+
+É:
+
+> **distinct institutionally integrated regulatory function**
+
+---
+
+## 4. Influência externa não basta
+
+```text
+influence on R ≠ I
+```
+
+Opinião, lobby, pesquisa, parecer externo ou informação pública não constituem intermediação apenas porque influenciam R.
+
+---
+
+## 5. Reporting não equivale automaticamente a intermediary
+
+```text
+T → R
+```
+
+é reporting direto.
+
+Pode não haver I.
+
+---
+
+## 6. Ator não pode ser instrumento
+
+Excluir como I:
+
+* database;
+* report;
+* platform;
+* methodology;
+* information system;
+* certificate.
+
+Identificar o ator juridicamente relevante por trás deles, se houver.
+
+---
+
+## 7. Recitals
+
+Manter:
+
+> recital pode apoiar interpretação, mas não pode ser a única âncora de uma relação positiva.
+
+---
+
+## 8. Proposer ≠ regulator
+
+Não pressupor que a Comissão seja R porque apresentou a proposta legislativa.
+
+---
+
+# Etapa 4 — Rodada 1: codificação primária
+
+Eu faria **três execuções separadas e isoladas**, uma por caso.
+
+Cada agente recebe apenas:
+
+```text
+act_operative.md
+act_recitals.md
+CODEBOOK.md
+coding_schema.json
+PRIMARY_INTERPRETIVE_READER.md
+```
+
+Nada dos outros casos.
+
+Nada dos outputs antigos.
+
+Nada das decisões humanas anteriores.
+
+### Produto da rodada 1
+
+Por caso:
+
+```text
+PRIMARY_RELATIONS.json
+PRIMARY_RELATIONS.csv
+PRIMARY_ACTOR_MAP.csv
+PRIMARY_BOUNDARY_CASES.csv
+RUN_METADATA.yaml
+```
+
+O leitor produz duas camadas simultaneamente:
+
+### A. evidence layer
+
+Uma linha por regulatory episode.
+
+### B. actor-role layer
+
+Mapa preliminar de:
+
+```text
+actor
+role
+supporting_relation_ids
+```
+
+Não gerar ainda dataset final.
+
+---
+
+# Etapa 5 — Revisão cruzada por IA
+
+Aqui eu mudaria ligeiramente o desenho antigo.
+
+O Secondary Critical Reviewer deve primeiro fazer uma **blind reconstruction**.
+
+Ou seja:
+
+### Passo A
+
+Lê o corpus + metodologia sem ver o Primary.
+
+Produz:
+
+```text
+SECONDARY_BLIND_RELATIONS.csv
+SECONDARY_BLIND_ACTOR_MAP.csv
+```
+
+Congelar.
+
+### Passo B
+
+Só então recebe Primary + Secondary blind.
+
+Produz:
+
+```text
+CROSS_REVIEW.csv
+```
+
+Com:
+
+```text
+AGREE
+REVISE
+REJECT
+ADD_MISSING
+QUESTION
+```
+
+Isso reduz anchoring.
+
+---
+
+# Etapa 6 — Construção automática do dataset para revisão humana
+
+A IA **não adjudica o resultado final**.
+
+Ela apenas constrói a superfície de revisão.
+
+Eu manteria exatamente as quatro tabelas que amadurecemos:
+
+### 1. `relation_evidence.csv`
+
+Uma linha por episódio.
+
+### 2. `actor_role_map.csv`
+
+Uma linha por:
+
+```text
+case × normalized actor × role
+```
+
+### 3. `intermediary_mechanisms.csv`
+
+Uma linha por:
+
+```text
+I × mechanism × case
+```
+
+### 4. `act_regime_summary.csv`
+
+Uma linha por ato.
+
+Mais:
+
+```text
+unresolved.csv
+provenance.csv
+```
+
+---
+
+# Etapa 7 — Validação humana
+
+Eu simplificaria bastante.
+
+Você não precisa revisar centenas de células.
+
+Receberá três filas.
+
+### A. Divergências Primary × Secondary
+
+Obrigatórias.
+
+### B. Boundary cases / uncertain
+
+Obrigatórias.
+
+### C. Amostra de acordos
+
+Auditoria de qualidade.
+
+E depois uma revisão final do:
+
+```text
+actor_role_map
+```
+
+e:
+
+```text
+intermediary_mechanisms
+```
+
+A decisão final é sua.
+
+---
+
+# Etapa 8 — Freeze
+
+Após sua adjudicação:
+
+```text
+FINAL_relation_evidence.csv
+FINAL_actor_role_map.csv
+FINAL_intermediary_mechanisms.csv
+FINAL_act_regime_summary.csv
+FINAL_provenance.csv
+```
+
+Hashes.
+
+Metodologia.
+
+Prompts.
+
+Run metadata.
+
+Tudo congelado.
+
+Aí sim temos um dataset reproduzível.
+
+---
+
+# Eu faria uma separação adicional de mecanismo e função
+
+Esse aprendizado merece entrar desde o início.
+
+Não colocar tudo numa variável `mechanism`.
+
+Criar:
+
+```text
+intermediary_function
+```
+
+Ex.:
+
+* verification;
+* expertise;
+* assessment;
+* information transmission;
+* implementation support.
+
+E separadamente:
+
+```text
+project_mechanism_family
+```
+
+com as quatro famílias do desenho específico de David, quando aplicável:
+
+```text
+reporting
+certification
+ranking_rating
+auditing
+outside_four
+uncertain
+```
+
+Isso impede que `delegated implementation` e `reporting` apareçam como categorias equivalentes quando teoricamente pertencem a níveis diferentes.
+
+---
+
+# Prompt-mestre para o agente montar o novo projeto
+
+Eu daria este comando ao Codex/Claude:
+
+```text
+# DATASET-EURLEX CLEAN-ROOM REBUILD
+
+Create a completely new project directory:
+
+Prf-David/dataset-eurlex-cleanroom
+
+Do not modify, move, delete or overwrite the existing dataset-eurlex project.
+
+The existing project is now a methodological archive.
+
+==================================================
+1. SCIENTIFIC PURPOSE
+==================================================
+
+Rebuild from zero a three-case EU regulatory-intermediation dataset using the methodological lessons learned in the previous project, while preventing empirical contamination from previous outputs.
+
+The three fixed cases are:
+
+case_01
+CELEX 32021R1119
+Regulation (EU) 2021/1119 — European Climate Law
+
+case_02
+CELEX 32023R0956
+Regulation (EU) 2023/956 — Carbon Border Adjustment Mechanism
+
+case_03
+CELEX 32023R1115
+Regulation (EU) 2023/1115 — Deforestation-Free Products Regulation
+
+==================================================
+2. CLEAN-ROOM RULE
+==================================================
+
+Previous empirical results are forbidden inputs.
+
+Do not read or import:
+
+- previous relation datasets;
+- previous actor-role datasets;
+- previous LLM outputs;
+- previous researcher adjudications;
+- previous relation counts;
+- previous case-specific coding decisions;
+- previous benchmark files;
+- previous uncertainty decisions.
+
+You may use the previous project only to recover GENERAL methodological lessons, theoretical references and infrastructure patterns.
+
+Never use case-specific empirical knowledge from the previous project.
+
+==================================================
+3. BUILD THE DIRECTORY
+==================================================
+
+Create:
+
+README.md
+AGENTS.md
+
+config/
+methodology/
+prompts/
+cases/
+dataset/
+scripts/
+tests/
+logs/
+
+For each case create:
+
+source/
+corpus/
+primary/
+secondary/
+human/
+
+==================================================
+4. SOURCE ACQUISITION
+==================================================
+
+Download each legal act again from official EUR-Lex.
+
+Do not reuse previous XHTML files.
+
+For every act preserve:
+
+act_official.xhtml
+source_manifest.yaml
+
+Record:
+
+CELEX
+official URL
+language
+acquisition timestamp
+byte size
+SHA256
+
+Stop if acquisition is not from the official EUR-Lex source.
+
+==================================================
+5. CORPUS NORMALIZATION
+==================================================
+
+Create deterministic Markdown from each newly downloaded XHTML.
+
+Generate:
+
+act_full.md
+act_operative.md
+act_recitals.md
+corpus_manifest.yaml
+
+Rules:
+
+- no translation;
+- no summarization;
+- no paraphrasing;
+- no semantic labels;
+- preserve article/paragraph numbering;
+- preserve relevant annexes;
+- normalize whitespace only;
+- remove webpage/navigation artefacts;
+- retain exact traceability to source.
+
+act_operative.md is the primary coding corpus.
+
+act_recitals.md is contextual only.
+
+A recital alone cannot support a positive regulatory relationship.
+
+Hash every derived corpus.
+
+Validate that article and annex counts are internally consistent.
+
+==================================================
+6. METHODOLOGY MUST BE LOCKED BEFORE CODING
+==================================================
+
+Before any LLM coding run, create:
+
+methodology/METHODOLOGY_LOCK.md
+methodology/CODEBOOK.md
+methodology/coding_schema.json
+methodology/actor_role_schema.json
+methodology/mechanism_taxonomy.yaml
+
+prompts/PRIMARY_INTERPRETIVE_READER.md
+prompts/SECONDARY_CRITICAL_REVIEWER.md
+prompts/HUMAN_ADJUDICATION_GUIDE.md
+
+Then calculate hashes.
+
+After methodology lock:
+
+DO NOT CHANGE THE CODEBOOK OR PROMPTS UNTIL ALL THREE CASES COMPLETE PRIMARY AND SECONDARY CODING.
+
+No case-specific recalibration is allowed.
+
+==================================================
+7. ANALYTICAL ARCHITECTURE
+==================================================
+
+Use four analytical levels.
+
+LEVEL 1:
+ACT / REGULATORY REGIME
+
+LEVEL 2:
+ACTOR-IN-ROLE
+
+LEVEL 3:
+INTERMEDIARY FUNCTION / MECHANISM
+
+LEVEL 4:
+REGULATORY RELATION / EPISODE
+
+Regulatory relationships are the coding and evidentiary unit.
+
+Actor-in-role is the principal substantive unit for mapping intermediaries.
+
+Roles are relational.
+
+Never assign a permanent R/I/T identity to an organization.
+
+==================================================
+8. PRIMARY CONCEPTUAL RULE
+==================================================
+
+For each regulatory episode reconstruct:
+
+R
+T
+regulatory action
+regulated behavior/object
+third actors
+functions
+evidence
+
+Then determine whether a third actor is I.
+
+third actor ≠ automatically intermediary
+
+actor mention ≠ intermediary
+
+keyword hit ≠ relationship
+
+instrument ≠ actor
+
+influence on R ≠ automatically intermediation
+
+==================================================
+9. INTERMEDIATION ORIENTATION
+==================================================
+
+Recognize:
+
+target_facing
+regulator_facing
+bidirectional
+uncertain
+
+Target-facing intermediation may include:
+
+verification
+audit
+certification
+monitoring
+compliance support
+implementation support
+enforcement support
+
+Regulator-facing intermediation may include:
+
+expertise
+scientific advice
+assessment
+reporting
+formal feedback
+information filtering
+technical assistance
+
+A direct I→T connection is not required.
+
+However, influence alone is insufficient.
+
+The intermediary must perform a distinct institutionally integrated function within the regulatory process through which R seeks to affect T.
+
+==================================================
+10. THIRD-ACTOR TEST
+==================================================
+
+For every plausible third actor X evaluate:
+
+A. Is X distinct from R and T?
+
+B. Does operative legal text assign or recognize a function performed by X?
+
+C. Does the function materially contribute to the regulatory process involving R and T?
+
+D. Is the function institutionally integrated rather than merely external influence?
+
+E. What is the orientation?
+target_facing / regulator_facing / bidirectional / other
+
+F. If X's function were removed, would a distinct functional contribution to the mechanism be lost or materially altered?
+
+G. Is the claimed function supported by operative text?
+
+Do not mechanically infer I from these fields.
+
+Use substantive interpretation.
+
+==================================================
+11. ACTOR VERSUS INSTRUMENT
+==================================================
+
+Do not classify as actors:
+
+reports
+databases
+information systems
+platforms
+certificates
+methodologies
+schemes
+documents
+
+unless the actual legal actor behind the instrument is identified.
+
+==================================================
+12. PROPOSER VERSUS REGULATOR
+==================================================
+
+Do not infer that the institution proposing the EU legislation is automatically R in every relationship.
+
+Distinguish:
+
+legislative proposer
+formal adopter
+rule-maker
+regulator
+implementing regulator
+oversight authority
+intermediary
+target
+
+==================================================
+13. MECHANISM TAXONOMY
+==================================================
+
+Store separately:
+
+intermediary_function
+
+and:
+
+project_mechanism_family
+
+project_mechanism_family values:
+
+reporting
+certification
+ranking_rating
+auditing
+outside_four
+uncertain
+
+Do not force every intermediary function into one of the four project families.
+
+==================================================
+14. PRIMARY CODING
+==================================================
+
+Run one context-isolated primary reader per case.
+
+Each reader may access only:
+
+its own case corpus
+locked methodology
+locked primary prompt
+locked schemas
+
+It may not access:
+
+other case outputs
+previous project
+secondary outputs
+human decisions
+
+Require complete operative-corpus reading.
+
+Outputs per case:
+
+PRIMARY_RELATIONS.csv
+PRIMARY_RELATIONS.json
+PRIMARY_ACTOR_MAP.csv
+PRIMARY_BOUNDARY_CASES.csv
+RUN_METADATA.yaml
+
+==================================================
+15. SECONDARY REVIEW — BLIND FIRST
+==================================================
+
+For each case run an independent secondary reader.
+
+PASS 1:
+
+The secondary reader receives:
+
+case corpus
+locked methodology
+locked secondary prompt
+
+It does NOT receive primary coding.
+
+It creates:
+
+SECONDARY_BLIND_RELATIONS.csv
+SECONDARY_BLIND_ACTOR_MAP.csv
+SECONDARY_BOUNDARY_CASES.csv
+
+Freeze these files.
+
+PASS 2:
+
+Only after PASS 1 is frozen, compare Primary and Secondary.
+
+Create:
+
+CROSS_REVIEW.csv
+
+with statuses:
+
+AGREE
+REVISE
+REJECT
+ADD_MISSING
+QUESTION
+
+Do not silently adjudicate disagreements.
+
+==================================================
+16. DATASET CONSTRUCTION
+==================================================
+
+Build:
+
+dataset/01_RELATION_EVIDENCE.csv
+dataset/02_ACTOR_ROLE_MAP.csv
+dataset/03_INTERMEDIARY_MECHANISMS.csv
+dataset/04_ACT_REGIME_SUMMARY.csv
+dataset/05_UNRESOLVED.csv
+dataset/06_PROVENANCE.csv
+
+Relationship evidence supports actor-in-role classification.
+
+Every I actor-role must link to at least one supporting relation.
+
+Normalize actor names conservatively.
+
+Preserve verbatim actor names.
+
+==================================================
+17. HUMAN VALIDATION
+==================================================
+
+Create a human review workbook.
+
+Priority order:
+
+1. Primary × Secondary disagreements
+2. uncertain/boundary cases
+3. intermediary role map
+4. intermediary mechanisms
+5. small random sample of agreements
+
+The researcher is the sole final adjudicator.
+
+Provide blank fields:
+
+final_human_decision
+final_human_role
+final_human_mechanism
+final_human_notes
+
+Do not fill them.
+
+==================================================
+18. HUMAN DECISION VALUES
+==================================================
+
+Use:
+
+ACCEPT
+REVISE
+REJECT
+UNCERTAIN
+
+After human review rebuild the final datasets from researcher decisions only.
+
+==================================================
+19. FINAL FREEZE
+==================================================
+
+After explicit researcher instruction only:
+
+create final/
+
+FINAL_RELATION_EVIDENCE.csv
+FINAL_ACTOR_ROLE_MAP.csv
+FINAL_INTERMEDIARY_MECHANISMS.csv
+FINAL_ACT_REGIME_SUMMARY.csv
+FINAL_PROVENANCE.csv
+
+Generate SHA256 hashes.
+
+Create:
+
+FINAL_DATASET_MANIFEST.yaml
+FINAL_METHODOLOGY_NOTE.md
+
+==================================================
+20. MACHINE OF STATES
+==================================================
+
+Use:
+
+setup
+source_acquired
+corpus_locked
+methodology_locked
+primary_complete
+secondary_blind_complete
+cross_review_complete
+awaiting_human_validation
+human_validated
+final_dataset_locked
+
+Never advance past a human gate without explicit researcher instruction.
+
+==================================================
+21. EXECUTION NOW
+==================================================
+
+For this first command perform ONLY:
+
+- create the new project;
+- create folder structure;
+- create README and AGENTS;
+- create case registry;
+- prepare acquisition/normalization scripts;
+- download the three official EUR-Lex acts;
+- create and validate the clean Markdown corpora;
+- report hashes and validation.
+
+Do NOT create the coding prompts yet.
+Do NOT code any case yet.
+Do NOT inspect any previous empirical outputs.
+
+Stop at:
+
+CORPUS_LOCKED
+AWAITING_METHODOLOGY_LOCK
+```
+
+### Eu começaria exatamente assim
+
+Não pediria ao agente para fazer tudo de uma vez.
+
+Primeiro comando:
+
+> **Execute o prompt-mestre somente até `CORPUS_LOCKED`.**
+
+Depois nós revisamos os três novos Markdown.
+
+Só então construímos **juntos** o `METHODOLOGY_LOCK.md`, o `CODEBOOK.md` e o prompt definitivo do leitor.
+
+Essa pausa é importante: agora que sabemos onde os vieses entram, não vale correr. O antigo projeto foi o laboratório; este deve ser o experimento limpo.

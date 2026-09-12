@@ -1,0 +1,52 @@
+methodology:
+  version: 1.0.0
+  status: locked
+  methodology_locked: true
+  locked_at: 2026-09-07
+  scope: single_case_regulatory_intermediation_pilot
+
+corpus_dependency:
+  canonical_file: ../02_corpus/act.md
+  celex: 32021R1119
+  corpus_sha256: B24A02EA241CA631B606660BB48BB5A2222B29F849C4E4552FB99F871B2E8FD4
+  corpus_lock_verified: true
+
+products:
+  - path: codebook.md
+    sha256: 5527F9ECC7575A831F3D90CA14CAA8DFE4DFC1A65641C1B9C1236338625E2B1C
+    role: operational R-I-T codebook
+  - path: strings.yaml
+    sha256: 4130425FCFA06E6F9705B76EC477EA1B9EEA29BBD21647981C689D4E09ACD318
+    role: lexical salience screening only
+  - path: coding_schema.json
+    sha256: C35EA63563239DDB0EE11331D4C84E3BA49BD21B753F8AEBB62526A61949A326
+    role: structured coding schema
+
+methodological_sources:
+  - path: ../../Arquitetura de trabalho/Prompts/G1
+    sha256: 6B3472ACDB5F5710C8DA6A6347A09912E3AF38A41EE1AC9809EFD312A5863ECE
+    role: relational R-I-T logic, five-condition test, evidence and observability
+    empirical_results_used: false
+  - path: ../../Arquitetura de trabalho/Prompts/G2
+    sha256: 88E4257B38EDBC1D2DDB846F1DA43A4F392BCC695EC772A8BB56BB2DE7CE1CE0
+    role: source-bounded domain-context boundaries and mechanism distinctions
+    empirical_results_used: false
+  - path: ../../Arquitetura de trabalho/Prompts/Geral
+    sha256: 04368998B774CDE04386003A1D4542EE0C7F2718869709BCC6F1E174BB8385D4
+    role: generic strings, output fields, evidence rules and reproducibility principles
+    empirical_results_used: false
+
+controls:
+  case_specific_tuning: false
+  prior_codings_imported: false
+  prior_llm_results_imported: false
+  benchmark_accessed: false
+  abstract_examples_only: true
+  external_legal_sources_used: false
+
+validation:
+  coding_schema_json_valid: true
+  required_fields_present: true
+  strings_metadata_complete: true
+  abstract_decision_tests_passed: true
+  corpus_hash_unchanged: true

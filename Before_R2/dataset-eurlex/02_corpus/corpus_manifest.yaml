@@ -1,0 +1,39 @@
+corpus:
+  celex: 32021R1119
+  source: EUR-Lex
+  source_file: ../01_source/act_official.xhtml
+  generated_files:
+    - act.md
+    - act_numbered.md
+  size_bytes: 64928
+  words_approx: 9803
+  articles: 14
+  article_identifiers:
+    - Article 1
+    - Article 2
+    - Article 3
+    - Article 4
+    - Article 5
+    - Article 6
+    - Article 7
+    - Article 8
+    - Article 9
+    - Article 10
+    - Article 11
+    - Article 12
+    - Article 13
+    - Article 14
+  recitals: 40
+  annexes: none_in_selected_act
+  source_sha256: 8BBE15AF032AF1A3950CF1E42BEAD62E0C816AFBF56DCED883ECECB604DA6075
+  normalized_corpus_sha256: B24A02EA241CA631B606660BB48BB5A2222B29F849C4E4552FB99F871B2E8FD4
+  numbered_corpus_sha256: 0EB336AEA6C8FF19AF3B6536F3E9029A2E9AF68CA763E962429A8A3DACBB49ED
+  normalized_at: 2026-09-07
+  locked: true
+
+transformations:
+  - removed navigation and presentation artefacts from the official XHTML
+  - normalized whitespace without translating, summarizing or paraphrasing
+  - represented source hierarchy with Markdown headings and list indentation
+  - preserved title, preamble, recitals, operative provisions, source order and structural identifiers
+  - added no analytical labels, codebook categories, strings or relevance selections

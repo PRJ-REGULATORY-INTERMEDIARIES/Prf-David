@@ -1,0 +1,361 @@
+---
+title: "Codificação de Intermediários Regulatórios na Legislação da UE sobre Transição Verde"
+subtitle: "Uma arquitetura relacional de três estágios — artigo para validação metodológica"
+author: "Igor Caires Machado — Postdoctoral Researcher, ENAP · ORCID 0009-0008-9547-5223"
+date: "6 de setembro de 2026"
+lang: pt-BR
+format:
+  docx:
+    number-sections: true
+    fig-width: 6.5
+    fig-dpi: 200
+execute:
+  echo: false
+  warning: false
+---
+
+## Resumo
+
+Este artigo documenta, em formato acadêmico, um exercício de codificação de
+intermediários regulatórios na legislação da União Europeia sobre transição
+verde, desenvolvido em resposta à chamada do Prof. David Levi-Faur por um
+Research Assistant/Partner no projeto "Governance by and of Intermediaries".
+Propomos e testamos uma arquitetura de três estágios — triagem lexical,
+adjudicação relacional e codificação institucional — que trata a
+intermediação regulatória como um construto relacional (regulador,
+intermediário, alvo), não como uma categoria lexical. Aplicada a quatro
+atos legislativos (1.079 sinais de triagem), a arquitetura produziu 10
+candidatos adjudicados (7 positivos, 2 negativos, 1 condicional) e 7
+relações R-I-T plenamente codificadas, organizadas em três cadeias que
+evidenciam meta-regulação e multiplicidade de papel. A validação da
+triagem lexical, contra uma amostra de referência lida manualmente,
+produziu precisão de 100% e recall de 94,3% (F1 = 97,1%). Discutimos um
+caso de validade de construto condicional (referenciais climáticos), um
+erro de leitura relacional encontrado e corrigido no próprio processo, e as
+fronteiras explícitas do que esta camada de codificação pode e não pode
+medir. O artigo é submetido para validação metodológica antes de qualquer
+aplicação em escala.
+
+**Palavras-chave:** intermediários regulatórios; regulatory intermediation;
+codificação de texto legal; metodologia relacional; legislação da UE;
+transição verde.
+
+## Introdução
+
+A regulação é tradicionalmente teorizada como uma relação bipartite entre
+quem regula e quem é regulado. Levi-Faur (2026) argumenta que essa
+simplificação obscurece um terceiro elemento estrutural da governança
+regulatória contemporânea: os **intermediários regulatórios** — atores que
+certificam, auditam, classificam ou reportam em nome de, ou em relação a,
+um regulador e um regulado. A proposta de pesquisa "Can Intermediaries Save
+Liberal Governance? Toward Effective and Legitimate Regulatory
+Intermediation" organiza a intermediação como uma arquitetura de **atores +
+mecanismos + estratégias**, com quatro mecanismos primários — *reporting*
+(liderado pelo Estado), *certification* (liderado por ONGs), *ranking/
+rating* (liderado por empresas) e *auditing* (liderado pela profissão) — e
+um conjunto de atributos institucionais dos intermediários.
+
+Este artigo relata um exercício empírico de operacionalização desse
+construto sobre legislação real da União Europeia relacionada à transição
+verde. O problema metodológico central, identificado e corrigido ao longo
+de sucessivas rodadas deste exercício, é que **triagem lexical de
+mecanismos não é o mesmo que codificação de intermediários**: a presença
+da palavra "auditor" num dispositivo legal não implica, por si só, a
+existência de uma relação regulatória identificável entre um regulador, um
+intermediário e um alvo. O artigo documenta como essa distinção foi
+formalizada numa arquitetura de três estágios, aplicada a um corpus
+piloto, e valida os resultados obtidos.
+
+## Referencial teórico
+
+Adotamos o modelo relacional **R-I-T** (Regulator–Intermediary–Target)
+como unidade analítica central, no qual:
+
+- **R** — o regulador/criador de regras (*rule-maker*);
+- **I** — o intermediário, um ator analiticamente distinto que medeia a
+  relação entre R e T;
+- **T** — o alvo/regulado (*rule-taker*).
+
+Um princípio teórico central, testado empiricamente neste artigo, é que
+**os papéis são relacionais, não intrínsecos**: um mesmo ator pode ocupar a
+posição de intermediário numa relação e de alvo em outra — por exemplo, um
+verificador credenciado pode mediar a relação entre uma autoridade
+competente e um operador regulado, e simultaneamente ser o alvo da sua
+própria relação de acreditação com um organismo credenciador.
+
+```{r fig1, fig.cap="Quadro conceitual: do contexto regulatório à análise futura. As camadas em azul-escuro são efetivamente codificadas neste exercício; as tracejadas, abaixo da linha de fronteira, são explicitamente fora de escopo para esta camada de codificação."}
+knitr::include_graphics("figures/fig1_conceptual_framework.png")
+```
+
+A Figura 1 situa o escopo deste artigo dentro de uma cadeia conceitual mais
+ampla: da arquitetura regulatória até a análise futura de efetividade,
+legitimidade e governança policêntrica — camadas explicitamente **não**
+medidas por esta codificação de texto legal, por decisão de desenho, não
+por omissão.
+
+## Método
+
+### Corpus e coleta
+
+Quatro atos legislativos da União Europeia foram selecionados como
+âncoras de conveniência, um por mecanismo primário, escolhidos por já
+serem casos conhecidos de cada mecanismo (Tabela 1). O texto integral foi
+coletado da EUR-Lex por número CELEX e processado computacionalmente
+parágrafo a parágrafo.
+
+```{r tab1}
+tab1 <- data.frame(
+  Ato = c("Corporate Sustainability Reporting Directive (CSRD)",
+          "Regulamento do Rótulo Ecológico da UE (Ecolabel)",
+          "Regulamento de Referenciais Climáticos",
+          "Verificação e Acreditação no EU ETS"),
+  CELEX = c("32022L2464", "32010R0066", "32019R2089", "32018R2067"),
+  `Mecanismo-âncora` = c("reporting + auditing", "certification",
+                          "ranking/rating (condicional)", "auditing (+ certification)"),
+  check.names = FALSE
+)
+knitr::kable(tab1, caption = "Tabela 1 — Atos legislativos analisados")
+```
+
+### Estágio A — Triagem lexical (detecção de candidatos)
+
+Cada parágrafo foi avaliado por um conjunto de regras lexicais em três
+camadas por mecanismo: **âncora** (confirma o mecanismo sozinha,
+`screening_confidence = high`), **fraca** (sinal genérico, exige revisão,
+`screening_confidence = low`) e **exclusão** (descarta falsos positivos
+conhecidos). Cada padrão carrega uma etiqueta de papel semântico — **ator**,
+**mecanismo** ou **instrumento** — de modo que apenas padrões do tipo ator
+apontam diretamente para um candidato do estágio seguinte. Este estágio
+**não determina** se existe um intermediário; apenas localiza onde vale a
+pena olhar com atenção.
+
+### Estágio B — Adjudicação relacional
+
+Para cada candidato, aplicamos um teste relacional formal de cinco
+condições, todas exigidas simultaneamente para um veredito positivo:
+
+a. existe um regulador identificável;
+b. existe um alvo identificável;
+c. existe um terceiro ator, distinto de R e T;
+d. esse terceiro ator medeia a relação R–T (não apenas assessora o
+   regulador, nem apenas recebe a mesma obrigação que o alvo);
+e. a relação é sustentada por texto legal explícito ou por reconstrução
+   institucional documentada.
+
+O veredito é `positive`, `negative`, `conditional` ou
+`insufficient_evidence` — nunca uma resposta binária simples.
+
+### Estágio C — Codificação institucional
+
+Candidatos positivos foram codificados nos atributos institucionais que o
+texto efetivamente sustenta (papel formal, voluntarismo, nível, esfera,
+modo de operação, separação organizacional, exigência de independência,
+supervisão), com a regra de normalização de que **uma linha representa uma
+relação** — nunca uma célula com múltiplos atores simultâneos.
+
+```{r fig2, fig.cap="Pipeline de três estágios: a triagem não substitui a codificação substantiva."}
+knitr::include_graphics("figures/fig2_three_stage_pipeline.png")
+```
+
+## Resultados
+
+### Triagem (Estágio A)
+
+A triagem produziu 1.079 sinais textuais sobre os quatro atos, 71% em alta
+confiança e 29% em baixa confiança.
+
+```{r fig4, fig.cap="Resultados do pipeline: hits de triagem por ato e confiança, distribuição de papel semântico, mecanismo × papel semântico, e desfechos da adjudicação (Estágio B)."}
+knitr::include_graphics("figures/fig4_data_summary.png")
+```
+
+### Adjudicação relacional (Estágio B)
+
+Dos 1.079 sinais, 10 candidatos foram adjudicados pelo teste relacional
+completo (Tabela 2): 7 positivos, 2 negativos e 1 condicional.
+
+```{r tab2}
+tab2 <- data.frame(
+  Candidato = c("CAND-01","CAND-02","CAND-03","CAND-04","CAND-05a",
+                "CAND-05b","CAND-06","CAND-07","CAND-08","CAND-09"),
+  Ator_candidato = c("group auditor",
+                      "subsidiary-level assurance provider",
+                      "nenhum (dever direto de reportar)",
+                      "competent body",
+                      "ISO 17025 testing body",
+                      "EN 45011 verification body",
+                      "European Union Ecolabelling Board",
+                      "benchmark administrator",
+                      "verifier",
+                      "national accreditation body"),
+  Veredito = c("positive","positive","negative","positive","positive",
+               "positive","negative","conditional","positive","positive"),
+  `Relação resultante` = c("RIT-001","RIT-002","—","RIT-003","RIT-004",
+                            "RIT-005","—","quarentena","RIT-006","RIT-007"),
+  check.names = FALSE
+)
+knitr::kable(tab2, caption = "Tabela 2 — Os 10 candidatos adjudicados no Estágio B")
+```
+
+Os dois casos negativos (CAND-03, CAND-06) foram mantidos deliberadamente:
+demonstram que o teste relacional discrimina, não apenas confirma. O caso
+condicional (CAND-07) foi mantido em quarentena analítica, não promovido a
+relação codificada — ver discussão.
+
+### Codificação institucional (Estágio C)
+
+Os 7 candidatos positivos tornaram-se 7 relações R-I-T plenamente
+codificadas (Tabela 3), organizadas em três cadeias que evidenciam
+meta-regulação (um intermediário governado por outro) e um caso de
+multiplicidade de papel.
+
+```{r tab3}
+tab3 <- data.frame(
+  Relação = c("RIT-001","RIT-002","RIT-003","RIT-004","RIT-005","RIT-006","RIT-007"),
+  Cadeia = c("CHAIN-CSRD-1 (L1)","CHAIN-CSRD-1 (L2)","CHAIN-ECO-1 (L1)",
+             "CHAIN-ECO-1 (L2)","CHAIN-ECO-1 (L2)","CHAIN-ETS-1 (L1)","CHAIN-ETS-1 (L2)"),
+  R = c("Autoridade competente (Estado-Membro)","group auditor","Comissão Europeia",
+        "competent body","competent body","Autoridade competente (ETS)",
+        "Órgão do Art. 14, Reg. 765/2008"),
+  I = c("group auditor","subsidiary-level assurance provider","competent body",
+        "ISO 17025 testing body","EN 45011 verification body","verifier",
+        "national accreditation body"),
+  T = c("undertaking/group","subsidiary undertaking","operador/aplicante",
+        "operador/aplicante","operador/aplicante","operador/aircraft operator",
+        "verifier (multiplicidade de papel)"),
+  Mecanismo = c("auditing","auditing","certification","auditing","auditing",
+                "auditing","certification"),
+  check.names = FALSE
+)
+knitr::kable(tab3, caption = "Tabela 3 — As 7 relações R-I-T codificadas")
+```
+
+```{r fig3, fig.cap="Mapa das relações R-I-T: 7 relações positivas em 3 cadeias, 2 controles negativos, 1 caso condicional."}
+knitr::include_graphics("figures/fig3_rit_relationship_map.png")
+```
+
+O caso mais rico da amostra é a cadeia do EU ETS (RIT-006/RIT-007): o
+verificador é o intermediário na relação entre a autoridade competente e o
+operador, e é simultaneamente o **alvo** da sua própria relação de
+acreditação com o organismo nacional de acreditação — evidência direta do
+princípio de que papéis são relacionais, não intrínsecos ao ator.
+
+## Validação
+
+### Estágio A — amostra de referência
+
+Para um artigo por ato, todo o texto foi lido manualmente, sem uso de
+regras lexicais, e comparado ao que a triagem automática encontrou nos
+mesmos parágrafos.
+
+```{r tab4}
+tab4 <- data.frame(
+  Métrica = c("Verdadeiros positivos", "Falsos negativos", "Falsos positivos",
+              "Precisão", "Recall", "F1"),
+  Valor = c("33", "2", "0", "100%", "94,3%", "97,1%")
+)
+knitr::kable(tab4, caption = "Tabela 4 — Validação do Estágio A (35 unidades julgadas)")
+```
+
+Os dois erros de recall compartilham uma causa: o parágrafo descreve a
+relação pelo lado do regulador ou do alvo, sem repetir o nome do
+intermediário — limite conhecido de uma triagem ancorada em substantivo,
+não um problema de amostra.
+
+### Estágios B e C — protocolo escrito, não executado
+
+A validação de confiabilidade entre codificadores (segundo codificador,
+mesmos critérios, às cegas) está protocolada, mas **não foi executada** —
+não há, ainda, um segundo codificador disponível. Isso é registrado como
+pendência explícita: sete relações codificadas por uma única pessoa
+demonstram que a arquitetura é executável, não que é confiável entre
+codificadores independentes.
+
+## Discussão
+
+### Um erro encontrado e corrigido durante o próprio processo
+
+A primeira leitura da cadeia de acreditação do EU ETS (RIT-007) atribuiu o
+organismo nacional de acreditação como regulador, sem identificar um
+intermediário distinto — uma leitura diádica que, mantida, teria
+comprometido a própria alegação de multiplicidade de papel. Reler a
+evidência já disponível (a avaliação por pares do organismo do Artigo 14
+do Regulamento (CE) n.º 765/2008) corrigiu a atribuição: o organismo
+nacional de acreditação ocupa a posição de intermediário, não de
+regulador. A correção está documentada, não escondida — o processo de
+encontrar e corrigir esse erro é, em si, evidência de que o teste
+relacional está fazendo trabalho analítico real.
+
+### Validade de construto condicional: referenciais climáticos
+
+O administrador do referencial climático seleciona e pondera ativos
+segundo um padrão pré-definido — uma ação que lembra "rating" no sentido
+da teoria. Mas o regulador não é nomeado no dispositivo lido, e o alvo é
+duplo e indireto (empresas pontuadas; gestores de ativos que usam o selo).
+Em vez de forçar o enquadramento, o caso foi mantido em quarentena
+analítica, com a pergunta registrada para discussão direta com o Prof.
+Levi-Faur.
+
+### O que esta camada de codificação mede — e o que não mede
+
+Mede, com responsabilidade: identidade dos atores e papéis R-I-T,
+mecanismo primário e secundário, um subconjunto de atributos
+institucionais e dois indicadores de governança, cada um com evidência
+textual verbatim. Não mede, e não finge medir: motivação do intermediário,
+centralidade institucional, as baterias completas de autonomia e
+accountability, as estratégias de responsibilization/empowerment, e,
+sobretudo, efetividade, legitimidade, confiança e o posicionamento
+monocêntrico/policêntrico do regime — reservados para análise empírica e
+agregada futura (Figura 1).
+
+## Limitações
+
+- A amostra (10 candidatos, 7 relações) vem de um artigo por ato, não de
+  leitura exaustiva dos quatro atos inteiros.
+- A validação do Estágio A usa amostra pequena e não aleatória — um teto
+  otimista, não uma estimativa para o corpus inteiro.
+- Os Estágios B e C carecem de validação por segundo codificador.
+- A população de "legislação da UE sobre transição verde" ainda não foi
+  definida por escrito — passo que precede qualquer expansão em escala.
+
+## Conclusão
+
+Este artigo demonstra que a intermediação regulatória pode ser
+operacionalizada como um construto relacional, não uma categoria lexical,
+mantendo rastreabilidade completa entre cada código e o texto legal que o
+sustenta. A separação física entre triagem, adjudicação e codificação
+institucional — e a preservação deliberada de casos negativos e
+condicionais como evidência de validade discriminante — são, em conjunto,
+a contribuição metodológica central deste exercício, submetida aqui para
+validação antes de qualquer aplicação em escala.
+
+## Referências
+
+Levi-Faur, D. (2026). *Can Intermediaries Save Liberal Governance? Toward
+Effective and Legitimate Regulatory Intermediation*. Documento de proposta
+de pesquisa não publicado.
+
+Diretiva (UE) 2022/2464 (Corporate Sustainability Reporting Directive),
+CELEX 32022L2464.
+
+Regulamento (UE) n.º 66/2010 (Rótulo Ecológico da UE), CELEX 32010R0066.
+
+Regulamento (UE) 2019/2089 (Referenciais Climáticos), CELEX 32019R2089.
+
+Regulamento de Execução (UE) 2018/2067 (Verificação e Acreditação, EU ETS),
+CELEX 32018R2067.
+
+## Apêndice — manifesto de arquivos
+
+| Arquivo | Conteúdo |
+|---|---|
+| `RIT_CODEBOOK_v3.md` | Manual de codificação dos Estágios B e C |
+| `SCREENING_CODEBOOK_v3.md` / `CODEBOOK.md` | Regras de triagem do Estágio A |
+| `DATA_DICTIONARY_v3.md` | Dicionário de variáveis |
+| `VARIABLE_MAP_v3.md` | Construto → dimensão → indicador → variável → evidência |
+| `METHODOLOGY_v3.md` | Justificativa metodológica |
+| `SCREENING_VALIDATION_v3.md` / `GOLD_STANDARD_VALIDATION.md` | Validação do Estágio A |
+| `RELATIONSHIP_VALIDATION_PROTOCOL_v3.md` | Protocolo de validação B/C (não executado) |
+| `data/screening_hits_v3.csv` | 1.079 linhas — saída do Estágio A |
+| `data/candidate_adjudications_v3.csv` | 10 linhas — saída do Estágio B |
+| `data/rit_relationships_v3.csv` | 7 linhas — saída do Estágio C |
+| `data/actors_v3.csv` | 19 identidades de atores |

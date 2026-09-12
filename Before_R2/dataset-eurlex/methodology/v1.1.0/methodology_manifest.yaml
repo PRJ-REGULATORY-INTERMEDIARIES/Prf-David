@@ -1,0 +1,112 @@
+methodology:
+  name: dataset-eurlex
+  version: 1.1.0
+  status: locked
+  methodology_locked: true
+  current_for_stage_4: true
+  supersedes: 1.0.0
+  prior_version: 1.0.0
+  supersession_reason: external_methodological_review
+  review_status: external_methodological_review_completed
+  versioned_revision: true
+  prior_version_artifacts_preserved: true
+  act_content_used_for_tuning: false
+  empirical_results_used: false
+  benchmark_accessed: false
+  abstract_examples_only: true
+
+project_state:
+  project_status: methodology_locked
+  experiment_status: not_started
+  stage_4_executed: false
+  reference_lock_completed: false
+
+corpus:
+  canonical_analysis_path: 02_corpus/act.md
+  canonical_analysis_sha256: B24A02EA241CA631B606660BB48BB5A2222B29F849C4E4552FB99F871B2E8FD4
+  numbered_representation_path: 02_corpus/act_numbered.md
+  numbered_representation_sha256: 0EB336AEA6C8FF19AF3B6536F3E9029A2E9AF68CA763E962429A8A3DACBB49ED
+  use_for_methodology_tuning: false
+
+interfaces:
+  reference_schema:
+    path: methodology/v1.1.0/reference_coding_schema.json
+    users:
+      - R1
+      - R2
+      - RA
+      - benchmark
+  experimental_schema:
+    path: methodology/v1.1.0/experimental_output_schema.json
+    users:
+      - G0
+      - G1
+      - G2
+    common_across_conditions: true
+
+candidate_universe:
+  channels:
+    - lexical_screening
+    - structural_reading
+  channels_independent: true
+  channels_complementary: true
+  structural_candidate_requires_lexical_hit: false
+  origin_values:
+    - lexical
+    - structural
+    - both
+
+mechanisms:
+  - reporting
+  - verification
+  - certification
+  - auditing
+  - monitoring_supervision
+  - ranking_rating
+  - standard_setting
+  - enforcement_support
+  - coordination
+  - information_transmission
+  - delegated_implementation
+  - accreditation
+  - other_mechanism
+  - none_or_direct
+
+prior_version_artifacts:
+  - path: methodology/codebook.md
+    version: 1.0.0
+    sha256: 5527F9ECC7575A831F3D90CA14CAA8DFE4DFC1A65641C1B9C1236338625E2B1C
+  - path: methodology/strings.yaml
+    version: 1.0.0
+    sha256: 4130425FCFA06E6F9705B76EC477EA1B9EEA29BBD21647981C689D4E09ACD318
+  - path: methodology/coding_schema.json
+    version: 1.0.0
+    sha256: C35EA63563239DDB0EE11331D4C84E3BA49BD21B753F8AEBB62526A61949A326
+  - path: methodology/methodology_manifest.yaml
+    version: 1.0.0
+    sha256: DEDF8B916ADCE86C7FA61F9BF17914A6A6F23E4C503B4FD2BDD2D60FCA35132C
+
+methodological_sources:
+  - path: Arquitetura de trabalho/Prompts/G1
+    sha256: 6B3472ACDB5F5710C8DA6A6347A09912E3AF38A41EE1AC9809EFD312A5863ECE
+    use: generic_methodological_reference
+  - path: Arquitetura de trabalho/Prompts/G2
+    sha256: 88E4257B38EDBC1D2DDB846F1DA43A4F392BCC695EC772A8BB56BB2DE7CE1CE0
+    use: generic_methodological_reference
+  - path: Arquitetura de trabalho/Prompts/Geral
+    sha256: 04368998B774CDE04386003A1D4542EE0C7F2718869709BCC6F1E174BB8385D4
+    use: generic_methodological_reference
+
+integrity:
+  hash_algorithm: SHA-256
+  hashed_artifacts:
+    - path: methodology/v1.1.0/codebook.md
+      sha256: C160E153907A786C04070CB09F6E9BAA11DE709A4432A5F89EBE375A8A7EB472
+    - path: methodology/v1.1.0/strings.yaml
+      sha256: 242C288DB010320619A0CDB58C38CB73C6BE8AA499497CCFAE7BFBFC33F34305
+    - path: methodology/v1.1.0/reference_coding_schema.json
+      sha256: ABBC4325A5E749CF31836FB24314C27ED22061D6E6539FB435FCE8236D5AD2EC
+    - path: methodology/v1.1.0/experimental_output_schema.json
+      sha256: AAA0C351836120CADEF86D051EF8D950675577AFBABEFD5AC5D3931F33AE875C
+  manifest_sha256_recorded_in: logs/phase_03_revision_v1_1.md
+  validation_log: logs/phase_03_revision_v1_1.md

@@ -1,0 +1,1520 @@
+Sim. Eu estruturaria o novo projeto como um **experimento pequeno, controlado e inteiramente separado**, usando todo o aprendizado anterior apenas como **insumo metodológico**, sem reutilizar datasets, IDs, resultados positivos ou adjudicações anteriores. O ponto de partida conceitual continua sendo o teste R-I-T, os papéis relacionais e a separação entre evidência, interpretação e código já amadurecida no v4.  
+
+A lógica científica do novo projeto será:
+
+> **mesmo modelo-base + mesmo documento + mesmo output schema + três níveis de condicionamento → comparação com codificação humana independente.**
+
+Isso permite testar o efeito incremental de **orientação teórica** e **conhecimento de domínio**, em vez de simplesmente comparar “três GPTs”.
+
+Abaixo está o prompt mestre completo.
+
+---
+
+# PROMPT MESTRE — PROJETO `dataset-eurlex`
+
+```text
+# PROJETO: dataset-eurlex
+# Proof of Concept — Theory- and Domain-Conditioned LLM Coding of Regulatory Intermediaries
+
+Você deverá construir do zero um projeto científico e computacional chamado:
+
+dataset-eurlex
+
+O projeto deve ser totalmente novo e independente de versões anteriores.
+
+Todo conhecimento metodológico acumulado em trabalhos anteriores poderá ser usado como referência para desenhar:
+- strings de busca;
+- codebook;
+- estrutura R-I-T;
+- regras de observabilidade;
+- critérios de evidência;
+- protocolos de IA;
+- arquitetura de dados.
+
+PORÉM:
+
+- não reutilize datasets anteriores;
+- não copie relações R-I-T previamente adjudicadas;
+- não reutilize actor IDs;
+- não reutilize candidate IDs;
+- não importe resultados anteriores como se fossem resultados deste experimento;
+- não utilize decisões anteriores como respostas esperadas;
+- não permita leakage entre codificação humana e outputs da IA.
+
+Este projeto deve ser reconstruído integralmente a partir:
+1. da teoria;
+2. dos textos oficiais EUR-Lex;
+3. do novo protocolo experimental.
+
+O objetivo não é produzir uma base em escala.
+O objetivo é realizar um small-N methodological proof of concept cientificamente auditável.
+
+======================================================================
+1. OBJETIVO CENTRAL
+======================================================================
+
+Avaliar se diferentes níveis de condicionamento de um mesmo modelo generativo alteram a qualidade da identificação e codificação de regulatory intermediaries em legislação da União Europeia.
+
+O experimento deverá comparar três configurações:
+
+G0 — GENERALIST BASELINE
+Modelo geral, sem teoria específica de regulatory intermediation.
+
+G1 — THEORY-CONSTRAINED AGENT
+Mesmo modelo-base, acrescido da teoria R-I-T e de um codebook operacional.
+
+G2 — THEORY + DOMAIN-INFORMED AGENT
+Mesmo conteúdo do G1, acrescido de contexto institucional sobre EU green/climate governance.
+
+A pergunta metodológica central será:
+
+How does theoretical and domain conditioning affect the ability of a generative model to identify, reconstruct and code regulatory intermediation relationships in EU legal texts?
+
+======================================================================
+2. NATUREZA DO ESTUDO
+======================================================================
+
+Classificar explicitamente o trabalho como:
+
+small-N exploratory methodological proof of concept
+
+e NÃO como:
+- benchmark geral de LLMs;
+- avaliação representativa da legislação europeia;
+- estudo de performance populacional;
+- validação definitiva do constructo de Levi-Faur;
+- teste estatístico generalizável.
+
+O objetivo é demonstrar:
+- operacionalização teórica;
+- construção de dados;
+- interpretação assistida por IA;
+- estabilidade;
+- validade de construto;
+- rastreabilidade;
+- análise de erros.
+
+======================================================================
+3. CORPUS
+======================================================================
+
+Utilizar exatamente três atos no corpus principal:
+
+1. Corporate Sustainability Reporting Directive — CSRD
+CELEX: 32022L2464
+
+Função metodológica:
+- reporting;
+- assurance/auditing;
+- possibilidade de reporting sem intermediary;
+- relações organizacionais complexas.
+
+2. EU Ecolabel Regulation
+CELEX: 32010R0066
+
+Função metodológica:
+- certification;
+- competent bodies;
+- voluntarism;
+- conformity assessment;
+- possibilidade de distinguir adviser de intermediary.
+
+3. EU ETS Verification and Accreditation Regulation
+CELEX: 32018R2067
+
+Função metodológica:
+- auditing;
+- verification;
+- accreditation;
+- governance of intermediaries;
+- role multiplicity;
+- nested regulatory relationships.
+
+Não incluir Climate Benchmarks, Taxonomy Regulation, CBAM ou outros atos no corpus experimental principal.
+
+Eles podem ser mencionados apenas como possíveis extensões futuras.
+
+======================================================================
+4. DIRETÓRIO-RAIZ
+======================================================================
+
+Criar:
+
+dataset-eurlex/
+
+com a seguinte arquitetura:
+
+dataset-eurlex/
+│
+├── README.md
+├── PROJECT_PROTOCOL.md
+├── CHANGELOG.md
+├── requirements.txt
+├── .gitignore
+│
+├── 00_theory/
+│   ├── LEVI_FAUR_THEORETICAL_FRAMEWORK.md
+│   ├── CONSTRUCT_BOUNDARIES.md
+│   ├── RIT_CODEBOOK.md
+│   ├── DATA_DICTIONARY.md
+│   ├── VARIABLE_MAP.md
+│   └── DOMAIN_CONTEXT_GREEN_TRANSITION.md
+│
+├── 01_sources/
+│   ├── manifest/
+│   │   ├── CELEX_MANIFEST.csv
+│   │   └── CELEX_MANIFEST.json
+│   │
+│   ├── raw/
+│   │   ├── 32022L2464.html
+│   │   ├── 32010R0066.html
+│   │   └── 32018R2067.html
+│   │
+│   ├── normalized/
+│   │   ├── 32022L2464.md
+│   │   ├── 32010R0066.md
+│   │   └── 32018R2067.md
+│   │
+│   └── hashes/
+│       └── SOURCE_HASHES.csv
+│
+├── 02_extraction/
+│   ├── strings/
+│   │   ├── SEARCH_STRINGS.yml
+│   │   ├── ACTOR_STRINGS.yml
+│   │   ├── MECHANISM_STRINGS.yml
+│   │   ├── INSTRUMENT_STRINGS.yml
+│   │   └── PROCEDURE_STRINGS.yml
+│   │
+│   ├── scripts/
+│   │   ├── collect_eurlex.py
+│   │   ├── normalize_text.py
+│   │   ├── extract_units.py
+│   │   └── lexical_screen.py
+│   │
+│   └── data/
+│       ├── legal_units.csv
+│       └── lexical_candidates.csv
+│
+├── 03_human_reference/
+│   ├── HUMAN_CODING_PROTOCOL.md
+│   ├── human_reference_template.csv
+│   ├── human_reference_final.csv
+│   └── human_notes/
+│       ├── CSRD.md
+│       ├── ECOLABEL.md
+│       └── ETS.md
+│
+├── 04_agents/
+│   ├── COMMON_RUN_PROTOCOL.md
+│   │
+│   ├── G0_generalist/
+│   │   ├── AGENT_INSTRUCTIONS.md
+│   │   ├── KNOWLEDGE_MANIFEST.md
+│   │   └── VERSION.md
+│   │
+│   ├── G1_theory/
+│   │   ├── AGENT_INSTRUCTIONS.md
+│   │   ├── KNOWLEDGE_MANIFEST.md
+│   │   └── VERSION.md
+│   │
+│   └── G2_theory_domain/
+│       ├── AGENT_INSTRUCTIONS.md
+│       ├── KNOWLEDGE_MANIFEST.md
+│       └── VERSION.md
+│
+├── 05_prompts/
+│   ├── COMMON_USER_PROMPT.md
+│   ├── OUTPUT_SCHEMA.md
+│   ├── G0_SYSTEM_PROMPT.md
+│   ├── G1_SYSTEM_PROMPT.md
+│   ├── G2_SYSTEM_PROMPT.md
+│   └── HUMAN_ADJUDICATION_PROMPT.md
+│
+├── 06_runs/
+│   ├── G0/
+│   │   ├── CSRD/
+│   │   │   ├── run_01.md
+│   │   │   ├── run_02.md
+│   │   │   └── run_03.md
+│   │   ├── ECOLABEL/
+│   │   └── ETS/
+│   │
+│   ├── G1/
+│   │   ├── CSRD/
+│   │   ├── ECOLABEL/
+│   │   └── ETS/
+│   │
+│   └── G2/
+│       ├── CSRD/
+│       ├── ECOLABEL/
+│       └── ETS/
+│
+├── 07_structured_outputs/
+│   ├── G0_results.csv
+│   ├── G1_results.csv
+│   ├── G2_results.csv
+│   ├── all_runs_long.csv
+│   ├── candidate_relationships.csv
+│   └── evidence_table.csv
+│
+├── 08_analysis/
+│   ├── AGENT_COMPARISON.md
+│   ├── STABILITY_ANALYSIS.md
+│   ├── ERROR_ANALYSIS.md
+│   ├── HUMAN_AI_COMPARISON.md
+│   ├── adjudicated_relationships.csv
+│   └── analysis_tables/
+│
+├── 09_figures/
+│
+├── 10_report/
+│   ├── REPORT.qmd
+│   ├── REPORT.docx
+│   ├── references.bib
+│   └── figures/
+│
+└── 99_logs/
+    ├── RUN_MANIFEST.csv
+    ├── MODEL_METADATA.csv
+    └── EXECUTION_NOTES.md
+
+======================================================================
+5. FASE PRELIMINAR — TEORIA
+======================================================================
+
+Construir LEVI_FAUR_THEORETICAL_FRAMEWORK.md.
+
+A fonte conceitual principal é o trabalho de David Levi-Faur sobre regulatory intermediation.
+
+Distinguir rigorosamente:
+
+A. elementos explicitamente derivados da teoria;
+
+B. operacionalizações criadas neste projeto;
+
+C. possíveis extensões analíticas futuras.
+
+O núcleo conceitual deve conter:
+
+Regulator / Rule-maker
+        ↓
+Intermediary
+        ↓
+Rule-taker / Target
+
+Intermediation deve ser tratada como:
+
+actors + mechanisms + strategies
+
+Os papéis são relacionais:
+
+Role(actor, relationship)
+
+e não:
+
+Role(actor) = permanent identity
+
+======================================================================
+6. TESTE RELACIONAL R-I-T
+======================================================================
+
+Uma relação somente pode ser codificada como positive se cinco condições forem satisfeitas:
+
+A. Existe R identificável?
+
+B. Existe T identificável?
+
+C. Existe um terceiro ator analiticamente distinto?
+
+D. O terceiro ator desempenha uma função regulatória que medeia R e T?
+
+E. Há evidência normativa suficiente para sustentar a reconstrução?
+
+Valores de cada condição:
+
+YES
+NO
+UNCLEAR
+
+Resultado:
+
+positive
+negative
+conditional
+insufficient_evidence
+
+Somente cinco YES podem gerar positive.
+
+Não completar uma tríade artificialmente.
+
+======================================================================
+7. RULE-MAKER ≠ DIRECT REGULATOR
+======================================================================
+
+Preparar o codebook para distinguir:
+
+rule_source
+
+standard_setter
+
+direct_regulator
+
+oversight_authority
+
+enforcement_authority
+
+intermediary
+
+target
+
+A relação R-I-T deve usar o R da relação focal.
+
+A fonte legislativa não deve ser automaticamente tratada como R da relação operacional.
+
+======================================================================
+8. EXTRAÇÃO LEXICAL PRELIMINAR
+======================================================================
+
+O trabalho anterior deve subsidiar a criação de novas strings.
+
+Não importar outputs antigos.
+
+Reconstruir do zero arquivos de strings para:
+
+ACTORS
+MECHANISMS
+INSTRUMENTS
+PROCEDURES
+
+Famílias conceituais mínimas:
+
+REPORTING
+
+Exemplos:
+sustainability reporting
+management report
+non-financial report
+shall report
+shall disclose
+reporting requirement
+disclosure
+
+AUDITING / ASSURANCE / VERIFICATION
+
+Exemplos:
+statutory auditor
+audit firm
+auditor
+assurance provider
+assurance engagement
+verification body
+verifier
+verification
+assurance opinion
+
+CERTIFICATION / ACCREDITATION
+
+Exemplos:
+competent body
+certification body
+accredited body
+accreditation body
+conformity assessment body
+accredited verifier
+certification
+accreditation
+
+INSTRUMENTS
+
+Exemplos:
+verification report
+assurance report
+sustainability report
+certificate
+methodology
+
+Cada string deve possuir:
+
+string_id
+pattern
+semantic_role
+mechanism_family
+confidence
+exclusion_pattern
+notes
+
+A triagem lexical tem função exclusiva de SALIENCE.
+
+Lexical hit ≠ intermediary.
+
+======================================================================
+9. NORMALIZAÇÃO DOS TEXTOS
+======================================================================
+
+Preservar os HTMLs oficiais da EUR-Lex.
+
+Gerar versões .md normalizadas contendo, quando possível:
+
+ACT TITLE
+
+CELEX
+
+RECITALS
+
+ARTICLE
+
+PARAGRAPH
+
+SUBPARAGRAPH
+
+POINT
+
+ANNEX
+
+Manter numeração jurídica original.
+
+O arquivo Markdown será o input preferencial dos agentes.
+
+Não alterar substantivamente o texto legal.
+
+======================================================================
+10. CODIFICAÇÃO HUMANA DE REFERÊNCIA
+======================================================================
+
+ANTES de examinar qualquer output dos agentes:
+
+o pesquisador deverá analisar independentemente os três atos.
+
+Criar:
+
+HUMAN_CODING_PROTOCOL.md
+
+Para cada relação candidata registrar:
+
+case_id
+
+CELEX
+
+article
+
+paragraph
+
+R
+
+I
+
+T
+
+rule_source
+
+direct_regulator
+
+mediating_function
+
+five_condition_test
+
+primary_mechanism
+
+secondary_mechanism
+
+verbatim_evidence
+
+construct_validity
+
+observability
+
+interpretive_note
+
+Não chamar essa codificação de gold standard.
+
+Utilizar:
+
+researcher-adjudicated human reference
+
+ou:
+
+human reference coding
+
+Registrar explicitamente:
+
+A researcher reference is not equivalent to independent intercoder validation.
+
+======================================================================
+11. CONFIGURAÇÃO EXPERIMENTAL
+======================================================================
+
+Os três agentes devem utilizar, tanto quanto tecnicamente possível:
+
+- o MESMO modelo-base;
+- a MESMA versão;
+- o MESMO documento;
+- a MESMA pergunta de usuário;
+- o MESMO output schema;
+- sessões independentes;
+- nenhuma memória compartilhada.
+
+Somente o conteúdo das instruções/contexto fornecido deve mudar.
+
+Não comparar modelos diferentes.
+
+O estudo compara:
+
+CONDITIONING LEVELS
+
+e não:
+
+MODEL FAMILIES.
+
+======================================================================
+12. AGENTE G0 — GENERALIST BASELINE
+======================================================================
+
+Criar G0_SYSTEM_PROMPT.md com o seguinte conteúdo:
+
+----------------------------------------------------------------------
+SUBPROMPT G0
+----------------------------------------------------------------------
+
+You are analysing an official European Union legal act.
+
+Your task is to identify regulatory relationships in which a third actor
+may operate between a regulator or rule-maker and a regulated target.
+
+Do not assume that every organisation mentioned in the document is a
+regulatory intermediary.
+
+For every relationship that you believe may constitute regulatory
+intermediation, identify:
+
+1. the regulator or regulatory authority;
+2. the potential intermediary;
+3. the regulated target;
+4. the function performed by the potential intermediary;
+5. the regulatory mechanism involved;
+6. the exact legal provision supporting your interpretation.
+
+You must distinguish direct legal evidence from interpretation.
+
+If the supplied document does not contain enough information to support
+an assignment, state that the evidence is insufficient.
+
+Do not use external sources.
+
+Do not invent missing actors.
+
+Return the result using the common output format supplied with the task.
+
+----------------------------------------------------------------------
+
+G0 NÃO receberá:
+
+- teoria detalhada de Levi-Faur;
+- cinco-condition test formal;
+- codebook completo;
+- exemplos positivos;
+- contexto específico da green transition.
+
+======================================================================
+13. AGENTE G1 — THEORY-CONSTRAINED
+======================================================================
+
+Criar G1_SYSTEM_PROMPT.md.
+
+----------------------------------------------------------------------
+SUBPROMPT G1
+----------------------------------------------------------------------
+
+You are a research coding agent assisting a study of regulatory
+intermediation based on David Levi-Faur's theoretical framework.
+
+Regulatory intermediation must be treated as a RELATIONAL construct.
+
+Do not code labels. Code relationships.
+
+The focal structure is:
+
+R — I — T
+
+where:
+
+R = regulator / rule-maker in the focal regulatory relationship;
+
+I = an analytically distinct third actor that performs a regulatory
+function mediating the relationship between R and T;
+
+T = the rule-taker / regulatory target whose behaviour, information,
+product, process or compliance status is subject to regulation.
+
+Actor roles are relational, not intrinsic:
+
+Role(actor, relationship)
+
+An actor may therefore be I in one relationship and T in another.
+
+Do not treat rule source and direct regulator as necessarily identical.
+
+Where relevant distinguish:
+
+rule_source
+standard_setter
+direct_regulator
+oversight_authority
+enforcement_authority
+
+Before accepting a regulatory intermediary, apply all five conditions:
+
+A. Is an identifiable regulator present?
+B. Is an identifiable target present?
+C. Is a third actor analytically distinct from R and T?
+D. Does that actor perform a regulatory function mediating R and T?
+E. Is the relationship supported by explicit legal evidence or a clearly
+documented institutional reconstruction?
+
+Answer each condition individually:
+
+YES
+NO
+UNCLEAR
+
+Final coding rules:
+
+Five YES = positive.
+
+Any NO affecting the relational structure = negative.
+
+An unresolved condition = conditional or insufficient_evidence.
+
+Do not upgrade uncertainty into a positive relationship.
+
+A third actor is NOT an intermediary merely because it:
+- advises the regulator;
+- participates in rule formation;
+- receives the same obligation as the target;
+- is mentioned near regulatory language.
+
+Reporting and intermediation are independent.
+
+A direct reporting obligation may exist without an intermediary.
+
+Use:
+
+Evidence → Interpretation → Code
+
+Never:
+
+Code → Search for supporting evidence.
+
+For every substantive assignment provide verbatim legal evidence.
+
+Use the following observability classes:
+
+DIRECT
+INFERRED
+EXTERNAL
+NOT_OBSERVABLE
+
+If information cannot be established from the supplied legal text:
+do not infer it.
+
+Do not use external sources.
+
+Return the common structured output.
+
+----------------------------------------------------------------------
+
+G1 knowledge/context may include:
+
+- RIT_CODEBOOK.md
+- DATA_DICTIONARY.md
+- CONSTRUCT_BOUNDARIES.md
+- LEVI_FAUR_THEORETICAL_FRAMEWORK.md
+
+Não anexar DOMAIN_CONTEXT_GREEN_TRANSITION.md.
+
+======================================================================
+14. AGENTE G2 — THEORY + DOMAIN-INFORMED
+======================================================================
+
+G2 deve receber TODAS as instruções de G1.
+
+Adicionar o seguinte bloco:
+
+----------------------------------------------------------------------
+SUBPROMPT ADICIONAL G2
+----------------------------------------------------------------------
+
+DOMAIN CONTEXT — EU GREEN AND CLIMATE GOVERNANCE
+
+The legal acts analysed in this study belong to the broader field of EU
+green-transition governance.
+
+This domain frequently involves multilevel regulatory architectures in
+which law-making, standard-setting, supervision, verification,
+certification, accreditation and enforcement may be distributed across
+different actors.
+
+Relevant institutional actor categories may include:
+
+European Parliament and Council;
+European Commission;
+Member States;
+national competent authorities;
+accreditation bodies;
+competent bodies;
+statutory auditors;
+audit firms;
+assurance providers;
+verifiers;
+certification or conformity-assessment bodies;
+regulated undertakings;
+operators.
+
+This context is provided ONLY to assist institutional interpretation.
+
+It must NEVER substitute for legal evidence in the supplied document.
+
+Do not code an actor merely because such an actor normally exists in EU
+green-transition governance.
+
+If the legal text supplied does not support a role assignment, return:
+
+UNCLEAR
+EXTERNAL
+or
+additional_context_required
+
+rather than relying on prior knowledge.
+
+The domain context may guide interpretation but cannot create evidence.
+
+----------------------------------------------------------------------
+
+G2 poderá usar:
+
+- tudo de G1;
+- DOMAIN_CONTEXT_GREEN_TRANSITION.md.
+
+O domain dossier não poderá conter:
+
+- soluções específicas para os três atos;
+- tabelas dizendo quem é R/I/T;
+- resultados da codificação humana;
+- resultados anteriores;
+- frases como "in the ETS the verifier is the intermediary".
+
+Evitar data leakage.
+
+======================================================================
+15. COMMON USER PROMPT
+======================================================================
+
+A mensagem enviada ao G0, G1 e G2 deve ser IDÊNTICA.
+
+Criar COMMON_USER_PROMPT.md:
+
+----------------------------------------------------------------------
+COMMON RUN PROMPT
+----------------------------------------------------------------------
+
+Analyse the attached EU legal act as an independent research coding task.
+
+First reconstruct the relevant regulatory architecture.
+
+Second identify every candidate regulatory intermediation relationship
+supported by the supplied text.
+
+For each candidate, complete the required structured coding form.
+
+Do not assume that a regulatory intermediary must exist.
+
+Preserve:
+- positive cases;
+- negative cases;
+- conditional cases;
+- insufficient-evidence cases.
+
+Every substantive conclusion must be tied to exact legal evidence.
+
+Do not use information from previous analyses or other cases.
+
+----------------------------------------------------------------------
+
+Não alterar esse prompt entre G0/G1/G2.
+
+======================================================================
+16. ORDEM DA ANÁLISE
+======================================================================
+
+Cada agente deve executar obrigatoriamente quatro fases:
+
+PHASE 1 — ACTOR EXTRACTION
+
+Identificar atores juridicamente relevantes.
+
+Ainda NÃO atribuir R/I/T.
+
+PHASE 2 — REGULATORY ARCHITECTURE
+
+Mapear relações explicitamente suportadas:
+
+actor A → legal action → actor B/object.
+
+Exemplo estrutural:
+
+A1 supervises A2
+A2 verifies information of A3
+
+Sem ainda forçar uma tríade.
+
+PHASE 3 — R-I-T CANDIDATE RECONSTRUCTION
+
+Propor possíveis relações:
+
+R → I → T
+
+PHASE 4 — CODING
+
+Aplicar o output schema.
+
+======================================================================
+17. COMMON OUTPUT SCHEMA
+======================================================================
+
+Todos os agentes devem retornar a mesma estrutura.
+
+Para cada candidate relationship:
+
+case_id
+
+source_celex
+
+article
+
+paragraph
+
+candidate_status
+
+actors_identified
+
+rule_source
+
+standard_setter
+
+direct_regulator
+
+oversight_authority
+
+R
+
+I
+
+T
+
+mediating_function
+
+condition_A
+
+condition_A_evidence
+
+condition_B
+
+condition_B_evidence
+
+condition_C
+
+condition_C_evidence
+
+condition_D
+
+condition_D_evidence
+
+condition_E
+
+condition_E_evidence
+
+final_relational_result
+
+primary_mechanism
+
+secondary_mechanism
+
+verbatim_evidence
+
+observability_class
+
+additional_context_required
+
+uncertainty_note
+
+======================================================================
+18. MECHANISMS
+======================================================================
+
+Usar como mecanismo principal:
+
+reporting
+
+certification
+
+ranking_rating
+
+auditing
+
+Permitir:
+
+other_mechanism
+
+Não forçar classificação.
+
+Nos três atos selecionados, ranking/rating provavelmente terá pouco uso,
+mas permanece no codebook por fidelidade ao quadro geral.
+
+======================================================================
+19. MECANISMO ≠ ATOR ≠ INSTRUMENTO
+======================================================================
+
+Manter distinção:
+
+ACTOR
+quem desempenha papel institucional.
+
+MECHANISM
+atividade regulatória.
+
+INSTRUMENT
+artefato/documento utilizado.
+
+PROCEDURE
+sequência formal/processo.
+
+Exemplo:
+
+verifier = actor
+
+verification = mechanism
+
+verification report = instrument
+
+accreditation procedure = procedure
+
+======================================================================
+20. REPETIÇÕES
+======================================================================
+
+Executar:
+
+3 atos
+×
+3 condições
+×
+3 runs independentes
+
+Total esperado:
+
+27 analytical runs.
+
+Cada run deve ocorrer em uma conversa/sessão nova.
+
+Não mostrar ao modelo resultados de runs anteriores.
+
+Registrar:
+
+run_id
+agent_condition
+CELEX
+run_number
+model_name
+model_version_if_available
+date_time
+input_file_hash
+agent_instruction_version
+user_prompt_version
+output_hash
+
+======================================================================
+21. ESTABILIDADE
+======================================================================
+
+Não usar somente confidence auto-relatada pelo modelo.
+
+Calcular estabilidade observável.
+
+Para cada candidato comparar entre 3 runs:
+
+same final verdict?
+
+same R?
+
+same I?
+
+same T?
+
+same mechanism?
+
+same evidence basis?
+
+Criar:
+
+verdict_stability
+
+R_stability
+
+I_stability
+
+T_stability
+
+mechanism_stability
+
+full_relation_stability
+
+Exemplos:
+
+3/3 = high
+
+2/3 = medium
+
+1/3 ou mudanças estruturais = low
+
+Não utilizar majority vote para substituir adjudicação.
+
+======================================================================
+22. COMPARAÇÃO COM HUMAN REFERENCE
+======================================================================
+
+Somente após terminar human_reference_final.csv e congelá-lo:
+
+executar e analisar os agentes.
+
+Comparar G0, G1 e G2 contra a referência humana.
+
+Não limitar a análise a certo/errado.
+
+Comparar:
+
+candidate detection
+
+R identification
+
+I identification
+
+T identification
+
+mediating function
+
+mechanism
+
+evidence fidelity
+
+false intermediary
+
+appropriate abstention
+
+cross-reference handling
+
+role multiplicity
+
+nested intermediation
+
+======================================================================
+23. HIPÓTESES EXPLORATÓRIAS
+======================================================================
+
+H1
+
+A general-purpose agent can identify some regulatory intermediaries without
+explicit theoretical conditioning, but may show higher construct ambiguity.
+
+H2
+
+Providing the R-I-T codebook improves construct validity and reduces false
+intermediary classifications.
+
+H3
+
+Providing domain knowledge on EU green-transition governance may improve
+the reconstruction of multilevel regulatory architectures.
+
+H4
+
+Domain conditioning may also increase prior-knowledge intrusion, making
+source-bounded evidence controls necessary.
+
+Não escrever as conclusões antecipadamente.
+
+======================================================================
+24. ERROR ANALYSIS
+======================================================================
+
+Criar uma tipologia de erros:
+
+FALSE_INTERMEDIARY
+
+MISIDENTIFIED_R
+
+MISIDENTIFIED_I
+
+MISIDENTIFIED_T
+
+RULE_SOURCE_DIRECT_REGULATOR_CONFUSION
+
+ACTOR_MECHANISM_CONFUSION
+
+ACTOR_INSTRUMENT_CONFUSION
+
+ADVISER_AS_INTERMEDIARY
+
+DIRECT_REPORTING_AS_INTERMEDIATION
+
+UNSUPPORTED_EXTERNAL_KNOWLEDGE
+
+FAILURE_TO_ABSTAIN
+
+OVER_ABSTENTION
+
+MISSED_RELATIONSHIP
+
+CHAIN_COLLAPSE
+
+ROLE_MULTIPLICITY_MISSED
+
+EVIDENCE_MISMATCH
+
+Para cada erro registrar:
+
+agent
+act
+run
+error_type
+human_reference
+AI_output
+interpretation
+possible_cause
+
+======================================================================
+25. ADJUDICAÇÃO FINAL
+======================================================================
+
+Após comparação:
+
+o pesquisador deverá produzir:
+
+adjudicated_relationships.csv
+
+A adjudicação deve partir novamente do texto jurídico.
+
+O output dos agentes é evidência metodológica, não autoridade teórica.
+
+Registrar:
+
+human_final_decision
+
+AI_condition_support
+
+AI_disagreement
+
+interpretive_note
+
+======================================================================
+26. O QUE NÃO MEDIR
+======================================================================
+
+Não criar índices de:
+
+autonomy
+
+accountability
+
+effectiveness
+
+legitimacy
+
+trust
+
+polycentricity
+
+Pode-se identificar indicadores jurídicos.
+
+Não declarar outcomes reais com base apenas no texto legal.
+
+======================================================================
+27. FIGURAS
+======================================================================
+
+Criar pelo menos:
+
+FIGURE 1
+Theoretical R-I-T framework
+
+FIGURE 2
+Experimental design G0 → G1 → G2
+
+FIGURE 3
+Human-reference + AI comparison architecture
+
+FIGURE 4
+Stability across three runs
+
+FIGURE 5
+Field-level performance comparison
+
+FIGURE 6
+Error taxonomy by agent configuration
+
+Se n pequeno tornar percentuais enganosos:
+usar contagens absolutas e apresentar os casos individualmente.
+
+======================================================================
+28. RELATÓRIO FINAL
+======================================================================
+
+Gerar:
+
+10_report/REPORT.qmd
+
+e renderizar:
+
+10_report/REPORT.docx
+
+Título sugerido:
+
+Theory- and Domain-Conditioned Generative Coding of Regulatory
+Intermediaries in EU Green-Transition Legislation
+
+Subtítulo:
+
+A Three-Case Proof of Concept
+
+======================================================================
+29. ESTRUTURA DO RELATÓRIO
+======================================================================
+
+1. Executive Summary
+
+2. Research Problem
+
+3. Regulatory Intermediation and the R-I-T Framework
+
+4. Why EU Green-Transition Legislation?
+
+5. Research Design
+
+6. Selection of the Three Legal Acts
+
+7. EUR-Lex and CELEX Data Preparation
+
+8. Lexical Pre-Screening
+
+9. Human Reference Coding
+
+10. Experimental Agent Conditions
+
+10.1 G0 — Generalist Baseline
+
+10.2 G1 — Theory-Constrained
+
+10.3 G2 — Theory + Domain-Informed
+
+11. Common Coding Protocol
+
+12. Stability Across Repeated Runs
+
+13. Results by Legal Act
+
+13.1 CSRD
+
+13.2 EU Ecolabel
+
+13.3 EU ETS Verification and Accreditation
+
+14. Human–AI Comparison
+
+15. Effect of Theoretical Conditioning
+
+16. Effect of Domain Conditioning
+
+17. Error Analysis
+
+18. Construct Validity
+
+19. Limitations
+
+20. Implications for Corpus-Scale Dataset Construction
+
+21. Conclusion
+
+======================================================================
+30. RESULTADOS
+======================================================================
+
+Não tentar demonstrar que G2 é necessariamente melhor.
+
+Se:
+
+G1 > G2
+
+isso é resultado legítimo.
+
+Se:
+
+G0 ≈ G1 ≈ G2
+
+também.
+
+Se G2 introduzir conhecimento externo não sustentado pelo texto:
+destacar isso.
+
+A pergunta relevante é:
+
+What changes when theoretical and domain information are introduced?
+
+======================================================================
+31. VALIDADE
+======================================================================
+
+O relatório deverá distinguir:
+
+INTERNAL COMPARISON VALIDITY
+
+mesmo modelo;
+mesmos casos;
+mesmo schema;
+mesmo prompt do usuário;
+condições diferentes apenas por informação fornecida.
+
+CONSTRUCT VALIDITY
+
+aderência ao conceito R-I-T.
+
+EVIDENCE VALIDITY
+
+correspondência entre código e texto legal.
+
+STABILITY
+
+consistência entre runs.
+
+Não afirmar:
+
+intercoder reliability
+
+sem segundo codificador humano independente.
+
+======================================================================
+32. REPRODUTIBILIDADE
+======================================================================
+
+Versionar:
+
+agent instructions
+
+common prompt
+
+codebook
+
+source files
+
+hashes
+
+output schema
+
+runs
+
+model metadata
+
+timestamps
+
+analytical scripts
+
+relatório.
+
+Se a interface ChatGPT não disponibilizar snapshot fixo:
+
+registrar exatamente o modelo exibido, data e limitação.
+
+Não ocultar alterações futuras da plataforma.
+
+======================================================================
+33. PRINCÍPIO CENTRAL
+======================================================================
+
+O estudo não pergunta apenas:
+
+Can AI find regulatory intermediaries?
+
+Pergunta:
+
+How does theoretical and domain conditioning affect AI-assisted
+operationalisation of a relational regulatory-governance construct?
+
+======================================================================
+34. CRITÉRIO FINAL
+======================================================================
+
+Ao término, o projeto deve permitir reconstruir integralmente:
+
+LEGAL SOURCE
+      ↓
+NORMALIZED TEXT
+      ↓
+LEXICAL CANDIDATES
+      ↓
+HUMAN REFERENCE
+      ↓
+G0 / G1 / G2
+      ↓
+THREE INDEPENDENT RUNS
+      ↓
+STRUCTURED CODING
+      ↓
+FIELD-BY-FIELD COMPARISON
+      ↓
+ERROR ANALYSIS
+      ↓
+HUMAN ADJUDICATION
+      ↓
+FINAL DATASET
+      ↓
+SCIENTIFIC REPORT
+
+Nenhuma etapa deve depender de resultados ocultos de trabalhos anteriores.
+
+O aprendizado anterior deve melhorar o instrumento.
+
+Não deve fornecer as respostas.
+```
+
+## Um ajuste que considero essencial
+
+Há uma decisão que eu manteria rígida: **a codificação humana dos três casos deve ser congelada antes de você rodar G0/G1/G2**. Essa é a melhor proteção contra você reinterpretar inconscientemente a norma depois de ver uma resposta particularmente convincente da IA. O protocolo v4 já faz uma distinção correta entre adjudicação do pesquisador e validação independente; aqui estamos usando a primeira como referência analítica, sem alegar intercoder reliability. 
+
+Também vale manter a filosofia já consolidada de que o modelo propõe, mas não produz automaticamente observações autoritativas. 
+
+### O experimento que você está construindo
+
+Na prática, você terá **27 leituras generativas**:
+
+$$
+3\ atos \times 3\ condições \times 3\ repetições = 27
+$$
+
+Isso é pequeno o suficiente para você inspecionar integralmente cada saída e grande o suficiente para demonstrar diferenças de **estabilidade, interpretação e erro** entre as três configurações.
+
+E considero especialmente boa a terceira condição porque ela permite testar duas possibilidades opostas: conhecimento climático pode **melhorar a reconstrução institucional** ou pode **induzir o modelo a completar lacunas com conhecimento prévio**. Os dois resultados são cientificamente interessantes.
+
+O nome `dataset-eurlex` também é adequado porque não prende o repositório apenas à PoC: se David gostar da abordagem, a mesma estrutura poderá posteriormente receber um corpus muito maior sem mudar o núcleo metodológico.
+
+
+Como garantir que o experimento continue limpo
+
+A diferença entre os três precisa permanecer muito clara:
+
+G0 sabe o que é uma relação regulatória e recebe uma tarefa geral, mas não conhece o seu R-I-T Codebook.
+
+G1 recebe a teoria + operacionalização R-I-T, mas não recebe conhecimento específico sobre green-transition governance.
+
+G2 recebe exatamente G1 + conhecimento do domínio climático/green transition da UE.
+
+Eu não colocaria exemplos reais de CSRD, Ecolabel ou ETS dentro dos prompts de G1 ou G2. Isso contaminaria precisamente os três casos que queremos observar. O conhecimento de domínio de G2 deve ensinar a ler a arquitetura, não fornecer antecipadamente a arquitetura correta.
+
+E um detalhe que considero importante: não mude o “Common User Prompt” entre os três agentes. Se o G0 receber uma pergunta mais vaga e G2 receber uma pergunta mais estruturada, você estará alterando duas coisas ao mesmo tempo. O único tratamento experimental deve ser a orientação interna acima.

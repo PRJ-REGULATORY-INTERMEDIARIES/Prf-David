@@ -1,0 +1,5 @@
+challenge_id,unit_id,challenge_type,why_selected,human_review_status,ai_status
+CHAL-01,AUD-03,low_confidence_boundary,Tests whether a low-confidence lexical hit is abstained from rather than promoted.,PENDING_HUMAN,DRY_RUN_ONLY
+CHAL-02,AUD-09,conditional_climate_case,Preserves the CAND-07 climate-benchmarks boundary as conditional pending legal reconstruction.,PENDING_HUMAN,DRY_RUN_ONLY
+CHAL-03,AUD-13,taxonomy_discriminant,Tests whether Taxonomy signals are treated as exploratory rather than presumed intermediation.,PENDING_HUMAN,DRY_RUN_ONLY
+CHAL-04,RIT-007,nested_intermediation,Checks the L2 accreditation/verification chain and parent relationship before role assignment.,PENDING_HUMAN,DRY_RUN_ONLY

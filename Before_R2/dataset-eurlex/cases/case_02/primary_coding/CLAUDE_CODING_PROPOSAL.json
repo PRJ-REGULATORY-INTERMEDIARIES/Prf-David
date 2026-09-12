@@ -1,0 +1,1202 @@
+{
+  "case_id": "case_02",
+  "celex": "32023R0956",
+  "relations": [
+    {
+      "case_id": "case_02",
+      "celex": "32023R0956",
+      "relation_id": "case_02-rel-001",
+      "source_location": "Article 8(1); Article 6(2)(d); Annex VI",
+      "evidence_quote": "The authorised CBAM declarant shall ensure that the total embedded emissions declared in the CBAM declaration submitted pursuant to Article 6 are verified by a verifier accredited pursuant to Article 18, based on the verification principles set out in Annex VI.",
+      "R": [
+        {
+          "label": "European Commission",
+          "role": "Has the oversight role in the review of CBAM declarations and relies on verification reports in that review (Article 19(1)-(2)); accredits/regulates the verification framework via implementing acts (Article 8(3)).",
+          "evidence_refs": [
+            "Art19(1)",
+            "Art8(3)"
+          ]
+        },
+        {
+          "label": "competent authority",
+          "role": "Enforces the authorised CBAM declarant's obligation to surrender CBAM certificates corresponding to verified embedded emissions and may itself review CBAM declarations (Article 19(2), fourth subparagraph; Article 26).",
+          "evidence_refs": [
+            "Art19(2)",
+            "Art26(1)"
+          ]
+        }
+      ],
+      "I": [
+        {
+          "label": "accredited verifier",
+          "role": "Verifies, applying Annex VI principles with professional scepticism, that the declarant's total embedded emissions are free of material misstatement or non-conformity, and issues a verification report used in the CBAM declaration.",
+          "evidence_refs": [
+            "Art8(1)",
+            "AnnexVI-1",
+            "Art6(2)(d)"
+          ]
+        }
+      ],
+      "T": [
+        {
+          "label": "authorised CBAM declarant",
+          "role": "Must ensure its declared embedded emissions are verified before surrendering the corresponding CBAM certificates; bears the underlying compliance obligation.",
+          "evidence_refs": [
+            "Art8(1)",
+            "Art6(2)(b)"
+          ]
+        }
+      ],
+      "action": [
+        "verify declared total embedded emissions",
+        "issue a verification report",
+        "apply verification principles with professional scepticism",
+        "conduct installation visit unless waived"
+      ],
+      "object": [
+        "total embedded emissions declared in the CBAM declaration",
+        "verification report"
+      ],
+      "mediating_function": [
+        "independent verification of the declarant's self-reported embedded emissions against the Annex VI verification principles",
+        "production of a verification report that becomes part of the CBAM declaration and is used in Commission/competent authority review (Article 19(2))"
+      ],
+      "mechanism": "verification",
+      "relation_type": "intermediated",
+      "confidence": "high",
+      "external_context_required": false,
+      "coder_note": "[reviewer_attention: routine] Textbook intermediated relation: R (Commission/competent authority) requires T (authorised CBAM declarant) to have its self-reported embedded emissions independently verified by I (an accredited verifier per Article 18) using the Annex VI verification principles before certificates are surrendered. The verifier's output (verification report) is expressly incorporated into the CBAM declaration (Article 6(2)(d)) and referenced in the Commission's oversight of declarations (Article 19(2)). All three roles and the mediating function are explicitly and directly supported by the corpus text; no external act needed to establish this relation, although the accreditation regime for verifiers itself partly rests on Regulation (EC) No 765/2008 and Implementing Regulation (EU) 2018/2067, which are not reproduced here (see uncertainty log)."
+    },
+    {
+      "case_id": "case_02",
+      "celex": "32023R0956",
+      "relation_id": "case_02-rel-002",
+      "source_location": "Article 10(5)(b), (6), (7); Annex VI",
+      "evidence_quote": "ensure that the embedded emissions referred to in point (a) of this paragraph are verified in accordance with the verification principles set out in Annex VI by a verifier accredited pursuant to Article 18",
+      "R": [
+        {
+          "label": "European Commission",
+          "role": "Registers the operator and its installation in the CBAM registry (Article 10(1)) and relies on the records, including the verifier's report, to enable review of CBAM declarations under Article 19.",
+          "evidence_refs": [
+            "Art10(1)",
+            "Art10(6)"
+          ]
+        }
+      ],
+      "I": [
+        {
+          "label": "accredited verifier",
+          "role": "Verifies the embedded emissions of goods produced at the third-country installation, applying the Annex VI verification principles.",
+          "evidence_refs": [
+            "Art10(5)(b)",
+            "AnnexVI-1"
+          ]
+        }
+      ],
+      "T": [
+        {
+          "label": "operator of an installation located in a third country",
+          "role": "Must determine and ensure verification of the embedded emissions of goods produced at its installation, and may disclose the verified information to an authorised CBAM declarant.",
+          "evidence_refs": [
+            "Art10(5)(a)",
+            "Art10(7)"
+          ]
+        }
+      ],
+      "action": [
+        "verify embedded emissions of goods produced at the installation",
+        "issue verification report",
+        "enable disclosure of verified information to an authorised CBAM declarant"
+      ],
+      "object": [
+        "embedded emissions of goods produced at the installation",
+        "verification report",
+        "records required to calculate embedded emissions"
+      ],
+      "mediating_function": [
+        "independent verification of the third-country operator's reported embedded emissions, whose output may be disclosed to and relied upon by an authorised CBAM declarant and is used to enable Commission/competent authority review under Article 19"
+      ],
+      "mechanism": "verification",
+      "relation_type": "intermediated",
+      "confidence": "high",
+      "external_context_required": false,
+      "coder_note": "[reviewer_attention: routine] Structurally distinct from case_02-rel-001 because the target here is the third-country operator of the production installation (registered under Article 10), not the authorised CBAM declarant, even though the same class of intermediary (accredited verifier under Article 18) and the same verification principles (Annex VI) apply. The operator's verified data is a distinct object from the declarant's own verified declaration, and Article 10(6) expressly ties the record-keeping and verification here to enabling the Article 19 review, which supports treating Commission as R for this specific registration-and-disclosure architecture."
+    },
+    {
+      "case_id": "case_02",
+      "celex": "32023R0956",
+      "relation_id": "case_02-rel-003",
+      "source_location": "Article 9(2)",
+      "evidence_quote": "The information contained in that documentation shall be certified by a person that is independent from the authorised CBAM declarant and from the authorities of the country of origin.",
+      "R": [
+        {
+          "label": "competent authority",
+          "role": "Determines and enforces the final number of CBAM certificates to be surrendered, which depends on the accepted reduction for carbon price paid abroad (Article 19(5)).",
+          "evidence_refs": [
+            "Art19(5)"
+          ]
+        },
+        {
+          "label": "European Commission",
+          "role": "Reviews CBAM declarations, including the claimed reduction for carbon price paid in the country of origin (Article 6(2)(c); Article 19(2)).",
+          "evidence_refs": [
+            "Art6(2)(c)",
+            "Art19(2)"
+          ]
+        }
+      ],
+      "I": [
+        {
+          "label": "independent person",
+          "role": "Certifies the information in the documentation demonstrating that the declared embedded emissions were subject to an effectively paid carbon price in the country of origin, including evidence of any rebate or compensation.",
+          "evidence_refs": [
+            "Art9(2)"
+          ]
+        }
+      ],
+      "T": [
+        {
+          "label": "authorised CBAM declarant",
+          "role": "Claims a reduction in CBAM certificates to be surrendered on account of a carbon price effectively paid in the country of origin, and must keep the certifying documentation.",
+          "evidence_refs": [
+            "Art9(1)",
+            "Art9(2)"
+          ]
+        }
+      ],
+      "action": [
+        "certify independence and content of the carbon-price documentation"
+      ],
+      "object": [
+        "documentation demonstrating the carbon price effectively paid in the country of origin, including evidence of rebates or compensation"
+      ],
+      "mediating_function": [
+        "third-party certification of the evidentiary basis for a declarant's claimed reduction in CBAM certificates, a claim that is otherwise self-reported by the declarant"
+      ],
+      "mechanism": "certification",
+      "relation_type": "intermediated",
+      "confidence": "medium",
+      "external_context_required": false,
+      "coder_note": "[reviewer_attention: conceptual_boundary] Weaker analogue of the verifier structure: the 'independent person' performs a certification function that supports a regulatory claim (reduction of certificates to be surrendered) reviewed by the competent authority/Commission, which favours coding this as intermediated. However, unlike accredited verifiers (Article 18), this Regulation defines no accreditation, qualification, or oversight regime for the 'independent person' beyond bare independence from the declarant and the country-of-origin authorities (the implementing act on 'qualifications' and 'conditions to ascertain independence' referred to in Article 9(4) does not yet exist in this corpus). This leaves the intermediary function less institutionally documented than the Article 18 verifier chain; flagged for reviewer scrutiny of whether uncertified 'independence' is sufficient to sustain intermediation or whether this should instead be treated as 'uncertain'."
+    },
+    {
+      "case_id": "case_02",
+      "celex": "32023R0956",
+      "relation_id": "case_02-rel-004",
+      "source_location": "Article 14(1); Article 19(3); Article 25(2)-(4); Recital 43",
+      "evidence_quote": "The customs authorities shall periodically and automatically, in particular by means of the surveillance mechanism established pursuant to Article 56(5) of Regulation (EU) No 952/2013, communicate to the Commission specific information on the goods declared for importation.",
+      "R": [
+        {
+          "label": "European Commission",
+          "role": "Cross-checks customs data against the CBAM registry and communicates results to the competent authority; sets risk factors partly based on customs-communicated data (Article 19(3)).",
+          "evidence_refs": [
+            "Art25(3)",
+            "Art19(3)"
+          ]
+        },
+        {
+          "label": "competent authority",
+          "role": "Receives the cross-checked information and may use it to review CBAM declarations and enforce declarant obligations (Article 19; Article 26).",
+          "evidence_refs": [
+            "Art25(3)"
+          ]
+        }
+      ],
+      "I": [
+        {
+          "label": "customs authorities",
+          "role": "Carry out checks on imported goods (identification of the authorised CBAM declarant, CN code, quantity, country of origin) and periodically and automatically communicate this information to the Commission; may also share confidential information with the Commission and competent authority.",
+          "evidence_refs": [
+            "Art25(2)",
+            "Art25(4)",
+            "Recital43"
+          ]
+        }
+      ],
+      "T": [
+        {
+          "label": "authorised CBAM declarant",
+          "role": "Subject of the customs data collected and cross-checked, which supports the Commission's and competent authority's supervision of its compliance with the obligation to import only as an authorised declarant and to surrender corresponding certificates.",
+          "evidence_refs": [
+            "Art25(1)",
+            "Art25(3)"
+          ]
+        }
+      ],
+      "action": [
+        "carry out checks on imported goods",
+        "periodically and automatically communicate import information to the Commission",
+        "cross-check information against the CBAM registry",
+        "communicate information to the competent authority"
+      ],
+      "object": [
+        "specific information on goods declared for importation (EORI number, CBAM account number, CN code, quantity, country of origin, date of declaration, customs procedure)"
+      ],
+      "mediating_function": [
+        "active customs checking and periodic transmission of import data that is institutionally integrated into, and feeds, the Commission's and competent authority's supervision and enforcement of the authorised CBAM declarant's obligations"
+      ],
+      "mechanism": "information_transmission",
+      "relation_type": "intermediated",
+      "confidence": "medium",
+      "external_context_required": false,
+      "coder_note": "[reviewer_attention: conceptual_boundary] This is one of the case-specific candidate structures flagged for careful, skeptical examination. Customs authorities are not a passive data conduit: Recital 43 and Article 25(2) show them actively checking goods and declarant identity under Regulation (EU) No 952/2013, and this checked data is explicitly cross-checked by the Commission against the CBAM registry (Article 25(3)) and factored into the Commission's risk analysis (Article 19(3)) supporting review and enforcement of the declarant. This distinguishes the function from a bare mention or passive relay. However, the customs authorities' primary statutory function (general customs control under Regulation 952/2013) is external to this corpus and only partially reproduced; and one could alternatively read this as parallel, non-hierarchical cooperation between co-regulators (customs authorities and the Commission/competent authority) rather than a distinct mediating role directed at the declarant. Coded as intermediated with medium confidence; reviewer should weigh whether this crosses into 'multiple co-regulators' rather than R-I-T."
+    },
+    {
+      "case_id": "case_02",
+      "celex": "32023R0956",
+      "relation_id": "case_02-rel-005",
+      "source_location": "Article 33(1)-(3)",
+      "evidence_quote": "The customs authorities shall periodically and automatically, in particular by means of the surveillance mechanism established pursuant to Article 56(5) of Regulation (EU) No 952/2013 or by electronic means of data transmission, communicate to the Commission information on imported goods, including processed products resulting from the outward processing procedure.",
+      "R": [
+        {
+          "label": "European Commission",
+          "role": "Receives the customs-communicated information on imported goods and forwards it to the competent authorities of the Member States concerned (Article 33(3)).",
+          "evidence_refs": [
+            "Art33(3)"
+          ]
+        }
+      ],
+      "I": [
+        {
+          "label": "customs authorities",
+          "role": "Inform the importer or indirect customs representative of the reporting obligation and periodically and automatically communicate import information to the Commission during the transitional period.",
+          "evidence_refs": [
+            "Art33(1)",
+            "Art33(2)"
+          ]
+        }
+      ],
+      "T": [
+        {
+          "label": "importer",
+          "role": "Subject to the transitional reporting obligation (Article 35) whose imports are the object of the customs data communicated to the Commission and competent authorities.",
+          "evidence_refs": [
+            "Art33(1)",
+            "Art32"
+          ]
+        },
+        {
+          "label": "indirect customs representative",
+          "role": "Where applicable under Article 32, bears the transitional reporting obligation in the importer's place and is likewise the subject of the customs data communicated.",
+          "evidence_refs": [
+            "Art33(1)",
+            "Art32"
+          ]
+        }
+      ],
+      "action": [
+        "inform importer/indirect customs representative of the reporting obligation",
+        "periodically and automatically communicate import information to the Commission",
+        "forward information to competent authorities of the Member States concerned"
+      ],
+      "object": [
+        "information on imported goods (EORI number, CN code, quantity, country of origin, date of customs declaration, customs procedure)"
+      ],
+      "mediating_function": [
+        "transitional-period equivalent of case_02-rel-004: customs data collection and transmission that supports Commission/competent authority awareness of reporting compliance during the transitional period"
+      ],
+      "mechanism": "information_transmission",
+      "relation_type": "intermediated",
+      "confidence": "medium",
+      "external_context_required": false,
+      "coder_note": "[reviewer_attention: conceptual_boundary] Transitional-period parallel to case_02-rel-004. Confidence is medium for the same reasons as rel-004, tempered further because the transitional regime imposes no verification obligation (Article 8 does not apply until 1 January 2026 per Article 36(2)(b)), so the customs authorities' function here is comparatively thinner (notice-giving plus data relay) rather than the checks described in Recital 43 for the definitive period. Reviewer should consider whether the pure 'inform the importer of an obligation' function (Article 33(1)) is better characterised as a direct notice given by one of the regulatory authorities rather than intermediation; it is included here as the mediating candidate because it is bundled with the data-transmission function in the same article and chapter architecture as rel-004."
+    },
+    {
+      "case_id": "case_02",
+      "celex": "32023R0956",
+      "relation_id": "case_02-rel-006",
+      "source_location": "Article 27(1), (3), (5)",
+      "evidence_quote": "In carrying out the investigation, the Commission may be assisted by the competent authorities and customs authorities.",
+      "R": [
+        {
+          "label": "European Commission",
+          "role": "Takes action against practices of circumvention, continuously monitors the situation, and initiates and concludes investigations into circumvention claims.",
+          "evidence_refs": [
+            "Art27(1)",
+            "Art27(3)",
+            "Art27(5)"
+          ]
+        }
+      ],
+      "I": [
+        {
+          "label": "competent authorities",
+          "role": "May assist the Commission's circumvention investigation; the specific tasks performed are not specified in the text.",
+          "evidence_refs": [
+            "Art27(5)"
+          ]
+        },
+        {
+          "label": "customs authorities",
+          "role": "May assist the Commission's circumvention investigation; the specific tasks performed are not specified in the text.",
+          "evidence_refs": [
+            "Art27(5)"
+          ]
+        }
+      ],
+      "T": [
+        {
+          "label": "operators, exporters or producers engaging in practices of circumvention",
+          "role": "Subject of the Commission's circumvention investigation and, where the investigation is upheld, of anti-circumvention amendments to Annex I.",
+          "evidence_refs": [
+            "Art27(2)",
+            "Art27(6)"
+          ]
+        }
+      ],
+      "action": [
+        "assist the Commission's circumvention investigation"
+      ],
+      "object": [
+        "evidence and data relevant to a circumvention investigation"
+      ],
+      "mediating_function": [
+        "unspecified assistance to a Commission-led investigation"
+      ],
+      "mechanism": "other_mechanism",
+      "relation_type": "uncertain",
+      "confidence": "low",
+      "external_context_required": false,
+      "coder_note": "[reviewer_attention: conceptual_boundary] The text states only that the Commission 'may be assisted by' competent authorities and customs authorities in a circumvention investigation, without describing what that assistance consists of (data supply, on-site checks, legal support, etc.). This is exactly the kind of thin 'assistance' language the codebook warns against converting into intermediation by assumption. Retained in the main matrix (rather than only the uncertainty log) because circumvention enforcement is a materially important part of the Act's architecture and the boundary question is one the secondary reviewer should examine directly. Coded 'uncertain' rather than 'intermediated' because the mediating function (condition D of the reference test) cannot be responsibly specified from this text alone."
+    },
+    {
+      "case_id": "case_02",
+      "celex": "32023R0956",
+      "relation_id": "case_02-rel-007",
+      "source_location": "Article 5(1); Article 17(1)-(3)",
+      "evidence_quote": "Where an application for an authorisation is submitted in accordance with Article 5, the competent authority in the Member State in which the applicant is established shall grant the status of authorised CBAM declarant provided that the criteria set out in paragraph 2 of this Article are complied with.",
+      "R": [
+        {
+          "label": "competent authority",
+          "role": "Grants, refuses or revokes the status of authorised CBAM declarant based on defined criteria.",
+          "evidence_refs": [
+            "Art17(1)",
+            "Art17(3)",
+            "Art17(8)"
+          ]
+        }
+      ],
+      "I": [],
+      "T": [
+        {
+          "label": "importer / indirect customs representative (applicant)",
+          "role": "Applies for and, if granted, holds the status of authorised CBAM declarant.",
+          "evidence_refs": [
+            "Art5(1)",
+            "Art17(1)"
+          ]
+        }
+      ],
+      "action": [
+        "apply for authorisation",
+        "assess criteria",
+        "grant, refuse or revoke authorisation"
+      ],
+      "object": [
+        "status of authorised CBAM declarant",
+        "application for authorisation"
+      ],
+      "mediating_function": [],
+      "mechanism": "other_mechanism",
+      "relation_type": "direct",
+      "confidence": "high",
+      "external_context_required": false,
+      "coder_note": "[reviewer_attention: routine] Direct licensing relationship between the competent authority and the applicant. The consultation procedure involving other Member States' competent authorities and the Commission before granting/revoking (Article 17(1) second subparagraph; Article 17(8) second subparagraph) was considered as a possible intermediary structure and is logged separately in the uncertainty log rather than coded here, because it reads as parallel co-regulator input into the same competent authority's decision rather than a distinct mediating function directed at the applicant. Mechanism taxonomy has no precise 'authorisation/licensing' family; 'other_mechanism' used deliberately."
+    },
+    {
+      "case_id": "case_02",
+      "celex": "32023R0956",
+      "relation_id": "case_02-rel-008",
+      "source_location": "Article 4; Article 25(1)",
+      "evidence_quote": "The customs authorities shall not allow the importation of goods by any person other than an authorised CBAM declarant.",
+      "R": [
+        {
+          "label": "customs authorities",
+          "role": "Directly bar importation of covered goods by anyone other than an authorised CBAM declarant.",
+          "evidence_refs": [
+            "Art25(1)"
+          ]
+        }
+      ],
+      "I": [],
+      "T": [
+        {
+          "label": "person other than an authorised CBAM declarant",
+          "role": "Barred from importing goods listed in Annex I into the customs territory of the Union.",
+          "evidence_refs": [
+            "Art4",
+            "Art25(1)"
+          ]
+        }
+      ],
+      "action": [
+        "refuse to allow importation"
+      ],
+      "object": [
+        "importation of goods listed in Annex I"
+      ],
+      "mediating_function": [],
+      "mechanism": "enforcement_support",
+      "relation_type": "direct",
+      "confidence": "high",
+      "external_context_required": false,
+      "coder_note": "[reviewer_attention: routine] Direct border-control gatekeeping rule with no third-party mediator; customs authorities act as R in their own right here, distinct from their intermediary role in case_02-rel-004/005 where they feed data to the Commission/competent authority regarding a different (authorised) population of declarants."
+    },
+    {
+      "case_id": "case_02",
+      "celex": "32023R0956",
+      "relation_id": "case_02-rel-009",
+      "source_location": "Article 6(1)-(2)",
+      "evidence_quote": "By 31 May of each year, and for the first time in 2027 for the year 2026, each authorised CBAM declarant shall use the CBAM registry referred to in Article 14 to submit a CBAM declaration for the preceding calendar year.",
+      "R": [
+        {
+          "label": "European Commission",
+          "role": "Operates the CBAM registry through which the declaration is submitted and has oversight of declarations (Article 19(1)).",
+          "evidence_refs": [
+            "Art14(1)",
+            "Art19(1)"
+          ]
+        },
+        {
+          "label": "competent authority",
+          "role": "May review CBAM declarations and enforces the certificate-surrender obligation based on them.",
+          "evidence_refs": [
+            "Art19(2)"
+          ]
+        }
+      ],
+      "I": [],
+      "T": [
+        {
+          "label": "authorised CBAM declarant",
+          "role": "Must submit an annual CBAM declaration stating imported quantities, total embedded emissions and certificates to be surrendered.",
+          "evidence_refs": [
+            "Art6(1)",
+            "Art6(2)"
+          ]
+        }
+      ],
+      "action": [
+        "submit annual CBAM declaration via the CBAM registry"
+      ],
+      "object": [
+        "CBAM declaration (quantities of goods imported, total embedded emissions, number of CBAM certificates to be surrendered)"
+      ],
+      "mediating_function": [],
+      "mechanism": "reporting",
+      "relation_type": "direct",
+      "confidence": "high",
+      "external_context_required": false,
+      "coder_note": "[reviewer_attention: routine] Baseline direct reporting obligation. The verification component of the declaration's content (Article 6(2)(b), (d)) is coded separately and intermediated as case_02-rel-001, since it is the verifier, not the declarant or R, that performs the mediating function; this record captures only the declarant's own direct duty to compile and submit the declaration."
+    },
+    {
+      "case_id": "case_02",
+      "celex": "32023R0956",
+      "relation_id": "case_02-rel-010",
+      "source_location": "Article 7(1)-(2), (7); Annex IV",
+      "evidence_quote": "Embedded emissions in goods shall be calculated pursuant to the methods set out in Annex IV.",
+      "R": [
+        {
+          "label": "European Commission",
+          "role": "Sets and further specifies, by implementing acts, the methods for calculating embedded emissions that authorised CBAM declarants and operators must apply.",
+          "evidence_refs": [
+            "Art7(7)",
+            "AnnexIV-1"
+          ]
+        }
+      ],
+      "I": [],
+      "T": [
+        {
+          "label": "authorised CBAM declarant",
+          "role": "Must calculate embedded emissions of imported goods using the Annex IV methods (actual emissions or default values).",
+          "evidence_refs": [
+            "Art7(2)",
+            "Art7(3)"
+          ]
+        },
+        {
+          "label": "operator of an installation in a third country",
+          "role": "Must determine embedded emissions of goods produced at its installation using the Annex IV methods.",
+          "evidence_refs": [
+            "Art10(5)(a)"
+          ]
+        }
+      ],
+      "action": [
+        "calculate embedded emissions using specified methods",
+        "adopt implementing acts specifying calculation methodology"
+      ],
+      "object": [
+        "embedded emissions of goods (direct and indirect)",
+        "calculation methodology, system boundaries, default values"
+      ],
+      "mediating_function": [],
+      "mechanism": "standard_setting",
+      "relation_type": "direct",
+      "confidence": "high",
+      "external_context_required": true,
+      "coder_note": "[reviewer_attention: source_limit] Direct standard-setting relationship: the Commission fixes, by implementing acts, the calculation methodology that declarants and operators must follow. external_context_required is set to true because the substantive default values, system boundaries and mark-ups are to be laid down in implementing acts adopted pursuant to Article 7(7) that are not reproduced in this corpus; the operative obligation to use 'the methods set out in Annex IV' is itself fully supported by the text, but its detailed content depends on acts external to the frozen corpus."
+    },
+    {
+      "case_id": "case_02",
+      "celex": "32023R0956",
+      "relation_id": "case_02-rel-011",
+      "source_location": "Article 8(3); Article 18(1)",
+      "evidence_quote": "The Commission is empowered to adopt implementing acts to identify relevant groups of activities by providing an alignment of the qualifications of an accredited verifier that are necessary to perform verifications for the purpose of this Regulation with the relevant group of activities listed in Annex I to Implementing Regulation (EU) 2018/2067 and indicated in the accreditation certificate.",
+      "R": [
+        {
+          "label": "European Commission",
+          "role": "Sets, by implementing acts, the qualification alignment for accredited verifiers and the application of the Annex VI verification principles (waiver conditions, materiality thresholds, documentation format).",
+          "evidence_refs": [
+            "Art18(1)",
+            "Art8(3)"
+          ]
+        }
+      ],
+      "I": [],
+      "T": [
+        {
+          "label": "accredited verifier",
+          "role": "Subject to the Commission's implementing rules on required qualifications and on the application of verification principles.",
+          "evidence_refs": [
+            "Art18(1)",
+            "Art8(3)"
+          ]
+        }
+      ],
+      "action": [
+        "adopt implementing acts on verifier qualifications and application of verification principles"
+      ],
+      "object": [
+        "qualifications required of an accredited verifier",
+        "waiver of installation visits",
+        "materiality thresholds",
+        "verification report documentation format"
+      ],
+      "mediating_function": [],
+      "mechanism": "standard_setting",
+      "relation_type": "direct",
+      "confidence": "medium",
+      "external_context_required": false,
+      "coder_note": "[reviewer_attention: routine] Shows that the Commission directly regulates the verifier population (T here), a role distinct from its role as R relying on the verifier as I in case_02-rel-001/002. Confidence medium because the concrete implementing acts referenced are not yet reproduced in this corpus; the delegation of the standard-setting function itself, however, is squarely supported by the text."
+    },
+    {
+      "case_id": "case_02",
+      "celex": "32023R0956",
+      "relation_id": "case_02-rel-012",
+      "source_location": "Article 18(2); Recital 47",
+      "evidence_quote": "A national accreditation body may, on request, accredit a person to be a verifier for the purpose of this Regulation where it considers, on the basis of the documentation submitted to it, that such person has the capacity to apply the verification principles referred to in Annex VI when performing the tasks of verification of the embedded emissions pursuant to Articles 8 and 10.",
+      "R": [
+        {
+          "label": "national accreditation body",
+          "role": "Accredits persons as verifiers for the purposes of this Regulation, appointed in accordance with Regulation (EC) No 765/2008.",
+          "evidence_refs": [
+            "Art18(2)",
+            "Recital47"
+          ]
+        }
+      ],
+      "I": [],
+      "T": [
+        {
+          "label": "person seeking accreditation as a verifier",
+          "role": "Must demonstrate the capacity to apply the Annex VI verification principles in order to be accredited.",
+          "evidence_refs": [
+            "Art18(2)"
+          ]
+        }
+      ],
+      "action": [
+        "accredit a person as a verifier"
+      ],
+      "object": [
+        "accreditation decision"
+      ],
+      "mediating_function": [],
+      "mechanism": "accreditation",
+      "relation_type": "direct",
+      "confidence": "high",
+      "external_context_required": true,
+      "coder_note": "[reviewer_attention: source_limit] Direct accreditation relationship establishing the pedigree of the intermediary (accredited verifier) used in case_02-rel-001/002. external_context_required is true because the national accreditation body's own authority derives from Regulation (EC) No 765/2008 and Implementing Regulation (EU) 2018/2067, neither of which is reproduced in this corpus. See also the uncertainty log entry on Article 18(3), which would create a Commission-accreditation body-verifier chain once the relevant delegated acts (not yet adopted) specify conditions for accreditation, oversight and withdrawal."
+    },
+    {
+      "case_id": "case_02",
+      "celex": "32023R0956",
+      "relation_id": "case_02-rel-013",
+      "source_location": "Article 10(1), (3), (4), (8); Article 14(1)-(2); Article 16",
+      "evidence_quote": "The Commission shall, upon request by an operator of an installation located in a third country, register the information on that operator and on its installation in the CBAM registry referred to in Article 14.",
+      "R": [
+        {
+          "label": "European Commission",
+          "role": "Establishes and manages the CBAM registry, registers and deregisters operators and installations, and assigns/closes CBAM accounts for authorised CBAM declarants.",
+          "evidence_refs": [
+            "Art10(1)",
+            "Art14(1)",
+            "Art16(1)",
+            "Art16(4)"
+          ]
+        }
+      ],
+      "I": [],
+      "T": [
+        {
+          "label": "operator of an installation in a third country",
+          "role": "Registered, updated and, on request or Commission initiative, deregistered in the CBAM registry.",
+          "evidence_refs": [
+            "Art10(1)",
+            "Art10(8)"
+          ]
+        },
+        {
+          "label": "authorised CBAM declarant",
+          "role": "Assigned a CBAM account in the registry, which the Commission may close under specified conditions.",
+          "evidence_refs": [
+            "Art16(1)",
+            "Art16(4)"
+          ]
+        }
+      ],
+      "action": [
+        "register operator/installation information",
+        "notify registration",
+        "update or delete registry information",
+        "assign and close CBAM accounts"
+      ],
+      "object": [
+        "CBAM registry data (operator and installation information, CBAM account data)"
+      ],
+      "mediating_function": [],
+      "mechanism": "other_mechanism",
+      "relation_type": "direct",
+      "confidence": "high",
+      "external_context_required": false,
+      "coder_note": "[reviewer_attention: routine] Direct administrative registry-management relationship exercised by the Commission itself, with no third-party mediator; 'other_mechanism' used because registry administration/record-keeping does not correspond precisely to any single enumerated mechanism family."
+    },
+    {
+      "case_id": "case_02",
+      "celex": "32023R0956",
+      "relation_id": "case_02-rel-014",
+      "source_location": "Article 11(1); Article 12",
+      "evidence_quote": "In addition to the other tasks that it exercises under this Regulation, the Commission shall assist the competent authorities in carrying out their functions and duties under this Regulation and shall coordinate their activities by supporting the exchange of, and issuing guidelines on, best practices within the scope of this Regulation, and by promoting an adequate exchange of information and cooperation between competent authorities as well as between competent authorities and the Commission.",
+      "R": [
+        {
+          "label": "European Commission",
+          "role": "Assists and coordinates the competent authorities designated by Member States.",
+          "evidence_refs": [
+            "Art12"
+          ]
+        }
+      ],
+      "I": [],
+      "T": [
+        {
+          "label": "competent authority",
+          "role": "Designated by each Member State to carry out CBAM functions and duties, and the addressee of the Commission's coordination and support.",
+          "evidence_refs": [
+            "Art11(1)",
+            "Art12"
+          ]
+        }
+      ],
+      "action": [
+        "assist competent authorities",
+        "coordinate activities",
+        "issue guidelines",
+        "support exchange of best practices"
+      ],
+      "object": [
+        "functions and duties of competent authorities under this Regulation"
+      ],
+      "mediating_function": [],
+      "mechanism": "coordination",
+      "relation_type": "direct",
+      "confidence": "high",
+      "external_context_required": false,
+      "coder_note": "[reviewer_attention: routine] Direct coordination relationship; the Commission is R and the competent authority is T here (an example of role instability, since competent authorities are R towards declarants elsewhere in the Act, e.g. case_02-rel-007). No third distinct actor mediates the Commission's support/coordination function itself."
+    },
+    {
+      "case_id": "case_02",
+      "celex": "32023R0956",
+      "relation_id": "case_02-rel-015",
+      "source_location": "Article 15",
+      "evidence_quote": "The Commission shall carry out risk-based controls on the data and the transactions recorded in the CBAM registry, referred to in Article 14, to ensure that there are no irregularities in the purchase, holding, surrender, repurchase and cancellation of CBAM certificates.",
+      "R": [
+        {
+          "label": "European Commission",
+          "role": "Carries out risk-based controls on CBAM registry data and informs competent authorities of identified irregularities.",
+          "evidence_refs": [
+            "Art15(1)",
+            "Art15(2)"
+          ]
+        },
+        {
+          "label": "competent authority",
+          "role": "Carries out further investigations to correct irregularities identified by the Commission.",
+          "evidence_refs": [
+            "Art15(2)"
+          ]
+        }
+      ],
+      "I": [],
+      "T": [
+        {
+          "label": "authorised CBAM declarant",
+          "role": "Subject of the risk-based controls and any resulting investigation into irregularities in its CBAM certificate transactions.",
+          "evidence_refs": [
+            "Art15(1)"
+          ]
+        }
+      ],
+      "action": [
+        "carry out risk-based controls",
+        "inform competent authority of irregularities",
+        "carry out further investigations to correct irregularities"
+      ],
+      "object": [
+        "data and transactions recorded in the CBAM registry (purchase, holding, surrender, repurchase, cancellation of certificates)"
+      ],
+      "mediating_function": [],
+      "mechanism": "monitoring_supervision",
+      "relation_type": "direct",
+      "confidence": "medium",
+      "external_context_required": false,
+      "coder_note": "[reviewer_attention: conceptual_boundary] Seriously considered as an intermediated relation with the competent authority cast as I performing 'further investigations' on the Commission's behalf. Rejected in favour of 'direct' because, throughout the Act, the competent authority otherwise acts as a primary co-regulator of the declarant (authorisation, enforcement, penalties) rather than as a third party mediating a Commission-declarant relationship, and Article 15 does not describe a distinct mediating function beyond the competent authority's ordinary investigative role. Logged here and in the uncertainty log for reviewer visibility."
+    },
+    {
+      "case_id": "case_02",
+      "celex": "32023R0956",
+      "relation_id": "case_02-rel-016",
+      "source_location": "Article 19(1)-(2)",
+      "evidence_quote": "The Commission shall have the oversight role in the review of CBAM declarations.",
+      "R": [
+        {
+          "label": "European Commission",
+          "role": "Has the oversight role in reviewing CBAM declarations, including verifying information and carrying out audits, including at the declarant's premises.",
+          "evidence_refs": [
+            "Art19(1)",
+            "Art19(2)"
+          ]
+        },
+        {
+          "label": "competent authority",
+          "role": "May also review a CBAM declaration of a declarant established in its Member State.",
+          "evidence_refs": [
+            "Art19(2)"
+          ]
+        }
+      ],
+      "I": [],
+      "T": [
+        {
+          "label": "authorised CBAM declarant",
+          "role": "Subject of the review of its CBAM declaration, including possible audit at its premises.",
+          "evidence_refs": [
+            "Art19(2)"
+          ]
+        }
+      ],
+      "action": [
+        "review CBAM declarations",
+        "verify information provided",
+        "carry out audits, including at the declarant's premises"
+      ],
+      "object": [
+        "CBAM declaration",
+        "verification reports",
+        "other relevant evidence"
+      ],
+      "mediating_function": [],
+      "mechanism": "monitoring_supervision",
+      "relation_type": "direct",
+      "confidence": "high",
+      "external_context_required": false,
+      "coder_note": "[reviewer_attention: routine] Direct supervisory relationship. The verification reports referenced as review material (Article 19(2), second subparagraph) are produced by the accredited verifier coded separately in case_02-rel-001; this record captures only the Commission's/competent authority's own direct review and audit powers over the declarant."
+    },
+    {
+      "case_id": "case_02",
+      "celex": "32023R0956",
+      "relation_id": "case_02-rel-017",
+      "source_location": "Article 20(1)-(2); Article 21(1)-(2); Article 22(1)-(2); Article 23(1)-(2); Article 24",
+      "evidence_quote": "A Member State shall sell CBAM certificates on a common central platform to authorised CBAM declarants established in that Member State.",
+      "R": [
+        {
+          "label": "Member State",
+          "role": "Sells CBAM certificates to authorised CBAM declarants and, on request, repurchases excess certificates.",
+          "evidence_refs": [
+            "Art20(1)",
+            "Art23(1)"
+          ]
+        },
+        {
+          "label": "European Commission",
+          "role": "Establishes and manages the common central platform, calculates and publishes the certificate price, cancels unused certificates.",
+          "evidence_refs": [
+            "Art20(2)",
+            "Art21(1)-(2)",
+            "Art24"
+          ]
+        }
+      ],
+      "I": [],
+      "T": [
+        {
+          "label": "authorised CBAM declarant",
+          "role": "Purchases, surrenders, may request repurchase of, and is subject to cancellation of, CBAM certificates.",
+          "evidence_refs": [
+            "Art20(1)",
+            "Art22(1)-(2)",
+            "Art23(1)"
+          ]
+        }
+      ],
+      "action": [
+        "sell certificates",
+        "calculate and publish certificate price",
+        "surrender certificates",
+        "repurchase excess certificates",
+        "cancel unused certificates"
+      ],
+      "object": [
+        "CBAM certificates"
+      ],
+      "mediating_function": [],
+      "mechanism": "other_mechanism",
+      "relation_type": "direct",
+      "confidence": "high",
+      "external_context_required": false,
+      "coder_note": "[reviewer_attention: routine] Bundles Articles 20-24 into one record describing the direct administration of the CBAM certificate market-based instrument between the Member State/Commission and the authorised CBAM declarant, since these provisions form a single coherent architecture with the same R and T and no intermediary; kept as one row rather than five to avoid inflating the matrix with mechanically repetitive entries, per the instruction to be selective given the Act's length. 'other_mechanism' used because certificate-market administration does not correspond to a single enumerated mechanism family."
+    },
+    {
+      "case_id": "case_02",
+      "celex": "32023R0956",
+      "relation_id": "case_02-rel-018",
+      "source_location": "Article 26(1)-(6)",
+      "evidence_quote": "An authorised CBAM declarant who fails to surrender, by 31 May of each year, the number of CBAM certificates that corresponds to the emissions embedded in goods imported during the preceding calendar year shall be held liable for the payment of a penalty.",
+      "R": [
+        {
+          "label": "competent authority",
+          "role": "Determines non-compliance and imposes penalties for failure to surrender CBAM certificates or for unauthorised importation.",
+          "evidence_refs": [
+            "Art26(4)",
+            "Art26(5)"
+          ]
+        }
+      ],
+      "I": [],
+      "T": [
+        {
+          "label": "authorised CBAM declarant",
+          "role": "Liable for a penalty for failing to surrender the required number of CBAM certificates.",
+          "evidence_refs": [
+            "Art26(1)"
+          ]
+        },
+        {
+          "label": "person other than an authorised CBAM declarant who introduces goods without complying with the obligations under this Regulation",
+          "role": "Liable for a higher penalty for unauthorised importation.",
+          "evidence_refs": [
+            "Art26(2)"
+          ]
+        }
+      ],
+      "action": [
+        "impose penalty",
+        "notify reasons and right of appeal",
+        "secure payment of penalty"
+      ],
+      "object": [
+        "penalty for non-compliance with certificate-surrender or importation obligations"
+      ],
+      "mediating_function": [],
+      "mechanism": "enforcement_support",
+      "relation_type": "direct",
+      "confidence": "high",
+      "external_context_required": false,
+      "coder_note": "[reviewer_attention: routine] Direct enforcement relationship; the Commission's preliminary calculations under Article 19 may inform the competent authority's determination (Article 26(4)) but do not constitute a distinct third-party mediating function here, since the Commission is already coded as a direct co-regulator of the declarant elsewhere (case_02-rel-016)."
+    },
+    {
+      "case_id": "case_02",
+      "celex": "32023R0956",
+      "relation_id": "case_02-rel-019",
+      "source_location": "Article 27(1)-(3), (6)",
+      "evidence_quote": "The Commission shall take action in accordance with this Article, based on relevant and objective data, to address practices of circumvention of this Regulation.",
+      "R": [
+        {
+          "label": "European Commission",
+          "role": "Monitors, investigates and takes action against practices of circumvention, and may amend Annex I to include slightly modified goods for anti-circumvention purposes.",
+          "evidence_refs": [
+            "Art27(1)",
+            "Art27(3)",
+            "Art27(6)"
+          ]
+        }
+      ],
+      "I": [],
+      "T": [
+        {
+          "label": "operators, exporters or producers engaging in practices of circumvention",
+          "role": "Subject to Commission monitoring and, where relevant, to the extension of Annex I to their slightly modified goods.",
+          "evidence_refs": [
+            "Art27(2)",
+            "Art27(6)"
+          ]
+        }
+      ],
+      "action": [
+        "continuously monitor the situation",
+        "investigate practices of circumvention",
+        "amend Annex I to add slightly modified goods"
+      ],
+      "object": [
+        "practices of circumvention (modification of goods, splitting of shipments, changes in trade patterns)"
+      ],
+      "mediating_function": [],
+      "mechanism": "monitoring_supervision",
+      "relation_type": "direct",
+      "confidence": "high",
+      "external_context_required": false,
+      "coder_note": "[reviewer_attention: routine] Direct monitoring/standard-setting relationship; the possible assistance of competent authorities and customs authorities in an individual investigation is coded separately and conservatively as uncertain (case_02-rel-006), and notifications by Member States or interested parties are logged in the uncertainty log rather than coded as intermediation."
+    },
+    {
+      "case_id": "case_02",
+      "celex": "32023R0956",
+      "relation_id": "case_02-rel-020",
+      "source_location": "Article 2(6)-(9); Annex III",
+      "evidence_quote": "Third countries and territories shall be listed in point 1 of Annex III where they fulfil all the following conditions:",
+      "R": [
+        {
+          "label": "European Commission",
+          "role": "Assesses whether a third country or territory fulfils the conditions for listing, continued listing, or removal from Annex III with regard to electricity, based on roadmaps and periodic reports it receives.",
+          "evidence_refs": [
+            "Art2(8)",
+            "Art2(9)"
+          ]
+        }
+      ],
+      "I": [],
+      "T": [
+        {
+          "label": "third country or territory",
+          "role": "Subject to Commission assessment of its carbon-pricing and decarbonisation commitments for the purpose of exemption from, or subjection to, the CBAM.",
+          "evidence_refs": [
+            "Art2(6)",
+            "Art2(7)",
+            "Art2(9)"
+          ]
+        }
+      ],
+      "action": [
+        "assess fulfilment of conditions",
+        "list, maintain listing of, or remove from Annex III"
+      ],
+      "object": [
+        "roadmap and periodic reports on fulfilment of conditions",
+        "listing status in Annex III"
+      ],
+      "mediating_function": [],
+      "mechanism": "monitoring_supervision",
+      "relation_type": "direct",
+      "confidence": "medium",
+      "external_context_required": false,
+      "coder_note": "[reviewer_attention: conceptual_boundary] T here is a third country or territory rather than a private economic actor; retained because the Regulation clearly treats it as an addressee of an ongoing regulatory assessment (fulfilment of conditions, submission of reports and a roadmap, possible removal from the exempted list) rather than as a mere geographic scope parameter. Confidence medium given the unusual nature of a state/territory as T under this construct."
+    },
+    {
+      "case_id": "case_02",
+      "celex": "32023R0956",
+      "relation_id": "case_02-rel-021",
+      "source_location": "Article 32; Article 34; Article 35(1)-(2)",
+      "evidence_quote": "Each importer or, in the situations covered by Article 32, the indirect customs representative, having imported goods during a given quarter of a calendar year shall, for that quarter, submit a report",
+      "R": [
+        {
+          "label": "European Commission",
+          "role": "Receives the quarterly CBAM report directly from the importer or indirect customs representative during the transitional period.",
+          "evidence_refs": [
+            "Art35(1)"
+          ]
+        }
+      ],
+      "I": [],
+      "T": [
+        {
+          "label": "importer",
+          "role": "Must submit a quarterly CBAM report to the Commission during the transitional period.",
+          "evidence_refs": [
+            "Art32",
+            "Art35(1)"
+          ]
+        },
+        {
+          "label": "indirect customs representative",
+          "role": "Bears the reporting obligation in the importer's place where Article 32 applies.",
+          "evidence_refs": [
+            "Art32",
+            "Art35(1)"
+          ]
+        }
+      ],
+      "action": [
+        "submit quarterly CBAM report to the Commission"
+      ],
+      "object": [
+        "CBAM report (quantities, actual/default embedded emissions, indirect emissions, carbon price paid abroad)"
+      ],
+      "mediating_function": [],
+      "mechanism": "reporting",
+      "relation_type": "direct",
+      "confidence": "high",
+      "external_context_required": false,
+      "coder_note": "[reviewer_attention: routine] Direct transitional-period reporting obligation, self-reported with no verification requirement (Article 8 verification does not apply until 1 January 2026 under Article 36(2)(b)); distinguishes this record from the definitive-period, verification-backed reporting captured in case_02-rel-001/009."
+    },
+    {
+      "case_id": "case_02",
+      "celex": "32023R0956",
+      "relation_id": "case_02-rel-022",
+      "source_location": "Article 35(3)-(6)",
+      "evidence_quote": "The Commission shall periodically communicate to the relevant competent authorities a list of those importers or indirect customs representatives established in the Member State, including the corresponding justifications, which it has reasons to believe have failed to comply with the obligation to submit a CBAM report in accordance with paragraph 1.",
+      "R": [
+        {
+          "label": "European Commission",
+          "role": "Identifies incomplete, incorrect or missing CBAM reports and communicates the relevant information to the competent authority.",
+          "evidence_refs": [
+            "Art35(3)",
+            "Art35(4)"
+          ]
+        },
+        {
+          "label": "competent authority",
+          "role": "Initiates the correction procedure and imposes penalties for failure to report or correct a CBAM report.",
+          "evidence_refs": [
+            "Art35(4)",
+            "Art35(5)"
+          ]
+        }
+      ],
+      "I": [],
+      "T": [
+        {
+          "label": "importer",
+          "role": "Subject to the correction procedure and to penalties for failing to submit or correct a CBAM report.",
+          "evidence_refs": [
+            "Art35(4)",
+            "Art35(5)"
+          ]
+        },
+        {
+          "label": "indirect customs representative",
+          "role": "Subject to the same correction procedure and penalties where Article 32 applies.",
+          "evidence_refs": [
+            "Art35(4)",
+            "Art35(5)"
+          ]
+        }
+      ],
+      "action": [
+        "identify incomplete/incorrect/missing reports",
+        "communicate additional information needed",
+        "initiate correction procedure",
+        "impose penalty"
+      ],
+      "object": [
+        "CBAM report content",
+        "penalty for non-compliance"
+      ],
+      "mediating_function": [],
+      "mechanism": "enforcement_support",
+      "relation_type": "direct",
+      "confidence": "high",
+      "external_context_required": false,
+      "coder_note": "[reviewer_attention: routine] Direct two-regulator enforcement chain during the transitional period, structurally parallel to Article 19/Article 26 for the definitive period (case_02-rel-016/018), with no third-party intermediary."
+    }
+  ],
+  "uncertainties": [
+    {
+      "uncertainty_id": "case_02-unc-001",
+      "source_location": "Article 18(3)",
+      "evidence_quote": "The Commission is empowered to adopt delegated acts in accordance with Article 28 in order to supplement this Regulation by specifying the conditions for granting of accreditation referred to in paragraph 2 of this Article, for the control and oversight of accredited verifiers, for the withdrawal of accreditation and for mutual recognition and peer evaluation of accreditation bodies.",
+      "issue_type": "external_context / future_delegated_act",
+      "description": "Article 18(3) anticipates a future Commission delegated act specifying conditions for accreditation, control and oversight of accredited verifiers, withdrawal of accreditation, and mutual recognition/peer evaluation of accreditation bodies. If and when adopted, that act could establish a Commission (R) - national accreditation body (I) - verifier (T) intermediated chain distinct from the direct accreditation relation coded as case_02-rel-012. The delegated act is not reproduced in this corpus and does not yet exist as operative text, so no intermediated relation is coded for it; only the direct, currently operative accreditation function (Article 18(2)) is coded.",
+      "external_context_required": true
+    },
+    {
+      "uncertainty_id": "case_02-unc-002",
+      "source_location": "Article 11(2)",
+      "evidence_quote": "Competent authorities shall exchange any information that is essential or relevant to the exercise of their functions and duties under this Regulation.",
+      "issue_type": "horizontal_coordination_not_R_T",
+      "description": "Peer-to-peer information exchange among competent authorities of different Member States. Considered as a possible R-I-T candidate but rejected: the relation is horizontal (same class of actor on both sides, no distinct target being regulated) rather than a hierarchical regulator-target relation, and no third distinct mediating actor is described.",
+      "external_context_required": false
+    },
+    {
+      "uncertainty_id": "case_02-unc-003",
+      "source_location": "Article 17(1) second subparagraph; Article 17(8) second subparagraph",
+      "evidence_quote": "Before granting the status of authorised CBAM declarant, the competent authority shall conduct a consultation procedure on the application for an authorisation via the CBAM registry. The consultation procedure shall involve the competent authorities in the other Member States and the Commission and shall not exceed 15 working days.",
+      "issue_type": "advice_vs_mediation",
+      "description": "Other Member States' competent authorities and the Commission are consulted before the competent authority grants or revokes authorised-CBAM-declarant status. Considered as a possible intermediary structure (consulted authorities as I) but treated as part of the direct relation between the deciding competent authority and the applicant (case_02-rel-007), because the consultation reads as parallel co-regulator input into the same decision rather than a distinct, textually demonstrated mediating function directed at the applicant.",
+      "external_context_required": false
+    },
+    {
+      "uncertainty_id": "case_02-unc-004",
+      "source_location": "Recital 72",
+      "evidence_quote": "The Climate Club should also support the comparability of relevant climate measures by ensuring the quality of climate monitoring, reporting and verification among its members and providing means for engagement and transparency between the Union and its trade partners.",
+      "issue_type": "recital_only / not_yet_operative",
+      "description": "Recital 72 describes an aspirational 'Climate Club' forum that would support the quality of monitoring, reporting and verification among its (third-country) members, which if operative could resemble an intermediary structure between the Union and third countries. However, this exists only as recital language ('should be set up'); no operative article in this corpus establishes the Climate Club, its membership, or its powers. No relation is coded. Should the Climate Club be established and given a documented mediating function in some other legal instrument, that instrument is external to this corpus.",
+      "external_context_required": true
+    },
+    {
+      "uncertainty_id": "case_02-unc-005",
+      "source_location": "Article 27(4)",
+      "evidence_quote": "Interested parties other than directly affected or benefited parties, such as environmental organisations and non-governmental organisations, which find concrete evidence of practices of circumvention may also notify the Commission.",
+      "issue_type": "advice_vs_mediation / voluntary_informant",
+      "description": "Member States and interested parties, including NGOs, may voluntarily notify the Commission of circumvention practices, potentially triggering an investigation. Considered as an informational intermediary candidate (transmitting information between T's conduct and R's enforcement) but treated as insufficiently institutionalised to code as intermediation: notification is voluntary, the notifying party is not accredited, qualified, or otherwise integrated into the regulatory architecture (unlike accredited verifiers), and the text does not describe a demonstrated, recurring mediating function, only an ad hoc trigger mechanism. Retained as a borderline case for reviewer attention rather than coded as intermediated.",
+      "external_context_required": false
+    },
+    {
+      "uncertainty_id": "case_02-unc-006",
+      "source_location": "Annex IV, point 5(d)-(e)",
+      "evidence_quote": "the amount of electricity for which the use of actual embedded emissions is claimed has been firmly nominated to the allocated interconnection capacity by all responsible transmission system operators in the country of origin, the country of destination and, if relevant, each country of transit, and the nominated capacity and the production of electricity by the installation refer to the same period of time, which shall not be longer than one hour",
+      "issue_type": "advice_vs_mediation / rejected_intermediary",
+      "description": "Transmission system operators perform the technical act of firmly nominating interconnection capacity, a fact used as one of several cumulative criteria for a declarant's claim to use actual (rather than default) embedded emissions for imported electricity; fulfilment of all criteria, including this one, is then certified by the accredited verifier (already coded in case_02-rel-001 and the calculation-standard-setting record case_02-rel-010). TSOs were considered as a possible additional intermediary but rejected: their nomination is an ordinary grid/market-operation act under separate electricity-market rules (not reproduced in this corpus), not a demonstrated CBAM-specific verifying, reporting or certifying function; the actual certifying function for CBAM purposes is performed by the accredited verifier alone.",
+      "external_context_required": true
+    },
+    {
+      "uncertainty_id": "case_02-unc-007",
+      "source_location": "Article 30(2)-(6)",
+      "evidence_quote": "the Commission shall present a report to the European Parliament and to the Council on the application of this Regulation",
+      "issue_type": "institutional_accountability_not_R_T",
+      "description": "The Commission's periodic reporting to the European Parliament and the Council on the application and functioning of the CBAM is a legislative-accountability obligation, not a regulatory relationship directed at a regulated target within the meaning of this construct (the European Parliament and Council are not a regulated 'T' here). Excluded from the main matrix as not a codable R-I-T relation.",
+      "external_context_required": false
+    },
+    {
+      "uncertainty_id": "case_02-unc-008",
+      "source_location": "Recitals 73-74",
+      "evidence_quote": "The Union should continue to support those countries through the Union budget, especially LDCs, in order to contribute to ensuring their adaptation to the obligations under this Regulation.",
+      "issue_type": "programmatic_support_not_regulatory",
+      "description": "Recitals describing Union financial and technical support to least-developed countries' decarbonisation are programmatic/financial assistance, not a regulatory relationship exercising a regulatory function over a target's conduct. No operative article in this corpus establishes concrete obligations along this line beyond the general commitments described in the recitals. No relation coded; noted for completeness given the recitals' prominence in the Act's stated external dimension.",
+      "external_context_required": false
+    },
+    {
+      "uncertainty_id": "case_02-unc-009",
+      "source_location": "Article 2(12)",
+      "evidence_quote": "The Union may conclude agreements with third countries or territories with a view to taking into account carbon pricing mechanisms in such countries or territories for the purposes of the application of Article 9.",
+      "issue_type": "external_context / future_agreement",
+      "description": "This is a discretionary, forward-looking power to conclude international agreements bearing on the Article 9 carbon-price reduction mechanism. Any such agreement's content, and how it would affect the R-I-T architecture of Article 9 (already coded as case_02-rel-003), is external to and unspecified in this corpus.",
+      "external_context_required": true
+    },
+    {
+      "uncertainty_id": "case_02-unc-010",
+      "source_location": "Article 18(3)",
+      "evidence_quote": "mutual recognition and peer evaluation of the accreditation bodies",
+      "issue_type": "horizontal_coordination / external_context",
+      "description": "Mutual recognition and peer evaluation among national accreditation bodies of different Member States is a horizontal, peer-to-peer arrangement to be further specified by a future Commission delegated act not reproduced in this corpus. Not coded as a relation; flagged for completeness alongside case_02-unc-001.",
+      "external_context_required": true
+    },
+    {
+      "uncertainty_id": "case_02-unc-011",
+      "source_location": "Article 9(2); Article 9(4)",
+      "evidence_quote": "The name and contact information of that independent person shall appear on the documentation.",
+      "issue_type": "conceptual_boundary / thin_qualification_regime",
+      "description": "Supplementary note to case_02-rel-003 (coded intermediated, medium confidence): unlike the Article 18 verifier accreditation regime, this Regulation defines no qualification, accreditation or oversight standard for the 'independent person' who certifies carbon-price documentation beyond bare independence from the declarant and the country-of-origin authorities; the implementing act on the person's qualifications and on ascertaining independence (Article 9(4)) is not yet adopted and is external to this corpus. Flagged so the secondary reviewer can weigh whether this thinner institutional basis should downgrade rel-003 to 'uncertain'.",
+      "external_context_required": true
+    }
+  ]
+}

@@ -1,0 +1,1334 @@
+{
+  "run_started_utc": "2026-09-06T19:54:20.856300+00:00",
+  "provider": "dry_run",
+  "model": "dry-run-v4",
+  "sample_units": 20,
+  "stage_c_units": 7,
+  "runs_per_unit": 3,
+  "note": "Dry-run outputs are schema smoke tests only and are not substantive findings. Real API run was unavailable if provider=openai returns an account/quota error.",
+  "sample": [
+    {
+      "unit_id": "AUD-01",
+      "source_celex": "32010R0066",
+      "article": "PREAMBLE",
+      "a2_consistency": {
+        "stage": "a2",
+        "unit_id": "AUD-01",
+        "n_runs": 3,
+        "fields_checked": [
+          "ai_candidate",
+          "candidate_mechanism"
+        ],
+        "status": "STABLE",
+        "human_review_required": false,
+        "disagreements": {},
+        "output_hashes": [
+          "75f82b68b9a3c2d814e92698351e08881aced17970ffaa97cdf0e382d5be08c3",
+          "75f82b68b9a3c2d814e92698351e08881aced17970ffaa97cdf0e382d5be08c3",
+          "75f82b68b9a3c2d814e92698351e08881aced17970ffaa97cdf0e382d5be08c3"
+        ]
+      },
+      "b1_consistency": {
+        "stage": "b1",
+        "unit_id": "AUD-01",
+        "n_runs": 3,
+        "fields_checked": [],
+        "status": "STABLE",
+        "human_review_required": false,
+        "disagreements": {},
+        "output_hashes": [
+          "b9e58bc7cee312c72cc31de6f8415d06d680eff579398fa0c2cf4280d70d50fb",
+          "b9e58bc7cee312c72cc31de6f8415d06d680eff579398fa0c2cf4280d70d50fb",
+          "b9e58bc7cee312c72cc31de6f8415d06d680eff579398fa0c2cf4280d70d50fb"
+        ]
+      },
+      "b2_consistency": {
+        "stage": "b2",
+        "unit_id": "AUD-01",
+        "n_runs": 3,
+        "fields_checked": [
+          "relational_test_result",
+          "R_actor",
+          "I_actor",
+          "T_actor",
+          "primary_mechanism"
+        ],
+        "status": "STABLE",
+        "human_review_required": false,
+        "disagreements": {},
+        "output_hashes": [
+          "e14fc0bf3895dea022da95d30ef85d0c499356fb21206ac3e13e73064fcc3777",
+          "e14fc0bf3895dea022da95d30ef85d0c499356fb21206ac3e13e73064fcc3777",
+          "e14fc0bf3895dea022da95d30ef85d0c499356fb21206ac3e13e73064fcc3777"
+        ]
+      },
+      "provider": "dry_run",
+      "model": "dry-run-v4"
+    },
+    {
+      "unit_id": "AUD-02",
+      "source_celex": "32010R0066",
+      "article": "Article 13",
+      "a2_consistency": {
+        "stage": "a2",
+        "unit_id": "AUD-02",
+        "n_runs": 3,
+        "fields_checked": [
+          "ai_candidate",
+          "candidate_mechanism"
+        ],
+        "status": "STABLE",
+        "human_review_required": false,
+        "disagreements": {},
+        "output_hashes": [
+          "75f82b68b9a3c2d814e92698351e08881aced17970ffaa97cdf0e382d5be08c3",
+          "75f82b68b9a3c2d814e92698351e08881aced17970ffaa97cdf0e382d5be08c3",
+          "75f82b68b9a3c2d814e92698351e08881aced17970ffaa97cdf0e382d5be08c3"
+        ]
+      },
+      "b1_consistency": {
+        "stage": "b1",
+        "unit_id": "AUD-02",
+        "n_runs": 3,
+        "fields_checked": [],
+        "status": "STABLE",
+        "human_review_required": false,
+        "disagreements": {},
+        "output_hashes": [
+          "b9e58bc7cee312c72cc31de6f8415d06d680eff579398fa0c2cf4280d70d50fb",
+          "b9e58bc7cee312c72cc31de6f8415d06d680eff579398fa0c2cf4280d70d50fb",
+          "b9e58bc7cee312c72cc31de6f8415d06d680eff579398fa0c2cf4280d70d50fb"
+        ]
+      },
+      "b2_consistency": {
+        "stage": "b2",
+        "unit_id": "AUD-02",
+        "n_runs": 3,
+        "fields_checked": [
+          "relational_test_result",
+          "R_actor",
+          "I_actor",
+          "T_actor",
+          "primary_mechanism"
+        ],
+        "status": "STABLE",
+        "human_review_required": false,
+        "disagreements": {},
+        "output_hashes": [
+          "e14fc0bf3895dea022da95d30ef85d0c499356fb21206ac3e13e73064fcc3777",
+          "e14fc0bf3895dea022da95d30ef85d0c499356fb21206ac3e13e73064fcc3777",
+          "e14fc0bf3895dea022da95d30ef85d0c499356fb21206ac3e13e73064fcc3777"
+        ]
+      },
+      "provider": "dry_run",
+      "model": "dry-run-v4"
+    },
+    {
+      "unit_id": "AUD-03",
+      "source_celex": "32010R0066",
+      "article": "Article 14",
+      "a2_consistency": {
+        "stage": "a2",
+        "unit_id": "AUD-03",
+        "n_runs": 3,
+        "fields_checked": [
+          "ai_candidate",
+          "candidate_mechanism"
+        ],
+        "status": "STABLE",
+        "human_review_required": false,
+        "disagreements": {},
+        "output_hashes": [
+          "75f82b68b9a3c2d814e92698351e08881aced17970ffaa97cdf0e382d5be08c3",
+          "75f82b68b9a3c2d814e92698351e08881aced17970ffaa97cdf0e382d5be08c3",
+          "75f82b68b9a3c2d814e92698351e08881aced17970ffaa97cdf0e382d5be08c3"
+        ]
+      },
+      "b1_consistency": {
+        "stage": "b1",
+        "unit_id": "AUD-03",
+        "n_runs": 3,
+        "fields_checked": [],
+        "status": "STABLE",
+        "human_review_required": false,
+        "disagreements": {},
+        "output_hashes": [
+          "b9e58bc7cee312c72cc31de6f8415d06d680eff579398fa0c2cf4280d70d50fb",
+          "b9e58bc7cee312c72cc31de6f8415d06d680eff579398fa0c2cf4280d70d50fb",
+          "b9e58bc7cee312c72cc31de6f8415d06d680eff579398fa0c2cf4280d70d50fb"
+        ]
+      },
+      "b2_consistency": {
+        "stage": "b2",
+        "unit_id": "AUD-03",
+        "n_runs": 3,
+        "fields_checked": [
+          "relational_test_result",
+          "R_actor",
+          "I_actor",
+          "T_actor",
+          "primary_mechanism"
+        ],
+        "status": "STABLE",
+        "human_review_required": false,
+        "disagreements": {},
+        "output_hashes": [
+          "e14fc0bf3895dea022da95d30ef85d0c499356fb21206ac3e13e73064fcc3777",
+          "e14fc0bf3895dea022da95d30ef85d0c499356fb21206ac3e13e73064fcc3777",
+          "e14fc0bf3895dea022da95d30ef85d0c499356fb21206ac3e13e73064fcc3777"
+        ]
+      },
+      "provider": "dry_run",
+      "model": "dry-run-v4"
+    },
+    {
+      "unit_id": "AUD-04",
+      "source_celex": "32010R0066",
+      "article": "Article 4",
+      "a2_consistency": {
+        "stage": "a2",
+        "unit_id": "AUD-04",
+        "n_runs": 3,
+        "fields_checked": [
+          "ai_candidate",
+          "candidate_mechanism"
+        ],
+        "status": "STABLE",
+        "human_review_required": false,
+        "disagreements": {},
+        "output_hashes": [
+          "75f82b68b9a3c2d814e92698351e08881aced17970ffaa97cdf0e382d5be08c3",
+          "75f82b68b9a3c2d814e92698351e08881aced17970ffaa97cdf0e382d5be08c3",
+          "75f82b68b9a3c2d814e92698351e08881aced17970ffaa97cdf0e382d5be08c3"
+        ]
+      },
+      "b1_consistency": {
+        "stage": "b1",
+        "unit_id": "AUD-04",
+        "n_runs": 3,
+        "fields_checked": [],
+        "status": "STABLE",
+        "human_review_required": false,
+        "disagreements": {},
+        "output_hashes": [
+          "b9e58bc7cee312c72cc31de6f8415d06d680eff579398fa0c2cf4280d70d50fb",
+          "b9e58bc7cee312c72cc31de6f8415d06d680eff579398fa0c2cf4280d70d50fb",
+          "b9e58bc7cee312c72cc31de6f8415d06d680eff579398fa0c2cf4280d70d50fb"
+        ]
+      },
+      "b2_consistency": {
+        "stage": "b2",
+        "unit_id": "AUD-04",
+        "n_runs": 3,
+        "fields_checked": [
+          "relational_test_result",
+          "R_actor",
+          "I_actor",
+          "T_actor",
+          "primary_mechanism"
+        ],
+        "status": "STABLE",
+        "human_review_required": false,
+        "disagreements": {},
+        "output_hashes": [
+          "e14fc0bf3895dea022da95d30ef85d0c499356fb21206ac3e13e73064fcc3777",
+          "e14fc0bf3895dea022da95d30ef85d0c499356fb21206ac3e13e73064fcc3777",
+          "e14fc0bf3895dea022da95d30ef85d0c499356fb21206ac3e13e73064fcc3777"
+        ]
+      },
+      "provider": "dry_run",
+      "model": "dry-run-v4"
+    },
+    {
+      "unit_id": "AUD-05",
+      "source_celex": "32018R2067",
+      "article": "Article 2",
+      "a2_consistency": {
+        "stage": "a2",
+        "unit_id": "AUD-05",
+        "n_runs": 3,
+        "fields_checked": [
+          "ai_candidate",
+          "candidate_mechanism"
+        ],
+        "status": "STABLE",
+        "human_review_required": false,
+        "disagreements": {},
+        "output_hashes": [
+          "75f82b68b9a3c2d814e92698351e08881aced17970ffaa97cdf0e382d5be08c3",
+          "75f82b68b9a3c2d814e92698351e08881aced17970ffaa97cdf0e382d5be08c3",
+          "75f82b68b9a3c2d814e92698351e08881aced17970ffaa97cdf0e382d5be08c3"
+        ]
+      },
+      "b1_consistency": {
+        "stage": "b1",
+        "unit_id": "AUD-05",
+        "n_runs": 3,
+        "fields_checked": [],
+        "status": "STABLE",
+        "human_review_required": false,
+        "disagreements": {},
+        "output_hashes": [
+          "b9e58bc7cee312c72cc31de6f8415d06d680eff579398fa0c2cf4280d70d50fb",
+          "b9e58bc7cee312c72cc31de6f8415d06d680eff579398fa0c2cf4280d70d50fb",
+          "b9e58bc7cee312c72cc31de6f8415d06d680eff579398fa0c2cf4280d70d50fb"
+        ]
+      },
+      "b2_consistency": {
+        "stage": "b2",
+        "unit_id": "AUD-05",
+        "n_runs": 3,
+        "fields_checked": [
+          "relational_test_result",
+          "R_actor",
+          "I_actor",
+          "T_actor",
+          "primary_mechanism"
+        ],
+        "status": "STABLE",
+        "human_review_required": false,
+        "disagreements": {},
+        "output_hashes": [
+          "e14fc0bf3895dea022da95d30ef85d0c499356fb21206ac3e13e73064fcc3777",
+          "e14fc0bf3895dea022da95d30ef85d0c499356fb21206ac3e13e73064fcc3777",
+          "e14fc0bf3895dea022da95d30ef85d0c499356fb21206ac3e13e73064fcc3777"
+        ]
+      },
+      "provider": "dry_run",
+      "model": "dry-run-v4"
+    },
+    {
+      "unit_id": "AUD-06",
+      "source_celex": "32018R2067",
+      "article": "Article 26",
+      "a2_consistency": {
+        "stage": "a2",
+        "unit_id": "AUD-06",
+        "n_runs": 3,
+        "fields_checked": [
+          "ai_candidate",
+          "candidate_mechanism"
+        ],
+        "status": "STABLE",
+        "human_review_required": false,
+        "disagreements": {},
+        "output_hashes": [
+          "75f82b68b9a3c2d814e92698351e08881aced17970ffaa97cdf0e382d5be08c3",
+          "75f82b68b9a3c2d814e92698351e08881aced17970ffaa97cdf0e382d5be08c3",
+          "75f82b68b9a3c2d814e92698351e08881aced17970ffaa97cdf0e382d5be08c3"
+        ]
+      },
+      "b1_consistency": {
+        "stage": "b1",
+        "unit_id": "AUD-06",
+        "n_runs": 3,
+        "fields_checked": [],
+        "status": "STABLE",
+        "human_review_required": false,
+        "disagreements": {},
+        "output_hashes": [
+          "b9e58bc7cee312c72cc31de6f8415d06d680eff579398fa0c2cf4280d70d50fb",
+          "b9e58bc7cee312c72cc31de6f8415d06d680eff579398fa0c2cf4280d70d50fb",
+          "b9e58bc7cee312c72cc31de6f8415d06d680eff579398fa0c2cf4280d70d50fb"
+        ]
+      },
+      "b2_consistency": {
+        "stage": "b2",
+        "unit_id": "AUD-06",
+        "n_runs": 3,
+        "fields_checked": [
+          "relational_test_result",
+          "R_actor",
+          "I_actor",
+          "T_actor",
+          "primary_mechanism"
+        ],
+        "status": "STABLE",
+        "human_review_required": false,
+        "disagreements": {},
+        "output_hashes": [
+          "e14fc0bf3895dea022da95d30ef85d0c499356fb21206ac3e13e73064fcc3777",
+          "e14fc0bf3895dea022da95d30ef85d0c499356fb21206ac3e13e73064fcc3777",
+          "e14fc0bf3895dea022da95d30ef85d0c499356fb21206ac3e13e73064fcc3777"
+        ]
+      },
+      "provider": "dry_run",
+      "model": "dry-run-v4"
+    },
+    {
+      "unit_id": "AUD-07",
+      "source_celex": "32018R2067",
+      "article": "Article 64",
+      "a2_consistency": {
+        "stage": "a2",
+        "unit_id": "AUD-07",
+        "n_runs": 3,
+        "fields_checked": [
+          "ai_candidate",
+          "candidate_mechanism"
+        ],
+        "status": "STABLE",
+        "human_review_required": false,
+        "disagreements": {},
+        "output_hashes": [
+          "75f82b68b9a3c2d814e92698351e08881aced17970ffaa97cdf0e382d5be08c3",
+          "75f82b68b9a3c2d814e92698351e08881aced17970ffaa97cdf0e382d5be08c3",
+          "75f82b68b9a3c2d814e92698351e08881aced17970ffaa97cdf0e382d5be08c3"
+        ]
+      },
+      "b1_consistency": {
+        "stage": "b1",
+        "unit_id": "AUD-07",
+        "n_runs": 3,
+        "fields_checked": [],
+        "status": "STABLE",
+        "human_review_required": false,
+        "disagreements": {},
+        "output_hashes": [
+          "b9e58bc7cee312c72cc31de6f8415d06d680eff579398fa0c2cf4280d70d50fb",
+          "b9e58bc7cee312c72cc31de6f8415d06d680eff579398fa0c2cf4280d70d50fb",
+          "b9e58bc7cee312c72cc31de6f8415d06d680eff579398fa0c2cf4280d70d50fb"
+        ]
+      },
+      "b2_consistency": {
+        "stage": "b2",
+        "unit_id": "AUD-07",
+        "n_runs": 3,
+        "fields_checked": [
+          "relational_test_result",
+          "R_actor",
+          "I_actor",
+          "T_actor",
+          "primary_mechanism"
+        ],
+        "status": "STABLE",
+        "human_review_required": false,
+        "disagreements": {},
+        "output_hashes": [
+          "e14fc0bf3895dea022da95d30ef85d0c499356fb21206ac3e13e73064fcc3777",
+          "e14fc0bf3895dea022da95d30ef85d0c499356fb21206ac3e13e73064fcc3777",
+          "e14fc0bf3895dea022da95d30ef85d0c499356fb21206ac3e13e73064fcc3777"
+        ]
+      },
+      "provider": "dry_run",
+      "model": "dry-run-v4"
+    },
+    {
+      "unit_id": "AUD-08",
+      "source_celex": "32018R2067",
+      "article": "Article 67",
+      "a2_consistency": {
+        "stage": "a2",
+        "unit_id": "AUD-08",
+        "n_runs": 3,
+        "fields_checked": [
+          "ai_candidate",
+          "candidate_mechanism"
+        ],
+        "status": "STABLE",
+        "human_review_required": false,
+        "disagreements": {},
+        "output_hashes": [
+          "75f82b68b9a3c2d814e92698351e08881aced17970ffaa97cdf0e382d5be08c3",
+          "75f82b68b9a3c2d814e92698351e08881aced17970ffaa97cdf0e382d5be08c3",
+          "75f82b68b9a3c2d814e92698351e08881aced17970ffaa97cdf0e382d5be08c3"
+        ]
+      },
+      "b1_consistency": {
+        "stage": "b1",
+        "unit_id": "AUD-08",
+        "n_runs": 3,
+        "fields_checked": [],
+        "status": "STABLE",
+        "human_review_required": false,
+        "disagreements": {},
+        "output_hashes": [
+          "b9e58bc7cee312c72cc31de6f8415d06d680eff579398fa0c2cf4280d70d50fb",
+          "b9e58bc7cee312c72cc31de6f8415d06d680eff579398fa0c2cf4280d70d50fb",
+          "b9e58bc7cee312c72cc31de6f8415d06d680eff579398fa0c2cf4280d70d50fb"
+        ]
+      },
+      "b2_consistency": {
+        "stage": "b2",
+        "unit_id": "AUD-08",
+        "n_runs": 3,
+        "fields_checked": [
+          "relational_test_result",
+          "R_actor",
+          "I_actor",
+          "T_actor",
+          "primary_mechanism"
+        ],
+        "status": "STABLE",
+        "human_review_required": false,
+        "disagreements": {},
+        "output_hashes": [
+          "e14fc0bf3895dea022da95d30ef85d0c499356fb21206ac3e13e73064fcc3777",
+          "e14fc0bf3895dea022da95d30ef85d0c499356fb21206ac3e13e73064fcc3777",
+          "e14fc0bf3895dea022da95d30ef85d0c499356fb21206ac3e13e73064fcc3777"
+        ]
+      },
+      "provider": "dry_run",
+      "model": "dry-run-v4"
+    },
+    {
+      "unit_id": "AUD-09",
+      "source_celex": "32019R2089",
+      "article": "PREAMBLE",
+      "a2_consistency": {
+        "stage": "a2",
+        "unit_id": "AUD-09",
+        "n_runs": 3,
+        "fields_checked": [
+          "ai_candidate",
+          "candidate_mechanism"
+        ],
+        "status": "STABLE",
+        "human_review_required": false,
+        "disagreements": {},
+        "output_hashes": [
+          "75f82b68b9a3c2d814e92698351e08881aced17970ffaa97cdf0e382d5be08c3",
+          "75f82b68b9a3c2d814e92698351e08881aced17970ffaa97cdf0e382d5be08c3",
+          "75f82b68b9a3c2d814e92698351e08881aced17970ffaa97cdf0e382d5be08c3"
+        ]
+      },
+      "b1_consistency": {
+        "stage": "b1",
+        "unit_id": "AUD-09",
+        "n_runs": 3,
+        "fields_checked": [],
+        "status": "STABLE",
+        "human_review_required": false,
+        "disagreements": {},
+        "output_hashes": [
+          "b9e58bc7cee312c72cc31de6f8415d06d680eff579398fa0c2cf4280d70d50fb",
+          "b9e58bc7cee312c72cc31de6f8415d06d680eff579398fa0c2cf4280d70d50fb",
+          "b9e58bc7cee312c72cc31de6f8415d06d680eff579398fa0c2cf4280d70d50fb"
+        ]
+      },
+      "b2_consistency": {
+        "stage": "b2",
+        "unit_id": "AUD-09",
+        "n_runs": 3,
+        "fields_checked": [
+          "relational_test_result",
+          "R_actor",
+          "I_actor",
+          "T_actor",
+          "primary_mechanism"
+        ],
+        "status": "STABLE",
+        "human_review_required": false,
+        "disagreements": {},
+        "output_hashes": [
+          "e14fc0bf3895dea022da95d30ef85d0c499356fb21206ac3e13e73064fcc3777",
+          "e14fc0bf3895dea022da95d30ef85d0c499356fb21206ac3e13e73064fcc3777",
+          "e14fc0bf3895dea022da95d30ef85d0c499356fb21206ac3e13e73064fcc3777"
+        ]
+      },
+      "provider": "dry_run",
+      "model": "dry-run-v4"
+    },
+    {
+      "unit_id": "AUD-10",
+      "source_celex": "32019R2089",
+      "article": "Article 19a",
+      "a2_consistency": {
+        "stage": "a2",
+        "unit_id": "AUD-10",
+        "n_runs": 3,
+        "fields_checked": [
+          "ai_candidate",
+          "candidate_mechanism"
+        ],
+        "status": "STABLE",
+        "human_review_required": false,
+        "disagreements": {},
+        "output_hashes": [
+          "75f82b68b9a3c2d814e92698351e08881aced17970ffaa97cdf0e382d5be08c3",
+          "75f82b68b9a3c2d814e92698351e08881aced17970ffaa97cdf0e382d5be08c3",
+          "75f82b68b9a3c2d814e92698351e08881aced17970ffaa97cdf0e382d5be08c3"
+        ]
+      },
+      "b1_consistency": {
+        "stage": "b1",
+        "unit_id": "AUD-10",
+        "n_runs": 3,
+        "fields_checked": [],
+        "status": "STABLE",
+        "human_review_required": false,
+        "disagreements": {},
+        "output_hashes": [
+          "b9e58bc7cee312c72cc31de6f8415d06d680eff579398fa0c2cf4280d70d50fb",
+          "b9e58bc7cee312c72cc31de6f8415d06d680eff579398fa0c2cf4280d70d50fb",
+          "b9e58bc7cee312c72cc31de6f8415d06d680eff579398fa0c2cf4280d70d50fb"
+        ]
+      },
+      "b2_consistency": {
+        "stage": "b2",
+        "unit_id": "AUD-10",
+        "n_runs": 3,
+        "fields_checked": [
+          "relational_test_result",
+          "R_actor",
+          "I_actor",
+          "T_actor",
+          "primary_mechanism"
+        ],
+        "status": "STABLE",
+        "human_review_required": false,
+        "disagreements": {},
+        "output_hashes": [
+          "e14fc0bf3895dea022da95d30ef85d0c499356fb21206ac3e13e73064fcc3777",
+          "e14fc0bf3895dea022da95d30ef85d0c499356fb21206ac3e13e73064fcc3777",
+          "e14fc0bf3895dea022da95d30ef85d0c499356fb21206ac3e13e73064fcc3777"
+        ]
+      },
+      "provider": "dry_run",
+      "model": "dry-run-v4"
+    },
+    {
+      "unit_id": "AUD-11",
+      "source_celex": "32019R2089",
+      "article": "Article 19d",
+      "a2_consistency": {
+        "stage": "a2",
+        "unit_id": "AUD-11",
+        "n_runs": 3,
+        "fields_checked": [
+          "ai_candidate",
+          "candidate_mechanism"
+        ],
+        "status": "STABLE",
+        "human_review_required": false,
+        "disagreements": {},
+        "output_hashes": [
+          "75f82b68b9a3c2d814e92698351e08881aced17970ffaa97cdf0e382d5be08c3",
+          "75f82b68b9a3c2d814e92698351e08881aced17970ffaa97cdf0e382d5be08c3",
+          "75f82b68b9a3c2d814e92698351e08881aced17970ffaa97cdf0e382d5be08c3"
+        ]
+      },
+      "b1_consistency": {
+        "stage": "b1",
+        "unit_id": "AUD-11",
+        "n_runs": 3,
+        "fields_checked": [],
+        "status": "STABLE",
+        "human_review_required": false,
+        "disagreements": {},
+        "output_hashes": [
+          "b9e58bc7cee312c72cc31de6f8415d06d680eff579398fa0c2cf4280d70d50fb",
+          "b9e58bc7cee312c72cc31de6f8415d06d680eff579398fa0c2cf4280d70d50fb",
+          "b9e58bc7cee312c72cc31de6f8415d06d680eff579398fa0c2cf4280d70d50fb"
+        ]
+      },
+      "b2_consistency": {
+        "stage": "b2",
+        "unit_id": "AUD-11",
+        "n_runs": 3,
+        "fields_checked": [
+          "relational_test_result",
+          "R_actor",
+          "I_actor",
+          "T_actor",
+          "primary_mechanism"
+        ],
+        "status": "STABLE",
+        "human_review_required": false,
+        "disagreements": {},
+        "output_hashes": [
+          "e14fc0bf3895dea022da95d30ef85d0c499356fb21206ac3e13e73064fcc3777",
+          "e14fc0bf3895dea022da95d30ef85d0c499356fb21206ac3e13e73064fcc3777",
+          "e14fc0bf3895dea022da95d30ef85d0c499356fb21206ac3e13e73064fcc3777"
+        ]
+      },
+      "provider": "dry_run",
+      "model": "dry-run-v4"
+    },
+    {
+      "unit_id": "AUD-12",
+      "source_celex": "32019R2089",
+      "article": "Article 2",
+      "a2_consistency": {
+        "stage": "a2",
+        "unit_id": "AUD-12",
+        "n_runs": 3,
+        "fields_checked": [
+          "ai_candidate",
+          "candidate_mechanism"
+        ],
+        "status": "STABLE",
+        "human_review_required": false,
+        "disagreements": {},
+        "output_hashes": [
+          "75f82b68b9a3c2d814e92698351e08881aced17970ffaa97cdf0e382d5be08c3",
+          "75f82b68b9a3c2d814e92698351e08881aced17970ffaa97cdf0e382d5be08c3",
+          "75f82b68b9a3c2d814e92698351e08881aced17970ffaa97cdf0e382d5be08c3"
+        ]
+      },
+      "b1_consistency": {
+        "stage": "b1",
+        "unit_id": "AUD-12",
+        "n_runs": 3,
+        "fields_checked": [],
+        "status": "STABLE",
+        "human_review_required": false,
+        "disagreements": {},
+        "output_hashes": [
+          "b9e58bc7cee312c72cc31de6f8415d06d680eff579398fa0c2cf4280d70d50fb",
+          "b9e58bc7cee312c72cc31de6f8415d06d680eff579398fa0c2cf4280d70d50fb",
+          "b9e58bc7cee312c72cc31de6f8415d06d680eff579398fa0c2cf4280d70d50fb"
+        ]
+      },
+      "b2_consistency": {
+        "stage": "b2",
+        "unit_id": "AUD-12",
+        "n_runs": 3,
+        "fields_checked": [
+          "relational_test_result",
+          "R_actor",
+          "I_actor",
+          "T_actor",
+          "primary_mechanism"
+        ],
+        "status": "STABLE",
+        "human_review_required": false,
+        "disagreements": {},
+        "output_hashes": [
+          "e14fc0bf3895dea022da95d30ef85d0c499356fb21206ac3e13e73064fcc3777",
+          "e14fc0bf3895dea022da95d30ef85d0c499356fb21206ac3e13e73064fcc3777",
+          "e14fc0bf3895dea022da95d30ef85d0c499356fb21206ac3e13e73064fcc3777"
+        ]
+      },
+      "provider": "dry_run",
+      "model": "dry-run-v4"
+    },
+    {
+      "unit_id": "AUD-13",
+      "source_celex": "32020R0852",
+      "article": "Article 19",
+      "a2_consistency": {
+        "stage": "a2",
+        "unit_id": "AUD-13",
+        "n_runs": 3,
+        "fields_checked": [
+          "ai_candidate",
+          "candidate_mechanism"
+        ],
+        "status": "STABLE",
+        "human_review_required": false,
+        "disagreements": {},
+        "output_hashes": [
+          "75f82b68b9a3c2d814e92698351e08881aced17970ffaa97cdf0e382d5be08c3",
+          "75f82b68b9a3c2d814e92698351e08881aced17970ffaa97cdf0e382d5be08c3",
+          "75f82b68b9a3c2d814e92698351e08881aced17970ffaa97cdf0e382d5be08c3"
+        ]
+      },
+      "b1_consistency": {
+        "stage": "b1",
+        "unit_id": "AUD-13",
+        "n_runs": 3,
+        "fields_checked": [],
+        "status": "STABLE",
+        "human_review_required": false,
+        "disagreements": {},
+        "output_hashes": [
+          "b9e58bc7cee312c72cc31de6f8415d06d680eff579398fa0c2cf4280d70d50fb",
+          "b9e58bc7cee312c72cc31de6f8415d06d680eff579398fa0c2cf4280d70d50fb",
+          "b9e58bc7cee312c72cc31de6f8415d06d680eff579398fa0c2cf4280d70d50fb"
+        ]
+      },
+      "b2_consistency": {
+        "stage": "b2",
+        "unit_id": "AUD-13",
+        "n_runs": 3,
+        "fields_checked": [
+          "relational_test_result",
+          "R_actor",
+          "I_actor",
+          "T_actor",
+          "primary_mechanism"
+        ],
+        "status": "STABLE",
+        "human_review_required": false,
+        "disagreements": {},
+        "output_hashes": [
+          "e14fc0bf3895dea022da95d30ef85d0c499356fb21206ac3e13e73064fcc3777",
+          "e14fc0bf3895dea022da95d30ef85d0c499356fb21206ac3e13e73064fcc3777",
+          "e14fc0bf3895dea022da95d30ef85d0c499356fb21206ac3e13e73064fcc3777"
+        ]
+      },
+      "provider": "dry_run",
+      "model": "dry-run-v4"
+    },
+    {
+      "unit_id": "AUD-14",
+      "source_celex": "32020R0852",
+      "article": "Article 20",
+      "a2_consistency": {
+        "stage": "a2",
+        "unit_id": "AUD-14",
+        "n_runs": 3,
+        "fields_checked": [
+          "ai_candidate",
+          "candidate_mechanism"
+        ],
+        "status": "STABLE",
+        "human_review_required": false,
+        "disagreements": {},
+        "output_hashes": [
+          "75f82b68b9a3c2d814e92698351e08881aced17970ffaa97cdf0e382d5be08c3",
+          "75f82b68b9a3c2d814e92698351e08881aced17970ffaa97cdf0e382d5be08c3",
+          "75f82b68b9a3c2d814e92698351e08881aced17970ffaa97cdf0e382d5be08c3"
+        ]
+      },
+      "b1_consistency": {
+        "stage": "b1",
+        "unit_id": "AUD-14",
+        "n_runs": 3,
+        "fields_checked": [],
+        "status": "STABLE",
+        "human_review_required": false,
+        "disagreements": {},
+        "output_hashes": [
+          "b9e58bc7cee312c72cc31de6f8415d06d680eff579398fa0c2cf4280d70d50fb",
+          "b9e58bc7cee312c72cc31de6f8415d06d680eff579398fa0c2cf4280d70d50fb",
+          "b9e58bc7cee312c72cc31de6f8415d06d680eff579398fa0c2cf4280d70d50fb"
+        ]
+      },
+      "b2_consistency": {
+        "stage": "b2",
+        "unit_id": "AUD-14",
+        "n_runs": 3,
+        "fields_checked": [
+          "relational_test_result",
+          "R_actor",
+          "I_actor",
+          "T_actor",
+          "primary_mechanism"
+        ],
+        "status": "STABLE",
+        "human_review_required": false,
+        "disagreements": {},
+        "output_hashes": [
+          "e14fc0bf3895dea022da95d30ef85d0c499356fb21206ac3e13e73064fcc3777",
+          "e14fc0bf3895dea022da95d30ef85d0c499356fb21206ac3e13e73064fcc3777",
+          "e14fc0bf3895dea022da95d30ef85d0c499356fb21206ac3e13e73064fcc3777"
+        ]
+      },
+      "provider": "dry_run",
+      "model": "dry-run-v4"
+    },
+    {
+      "unit_id": "AUD-15",
+      "source_celex": "32020R0852",
+      "article": "Article 26",
+      "a2_consistency": {
+        "stage": "a2",
+        "unit_id": "AUD-15",
+        "n_runs": 3,
+        "fields_checked": [
+          "ai_candidate",
+          "candidate_mechanism"
+        ],
+        "status": "STABLE",
+        "human_review_required": false,
+        "disagreements": {},
+        "output_hashes": [
+          "75f82b68b9a3c2d814e92698351e08881aced17970ffaa97cdf0e382d5be08c3",
+          "75f82b68b9a3c2d814e92698351e08881aced17970ffaa97cdf0e382d5be08c3",
+          "75f82b68b9a3c2d814e92698351e08881aced17970ffaa97cdf0e382d5be08c3"
+        ]
+      },
+      "b1_consistency": {
+        "stage": "b1",
+        "unit_id": "AUD-15",
+        "n_runs": 3,
+        "fields_checked": [],
+        "status": "STABLE",
+        "human_review_required": false,
+        "disagreements": {},
+        "output_hashes": [
+          "b9e58bc7cee312c72cc31de6f8415d06d680eff579398fa0c2cf4280d70d50fb",
+          "b9e58bc7cee312c72cc31de6f8415d06d680eff579398fa0c2cf4280d70d50fb",
+          "b9e58bc7cee312c72cc31de6f8415d06d680eff579398fa0c2cf4280d70d50fb"
+        ]
+      },
+      "b2_consistency": {
+        "stage": "b2",
+        "unit_id": "AUD-15",
+        "n_runs": 3,
+        "fields_checked": [
+          "relational_test_result",
+          "R_actor",
+          "I_actor",
+          "T_actor",
+          "primary_mechanism"
+        ],
+        "status": "STABLE",
+        "human_review_required": false,
+        "disagreements": {},
+        "output_hashes": [
+          "e14fc0bf3895dea022da95d30ef85d0c499356fb21206ac3e13e73064fcc3777",
+          "e14fc0bf3895dea022da95d30ef85d0c499356fb21206ac3e13e73064fcc3777",
+          "e14fc0bf3895dea022da95d30ef85d0c499356fb21206ac3e13e73064fcc3777"
+        ]
+      },
+      "provider": "dry_run",
+      "model": "dry-run-v4"
+    },
+    {
+      "unit_id": "AUD-16",
+      "source_celex": "32020R0852",
+      "article": "Article 27",
+      "a2_consistency": {
+        "stage": "a2",
+        "unit_id": "AUD-16",
+        "n_runs": 3,
+        "fields_checked": [
+          "ai_candidate",
+          "candidate_mechanism"
+        ],
+        "status": "STABLE",
+        "human_review_required": false,
+        "disagreements": {},
+        "output_hashes": [
+          "75f82b68b9a3c2d814e92698351e08881aced17970ffaa97cdf0e382d5be08c3",
+          "75f82b68b9a3c2d814e92698351e08881aced17970ffaa97cdf0e382d5be08c3",
+          "75f82b68b9a3c2d814e92698351e08881aced17970ffaa97cdf0e382d5be08c3"
+        ]
+      },
+      "b1_consistency": {
+        "stage": "b1",
+        "unit_id": "AUD-16",
+        "n_runs": 3,
+        "fields_checked": [],
+        "status": "STABLE",
+        "human_review_required": false,
+        "disagreements": {},
+        "output_hashes": [
+          "b9e58bc7cee312c72cc31de6f8415d06d680eff579398fa0c2cf4280d70d50fb",
+          "b9e58bc7cee312c72cc31de6f8415d06d680eff579398fa0c2cf4280d70d50fb",
+          "b9e58bc7cee312c72cc31de6f8415d06d680eff579398fa0c2cf4280d70d50fb"
+        ]
+      },
+      "b2_consistency": {
+        "stage": "b2",
+        "unit_id": "AUD-16",
+        "n_runs": 3,
+        "fields_checked": [
+          "relational_test_result",
+          "R_actor",
+          "I_actor",
+          "T_actor",
+          "primary_mechanism"
+        ],
+        "status": "STABLE",
+        "human_review_required": false,
+        "disagreements": {},
+        "output_hashes": [
+          "e14fc0bf3895dea022da95d30ef85d0c499356fb21206ac3e13e73064fcc3777",
+          "e14fc0bf3895dea022da95d30ef85d0c499356fb21206ac3e13e73064fcc3777",
+          "e14fc0bf3895dea022da95d30ef85d0c499356fb21206ac3e13e73064fcc3777"
+        ]
+      },
+      "provider": "dry_run",
+      "model": "dry-run-v4"
+    },
+    {
+      "unit_id": "AUD-17",
+      "source_celex": "32022L2464",
+      "article": "Article 25b",
+      "a2_consistency": {
+        "stage": "a2",
+        "unit_id": "AUD-17",
+        "n_runs": 3,
+        "fields_checked": [
+          "ai_candidate",
+          "candidate_mechanism"
+        ],
+        "status": "STABLE",
+        "human_review_required": false,
+        "disagreements": {},
+        "output_hashes": [
+          "75f82b68b9a3c2d814e92698351e08881aced17970ffaa97cdf0e382d5be08c3",
+          "75f82b68b9a3c2d814e92698351e08881aced17970ffaa97cdf0e382d5be08c3",
+          "75f82b68b9a3c2d814e92698351e08881aced17970ffaa97cdf0e382d5be08c3"
+        ]
+      },
+      "b1_consistency": {
+        "stage": "b1",
+        "unit_id": "AUD-17",
+        "n_runs": 3,
+        "fields_checked": [],
+        "status": "STABLE",
+        "human_review_required": false,
+        "disagreements": {},
+        "output_hashes": [
+          "b9e58bc7cee312c72cc31de6f8415d06d680eff579398fa0c2cf4280d70d50fb",
+          "b9e58bc7cee312c72cc31de6f8415d06d680eff579398fa0c2cf4280d70d50fb",
+          "b9e58bc7cee312c72cc31de6f8415d06d680eff579398fa0c2cf4280d70d50fb"
+        ]
+      },
+      "b2_consistency": {
+        "stage": "b2",
+        "unit_id": "AUD-17",
+        "n_runs": 3,
+        "fields_checked": [
+          "relational_test_result",
+          "R_actor",
+          "I_actor",
+          "T_actor",
+          "primary_mechanism"
+        ],
+        "status": "STABLE",
+        "human_review_required": false,
+        "disagreements": {},
+        "output_hashes": [
+          "e14fc0bf3895dea022da95d30ef85d0c499356fb21206ac3e13e73064fcc3777",
+          "e14fc0bf3895dea022da95d30ef85d0c499356fb21206ac3e13e73064fcc3777",
+          "e14fc0bf3895dea022da95d30ef85d0c499356fb21206ac3e13e73064fcc3777"
+        ]
+      },
+      "provider": "dry_run",
+      "model": "dry-run-v4"
+    },
+    {
+      "unit_id": "AUD-18",
+      "source_celex": "32022L2464",
+      "article": "Article 25c",
+      "a2_consistency": {
+        "stage": "a2",
+        "unit_id": "AUD-18",
+        "n_runs": 3,
+        "fields_checked": [
+          "ai_candidate",
+          "candidate_mechanism"
+        ],
+        "status": "STABLE",
+        "human_review_required": false,
+        "disagreements": {},
+        "output_hashes": [
+          "75f82b68b9a3c2d814e92698351e08881aced17970ffaa97cdf0e382d5be08c3",
+          "75f82b68b9a3c2d814e92698351e08881aced17970ffaa97cdf0e382d5be08c3",
+          "75f82b68b9a3c2d814e92698351e08881aced17970ffaa97cdf0e382d5be08c3"
+        ]
+      },
+      "b1_consistency": {
+        "stage": "b1",
+        "unit_id": "AUD-18",
+        "n_runs": 3,
+        "fields_checked": [],
+        "status": "STABLE",
+        "human_review_required": false,
+        "disagreements": {},
+        "output_hashes": [
+          "b9e58bc7cee312c72cc31de6f8415d06d680eff579398fa0c2cf4280d70d50fb",
+          "b9e58bc7cee312c72cc31de6f8415d06d680eff579398fa0c2cf4280d70d50fb",
+          "b9e58bc7cee312c72cc31de6f8415d06d680eff579398fa0c2cf4280d70d50fb"
+        ]
+      },
+      "b2_consistency": {
+        "stage": "b2",
+        "unit_id": "AUD-18",
+        "n_runs": 3,
+        "fields_checked": [
+          "relational_test_result",
+          "R_actor",
+          "I_actor",
+          "T_actor",
+          "primary_mechanism"
+        ],
+        "status": "STABLE",
+        "human_review_required": false,
+        "disagreements": {},
+        "output_hashes": [
+          "e14fc0bf3895dea022da95d30ef85d0c499356fb21206ac3e13e73064fcc3777",
+          "e14fc0bf3895dea022da95d30ef85d0c499356fb21206ac3e13e73064fcc3777",
+          "e14fc0bf3895dea022da95d30ef85d0c499356fb21206ac3e13e73064fcc3777"
+        ]
+      },
+      "provider": "dry_run",
+      "model": "dry-run-v4"
+    },
+    {
+      "unit_id": "AUD-19",
+      "source_celex": "32022L2464",
+      "article": "Article 26a",
+      "a2_consistency": {
+        "stage": "a2",
+        "unit_id": "AUD-19",
+        "n_runs": 3,
+        "fields_checked": [
+          "ai_candidate",
+          "candidate_mechanism"
+        ],
+        "status": "STABLE",
+        "human_review_required": false,
+        "disagreements": {},
+        "output_hashes": [
+          "75f82b68b9a3c2d814e92698351e08881aced17970ffaa97cdf0e382d5be08c3",
+          "75f82b68b9a3c2d814e92698351e08881aced17970ffaa97cdf0e382d5be08c3",
+          "75f82b68b9a3c2d814e92698351e08881aced17970ffaa97cdf0e382d5be08c3"
+        ]
+      },
+      "b1_consistency": {
+        "stage": "b1",
+        "unit_id": "AUD-19",
+        "n_runs": 3,
+        "fields_checked": [],
+        "status": "STABLE",
+        "human_review_required": false,
+        "disagreements": {},
+        "output_hashes": [
+          "b9e58bc7cee312c72cc31de6f8415d06d680eff579398fa0c2cf4280d70d50fb",
+          "b9e58bc7cee312c72cc31de6f8415d06d680eff579398fa0c2cf4280d70d50fb",
+          "b9e58bc7cee312c72cc31de6f8415d06d680eff579398fa0c2cf4280d70d50fb"
+        ]
+      },
+      "b2_consistency": {
+        "stage": "b2",
+        "unit_id": "AUD-19",
+        "n_runs": 3,
+        "fields_checked": [
+          "relational_test_result",
+          "R_actor",
+          "I_actor",
+          "T_actor",
+          "primary_mechanism"
+        ],
+        "status": "STABLE",
+        "human_review_required": false,
+        "disagreements": {},
+        "output_hashes": [
+          "e14fc0bf3895dea022da95d30ef85d0c499356fb21206ac3e13e73064fcc3777",
+          "e14fc0bf3895dea022da95d30ef85d0c499356fb21206ac3e13e73064fcc3777",
+          "e14fc0bf3895dea022da95d30ef85d0c499356fb21206ac3e13e73064fcc3777"
+        ]
+      },
+      "provider": "dry_run",
+      "model": "dry-run-v4"
+    },
+    {
+      "unit_id": "AUD-20",
+      "source_celex": "32022L2464",
+      "article": "Article 40c",
+      "a2_consistency": {
+        "stage": "a2",
+        "unit_id": "AUD-20",
+        "n_runs": 3,
+        "fields_checked": [
+          "ai_candidate",
+          "candidate_mechanism"
+        ],
+        "status": "STABLE",
+        "human_review_required": false,
+        "disagreements": {},
+        "output_hashes": [
+          "75f82b68b9a3c2d814e92698351e08881aced17970ffaa97cdf0e382d5be08c3",
+          "75f82b68b9a3c2d814e92698351e08881aced17970ffaa97cdf0e382d5be08c3",
+          "75f82b68b9a3c2d814e92698351e08881aced17970ffaa97cdf0e382d5be08c3"
+        ]
+      },
+      "b1_consistency": {
+        "stage": "b1",
+        "unit_id": "AUD-20",
+        "n_runs": 3,
+        "fields_checked": [],
+        "status": "STABLE",
+        "human_review_required": false,
+        "disagreements": {},
+        "output_hashes": [
+          "b9e58bc7cee312c72cc31de6f8415d06d680eff579398fa0c2cf4280d70d50fb",
+          "b9e58bc7cee312c72cc31de6f8415d06d680eff579398fa0c2cf4280d70d50fb",
+          "b9e58bc7cee312c72cc31de6f8415d06d680eff579398fa0c2cf4280d70d50fb"
+        ]
+      },
+      "b2_consistency": {
+        "stage": "b2",
+        "unit_id": "AUD-20",
+        "n_runs": 3,
+        "fields_checked": [
+          "relational_test_result",
+          "R_actor",
+          "I_actor",
+          "T_actor",
+          "primary_mechanism"
+        ],
+        "status": "STABLE",
+        "human_review_required": false,
+        "disagreements": {},
+        "output_hashes": [
+          "e14fc0bf3895dea022da95d30ef85d0c499356fb21206ac3e13e73064fcc3777",
+          "e14fc0bf3895dea022da95d30ef85d0c499356fb21206ac3e13e73064fcc3777",
+          "e14fc0bf3895dea022da95d30ef85d0c499356fb21206ac3e13e73064fcc3777"
+        ]
+      },
+      "provider": "dry_run",
+      "model": "dry-run-v4"
+    }
+  ],
+  "stage_c": [
+    {
+      "unit_id": "RIT-001",
+      "consistency": {
+        "stage": "c",
+        "unit_id": "RIT-001",
+        "n_runs": 3,
+        "fields_checked": [
+          "formal_role_present",
+          "regulatory_level",
+          "mode_of_operation"
+        ],
+        "status": "STABLE",
+        "human_review_required": false,
+        "disagreements": {},
+        "output_hashes": [
+          "3a7aa17cb90f206e40bb174f5f30ad57ed7335d7bbab4ac8454aca61d16f2672",
+          "3a7aa17cb90f206e40bb174f5f30ad57ed7335d7bbab4ac8454aca61d16f2672",
+          "3a7aa17cb90f206e40bb174f5f30ad57ed7335d7bbab4ac8454aca61d16f2672"
+        ]
+      },
+      "provider": "dry_run",
+      "model": "dry-run-v4"
+    },
+    {
+      "unit_id": "RIT-002",
+      "consistency": {
+        "stage": "c",
+        "unit_id": "RIT-002",
+        "n_runs": 3,
+        "fields_checked": [
+          "formal_role_present",
+          "regulatory_level",
+          "mode_of_operation"
+        ],
+        "status": "STABLE",
+        "human_review_required": false,
+        "disagreements": {},
+        "output_hashes": [
+          "3a7aa17cb90f206e40bb174f5f30ad57ed7335d7bbab4ac8454aca61d16f2672",
+          "3a7aa17cb90f206e40bb174f5f30ad57ed7335d7bbab4ac8454aca61d16f2672",
+          "3a7aa17cb90f206e40bb174f5f30ad57ed7335d7bbab4ac8454aca61d16f2672"
+        ]
+      },
+      "provider": "dry_run",
+      "model": "dry-run-v4"
+    },
+    {
+      "unit_id": "RIT-003",
+      "consistency": {
+        "stage": "c",
+        "unit_id": "RIT-003",
+        "n_runs": 3,
+        "fields_checked": [
+          "formal_role_present",
+          "regulatory_level",
+          "mode_of_operation"
+        ],
+        "status": "STABLE",
+        "human_review_required": false,
+        "disagreements": {},
+        "output_hashes": [
+          "3a7aa17cb90f206e40bb174f5f30ad57ed7335d7bbab4ac8454aca61d16f2672",
+          "3a7aa17cb90f206e40bb174f5f30ad57ed7335d7bbab4ac8454aca61d16f2672",
+          "3a7aa17cb90f206e40bb174f5f30ad57ed7335d7bbab4ac8454aca61d16f2672"
+        ]
+      },
+      "provider": "dry_run",
+      "model": "dry-run-v4"
+    },
+    {
+      "unit_id": "RIT-004",
+      "consistency": {
+        "stage": "c",
+        "unit_id": "RIT-004",
+        "n_runs": 3,
+        "fields_checked": [
+          "formal_role_present",
+          "regulatory_level",
+          "mode_of_operation"
+        ],
+        "status": "STABLE",
+        "human_review_required": false,
+        "disagreements": {},
+        "output_hashes": [
+          "3a7aa17cb90f206e40bb174f5f30ad57ed7335d7bbab4ac8454aca61d16f2672",
+          "3a7aa17cb90f206e40bb174f5f30ad57ed7335d7bbab4ac8454aca61d16f2672",
+          "3a7aa17cb90f206e40bb174f5f30ad57ed7335d7bbab4ac8454aca61d16f2672"
+        ]
+      },
+      "provider": "dry_run",
+      "model": "dry-run-v4"
+    },
+    {
+      "unit_id": "RIT-005",
+      "consistency": {
+        "stage": "c",
+        "unit_id": "RIT-005",
+        "n_runs": 3,
+        "fields_checked": [
+          "formal_role_present",
+          "regulatory_level",
+          "mode_of_operation"
+        ],
+        "status": "STABLE",
+        "human_review_required": false,
+        "disagreements": {},
+        "output_hashes": [
+          "3a7aa17cb90f206e40bb174f5f30ad57ed7335d7bbab4ac8454aca61d16f2672",
+          "3a7aa17cb90f206e40bb174f5f30ad57ed7335d7bbab4ac8454aca61d16f2672",
+          "3a7aa17cb90f206e40bb174f5f30ad57ed7335d7bbab4ac8454aca61d16f2672"
+        ]
+      },
+      "provider": "dry_run",
+      "model": "dry-run-v4"
+    },
+    {
+      "unit_id": "RIT-006",
+      "consistency": {
+        "stage": "c",
+        "unit_id": "RIT-006",
+        "n_runs": 3,
+        "fields_checked": [
+          "formal_role_present",
+          "regulatory_level",
+          "mode_of_operation"
+        ],
+        "status": "STABLE",
+        "human_review_required": false,
+        "disagreements": {},
+        "output_hashes": [
+          "3a7aa17cb90f206e40bb174f5f30ad57ed7335d7bbab4ac8454aca61d16f2672",
+          "3a7aa17cb90f206e40bb174f5f30ad57ed7335d7bbab4ac8454aca61d16f2672",
+          "3a7aa17cb90f206e40bb174f5f30ad57ed7335d7bbab4ac8454aca61d16f2672"
+        ]
+      },
+      "provider": "dry_run",
+      "model": "dry-run-v4"
+    },
+    {
+      "unit_id": "RIT-007",
+      "consistency": {
+        "stage": "c",
+        "unit_id": "RIT-007",
+        "n_runs": 3,
+        "fields_checked": [
+          "formal_role_present",
+          "regulatory_level",
+          "mode_of_operation"
+        ],
+        "status": "STABLE",
+        "human_review_required": false,
+        "disagreements": {},
+        "output_hashes": [
+          "3a7aa17cb90f206e40bb174f5f30ad57ed7335d7bbab4ac8454aca61d16f2672",
+          "3a7aa17cb90f206e40bb174f5f30ad57ed7335d7bbab4ac8454aca61d16f2672",
+          "3a7aa17cb90f206e40bb174f5f30ad57ed7335d7bbab4ac8454aca61d16f2672"
+        ]
+      },
+      "provider": "dry_run",
+      "model": "dry-run-v4"
+    }
+  ]
+}

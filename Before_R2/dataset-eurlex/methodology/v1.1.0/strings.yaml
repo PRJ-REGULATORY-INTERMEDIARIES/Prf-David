@@ -1,0 +1,74 @@
+metadata:
+  version: 1.1.0
+  scope: generic_lexical_screening
+  empirical_tuning: false
+  corpus_content_used: false
+  lexical_hit_is_sufficient_evidence: false
+  structural_candidates_require_lexical_hit: false
+
+candidate_channels:
+  lexical_screening:
+    independent: true
+    purpose: salience_screening
+  structural_reading:
+    independent: true
+    purpose: article_paragraph_structural_review
+
+mechanisms:
+  reporting:
+    patterns:
+      - '\b(report|reports|reported|reporting|reporter|reporters)\b'
+  verification:
+    patterns:
+      - '\b(verif|verifies|verified|verifying|verification|verifier|verifiers)\w*\b'
+  certification:
+    patterns:
+      - '\b(certif|certifies|certified|certifying|certification|certifications|certificate|certificates)\w*\b'
+      - '\b(certification|certifying)\s+(body|bodies)\b'
+  auditing:
+    patterns:
+      - '\b(audit|audits|audited|auditing|auditor|auditors)\b'
+  monitoring_supervision:
+    patterns:
+      - '\b(monit|monitors|monitored|monitoring|supervis|supervises|supervised|supervising|supervision)\w*\b'
+  ranking_rating:
+    patterns:
+      - '\b(rank|ranks|ranked|ranking|rankings|rat(e|es|ed|ing)|rating|ratings)\b'
+  standard_setting:
+    patterns:
+      - '\b(standard|standards|standardise|standardised|standardize|standardized|criterion|criteria|benchmark|benchmarks)\b'
+  enforcement_support:
+    patterns:
+      - '\b(enforc|enforces|enforced|enforcing|enforcement|sanction|sanctions|sanctioned|penalty|penalties)\w*\b'
+  coordination:
+    patterns:
+      - '\b(coordinat|coordinates|coordinated|coordinating|coordination|cooperate|cooperation|coordinators?)\w*\b'
+  information_transmission:
+    patterns:
+      - '\b(transmit|transmits|transmitted|transmitting|transmission|communicat|communicates|communicated|communication|notify|notifies|notified|notification|exchange|exchanges|exchanged)\w*\b'
+  delegated_implementation:
+    patterns:
+      - '\b(implement|implements|implemented|implementing|implementation|delegate|delegates|delegated|delegating|delegation|designate|designates|designated)\w*\b'
+  accreditation:
+    patterns:
+      - '\b(accredit|accredits|accredited|accrediting|accreditation|accreditations)\w*\b'
+  other_mechanism:
+    patterns:
+      - '\b(mechanism|mechanisms|procedure|procedures|scheme|schemes|arrangement|arrangements)\b'
+  none_or_direct:
+    patterns:
+      - '\b(direct|directly|directed|directing)\b'
+
+generic_regulatory_families:
+  assessment:
+    patterns:
+      - '\b(assess|assesses|assessed|assessing|assessment|assessments)\b'
+  evaluation:
+    patterns:
+      - '\b(evaluat|evaluates|evaluated|evaluating|evaluation|evaluations)\w*\b'
+  compliance:
+    patterns:
+      - '\b(compli|complies|complied|complying|compliance|non-compliance|noncompliance)\w*\b'
+  accountability:
+    patterns:
+      - '\b(accountab|accountability|accountable)\w*\b'

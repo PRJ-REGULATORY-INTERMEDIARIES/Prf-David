@@ -1,0 +1,28 @@
+case_id: case_01
+celex: 32021R1119
+source:
+  file: ../source/act_official.xhtml
+  sha256: 8bbe15af032af1a3950cf1e42bead62e0c816afbf56dced883ececb604da6075
+counts:
+  articles: 14
+  recitals: 40
+  annexes: 0
+derived_files:
+  act_full.md:
+    sha256: 3e6e719e9f16b90db78959ea3c3beb8ff46aad2793978731f0376cbf62599545
+    byte_size: 64344
+  act_operative.md:
+    sha256: 1a398d8985c14903536afdc0d4060a398bd535578108c390cb330019f0470fd9
+    byte_size: 31330
+  act_recitals.md:
+    sha256: 66ff98baecbd77cdd0845f5cf38135fd70f6cce02b88d2a0c3675eecbef8dbcf
+    byte_size: 32374
+normalization_rules:
+- no_translation
+- no_summarization
+- no_paraphrasing
+- no_semantic_labels
+- article_paragraph_numbering_preserved_verbatim
+- whitespace_normalized_only
+act_operative_is_primary_coding_corpus: true
+act_recitals_is_contextual_only: true

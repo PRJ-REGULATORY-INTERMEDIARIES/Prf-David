@@ -1,0 +1,27 @@
+provider: Anthropic
+role: Primary Interpretive Reader
+prompt_version: production_v1.1
+prompt_path: prompts/production/PRIMARY_INTERPRETIVE_READER.md
+schema_version: production_v1.1
+case_id: case_03
+celex: 32023R1115
+corpus_path: cases/case_03/corpus/act.md
+corpus_sha256: d2393fd43a024b1e430175951da9dfd61f08c74f9c9fb038ad431e21a61b3b3c
+run_date: 2026-09-08T02:15:49Z
+model_identity: null
+reasoning_effort: null
+note: >
+  Exact model identity and reasoning-effort telemetry for this run are recorded by the
+  orchestrating session rather than reliably self-observable with certainty from inside
+  this run itself; both fields are left null here rather than guessed, per the
+  instruction not to invent unobserved computational metadata. provider and role are
+  recorded per the functional-naming convention introduced in
+  docs/methodology/METHODOLOGY_WORKING_DRAFT_V1_1.md section 8.
+validation:
+  jsonschema_against_coding_matrix_schema: pass (0 errors, 9/9 relation records)
+  validate_production_logic_validate_all: pass (0 errors, 9/9 relation records)
+  evidence_quote_verbatim_substring_check: pass (0 mismatches across 9 relations + 8 uncertainties)
+outputs:
+  - cases/case_03/primary_coding/PRIMARY_INTERPRETIVE_READER_PROPOSAL.json
+  - cases/case_03/primary_coding/PRIMARY_INTERPRETIVE_READER_PROPOSAL.md
+  - cases/case_03/primary_coding/RUN_METADATA.yaml

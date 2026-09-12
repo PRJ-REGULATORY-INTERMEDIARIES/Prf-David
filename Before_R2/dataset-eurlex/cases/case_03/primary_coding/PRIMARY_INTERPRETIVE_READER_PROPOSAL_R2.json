@@ -1,0 +1,282 @@
+{
+  "case_id": "case_03",
+  "celex": "32023R1115",
+  "relations": [
+    {
+      "case_id": "case_03",
+      "celex": "32023R1115",
+      "relation_id": "REL_C03_001",
+      "source_location": "Article 3; Article 4; Article 5; Articles 8-13; Article 16; Article 18; Articles 22, 24, 25",
+      "evidence_quote": "Relevant commodities and relevant products shall not be placed or made available on the market or exported, unless all the following conditions are fulfilled:",
+      "operative_anchor_location": "Article 3; Article 4(1)-(2); Article 16(1)",
+      "contextual_support": ["Recital 48", "Recital 49"],
+      "R": [
+        {"label": "Member State competent authorities", "role": "regulator", "evidence_refs": ["Article 14(1)", "Article 16(1)", "Article 26(2)"]},
+        {"label": "European Commission", "role": "regulator (supporting/publishing role)", "evidence_refs": ["Article 14(3)", "Article 25(3)"]}
+      ],
+      "I": [],
+      "T": [
+        {"label": "operators", "role": "target", "evidence_refs": ["Article 2(15)", "Article 4(1)"]},
+        {"label": "traders (including non-SME traders treated as operators)", "role": "target", "evidence_refs": ["Article 2(17)", "Article 5(1)"]}
+      ],
+      "action": ["prohibiting non-compliant placement/export", "requiring due diligence, checks, corrective action and penalties"],
+      "object": ["deforestation-free status, legality, and due-diligence-statement coverage of relevant commodities and products"],
+      "mediating_function": [],
+      "mechanism": "none_or_direct",
+      "relation_type": "direct",
+      "third_actor_test": null,
+      "confidence": "high",
+      "external_context_required": false,
+      "coder_note": "[reviewer_attention: routine] Core prohibition-and-due-diligence architecture. The Commission and competent authorities are treated as joint/parallel regulators, consistent with the same finding in Case 02 (see uncertainty U4 regarding Article 15)."
+    },
+    {
+      "case_id": "case_03",
+      "celex": "32023R1115",
+      "relation_id": "REL_C03_002",
+      "source_location": "Article 26; Article 27; Article 28",
+      "evidence_quote": "When carrying out controls on customs declarations for release for free circulation or export of a relevant product entering or leaving the market, customs authorities shall examine, using the electronic interface referred to in Article 28(1), the status assigned to the corresponding due diligence statement by competent authorities in the information system referred to in Article 33.",
+      "operative_anchor_location": "Article 26(3)-(9); Article 27",
+      "contextual_support": ["Recital 63", "Recital 66"],
+      "R": [
+        {"label": "Member State competent authorities", "role": "regulator", "evidence_refs": ["Article 26(2)"]},
+        {"label": "European Commission", "role": "regulator", "evidence_refs": ["Article 27(1)", "Article 28(1)"]}
+      ],
+      "I": [{"label": "customs authorities", "role": "intermediary (border control and information transmission)", "evidence_refs": ["Article 26(3)-(9)"]}],
+      "T": [
+        {"label": "operators", "role": "target", "evidence_refs": ["Article 26(4)"]},
+        {"label": "traders", "role": "target", "evidence_refs": ["Article 26(4)"]}
+      ],
+      "action": ["examining customs declarations and due-diligence-statement status; suspending or allowing release for free circulation or export"],
+      "object": ["compliance status of relevant products entering or leaving the market"],
+      "mediating_function": ["gatekeeping physical entry/exit of goods", "transmitting risk-relevant customs data to competent authorities and the Commission"],
+      "mechanism": "information_transmission",
+      "relation_type": "intermediated",
+      "third_actor_test": {
+        "distinction": {"result": "YES", "note": "Article 2(33) defines 'customs authorities' by reference to Regulation (EU) No 952/2013, distinctly from 'competent authorities' (Article 2(32))."},
+        "function": {"result": "YES", "note": "Article 26(3)-(9) assigns customs authorities specific examination, suspension and information-exchange duties."},
+        "regulatory_integration": {"result": "YES", "note": "Article 26(2) makes competent authorities responsible for the substantive compliance determination, while customs authorities implement the border-control consequence (suspension/release) of that determination -- a distinct, necessary step of the R-T mechanism directed at operators/traders."},
+        "evidence": {"result": "YES", "note": "Anchored in Article 26, 27 and 28 operative text."},
+        "counterfactual": {"result": "YES", "note": "Without the customs-authority gatekeeping function there would be no mechanism to prevent physical entry or exit of flagged non-compliant products at the border."}
+      },
+      "confidence": "high",
+      "external_context_required": false,
+      "coder_note": "[reviewer_attention: routine] Article 26(1) also disapplies Chapter VII of Regulation (EU) 2019/1020 for this Act's controls, confirming this Regulation's own bespoke customs-cooperation architecture rather than reliance on that general market-surveillance regime."
+    },
+    {
+      "case_id": "case_03",
+      "celex": "32023R1115",
+      "relation_id": "REL_C03_003",
+      "source_location": "Article 29; Article 30",
+      "evidence_quote": "This Regulation establishes a three-tier system for the assessment of countries or parts thereof. For that purpose, Member States and third countries, or parts thereof, shall be classified into one of the following risk categories:",
+      "operative_anchor_location": "Article 29(1)-(8); Article 30(1)",
+      "contextual_support": ["Recital 68", "Recital 69"],
+      "R": [{"label": "European Commission", "role": "regulator", "evidence_refs": ["Article 29(2)", "Article 29(3)"]}],
+      "I": [],
+      "T": [{"label": "Member States and third countries or parts thereof", "role": "target", "evidence_refs": ["Article 29(1)", "Article 29(6)"]}],
+      "action": ["classifying countries by deforestation risk", "engaging in cooperation and dialogue with producer countries"],
+      "object": ["a country's or territory's deforestation and forest-degradation risk profile"],
+      "mediating_function": [],
+      "mechanism": "none_or_direct",
+      "relation_type": "direct",
+      "third_actor_test": null,
+      "confidence": "medium",
+      "external_context_required": false,
+      "coder_note": "[reviewer_attention: conceptual_boundary] Two distinct sub-mechanisms bundled here: Article 29's compliance-consequential risk classification and Article 30's cooperative partnership-building (softer, foreign-policy in character). Diverse optional information sources feeding the Article 29 classification (the country itself, NGOs, civil society, indigenous peoples' organisations under Article 29(4)) are treated as external influence, not intermediation (see uncertainty U7)."
+    },
+    {
+      "case_id": "case_03",
+      "celex": "32023R1115",
+      "relation_id": "REL_C03_004",
+      "source_location": "Article 31; Article 16(12); Article 23(a)",
+      "evidence_quote": "Natural or legal persons may submit substantiated concerns to competent authorities when they consider that one or more operators or traders are not complying with this Regulation.",
+      "operative_anchor_location": "Article 31(1)-(2)",
+      "contextual_support": ["Recital 55", "Recital 78"],
+      "R": [{"label": "Member State competent authorities", "role": "regulator", "evidence_refs": ["Article 31(2)"]}],
+      "I": [{"label": "natural or legal persons submitting substantiated concerns", "role": "intermediary (information transmission)", "evidence_refs": ["Article 31(1)"]}],
+      "T": [
+        {"label": "operators", "role": "target", "evidence_refs": ["Article 31(1)"]},
+        {"label": "traders", "role": "target", "evidence_refs": ["Article 31(1)"]}
+      ],
+      "action": ["assessing substantiated concerns and taking necessary steps including checks, hearings and interim measures"],
+      "object": ["potential non-compliance of operators or traders"],
+      "mediating_function": ["submitting formally defined, evidence-based concerns that legally trigger a mandatory competent-authority assessment and feed the risk-based check-selection and interim-measures criteria"],
+      "mechanism": "information_transmission",
+      "relation_type": "intermediated",
+      "third_actor_test": {
+        "distinction": {"result": "YES", "note": "Natural or legal persons submitting concerns are distinct from competent authorities and from the operators/traders under scrutiny."},
+        "function": {"result": "YES", "note": "Article 2(31) formally defines 'substantiated concern'; Article 31 is a dedicated chapter (Chapter 6) establishing the submission channel."},
+        "regulatory_integration": {"result": "YES", "note": "Article 31(2) requires competent authorities to 'without undue delay, diligently and impartially assess' every substantiated concern and act on it; Article 16(12) and Article 23(a) explicitly incorporate substantiated concerns into the risk-based check-selection and interim-measures criteria directed at operators and traders."},
+        "evidence": {"result": "YES", "note": "Anchored across Article 31, Article 16(12), Article 21(3), Article 23(a) and Article 32 operative text."},
+        "counterfactual": {"result": "YES", "note": "Removing this channel would eliminate a legally mandatory trigger for competent-authority assessment and a legally defined component of the risk-based check and interim-measures system; its structural weight is confirmed by a dedicated chapter, a formal definition, a mandatory response deadline (Article 31(3)) and whistleblower-style identity protection (Article 31(4))."}
+      },
+      "confidence": "high",
+      "external_context_required": false,
+      "coder_note": "[reviewer_attention: conceptual_boundary] Compare Case 02 (CBAM) Article 27(4) circumvention-notification channel, coded uncertain there: the same general mechanism type (third-party complaint/tip) receives a different classification here because this Act's textual institutionalisation is materially denser (dedicated chapter, formal definition, mandatory deadline, identity protection, explicit incorporation into check-selection criteria, and a linked access-to-justice provision, Article 32) -- illustrating the source-bounded, no-result-anchoring principle applied consistently across cases (see uncertainty U9)."
+    },
+    {
+      "case_id": "case_03",
+      "celex": "32023R1115",
+      "relation_id": "REL_C03_005",
+      "source_location": "Article 10(2)(n)",
+      "evidence_quote": "complementary information on compliance with this Regulation, which may include information supplied by certification or other third-party verified schemes",
+      "operative_anchor_location": "Article 10(2)(n)",
+      "contextual_support": ["Recital 52"],
+      "R": [{"label": "Member State competent authorities", "role": "regulator", "evidence_refs": ["Article 16(3)"]}],
+      "I": [{"label": "certification or other third-party verified schemes", "role": "candidate intermediary (supplementary risk-assessment input)", "evidence_refs": ["Article 10(2)(n)"]}],
+      "T": [{"label": "operators", "role": "target", "evidence_refs": ["Article 10(1)"]}],
+      "action": ["conducting operator risk assessment"],
+      "object": ["compliance evidence considered within an operator's own risk assessment"],
+      "mediating_function": ["supplying complementary compliance evidence that operators may optionally use in their own risk assessment"],
+      "mechanism": "certification",
+      "relation_type": "uncertain",
+      "third_actor_test": {
+        "distinction": {"result": "YES", "note": "Certification/verification schemes are distinct from the operator and from competent authorities."},
+        "function": {"result": "YES", "note": "Article 10(2)(n) names certification or third-party verified schemes as one of fourteen risk-assessment criteria."},
+        "regulatory_integration": {"result": "UNCLEAR", "note": "The information feeds the operator's (T's) own due-diligence self-assessment, not directly a competent authority's (R's) assessment of T -- a structurally different position from classic I-mediates-R's-regulation-of-T. Recital 52 explicitly states such schemes 'should not... substitute the operator's responsibility as regards due diligence.'"},
+        "evidence": {"result": "YES", "note": "Anchored in Article 10(2)(n) operative text, reinforced by Recital 52."},
+        "counterfactual": {"result": "UNCLEAR", "note": "Because use of such schemes is explicitly optional and non-substitutive, removing them would not necessarily break the due-diligence mechanism, which remains fully the operator's own responsibility either way."}
+      },
+      "confidence": "medium",
+      "external_context_required": false,
+      "coder_note": "[reviewer_attention: conceptual_boundary] Distinctive structural variant: I here supports T's own compliance self-assessment rather than mediating R's assessment of T, unlike the FLEGT-licensing mechanism in REL_C03_006 where a comparable third-party certification is given automatic, mandatory legal effect. Contrast the two to see how the same general mechanism type (certification) receives different classifications depending on its actual legal effect in the text."
+    },
+    {
+      "case_id": "case_03",
+      "celex": "32023R1115",
+      "relation_id": "REL_C03_006",
+      "source_location": "Article 10(3)",
+      "evidence_quote": "Wood products which fall within the scope of Regulation (EC) No 2173/2005 that are covered by a valid FLEGT license from an operational licensing scheme shall be deemed to comply with Article 3, point (b), of this Regulation.",
+      "operative_anchor_location": "Article 10(3)",
+      "contextual_support": ["Recital 81"],
+      "R": [{"label": "Member State competent authorities", "role": "regulator", "evidence_refs": ["Article 16(1)"]}],
+      "I": [{"label": "FLEGT licensing authorities/scheme (operating under Regulation (EC) No 2173/2005 Voluntary Partnership Agreements)", "role": "intermediary (certification)", "evidence_refs": ["Article 10(3)"]}],
+      "T": [{"label": "operators and traders of FLEGT-licensed wood products", "role": "target", "evidence_refs": ["Article 10(3)"]}],
+      "action": ["determining whether a relevant product satisfies the legality requirement of Article 3, point (b)"],
+      "object": ["legality of wood products under the relevant legislation of the country of production"],
+      "mediating_function": ["issuing FLEGT licenses that are automatically and mandatorily deemed to satisfy the Article 3, point (b), legality requirement"],
+      "mechanism": "certification",
+      "relation_type": "intermediated",
+      "third_actor_test": {
+        "distinction": {"result": "YES", "note": "FLEGT licensing authorities operate a scheme under a separate EU Regulation via bilateral Voluntary Partnership Agreements with timber-producing countries, distinct from EU competent authorities and from operators/traders."},
+        "function": {"result": "YES", "note": "Article 10(3) explicitly names the FLEGT license as a certifying instrument."},
+        "regulatory_integration": {"result": "YES", "note": "Unlike the optional Article 10(2)(n) schemes (REL_C03_005), Article 10(3) gives the FLEGT license automatic, mandatory legal effect -- 'shall be deemed to comply' -- directly satisfying part of the T-facing Article 3 compliance requirement."},
+        "evidence": {"result": "YES", "note": "Anchored in this Act's own operative Article 10(3), reinforced by Recital 81."},
+        "counterfactual": {"result": "YES", "note": "Removing recognition of FLEGT licenses would eliminate an operative legal certification pathway explicitly established in the text."}
+      },
+      "confidence": "high",
+      "external_context_required": true,
+      "coder_note": "[reviewer_attention: routine] A clean, easily overlooked certification-type intermediary anchored in a single paragraph. The detailed FLEGT/VPA licensing regime itself lives in Regulation (EC) No 2173/2005, not reproduced in this corpus, but the deemed-compliance rule that gives it operative effect within EUDR is stated in this Act's own text."
+    }
+  ],
+  "uncertainties": [
+    {
+      "uncertainty_id": "U01",
+      "case_id": "case_03",
+      "issue_type": "contextual_candidate_recital_only",
+      "location": "Recital 31",
+      "evidence_quote": "The EU Observatory should thus support the implementation of this Regulation by providing scientific evidence with regard to global deforestation and forest degradation and related trade.",
+      "candidate_actors": ["EU Observatory on deforestation, forest degradation, changes in the world's forest cover and associated drivers"],
+      "related_relation_id": null,
+      "test_summary": null,
+      "reasoning": "An elaborately described regulator-facing monitoring and scientific-evidence body -- textbook intermediary shape, including an explicit cooperation mandate with 'the competent authorities, relevant international organisations and bodies, research institutes, non-governmental organisations, operators, traders, third countries and other relevant stakeholders' (same recital) -- but not named or assigned any function anywhere in the operative provisions (Articles 1-38). This is the clearest single example across all three cases of the operative/recital evidentiary distinction: a recital cannot, by itself, generate a positive relation, however institutionally developed it reads.",
+      "confidence": "high"
+    },
+    {
+      "uncertainty_id": "U02",
+      "case_id": "case_03",
+      "issue_type": "considered_and_rejected_intermediary",
+      "location": "Article 10(2)(k)",
+      "evidence_quote": "conclusions of the meetings of the Commission expert groups supporting the implementation of this Regulation, as published in the Commission’s expert group register",
+      "candidate_actors": ["Commission expert groups"],
+      "related_relation_id": "REL_C03_001",
+      "test_summary": {"distinction": "UNCLEAR", "function": "YES", "regulatory_integration": "UNCLEAR", "evidence": "YES", "counterfactual": "UNCLEAR"},
+      "reasoning": "Referred to simply as 'the Commission's expert groups' with no textual establishment as an independent body (unlike Case 01's statutorily independent Advisory Board); treated as the Commission's own internal consultative apparatus, analogous to the JRC exclusion in Case 01 (U2 there).",
+      "confidence": "medium"
+    },
+    {
+      "uncertainty_id": "U03",
+      "case_id": "case_03",
+      "issue_type": "considered_and_excluded",
+      "location": "Article 6",
+      "evidence_quote": "Operators or traders may mandate an authorised representative to submit the due diligence statement pursuant to Article 4(2) on their behalf. In such cases, the operator or trader shall retain responsibility for the compliance of the relevant product with Article 3.",
+      "candidate_actors": ["authorised representatives"],
+      "related_relation_id": "REL_C03_001",
+      "test_summary": {"distinction": "YES", "function": "YES", "regulatory_integration": "NO", "evidence": "YES", "counterfactual": "NO"},
+      "reasoning": "A procedural agency/proxy arrangement: the represented operator or trader retains full responsibility, and the representative performs no independent regulatory function (no verification, certification or monitoring) distinguishable from acting as an extension of T's own legal personality.",
+      "confidence": "high"
+    },
+    {
+      "uncertainty_id": "U04",
+      "case_id": "case_03",
+      "issue_type": "considered_and_rejected_intermediary",
+      "location": "Article 15",
+      "evidence_quote": "The Commission may facilitate the harmonised implementation of this Regulation, by issuing relevant guidelines and by promoting adequate exchange of information, coordination and cooperation between competent authorities, between competent authorities and customs authorities, and between competent authorities and the Commission.",
+      "candidate_actors": ["European Commission (as coordinator of competent authorities)"],
+      "related_relation_id": "REL_C03_001",
+      "test_summary": {"distinction": "UNCLEAR", "function": "YES", "regulatory_integration": "YES", "evidence": "YES", "counterfactual": "UNCLEAR"},
+      "reasoning": "Same pattern as Case 02 Article 12 (see that case's U3): rejected as intermediation in favour of treating the Commission and competent authorities/Member States as joint regulators, given the Commission's extensive independent direct functions elsewhere in this Act.",
+      "confidence": "medium"
+    },
+    {
+      "uncertainty_id": "U05",
+      "case_id": "case_03",
+      "issue_type": "considered_and_excluded_co_regulation",
+      "location": "Article 36",
+      "evidence_quote": "The Commission shall be assisted by a committee. That committee shall be a committee within the meaning of Regulation (EU) No 182/2011 of the European Parliament and of the Council",
+      "candidate_actors": ["comitology committee"],
+      "related_relation_id": null,
+      "test_summary": {"distinction": "YES", "function": "YES", "regulatory_integration": "UNCLEAR", "evidence": "YES", "counterfactual": "UNCLEAR"},
+      "reasoning": "Consistent with Case 01 (Energy Union Committee, U9) and Case 02 (CBAM Committee, U1): a Member-State-representative oversight mechanism over the Commission's implementing power, not a target-directed intermediary.",
+      "confidence": "medium",
+      "external_context_required": true
+    },
+    {
+      "uncertainty_id": "U06",
+      "case_id": "case_03",
+      "issue_type": "considered_and_rejected_intermediary",
+      "location": "Article 35(4)",
+      "evidence_quote": "Before adopting a delegated act, the Commission shall consult experts designated by each Member State in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making.",
+      "candidate_actors": ["Member-State-designated experts"],
+      "related_relation_id": null,
+      "test_summary": {"distinction": "YES", "function": "YES", "regulatory_integration": "NO", "evidence": "YES", "counterfactual": "UNCLEAR"},
+      "reasoning": "Consultation supports the Commission's own delegated-act rule-making (Annex I CN code amendments), not target-directed intermediation; consistent with the same finding in Case 01 and Case 02.",
+      "confidence": "high"
+    },
+    {
+      "uncertainty_id": "U07",
+      "case_id": "case_03",
+      "issue_type": "external_influence_excluded",
+      "location": "Article 29(4)",
+      "evidence_quote": "information submitted by the country concerned, regional authorities concerned, operators, NGOs and third parties, including indigenous peoples, local communities and civil society organisations, with regard to the effective covering of emissions and removals from agriculture, forestry and land use in the nationally determined contribution to the UNFCCC",
+      "candidate_actors": ["the country concerned", "regional authorities", "operators", "NGOs", "indigenous peoples", "local communities", "civil society organisations"],
+      "related_relation_id": "REL_C03_003",
+      "test_summary": {"distinction": "YES", "function": "UNCLEAR", "regulatory_integration": "NO", "evidence": "YES", "counterfactual": "NO"},
+      "reasoning": "Permissive ('may also take into account'), multi-sourced information feeding the Commission's own classification judgment; distinguished from Case 01/Case 02's mandatory 'shall base its assessment on' language, which is treated as intermediation. Textbook external influence rather than an institutionally integrated single intermediary function.",
+      "confidence": "high"
+    },
+    {
+      "uncertainty_id": "U08",
+      "case_id": "case_03",
+      "issue_type": "instrument_not_actor",
+      "location": "Article 33; Article 28",
+      "evidence_quote": "By 30 December 2024, the Commission shall establish and subsequently shall maintain an information system which shall contain the due diligence statements made available pursuant to Article 4(2).",
+      "candidate_actors": ["information system", "electronic interface"],
+      "related_relation_id": "REL_C03_001",
+      "test_summary": null,
+      "reasoning": "Electronic systems the Commission establishes and maintains; not actors, consistent with the CBAM registry exclusion in Case 02 (U6).",
+      "confidence": "high"
+    },
+    {
+      "uncertainty_id": "U09",
+      "case_id": "case_03",
+      "issue_type": "cross_case_methodological_note",
+      "location": "Article 31 (this case) vs. Article 27(4) of Regulation (EU) 2023/956 (Case 02)",
+      "evidence_quote": null,
+      "candidate_actors": ["natural or legal persons submitting substantiated concerns (Case 03)", "Member States, affected/benefited parties, NGOs (Case 02)"],
+      "related_relation_id": "REL_C03_004",
+      "test_summary": null,
+      "reasoning": "Both Acts contain a third-party complaint/tip channel feeding an EU-level compliance process. This Act's mechanism was coded intermediated; Case 02's was coded uncertain. The difference rests on textual density of institutionalisation here (dedicated chapter, formal definition, mandatory assessment duty with deadline, whistleblower protection, explicit incorporation into check-selection and interim-measures criteria, and a linked access-to-justice article), not on any prior expectation about which mechanism 'should' qualify -- illustrating the source-bounded, no-result-anchoring principle applied consistently.",
+      "confidence": "high"
+    }
+  ]
+}

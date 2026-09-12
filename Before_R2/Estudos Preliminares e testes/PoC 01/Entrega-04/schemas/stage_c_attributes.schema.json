@@ -1,0 +1,57 @@
+{
+  "name": "stage_c_attributes",
+  "description": "Stage C - institutional attribute coding. Unit: one relationship, only for stage_b2 relational_test_result=positive. Fixed fields mirror the 8 attributes v3 human coding already trusted; deferred_battery_proposals covers the ~20 autonomy/accountability fields DATA_DICTIONARY_v3.md defines but v3 left unpopulated for humans too - treat these as low-confidence proposals for human review, not settled codes.",
+  "strict": true,
+  "schema": {
+    "type": "object",
+    "properties": {
+      "relationship_id": { "type": "string" },
+      "formal_role_present": { "$ref": "#/$defs/CodedValue" },
+      "participation_in_scheme_voluntary": { "$ref": "#/$defs/CodedValue" },
+      "use_of_intermediary_mandatory": { "$ref": "#/$defs/CodedValue" },
+      "regulatory_level": { "$ref": "#/$defs/CategoricalValue" },
+      "sphere_primary": { "$ref": "#/$defs/CategoricalValue" },
+      "mode_of_operation": { "$ref": "#/$defs/CategoricalValue" },
+      "organizational_separation": { "$ref": "#/$defs/CategoricalValue" },
+      "legal_independence_required": { "$ref": "#/$defs/CodedValue" },
+      "supervision_present": { "$ref": "#/$defs/CodedValue" },
+      "deferred_battery_proposals": {
+        "type": "array",
+        "description": "Only populate for attributes explicitly requested in this call's prompt (see prompts/stage_c_user_template.md) - do not volunteer fields not asked for.",
+        "items": {
+          "type": "object",
+          "properties": {
+            "attribute_name": {
+              "type": "string",
+              "enum": [
+                "conflict_of_interest_rule", "appointment_by_regulator", "appointment_by_target",
+                "removal_protection", "financial_independence_rule", "discretionary_authority",
+                "professional_independence", "organizational_independence_required", "impartiality_required",
+                "reporting_to_regulator", "recordkeeping_obligation", "periodic_review", "accreditation",
+                "licensing_or_approval", "sanction", "withdrawal_or_suspension", "transparency_requirement",
+                "appeal_or_review", "external_audit", "peer_review"
+              ]
+            },
+            "coded": { "$ref": "#/$defs/CodedValue" }
+          },
+          "required": ["attribute_name", "coded"],
+          "additionalProperties": false
+        }
+      },
+      "out_of_bounds_check": {
+        "type": "boolean",
+        "description": "Set to false, with a one-line note in out_of_bounds_note, if you were tempted to compute or assert effectiveness, legitimacy, trust, polycentricity_score, autonomy_index, or accountability_index. Set to true if no such temptation arose. This field must never be omitted."
+      },
+      "out_of_bounds_note": { "type": ["string", "null"] },
+      "context_escape_hatch": { "$ref": "#/$defs/ContextEscapeHatch" }
+    },
+    "required": [
+      "relationship_id", "formal_role_present", "participation_in_scheme_voluntary",
+      "use_of_intermediary_mandatory", "regulatory_level", "sphere_primary",
+      "mode_of_operation", "organizational_separation", "legal_independence_required",
+      "supervision_present", "deferred_battery_proposals",
+      "out_of_bounds_check", "out_of_bounds_note", "context_escape_hatch"
+    ],
+    "additionalProperties": false
+  }
+}

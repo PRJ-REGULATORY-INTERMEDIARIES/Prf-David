@@ -1,0 +1,100 @@
+manifest: PRE_RA_4WAY_MANIFEST
+date: 2026-09-07
+date_precision: day
+timestamp_recorded: false
+versions:
+  comparator: 1.0.0
+  RA_protocol: 1.0.0
+  methodology: 1.1.0
+inputs:
+  - path: "02_corpus/act.md"
+    sha256: b24a02ea241ca631b606660bb48bb5a2222b29f849c4e4552fb99f871b2e8fd4
+  - path: "methodology/v1.1.0/codebook.md"
+    sha256: c160e153907a786c04070cb09f6e9baa11de709a4432a5f89ebe375a8a7eb472
+  - path: "methodology/v1.1.0/reference_coding_schema.json"
+    sha256: abbc4325a5e749cf31836fb24314c27ed22061d6e6539fb435fce8236d5ad2ec
+  - path: "03_human/stage4_attempt_02/candidate_reconstruction.json"
+    sha256: 38416b70f9337ad66dbd6c6d41d280d18ad9e5694e0cacb0c938c5833b1aff55
+  - path: "03_human/stage4_attempt_02/R1_coding_input.json"
+    sha256: 813b984c5e80aa03c98bc4399f40644c7d802eedd45f55a2d7a9a787a82d0b38
+  - path: "03_human/stage4_attempt_02/R2_coding_input.json"
+    sha256: 813b984c5e80aa03c98bc4399f40644c7d802eedd45f55a2d7a9a787a82d0b38
+  - path: "03_human/stage4_attempt_02/R1_output_raw.json"
+    sha256: af443a0f98307a9d989816c5f0e15d4aa009553174eb470753f4134cb6640f29
+  - path: "03_human/stage4_attempt_02/R1_output.json"
+    sha256: af443a0f98307a9d989816c5f0e15d4aa009553174eb470753f4134cb6640f29
+  - path: "03_human/stage4_attempt_02/R2_output_raw.json"
+    sha256: 18855b2053447d061be3c1fcfae9ebdbd579620d922a6394223f57b0f21ad2f6
+  - path: "03_human/stage4_attempt_02/R2_output.json"
+    sha256: 18855b2053447d061be3c1fcfae9ebdbd579620d922a6394223f57b0f21ad2f6
+  - path: "03_human/stage4_attempt_02/R1_context_manifest.yaml"
+    sha256: 02ce8bf9920277ee683d8b041e4a599345d7ec33686e587a492df3da290a4f24
+  - path: "03_human/stage4_attempt_02/R2_context_manifest.yaml"
+    sha256: 2688478f8fbf8bf1a2740c5cc1500b788db73eead96fd37b699943266a55cc87
+  - path: "03_human/stage4_attempt_02/R1_validation_log.md"
+    sha256: eaf9d8b0964c2a8d647639ee5ecc69a57178edd1ec7676d7d1307c4b5925dae1
+  - path: "03_human/stage4_attempt_02/R2_validation_log.md"
+    sha256: b0031b88cde9b687c3851d7e7e478e1dbc9f49d95b97ef6ae477fa2d8a2b4251
+  - path: "03_human/stage4_attempt_02/validate_reference_logic.py"
+    sha256: b502413da838f1b447ab67b49fe073ab0a1d6a076fe86a9298d9d4a021ff998d
+  - path: "03_human/stage4_attempt_02/claude_replication_01/Claude_R1_output_raw.json"
+    sha256: f997f3d763836887d858528e78ac3753be9fb0dfe23bfd0fa0bf885ea4870daa
+  - path: "03_human/stage4_attempt_02/claude_replication_01/Claude_R1_output.json"
+    sha256: 86cf2af470fad31165efd0af8ac1cb02fa77c20b6bacad265a40601d5611e2e5
+  - path: "03_human/stage4_attempt_02/claude_replication_01/Claude_R2_output_raw.json"
+    sha256: e9cecdb87207a636d94b54e5e86e4d099986bac77fcb6428844b2631a5844df5
+  - path: "03_human/stage4_attempt_02/claude_replication_01/Claude_R2_output.json"
+    sha256: cfea747db3441279cb4293092a7cc9435434bb967880ae0f5404e1b401f5a06e
+  - path: "03_human/stage4_attempt_02/claude_replication_01/Claude_R1_context_manifest.yaml"
+    sha256: 9dc2d3ab9683ce802c4374cf395f8577773865c6eb87b42eb29255396f5d010e
+  - path: "03_human/stage4_attempt_02/claude_replication_01/Claude_R2_context_manifest.yaml"
+    sha256: 659eb766ab27a620ad32ea4553a65fd0e4deaebf961e62cde08b6587f3f96cc9
+  - path: "03_human/stage4_attempt_02/claude_replication_01/Claude_R1_validation_log.md"
+    sha256: 948f718756b0b393fb4cda61c76e0705bae638978ed2078e858d243de256dbbe
+  - path: "03_human/stage4_attempt_02/claude_replication_01/Claude_R2_validation_log.md"
+    sha256: e9a07e1b36af16cde08553660f0963073e8c3ba877684ab7e95f96c58102543a
+  - path: "03_human/stage4_attempt_02/claude_replication_01/Claude_replication_execution_log.md"
+    sha256: dcade6a5c5ee45ec0f74fc6521656c96a8525f3eff96cd3c9b06ebd42b8cc4ff
+  - path: "03_human/stage4_attempt_02/claude_replication_01/CLAUDE_REPLICATION_MANIFEST.yaml"
+    sha256: 2a74e227923c128c037cdb41cdcc7dcec1ffb404389780748987325238b5481a
+  - path: "03_human/stage4_attempt_02/pre_ra_4way/actor_label_aliases.yaml"
+    sha256: e3af83ca54cf80bb2e58989804854af6c70cb3e1d5768d6cf1632103168f8dba
+outputs:
+  - path: "03_human/stage4_attempt_02/pre_ra_4way/cross_model_comparator_v1.py"
+    sha256: f8c991bfb217c92b8ee8ad911eeb722102e786b48535ba57ef07e59601221a53
+  - path: "03_human/stage4_attempt_02/pre_ra_4way/actor_label_aliases.yaml"
+    sha256: e3af83ca54cf80bb2e58989804854af6c70cb3e1d5768d6cf1632103168f8dba
+  - path: "03_human/stage4_attempt_02/pre_ra_4way/TERRA_EXECUTION_PROVENANCE_NOTE.md"
+    sha256: 8f6883758b12026893d18f94c8746289db16b5a2a5aa3f0590d54d5b267a2d94
+  - path: "03_human/stage4_attempt_02/pre_ra_4way/KNOWN_LIMITATIONS_V1_1.md"
+    sha256: 430f874a5f5f219a556f8b49585a85bb4f3fcd66f56886e2ec1ed9552cca61c4
+  - path: "03_human/stage4_attempt_02/pre_ra_4way/RA_4WAY_PROTOCOL.md"
+    sha256: df645ad2a5e29d14ca0e8b92993f9d828de7deca2b294b808e613f7d3e783903
+  - path: "03_human/stage4_attempt_02/pre_ra_4way/RA_blinding_spec.yaml"
+    sha256: 0e90a7efaca0594dbdb8d920db73cd9e44d2286e6de5680d99c47417bf4e5778
+  - path: "03_human/stage4_attempt_02/pre_ra_4way/cross_model_comparison.csv"
+    sha256: 93c0c042753e5dedd24f59743ecdfcb0a9e0371ad31429c1b48764e906cbeccb
+  - path: "03_human/stage4_attempt_02/pre_ra_4way/cross_model_comparison_report.md"
+    sha256: b44adafac38b28557b78293b7cabb862cc77801f3f85502d6d616c5337b816a0
+  - path: "03_human/stage4_attempt_02/pre_ra_4way/pre_ra_4way_validation_log.md"
+    sha256: 6dba1d2397aeb5dbfdc384fcee7f1ee37c20d110cd2391c61cd174d1fb7bff36
+  - path: "03_human/stage4_attempt_02/pre_ra_4way/PRE_RA_4WAY_MANIFEST.yaml"
+    sha256: null
+    hash_note: self-hash excluded because a manifest cannot contain its own final cryptographic hash
+status: pass
+state:
+  pre_ra_4way_prepared: true
+  cross_model_comparison_complete: true
+  RA_started: false
+  human_gate_started: false
+  benchmark_locked: false
+  experiment_started: false
+preservation:
+  protected_hashes_verified: true
+  original_outputs_modified: false
+  methodology_v1_1_0_modified: false
+  validator_modified: false
+limitations:
+  - exact Terra execution model/effort is not machine-recorded
+  - manifest self-hash must be recorded externally after finalization
+  - RA-dependent human-gate rules 8 and 9 remain unevaluable until a future RA exists

@@ -1,0 +1,18 @@
+provider: Anthropic
+role: Primary Interpretive Reader
+prompt_version: production_v1.1
+prompt_path: prompts/production/PRIMARY_INTERPRETIVE_READER.md
+schema_version: production_v1.1
+case_id: case_01
+celex: 32021R1119
+corpus_hash_verified: b24a02ea241ca631b606660bb48bb5a2222b29f849c4e4552fb99f871b2e8fd4
+run_date: 2026-09-08T02:16:05Z  # date -u, UTC
+model_identity: null  # not self-observable with certainty from inside this run
+reasoning_effort: null  # recorded by the orchestrating session, not self-observable with certainty from inside this run
+note: >
+  Exact model identity/version and reasoning-effort telemetry for this run are
+  recorded by the orchestrating session/harness rather than reliably self-observable
+  from inside the run itself, per the working draft's functional-role-naming
+  principle (Section 8): the analytical role (Primary Interpretive Reader) is
+  reported here; provider-level run metadata beyond what is listed above was not
+  invented.

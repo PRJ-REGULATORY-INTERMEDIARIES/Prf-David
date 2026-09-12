@@ -1,0 +1,18 @@
+[
+  {
+    "candidate_id": "CAND2-D64B4FFA6C04",
+    "field": "I",
+    "original_value": null,
+    "rule_violated": "validate_relational_logic: condition_C.result == 'YES' requires non-empty I (Advisory Board was already identified as the distinct third actor in condition_C's evidence and in the interpretive_note, but had not been mechanically populated into the I actor-list field)",
+    "corrected_value": [
+      {
+        "label": "Advisory Board",
+        "role": "provides advice taken into account by the Commission (distinct third actor per condition_C; no target actor/mediated relation established, per condition_D=NO)",
+        "evidence_refs": [
+          "EV2"
+        ]
+      }
+    ],
+    "nature": "mechanical/structural (I actor-list field completed to match the condition_C=YES determination already made; relational_result, condition results, and all other substantive judgments are unchanged)"
+  }
+]

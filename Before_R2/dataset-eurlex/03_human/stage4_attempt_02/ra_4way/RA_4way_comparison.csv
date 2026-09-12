@@ -1,0 +1,91 @@
+candidate_id,RA_result,A_result,B_result,C_result,D_result,RA_R,RA_I,RA_T,agreement_count,RA_diverges_from_all,RA_differs_from_largest_grouping,RA_confidence,human_gate_trigger,human_gate_reasons
+CAND2-C4E87D5066C6,negative,negative,negative,negative,negative,,,,4,False,False,high,False,
+CAND2-0E374F1C7A4C,negative,negative,negative,negative,negative,,,,4,False,False,high,False,
+CAND2-F9C7B65B0C4D,negative,negative,negative,negative,negative,,,,4,False,False,high,True,r10_random_audit_sample_unanimous_negative
+CAND2-5E4EA665A85E,negative,negative,negative,negative,negative,,,,4,False,False,high,True,r10_random_audit_sample_unanimous_negative
+CAND2-8EA8F480D39C,negative,negative,negative,negative,negative,European Commission,,key stakeholders;sectors of the economy in the Union,4,False,False,medium,False,
+CAND2-04C304F4BA49,negative,negative,negative,negative,negative,,,Member States;the Union,4,False,False,medium,False,
+CAND2-DD20E29F5EEE,negative,negative,negative,negative,negative,,,Member States;the Union,4,False,False,medium,False,
+CAND2-EACA0173738F,negative,negative,negative,negative,negative,,,,4,False,False,high,True,r10_random_audit_sample_unanimous_negative
+CAND2-CDF54AB06415,negative,negative,negative,negative,negative,,,,4,False,False,high,False,
+CAND2-5AAF170024C6,negative,negative,negative,negative,negative,,,,4,False,False,high,False,
+CAND2-1317278CFFD8,negative,negative,negative,negative,negative,,,,4,False,False,high,False,
+CAND2-EF7DEB27D98C,negative,negative,negative,negative,negative,,,,4,False,False,high,False,
+CAND2-E5D1DF913444,negative,negative,negative,negative,negative,,,Council of the European Union;European Commission;European Parliament;Member States,4,False,False,medium,False,
+CAND2-37CE75C181B6,negative,negative,negative,negative,negative,,,,4,False,False,high,False,
+CAND2-4DBCD3C10267,negative,negative,negative,negative,negative,,,Member States,4,False,False,medium,False,
+CAND2-F5D039301252,negative,negative,negative,negative,negative,European Commission,,,4,False,False,medium,False,
+CAND2-7D237A86714A,negative,negative,negative,negative,negative,,,,4,False,False,high,False,
+CAND2-3373C2B0AA49,negative,negative,negative,negative,negative,European Commission,,,4,False,False,medium,False,
+CAND2-9F08E9BCE44A,negative,negative,negative,negative,negative,European Commission,,Member States,4,False,False,medium,False,
+CAND2-558133B800C4,negative,negative,negative,negative,negative,,,,4,False,False,high,True,r10_random_audit_sample_unanimous_negative
+CAND2-5BDA0309AE37,negative,negative,negative,negative,negative,,,Council of the European Union;European Commission;European Parliament;Member States,4,False,False,medium,False,
+CAND2-8EAEE41F1080,negative,negative,negative,negative,negative,,,,4,False,False,high,False,
+CAND2-8856CE9D84FD,negative,negative,negative,negative,negative,European Commission,,Member States,4,False,False,medium,False,
+CAND2-AB84F16B6A72,negative,negative,negative,negative,conditional,European Commission,European Environment Agency (EEA);European Scientific Advisory Board on Climate Change (Advisory Board),Member States,3,False,False,medium,True,r2_conditional_in_any_replica;r4_D_yes_in_any_replica;r5_relational_result_divergence;r6_I_label_divergence;r7_RIT_divergence_non_unanimous_negative
+CAND2-DAF9214798E0,negative,negative,negative,negative,negative,European Commission,,all parts of society;stakeholders representing different sectors of the economy,4,False,False,medium,False,
+CAND2-F6BA2D3327F5,negative,negative,negative,negative,negative,European Commission,,Member States,4,False,False,medium,False,
+CAND2-2B14782F89D9,negative,negative,negative,negative,negative,,,,4,False,False,high,False,
+CAND2-DC2080A516E3,negative,negative,negative,negative,negative,,,Member States;relevant Union institutions,4,False,False,high,False,
+CAND2-71E7A98F944E,negative,negative,insufficient_evidence,negative,negative,,,,3,False,False,high,True,r3_insufficient_evidence_in_any_replica;r5_relational_result_divergence;r7_RIT_divergence_non_unanimous_negative
+CAND2-DDC9A9630321,negative,negative,negative,negative,negative,,,,4,False,False,high,False,
+CAND2-D6ED62ADF0C5,negative,negative,insufficient_evidence,negative,negative,,,,3,False,False,high,True,r3_insufficient_evidence_in_any_replica;r5_relational_result_divergence;r7_RIT_divergence_non_unanimous_negative
+CAND2-6EA7E563363E,negative,negative,negative,negative,negative,,,,4,False,False,high,False,
+CAND2-021AD4B3CF48,negative,negative,negative,negative,negative,,,,4,False,False,high,False,
+CAND2-082F5C3C3784,negative,negative,negative,negative,negative,,,European Scientific Advisory Board on Climate Change (Advisory Board),4,False,False,high,True,r10_random_audit_sample_unanimous_negative
+CAND2-11BF388480EA,negative,negative,positive,negative,negative,European Environment Agency (EEA),,Member States,3,False,False,medium,True,r1_positive_in_any_replica;r4_D_yes_in_any_replica;r5_relational_result_divergence;r6_I_label_divergence;r7_RIT_divergence_non_unanimous_negative
+CAND2-6E01B3D59579,negative,negative,negative,negative,negative,,,Member States;relevant Union institutions,4,False,False,high,False,
+CAND2-28D96C4EB989,negative,negative,negative,negative,negative,European Commission,,,4,False,False,high,False,
+CAND2-81FF544AFB12,negative,negative,negative,negative,negative,European Commission,,,4,False,False,high,True,r10_random_audit_sample_unanimous_negative
+CAND2-D64B4FFA6C04,negative,negative,negative,negative,negative,European Commission,,,4,False,False,high,True,r6_I_label_divergence
+CAND2-5891C83730AB,negative,negative,negative,negative,negative,European Commission,,,4,False,False,high,False,
+CAND2-8207DD57CAB1,negative,negative,negative,negative,negative,European Commission,,,4,False,False,high,False,
+CAND2-A1B35C3F8A0A,negative,negative,negative,negative,negative,European Commission,,,4,False,False,high,False,
+CAND2-69F07555AEAE,negative,negative,negative,negative,negative,,,Member States;relevant Union institutions,4,False,False,high,False,
+CAND2-815A1BF3717E,negative,negative,negative,negative,negative,European Commission,,,4,False,False,high,False,
+CAND2-107690E984ED,negative,negative,negative,negative,negative,,,Member States;relevant Union institutions,4,False,False,high,False,
+CAND2-8AC97A3A1797,negative,negative,negative,negative,negative,European Commission,,Member States,4,False,False,high,False,
+CAND2-4A3243C9112E,negative,negative,insufficient_evidence,negative,negative,European Commission,,,3,False,False,high,True,r3_insufficient_evidence_in_any_replica;r5_relational_result_divergence;r7_RIT_divergence_non_unanimous_negative
+CAND2-EDD56D7845D3,negative,negative,negative,negative,negative,European Commission,,Member States,4,False,False,high,False,
+CAND2-EC26B7CB9612,negative,negative,negative,negative,negative,European Commission,,Member States,4,False,False,high,True,r10_random_audit_sample_unanimous_negative
+CAND2-7811F95526B7,negative,negative,insufficient_evidence,negative,negative,European Commission,,,3,False,False,high,True,r3_insufficient_evidence_in_any_replica;r5_relational_result_divergence;r7_RIT_divergence_non_unanimous_negative
+CAND2-5E47A052C0DF,negative,negative,negative,negative,negative,European Commission,,,4,False,False,high,False,
+CAND2-90DBC4512D0E,negative,negative,negative,negative,negative,European Commission,,,4,False,False,high,False,
+CAND2-610B079BEC92,negative,negative,negative,negative,negative,European Commission,,Member States,4,False,False,high,False,
+CAND2-EC28D6A68B17,negative,negative,negative,negative,negative,European Commission,,Member States,4,False,False,high,False,
+CAND2-D441FFCD4FC3,negative,negative,negative,negative,negative,European Commission,,Member States,4,False,False,high,False,
+CAND2-66E1F84E584B,negative,negative,negative,negative,negative,European Commission,,Member State concerned,4,False,False,high,False,
+CAND2-9E16D8A0E046,negative,negative,negative,negative,negative,European Commission,,Member State concerned,4,False,False,high,False,
+CAND2-295D4FBD3131,negative,negative,negative,negative,negative,European Commission,,Member State concerned,4,False,False,high,False,
+CAND2-A8BB17B8CD32,negative,negative,negative,negative,negative,European Commission,,Member States,4,False,False,medium,False,
+CAND2-937128584EE2,negative,negative,negative,negative,negative,European Commission,,Member States,4,False,False,medium,False,
+CAND2-958BB6289A36,negative,negative,negative,negative,negative,European Commission,,Member States,4,False,False,high,False,
+CAND2-4F0C4C78A5A5,negative,negative,insufficient_evidence,negative,negative,European Commission,,Member States,3,False,False,medium,True,r3_insufficient_evidence_in_any_replica;r5_relational_result_divergence;r7_RIT_divergence_non_unanimous_negative
+CAND2-465FC96778A7,negative,negative,insufficient_evidence,positive,positive,European Commission,European Environment Agency (EEA);European Scientific Advisory Board on Climate Change (Advisory Board),Member States,1,False,True,medium,True,r1_positive_in_any_replica;r3_insufficient_evidence_in_any_replica;r4_D_yes_in_any_replica;r5_relational_result_divergence;r6_I_label_divergence;r7_RIT_divergence_non_unanimous_negative;r9_RA_diverges_all_or_largest_grouping
+CAND2-C5168282A9CE,negative,negative,negative,negative,negative,European Commission,,Member States,4,False,False,medium,False,
+CAND2-8607C66ECE11,negative,negative,negative,negative,negative,European Commission,Intergovernmental Panel on Climate Change (IPCC);Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services (IPBES),Member States,4,False,False,medium,True,r6_I_label_divergence
+CAND2-E000728831B2,negative,negative,negative,negative,negative,European Commission,,Member States,4,False,False,medium,False,
+CAND2-88A2261C68DE,negative,negative,positive,positive,positive,European Commission,,European Environment Agency (EEA),1,False,True,medium,True,r1_positive_in_any_replica;r4_D_yes_in_any_replica;r5_relational_result_divergence;r6_I_label_divergence;r7_RIT_divergence_non_unanimous_negative;r9_RA_diverges_all_or_largest_grouping
+CAND2-DCD349D8BCA7,negative,negative,negative,negative,negative,European Commission,,academia;citizens;civil society;social partners;the business community,4,False,False,high,False,
+CAND2-04BA3CF9F1E9,negative,negative,negative,negative,negative,European Commission,,citizens;social partners;stakeholders,4,False,False,high,False,
+CAND2-8D92B13ED7AE,negative,negative,negative,negative,negative,European Commission,,relevant stakeholders;sectors of the economy within the Union,4,False,False,high,False,
+CAND2-3E6642A72EB3,negative,negative,negative,negative,negative,Council of the European Union;European Parliament,,European Commission,4,False,False,high,True,r10_random_audit_sample_unanimous_negative
+CAND2-CBC911FFFEDF,negative,negative,negative,negative,negative,Council of the European Union;European Parliament,European Scientific Advisory Board on Climate Change (Advisory Board);Intergovernmental Panel on Climate Change (IPCC),European Commission,4,False,False,medium,False,
+CAND2-431D6B0BD7E3,negative,negative,negative,negative,negative,European Commission,,,4,False,False,high,False,
+CAND2-4366F1CEFAE0,negative,negative,negative,negative,negative,Management Board of the Agency established by Regulation (EC) No 401/2009,,members of the Advisory Board,4,False,False,medium,False,
+CAND2-2A5446CEC717,negative,negative,negative,negative,negative,Management Board of the Agency established by Regulation (EC) No 401/2009,,candidates for and members of the Advisory Board,4,False,False,high,False,
+CAND2-90DA767B29FC,negative,negative,negative,negative,negative,Management Board of the Agency established by Regulation (EC) No 401/2009,,candidates for Advisory Board membership,4,False,False,medium,False,
+CAND2-A95EB0288DC5,negative,negative,negative,negative,negative,,,European Scientific Advisory Board on Climate Change (Advisory Board);members of the Advisory Board,4,False,False,high,False,
+CAND2-CC0ABB8E0765,negative,negative,negative,negative,negative,Executive Director of the Agency established by Regulation (EC) No 401/2009;Management Board of the Agency established by Regulation (EC) No 401/2009,,European Scientific Advisory Board on Climate Change (Advisory Board),4,False,False,high,False,
+CAND2-474D6A7B8FCA,negative,negative,negative,negative,negative,,,,4,False,False,high,False,
+CAND2-78725C040A77,negative,negative,negative,negative,negative,,,,4,False,False,high,False,
+CAND2-8D7D5ED06FD0,insufficient_evidence,negative,insufficient_evidence,negative,negative,,,,1,False,True,low,True,r3_insufficient_evidence_in_any_replica;r5_relational_result_divergence;r8_RA_confidence_low;r9_RA_diverges_all_or_largest_grouping
+CAND2-E269DC5EED3A,negative,negative,negative,negative,negative,,,,4,False,False,high,False,
+CAND2-06C85DCA5897,negative,negative,negative,negative,negative,,,Member States,4,False,False,medium,False,
+CAND2-4463F3ADEC6D,negative,negative,negative,negative,negative,,,Member States,4,False,False,high,True,r10_random_audit_sample_unanimous_negative
+CAND2-290564FC113D,negative,negative,negative,negative,negative,European Commission,,Member States,4,False,False,high,False,
+CAND2-A3E2EAA5D77D,negative,negative,negative,negative,negative,European Commission,,Member States,4,False,False,medium,False,
+CAND2-27E84BD23730,negative,conditional,conditional,positive,positive,European Commission,Energy Union Committee,Member States,0,True,True,medium,True,r1_positive_in_any_replica;r2_conditional_in_any_replica;r4_D_yes_in_any_replica;r5_relational_result_divergence;r7_RIT_divergence_non_unanimous_negative;r9_RA_diverges_all_or_largest_grouping
+CAND2-D6FFF8586396,negative,negative,negative,negative,negative,European Commission,,Member States,4,False,False,medium,False,
+CAND2-84FD60C2FE3B,negative,negative,negative,negative,negative,Council of the European Union;European Parliament,,European Commission,4,False,False,high,False,
+CAND2-0235CD5AC705,negative,negative,negative,negative,negative,,,,4,False,False,medium,False,

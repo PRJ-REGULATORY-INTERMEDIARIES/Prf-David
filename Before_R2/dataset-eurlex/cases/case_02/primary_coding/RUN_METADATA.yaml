@@ -1,0 +1,27 @@
+provider: Anthropic
+role: Primary Interpretive Reader
+prompt_version: production_v1.1
+prompt_path: prompts/production/PRIMARY_INTERPRETIVE_READER.md
+schema_version: production_v1.1
+case_id: case_02
+celex: 32023R0956
+corpus_path: cases/case_02/corpus/act.md
+corpus_sha256: 01357c4c34c9f6009e72265a163bcd45cebc4e4bd9d806398b5c05e8487c692b
+run_date: 2026-09-08
+model: null
+model_version: null
+reasoning_effort: null
+run_id: null
+note: >
+  Exact model identity, model version, and reasoning-effort telemetry are recorded by the
+  orchestrating session rather than reliably self-observable with certainty from inside this
+  run; left null rather than guessed, per the functional-role-naming principle in
+  docs/methodology/METHODOLOGY_WORKING_DRAFT_V1_1.md section 8 (analytical roles are named
+  functionally, independent of the computational implementation executing them in a given run).
+outputs:
+  - cases/case_02/primary_coding/PRIMARY_INTERPRETIVE_READER_PROPOSAL.json
+  - cases/case_02/primary_coding/PRIMARY_INTERPRETIVE_READER_PROPOSAL.md
+validation:
+  jsonschema_validation: pass (methodology/production_v1.1/coding_matrix_schema.json, Draft 2020-12, all 15 relation records)
+  validate_production_logic: pass (validate_all() returned zero errors across all 15 relation records)
+  evidence_quote_verbatim_check: pass (every evidence_quote in relations and uncertainties confirmed as a verbatim substring of cases/case_02/corpus/act.md)

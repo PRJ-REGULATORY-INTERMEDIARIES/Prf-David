@@ -1,0 +1,315 @@
+{
+  "case_id": "case_03",
+  "celex": "32023R1115",
+  "relations": [
+    {
+      "case_id": "case_03",
+      "celex": "32023R1115",
+      "relation_id": "case_03-rel-001",
+      "source_location": "Article 16(1)-(3); Article 18(1)-(2); Article 19(1)-(2)",
+      "evidence_quote": "The competent authorities shall carry out checks within their territory to establish whether operators and traders established in the Union comply with this Regulation.",
+      "R": [
+        {"label": "competent authorities", "role": "designated Member State authority carrying out risk-based checks on operators and traders", "evidence_refs": ["Art. 16(1)"]}
+      ],
+      "I": [],
+      "T": [
+        {"label": "operators", "role": "subject to checks on due diligence system and product compliance", "evidence_refs": ["Art. 16(1)", "Art. 18(1)"]},
+        {"label": "non-SME traders", "role": "subject to checks on due diligence system and product compliance", "evidence_refs": ["Art. 18(1)"]},
+        {"label": "SME traders", "role": "subject to checks on documentation demonstrating compliance with Article 5(2)-(4)", "evidence_refs": ["Art. 19(1)"]}
+      ],
+      "action": ["carry out risk-based checks", "examine due diligence system", "examine documentation and records", "on-the-ground examination of commodities/products", "spot checks and field audits"],
+      "object": ["due diligence system", "due diligence statements", "documentation and records demonstrating compliance", "relevant commodities and relevant products"],
+      "mediating_function": [],
+      "mechanism": "monitoring_supervision",
+      "relation_type": "direct",
+      "confidence": "high",
+      "external_context_required": false,
+      "coder_note": "[reviewer_attention: routine] Direct R-T relation: competent authorities (Art. 14(1)) hold a textually explicit, risk-based checking power over operators and non-SME/SME traders (Art. 16, 18, 19), anchored in a required annual plan of checks with quantified coverage targets (Art. 16(5)-(11)) and record-keeping duties (Art. 16(14)-(15)). No third actor performs an independent mediating function within this specific checking power itself; the Commission's information-system role and customs authorities' border role are coded separately (rel-003, rel-004) because they perform materially distinct functions. Object is kept to the due diligence system/statements/documentation, not the operators/traders themselves, consistent with the object-vs-target rule."
+    },
+    {
+      "case_id": "case_03",
+      "celex": "32023R1115",
+      "relation_id": "case_03-rel-002",
+      "source_location": "Article 17(1)-(2); Article 23; Article 24(1)-(4); Article 25(1)-(2)",
+      "evidence_quote": "where competent authorities establish that an operator or trader has not complied with this Regulation or that a relevant product placed or made available on the market or exported is non-compliant, they shall without delay require the operator or trader to take appropriate and proportionate corrective action to bring the non-compliance to an end within a specified and reasonable period of time.",
+      "R": [
+        {"label": "competent authorities", "role": "authority requiring corrective action, taking interim measures, and securing application of corrective action", "evidence_refs": ["Art. 24(1)", "Art. 24(4)", "Art. 17(1)-(2)", "Art. 23"]}
+      ],
+      "I": [],
+      "T": [
+        {"label": "operators", "role": "addressee of corrective-action orders, interim measures and penalties for non-compliance", "evidence_refs": ["Art. 24(1)", "Art. 25(1)"]},
+        {"label": "traders", "role": "addressee of corrective-action orders, interim measures and penalties for non-compliance", "evidence_refs": ["Art. 24(1)", "Art. 25(1)"]}
+      ],
+      "action": ["identify high-risk situations requiring immediate action", "take interim measures (seizure, suspension)", "require corrective action", "secure application of corrective action", "lay down and apply penalties (fines, confiscation, exclusion from public procurement, prohibition on placing/exporting, prohibition on simplified due diligence)"],
+      "object": ["non-compliance with the Regulation", "non-compliant relevant products", "due diligence system shortcomings"],
+      "mediating_function": [],
+      "mechanism": "enforcement_support",
+      "relation_type": "direct",
+      "confidence": "high",
+      "external_context_required": false,
+      "coder_note": "[reviewer_attention: routine] Direct R-T enforcement relation, textually explicit across Articles 17, 23, 24 and 25; no distinct third-party intermediary performs these functions on behalf of competent authorities. Article 20 (recovery of costs from non-compliant operators/traders) and Article 25(3) (Member State notification of final judgments to the Commission, which publishes them) are closely related enforcement-transparency mechanisms; the latter is coded separately as case_03-rel-010 because the addressee of the Commission's publication act is arguably broader than the sanctioned operator/trader itself, which raises a distinct conceptual question not present in this record."
+    },
+    {
+      "case_id": "case_03",
+      "celex": "32023R1115",
+      "relation_id": "case_03-rel-003",
+      "source_location": "Recital 63; Article 26(2)-(9); Article 27; Article 28",
+      "evidence_quote": "customs authorities should examine the status of the due diligence statement after an initial risk analysis has been carried out by competent authorities in the information system. Customs authorities should take appropriate action, such as to suspend or refuse a relevant commodity or relevant product if requested to do so on the basis of the status of the due diligence statement in the information system.",
+      "R": [
+        {"label": "competent authorities", "role": "establish compliance under Article 3 and set the status of the due diligence statement that determines customs action", "evidence_refs": ["Art. 26(2)", "Art. 26(9)", "Recital 63"]}
+      ],
+      "I": [
+        {"label": "customs authorities", "role": "examine the due-diligence-statement status via the electronic interface and suspend, refuse or allow release for free circulation or export accordingly", "evidence_refs": ["Art. 26(3)", "Art. 26(6)-(9)", "Recital 63"]}
+      ],
+      "T": [
+        {"label": "operators", "role": "party whose relevant products entering or leaving the market are subject to suspension/refusal/release decisions", "evidence_refs": ["Art. 26(4)", "Art. 26(9)"]},
+        {"label": "traders", "role": "party whose relevant products entering or leaving the market are subject to suspension/refusal/release decisions", "evidence_refs": ["Art. 26(4)"]}
+      ],
+      "action": ["examine due-diligence-statement status", "suspend release for free circulation or export", "refuse release for free circulation or export", "allow release for free circulation or export", "carry out customs controls on customs declarations"],
+      "object": ["due diligence statement status", "relevant products entering or leaving the market", "customs declarations"],
+      "mediating_function": ["execution of border-control action on the basis of competent authorities' risk analysis and compliance status determination", "confidential-information transmission to competent authorities (Art. 27(3))"],
+      "mechanism": "delegated_implementation",
+      "relation_type": "intermediated",
+      "confidence": "high",
+      "external_context_required": false,
+      "coder_note": "[reviewer_attention: routine] Full R-I-T structure textually explicit and repeatedly reinforced: Recital 63 expressly differentiates competent authorities' substantive compliance-checking role from customs authorities' distinct, narrower role of examining the due-diligence-statement status and acting on it (suspend/refuse/allow release) once the electronic interface of Article 28 is operational; Article 26(2) confirms competent authorities retain 'overall enforcement' responsibility and the compliance determination, while Article 26(6)-(9) gives customs authorities the operative border action. Customs authorities are institutionally and functionally distinct from competent authorities (Art. 2(32)-(33)) and do not themselves assess compliance with Article 3 - they execute part of the regulatory process delegated to them at the border, satisfying the demonstrated-mediating-function test even without independent compliance-assessment power. This is exactly the kind of candidate the case brief flagged for careful, skeptical examination; the conclusion of intermediation is well supported rather than assumed."
+    },
+    {
+      "case_id": "case_03",
+      "celex": "32023R1115",
+      "relation_id": "case_03-rel-004",
+      "source_location": "Article 33(1)-(2); Article 17(1)-(2); Recital 62",
+      "evidence_quote": "When competent authorities identify the situations referred to in paragraph 1 of this Article, including when a due diligence statement relating to the relevant products concerned is submitted by an operator, the information system referred to in Article 33 shall identify the high risk of non-compliance with Article 3 and inform competent authorities, which shall:",
+      "R": [
+        {"label": "competent authorities", "role": "rely on the Commission-run information system to receive statements, risk-profiling output and check-outcome data used for supervision and enforcement", "evidence_refs": ["Art. 17(2)", "Art. 33(2)(e)-(g)"]}
+      ],
+      "I": [
+        {"label": "European Commission (through the information system it establishes and maintains under Article 33)", "role": "registers due diligence statements, converts geolocation data, automatically identifies high-risk situations, provides risk-profiling information for the checks plan, and facilitates administrative assistance/cooperation and communication among competent authorities, customs authorities and operators/traders", "evidence_refs": ["Art. 33(1)", "Art. 33(2)(b)-(i)", "Art. 17(2)", "Recital 62"]}
+      ],
+      "T": [
+        {"label": "operators", "role": "submit due diligence statements through the information system and are subject to its automated risk identification and to registration of check outcomes", "evidence_refs": ["Art. 4(2)", "Art. 33(1)", "Art. 33(2)(a)-(b)"]},
+        {"label": "traders", "role": "subject to registration, risk-profiling and communication functions of the information system", "evidence_refs": ["Art. 33(2)(a)", "Art. 33(2)(i)"]}
+      ],
+      "action": ["establish and maintain the information system", "register operators, traders and due diligence statements", "automatically identify high risk of non-compliance", "inform competent authorities", "provide risk-profiling information to support the plan of checks", "facilitate exchange of information and cooperation between competent authorities and the Commission"],
+      "object": ["due diligence statements", "geolocation data", "risk-profiling data", "records of check outcomes", "reference numbers"],
+      "mediating_function": ["information registration and processing", "automated risk identification/flagging", "transmission of risk information to competent authorities", "facilitation of administrative cooperation and communication among competent authorities, customs authorities, operators and traders"],
+      "mechanism": "information_transmission",
+      "relation_type": "intermediated",
+      "confidence": "medium",
+      "external_context_required": false,
+      "coder_note": "[reviewer_attention: possible_overcoding] Article 33 gives the Commission-run information system a textually explicit, non-trivial functional role: it is the Commission (not the competent authorities) that 'shall establish and subsequently... maintain' the system (Art. 33(1)), and Article 17(2) assigns the system itself the operative act of identifying high risk and informing competent authorities - a function going beyond passive record storage into automated risk-flagging that feeds directly into competent authorities' interim-measures decisions. This supports coding the Commission as a distinct mediating actor (I) between operators/traders (T, who submit the statements the system processes) and competent authorities (R, who act on the system's output), rather than treating the system as mere shared infrastructure of the competent authorities themselves. However, there is a genuine risk of overcoding here: the system could equally be characterised as a jointly-used administrative tool through which competent authorities exercise their own function, with the Commission's role limited to technical maintenance rather than a substantively distinct regulatory function toward operators/traders. Applying the final self-check (\"would you still call it intermediation if the actor were not labelled with a familiar regulatory-institution name?\"), the automated, rule-based nature of the risk-identification function (rather than discretionary judgment) weakens but does not eliminate the case for intermediation; confidence is accordingly set to medium rather than high, and the finding should be reviewed with particular attention to whether 'the Commission' is the right label for what may be better understood as shared IT infrastructure."
+    },
+    {
+      "case_id": "case_03",
+      "celex": "32023R1115",
+      "relation_id": "case_03-rel-005",
+      "source_location": "Article 29(1)-(8); Recital 68",
+      "evidence_quote": "This Regulation establishes a three-tier system for the assessment of countries or parts thereof. For that purpose, Member States and third countries, or parts thereof, shall be classified into one of the following risk categories:",
+      "R": [
+        {"label": "European Commission", "role": "assesses and classifies countries into risk categories, notifies countries of intended reclassification, and publishes the classification list", "evidence_refs": ["Art. 29(2)", "Art. 29(3)", "Art. 29(6)-(8)"]}
+      ],
+      "I": [],
+      "T": [
+        {"label": "Member States (or parts thereof)", "role": "subject to risk classification under the three-tier benchmarking system", "evidence_refs": ["Art. 29(1)"]},
+        {"label": "third countries (or parts thereof)", "role": "subject to risk classification, notification of intended reclassification, and invited to respond", "evidence_refs": ["Art. 29(1)", "Art. 29(6)-(7)"]}
+      ],
+      "action": ["classify countries into low/standard/high risk categories", "formally notify country of intention to change classification", "invite country to respond in writing", "allow country time to reply", "notify country and competent authorities of inclusion/removal from the list"],
+      "object": ["risk classification of a country or parts thereof", "data used for benchmarking"],
+      "mediating_function": [],
+      "mechanism": "ranking_rating",
+      "relation_type": "direct",
+      "confidence": "high",
+      "external_context_required": false,
+      "coder_note": "[reviewer_attention: routine] Direct relation: Article 29 gives the Commission alone the classification function, with countries as the explicit addressee of notification, an invitation to respond, and formal communication of the outcome (Art. 29(6)-(8)) - satisfying the case brief's example of 'non-EU countries under the benchmarking scheme's addressee provisions if actually framed as such.' No third actor mediates this specific classification act. The benchmarking result is then used as an input by operators in their own risk assessment (Art. 10(2)(a), Art. 13) and by competent authorities in setting differentiated check-coverage quotas (Art. 16(8)-(10)); this is treated as a consequence of the Commission's direct standard-setting/classification act rather than as a separate intermediated relation, since operators and competent authorities each apply the classification within their own already-coded direct relations rather than the Commission mediating a relationship between them via the classification itself."
+    },
+    {
+      "case_id": "case_03",
+      "celex": "32023R1115",
+      "relation_id": "case_03-rel-006",
+      "source_location": "Article 2, point (31); Article 31(1)-(4)",
+      "evidence_quote": "Natural or legal persons may submit substantiated concerns to competent authorities when they consider that one or more operators or traders are not complying with this Regulation.",
+      "R": [
+        {"label": "competent authorities", "role": "assess substantiated concerns, take necessary investigative steps and interim measures, and inform the submitter of the follow-up given", "evidence_refs": ["Art. 31(2)-(3)"]}
+      ],
+      "I": [
+        {"label": "natural or legal persons (submitters of substantiated concerns)", "role": "submit a duly reasoned claim based on objective and verifiable information that triggers the competent authority's assessment and possible investigation/interim measures against an operator or trader", "evidence_refs": ["Art. 2(31)", "Art. 31(1)"]}
+      ],
+      "T": [
+        {"label": "operators", "role": "subject of the substantiated concern and any resulting investigation, hearing or interim measure", "evidence_refs": ["Art. 31(1)-(2)"]},
+        {"label": "traders", "role": "subject of the substantiated concern and any resulting investigation, hearing or interim measure", "evidence_refs": ["Art. 31(1)-(2)"]}
+      ],
+      "action": ["submit a substantiated concern", "assess the substantiated concern diligently and impartially", "carry out checks and hearings", "take interim measures where appropriate", "inform the submitter of the follow-up and the reasons for it"],
+      "object": ["a duly reasoned claim of non-compliance with the Regulation", "compliance of the operator or trader concerned"],
+      "mediating_function": ["formalised third-party reporting of suspected non-compliance that is procedurally integrated into the competent authority's enforcement pipeline (mandatory assessment, response deadline, identity protection, access-to-justice route)"],
+      "mechanism": "reporting",
+      "relation_type": "intermediated",
+      "confidence": "medium",
+      "external_context_required": false,
+      "coder_note": "[reviewer_attention: possible_overcoding] The substantiated-concerns mechanism is unusually well institutionalised for a citizen/NGO input: it has its own definition (Art. 2(31)), a mandatory competent-authority assessment duty with a 30-day response obligation (Art. 31(2)-(3)), identity-protection duties for submitters (Art. 31(4)), an access-to-justice route for submitters to challenge the competent authority's handling (Art. 32), and is cross-referenced as a formal risk/investigation trigger throughout the Regulation (Art. 4(5), 10(2)(l), 13(2)-(3), 16(12), 17(2), 21(4), 23(a)). This repeated, structured integration into the enforcement architecture is what distinguishes it from mere 'advice' or background information supply and supports coding the submitter as a demonstrated, function-based intermediary (reporting mechanism) between competent authorities (R) and the operator/trader under suspicion (T), even though the submitter is an unnamed, potentially private, non-institutional actor. The overcoding risk is that this could instead be seen as simply a citizen-complaint/whistleblowing channel that merely stimulates the regulator's own initiative rather than performing an ongoing mediating function comparable to certification, verification or delegated implementation; confidence is set to medium and the finding should be reviewed with attention to whether the label 'intermediary' still fits when the actor is an unspecified private person rather than an institution."
+    },
+    {
+      "case_id": "case_03",
+      "celex": "32023R1115",
+      "relation_id": "case_03-rel-007",
+      "source_location": "Article 4(5); Article 5(5)",
+      "evidence_quote": "Operators that obtain or are made aware of relevant new information, including substantiated concerns, indicating that a relevant product that they have placed on the market is at risk of not complying with this Regulation shall immediately inform the competent authorities of the Member States in which they placed the relevant product on the market, as well as traders to whom they supplied the relevant product.",
+      "R": [
+        {"label": "competent authorities", "role": "recipient of the operator's/SME trader's mandatory self-report of newly discovered non-compliance risk", "evidence_refs": ["Art. 4(5)", "Art. 5(5)"]}
+      ],
+      "I": [],
+      "T": [
+        {"label": "operators", "role": "obligated to immediately self-report new risk information about products they themselves placed on the market", "evidence_refs": ["Art. 4(5)"]},
+        {"label": "SME traders", "role": "obligated to immediately self-report new risk information about products they themselves made available on the market", "evidence_refs": ["Art. 5(5)"]}
+      ],
+      "action": ["immediately inform competent authorities of new risk information", "inform downstream traders"],
+      "object": ["new information or substantiated concerns indicating risk of non-compliance of a product already placed on the market"],
+      "mediating_function": [],
+      "mechanism": "reporting",
+      "relation_type": "direct",
+      "confidence": "high",
+      "external_context_required": false,
+      "coder_note": "[reviewer_attention: routine] Direct self-reporting obligation running from the regulated party itself to competent authorities; no third party mediates this specific duty, distinguishing it from case_03-rel-006 where the reporting party is a distinct third actor concerned about someone else's non-compliance."
+    },
+    {
+      "case_id": "case_03",
+      "celex": "32023R1115",
+      "relation_id": "case_03-rel-008",
+      "source_location": "Recital 54; Article 12(3)-(4)",
+      "evidence_quote": "Operators who do not fall within the categories of SMEs, including microenterprises, or natural persons shall, on an annual basis, publicly report as widely as possible, including via the internet, on their due diligence system, including on the steps taken by them to fulfil their obligations as set out in Article 8.",
+      "R": [],
+      "I": [],
+      "T": [
+        {"label": "non-SME, non-microenterprise, non-natural-person operators", "role": "obligated to publicly report annually on their due diligence system", "evidence_refs": ["Art. 12(3)"]}
+      ],
+      "action": ["publicly report on the due diligence system, including steps taken to fulfil due diligence obligations"],
+      "object": ["due diligence system", "summary of information under Art. 9(1)(a)-(c)", "risk-assessment conclusions and mitigation measures", "consultation process with indigenous peoples/local communities"],
+      "mediating_function": [],
+      "mechanism": "reporting",
+      "relation_type": "uncertain",
+      "confidence": "low",
+      "external_context_required": false,
+      "coder_note": "[reviewer_attention: conceptual_boundary] T (large operators) and the action (annual public reporting) are clearly supported, but R cannot be responsibly identified: the report is addressed 'as widely as possible, including via the internet' - i.e., to the public generally, not to a named regulator. Recital 54 links the duty to 'foster transparency and facilitate enforcement,' which would support reconstructing competent authorities as the de facto beneficiary/R, but the operative text (Art. 12(3)-(4)) does not itself direct the report to competent authorities (contrast Art. 9(2), where information is made available to competent authorities 'upon request'). Rather than force an R by plausibility, this is coded as uncertain with an empty R array; the researcher should decide whether the public-transparency framing itself satisfies the 'regulator' element or whether this is better treated as a non-triadic transparency obligation outside the R-I-T construct."
+    },
+    {
+      "case_id": "case_03",
+      "celex": "32023R1115",
+      "relation_id": "case_03-rel-009",
+      "source_location": "Article 22(1)-(2)",
+      "evidence_quote": "By 30 April of each year, Member States shall make available to the public and to the Commission information on the application of this Regulation during the previous calendar year.",
+      "R": [
+        {"label": "European Commission", "role": "recipient of Member States' annual application data and publisher of the Union-wide overview", "evidence_refs": ["Art. 22(1)", "Art. 22(2)"]}
+      ],
+      "I": [],
+      "T": [
+        {"label": "Member States", "role": "obligated to annually report on the application of the Regulation, including check plans, results and penalties", "evidence_refs": ["Art. 22(1)"]}
+      ],
+      "action": ["make available information on the application of the Regulation to the Commission and the public", "publish a Union-wide overview based on Member State data"],
+      "object": ["plans of checks and risk criteria", "number and results of checks", "quantity of relevant products checked", "corrective action and penalties", "percentage of checks with prior warning"],
+      "mediating_function": [],
+      "mechanism": "reporting",
+      "relation_type": "direct",
+      "confidence": "high",
+      "external_context_required": false,
+      "coder_note": "[reviewer_attention: routine] Direct oversight-reporting relation between the Commission and Member States concerning implementation of the Regulation; no distinct third actor mediates this specific reporting duty. The Commission's own subsequent publication of a Union-wide overview (Art. 22(2)) is an aggregation/compilation of its own received data rather than a mediating function connecting two other distinct parties, and is therefore treated as part of this same direct relation rather than as a separate intermediated one."
+    },
+    {
+      "case_id": "case_03",
+      "celex": "32023R1115",
+      "relation_id": "case_03-rel-010",
+      "source_location": "Recital 75; Article 25(3)",
+      "evidence_quote": "Member States shall notify the Commission of final judgments against legal persons for infringements of this Regulation and the penalties imposed on them, within 30 days from the date on which the judgments become final, taking into account the relevant data protection rules. The Commission shall publish on its website a list of such judgments",
+      "R": [
+        {"label": "Member States (courts / competent authorities issuing final judgments and penalties)", "role": "determine infringement and impose penalties, then notify the Commission of the final judgment", "evidence_refs": ["Art. 25(3)"]}
+      ],
+      "I": [
+        {"label": "European Commission", "role": "publishes the list of final judgments and penalties notified by Member States", "evidence_refs": ["Art. 25(3)", "Recital 75"]}
+      ],
+      "T": [
+        {"label": "operators", "role": "legal persons subject to a final judgment and penalty whose sanction record is published", "evidence_refs": ["Art. 25(3)"]},
+        {"label": "traders", "role": "legal persons subject to a final judgment and penalty whose sanction record is published", "evidence_refs": ["Art. 25(3)"]}
+      ],
+      "action": ["notify the Commission of final judgments", "publish a list of final judgments and penalties"],
+      "object": ["final judgments against legal persons for infringements", "penalties imposed"],
+      "mediating_function": ["publication/transmission of Member-State-determined sanction records to increase accountability and to support competent authorities' and other operators' own risk assessments"],
+      "mechanism": "information_transmission",
+      "relation_type": "uncertain",
+      "confidence": "low",
+      "external_context_required": false,
+      "coder_note": "[reviewer_attention: conceptual_boundary] R (Member States as sanctioning authority) and I's action (Commission publishes) are textually clear, but it is unclear whether the Commission's publication genuinely mediates an ongoing R-T relationship or is better understood as a downstream transparency act whose real addressees are third parties (the public, other operators and traders doing their own risk assessments, per Recital 75) rather than the already-sanctioned operator/trader named in T. Because the object of the 'mediating' function is arguably directed outward to a different audience than the original R-T sanction relationship, this is coded as uncertain rather than intermediated, to avoid manufacturing a triad from a passage whose operative structure may not require it. Closely related to, but analytically distinct from, case_03-rel-002 (the direct corrective-action/penalty relation itself)."
+    }
+  ],
+  "uncertainties": [
+    {
+      "uncertainty_id": "case_03-unc-001",
+      "source_location": "Recital 52; Article 10(2), point (n)",
+      "evidence_quote": "In order to recognise good practice, certification or other third-party verified schemes could be used in the risk assessment procedure. They should not, however, substitute the operator’s responsibility as regards due diligence.",
+      "issue_type": "rejected_intermediary_candidate",
+      "description": "Certification/third-party-verified schemes were seriously considered as a candidate intermediary because they are named and functionally described (Art. 10(2)(n) allows the information they supply to feed into an operator's risk assessment, including voluntary schemes recognised by the Commission under a different instrument). They are rejected here because the text frames their input as optional and supplementary only ('may include'), expressly preserves the operator's own non-delegable responsibility (Recital 52, and Art. 10(2)(n)'s condition that the information must meet Article 9's requirements), and assigns the scheme itself no formal role, reporting duty, or status vis-à-vis the competent authority or the regulated operator. This is precisely the boundary the case brief anticipated: a scheme the text treats as one optional input an operator may use for its own risk assessment does not thereby acquire a regulatory function toward R or T.",
+      "external_context_required": false
+    },
+    {
+      "uncertainty_id": "case_03-unc-002",
+      "source_location": "Article 11(1), point (b)",
+      "evidence_quote": "carrying out independent surveys or audits;",
+      "issue_type": "rejected_intermediary_candidate",
+      "description": "Independent surveys or audits are listed as one optional risk-mitigation measure an operator may itself adopt. Whoever performs such a survey or audit does so as a tool of the operator's own compliance process, commissioned at the operator's discretion; the text assigns no independent regulatory function, reporting duty, or status toward the competent authority to the surveying/auditing party. Same boundary logic as unc-001 (optional input to the target's own compliance process is not, by itself, intermediation).",
+      "external_context_required": false
+    },
+    {
+      "uncertainty_id": "case_03-unc-003",
+      "source_location": "Article 6(1)-(3)",
+      "evidence_quote": "Operators or traders may mandate an authorised representative to submit the due diligence statement pursuant to Article 4(2) on their behalf. In such cases, the operator or trader shall retain responsibility for the compliance of the relevant product with Article 3.",
+      "issue_type": "rejected_intermediary_candidate",
+      "description": "The authorised representative was seriously considered as an intermediary standing between operators/traders and competent authorities in the submission of due diligence statements. It is rejected because the representative performs no independent verification, certification or supervisory function: it is an agent acting on behalf of, and under a written mandate from, the operator/trader, who explicitly retains full responsibility for compliance (Art. 6(1), Art. 6(3)). Article 6(3) even allows the 'representative' to be the next operator or trader down the supply chain, underscoring that this is an agency/proxy arrangement for administrative submission rather than a distinct mediating regulatory function connecting a regulator to a target.",
+      "external_context_required": false
+    },
+    {
+      "uncertainty_id": "case_03-unc-004",
+      "source_location": "Article 15(1); Article 15(4)",
+      "evidence_quote": "Assistance shall be provided in a manner which does not compromise the independence, legal obligations or responsibilities of competent authorities in enforcing this Regulation.",
+      "issue_type": "rejected_intermediary_candidate",
+      "description": "Member States' and the Commission's provision of 'technical and other assistance and guidance to operators' (Art. 15(1)) was considered as a possible compliance-support intermediation function. It is rejected as intermediated because the text itself deliberately separates assistance/guidance from the enforcement relationship, expressly stating that assistance must not compromise competent authorities' independence in enforcing the Regulation (Art. 15(4)), and the assistance is addressed generically to operators without being tied to a specific R-T relationship or given any verification/certification/supervisory status. This is the advice-versus-mediation boundary flagged in the methodology's lessons-learned note.",
+      "external_context_required": false
+    },
+    {
+      "uncertainty_id": "case_03-unc-005",
+      "source_location": "Article 29(4), point (a)",
+      "evidence_quote": "information submitted by the country concerned, regional authorities concerned, operators, NGOs and third parties, including indigenous peoples, local communities and civil society organisations, with regard to the effective covering of emissions and removals from agriculture, forestry and land use in the nationally determined contribution to the UNFCCC;",
+      "issue_type": "rejected_intermediary_candidate",
+      "description": "For the country-benchmarking assessment (Art. 29, coded as case_03-rel-005), the Commission 'may also take into account' information submitted by a range of third parties (countries, regional authorities, operators, NGOs, indigenous peoples, local communities, civil society organisations). This mirrors the certification-scheme boundary in unc-001: the information is explicitly discretionary ('may also take into account'), no submitting party is assigned a formal role, status, or duty within the benchmarking procedure, and the classification decision and its legal consequences remain solely the Commission's. These information-suppliers are accordingly not coded as intermediaries in the country-benchmarking relation.",
+      "external_context_required": false
+    },
+    {
+      "uncertainty_id": "case_03-unc-006",
+      "source_location": "Recital 31",
+      "evidence_quote": "The EU Observatory should thus support the implementation of this Regulation by providing scientific evidence with regard to global deforestation and forest degradation and related trade.",
+      "issue_type": "source_limit",
+      "description": "Recital 31 describes the EU Observatory on deforestation as a Commission-launched initiative that monitors forest-cover change, facilitates access to information, cooperates with competent authorities, international organisations, NGOs, operators, traders and third countries, and is meant to 'support the implementation of this Regulation.' This is a serious candidate for a monitoring/information-provision intermediary function. However, no operative article in this corpus establishes, defines powers for, or regulates the EU Observatory; it appears only in a recital describing a pre-existing Commission communication/initiative external to the operative text of this Regulation. Because the construct requires anchoring in operative provisions (or in a recital tied to an operative obligation) reproduced in this corpus, and no such operative anchor exists here, this cannot responsibly be coded as an intermediated relation from the corpus alone. Assessing it would require the text of the Commission communication establishing the EU Observatory, which is not reproduced in this corpus.",
+      "external_context_required": true
+    },
+    {
+      "uncertainty_id": "case_03-unc-007",
+      "source_location": "Article 29(5); Article 30(1)-(5)",
+      "evidence_quote": "The Commission shall engage in a specific dialogue with all countries that are, or risk to be classified as, high risk, with the objective to reduce their level of risk.",
+      "issue_type": "not_regulatory_relationship",
+      "description": "The Commission's/Member States' dialogue and 'partnerships and cooperation mechanisms' with producer and other countries (Art. 29(5), Art. 30) were considered as a possible cooperative-governance relation. They are excluded from the main matrix because the text describes diplomatic engagement, capacity-building and policy dialogue aimed at reducing root causes of deforestation, not a checking, certifying, verifying or supervisory function directed at an identifiable target's compliance with a specific obligation under this Regulation. This lacks the regulatory-relationship character required by the construct, as distinct from the classification/benchmarking relation itself (coded as case_03-rel-005).",
+      "external_context_required": false
+    },
+    {
+      "uncertainty_id": "case_03-unc-008",
+      "source_location": "Article 15(5); Article 21(1)-(2); Article 27(1)-(2)",
+      "evidence_quote": "The Commission may facilitate the harmonised implementation of this Regulation, by issuing relevant guidelines and by promoting adequate exchange of information, coordination and cooperation between competent authorities, between competent authorities and customs authorities, and between competent authorities and the Commission.",
+      "issue_type": "considered_and_excluded",
+      "description": "The Commission's role in coordinating and facilitating cooperation among competent authorities and customs authorities (Art. 15(5), Art. 21, Art. 27) was considered as a possible additional intermediation distinct from the information-system relation (case_03-rel-004). It is not coded separately because this coordination runs horizontally among co-regulators (competent authorities of different Member States, customs authorities, the Commission) rather than mediating a relationship toward a distinct target (operators/traders); the operator/trader-facing information functions of the Commission are already captured in case_03-rel-004. Coding this again would risk stitching together general inter-authority cooperation clauses into an artificial second R-I-T triad without a materially distinct target.",
+      "external_context_required": false
+    },
+    {
+      "uncertainty_id": "case_03-unc-009",
+      "source_location": "Article 34(4)",
+      "evidence_quote": "The impact assessment referred to in paragraph 2 shall also evaluate the role of financial institutions in preventing financial flows that contribute directly or indirectly to deforestation and forest degradation and assess the need to provide for any specific obligations for financial institutions in Union legal acts in that regard, taking into account any relevant existing horizontal and sectoral legislation.",
+      "issue_type": "prospective_no_current_obligation",
+      "description": "Financial institutions are mentioned only in the context of a future review/impact-assessment obligation on the Commission; the Regulation as it stands in this corpus imposes no due diligence, verification, reporting or other obligation on financial institutions, and creates no current regulatory relationship involving them. Any assessment of whether financial institutions could become an intermediary or target would require a future delegated/legislative act not reproduced in this corpus.",
+      "external_context_required": true
+    }
+  ]
+}

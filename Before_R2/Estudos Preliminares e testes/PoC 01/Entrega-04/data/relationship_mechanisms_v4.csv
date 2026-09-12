@@ -1,0 +1,8 @@
+relationship_id,source_celex,article,legal_evidence_id,primary_mechanism,secondary_mechanism,mechanism_observability,source_delivery,ai_assisted,human_approved
+RIT-001,32022L2464,Article 27a,EVID-CSRD-27a-1,auditing,reporting,DIRECT,Entrega-02 human-validated regression baseline,0,1
+RIT-002,32022L2464,Article 27a,EVID-CSRD-27a-2,auditing,NA,DIRECT,Entrega-02 human-validated regression baseline,0,1
+RIT-003,32010R0066,Article 9,EVID-ECO-9-1,certification,NA,DIRECT,Entrega-02 human-validated regression baseline,0,1
+RIT-004,32010R0066,Article 9(7),EVID-ECO-9-2,auditing,certification,DIRECT,Entrega-02 human-validated regression baseline,0,1
+RIT-005,32010R0066,Article 9(7),EVID-ECO-9-3,auditing,certification,DIRECT,Entrega-02 human-validated regression baseline,0,1
+RIT-006,32018R2067,Article 27,EVID-ETS-27-1,auditing,reporting,DIRECT,Entrega-02 human-validated regression baseline,0,1
+RIT-007,32018R2067,Article 5,EVID-ETS-5-1,certification,auditing,DIRECT,Entrega-02 human-validated regression baseline,0,1

@@ -1,0 +1,75 @@
+{
+  "_comment": "Shared $defs, merged into each stage schema's own $defs by scripts/run_stage.py before the API call (OpenAI Structured Outputs does not resolve external-file $ref, only in-document #/$defs/... pointers). Missingness codes and observability classes here must stay byte-identical to reference/DATA_DICTIONARY_v3.md — do not invent new vocabulary here.",
+  "$defs": {
+    "MissingnessCode": {
+      "type": "string",
+      "enum": ["1", "0", "NA", "UNK", "NOE", "EXT"],
+      "description": "1=explicitly present, 0=explicitly absent, NA=not applicable, UNK=unknown/insufficient information, NOE=not observable from legal text alone, EXT=requires external evidence. Never blank."
+    },
+    "ObservabilityClass": {
+      "type": "string",
+      "enum": ["DIRECT", "INFERRED", "EXTERNAL", "NOT_OBSERVABLE"]
+    },
+    "ConfidenceLevel": {
+      "type": "string",
+      "enum": ["high", "medium", "low"]
+    },
+    "CodedValue": {
+      "type": "object",
+      "description": "For binary/missingness-typed fields (e.g. legal_independence_required, supervision_present).",
+      "properties": {
+        "value": { "$ref": "#/$defs/MissingnessCode" },
+        "evidence": {
+          "type": ["string", "null"],
+          "description": "Verbatim quotation from the supplied legal-context package. Required (non-null) unless value is an abstention code (UNK/NOE/EXT), in which case null is allowed but abstention_reason on the parent object must be filled instead."
+        },
+        "observability_class": { "$ref": "#/$defs/ObservabilityClass" },
+        "confidence": { "$ref": "#/$defs/ConfidenceLevel" }
+      },
+      "required": ["value", "evidence", "observability_class", "confidence"],
+      "additionalProperties": false
+    },
+    "CategoricalValue": {
+      "type": "object",
+      "description": "For free-text/enum fields (e.g. regulatory_level, mode_of_operation). The specific allowed_values for a given field are enforced post-hoc by run_stage.py against reference/DATA_DICTIONARY_v3.md, not by this generic schema.",
+      "properties": {
+        "value": { "type": "string" },
+        "evidence": { "type": ["string", "null"] },
+        "observability_class": { "$ref": "#/$defs/ObservabilityClass" },
+        "confidence": { "$ref": "#/$defs/ConfidenceLevel" }
+      },
+      "required": ["value", "evidence", "observability_class", "confidence"],
+      "additionalProperties": false
+    },
+    "TestCondition": {
+      "type": "object",
+      "description": "One of the five relational-test conditions from reference/RIT_CODEBOOK_v3.md, answered independently before any final verdict.",
+      "properties": {
+        "answer": { "type": "string", "enum": ["YES", "NO", "UNCLEAR"] },
+        "actor": { "type": ["string", "null"] },
+        "evidence": { "type": "string" },
+        "interpretive_note": { "type": "string" }
+      },
+      "required": ["answer", "actor", "evidence", "interpretive_note"],
+      "additionalProperties": false
+    },
+    "ContextEscapeHatch": {
+      "type": "object",
+      "description": "Structured request for one additional piece of legal context, in lieu of filling a gap from parametric/training knowledge. Resolved at most once per unit per stage by scripts/context_request_loop.py.",
+      "properties": {
+        "additional_context_required": { "type": "boolean" },
+        "requested_source": {
+          "type": ["string", "null"],
+          "description": "e.g. 'Regulation (EC) No 765/2008, Article 14'"
+        },
+        "reason": { "type": ["string", "null"] }
+      },
+      "required": ["additional_context_required", "requested_source", "reason"],
+      "additionalProperties": false
+    },
+    "MechanismLabel": {
+      "type": "string",
+      "enum": ["reporting", "certification", "ranking_rating", "auditing", "other_mechanism", "NA"]
+    }
+  }
+}

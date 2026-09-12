@@ -1,0 +1,10 @@
+mapping: RA_4way_identity_mapping
+status: researcher_controlled
+accessible_to_RA: false
+generation_method: os_csprng_random_permutation
+protocol_version: 1.0.0
+assignments:
+  "Coder A": "03_human/stage4_attempt_02/R1_output.json"
+  "Coder B": "03_human/stage4_attempt_02/R2_output.json"
+  "Coder C": "03_human/stage4_attempt_02/claude_replication_01/Claude_R2_output.json"
+  "Coder D": "03_human/stage4_attempt_02/claude_replication_01/Claude_R1_output.json"

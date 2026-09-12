@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "dataset-eurlex/experimental-output-schema/1.1.1",
+  "title": "dataset-eurlex experimental output",
+  "description": "Experimental-only correction to v1.1.0: candidate construction provenance is excluded from the condition-facing output.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["relation_id", "location", "evidence", "R", "I", "T", "action", "object", "mediating_function", "mechanism", "decision", "confidence", "notes"],
+  "properties": {
+    "relation_id": {"type": "string", "minLength": 1},
+    "location": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["article", "paragraph", "point", "subparagraph", "recital"],
+      "properties": {
+        "article": {"type": ["string", "null"]},
+        "paragraph": {"type": ["string", "null"]},
+        "point": {"type": ["string", "null"]},
+        "subparagraph": {"type": ["string", "null"]},
+        "recital": {"type": ["string", "null"]}
+      }
+    },
+    "evidence": {"type": "array", "items": {"type": "string"}},
+    "R": {"type": ["string", "null"]},
+    "I": {"type": ["string", "null"]},
+    "T": {"type": ["string", "null"]},
+    "action": {"type": "array", "items": {"type": "string"}},
+    "object": {"type": "array", "items": {"type": "string"}},
+    "mediating_function": {"type": "array", "items": {"type": "string"}},
+    "mechanism": {"type": "string", "enum": ["reporting", "verification", "certification", "auditing", "monitoring_supervision", "ranking_rating", "standard_setting", "enforcement_support", "coordination", "information_transmission", "delegated_implementation", "accreditation", "other_mechanism", "none_or_direct"]},
+    "decision": {"type": "string", "enum": ["intermediated", "direct", "uncertain", "not_supported"]},
+    "confidence": {"type": "string", "enum": ["high", "medium", "low", "not_assessed"]},
+    "notes": {"type": "array", "items": {"type": "string"}}
+  }
+}

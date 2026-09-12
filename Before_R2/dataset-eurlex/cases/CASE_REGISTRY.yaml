@@ -1,0 +1,58 @@
+registry_version: production_v1.0
+case_definition: one EU legislative act / one frozen legal corpus
+selection_protocol: docs/methodology/CASE_SELECTION_PROTOCOL.md
+
+cases:
+  - case_id: case_01
+    celex: 32021R1119
+    title: Regulation (EU) 2021/1119 — European Climate Law
+    date: 2021-06-30
+    domain: EU climate regulation
+    selection_rationale: Existing pilot case retained as Case 01; selection was not based on known intermediaries, keyword hits, prior Claude results, or expected positive relations.
+    source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32021R1119
+    source_hash: 8BBE15AF032AF1A3950CF1E42BEAD62E0C816AFBF56DCED883ECECB604DA6075
+    corpus_hash: B24A02EA241CA631B606660BB48BB5A2222B29F849C4E4552FB99F871B2E8FD4
+    status: corpus_locked
+
+  - case_id: case_02
+    celex: 32023R0956
+    title: Regulation (EU) 2023/956 establishing a carbon border adjustment mechanism
+    date: 2023-05-10
+    domain: EU climate regulation; carbon leakage and embedded-emissions governance
+    selection_rationale: >
+      Selected for direct relevance to the EU green transition and for a substantive
+      market-based regulatory architecture combining import obligations, emissions
+      reporting and calculation, certificates, competent authorities, customs
+      coordination, enforcement, delegated implementation and review. It complements
+      Case 01's framework and climate-governance architecture with cross-border
+      compliance and carbon-pricing institutions. The choice was made prospectively
+      under the selection matrix and was not based on known or expected R-I-T
+      relationships, intermediary counts, keyword hits, or prior empirical outputs.
+    source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32023R0956
+    source_hash: B61FD911875E5C9C7839EFDB3998A040CE75477C77E9259E0091BAB329F7DDDF
+    corpus_hash: 01357C4C34C9F6009E72265A163BCD45CEBC4E4BD9D806398B5C05E8487C692B
+    status: corpus_locked
+
+  - case_id: case_03
+    celex: 32023R1115
+    title: Regulation (EU) 2023/1115 on deforestation-free commodities and products
+    date: 2023-05-31
+    domain: EU environmental regulation; deforestation, supply chains and biodiversity
+    selection_rationale: >
+      Selected for material green-transition relevance and a distinct supply-chain
+      due-diligence and information-governance architecture involving market access,
+      risk assessment, traceability, competent-authority checks, cooperation,
+      penalties and review. It complements Case 01's framework and Case 02's
+      market-based carbon-border design by adding product-chain compliance and
+      environmental risk governance. The choice was made prospectively under the
+      selection matrix and was not based on known or expected R-I-T relationships,
+      intermediary counts, keyword hits, or prior empirical outputs.
+    source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32023R1115
+    source_hash: 2DE95792BC63322FCCAC00216EDD9D301A0DBB639C14E59BCE0A7281A2E6F1B2
+    corpus_hash: D2393FD43A024B1E430175951DA9DFD61F08C74F9C9FB038AD431E21A61B3B3C
+    status: corpus_locked
+
+notes:
+  - Case 01 source and corpus are copied into cases/case_01/ for production traceability; the legacy 01_source/ and 02_corpus/ artifacts remain untouched.
+  - Case 02 and Case 03 were selected prospectively under docs/methodology/CASE_SELECTION_MATRIX.md and are now corpus-locked.
+  - No primary coding, secondary review, researcher adjudication, or final dataset has been created.
