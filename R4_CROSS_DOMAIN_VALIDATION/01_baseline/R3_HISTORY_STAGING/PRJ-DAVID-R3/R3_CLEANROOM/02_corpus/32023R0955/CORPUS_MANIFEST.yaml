@@ -1,0 +1,44 @@
+celex_id: 32023R0955
+official_title: "Regulation (EU) 2023/955 of the European Parliament and of the Council of 10 May 2023 establishing a Social Climate Fund and amending Regulation (EU) 2021/1060"
+source_file: 01_sources/32023R0955/source_original_en.pdf
+source_sha256: F58712E1156435A418EC1A445F9DBB8D9742FF29E3C8317FF4C00FF929740C49
+source_url: "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX%3A32023R0955&from=EN"
+retrieval_timestamp: "2026-09-20T16:29:38.6113577-03:00"
+source_version: ORIGINAL_ACT_AS_ADOPTED
+corpus_generation_timestamp: "2026-09-20T16:52:07.9083043-03:00"
+generated_files:
+  - act_full.md
+  - recitals.md
+  - operative.md
+  - act_numbered.md
+  - article_index.csv
+generated_file_sha256:
+  act_full.md: ED3104C2493C0D8EF07C48F45FFF7EE4ABD0E21D93F96AF4F3B3011D891A4C94
+  recitals.md: 4B7BD967476A5F4BA4D315AA924DBADE9D61F1AE6D12E6772279D996DDEB6421
+  operative.md: 84FF19684B2389A8E962BFC50031919419D8A641ED8C781A113A337DE2234537
+  act_numbered.md: DB9BACDC0C1C1A50F7CB56959708EDA734665FD0FEB85C09004D842C03CCC41A
+  article_index.csv: 469538E22C6CC5AC03075E2F9F536033D956945ED4DABEB0FB70509D4C797356
+normalization_operations:
+  - remove Official Journal page headers and form-feed page separators
+  - trim extraction-only leading/trailing whitespace
+  - repair line-wrap hyphenation when the continuation begins with lowercase text
+  - preserve paragraph, heading, numbering, table and annex line structure
+  - no substantive rewriting, summarization or inference
+structural_counts:
+  recitals: 47
+  articles: 29
+  annexes: 5
+  titles: 0
+  chapters: 7
+  sections: 0
+  words: 27240
+  characters: 167592
+quality_checks:
+  pdf_pages: 51
+  first_article: 1
+  last_article: 29
+  first_recital: 1
+  last_recital: 47
+  source_hash_matches_phase1: True
+  corpus_status: CORPUS_TEXT_REQUIRES_REVIEW
+  source_to_corpus_fidelity: STRUCTURAL_CHECK_PASS_REVIEW_REQUIRED

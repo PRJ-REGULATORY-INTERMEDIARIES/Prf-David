@@ -1,0 +1,2 @@
+correction_id,celex_id,file,original_extracted_form,corrected_form,official_source_location,reason,correction_type,timestamp
+CORR-001,32023R0955,02_corpus/32023R0955/act_full.md,"standalone lowercase i removed from formula extraction","standalone lowercase i retained as its own extracted line","Official Phase 1 PDF; OJ L 130, 16.5.2023, p. 29, Annex I formula","Case-insensitive Roman-numeral header filter treated formula subscript marker i as page furniture","SUBSTANTIVE_TEXT_ERROR",2026-09-20T16:45:00-03:00

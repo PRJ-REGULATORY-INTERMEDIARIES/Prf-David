@@ -1,0 +1,22 @@
+metric,authoritative_source,expected_or_frozen_value,recomputed_value,status,interpretation
+laws,INSTRUMENT_PROFILE.csv,5,5,PASS,five historical R3 instruments
+law_actor_records,ACTOR_REGISTER.csv,89,89,PASS,law-scoped actor inventory; not centrality
+actor_provision_map_rows,ACTOR_PROVISION_MAP.csv,173,173,PASS,law-scoped provision/action mappings
+candidate_relations,RELATION_CANDIDATES.csv,56,56,PASS,all Phase 5 candidates retained
+adjudicated_relations,RELATIONS_ADJUDICATED.csv,56,56,PASS,all candidate relations adjudicated
+direct_R_T,RELATIONS_ADJUDICATED.csv,24,24,PASS,non-mediated regulatory baseline
+legal_relation_non_RIT,RELATIONS_ADJUDICATED.csv,23,23,PASS,legally relevant but not supported RIT
+supported_intermediation,RELATIONS_ADJUDICATED.csv,9,9,PASS,all satisfy C1 C2 and C3
+uncertain_relations,UNCERTAIN_RELATIONS.csv,0,0,PASS,OLAF uncertainty resolved in Phase 6B
+law_intermediary_units,LAW_INTERMEDIARY_REGISTER.csv,7,7,PASS,unique law-scoped intermediary units
+supported_relation_links,LAW_INTERMEDIARY_RELATION_LINK.csv,9,9,PASS,one link for each supported relation
+mechanism_events,MECHANISM_EVENTS_RESEARCHER_ADJUDICATED.csv,10,10,PASS,seven original confirmed plus three researcher-adjudicated implementation events
+verification_events,MECHANISM_EVENTS_RESEARCHER_ADJUDICATED.csv,4,4,PASS,final mechanism distribution
+evaluation_assessment_events,MECHANISM_EVENTS_RESEARCHER_ADJUDICATED.csv,3,3,PASS,final mechanism distribution
+implementation_events,MECHANISM_EVENTS_RESEARCHER_ADJUDICATED.csv,3,3,PASS,R3-D08-IMPLEMENTATION; family-unassigned provisional
+mechanism_configurations,RELATION_MECHANISM_CONFIGURATIONS.csv,9,9,PASS,one configuration per supported relation
+single_mechanism_relations,RELATION_MECHANISM_CONFIGURATIONS.csv,8,8,PASS,configuration distribution
+sequential_relations,RELATION_MECHANISM_CONFIGURATIONS.csv,1,1,PASS,REL-32023-014
+confirmed_mechanism_edges,MECHANISM_CONFIGURATION_EDGES.csv,1,1,PASS,VERIFICATION to EVALUATION_ASSESSMENT
+substantive_zero_laws,LAW_MECHANISM_CONFIGURATION_PROFILE.csv,1,1,PASS,32015D1814; zero is substantive, not missing data
+variable_priority_records,R3_VARIABLE_PRIORITY_REGISTER.csv,137,137,PASS,architecture register across priority classes

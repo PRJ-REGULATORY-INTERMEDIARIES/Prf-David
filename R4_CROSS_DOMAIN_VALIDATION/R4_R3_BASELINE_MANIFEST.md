@@ -89,3 +89,33 @@ The target Git repository was inspected at commit `27ba3e4`. Its working tree co
 ## Baseline conclusion
 
 R3 is frozen for the initial R4 transportability test. The available authority is sufficient to freeze the inherited ontology and decision architecture, but not to claim that all granular R3 phase files, normalized tables, scripts or historical model runs have been recovered. Those missing provenance items remain visible and must not be reconstructed by invention.
+
+## Historical R3 Reconciliation Update
+
+**Update date:** 2026-09-26
+
+### Original limitation
+
+The initial baseline did not independently locate all normalized R3 tables and granular provenance/decision logs.
+
+### Subsequent evidence
+
+The historical archive `PRJ-DAVID-R3.zip` was later provided and integrated through controlled read-only historical reconciliation under `R4.1B`.
+
+### Materials recovered
+
+The recovered archive preserves the original clean-room structure and includes, where applicable:
+
+- actor register and actor aliases;
+- provision mappings;
+- LAW × INTERMEDIARY register and relation links;
+- relation candidates, adjudicated relations, negative boundary cases and uncertain relations;
+- mechanism events, researcher-adjudicated mechanism events, mechanism traces and uncertainty logs;
+- researcher decision logs and configuration tables;
+- dataset architecture, research-question materials, audits and the David-facing package.
+
+The machine-readable inventory records 127 files, and the reconciliation register records the recovered normalized analytical layers and their totals.
+
+### Resolution
+
+`RESOLVED` for the historical archive supplied as `PRJ-DAVID-R3.zip`: normalized tables and granular decision/provenance materials were recovered and independently reconciled without modifying the historical empirical record. The original limitation remains preserved above as an accurate record of the initial R4 baseline state.

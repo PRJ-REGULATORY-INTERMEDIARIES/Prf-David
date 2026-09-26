@@ -1,0 +1,8 @@
+"law_intermediary_id","instrument_id","celex_id","intermediary_actor_id","intermediary_name","TRANSMISSION","AGGREGATION","REPRESENTATION","TRANSLATION","INTERPRETATION","EVALUATION_ASSESSMENT","CLASSIFICATION_RANKING","MONITORING","VERIFICATION","IMPLEMENTATION","supported_relations","single_mechanism_relations","multi_mechanism_relations","confirmed_sequences"
+"32003L0087_LI_001","R3-01","32003L0087","ACT-32003-010","Independent verifiers","0","0","0","0","0","0","0","0","1","0","1","1","0","0"
+"32018R0842_LI_001","R3-03","32018R0842","ACT-32018-005","Central Administrator","0","0","0","0","0","0","0","0","1","0","1","1","0","0"
+"32018R0842_LI_002","R3-03","32018R0842","ACT-32018-006","European Environment Agency","0","0","0","0","0","1","0","0","0","0","1","1","0","0"
+"32021R1119_LI_001","R3-04","32021R1119","ACT-32021-008","European Environment Agency","0","0","0","0","0","1","0","0","0","0","1","1","0","0"
+"32023R0955_LI_001","R3-05","32023R0955","ACT-32023-008","Public or private implementing entities","0","0","0","0","0","0","0","0","0","3","3","3","0","0"
+"32023R0955_LI_002","R3-05","32023R0955","ACT-32023-020","Implementing authorities","0","0","0","0","0","0","0","0","1","0","1","1","0","0"
+"32023R0955_LI_003","R3-05","32023R0955","ACT-32023-022","Audit bodies","0","0","0","0","0","1","0","0","1","0","1","0","1","1"

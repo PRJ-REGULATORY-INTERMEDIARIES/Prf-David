@@ -1,0 +1,44 @@
+celex_id: 32015D1814
+official_title: "Decision (EU) 2015/1814 of the European Parliament and of the Council of 6 October 2015 concerning the establishment and operation of a market stability reserve for the Union greenhouse gas emission trading scheme and amending Directive 2003/87/EC (Text with EEA relevance)"
+source_file: 01_sources/32015D1814/source_original_en.pdf
+source_sha256: BCA2648F3E4A312BF6F31F5270B01D933234E949F4EAC54157A0115086E18036
+source_url: "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX%3A32015D1814&from=EN"
+retrieval_timestamp: "2026-09-20T16:29:34.1244325-03:00"
+source_version: ORIGINAL_ACT_AS_ADOPTED
+corpus_generation_timestamp: "2026-09-20T16:52:05.7155019-03:00"
+generated_files:
+  - act_full.md
+  - recitals.md
+  - operative.md
+  - act_numbered.md
+  - article_index.csv
+generated_file_sha256:
+  act_full.md: AF12E21278745D9F3E0424E7F683965EC80E3CDDA0DA34812E13B613836B2AC4
+  recitals.md: 349437797DB53A65FE6283F761296FEF911D13B1F2479BB17DBA00817F1F6EBF
+  operative.md: 012A999822B4B6BE3BD923D372276EB8DAD871776046AA3E0CA1EBFE134B7FB9
+  act_numbered.md: 253B5F3C3F61E596AE5693DA21B929EA39DC15C7902AFF582C9C8EF51D4C5E9B
+  article_index.csv: B5DBEE275C93D278B27DA645B8388166B4BB0D98153F52126F5D66D8394AE7E1
+normalization_operations:
+  - remove Official Journal page headers and form-feed page separators
+  - trim extraction-only leading/trailing whitespace
+  - repair line-wrap hyphenation when the continuation begins with lowercase text
+  - preserve paragraph, heading, numbering, table and annex line structure
+  - no substantive rewriting, summarization or inference
+structural_counts:
+  recitals: 12
+  articles: 5
+  annexes: 0
+  titles: 0
+  chapters: 0
+  sections: 0
+  words: 3091
+  characters: 19338
+quality_checks:
+  pdf_pages: 5
+  first_article: 1
+  last_article: 5
+  first_recital: 1
+  last_recital: 12
+  source_hash_matches_phase1: True
+  corpus_status: CORPUS_TEXT_REQUIRES_REVIEW
+  source_to_corpus_fidelity: STRUCTURAL_CHECK_PASS_REVIEW_REQUIRED

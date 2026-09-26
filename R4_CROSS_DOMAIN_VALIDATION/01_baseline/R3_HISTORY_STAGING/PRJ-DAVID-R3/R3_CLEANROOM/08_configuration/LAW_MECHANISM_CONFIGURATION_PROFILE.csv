@@ -1,0 +1,6 @@
+"instrument_id","celex_id","n_supported_intermediaries","n_supported_relations","n_mechanism_events","n_distinct_mechanisms","mechanism_codes","n_single_mechanism_relations","n_multi_mechanism_relations","n_confirmed_sequences","configuration_types_present","substantive_zero","notes"
+"R3-01","32003L0087","1","1","1","1","VERIFICATION","1","0","0","SINGLE_MECHANISM","NO","Descriptive law profile only; no ranking or capacity inference."
+"R3-02","32015D1814","0","0","0","0","NONE","0","0","0","NONE","YES","Substantive zero: no supported intermediary, relation, mechanism event or configuration."
+"R3-03","32018R0842","2","2","2","2","EVALUATION_ASSESSMENT; VERIFICATION","2","0","0","SINGLE_MECHANISM","NO","Descriptive law profile only; no ranking or capacity inference."
+"R3-04","32021R1119","1","1","1","1","EVALUATION_ASSESSMENT","1","0","0","SINGLE_MECHANISM","NO","Descriptive law profile only; no ranking or capacity inference."
+"R3-05","32023R0955","3","5","6","3","EVALUATION_ASSESSMENT; IMPLEMENTATION; VERIFICATION","4","1","1","MULTI_MECHANISM_SEQUENTIAL; SINGLE_MECHANISM","NO","Contains repeated IMPLEMENTATION across three target-specific relations and one within-relation VERIFICATION to EVALUATION_ASSESSMENT sequence."

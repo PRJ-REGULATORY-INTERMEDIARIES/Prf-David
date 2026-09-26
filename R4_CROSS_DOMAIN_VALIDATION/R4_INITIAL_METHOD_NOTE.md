@@ -85,3 +85,13 @@ Substantive extraction and interpretation should begin only in a later authorize
 ## 8. Stop condition
 
 The initial R4 baseline package is complete. The project must now stop and await human review and explicit authorization for the next phase.
+
+## Post-Initial Baseline Enrichment
+
+**Date:** 2026-09-26
+
+The complete R3 historical archive became available after R4.0 and was integrated under `R4.1B` as read-only historical provenance. The initial provenance limitation concerning unavailable normalized R3 tables and granular decision logs was resolved for the supplied `PRJ-DAVID-R3.zip` archive, with the original limitation retained in the baseline manifest for chronological transparency.
+
+Project communications were archived under `R4.1C`. The communications archive is complete with documented gaps: secondary references remain distinct from original communications, and no missing message was reconstructed by inference.
+
+No substantive digital coding was performed during `R4.1B` or `R4.1C`. Digital structural extraction, digital R–I–T coding and digital mechanism coding remain not started.
