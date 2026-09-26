@@ -1,0 +1,4 @@
+﻿"CONFIDENCE_LEVEL","N_REVIEWED","FULLY_CORRECT","ERROR_COUNT","FULL_CORRECT_RATE","AMBIGUITY_RATE","NOTES"
+"HIGH","36","PENDING_HUMAN_REVIEW","PENDING_HUMAN_REVIEW","PENDING_HUMAN_REVIEW","0,0%","Calibration cannot be concluded until a human researcher reviews the sample."
+"MEDIUM","14","PENDING_HUMAN_REVIEW","PENDING_HUMAN_REVIEW","PENDING_HUMAN_REVIEW","0,0%","Calibration cannot be concluded until a human researcher reviews the sample."
+"LOW","40","PENDING_HUMAN_REVIEW","PENDING_HUMAN_REVIEW","PENDING_HUMAN_REVIEW","100,0%","Calibration cannot be concluded until a human researcher reviews the sample."
