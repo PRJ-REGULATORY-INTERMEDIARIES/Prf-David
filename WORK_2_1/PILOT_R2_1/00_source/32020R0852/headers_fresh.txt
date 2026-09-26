@@ -1,0 +1,20 @@
+HTTP/1.1 303 
+Date: Sat, 19 Sep 2026 12:00:37 GMT
+Content-Type: application/xhtml+xml;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Cache-Control: no-store
+Location: http://publications.europa.eu/resource/cellar/e5ba36a8-b454-11ea-bb7a-01aa75ed71a1.0006.03/DOC_1
+Content-Security-Policy: script-src 'self';
+
+HTTP/1.1 200 
+Date: Sat, 19 Sep 2026 12:00:37 GMT
+Content-Type: application/xhtml+xml;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+ETag: "Con-20231212172105000"
+Last-Modified: Tue, 12 Dec 2023 16:21:05 GMT
+Cache-Control: no-cache
+Content-Language: 
+Content-Security-Policy: script-src 'self';
+
