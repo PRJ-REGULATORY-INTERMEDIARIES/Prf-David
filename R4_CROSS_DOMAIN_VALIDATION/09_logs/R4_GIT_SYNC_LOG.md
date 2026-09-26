@@ -20,3 +20,14 @@ The commit registered the R2.1 audit/source artifacts and the complete R4 cross-
 
 The pre-existing untracked file `git-PRJ-REGULATORY-INTERMEDIARIES--Prf-David.code-workspace` was intentionally left outside the commit because it was not part of the R4 evidence package and was not created during this operation.
 
+## 2026-09-26 — R4.2D session checkpoint
+
+| Step | Command/result |
+|---|---|
+| Pre-commit state | Repository root verified; branch `main`; remote `origin` points to the GitHub repository above. `origin/main` was an ancestor of local `main`; no divergence was present. |
+| Scope and validation | 64 staged files, all under `R4_CROSS_DOMAIN_VALIDATION/`; `git diff --cached --check` clean. The personal `.code-workspace` file remained untracked and excluded. All five methodological firewalls were confirmed unchanged. |
+| Commit | `9703e6d` — `Checkpoint R4.2D diagnostic package before researcher review` (16,502 insertions, 16 deletions). |
+| Pull | `git pull --rebase origin main` completed; local branch was up to date with the fetched remote before push. |
+| Push | `git push origin main` succeeded; remote advanced `a8e630a..9703e6d` (including the previously local-ahead commit and this checkpoint). |
+
+The recorded project state remains `R4_2D_DIAGNOSTIC_READY_FOR_RESEARCHER`. R4.2 is not closed; the 12 Priority 1 diagnostic cases still await researcher adjudication. No RIT coding, mechanism coding, ROTEM consultation, R4.3 work or corpus-wide repair was initiated. The runtime model variant remains recorded as not exposed where applicable.
