@@ -1,0 +1,99 @@
+"""Build the compact David-facing summary table for the R4 digital structural validation round."""
+import csv, hashlib, os
+
+R4 = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+OUT = os.path.join(R4, '08_reports', 'R4_DIGITAL_VALIDATION_SUMMARY_FOR_DAVID.csv')
+
+COLUMNS = ['DIMENSION', 'GDPR', 'DSA', 'AI_ACT', 'TOTAL', 'NOTE']
+
+ROWS = [
+    ('CELEX identifier', '32016R0679', '32022R2065', '32024R1689', '3 instruments',
+     'Frozen original texts; no consolidated substitution.'),
+    ('Structural records extracted', '485', '424', '495', '1404',
+     'Unit = legal provision x actor x legal action.'),
+    ('Records from operative articles', '264', '242', '336', '842', ''),
+    ('Records from recitals', '221', '182', '143', '546', ''),
+    ('Records from annexes', '0', '0', '16', '16', 'Only the AI Act contributes annex records.'),
+    ('Records advanced-reviewed in B1', '69', '49', '25', '143',
+     'Purposive review set, not a random sample.'),
+    ('B1 defect present = YES', '56', '36', '19', '111', 'Within the reviewed set only.'),
+    ('B1 defect present = PARTIALLY', '8', '5', '2', '15', ''),
+    ('B1 defect present = NO', '5', '8', '4', '17', ''),
+    ('Relational reading NEITHER', '44', '35', '16', '95',
+     'No actor-capable relational entity in the anchored proposition.'),
+    ('Relational reading RECIPIENT_ONLY', '14', '9', '4', '27',
+     'An express addressee, with no counterpart.'),
+    ('Relational reading COUNTERPART_ONLY', '7', '4', '3', '14',
+     'A relational party that is not an addressee.'),
+    ('Relational reading UNCERTAIN', '4', '1', '2', '7', ''),
+    ('Counterpart and recipient identical in original extraction', '', '', '', '1404 of 1404',
+     'Exact textual equality corpus-wide (995 both populated, 409 both empty). '
+     'Counterpart-only 0; recipient-only 0.'),
+    ('Action object and information-or-material object identical', '', '', '', '1404 of 1404',
+     'Exact textual equality corpus-wide. Second operational redundancy.'),
+    ('Structural ambiguity derivable from extraction confidence', '', '', '', '1404 of 1404',
+     'One-way only: confidence LOW maps to ambiguity YES, but ambiguity NO splits into HIGH '
+     'and MEDIUM. Confidence carries strictly more information.'),
+    ('Field corrections proposed - Actor', '', '', '', '47', 'Across the 143 reviewed cases.'),
+    ('Field corrections proposed - Action (as originally recorded)', '', '', '', '87',
+     'Recorded when the review input exposed the normalised action label only.'),
+    ('Field corrections proposed - Action (sensitivity-adjusted)', '', '', '', '63',
+     'Recount with the full action representation visible. Both figures are reported; '
+     'neither replaces the other.'),
+    ('Field corrections proposed - Object', '', '', '', '83', ''),
+    ('Field corrections proposed - Counterpart', '', '', '', '88', ''),
+    ('Field corrections proposed - Recipient', '', '', '', '98', ''),
+    ('Action judgments changed once full action representation was visible', '', '', '', '26 of 143',
+     '25 moved from defective to correct, 1 the other way.'),
+    ('Overall defect decisions affected by the action representation issue', '', '', '', '1 of 143',
+     'In every other case the defect rested on other fields as well.'),
+    ('Principal defect family - span boundary errors', '', '', '', 'dominant',
+     'Action or object span cuts across a constituent, or absorbs the neighbouring field.'),
+    ('Principal defect family - cross-sentence relational copying', '', '', '', 'frequent',
+     'Counterpart and recipient quote a sentence other than the anchored one.'),
+    ('Principal defect family - coordinated predicate collapse', '', '', '', 'frequent',
+     'A second obligation is buried inside the object of the first.'),
+    ('Repair families compressed from 1404 records', '', '', '', '211',
+     'B0 compression; advanced workload reduced from 524 to 131 cases.'),
+    ('Family templates VALIDATED_WITH_CONDITIONS', '', '', '', '64', 'Of 99 representatives.'),
+    ('Family templates unconditionally VALIDATED', '', '', '', '0',
+     'No template was validated without conditions.'),
+    ('Family templates needing more representatives', '', '', '', '16', ''),
+    ('Family templates needing human review', '', '', '', '9', ''),
+    ('Family templates rejected', '', '', '', '8', ''),
+    ('Conditionally validated repair families', '', '', '', '50',
+     'Families whose reviewed representatives are all VALIDATED_WITH_CONDITIONS. '
+     'None is unconditionally validated.'),
+    ('Potential template repair coverage', '', '', '', '296 records',
+     'Records in those 50 conditionally validated families. An eligibility ceiling only; '
+     'no repair was applied.'),
+    ('Records in families whose representatives disagree', '', '', '', '141',
+     'Excluded from the coverage figure.'),
+    ('NO_REPAIR diagnostic controls CLEAN_CONFIRMED', '', '', '', '5 of 12',
+     'Diagnostic probes, not a blinded sample.'),
+    ('NO_REPAIR diagnostic controls DEFECT_FOUND', '', '', '', '7 of 12',
+     'No control was graded SERIOUS; none showed actor invention. No false-negative rate '
+     'is computed from these.'),
+    ('Records with no stored source excerpt', '', '', '', '181 of 1404',
+     'Provenance gap identified in this round.'),
+    ('Corpus-wide repair applied', 'no', 'no', 'no', 'none',
+     'R4_STRUCTURAL_EXTRACTION.csv is unmodified.'),
+    ('Regulator / intermediary / target coding', '', '', '', 'not started', 'Next analytical layer.'),
+    ('Mechanism coding', '', '', '', 'not started', 'Next analytical layer.'),
+    ('Independent coding by Rotem consulted', '', '', '', 'no',
+     'Held behind a firewall to preserve an independent comparison.'),
+]
+
+
+def main():
+    with open(OUT, 'w', encoding='utf-8', newline='') as fh:
+        w = csv.writer(fh, quoting=csv.QUOTE_ALL, lineterminator='\r\n')
+        w.writerow(COLUMNS)
+        w.writerows(ROWS)
+    digest = hashlib.sha256(open(OUT, 'rb').read()).hexdigest().upper()
+    print(f'Rows={len(ROWS)}')
+    print(f'SHA256={digest}')
+
+
+if __name__ == '__main__':
+    main()
