@@ -1,0 +1,19 @@
+{
+  "case_id": "D1_GDPR",
+  "celex": "32016R0679",
+  "root_language": "EN",
+  "article_count": 99,
+  "recital_count": 173,
+  "chapter_count": 11,
+  "section_count": 15,
+  "annex_count": 0,
+  "expected_annex_count": 0,
+  "article_sequence_coherent": true,
+  "recital_sequence_coherent": true,
+  "document_end_marker_present": true,
+  "recitals_preserved": true,
+  "operative_provisions_present": true,
+  "annex_check": "PASS",
+  "status": "VALIDATED",
+  "note": "Structural validation only; no actor, intermediary or mechanism extraction performed."
+}

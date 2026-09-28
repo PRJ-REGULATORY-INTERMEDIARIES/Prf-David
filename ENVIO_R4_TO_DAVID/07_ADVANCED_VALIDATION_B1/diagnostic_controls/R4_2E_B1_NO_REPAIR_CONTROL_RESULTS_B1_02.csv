@@ -1,0 +1,4 @@
+"CONTROL_DIAGNOSTIC","BATCH_ID","RECORD_ID","CONTROL_RESULT","ADVANCED_DEFECT_PRESENT","NOTE"
+"NO_REPAIR_CONTROL_DIAGNOSTIC","B1-02","EXT-000004","CLEAN_CONFIRMED","NO","The Article 12 matrix proposition is structurally preserved."
+"NO_REPAIR_CONTROL_DIAGNOSTIC","B1-02","EXT-000589","CLEAN_CONFIRMED","NO","The Article 44 update proposition is structurally preserved."
+"NO_REPAIR_CONTROL_DIAGNOSTIC","B1-02","EXT-000919","DEFECT_FOUND","YES","The Annex VII row misallocates an unrelated notified-body phrase and omits the applicant recipient."
