@@ -1,0 +1,21 @@
+﻿source_seed_id,item_id_A,item_id_B,label_shown
+EU01,A-12,B-02,EUR-Lex — legislação e documentos jurídicos
+EU02,A-08,B-01,CELLAR — repositório e grafo de metadados
+EU03,A-18,B-12,EUR-Lex bulk data dump
+EU07,A-04,B-11,European Legal Data Space — diretório
+EU08,A-09,B-19,European Parliament Open Data API — procedures
+EU13,A-15,B-03,Register of Commission Documents
+EU15,A-19,B-05,Comitology Register — comitês e atos de execução
+EU17,A-03,B-09,EU Transparency Register
+EU19,A-06,B-04,N-Lex — bases legais nacionais
+EU23,A-05,B-17,ECLI / European e-Justice — busca de jurisprudência
+EU24,A-13,B-20,"Competition Case Search — antitrust, mergers, State aid, DMA"
+EU25,A-16,B-13,EDPB — register of final one-stop-shop GDPR decisions
+EU27,A-01,B-18,DSA Transparency Database — statements of reasons
+EU28,A-20,B-06,DGA — Register of Data Intermediation Services
+EU30,A-07,B-07,EEA Eionet — Reporting Obligations Database (ROD)
+EU32,A-14,B-14,ECHA CHEM — REACH / CLP
+EU33,A-11,B-08,TED Open Data Service (contratações)
+EU37,A-17,B-10,JRC-Acquis
+EU39,A-02,B-16,LexGLUE — subtarefa EUR-LEX
+EU41,A-10,B-15,ParlTrack

@@ -1,0 +1,36 @@
+---
+title: "Research notebook"
+subtitle: "Ideas, methods and conversations in regulatory governance."
+toc: false
+listing:
+  id: research-notes
+  contents: posts/*/index.qmd
+  type: default
+  sort: "date desc"
+  fields: [date, title, description, author, categories]
+  categories: true
+  sort-ui: true
+  filter-ui: true
+  page-size: 9
+---
+
+[NOTES & PERSPECTIVES]{.eyebrow}
+
+A future home for research notes, methodological discussions, comparative work and updates from contributing projects. Each contribution will identify its authors, context and limitations, with references where relevant.
+
+::: {.editorial-empty-state}
+## The first contribution is still ahead
+
+No research notes have been approved for publication. This notebook is ready to receive reviewed contributions; draft and demonstration material is kept outside its published listings.
+:::
+
+::: {#research-notes}
+:::
+
+::: {.editorial-aside}
+### Room for different kinds of contribution
+
+Research Notes · Regulatory Intermediation · Methods & Data · Regulatory Governance · Dataset Updates · Comparative Research · Project News
+
+These are possible editorial categories, not a claim that articles already exist. Categories and topic tags will grow with the contributions.
+:::

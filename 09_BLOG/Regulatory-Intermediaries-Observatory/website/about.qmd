@@ -1,0 +1,24 @@
+---
+title: "About the Observatory"
+subtitle: "A proposed platform for research, publication and exchange."
+---
+
+## Mission
+
+The Regulatory Intermediaries Observatory is being developed as a place to share scientific work on the actors, relationships and institutions involved in regulatory governance. Its intended role is to make research easier to discover, contextualize and discuss.
+
+## A platform for independent research
+
+Hosting a project description, article or dataset entry is distinct from producing the underlying research. Contributing initiatives retain their own empirical boundaries, methods, data stewardship and scientific responsibilities.
+
+The platform is being prepared for research articles and notes, methodological discussions, project descriptions, dataset resources and visualizations. It does not establish an empirical scope or classification system for independent datasets.
+
+## Editorial orientation
+
+Future contributions should make their context, sources and limitations clear. Research discussion, methodological documentation, preliminary work and validated findings must be distinguishable. Drafting, scientific review, editorial approval and publication are separate steps; corrections should remain visible.
+
+## Current status
+
+The Observatory is a proposed project in private development. No public launch, affiliation, institutional endorsement or research partnership is implied. Scientific content and contributor details await confirmation and approval.
+
+[Team & contributors →](team.qmd){.text-link}

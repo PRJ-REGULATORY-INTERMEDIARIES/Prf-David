@@ -1,0 +1,12 @@
+---
+title: "Local infrastructure preview"
+date: 2026-10-09
+description: "A technical placeholder for the research notebook; no empirical analysis."
+categories: [Infrastructure, Draft]
+---
+
+**DRAFT — NOT VALIDATED · Technical scaffold only**
+
+This local entry exercises the blog listing and page navigation. It is not a substantive scientific article or a report of research findings.
+
+The initial infrastructure separates a dataset landscape inventory from a relational episodes database. Methodological definitions and release decisions remain pending. Future research posts will be added only through a documented review process.

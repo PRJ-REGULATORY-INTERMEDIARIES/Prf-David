@@ -1,0 +1,34 @@
+---
+title: "Research"
+subtitle: "Independent initiatives. A shared space for scientific exchange."
+toc: false
+listing:
+  id: research-projects
+  contents: projects/*/index.qmd
+  type: default
+  fields: [title, description, categories]
+  sort: title
+---
+
+[THE RESEARCH PORTFOLIO]{.eyebrow}
+
+The Observatory is designed to present multiple independent research initiatives concerned with regulatory governance and intermediation. Each project will retain its own questions, empirical scope, methods and scientific responsibilities.
+
+::: {.editorial-empty-state}
+## Project contributions are forthcoming
+
+No projects have yet been approved for presentation here. Future entries will explain each initiative's research question, domain, stage, confirmed contributors, publications and datasets.
+:::
+
+::: {#research-projects}
+:::
+
+::: {.editorial-aside}
+### What a project page will connect
+
+A concise overview and research question; its own methods and status; confirmed contributors; and links to related publications, resources and datasets.
+
+Inclusion in the Observatory will not by itself establish methodological validation or institutional endorsement. Existing work elsewhere in the workspace is not automatically affiliated.
+:::
+
+[Explore the resources catalog →](dataset.qmd){.text-link}

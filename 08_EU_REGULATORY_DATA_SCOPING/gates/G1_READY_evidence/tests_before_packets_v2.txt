@@ -1,0 +1,123 @@
+# BEFORE: tests/test_pilot_a_packets_v2.py against the G1-PREP pilot_a_forms.py
+# ffbc00fbd2820d741d4b85677ef060533b0d0d975a93d83434f6f6385efb08c2 *scripts/pilot_a_forms.py
+# run: 2026-10-10T03:24:31Z
+
+test_covers_the_41_seeds_with_unique_labels (tests.test_pilot_a_packets_v2.LabelFileTests.test_covers_the_41_seeds_with_unique_labels) ... ok
+test_inventory_name_column_matches_the_inventory (tests.test_pilot_a_packets_v2.LabelFileTests.test_inventory_name_column_matches_the_inventory) ... ok
+test_removed_descriptors_are_really_absent (tests.test_pilot_a_packets_v2.LabelFileTests.test_removed_descriptors_are_really_absent) ... ok
+test_altered_label_is_detected_and_named (tests.test_pilot_a_packets_v2.PacketV2Tests.test_altered_label_is_detected_and_named) ... ERROR
+test_altered_url_removed_row_and_added_row_are_detected (tests.test_pilot_a_packets_v2.PacketV2Tests.test_altered_url_removed_row_and_added_row_are_detected) ... ERROR
+test_blank_form_also_checks_prefilled_columns (tests.test_pilot_a_packets_v2.PacketV2Tests.test_blank_form_also_checks_prefilled_columns) ... ERROR
+test_forms_show_neutral_labels_only (tests.test_pilot_a_packets_v2.PacketV2Tests.test_forms_show_neutral_labels_only) ... ERROR
+test_lock_refuses_a_form_with_altered_prefilled_columns (tests.test_pilot_a_packets_v2.PacketV2Tests.test_lock_refuses_a_form_with_altered_prefilled_columns) ... ERROR
+test_missing_label_stops_the_build (tests.test_pilot_a_packets_v2.PacketV2Tests.test_missing_label_stops_the_build) ... ERROR
+test_package_holds_only_that_reviewers_material (tests.test_pilot_a_packets_v2.PacketV2Tests.test_package_holds_only_that_reviewers_material) ... ERROR
+test_package_without_evidence_says_so (tests.test_pilot_a_packets_v2.PacketV2Tests.test_package_without_evidence_says_so) ... ERROR
+test_packages_of_a_and_b_use_their_own_item_ids (tests.test_pilot_a_packets_v2.PacketV2Tests.test_packages_of_a_and_b_use_their_own_item_ids) ... ERROR
+test_reviewer_manifest_holds_no_key_material (tests.test_pilot_a_packets_v2.PacketV2Tests.test_reviewer_manifest_holds_no_key_material) ... ERROR
+test_untouched_prefilled_columns_pass (tests.test_pilot_a_packets_v2.PacketV2Tests.test_untouched_prefilled_columns_pass) ... ERROR
+
+======================================================================
+ERROR: test_altered_label_is_detected_and_named (tests.test_pilot_a_packets_v2.PacketV2Tests.test_altered_label_is_detected_and_named)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "G:\Meu Drive\PRJ-David\Prf-David\08_EU_REGULATORY_DATA_SCOPING\tests\test_pilot_a_packets_v2.py", line 53, in setUp
+    self.manifest = forms.build(base=self.base, sample_file=SAMPLE, seed=777, labels_file=LABELS)
+                    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: build() got an unexpected keyword argument 'labels_file'. Did you mean 'sample_file'?
+
+======================================================================
+ERROR: test_altered_url_removed_row_and_added_row_are_detected (tests.test_pilot_a_packets_v2.PacketV2Tests.test_altered_url_removed_row_and_added_row_are_detected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "G:\Meu Drive\PRJ-David\Prf-David\08_EU_REGULATORY_DATA_SCOPING\tests\test_pilot_a_packets_v2.py", line 53, in setUp
+    self.manifest = forms.build(base=self.base, sample_file=SAMPLE, seed=777, labels_file=LABELS)
+                    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: build() got an unexpected keyword argument 'labels_file'. Did you mean 'sample_file'?
+
+======================================================================
+ERROR: test_blank_form_also_checks_prefilled_columns (tests.test_pilot_a_packets_v2.PacketV2Tests.test_blank_form_also_checks_prefilled_columns)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "G:\Meu Drive\PRJ-David\Prf-David\08_EU_REGULATORY_DATA_SCOPING\tests\test_pilot_a_packets_v2.py", line 53, in setUp
+    self.manifest = forms.build(base=self.base, sample_file=SAMPLE, seed=777, labels_file=LABELS)
+                    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: build() got an unexpected keyword argument 'labels_file'. Did you mean 'sample_file'?
+
+======================================================================
+ERROR: test_forms_show_neutral_labels_only (tests.test_pilot_a_packets_v2.PacketV2Tests.test_forms_show_neutral_labels_only)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "G:\Meu Drive\PRJ-David\Prf-David\08_EU_REGULATORY_DATA_SCOPING\tests\test_pilot_a_packets_v2.py", line 53, in setUp
+    self.manifest = forms.build(base=self.base, sample_file=SAMPLE, seed=777, labels_file=LABELS)
+                    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: build() got an unexpected keyword argument 'labels_file'. Did you mean 'sample_file'?
+
+======================================================================
+ERROR: test_lock_refuses_a_form_with_altered_prefilled_columns (tests.test_pilot_a_packets_v2.PacketV2Tests.test_lock_refuses_a_form_with_altered_prefilled_columns)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "G:\Meu Drive\PRJ-David\Prf-David\08_EU_REGULATORY_DATA_SCOPING\tests\test_pilot_a_packets_v2.py", line 53, in setUp
+    self.manifest = forms.build(base=self.base, sample_file=SAMPLE, seed=777, labels_file=LABELS)
+                    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: build() got an unexpected keyword argument 'labels_file'. Did you mean 'sample_file'?
+
+======================================================================
+ERROR: test_missing_label_stops_the_build (tests.test_pilot_a_packets_v2.PacketV2Tests.test_missing_label_stops_the_build)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "G:\Meu Drive\PRJ-David\Prf-David\08_EU_REGULATORY_DATA_SCOPING\tests\test_pilot_a_packets_v2.py", line 53, in setUp
+    self.manifest = forms.build(base=self.base, sample_file=SAMPLE, seed=777, labels_file=LABELS)
+                    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: build() got an unexpected keyword argument 'labels_file'. Did you mean 'sample_file'?
+
+======================================================================
+ERROR: test_package_holds_only_that_reviewers_material (tests.test_pilot_a_packets_v2.PacketV2Tests.test_package_holds_only_that_reviewers_material)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "G:\Meu Drive\PRJ-David\Prf-David\08_EU_REGULATORY_DATA_SCOPING\tests\test_pilot_a_packets_v2.py", line 53, in setUp
+    self.manifest = forms.build(base=self.base, sample_file=SAMPLE, seed=777, labels_file=LABELS)
+                    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: build() got an unexpected keyword argument 'labels_file'. Did you mean 'sample_file'?
+
+======================================================================
+ERROR: test_package_without_evidence_says_so (tests.test_pilot_a_packets_v2.PacketV2Tests.test_package_without_evidence_says_so)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "G:\Meu Drive\PRJ-David\Prf-David\08_EU_REGULATORY_DATA_SCOPING\tests\test_pilot_a_packets_v2.py", line 53, in setUp
+    self.manifest = forms.build(base=self.base, sample_file=SAMPLE, seed=777, labels_file=LABELS)
+                    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: build() got an unexpected keyword argument 'labels_file'. Did you mean 'sample_file'?
+
+======================================================================
+ERROR: test_packages_of_a_and_b_use_their_own_item_ids (tests.test_pilot_a_packets_v2.PacketV2Tests.test_packages_of_a_and_b_use_their_own_item_ids)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "G:\Meu Drive\PRJ-David\Prf-David\08_EU_REGULATORY_DATA_SCOPING\tests\test_pilot_a_packets_v2.py", line 53, in setUp
+    self.manifest = forms.build(base=self.base, sample_file=SAMPLE, seed=777, labels_file=LABELS)
+                    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: build() got an unexpected keyword argument 'labels_file'. Did you mean 'sample_file'?
+
+======================================================================
+ERROR: test_reviewer_manifest_holds_no_key_material (tests.test_pilot_a_packets_v2.PacketV2Tests.test_reviewer_manifest_holds_no_key_material)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "G:\Meu Drive\PRJ-David\Prf-David\08_EU_REGULATORY_DATA_SCOPING\tests\test_pilot_a_packets_v2.py", line 53, in setUp
+    self.manifest = forms.build(base=self.base, sample_file=SAMPLE, seed=777, labels_file=LABELS)
+                    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: build() got an unexpected keyword argument 'labels_file'. Did you mean 'sample_file'?
+
+======================================================================
+ERROR: test_untouched_prefilled_columns_pass (tests.test_pilot_a_packets_v2.PacketV2Tests.test_untouched_prefilled_columns_pass)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "G:\Meu Drive\PRJ-David\Prf-David\08_EU_REGULATORY_DATA_SCOPING\tests\test_pilot_a_packets_v2.py", line 53, in setUp
+    self.manifest = forms.build(base=self.base, sample_file=SAMPLE, seed=777, labels_file=LABELS)
+                    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: build() got an unexpected keyword argument 'labels_file'. Did you mean 'sample_file'?
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.027s
+
+FAILED (errors=11)
+exit=1

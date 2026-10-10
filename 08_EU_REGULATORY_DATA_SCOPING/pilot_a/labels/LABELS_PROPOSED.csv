@@ -1,0 +1,42 @@
+source_seed_id,inventory_name,neutral_label,removed_text,change_note
+EU01,EUR-Lex — legislação e documentos jurídicos,EUR-Lex,legislação e documentos jurídicos,descriptor removed
+EU02,CELLAR — repositório e grafo de metadados,CELLAR,repositório e grafo de metadados,descriptor removed
+EU03,EUR-Lex bulk data dump,EUR-Lex data dump,bulk,"name as written on the official ELDS page captured on 2026-10-10 (""EUR-Lex data dump"")"
+EU04,Official Journal — arquivos XML Formex,Official Journal of the European Union (Formex),arquivos XML,descriptor removed; format name kept because it identifies the resource
+EU05,European Legislation Identifier (ELI),European Legislation Identifier (ELI),,unchanged
+EU06,EuroVoc — tesauro multilíngue,EuroVoc,tesauro multilíngue,descriptor removed
+EU07,European Legal Data Space — diretório,European Legal Data Space (ELDS),diretório,"descriptor removed; name as on the official page captured on 2026-10-10"
+EU08,European Parliament Open Data API — procedures,European Parliament Open Data API (procedures),,unchanged apart from punctuation; scope term kept because it identifies the resource
+EU09,Legislative Observatory — OEIL,Legislative Observatory (OEIL),,unchanged apart from punctuation
+EU10,Council — resultados de votações legislativas,Council of the European Union (voting results),resultados de votações legislativas,descriptor replaced by a neutral scope term needed to identify the resource
+EU11,Council votes on legislative acts — dataset antigo,Council votes on legislative acts,dataset antigo,descriptor removed
+EU12,Commission — Have Your Say / Better Regulation,Have Your Say / Better Regulation (European Commission),,reordered; no descriptor in the inventory name
+EU13,Register of Commission Documents,Register of Commission Documents,,unchanged
+EU14,Interinstitutional Register of Delegated Acts,Interinstitutional Register of Delegated Acts,,unchanged
+EU15,Comitology Register — comitês e atos de execução,Comitology Register,comitês e atos de execução,descriptor removed
+EU16,Register of Commission Expert Groups,Register of Commission Expert Groups,,unchanged
+EU17,EU Transparency Register,EU Transparency Register,,unchanged
+EU18,EUR-Lex — National Transposition Measures (NIM),EUR-Lex (National Transposition Measures),,unchanged apart from punctuation; scope term kept because it identifies the resource
+EU19,N-Lex — bases legais nacionais,N-Lex,bases legais nacionais,descriptor removed
+EU20,TRIS — notificações de regras técnicas nacionais,TRIS (Technical Regulation Information System),notificações de regras técnicas nacionais,descriptor replaced by the expansion of the acronym
+EU21,Commission — Infringement Decisions Register,European Commission (infringement decisions),,reordered; scope term kept because it identifies the resource
+EU22,InfoCuria — decisões do TJUE,InfoCuria,decisões do TJUE,descriptor removed
+EU23,ECLI / European e-Justice — busca de jurisprudência,European Case Law Identifier (ECLI) / European e-Justice Portal,busca de jurisprudência,"descriptor removed; names as on the official ELDS page captured on 2026-10-10"
+EU24,"Competition Case Search — antitrust, mergers, State aid, DMA",Competition Case Search (European Commission),"antitrust, mergers, State aid, DMA",descriptor removed
+EU25,EDPB — register of final one-stop-shop GDPR decisions,EDPB (register of final one-stop-shop decisions),,unchanged apart from punctuation; scope term kept because it identifies the resource
+EU26,DSA — EU Trusted Flaggers List,Trusted flaggers under the Digital Services Act,,rephrased; no descriptor in the inventory name
+EU27,DSA Transparency Database — statements of reasons,DSA Transparency Database,statements of reasons,descriptor removed
+EU28,DGA — Register of Data Intermediation Services,EU register of data intermediation services (Data Governance Act),,rephrased; no descriptor in the inventory name
+EU29,NANDO — Notified Bodies,NANDO,Notified Bodies,descriptor removed
+EU30,EEA Eionet — Reporting Obligations Database (ROD),Eionet Reporting Obligations Database (ROD),,unchanged apart from punctuation
+EU31,EEA — Reportnet 3 / Dataflows,Reportnet 3 (European Environment Agency),Dataflows,descriptor removed
+EU32,ECHA CHEM — REACH / CLP,ECHA CHEM,REACH / CLP,descriptor removed
+EU33,TED Open Data Service (contratações),TED Open Data Service,contratações,descriptor removed
+EU34,TED Search API — notices,TED Search API,notices,descriptor removed
+EU35,MultiEURLEX — EU legislation corpus,MultiEURLEX,EU legislation corpus,descriptor removed
+EU36,EURLEX57K,EURLEX57K,,unchanged
+EU37,JRC-Acquis,JRC-Acquis,,unchanged
+EU38,DGT-Acquis,DGT-Acquis,,unchanged
+EU39,LexGLUE — subtarefa EUR-LEX,LexGLUE (EUR-LEX task),subtarefa,descriptor replaced by a neutral scope term needed to identify the record
+EU40,EU Policy Agendas Project — European Council Conclusions,EU Policy Agendas Project (European Council Conclusions),,unchanged apart from punctuation
+EU41,ParlTrack,ParlTrack,,unchanged

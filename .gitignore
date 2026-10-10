@@ -6,6 +6,7 @@ API-*
 # Python caches
 __pycache__/
 *.pyc
+.pytest_cache/
 
 # Google Drive virtual/shortcut files (not readable as content)
 *.gdoc

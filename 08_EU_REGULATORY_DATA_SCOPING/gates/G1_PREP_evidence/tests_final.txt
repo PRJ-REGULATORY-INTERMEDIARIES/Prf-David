@@ -1,0 +1,66 @@
+# FINAL TEST RUN
+# run: 2026-10-10T02:32:46Z | Python 3.14.4
+# 756f59fa67d03884293b1cff2c0bcac5d8f8fd24d7dc01f9dd42325859892a91 *scripts/cli.py
+# f7db92e4f69e7cdc7aa1f9a5bfa7a767acc83236653630c540d31455cbf889d9 *scripts/agreement.py
+# 36365308cb936c861da56167d4c96bd4a485743b9935eaa1c21b2d2bdae1d546 *scripts/select_pilot_a.py
+# ffbc00fbd2820d741d4b85677ef060533b0d0d975a93d83434f6f6385efb08c2 *scripts/pilot_a_forms.py
+# 21abed16ddd5645cba46d682319c778570a0ae64906dad9dcba9d2982f87d8c3 *schemas/vocabularies.json
+# command: python -m unittest discover -s tests -v
+
+test_refuses_to_pool_different_reviewer_pairs (test_agreement_pairs.LegacyFunctionTests.test_refuses_to_pool_different_reviewer_pairs) ... ok
+test_single_pair_still_supported (test_agreement_pairs.LegacyFunctionTests.test_single_pair_still_supported) ... ok
+test_blank_answers_are_reported_not_scored (test_agreement_pairs.PairwiseAgreementTests.test_blank_answers_are_reported_not_scored) ... ok
+test_other_variable_and_custom_uncertain_label (test_agreement_pairs.PairwiseAgreementTests.test_other_variable_and_custom_uncertain_label) ... ok
+test_set_agreement_jaccard (test_agreement_pairs.PairwiseAgreementTests.test_set_agreement_jaccard) ... ok
+test_t1_pairs_are_kept_apart_and_uncertain_is_counted (test_agreement_pairs.PairwiseAgreementTests.test_t1_pairs_are_kept_apart_and_uncertain_is_counted) ... ok
+test_t2_single_category_gives_no_kappa_with_reason (test_agreement_pairs.PairwiseAgreementTests.test_t2_single_category_gives_no_kappa_with_reason) ... ok
+test_t3_known_value (test_agreement_pairs.PairwiseAgreementTests.test_t3_known_value) ... ok
+test_t4_symmetry_under_reviewer_relabelling (test_agreement_pairs.PairwiseAgreementTests.test_t4_symmetry_under_reviewer_relabelling) ... ok
+test_t5_table_sums_to_number_of_items (test_agreement_pairs.PairwiseAgreementTests.test_t5_table_sums_to_number_of_items) ... ok
+test_t6_item_with_three_reviewers_is_listed_apart (test_agreement_pairs.PairwiseAgreementTests.test_t6_item_with_three_reviewers_is_listed_apart) ... ok
+test_uncertain_as_category_and_excluded_are_both_reported (test_agreement_pairs.PairwiseAgreementTests.test_uncertain_as_category_and_excluded_are_both_reported) ... ok
+test_report_lists_each_pair_separately (test_agreement_pairs.ReportTests.test_report_lists_each_pair_separately) ... ok
+test_blank_form_validates_as_blank_and_cannot_be_locked_or_compared (test_pilot_a_instruments.InstrumentTests.test_blank_form_validates_as_blank_and_cannot_be_locked_or_compared) ... ok
+test_compare_refuses_a_form_changed_after_locking (test_pilot_a_instruments.InstrumentTests.test_compare_refuses_a_form_changed_after_locking) ... ok
+test_compare_refuses_identical_reviewer_ids (test_pilot_a_instruments.InstrumentTests.test_compare_refuses_identical_reviewer_ids) ... ok
+test_key_is_a_bijection_kept_with_the_coordinator (test_pilot_a_instruments.InstrumentTests.test_key_is_a_bijection_kept_with_the_coordinator) ... ok
+test_lock_then_compare_reports_one_named_pair_per_variable (test_pilot_a_instruments.InstrumentTests.test_lock_then_compare_reports_one_named_pair_per_variable) ... ok
+test_nothing_withheld_reaches_a_reviewer_folder (test_pilot_a_instruments.InstrumentTests.test_nothing_withheld_reaches_a_reviewer_folder) ... ok
+test_orders_differ_and_ids_are_neutral (test_pilot_a_instruments.InstrumentTests.test_orders_differ_and_ids_are_neutral) ... ok
+test_roles_are_unassigned (test_pilot_a_instruments.InstrumentTests.test_roles_are_unassigned) ... ok
+test_two_equivalent_forms_with_blank_decisions (test_pilot_a_instruments.InstrumentTests.test_two_equivalent_forms_with_blank_decisions) ... ok
+test_validation_rejects_values_outside_the_vocabulary (test_pilot_a_instruments.InstrumentTests.test_validation_rejects_values_outside_the_vocabulary) ... ok
+test_validation_requires_evidence_and_reason_for_uncertainty (test_pilot_a_instruments.InstrumentTests.test_validation_requires_evidence_and_reason_for_uncertainty) ... ok
+test_infeasible_constraints_are_reported_not_relaxed (test_pilot_a_instruments.SelectionTests.test_infeasible_constraints_are_reported_not_relaxed) ... ok
+test_is_deterministic (test_pilot_a_instruments.SelectionTests.test_is_deterministic) ... ok
+test_judgement_columns_cannot_change_the_result (test_pilot_a_instruments.SelectionTests.test_judgement_columns_cannot_change_the_result) ... ok
+test_only_factual_columns_are_loaded (test_pilot_a_instruments.SelectionTests.test_only_factual_columns_are_loaded) ... ok
+test_satisfies_every_constraint (test_pilot_a_instruments.SelectionTests.test_satisfies_every_constraint) ... ok
+test_written_sample_matches_the_algorithm (test_pilot_a_instruments.SelectionTests.test_written_sample_matches_the_algorithm) ... ok
+test_canonical_dataset_ids_are_unique (test_pipeline.ProjectTests.test_canonical_dataset_ids_are_unique) ... ok
+test_cohen_kappa (test_pipeline.ProjectTests.test_cohen_kappa) ... ok
+test_data_headers (test_pipeline.ProjectTests.test_data_headers) ... ok
+test_seed_inventory_count (test_pipeline.ProjectTests.test_seed_inventory_count) ... ok
+test_check_does_not_create_missing_tables (test_validation_vocabularies.CountingAndReadOnlyTests.test_check_does_not_create_missing_tables) ... ok
+test_check_does_not_modify_any_file (test_validation_vocabularies.CountingAndReadOnlyTests.test_check_does_not_modify_any_file) ... ok
+test_duplicate_url_raises_warning_naming_both_records (test_validation_vocabularies.CountingAndReadOnlyTests.test_duplicate_url_raises_warning_naming_both_records) ... ok
+test_unknown_origin_is_not_counted_as_systematic (test_validation_vocabularies.CountingAndReadOnlyTests.test_unknown_origin_is_not_counted_as_systematic) ... ok
+test_dataset_points_to_record_without_final_inclusion (test_validation_vocabularies.InvalidValueTests.test_dataset_points_to_record_without_final_inclusion) ... ok
+test_dataset_points_to_unknown_record (test_validation_vocabularies.InvalidValueTests.test_dataset_points_to_unknown_record) ... ok
+test_malformed_record_url (test_validation_vocabularies.InvalidValueTests.test_malformed_record_url) ... ok
+test_non_iso_audit_date (test_validation_vocabularies.InvalidValueTests.test_non_iso_audit_date) ... ok
+test_non_iso_found_at (test_validation_vocabularies.InvalidValueTests.test_non_iso_found_at) ... ok
+test_non_iso_screening_date (test_validation_vocabularies.InvalidValueTests.test_non_iso_screening_date) ... ok
+test_unknown_audit_criterion (test_validation_vocabularies.InvalidValueTests.test_unknown_audit_criterion) ... ok
+test_unknown_consensus_stage (test_validation_vocabularies.InvalidValueTests.test_unknown_consensus_stage) ... ok
+test_unknown_origin (test_validation_vocabularies.InvalidValueTests.test_unknown_origin) ... ok
+test_unknown_reason_code (test_validation_vocabularies.InvalidValueTests.test_unknown_reason_code) ... ok
+test_unknown_rit_validation_status (test_validation_vocabularies.InvalidValueTests.test_unknown_rit_validation_status) ... ok
+test_real_project_data_has_no_errors (test_validation_vocabularies.ValidWorldTests.test_real_project_data_has_no_errors) ... ok
+test_valid_world_has_no_errors (test_validation_vocabularies.ValidWorldTests.test_valid_world_has_no_errors) ... ok
+
+----------------------------------------------------------------------
+Ran 51 tests in 0.704s
+
+OK
+exit=0

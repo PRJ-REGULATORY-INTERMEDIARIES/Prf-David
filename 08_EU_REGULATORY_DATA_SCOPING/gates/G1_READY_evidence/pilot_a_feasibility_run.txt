@@ -1,0 +1,14 @@
+# G1-READY: feasibility assessed BEFORE any selection
+# a9eb4c343c49d43f37b229bd1ccdd4c2a64d125beed584151382b5fc434642a3 *scripts/pilot_a_scenarios.py
+# aafc7c177f3038129976c2b5bf4c11d1e5df8cfd5ee7702f23d180cd7c0970b4 *scripts/select_pilot_a.py
+# run: 2026-10-10T03:23:00Z
+$ python scripts/pilot_a_scenarios.py feasibility
+S0_G1PREP: FEASIBLE; forced=2; acceptance=0.1765; violated=[]; bounds_at_limit=[]
+S1_pairs: FEASIBLE; forced=6; acceptance=0.048; violated=[]; bounds_at_limit=['C8_holdout_families']
+S2_pairs_disc: FEASIBLE; forced=7; acceptance=0.046; violated=[]; bounds_at_limit=['C8_holdout_families']
+S3a_deriv: FEASIBLE; forced=9; acceptance=0.0455; violated=[]; bounds_at_limit=['C8_holdout_families']
+S3b_acquis: FEASIBLE; forced=9; acceptance=0.035; violated=[]; bounds_at_limit=['C6_distinct_types', 'C8_holdout_families']
+S3c_eurlex: FEASIBLE; forced=9; acceptance=0.0275; violated=[]; bounds_at_limit=['C6_distinct_types', 'C8_holdout_families']
+S4_two_academic_pairs: FEASIBLE; forced=11; acceptance=0.015; violated=[]; bounds_at_limit=['C6_distinct_types', 'C8_holdout_families']
+S5_academic_triad: FEASIBLE; forced=10; acceptance=0.0245; violated=[]; bounds_at_limit=['C6_distinct_types', 'C8_holdout_families']
+exit=0

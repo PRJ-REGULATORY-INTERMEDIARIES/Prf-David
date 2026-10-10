@@ -1,0 +1,314 @@
+# TESTS BEFORE FIX — scripts/cli.py unmodified
+# cli.py sha256: 1eba44ef7e20a62bc4fe606eca83875cc3c5fbdecf81e20e0396c90cc9a2ac6e
+# run: 2026-10-10T02:26:58Z | Python 3.14.4
+# command: python -m unittest discover -s tests -v
+
+test_refuses_to_pool_different_reviewer_pairs (test_agreement_pairs.LegacyFunctionTests.test_refuses_to_pool_different_reviewer_pairs) ... FAIL
+test_single_pair_still_supported (test_agreement_pairs.LegacyFunctionTests.test_single_pair_still_supported) ... ok
+test_blank_answers_are_reported_not_scored (test_agreement_pairs.PairwiseAgreementTests.test_blank_answers_are_reported_not_scored) ... ERROR
+test_other_variable_and_custom_uncertain_label (test_agreement_pairs.PairwiseAgreementTests.test_other_variable_and_custom_uncertain_label) ... ERROR
+test_set_agreement_jaccard (test_agreement_pairs.PairwiseAgreementTests.test_set_agreement_jaccard) ... ERROR
+test_t1_pairs_are_kept_apart_and_uncertain_is_counted (test_agreement_pairs.PairwiseAgreementTests.test_t1_pairs_are_kept_apart_and_uncertain_is_counted) ... ERROR
+test_t2_single_category_gives_no_kappa_with_reason (test_agreement_pairs.PairwiseAgreementTests.test_t2_single_category_gives_no_kappa_with_reason) ... ERROR
+test_t3_known_value (test_agreement_pairs.PairwiseAgreementTests.test_t3_known_value) ... ERROR
+test_t4_symmetry_under_reviewer_relabelling (test_agreement_pairs.PairwiseAgreementTests.test_t4_symmetry_under_reviewer_relabelling) ... ERROR
+test_t5_table_sums_to_number_of_items (test_agreement_pairs.PairwiseAgreementTests.test_t5_table_sums_to_number_of_items) ... ERROR
+test_t6_item_with_three_reviewers_is_listed_apart (test_agreement_pairs.PairwiseAgreementTests.test_t6_item_with_three_reviewers_is_listed_apart) ... ERROR
+test_uncertain_as_category_and_excluded_are_both_reported (test_agreement_pairs.PairwiseAgreementTests.test_uncertain_as_category_and_excluded_are_both_reported) ... ERROR
+test_report_lists_each_pair_separately (test_agreement_pairs.ReportTests.test_report_lists_each_pair_separately) ... FAIL
+test_canonical_dataset_ids_are_unique (test_pipeline.ProjectTests.test_canonical_dataset_ids_are_unique) ... ok
+test_cohen_kappa (test_pipeline.ProjectTests.test_cohen_kappa) ... ok
+test_data_headers (test_pipeline.ProjectTests.test_data_headers) ... ok
+test_seed_inventory_count (test_pipeline.ProjectTests.test_seed_inventory_count) ... ok
+test_check_does_not_create_missing_tables (test_validation_vocabularies.CountingAndReadOnlyTests.test_check_does_not_create_missing_tables) ... FAIL
+test_check_does_not_modify_any_file (test_validation_vocabularies.CountingAndReadOnlyTests.test_check_does_not_modify_any_file) ... ok
+test_duplicate_url_raises_warning_naming_both_records (test_validation_vocabularies.CountingAndReadOnlyTests.test_duplicate_url_raises_warning_naming_both_records) ... FAIL
+test_unknown_origin_is_not_counted_as_systematic (test_validation_vocabularies.CountingAndReadOnlyTests.test_unknown_origin_is_not_counted_as_systematic) ... FAIL
+test_dataset_points_to_record_without_final_inclusion (test_validation_vocabularies.InvalidValueTests.test_dataset_points_to_record_without_final_inclusion) ... FAIL
+test_dataset_points_to_unknown_record (test_validation_vocabularies.InvalidValueTests.test_dataset_points_to_unknown_record) ... FAIL
+test_malformed_record_url (test_validation_vocabularies.InvalidValueTests.test_malformed_record_url) ... FAIL
+test_non_iso_audit_date (test_validation_vocabularies.InvalidValueTests.test_non_iso_audit_date) ... FAIL
+test_non_iso_found_at (test_validation_vocabularies.InvalidValueTests.test_non_iso_found_at) ... FAIL
+test_non_iso_screening_date (test_validation_vocabularies.InvalidValueTests.test_non_iso_screening_date) ... FAIL
+test_unknown_audit_criterion (test_validation_vocabularies.InvalidValueTests.test_unknown_audit_criterion) ... FAIL
+test_unknown_consensus_stage (test_validation_vocabularies.InvalidValueTests.test_unknown_consensus_stage) ... FAIL
+test_unknown_origin (test_validation_vocabularies.InvalidValueTests.test_unknown_origin) ... FAIL
+test_unknown_reason_code (test_validation_vocabularies.InvalidValueTests.test_unknown_reason_code) ... FAIL
+test_unknown_rit_validation_status (test_validation_vocabularies.InvalidValueTests.test_unknown_rit_validation_status) ... FAIL
+test_real_project_data_has_no_errors (test_validation_vocabularies.ValidWorldTests.test_real_project_data_has_no_errors) ... ok
+test_valid_world_has_no_errors (test_validation_vocabularies.ValidWorldTests.test_valid_world_has_no_errors) ... ok
+
+======================================================================
+ERROR: test_blank_answers_are_reported_not_scored (test_agreement_pairs.PairwiseAgreementTests.test_blank_answers_are_reported_not_scored)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "G:\Meu Drive\PRJ-David\Prf-David\08_EU_REGULATORY_DATA_SCOPING\tests\test_agreement_pairs.py", line 65, in setUp
+    import agreement  # fails before the fix: module did not exist
+    ^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'agreement'
+
+======================================================================
+ERROR: test_other_variable_and_custom_uncertain_label (test_agreement_pairs.PairwiseAgreementTests.test_other_variable_and_custom_uncertain_label)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "G:\Meu Drive\PRJ-David\Prf-David\08_EU_REGULATORY_DATA_SCOPING\tests\test_agreement_pairs.py", line 65, in setUp
+    import agreement  # fails before the fix: module did not exist
+    ^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'agreement'
+
+======================================================================
+ERROR: test_set_agreement_jaccard (test_agreement_pairs.PairwiseAgreementTests.test_set_agreement_jaccard)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "G:\Meu Drive\PRJ-David\Prf-David\08_EU_REGULATORY_DATA_SCOPING\tests\test_agreement_pairs.py", line 65, in setUp
+    import agreement  # fails before the fix: module did not exist
+    ^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'agreement'
+
+======================================================================
+ERROR: test_t1_pairs_are_kept_apart_and_uncertain_is_counted (test_agreement_pairs.PairwiseAgreementTests.test_t1_pairs_are_kept_apart_and_uncertain_is_counted)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "G:\Meu Drive\PRJ-David\Prf-David\08_EU_REGULATORY_DATA_SCOPING\tests\test_agreement_pairs.py", line 65, in setUp
+    import agreement  # fails before the fix: module did not exist
+    ^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'agreement'
+
+======================================================================
+ERROR: test_t2_single_category_gives_no_kappa_with_reason (test_agreement_pairs.PairwiseAgreementTests.test_t2_single_category_gives_no_kappa_with_reason)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "G:\Meu Drive\PRJ-David\Prf-David\08_EU_REGULATORY_DATA_SCOPING\tests\test_agreement_pairs.py", line 65, in setUp
+    import agreement  # fails before the fix: module did not exist
+    ^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'agreement'
+
+======================================================================
+ERROR: test_t3_known_value (test_agreement_pairs.PairwiseAgreementTests.test_t3_known_value)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "G:\Meu Drive\PRJ-David\Prf-David\08_EU_REGULATORY_DATA_SCOPING\tests\test_agreement_pairs.py", line 65, in setUp
+    import agreement  # fails before the fix: module did not exist
+    ^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'agreement'
+
+======================================================================
+ERROR: test_t4_symmetry_under_reviewer_relabelling (test_agreement_pairs.PairwiseAgreementTests.test_t4_symmetry_under_reviewer_relabelling)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "G:\Meu Drive\PRJ-David\Prf-David\08_EU_REGULATORY_DATA_SCOPING\tests\test_agreement_pairs.py", line 65, in setUp
+    import agreement  # fails before the fix: module did not exist
+    ^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'agreement'
+
+======================================================================
+ERROR: test_t5_table_sums_to_number_of_items (test_agreement_pairs.PairwiseAgreementTests.test_t5_table_sums_to_number_of_items)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "G:\Meu Drive\PRJ-David\Prf-David\08_EU_REGULATORY_DATA_SCOPING\tests\test_agreement_pairs.py", line 65, in setUp
+    import agreement  # fails before the fix: module did not exist
+    ^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'agreement'
+
+======================================================================
+ERROR: test_t6_item_with_three_reviewers_is_listed_apart (test_agreement_pairs.PairwiseAgreementTests.test_t6_item_with_three_reviewers_is_listed_apart)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "G:\Meu Drive\PRJ-David\Prf-David\08_EU_REGULATORY_DATA_SCOPING\tests\test_agreement_pairs.py", line 65, in setUp
+    import agreement  # fails before the fix: module did not exist
+    ^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'agreement'
+
+======================================================================
+ERROR: test_uncertain_as_category_and_excluded_are_both_reported (test_agreement_pairs.PairwiseAgreementTests.test_uncertain_as_category_and_excluded_are_both_reported)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "G:\Meu Drive\PRJ-David\Prf-David\08_EU_REGULATORY_DATA_SCOPING\tests\test_agreement_pairs.py", line 65, in setUp
+    import agreement  # fails before the fix: module did not exist
+    ^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'agreement'
+
+======================================================================
+FAIL: test_refuses_to_pool_different_reviewer_pairs (test_agreement_pairs.LegacyFunctionTests.test_refuses_to_pool_different_reviewer_pairs)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "G:\Meu Drive\PRJ-David\Prf-David\08_EU_REGULATORY_DATA_SCOPING\tests\test_agreement_pairs.py", line 53, in test_refuses_to_pool_different_reviewer_pairs
+    with self.assertRaises(ValueError):
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_report_lists_each_pair_separately (test_agreement_pairs.ReportTests.test_report_lists_each_pair_separately)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "G:\Meu Drive\PRJ-David\Prf-David\08_EU_REGULATORY_DATA_SCOPING\tests\test_agreement_pairs.py", line 184, in test_report_lists_each_pair_separately
+    self.assertIn('SYN_A × SYN_B', text)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'SYN_A × SYN_B' not found in '# RELATÓRIO INTERMEDIÁRIO — NÃO É RESULTADO FINAL\n\nGerado em: 2026-10-09T23:26:58-03:00\n\n## Status verificável\n- Ocorrências do levantamento exploratório (seeds): **3**; não contam como inclusão.\n- Registros documentados de buscas não-semente: **0**.\n- Registros sistemáticos com decisão de deduplicação: **0 / 0**.\n- Deduplicação integral: **NÃO**.\n- Consensus título/descrição completa: **NÃO**.\n- Consensus documentação integral completa: **NÃO**.\n- Datasets canônicos extraídos: **0**, não equivalentes a portais/serviços.\n- Recursos/distribuições documentados: **0**.\n- Linhas de auditoria: **0**.\n\n## Concordância exploratória antes de adjudicação\n- title_abstract: N pares de decisões binárias=2, acordo=1.0, kappa=1.0. Pares com `uncertain` não entram nesse cálculo e devem ser apresentados separadamente.\n- full_source: N pares de decisões binárias=0, acordo=None, kappa=None. Pares com `uncertain` não entram nesse cálculo e devem ser apresentados separadamente.\n\n## Contagens PRISMA\n- NÃO GERAR FLUXOGRAMA FINAL até deduplicação, triagem e consenso completos. O seed set não preenche automaticamente a etapa de identificação sistemática.\n\n## Alertas de qualidade\n- **WARNING**: No documented systematic search hits: only seed set or empty inventory.\n- **WARNING**: No canonical dataset inclusion decisions: scientific results not available.\n'
+
+======================================================================
+FAIL: test_check_does_not_create_missing_tables (test_validation_vocabularies.CountingAndReadOnlyTests.test_check_does_not_create_missing_tables)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "G:\Meu Drive\PRJ-David\Prf-David\08_EU_REGULATORY_DATA_SCOPING\tests\test_validation_vocabularies.py", line 146, in test_check_does_not_create_missing_tables
+    self.assertEqual(code, 2)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^
+AssertionError: 0 != 2
+
+======================================================================
+FAIL: test_duplicate_url_raises_warning_naming_both_records (test_validation_vocabularies.CountingAndReadOnlyTests.test_duplicate_url_raises_warning_naming_both_records)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "G:\Meu Drive\PRJ-David\Prf-David\08_EU_REGULATORY_DATA_SCOPING\tests\test_validation_vocabularies.py", line 131, in test_duplicate_url_raises_warning_naming_both_records
+    self.assertEqual(len(hits), 1)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+AssertionError: 0 != 1
+
+======================================================================
+FAIL: test_unknown_origin_is_not_counted_as_systematic (test_validation_vocabularies.CountingAndReadOnlyTests.test_unknown_origin_is_not_counted_as_systematic)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "G:\Meu Drive\PRJ-David\Prf-David\08_EU_REGULATORY_DATA_SCOPING\tests\test_validation_vocabularies.py", line 125, in test_unknown_origin_is_not_counted_as_systematic
+    self.assertFalse(any('systematic hits await' in w for w in self.warnings()),
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                     'a record with an invalid origin must not enter systematic counts')
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: True is not false : a record with an invalid origin must not enter systematic counts
+
+======================================================================
+FAIL: test_dataset_points_to_record_without_final_inclusion (test_validation_vocabularies.InvalidValueTests.test_dataset_points_to_record_without_final_inclusion)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "G:\Meu Drive\PRJ-David\Prf-David\08_EU_REGULATORY_DATA_SCOPING\tests\test_validation_vocabularies.py", line 119, in test_dataset_points_to_record_without_final_inclusion
+    self.assert_single_error('SYN_R2')
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "G:\Meu Drive\PRJ-David\Prf-David\08_EU_REGULATORY_DATA_SCOPING\tests\test_validation_vocabularies.py", line 73, in assert_single_error
+    self.assertEqual(len(found), 1, f'expected exactly one ERROR, got {found}')
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 0 != 1 : expected exactly one ERROR, got []
+
+======================================================================
+FAIL: test_dataset_points_to_unknown_record (test_validation_vocabularies.InvalidValueTests.test_dataset_points_to_unknown_record)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "G:\Meu Drive\PRJ-David\Prf-David\08_EU_REGULATORY_DATA_SCOPING\tests\test_validation_vocabularies.py", line 114, in test_dataset_points_to_unknown_record
+    self.assert_single_error('NOPE_RECORD')
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "G:\Meu Drive\PRJ-David\Prf-David\08_EU_REGULATORY_DATA_SCOPING\tests\test_validation_vocabularies.py", line 73, in assert_single_error
+    self.assertEqual(len(found), 1, f'expected exactly one ERROR, got {found}')
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 0 != 1 : expected exactly one ERROR, got []
+
+======================================================================
+FAIL: test_malformed_record_url (test_validation_vocabularies.InvalidValueTests.test_malformed_record_url)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "G:\Meu Drive\PRJ-David\Prf-David\08_EU_REGULATORY_DATA_SCOPING\tests\test_validation_vocabularies.py", line 82, in test_malformed_record_url
+    self.assert_single_error('not a url')
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "G:\Meu Drive\PRJ-David\Prf-David\08_EU_REGULATORY_DATA_SCOPING\tests\test_validation_vocabularies.py", line 73, in assert_single_error
+    self.assertEqual(len(found), 1, f'expected exactly one ERROR, got {found}')
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 0 != 1 : expected exactly one ERROR, got []
+
+======================================================================
+FAIL: test_non_iso_audit_date (test_validation_vocabularies.InvalidValueTests.test_non_iso_audit_date)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "G:\Meu Drive\PRJ-David\Prf-David\08_EU_REGULATORY_DATA_SCOPING\tests\test_validation_vocabularies.py", line 106, in test_non_iso_audit_date
+    self.assert_single_error('sometime')
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "G:\Meu Drive\PRJ-David\Prf-David\08_EU_REGULATORY_DATA_SCOPING\tests\test_validation_vocabularies.py", line 73, in assert_single_error
+    self.assertEqual(len(found), 1, f'expected exactly one ERROR, got {found}')
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 0 != 1 : expected exactly one ERROR, got []
+
+======================================================================
+FAIL: test_non_iso_found_at (test_validation_vocabularies.InvalidValueTests.test_non_iso_found_at)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "G:\Meu Drive\PRJ-David\Prf-David\08_EU_REGULATORY_DATA_SCOPING\tests\test_validation_vocabularies.py", line 86, in test_non_iso_found_at
+    self.assert_single_error('31/12/2026')
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "G:\Meu Drive\PRJ-David\Prf-David\08_EU_REGULATORY_DATA_SCOPING\tests\test_validation_vocabularies.py", line 73, in assert_single_error
+    self.assertEqual(len(found), 1, f'expected exactly one ERROR, got {found}')
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 0 != 1 : expected exactly one ERROR, got []
+
+======================================================================
+FAIL: test_non_iso_screening_date (test_validation_vocabularies.InvalidValueTests.test_non_iso_screening_date)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "G:\Meu Drive\PRJ-David\Prf-David\08_EU_REGULATORY_DATA_SCOPING\tests\test_validation_vocabularies.py", line 94, in test_non_iso_screening_date
+    self.assert_single_error('not-a-date')
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "G:\Meu Drive\PRJ-David\Prf-David\08_EU_REGULATORY_DATA_SCOPING\tests\test_validation_vocabularies.py", line 73, in assert_single_error
+    self.assertEqual(len(found), 1, f'expected exactly one ERROR, got {found}')
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 0 != 1 : expected exactly one ERROR, got []
+
+======================================================================
+FAIL: test_unknown_audit_criterion (test_validation_vocabularies.InvalidValueTests.test_unknown_audit_criterion)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "G:\Meu Drive\PRJ-David\Prf-David\08_EU_REGULATORY_DATA_SCOPING\tests\test_validation_vocabularies.py", line 102, in test_unknown_audit_criterion
+    self.assert_single_error('NOT_A_CRITERION')
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "G:\Meu Drive\PRJ-David\Prf-David\08_EU_REGULATORY_DATA_SCOPING\tests\test_validation_vocabularies.py", line 73, in assert_single_error
+    self.assertEqual(len(found), 1, f'expected exactly one ERROR, got {found}')
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 0 != 1 : expected exactly one ERROR, got []
+
+======================================================================
+FAIL: test_unknown_consensus_stage (test_validation_vocabularies.InvalidValueTests.test_unknown_consensus_stage)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "G:\Meu Drive\PRJ-David\Prf-David\08_EU_REGULATORY_DATA_SCOPING\tests\test_validation_vocabularies.py", line 98, in test_unknown_consensus_stage
+    self.assert_single_error('bogus_stage')
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "G:\Meu Drive\PRJ-David\Prf-David\08_EU_REGULATORY_DATA_SCOPING\tests\test_validation_vocabularies.py", line 73, in assert_single_error
+    self.assertEqual(len(found), 1, f'expected exactly one ERROR, got {found}')
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 0 != 1 : expected exactly one ERROR, got []
+
+======================================================================
+FAIL: test_unknown_origin (test_validation_vocabularies.InvalidValueTests.test_unknown_origin)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "G:\Meu Drive\PRJ-David\Prf-David\08_EU_REGULATORY_DATA_SCOPING\tests\test_validation_vocabularies.py", line 78, in test_unknown_origin
+    self.assert_single_error('made_up_origin')
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "G:\Meu Drive\PRJ-David\Prf-David\08_EU_REGULATORY_DATA_SCOPING\tests\test_validation_vocabularies.py", line 73, in assert_single_error
+    self.assertEqual(len(found), 1, f'expected exactly one ERROR, got {found}')
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 0 != 1 : expected exactly one ERROR, got []
+
+======================================================================
+FAIL: test_unknown_reason_code (test_validation_vocabularies.InvalidValueTests.test_unknown_reason_code)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "G:\Meu Drive\PRJ-David\Prf-David\08_EU_REGULATORY_DATA_SCOPING\tests\test_validation_vocabularies.py", line 90, in test_unknown_reason_code
+    self.assert_single_error('BOGUS_REASON')
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "G:\Meu Drive\PRJ-David\Prf-David\08_EU_REGULATORY_DATA_SCOPING\tests\test_validation_vocabularies.py", line 73, in assert_single_error
+    self.assertEqual(len(found), 1, f'expected exactly one ERROR, got {found}')
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 0 != 1 : expected exactly one ERROR, got []
+
+======================================================================
+FAIL: test_unknown_rit_validation_status (test_validation_vocabularies.InvalidValueTests.test_unknown_rit_validation_status)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "G:\Meu Drive\PRJ-David\Prf-David\08_EU_REGULATORY_DATA_SCOPING\tests\test_validation_vocabularies.py", line 110, in test_unknown_rit_validation_status
+    self.assert_single_error('adjudicado')
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "G:\Meu Drive\PRJ-David\Prf-David\08_EU_REGULATORY_DATA_SCOPING\tests\test_validation_vocabularies.py", line 73, in assert_single_error
+    self.assertEqual(len(found), 1, f'expected exactly one ERROR, got {found}')
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 0 != 1 : expected exactly one ERROR, got []
+
+----------------------------------------------------------------------
+Ran 34 tests in 0.311s
+
+FAILED (failures=16, errors=10)
+exit=1

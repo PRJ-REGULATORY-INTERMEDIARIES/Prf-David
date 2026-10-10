@@ -1,0 +1,21 @@
+﻿source_seed_id,layer,name,resource_type,source_url,objective_properties
+EU01,Corpus normativo,EUR-Lex — legislação e documentos jurídicos,Portal/corpus,https://eur-lex.europa.eu/,host:eur-lex.europa.eu;composite_type
+EU02,Corpus normativo,CELLAR — repositório e grafo de metadados,Grafo/API,https://op.europa.eu/en/web/cellar/cellar-data/metadata/knowledge-graph,host:op.europa.eu;composite_type
+EU03,Corpus normativo,EUR-Lex bulk data dump,Arquivo em lote,https://data.europa.eu/en/ELDS,identical_url:EU03+EU07;host:data.europa.eu
+EU07,Infraestrutura,European Legal Data Space — diretório,Catálogo de coleções,https://data.europa.eu/en/ELDS,identical_url:EU03+EU07;host:data.europa.eu
+EU08,Processo legislativo,European Parliament Open Data API — procedures,API estruturada,https://data.europarl.europa.eu/en/developer-corner,
+EU09,Processo legislativo,Legislative Observatory — OEIL,Base consultável,https://oeil.europarl.europa.eu/oeil/en/find-out-more,
+EU11,Processo legislativo,Council votes on legislative acts — dataset antigo,Dataset histórico,https://data.europa.eu/data/datasets/council-votes-on-legislative-acts?locale=en,host:data.europa.eu
+EU15,Delegação/implementação,Comitology Register — comitês e atos de execução,Base processual,https://commission.europa.eu/law/law-making-process/adopting-eu-law/implementing-and-delegated-acts/comitology_en,host:commission.europa.eu
+EU16,Delegação/implementação,Register of Commission Expert Groups,Cadastro estruturado,https://commission.europa.eu/about/service-standards-and-principles/transparency/register-expert-groups_en,host:commission.europa.eu
+EU17,Atores/participação,EU Transparency Register,Cadastro de atores,https://data.europa.eu/data/datasets/transparency-register,host:data.europa.eu
+EU18,Transposição/Estados,EUR-Lex — National Transposition Measures (NIM),Base jurídica,https://eur-lex.europa.eu/collection/n-law/mne.html?locale=en,host:eur-lex.europa.eu
+EU21,Fiscalização,Commission — Infringement Decisions Register,Registro de casos,https://commission.europa.eu/law/application-eu-law_en,host:commission.europa.eu
+EU23,Jurisprudência,ECLI / European e-Justice — busca de jurisprudência,Padrão/federação,https://eur-lex.europa.eu/content/help/eurlex-content/ecli.html?locale=en,host:eur-lex.europa.eu;composite_type
+EU26,Intermediação RIT,DSA — EU Trusted Flaggers List,Cadastro de intermediários,https://digital-strategy.ec.europa.eu/en/policies/trusted-flaggers-under-dsa,host:digital-strategy.ec.europa.eu
+EU27,Intermediação RIT,DSA Transparency Database — statements of reasons,Dataset de eventos,https://digital-strategy.ec.europa.eu/en/faqs/dsa-transparency-database-questions-and-answers,host:digital-strategy.ec.europa.eu
+EU28,Intermediação RIT,DGA — Register of Data Intermediation Services,Cadastro temático,https://digital-strategy.ec.europa.eu/en/policies/data-intermediary-services,host:digital-strategy.ec.europa.eu
+EU33,Aplicação setorial,TED Open Data Service (contratações),Grafo de dados,https://data.ted.europa.eu/,
+EU34,Aplicação setorial,TED Search API — notices,API estruturada,https://docs.ted.europa.eu/api/latest/search.html,
+EU35,Corpus acadêmico,MultiEURLEX — EU legislation corpus,Dataset de pesquisa,https://zenodo.org/records/5363165,
+EU36,Corpus acadêmico,EURLEX57K,Dataset de pesquisa,https://github.com/iliaschalkidis/lmtc-eurlex57k,

@@ -1,0 +1,256 @@
+{
+  "label": "SYNTHETIC — NOT RESEARCH DATA",
+  "tables": {
+    "datasets_catalog": [
+      {
+        "id": "syn-dataset",
+        "title": "SYNTHETIC catalog entry",
+        "rit_relevance": "unknown"
+      }
+    ],
+    "actors": [
+      {
+        "id": "syn-regulator",
+        "name": "SYNTHETIC regulator"
+      },
+      {
+        "id": "syn-intermediary",
+        "name": "SYNTHETIC intermediary"
+      },
+      {
+        "id": "syn-target",
+        "name": "SYNTHETIC target"
+      }
+    ],
+    "episodes": [
+      {
+        "id": "syn-episode",
+        "title": "SYNTHETIC episode",
+        "description": "Test-only episode; no real entity or finding",
+        "temporal_note": "No factual dates asserted"
+      }
+    ],
+    "episode_roles": [
+      {
+        "id": "syn-role-R",
+        "episode_id": "syn-episode",
+        "actor_id": "syn-regulator",
+        "role": "R",
+        "function": "rule setting",
+        "evidence_mode": "explicit",
+        "rationale": "SYNTHETIC test assertion"
+      },
+      {
+        "id": "syn-role-I",
+        "episode_id": "syn-episode",
+        "actor_id": "syn-intermediary",
+        "role": "I",
+        "function": "monitoring",
+        "evidence_mode": "explicit",
+        "rationale": "SYNTHETIC test assertion"
+      },
+      {
+        "id": "syn-role-T",
+        "episode_id": "syn-episode",
+        "actor_id": "syn-target",
+        "role": "T",
+        "function": "regulated activity",
+        "evidence_mode": "explicit",
+        "rationale": "SYNTHETIC test assertion"
+      }
+    ],
+    "relations": [
+      {
+        "id": "syn-relation",
+        "episode_id": "syn-episode",
+        "from_role_id": "syn-role-I",
+        "to_role_id": "syn-role-T",
+        "function": "monitoring",
+        "evidence_mode": "supported_inference",
+        "rationale": "SYNTHETIC inference for testing"
+      }
+    ],
+    "instruments": [
+      {
+        "id": "syn-instrument",
+        "title": "SYNTHETIC instrument",
+        "instrument_type": "test standard"
+      }
+    ],
+    "sources": [
+      {
+        "id": "syn-source",
+        "title": "SYNTHETIC source",
+        "locator": "synthetic:fixture/source-1",
+        "accessed_on": "2026-10-09",
+        "rights_note": "Test-only invented text"
+      }
+    ],
+    "evidence": [
+      {
+        "id": "syn-evidence",
+        "source_id": "syn-source",
+        "item_reference": "SYNTHETIC paragraph 1",
+        "excerpt": "SYNTHETIC: a test intermediary monitors a test target.",
+        "observation": "SYNTHETIC observation; not an empirical claim"
+      }
+    ],
+    "records": [
+      {
+        "id": "syn-dataset",
+        "kind": "datasets_catalog",
+        "is_synthetic": 1,
+        "created_on": "2026-10-09",
+        "uncertainty_note": "SYNTHETIC — NOT RESEARCH DATA"
+      },
+      {
+        "id": "syn-regulator",
+        "kind": "actors",
+        "is_synthetic": 1,
+        "created_on": "2026-10-09",
+        "uncertainty_note": "SYNTHETIC — NOT RESEARCH DATA"
+      },
+      {
+        "id": "syn-intermediary",
+        "kind": "actors",
+        "is_synthetic": 1,
+        "created_on": "2026-10-09",
+        "uncertainty_note": "SYNTHETIC — NOT RESEARCH DATA"
+      },
+      {
+        "id": "syn-target",
+        "kind": "actors",
+        "is_synthetic": 1,
+        "created_on": "2026-10-09",
+        "uncertainty_note": "SYNTHETIC — NOT RESEARCH DATA"
+      },
+      {
+        "id": "syn-episode",
+        "kind": "episodes",
+        "is_synthetic": 1,
+        "created_on": "2026-10-09",
+        "uncertainty_note": "SYNTHETIC — NOT RESEARCH DATA"
+      },
+      {
+        "id": "syn-role-R",
+        "kind": "episode_roles",
+        "is_synthetic": 1,
+        "created_on": "2026-10-09",
+        "uncertainty_note": "SYNTHETIC — NOT RESEARCH DATA"
+      },
+      {
+        "id": "syn-role-I",
+        "kind": "episode_roles",
+        "is_synthetic": 1,
+        "created_on": "2026-10-09",
+        "uncertainty_note": "SYNTHETIC — NOT RESEARCH DATA"
+      },
+      {
+        "id": "syn-role-T",
+        "kind": "episode_roles",
+        "is_synthetic": 1,
+        "created_on": "2026-10-09",
+        "uncertainty_note": "SYNTHETIC — NOT RESEARCH DATA"
+      },
+      {
+        "id": "syn-relation",
+        "kind": "relations",
+        "is_synthetic": 1,
+        "created_on": "2026-10-09",
+        "uncertainty_note": "SYNTHETIC — NOT RESEARCH DATA"
+      },
+      {
+        "id": "syn-instrument",
+        "kind": "instruments",
+        "is_synthetic": 1,
+        "created_on": "2026-10-09",
+        "uncertainty_note": "SYNTHETIC — NOT RESEARCH DATA"
+      },
+      {
+        "id": "syn-source",
+        "kind": "sources",
+        "is_synthetic": 1,
+        "created_on": "2026-10-09",
+        "uncertainty_note": "SYNTHETIC — NOT RESEARCH DATA"
+      },
+      {
+        "id": "syn-evidence",
+        "kind": "evidence",
+        "is_synthetic": 1,
+        "created_on": "2026-10-09",
+        "uncertainty_note": "SYNTHETIC — NOT RESEARCH DATA"
+      }
+    ],
+    "evidence_links": [
+      {
+        "record_id": "syn-dataset",
+        "evidence_id": "syn-evidence",
+        "support_note": "SYNTHETIC support only"
+      },
+      {
+        "record_id": "syn-regulator",
+        "evidence_id": "syn-evidence",
+        "support_note": "SYNTHETIC support only"
+      },
+      {
+        "record_id": "syn-intermediary",
+        "evidence_id": "syn-evidence",
+        "support_note": "SYNTHETIC support only"
+      },
+      {
+        "record_id": "syn-target",
+        "evidence_id": "syn-evidence",
+        "support_note": "SYNTHETIC support only"
+      },
+      {
+        "record_id": "syn-episode",
+        "evidence_id": "syn-evidence",
+        "support_note": "SYNTHETIC support only"
+      },
+      {
+        "record_id": "syn-role-R",
+        "evidence_id": "syn-evidence",
+        "support_note": "SYNTHETIC support only"
+      },
+      {
+        "record_id": "syn-role-I",
+        "evidence_id": "syn-evidence",
+        "support_note": "SYNTHETIC support only"
+      },
+      {
+        "record_id": "syn-role-T",
+        "evidence_id": "syn-evidence",
+        "support_note": "SYNTHETIC support only"
+      },
+      {
+        "record_id": "syn-relation",
+        "evidence_id": "syn-evidence",
+        "support_note": "SYNTHETIC support only"
+      },
+      {
+        "record_id": "syn-instrument",
+        "evidence_id": "syn-evidence",
+        "support_note": "SYNTHETIC support only"
+      }
+    ],
+    "episode_instruments": [
+      {
+        "episode_id": "syn-episode",
+        "instrument_id": "syn-instrument"
+      }
+    ],
+    "coding_decisions": [
+      {
+        "decision_id": "syn-decision",
+        "record_id": "syn-role-I",
+        "variable": "role",
+        "proposed_value": "I",
+        "coder": "SYNTHETIC coder",
+        "outcome": "proposed",
+        "rationale": "Test fixture only; not reviewed",
+        "decided_on": "2026-10-09",
+        "codebook_version": "0.1.0"
+      }
+    ]
+  }
+}

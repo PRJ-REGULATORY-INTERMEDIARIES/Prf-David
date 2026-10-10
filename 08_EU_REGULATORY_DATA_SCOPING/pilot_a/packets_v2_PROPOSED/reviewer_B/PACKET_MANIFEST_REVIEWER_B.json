@@ -1,0 +1,38 @@
+{
+  "packet": "REVIEWER_B",
+  "items": 20,
+  "prefilled_columns": [
+    "item_id",
+    "source_label",
+    "source_url",
+    "reviewer_role"
+  ],
+  "prefilled_item_sha256": {
+    "B-01": "99572eb437ccd2b1746715d0be824dd08c7f672ec2dfb1ac858b35cb164335e7",
+    "B-02": "9a733e185525d3873e29e50ad1e284de98a530398a34c6c0726613a25110dc31",
+    "B-03": "dfd974d13dba84ff2847c7c630fbcadd0fb6d6c171d103b5556199b8af2b0a48",
+    "B-04": "90186fdfbfc8301482f2c04b59d26f7a00bb61083969dcec3ba42ec8801f0f3d",
+    "B-05": "bbe1ba8c1d1f9e778d8e1d0d92807917598201a0faeafdbbce468c5de6471876",
+    "B-06": "2a3dca24ec783949443f85cadc87c1997ee9d773fb1238e7ec8b2bbc4f235ca3",
+    "B-07": "a3e5ad93be8ee17f63c9f795f60af806258053d5ba9114a54dbd1a919d82023a",
+    "B-08": "ae50805c378d8eec5c8da4d006e118c16a5602947fc36324fabcda4de3c27327",
+    "B-09": "f9c63b19e9b5593fda6311a1864009b325607324f48f205dea0b9dcdd51c8f87",
+    "B-10": "31dc9b3b263e64f982c51559daf5733db3f60c569d890ab0ecb57f0abcc579b8",
+    "B-11": "5b0b861aa1b70dd2e1985c28f1e5abe8b44e44ca0d8a191fccb8f38f4084b14e",
+    "B-12": "ce70bb8d162056981320c2180f82ef3b646ec562ed5568ad8a3ff288515efd17",
+    "B-13": "5fa17abe916073dd6b8a0186665f988dc64fdeb27a5e158af169cfdb5f962ba8",
+    "B-14": "c145274b4b0117f9a5a028de4f507eff9b34424c41fb9db87a5096587cb0e96f",
+    "B-15": "f17eafad358b1916b7ae798b7b082b935e296063ce6d03511752d17360eebbb4",
+    "B-16": "2f141f69b109376ce1c171bfc42d657c4c6051e7951b1ede1658187aeb329fdd",
+    "B-17": "a3c5dee3f4917ea5ee58d197c53945c6f543f87d6258c0f80b6d409a410987d6",
+    "B-18": "fe5d23342f625a4f0b4b5c115b55bc752ce1ee849604fe1696f235a49341669c",
+    "B-19": "820b42bac8488ac5cdca98c08ee0ec4a29a0f3cb1d8e3592bb85229cf345c34a",
+    "B-20": "ef01f66143dcc11855f0d45c73fcec24d87e0b8e0ee5abad9ea04673795af79c"
+  },
+  "reference_files_sha256": {
+    "INSTRUCTIONS.md": "7401f16fbf1234110e3518d1ae9b3eadaea15939d33d4f561df0e2b269049979",
+    "SOURCE_TAXONOMY_v0_2_DRAFT.md": "44f27092a0c414416d9f07a42492eb72a5b3b659ad4ba9b80190bd0f20301e51",
+    "ELIGIBILITY_CRITERIA_PROTOCOL_S6.md": "e53b1f965113a201207a1e47b789ec895e35c66bfd99f7dad7df47a413edbaf2"
+  },
+  "note": "Do not edit. Used only to check that item_id, source_label, source_url and reviewer_role are intact."
+}

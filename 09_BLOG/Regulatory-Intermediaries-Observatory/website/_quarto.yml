@@ -1,0 +1,69 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - "*.qmd"
+    - "posts/**/*.qmd"
+    - "projects/**/*.qmd"
+    - "datasets/**/*.qmd"
+    - "contributors/**/*.qmd"
+    - "!templates/**"
+    - "!editorial-demo/**"
+  resources:
+    - assets/images/rio-network.svg
+    - assets/icons/rio-mark.svg
+website:
+  title: "RIO"
+  description: "Regulatory Intermediaries Observatory — a proposed research and knowledge-sharing platform."
+  favicon: assets/icons/rio-mark.svg
+  draft-mode: gone
+  search:
+    location: navbar
+    type: overlay
+  navbar:
+    background: "#102b3f"
+    foreground: "#f7f5ef"
+    title: "RIO <span class='brand-divider'>/</span> <span class='brand-name'>Regulatory Intermediaries<br>Observatory</span>"
+    collapse-below: lg
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: dataset.qmd
+        text: Datasets
+      - href: blog.qmd
+        text: Blog
+      - href: visualizations.qmd
+        text: Visualizations
+      - text: About
+        menu:
+          - href: about.qmd
+            text: About the Observatory
+          - href: team.qmd
+            text: Team & contributors
+  page-footer:
+    border: false
+    background: "#102b3f"
+    foreground: "#f7f5ef"
+    left: |
+      **RIO / Regulatory Intermediaries Observatory**<br>
+      A proposed platform for research and exchange.
+    right: |
+      Private development · Not authorized for public release<br>
+      [About](about.qmd) · [Research notes](blog.qmd) · [Team](team.qmd)
+format:
+  html:
+    theme: [cosmo, assets/css/theme.scss]
+    css: styles.css
+    lang: en
+    toc: true
+    toc-title: "On this page"
+    anchor-sections: true
+    link-external-icon: true
+    code-copy: true
+    code-overflow: wrap
+    html-math-method: mathml
+    include-before-body: _includes/accessibility.html
+    filters:
+      - _filters/editorial.lua

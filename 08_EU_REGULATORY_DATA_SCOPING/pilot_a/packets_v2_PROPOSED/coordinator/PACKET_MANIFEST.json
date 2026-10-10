@@ -1,0 +1,67 @@
+{
+  "built_at_utc": "2026-10-10T03:26:08+00:00",
+  "script": "scripts/pilot_a_forms.py",
+  "script_sha256": "f9b982cc1accbd6b3e1fb6b06a987e34340c50aacc7ae1acaeacb9b69c784203",
+  "sample_file": "selection_v2_PROPOSED\\S3a_deriv\\PILOT_A_CANDIDATE_SAMPLE.csv",
+  "sample_sha256": "e4160f777e36f813e3443b8883bd060bd445d7ed7470ffddec3f02d4d287db9d",
+  "order_seed_A": 1160865796,
+  "order_seed_B": 1160865797,
+  "columns_withheld_from_reviewers": [
+    "layer",
+    "resource_type",
+    "rgam_potential",
+    "initial_priority",
+    "limitations",
+    "possible_legal_id",
+    "observation_unit",
+    "announced_access",
+    "objective_properties",
+    "source_seed_id"
+  ],
+  "label_overrides_applied": [
+    "EU01",
+    "EU03",
+    "EU04",
+    "EU07",
+    "EU08",
+    "EU09",
+    "EU11",
+    "EU12",
+    "EU15",
+    "EU17",
+    "EU19",
+    "EU20",
+    "EU21",
+    "EU23",
+    "EU29",
+    "EU33",
+    "EU34",
+    "EU35",
+    "EU39",
+    "EU41"
+  ],
+  "labels_file": "pilot_a/labels/LABELS_PROPOSED.csv",
+  "labels_file_sha256": "b1305978fe62ccafddc11b781b549762ddfeffb70b7a2900053ea43e0c76ff93",
+  "taxonomy_sha256": "44f27092a0c414416d9f07a42492eb72a5b3b659ad4ba9b80190bd0f20301e51",
+  "protocol_sha256": "31bb40adfa5e7f4d902f314a252ff05b742cdb1e0d8f23e592ed6fc91c828da6",
+  "reviewer_A_files": {
+    "CODING_FORM_A.csv": "133ccee44040a2bc0ae8ab436fb64b5dd0bb2aa08d8e29a46af36de60dd16405",
+    "ELIGIBILITY_CRITERIA_PROTOCOL_S6.md": "e53b1f965113a201207a1e47b789ec895e35c66bfd99f7dad7df47a413edbaf2",
+    "INSTRUCTIONS.md": "a931f3fe8a94cdd667f5c5c2af462a8e1ca0d3c9bf65c50699086ce230c9accd",
+    "PACKET_MANIFEST_REVIEWER_A.json": "058d599d953c8e58341117585e71cdab5c81d3d6af9e8bd0b56e4b7b5a4464e6",
+    "SOURCE_TAXONOMY_v0_2_DRAFT.md": "44f27092a0c414416d9f07a42492eb72a5b3b659ad4ba9b80190bd0f20301e51"
+  },
+  "reviewer_B_files": {
+    "CODING_FORM_B.csv": "572e9d4af915711193f94b414585b8634eebedde3ae952819b174319cf0756ee",
+    "ELIGIBILITY_CRITERIA_PROTOCOL_S6.md": "e53b1f965113a201207a1e47b789ec895e35c66bfd99f7dad7df47a413edbaf2",
+    "INSTRUCTIONS.md": "7401f16fbf1234110e3518d1ae9b3eadaea15939d33d4f561df0e2b269049979",
+    "PACKET_MANIFEST_REVIEWER_B.json": "4f9e6e9d67fe9bb8b68c43920aaab629527e9217c9cc4cb68f8f6606b63aa393",
+    "SOURCE_TAXONOMY_v0_2_DRAFT.md": "44f27092a0c414416d9f07a42492eb72a5b3b659ad4ba9b80190bd0f20301e51"
+  },
+  "roles": {
+    "REVIEWER_A": "NOT ASSIGNED",
+    "REVIEWER_B": "NOT ASSIGNED",
+    "ADJUDICATOR": "NOT ASSIGNED"
+  },
+  "status": "PREPARED - coding not authorised; no decision field is filled"
+}

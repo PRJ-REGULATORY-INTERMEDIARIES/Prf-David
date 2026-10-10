@@ -1,0 +1,46 @@
+{
+  "status": "PROPOSED - not approved; explicit human-reviewable constraint",
+  "scenario": "S4_two_academic_pairs",
+  "designation_rule": null,
+  "groups": [
+    {
+      "ids": [
+        "EU08",
+        "EU09"
+      ],
+      "reason": "Interface and collection of the same institution on different hosts; the host proxy of G1-PREP could not pair them.",
+      "tests": "R2 versus R10; distribution_of versus overlaps_with"
+    },
+    {
+      "ids": [
+        "EU33",
+        "EU34"
+      ],
+      "reason": "Data service and search API of the same publisher on different hosts; left incomplete by G1-PREP.",
+      "tests": "R2 versus R10; distribution_of"
+    },
+    {
+      "ids": [
+        "EU11"
+      ],
+      "reason": "Only record whose inventory name marks it as an old dataset; no discontinued resource was in the G1-PREP sample.",
+      "tests": "protocol criterion I5; relation successor_of; evidence for a discontinued resource"
+    },
+    {
+      "ids": [
+        "EU35",
+        "EU39"
+      ],
+      "reason": "Research corpus and benchmark task built on EU legislation; candidate derivation chain between two third-party resources (relation not verified).",
+      "tests": "R6; derived_from between derived corpora"
+    },
+    {
+      "ids": [
+        "EU37",
+        "EU38"
+      ],
+      "reason": "Two parallel corpora on the same host with the same name stem.",
+      "tests": "overlaps_with versus part_of; same-maintainer rule"
+    }
+  ]
+}

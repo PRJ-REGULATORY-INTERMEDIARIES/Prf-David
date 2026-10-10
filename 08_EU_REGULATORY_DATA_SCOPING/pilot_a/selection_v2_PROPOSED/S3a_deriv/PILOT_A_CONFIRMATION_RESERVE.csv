@@ -1,0 +1,22 @@
+﻿source_seed_id,layer,name,resource_type,source_url,objective_properties
+EU02,Corpus normativo,CELLAR — repositório e grafo de metadados,Grafo/API,https://op.europa.eu/en/web/cellar/cellar-data/metadata/knowledge-graph,host:op.europa.eu;composite_type
+EU05,Infraestrutura,European Legislation Identifier (ELI),Padrão/metadados,https://eur-lex.europa.eu/eli-register/what_is_eli.html,host:eur-lex.europa.eu;composite_type
+EU06,Infraestrutura,EuroVoc — tesauro multilíngue,Vocabulário controlado,https://op.europa.eu/en/web/eu-vocabularies,host:op.europa.eu
+EU10,Processo legislativo,Council — resultados de votações legislativas,Base consultável,https://www.consilium.europa.eu/en/general-secretariat/corporate-policies/transparency/voting-results/,
+EU13,Processo legislativo,Register of Commission Documents,Base documental,https://commission.europa.eu/about/service-standards-and-principles/transparency/how-access-commission-documents_en,host:commission.europa.eu
+EU14,Delegação/implementação,Interinstitutional Register of Delegated Acts,Base processual,https://commission.europa.eu/law/law-making-process/adopting-eu-law/implementing-and-delegated-acts_en,host:commission.europa.eu
+EU16,Delegação/implementação,Register of Commission Expert Groups,Cadastro estruturado,https://commission.europa.eu/about/service-standards-and-principles/transparency/register-expert-groups_en,host:commission.europa.eu
+EU18,Transposição/Estados,EUR-Lex — National Transposition Measures (NIM),Base jurídica,https://eur-lex.europa.eu/collection/n-law/mne.html?locale=en,host:eur-lex.europa.eu
+EU22,Jurisprudência,InfoCuria — decisões do TJUE,Base jurisprudencial,https://curia.europa.eu/site/jcms/p1_1000063986/en/new-infocuria-case-law-database-and-search-tool,
+EU24,Fiscalização,"Competition Case Search — antitrust, mergers, State aid, DMA",Base multissetorial,https://competition-cases.ec.europa.eu/,
+EU25,Fiscalização,EDPB — register of final one-stop-shop GDPR decisions,Registro de decisões,https://www.edpb.europa.eu/registers/register-of-final-one-stop-shop-decisions_en,
+EU26,Intermediação RIT,DSA — EU Trusted Flaggers List,Cadastro de intermediários,https://digital-strategy.ec.europa.eu/en/policies/trusted-flaggers-under-dsa,host:digital-strategy.ec.europa.eu
+EU27,Intermediação RIT,DSA Transparency Database — statements of reasons,Dataset de eventos,https://digital-strategy.ec.europa.eu/en/faqs/dsa-transparency-database-questions-and-answers,host:digital-strategy.ec.europa.eu
+EU28,Intermediação RIT,DGA — Register of Data Intermediation Services,Cadastro temático,https://digital-strategy.ec.europa.eu/en/policies/data-intermediary-services,host:digital-strategy.ec.europa.eu
+EU30,Intermediação RIT,EEA Eionet — Reporting Obligations Database (ROD),Base de obrigações,https://www.eionet.europa.eu/reportnet/about-reportnet-1,
+EU31,Intermediação RIT,EEA — Reportnet 3 / Dataflows,Plataforma de reportes,https://reportnet.europa.eu/,
+EU32,Intermediação RIT,ECHA CHEM — REACH / CLP,Cadastro regulatório,https://echa.europa.eu/en/information-on-chemicals,
+EU36,Corpus acadêmico,EURLEX57K,Dataset de pesquisa,https://github.com/iliaschalkidis/lmtc-eurlex57k,
+EU37,Corpus acadêmico,JRC-Acquis,Corpus paralelo,https://joint-research-centre.ec.europa.eu/language-technology-resources/jrc-acquis_en,host:joint-research-centre.ec.europa.eu
+EU38,Corpus acadêmico,DGT-Acquis,Corpus paralelo,https://joint-research-centre.ec.europa.eu/language-technology-resources/dgt-acquis_en,host:joint-research-centre.ec.europa.eu
+EU40,Corpus acadêmico,EU Policy Agendas Project — European Council Conclusions,Dataset anotado,https://compagendas.la.utexas.edu/datasets_codebooks,

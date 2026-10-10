@@ -1,0 +1,734 @@
+{
+  "seed": 1160865795,
+  "designated": "S3a_deriv",
+  "designation_rule": "Fixed before any sample was drawn: the revised candidate is the scenario with the smallest set of required groups that covers every item listed for evaluation in the G1-READY task (EU08+EU09, EU33+EU34, EU11, one related pair of academic corpora), the academic pair being the one that exercises derived_from (rule R6), the relation most relevant to the purpose of the study. The other scenarios are reported for comparison and remain available to the team.",
+  "scenarios": {
+    "S0_G1PREP": {
+      "required_groups": [],
+      "forced": [
+        "EU03",
+        "EU07"
+      ],
+      "bounds": {
+        "C1_size": {
+          "ok": true,
+          "forced": 2,
+          "required": "<= 20"
+        },
+        "C2_all_families": {
+          "ok": true,
+          "families_still_to_cover": 9,
+          "free_slots": 18,
+          "required": "free slots >= families still to cover"
+        },
+        "C3_identical_url_complete": {
+          "ok": true,
+          "note": "identical-URL groups are forced"
+        },
+        "C4_host_clusters": {
+          "ok": true,
+          "best_possible": 6,
+          "required": 3
+        },
+        "C5_composite_type": {
+          "ok": true,
+          "best_possible": 5,
+          "required": 3
+        },
+        "C6_distinct_types": {
+          "ok": true,
+          "best_possible": 20,
+          "required": 18,
+          "distinct_types_among_forced": 2,
+          "forced": 2
+        },
+        "C7_max_per_family": {
+          "ok": true,
+          "largest_forced_family": 1,
+          "required": "<= 4",
+          "forced_per_family": {
+            "Corpus normativo": 1,
+            "Infraestrutura": 1
+          }
+        },
+        "C8_holdout_families": {
+          "ok": true,
+          "best_possible": 10,
+          "required": 9
+        }
+      },
+      "search": {
+        "trials": 2000,
+        "accepted": 353,
+        "acceptance_rate": 0.1765,
+        "failures_by_constraint": {
+          "C4_host_clusters": 289,
+          "C5_composite_type": 1411,
+          "C6_distinct_types": 319,
+          "C7_max_per_family": 229,
+          "C8_holdout_families": 457
+        },
+        "stream": "random.Random(seed XOR 0x5F5E100), independent of the selection stream"
+      },
+      "status": "FEASIBLE"
+    },
+    "S1_pairs": {
+      "required_groups": [
+        [
+          "EU08",
+          "EU09"
+        ],
+        [
+          "EU33",
+          "EU34"
+        ]
+      ],
+      "forced": [
+        "EU03",
+        "EU07",
+        "EU08",
+        "EU09",
+        "EU33",
+        "EU34"
+      ],
+      "bounds": {
+        "C1_size": {
+          "ok": true,
+          "forced": 6,
+          "required": "<= 20"
+        },
+        "C2_all_families": {
+          "ok": true,
+          "families_still_to_cover": 7,
+          "free_slots": 14,
+          "required": "free slots >= families still to cover"
+        },
+        "C3_identical_url_complete": {
+          "ok": true,
+          "note": "identical-URL groups are forced"
+        },
+        "C4_host_clusters": {
+          "ok": true,
+          "best_possible": 6,
+          "required": 3
+        },
+        "C5_composite_type": {
+          "ok": true,
+          "best_possible": 5,
+          "required": 3
+        },
+        "C6_distinct_types": {
+          "ok": true,
+          "best_possible": 19,
+          "required": 18,
+          "distinct_types_among_forced": 5,
+          "forced": 6
+        },
+        "C7_max_per_family": {
+          "ok": true,
+          "largest_forced_family": 2,
+          "required": "<= 4",
+          "forced_per_family": {
+            "Aplicação setorial": 2,
+            "Corpus normativo": 1,
+            "Infraestrutura": 1,
+            "Processo legislativo": 2
+          }
+        },
+        "C8_holdout_families": {
+          "ok": true,
+          "best_possible": 9,
+          "required": 9
+        }
+      },
+      "search": {
+        "trials": 2000,
+        "accepted": 96,
+        "acceptance_rate": 0.048,
+        "failures_by_constraint": {
+          "C4_host_clusters": 536,
+          "C5_composite_type": 1674,
+          "C6_distinct_types": 678,
+          "C7_max_per_family": 174,
+          "C8_holdout_families": 853
+        },
+        "stream": "random.Random(seed XOR 0x5F5E100), independent of the selection stream"
+      },
+      "status": "FEASIBLE"
+    },
+    "S2_pairs_disc": {
+      "required_groups": [
+        [
+          "EU08",
+          "EU09"
+        ],
+        [
+          "EU33",
+          "EU34"
+        ],
+        [
+          "EU11"
+        ]
+      ],
+      "forced": [
+        "EU03",
+        "EU07",
+        "EU08",
+        "EU09",
+        "EU11",
+        "EU33",
+        "EU34"
+      ],
+      "bounds": {
+        "C1_size": {
+          "ok": true,
+          "forced": 7,
+          "required": "<= 20"
+        },
+        "C2_all_families": {
+          "ok": true,
+          "families_still_to_cover": 7,
+          "free_slots": 13,
+          "required": "free slots >= families still to cover"
+        },
+        "C3_identical_url_complete": {
+          "ok": true,
+          "note": "identical-URL groups are forced"
+        },
+        "C4_host_clusters": {
+          "ok": true,
+          "best_possible": 6,
+          "required": 3
+        },
+        "C5_composite_type": {
+          "ok": true,
+          "best_possible": 5,
+          "required": 3
+        },
+        "C6_distinct_types": {
+          "ok": true,
+          "best_possible": 19,
+          "required": 18,
+          "distinct_types_among_forced": 6,
+          "forced": 7
+        },
+        "C7_max_per_family": {
+          "ok": true,
+          "largest_forced_family": 3,
+          "required": "<= 4",
+          "forced_per_family": {
+            "Aplicação setorial": 2,
+            "Corpus normativo": 1,
+            "Infraestrutura": 1,
+            "Processo legislativo": 3
+          }
+        },
+        "C8_holdout_families": {
+          "ok": true,
+          "best_possible": 9,
+          "required": 9
+        }
+      },
+      "search": {
+        "trials": 2000,
+        "accepted": 92,
+        "acceptance_rate": 0.046,
+        "failures_by_constraint": {
+          "C4_host_clusters": 688,
+          "C5_composite_type": 1758,
+          "C6_distinct_types": 557,
+          "C7_max_per_family": 291,
+          "C8_holdout_families": 746
+        },
+        "stream": "random.Random(seed XOR 0x5F5E100), independent of the selection stream"
+      },
+      "status": "FEASIBLE"
+    },
+    "S3a_deriv": {
+      "required_groups": [
+        [
+          "EU08",
+          "EU09"
+        ],
+        [
+          "EU33",
+          "EU34"
+        ],
+        [
+          "EU11"
+        ],
+        [
+          "EU35",
+          "EU39"
+        ]
+      ],
+      "forced": [
+        "EU03",
+        "EU07",
+        "EU08",
+        "EU09",
+        "EU11",
+        "EU33",
+        "EU34",
+        "EU35",
+        "EU39"
+      ],
+      "bounds": {
+        "C1_size": {
+          "ok": true,
+          "forced": 9,
+          "required": "<= 20"
+        },
+        "C2_all_families": {
+          "ok": true,
+          "families_still_to_cover": 6,
+          "free_slots": 11,
+          "required": "free slots >= families still to cover"
+        },
+        "C3_identical_url_complete": {
+          "ok": true,
+          "note": "identical-URL groups are forced"
+        },
+        "C4_host_clusters": {
+          "ok": true,
+          "best_possible": 6,
+          "required": 3
+        },
+        "C5_composite_type": {
+          "ok": true,
+          "best_possible": 5,
+          "required": 3
+        },
+        "C6_distinct_types": {
+          "ok": true,
+          "best_possible": 19,
+          "required": 18,
+          "distinct_types_among_forced": 8,
+          "forced": 9
+        },
+        "C7_max_per_family": {
+          "ok": true,
+          "largest_forced_family": 3,
+          "required": "<= 4",
+          "forced_per_family": {
+            "Aplicação setorial": 2,
+            "Corpus acadêmico": 2,
+            "Corpus normativo": 1,
+            "Infraestrutura": 1,
+            "Processo legislativo": 3
+          }
+        },
+        "C8_holdout_families": {
+          "ok": true,
+          "best_possible": 9,
+          "required": 9
+        }
+      },
+      "search": {
+        "trials": 2000,
+        "accepted": 91,
+        "acceptance_rate": 0.0455,
+        "failures_by_constraint": {
+          "C4_host_clusters": 912,
+          "C5_composite_type": 1804,
+          "C6_distinct_types": 507,
+          "C7_max_per_family": 263,
+          "C8_holdout_families": 579
+        },
+        "stream": "random.Random(seed XOR 0x5F5E100), independent of the selection stream"
+      },
+      "status": "FEASIBLE"
+    },
+    "S3b_acquis": {
+      "required_groups": [
+        [
+          "EU08",
+          "EU09"
+        ],
+        [
+          "EU33",
+          "EU34"
+        ],
+        [
+          "EU11"
+        ],
+        [
+          "EU37",
+          "EU38"
+        ]
+      ],
+      "forced": [
+        "EU03",
+        "EU07",
+        "EU08",
+        "EU09",
+        "EU11",
+        "EU33",
+        "EU34",
+        "EU37",
+        "EU38"
+      ],
+      "bounds": {
+        "C1_size": {
+          "ok": true,
+          "forced": 9,
+          "required": "<= 20"
+        },
+        "C2_all_families": {
+          "ok": true,
+          "families_still_to_cover": 6,
+          "free_slots": 11,
+          "required": "free slots >= families still to cover"
+        },
+        "C3_identical_url_complete": {
+          "ok": true,
+          "note": "identical-URL groups are forced"
+        },
+        "C4_host_clusters": {
+          "ok": true,
+          "best_possible": 6,
+          "required": 3
+        },
+        "C5_composite_type": {
+          "ok": true,
+          "best_possible": 5,
+          "required": 3
+        },
+        "C6_distinct_types": {
+          "ok": true,
+          "best_possible": 18,
+          "required": 18,
+          "distinct_types_among_forced": 7,
+          "forced": 9
+        },
+        "C7_max_per_family": {
+          "ok": true,
+          "largest_forced_family": 3,
+          "required": "<= 4",
+          "forced_per_family": {
+            "Aplicação setorial": 2,
+            "Corpus acadêmico": 2,
+            "Corpus normativo": 1,
+            "Infraestrutura": 1,
+            "Processo legislativo": 3
+          }
+        },
+        "C8_holdout_families": {
+          "ok": true,
+          "best_possible": 9,
+          "required": 9
+        }
+      },
+      "search": {
+        "trials": 2000,
+        "accepted": 70,
+        "acceptance_rate": 0.035,
+        "failures_by_constraint": {
+          "C4_host_clusters": 89,
+          "C5_composite_type": 1804,
+          "C6_distinct_types": 1189,
+          "C7_max_per_family": 263,
+          "C8_holdout_families": 579
+        },
+        "stream": "random.Random(seed XOR 0x5F5E100), independent of the selection stream"
+      },
+      "status": "FEASIBLE"
+    },
+    "S3c_eurlex": {
+      "required_groups": [
+        [
+          "EU08",
+          "EU09"
+        ],
+        [
+          "EU33",
+          "EU34"
+        ],
+        [
+          "EU11"
+        ],
+        [
+          "EU35",
+          "EU36"
+        ]
+      ],
+      "forced": [
+        "EU03",
+        "EU07",
+        "EU08",
+        "EU09",
+        "EU11",
+        "EU33",
+        "EU34",
+        "EU35",
+        "EU36"
+      ],
+      "bounds": {
+        "C1_size": {
+          "ok": true,
+          "forced": 9,
+          "required": "<= 20"
+        },
+        "C2_all_families": {
+          "ok": true,
+          "families_still_to_cover": 6,
+          "free_slots": 11,
+          "required": "free slots >= families still to cover"
+        },
+        "C3_identical_url_complete": {
+          "ok": true,
+          "note": "identical-URL groups are forced"
+        },
+        "C4_host_clusters": {
+          "ok": true,
+          "best_possible": 6,
+          "required": 3
+        },
+        "C5_composite_type": {
+          "ok": true,
+          "best_possible": 5,
+          "required": 3
+        },
+        "C6_distinct_types": {
+          "ok": true,
+          "best_possible": 18,
+          "required": 18,
+          "distinct_types_among_forced": 7,
+          "forced": 9
+        },
+        "C7_max_per_family": {
+          "ok": true,
+          "largest_forced_family": 3,
+          "required": "<= 4",
+          "forced_per_family": {
+            "Aplicação setorial": 2,
+            "Corpus acadêmico": 2,
+            "Corpus normativo": 1,
+            "Infraestrutura": 1,
+            "Processo legislativo": 3
+          }
+        },
+        "C8_holdout_families": {
+          "ok": true,
+          "best_possible": 9,
+          "required": 9
+        }
+      },
+      "search": {
+        "trials": 2000,
+        "accepted": 55,
+        "acceptance_rate": 0.0275,
+        "failures_by_constraint": {
+          "C4_host_clusters": 908,
+          "C5_composite_type": 1804,
+          "C6_distinct_types": 1189,
+          "C7_max_per_family": 263,
+          "C8_holdout_families": 579
+        },
+        "stream": "random.Random(seed XOR 0x5F5E100), independent of the selection stream"
+      },
+      "status": "FEASIBLE"
+    },
+    "S4_two_academic_pairs": {
+      "required_groups": [
+        [
+          "EU08",
+          "EU09"
+        ],
+        [
+          "EU33",
+          "EU34"
+        ],
+        [
+          "EU11"
+        ],
+        [
+          "EU35",
+          "EU39"
+        ],
+        [
+          "EU37",
+          "EU38"
+        ]
+      ],
+      "forced": [
+        "EU03",
+        "EU07",
+        "EU08",
+        "EU09",
+        "EU11",
+        "EU33",
+        "EU34",
+        "EU35",
+        "EU37",
+        "EU38",
+        "EU39"
+      ],
+      "bounds": {
+        "C1_size": {
+          "ok": true,
+          "forced": 11,
+          "required": "<= 20"
+        },
+        "C2_all_families": {
+          "ok": true,
+          "families_still_to_cover": 6,
+          "free_slots": 9,
+          "required": "free slots >= families still to cover"
+        },
+        "C3_identical_url_complete": {
+          "ok": true,
+          "note": "identical-URL groups are forced"
+        },
+        "C4_host_clusters": {
+          "ok": true,
+          "best_possible": 6,
+          "required": 3
+        },
+        "C5_composite_type": {
+          "ok": true,
+          "best_possible": 5,
+          "required": 3
+        },
+        "C6_distinct_types": {
+          "ok": true,
+          "best_possible": 18,
+          "required": 18,
+          "distinct_types_among_forced": 9,
+          "forced": 11
+        },
+        "C7_max_per_family": {
+          "ok": true,
+          "largest_forced_family": 4,
+          "required": "<= 4",
+          "forced_per_family": {
+            "Aplicação setorial": 2,
+            "Corpus acadêmico": 4,
+            "Corpus normativo": 1,
+            "Infraestrutura": 1,
+            "Processo legislativo": 3
+          }
+        },
+        "C8_holdout_families": {
+          "ok": true,
+          "best_possible": 9,
+          "required": 9
+        }
+      },
+      "search": {
+        "trials": 2000,
+        "accepted": 30,
+        "acceptance_rate": 0.015,
+        "failures_by_constraint": {
+          "C4_host_clusters": 231,
+          "C5_composite_type": 1931,
+          "C6_distinct_types": 1052,
+          "C7_max_per_family": 709,
+          "C8_holdout_families": 320
+        },
+        "stream": "random.Random(seed XOR 0x5F5E100), independent of the selection stream"
+      },
+      "status": "FEASIBLE"
+    },
+    "S5_academic_triad": {
+      "required_groups": [
+        [
+          "EU08",
+          "EU09"
+        ],
+        [
+          "EU33",
+          "EU34"
+        ],
+        [
+          "EU11"
+        ],
+        [
+          "EU35",
+          "EU39"
+        ],
+        [
+          "EU35",
+          "EU36"
+        ]
+      ],
+      "forced": [
+        "EU03",
+        "EU07",
+        "EU08",
+        "EU09",
+        "EU11",
+        "EU33",
+        "EU34",
+        "EU35",
+        "EU36",
+        "EU39"
+      ],
+      "bounds": {
+        "C1_size": {
+          "ok": true,
+          "forced": 10,
+          "required": "<= 20"
+        },
+        "C2_all_families": {
+          "ok": true,
+          "families_still_to_cover": 6,
+          "free_slots": 10,
+          "required": "free slots >= families still to cover"
+        },
+        "C3_identical_url_complete": {
+          "ok": true,
+          "note": "identical-URL groups are forced"
+        },
+        "C4_host_clusters": {
+          "ok": true,
+          "best_possible": 6,
+          "required": 3
+        },
+        "C5_composite_type": {
+          "ok": true,
+          "best_possible": 5,
+          "required": 3
+        },
+        "C6_distinct_types": {
+          "ok": true,
+          "best_possible": 18,
+          "required": 18,
+          "distinct_types_among_forced": 8,
+          "forced": 10
+        },
+        "C7_max_per_family": {
+          "ok": true,
+          "largest_forced_family": 3,
+          "required": "<= 4",
+          "forced_per_family": {
+            "Aplicação setorial": 2,
+            "Corpus acadêmico": 3,
+            "Corpus normativo": 1,
+            "Infraestrutura": 1,
+            "Processo legislativo": 3
+          }
+        },
+        "C8_holdout_families": {
+          "ok": true,
+          "best_possible": 9,
+          "required": 9
+        }
+      },
+      "search": {
+        "trials": 2000,
+        "accepted": 49,
+        "acceptance_rate": 0.0245,
+        "failures_by_constraint": {
+          "C4_host_clusters": 1067,
+          "C5_composite_type": 1864,
+          "C6_distinct_types": 1067,
+          "C7_max_per_family": 336,
+          "C8_holdout_families": 447
+        },
+        "stream": "random.Random(seed XOR 0x5F5E100), independent of the selection stream"
+      },
+      "status": "FEASIBLE"
+    }
+  }
+}

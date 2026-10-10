@@ -1,0 +1,32 @@
+{
+  "_meta": {
+    "purpose": "Single machine-readable source of controlled vocabularies read by scripts/cli.py and scripts/pilot_a_forms.py.",
+    "status": "G1-PREP working file. Not a protocol document; does not freeze or amend the protocol.",
+    "sources": {
+      "core": "protocol/CODEBOOK_AND_AUDIT.md (vocabulario controlado; motivos de exclusao; criterios tecnicos) and SCHEMA in scripts/cli.py",
+      "pilot_a": "protocol/SOURCE_TAXONOMY_v0_2_DRAFT.md (levels, classes, rules, relations)",
+      "provisional": "Lists marked provisional are NOT defined in any protocol document and need a team decision."
+    },
+    "provisional": ["rit_validation_status", "pilot_a.function", "pilot_a.uncertainty_type", "pilot_a.access_outcome"]
+  },
+  "origin": ["seed", "systematic_search", "citation_chaining", "expert_suggestion", "manual_grey_literature"],
+  "screening_stage": ["title_abstract", "full_source"],
+  "screening_decision": ["include", "exclude", "uncertain"],
+  "consensus_decision": ["include", "exclude"],
+  "dedup_decision": ["unique", "duplicate"],
+  "reason_code": ["NOT_EU_RELATED", "UNSTRUCTURED", "NOT_LEGAL_REGULATORY", "NOT_IDENTIFIABLE", "INSUFFICIENT_DOCUMENTATION", "OTHER"],
+  "audit_criterion": ["LEGAL_ID", "ACTORS", "FUNCTIONS", "RELATIONS", "LEGAL_BASIS", "TEMPORALITY", "MACHINE_ACCESS", "PROVENANCE", "REUSE_RIGHTS"],
+  "audit_score": ["0", "1", "2", "UNVERIFIED", "NA"],
+  "rit_validation_status": ["pending", "adjudicated"],
+  "pilot_a": {
+    "level": ["K", "L1", "L2", "DUPLICATE", "UNCERTAIN"],
+    "class": ["FPL", "REP", "DSE", "API", "COD", "REG", "AUX", "FDE", "IND", "UNCERTAIN"],
+    "rule": ["R0", "R1", "R2", "R3", "R4", "R5", "R6", "R7", "R8", "R9", "R10", "R11"],
+    "function": ["F1_TEXTOS_DE_ATOS", "F2_METADADOS_DE_ATOS", "F3_ACESSO_PROGRAMATICO", "F4_CATALOGO_OU_DIRETORIO", "F5_REGISTRO_DE_ENTIDADES_OU_CASOS", "F6_CLASSIFICACAO_OU_IDENTIFICACAO", "F7_CORPUS_PARA_PESQUISA", "F8_OUTRA", "UNCERTAIN"],
+    "eligibility": ["include", "exclude", "uncertain"],
+    "legislative_candidate": ["sim", "nao", "indeterminado"],
+    "relation_type": ["duplicate_of", "distribution_of", "hosted_by", "derived_from", "part_of", "overlaps_with", "successor_of", "uses"],
+    "uncertainty_type": ["nenhuma", "regra_ausente", "regra_ambigua", "evidencia_insuficiente"],
+    "access_outcome": ["acessivel", "parcial", "inacessivel"]
+  }
+}

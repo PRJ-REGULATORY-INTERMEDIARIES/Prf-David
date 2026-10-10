@@ -1,0 +1,12 @@
+n=8 alert if agreements<=4 (obs<= 0.50): P(alert|p=.95)=0.000 p=.90:0.005 p=.80:0.056 p=.70:0.194 p=.60:0.406
+n=8 alert if agreements<=5 (obs<= 0.62): P(alert|p=.95)=0.006 p=.90:0.038 p=.80:0.203 p=.70:0.448 p=.60:0.685
+n=8 alert if agreements<=6 (obs<= 0.75): P(alert|p=.95)=0.057 p=.90:0.187 p=.80:0.497 p=.70:0.745 p=.60:0.894
+n=8 alert if agreements<=7 (obs<= 0.88): P(alert|p=.95)=0.337 p=.90:0.570 p=.80:0.832 p=.70:0.942 p=.60:0.983
+n=10 alert if agreements<=6 (obs<= 0.60): P(alert|p=.95)=0.001 p=.90:0.013 p=.80:0.121 p=.70:0.350 p=.60:0.618
+n=10 alert if agreements<=7 (obs<= 0.70): P(alert|p=.95)=0.012 p=.90:0.070 p=.80:0.322 p=.70:0.617 p=.60:0.833
+n=10 alert if agreements<=8 (obs<= 0.80): P(alert|p=.95)=0.086 p=.90:0.264 p=.80:0.624 p=.70:0.851 p=.60:0.954
+n=10 alert if agreements<=9 (obs<= 0.90): P(alert|p=.95)=0.401 p=.90:0.651 p=.80:0.893 p=.70:0.972 p=.60:0.994
+n=12 alert if agreements<=8 (obs<= 0.67): P(alert|p=.95)=0.002 p=.90:0.026 p=.80:0.205 p=.70:0.507 p=.60:0.775
+n=12 alert if agreements<=9 (obs<= 0.75): P(alert|p=.95)=0.020 p=.90:0.111 p=.80:0.442 p=.70:0.747 p=.60:0.917
+n=12 alert if agreements<=10 (obs<= 0.83): P(alert|p=.95)=0.118 p=.90:0.341 p=.80:0.725 p=.70:0.915 p=.60:0.980
+n=12 alert if agreements<=11 (obs<= 0.92): P(alert|p=.95)=0.460 p=.90:0.718 p=.80:0.931 p=.70:0.986 p=.60:0.998

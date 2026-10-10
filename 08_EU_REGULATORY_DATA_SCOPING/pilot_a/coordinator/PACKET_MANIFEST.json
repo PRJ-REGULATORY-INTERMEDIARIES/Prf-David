@@ -1,0 +1,42 @@
+{
+  "built_at_utc": "2026-10-10T02:32:31+00:00",
+  "script": "scripts/pilot_a_forms.py",
+  "script_sha256": "ffbc00fbd2820d741d4b85677ef060533b0d0d975a93d83434f6f6385efb08c2",
+  "sample_file": "pilot_a\\selection\\PILOT_A_CANDIDATE_SAMPLE.csv",
+  "sample_sha256": "d9e73bc31ceef6fa3a6b293b9c6d0fb92cb44a8dd0c172ed8bef34e381c8b86a",
+  "order_seed_A": 1160865796,
+  "order_seed_B": 1160865797,
+  "columns_withheld_from_reviewers": [
+    "layer",
+    "resource_type",
+    "rgam_potential",
+    "initial_priority",
+    "limitations",
+    "possible_legal_id",
+    "observation_unit",
+    "announced_access",
+    "objective_properties",
+    "source_seed_id"
+  ],
+  "label_overrides_applied": [],
+  "taxonomy_sha256": "44f27092a0c414416d9f07a42492eb72a5b3b659ad4ba9b80190bd0f20301e51",
+  "protocol_sha256": "31bb40adfa5e7f4d902f314a252ff05b742cdb1e0d8f23e592ed6fc91c828da6",
+  "reviewer_A_files": {
+    "CODING_FORM_A.csv": "1ce814471bb0d20e59b37ce3f755ca696849423eaff5280e05f4e36a0f545448",
+    "ELIGIBILITY_CRITERIA_PROTOCOL_S6.md": "e53b1f965113a201207a1e47b789ec895e35c66bfd99f7dad7df47a413edbaf2",
+    "INSTRUCTIONS.md": "a931f3fe8a94cdd667f5c5c2af462a8e1ca0d3c9bf65c50699086ce230c9accd",
+    "SOURCE_TAXONOMY_v0_2_DRAFT.md": "44f27092a0c414416d9f07a42492eb72a5b3b659ad4ba9b80190bd0f20301e51"
+  },
+  "reviewer_B_files": {
+    "CODING_FORM_B.csv": "5756560eff84abe24f3029a61190bc4beb8c2337a4158a233ac6292e67f06ad1",
+    "ELIGIBILITY_CRITERIA_PROTOCOL_S6.md": "e53b1f965113a201207a1e47b789ec895e35c66bfd99f7dad7df47a413edbaf2",
+    "INSTRUCTIONS.md": "7401f16fbf1234110e3518d1ae9b3eadaea15939d33d4f561df0e2b269049979",
+    "SOURCE_TAXONOMY_v0_2_DRAFT.md": "44f27092a0c414416d9f07a42492eb72a5b3b659ad4ba9b80190bd0f20301e51"
+  },
+  "roles": {
+    "REVIEWER_A": "NOT ASSIGNED",
+    "REVIEWER_B": "NOT ASSIGNED",
+    "ADJUDICATOR": "NOT ASSIGNED"
+  },
+  "status": "PREPARED - coding not authorised; no decision field is filled"
+}

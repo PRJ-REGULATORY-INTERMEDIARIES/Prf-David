@@ -1,0 +1,56 @@
+seed=1160865795 (first 8 hex digits of sha256(inputs/seed_inventory_v0_1.csv)); accepted at attempt 9
+sample: EU01 EU02 EU03 EU07 EU08 EU13 EU15 EU17 EU19 EU23 EU24 EU25 EU27 EU28 EU30 EU32 EU33 EU37 EU39 EU41
+rejected-attempt failures: {'C5_composite_type': 7, 'C6_distinct_types': 2, 'C8_holdout_families': 4, 'C4_host_clusters': 2}
+written to pilot_a\selection
+{
+  "families_in_sample": {
+    "Aplicação setorial": 1,
+    "Atores/participação": 1,
+    "Corpus acadêmico": 3,
+    "Corpus normativo": 3,
+    "Delegação/implementação": 1,
+    "Fiscalização": 2,
+    "Infraestrutura": 1,
+    "Intermediação RIT": 4,
+    "Jurisprudência": 1,
+    "Processo legislativo": 2,
+    "Transposição/Estados": 1
+  },
+  "families_in_reserve": {
+    "Aplicação setorial": 1,
+    "Corpus acadêmico": 4,
+    "Corpus normativo": 1,
+    "Delegação/implementação": 2,
+    "Fiscalização": 1,
+    "Infraestrutura": 2,
+    "Intermediação RIT": 3,
+    "Jurisprudência": 1,
+    "Processo legislativo": 4,
+    "Transposição/Estados": 2
+  },
+  "distinct_resource_types_in_sample": 20,
+  "composite_type_in_sample": [
+    "EU01",
+    "EU02",
+    "EU23"
+  ],
+  "host_clusters_with_two_or_more_in_sample": {
+    "commission.europa.eu": [
+      "EU13",
+      "EU15"
+    ],
+    "data.europa.eu": [
+      "EU03",
+      "EU07",
+      "EU17"
+    ],
+    "digital-strategy.ec.europa.eu": [
+      "EU27",
+      "EU28"
+    ],
+    "eur-lex.europa.eu": [
+      "EU01",
+      "EU23"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+﻿source_seed_id,layer,name,resource_type,source_url,objective_properties
+EU01,Corpus normativo,EUR-Lex — legislação e documentos jurídicos,Portal/corpus,https://eur-lex.europa.eu/,host:eur-lex.europa.eu;composite_type
+EU04,Corpus normativo,Official Journal — arquivos XML Formex,Coleção XML,https://eur-lex.europa.eu/content/help/data-reuse/reuse-contents-eurlex-details.html?locale=en,host:eur-lex.europa.eu
+EU05,Infraestrutura,European Legislation Identifier (ELI),Padrão/metadados,https://eur-lex.europa.eu/eli-register/what_is_eli.html,host:eur-lex.europa.eu;composite_type
+EU06,Infraestrutura,EuroVoc — tesauro multilíngue,Vocabulário controlado,https://op.europa.eu/en/web/eu-vocabularies,host:op.europa.eu
+EU10,Processo legislativo,Council — resultados de votações legislativas,Base consultável,https://www.consilium.europa.eu/en/general-secretariat/corporate-policies/transparency/voting-results/,
+EU13,Processo legislativo,Register of Commission Documents,Base documental,https://commission.europa.eu/about/service-standards-and-principles/transparency/how-access-commission-documents_en,host:commission.europa.eu
+EU14,Delegação/implementação,Interinstitutional Register of Delegated Acts,Base processual,https://commission.europa.eu/law/law-making-process/adopting-eu-law/implementing-and-delegated-acts_en,host:commission.europa.eu
+EU15,Delegação/implementação,Comitology Register — comitês e atos de execução,Base processual,https://commission.europa.eu/law/law-making-process/adopting-eu-law/implementing-and-delegated-acts/comitology_en,host:commission.europa.eu
+EU20,Transposição/Estados,TRIS — notificações de regras técnicas nacionais,Base processual,https://technical-regulation-information-system.ec.europa.eu/en/search,
+EU22,Jurisprudência,InfoCuria — decisões do TJUE,Base jurisprudencial,https://curia.europa.eu/site/jcms/p1_1000063986/en/new-infocuria-case-law-database-and-search-tool,
+EU24,Fiscalização,"Competition Case Search — antitrust, mergers, State aid, DMA",Base multissetorial,https://competition-cases.ec.europa.eu/,
+EU25,Fiscalização,EDPB — register of final one-stop-shop GDPR decisions,Registro de decisões,https://www.edpb.europa.eu/registers/register-of-final-one-stop-shop-decisions_en,
+EU26,Intermediação RIT,DSA — EU Trusted Flaggers List,Cadastro de intermediários,https://digital-strategy.ec.europa.eu/en/policies/trusted-flaggers-under-dsa,host:digital-strategy.ec.europa.eu
+EU28,Intermediação RIT,DGA — Register of Data Intermediation Services,Cadastro temático,https://digital-strategy.ec.europa.eu/en/policies/data-intermediary-services,host:digital-strategy.ec.europa.eu
+EU29,Intermediação RIT,NANDO — Notified Bodies,Cadastro de intermediários,https://single-market-economy.ec.europa.eu/single-market/goods/building-blocks/notified-bodies_en,
+EU30,Intermediação RIT,EEA Eionet — Reporting Obligations Database (ROD),Base de obrigações,https://www.eionet.europa.eu/reportnet/about-reportnet-1,
+EU31,Intermediação RIT,EEA — Reportnet 3 / Dataflows,Plataforma de reportes,https://reportnet.europa.eu/,
+EU32,Intermediação RIT,ECHA CHEM — REACH / CLP,Cadastro regulatório,https://echa.europa.eu/en/information-on-chemicals,
+EU36,Corpus acadêmico,EURLEX57K,Dataset de pesquisa,https://github.com/iliaschalkidis/lmtc-eurlex57k,
+EU40,Corpus acadêmico,EU Policy Agendas Project — European Council Conclusions,Dataset anotado,https://compagendas.la.utexas.edu/datasets_codebooks,
+EU41,Corpus acadêmico,ParlTrack,Base cívica derivada,https://github.com/parltrack/parltrack,

@@ -1,0 +1,14 @@
+{
+  "python": "3.14.4 (tags/v3.14.4:23116f9, Apr  7 2026, 14:10:54) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "quarto": "1.10.18",
+  "git": "git version 2.55.0.windows.5",
+  "packages": {
+    "pytest": "9.0.3",
+    "colorama": "0.4.6",
+    "iniconfig": "2.3.1",
+    "packaging": "26.3",
+    "pluggy": "1.6.0",
+    "pygments": "2.21.0"
+  }
+}

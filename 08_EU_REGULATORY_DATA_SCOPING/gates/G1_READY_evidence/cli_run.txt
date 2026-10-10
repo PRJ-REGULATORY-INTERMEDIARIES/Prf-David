@@ -1,0 +1,29 @@
+$ python scripts/cli.py check
+[WARNING] Same URL in records ['SEED_EU03', 'SEED_EU07']: https://data.europa.eu/en/ELDS (candidate duplicate; human decision required)
+[WARNING] No documented systematic search hits: only seed set or empty inventory.
+[WARNING] No canonical dataset inclusion decisions: scientific results not available.
+No structural errors.
+exit=0
+
+$ python scripts/cli.py import-seeds
+Data tables initialized. Existing files were not overwritten.
+Imported 0 seed hits; dataset inclusion still requires full screening and dataset-level deduplication.
+exit=0
+
+$ python scripts/cli.py report
+Data tables initialized. Existing files were not overwritten.
+Wrote outputs\STATUS_REPORT.md
+# RELATÓRIO INTERMEDIÁRIO — NÃO É RESULTADO FINAL
+
+Gerado em: 2026-10-10T00:29:00-03:00
+
+## Status verificável
+- Ocorrências do levantamento exploratório (seeds): **41**; não contam como inclusão.
+- Registros documentados de buscas não-semente: **0**.
+- Registros sistemáticos com decisão de deduplicação: **0 / 0**.
+- Deduplicação integral: **NÃO**.
+- Consensus título/descrição completa: **NÃO**.
+- Consensus documentação integral completa: **NÃO**.
+- Datasets canônicos extraídos: **0**, não equivalentes a portais/serviços.
+exit=0
+

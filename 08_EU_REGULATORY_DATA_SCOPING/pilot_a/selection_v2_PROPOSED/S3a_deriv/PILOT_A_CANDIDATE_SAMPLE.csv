@@ -1,0 +1,21 @@
+﻿source_seed_id,layer,name,resource_type,source_url,objective_properties
+EU01,Corpus normativo,EUR-Lex — legislação e documentos jurídicos,Portal/corpus,https://eur-lex.europa.eu/,host:eur-lex.europa.eu;composite_type
+EU03,Corpus normativo,EUR-Lex bulk data dump,Arquivo em lote,https://data.europa.eu/en/ELDS,identical_url:EU03+EU07;host:data.europa.eu
+EU04,Corpus normativo,Official Journal — arquivos XML Formex,Coleção XML,https://eur-lex.europa.eu/content/help/data-reuse/reuse-contents-eurlex-details.html?locale=en,host:eur-lex.europa.eu
+EU07,Infraestrutura,European Legal Data Space — diretório,Catálogo de coleções,https://data.europa.eu/en/ELDS,identical_url:EU03+EU07;host:data.europa.eu
+EU08,Processo legislativo,European Parliament Open Data API — procedures,API estruturada,https://data.europarl.europa.eu/en/developer-corner,
+EU09,Processo legislativo,Legislative Observatory — OEIL,Base consultável,https://oeil.europarl.europa.eu/oeil/en/find-out-more,
+EU11,Processo legislativo,Council votes on legislative acts — dataset antigo,Dataset histórico,https://data.europa.eu/data/datasets/council-votes-on-legislative-acts?locale=en,host:data.europa.eu
+EU12,Processo legislativo,Commission — Have Your Say / Better Regulation,Portal/participação,https://commission.europa.eu/law/law-making-process/better-regulation_en,host:commission.europa.eu;composite_type
+EU15,Delegação/implementação,Comitology Register — comitês e atos de execução,Base processual,https://commission.europa.eu/law/law-making-process/adopting-eu-law/implementing-and-delegated-acts/comitology_en,host:commission.europa.eu
+EU17,Atores/participação,EU Transparency Register,Cadastro de atores,https://data.europa.eu/data/datasets/transparency-register,host:data.europa.eu
+EU19,Transposição/Estados,N-Lex — bases legais nacionais,Portal federado,https://n-lex.europa.eu/n-lex/index,
+EU20,Transposição/Estados,TRIS — notificações de regras técnicas nacionais,Base processual,https://technical-regulation-information-system.ec.europa.eu/en/search,
+EU21,Fiscalização,Commission — Infringement Decisions Register,Registro de casos,https://commission.europa.eu/law/application-eu-law_en,host:commission.europa.eu
+EU23,Jurisprudência,ECLI / European e-Justice — busca de jurisprudência,Padrão/federação,https://eur-lex.europa.eu/content/help/eurlex-content/ecli.html?locale=en,host:eur-lex.europa.eu;composite_type
+EU29,Intermediação RIT,NANDO — Notified Bodies,Cadastro de intermediários,https://single-market-economy.ec.europa.eu/single-market/goods/building-blocks/notified-bodies_en,
+EU33,Aplicação setorial,TED Open Data Service (contratações),Grafo de dados,https://data.ted.europa.eu/,
+EU34,Aplicação setorial,TED Search API — notices,API estruturada,https://docs.ted.europa.eu/api/latest/search.html,
+EU35,Corpus acadêmico,MultiEURLEX — EU legislation corpus,Dataset de pesquisa,https://zenodo.org/records/5363165,
+EU39,Corpus acadêmico,LexGLUE — subtarefa EUR-LEX,Benchmark jurídico,https://github.com/coastalcph/lex-glue,
+EU41,Corpus acadêmico,ParlTrack,Base cívica derivada,https://github.com/parltrack/parltrack,

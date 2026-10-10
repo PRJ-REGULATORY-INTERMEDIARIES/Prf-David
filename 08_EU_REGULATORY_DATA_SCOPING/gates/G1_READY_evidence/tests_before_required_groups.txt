@@ -1,0 +1,108 @@
+# BEFORE: tests/test_pilot_a_required_groups.py against the G1-PREP select_pilot_a.py
+# 36365308cb936c861da56167d4c96bd4a485743b9935eaa1c21b2d2bdae1d546 *scripts/select_pilot_a.py
+# run: 2026-10-10T03:20:29Z
+
+test_baseline_is_feasible_with_a_witness (tests.test_pilot_a_required_groups.FeasibilityTests.test_baseline_is_feasible_with_a_witness) ... ERROR
+test_family_cap_violation_is_proved_infeasible_without_sampling (tests.test_pilot_a_required_groups.FeasibilityTests.test_family_cap_violation_is_proved_infeasible_without_sampling) ... ERROR
+test_feasibility_search_does_not_consume_the_selection_stream (tests.test_pilot_a_required_groups.FeasibilityTests.test_feasibility_search_does_not_consume_the_selection_stream) ... ERROR
+test_holdout_bound_counts_families_emptied_by_forcing (tests.test_pilot_a_required_groups.FeasibilityTests.test_holdout_bound_counts_families_emptied_by_forcing) ... ERROR
+test_too_many_forced_records_is_infeasible (tests.test_pilot_a_required_groups.FeasibilityTests.test_too_many_forced_records_is_infeasible) ... ERROR
+test_outputs_go_to_the_given_folder_and_are_marked_proposed (tests.test_pilot_a_required_groups.OutputTests.test_outputs_go_to_the_given_folder_and_are_marked_proposed) ... ERROR
+test_required_groups_enter_complete_and_constraints_still_hold (tests.test_pilot_a_required_groups.RequiredGroupTests.test_required_groups_enter_complete_and_constraints_still_hold) ... ERROR
+test_selection_with_groups_is_deterministic (tests.test_pilot_a_required_groups.RequiredGroupTests.test_selection_with_groups_is_deterministic) ... ERROR
+test_unknown_identifier_is_rejected (tests.test_pilot_a_required_groups.RequiredGroupTests.test_unknown_identifier_is_rejected) ... ERROR
+test_without_groups_the_g1_prep_sample_is_reproduced (tests.test_pilot_a_required_groups.RequiredGroupTests.test_without_groups_the_g1_prep_sample_is_reproduced) ... ERROR
+
+======================================================================
+ERROR: test_baseline_is_feasible_with_a_witness (tests.test_pilot_a_required_groups.FeasibilityTests.test_baseline_is_feasible_with_a_witness)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "G:\Meu Drive\PRJ-David\Prf-David\08_EU_REGULATORY_DATA_SCOPING\tests\test_pilot_a_required_groups.py", line 60, in test_baseline_is_feasible_with_a_witness
+    f = sel.feasibility(self.rows, [], seed=self.seed)
+        ^^^^^^^^^^^^^^^
+AttributeError: module 'select_pilot_a' has no attribute 'feasibility'
+
+======================================================================
+ERROR: test_family_cap_violation_is_proved_infeasible_without_sampling (tests.test_pilot_a_required_groups.FeasibilityTests.test_family_cap_violation_is_proved_infeasible_without_sampling)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "G:\Meu Drive\PRJ-David\Prf-David\08_EU_REGULATORY_DATA_SCOPING\tests\test_pilot_a_required_groups.py", line 67, in test_family_cap_violation_is_proved_infeasible_without_sampling
+    f = sel.feasibility(self.rows, [academic], seed=self.seed)
+        ^^^^^^^^^^^^^^^
+AttributeError: module 'select_pilot_a' has no attribute 'feasibility'
+
+======================================================================
+ERROR: test_feasibility_search_does_not_consume_the_selection_stream (tests.test_pilot_a_required_groups.FeasibilityTests.test_feasibility_search_does_not_consume_the_selection_stream)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "G:\Meu Drive\PRJ-David\Prf-David\08_EU_REGULATORY_DATA_SCOPING\tests\test_pilot_a_required_groups.py", line 92, in test_feasibility_search_does_not_consume_the_selection_stream
+    before = sel.select(self.seed, self.rows, required_groups=groups)['sample']
+             ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: select() got an unexpected keyword argument 'required_groups'
+
+======================================================================
+ERROR: test_holdout_bound_counts_families_emptied_by_forcing (tests.test_pilot_a_required_groups.FeasibilityTests.test_holdout_bound_counts_families_emptied_by_forcing)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "G:\Meu Drive\PRJ-David\Prf-David\08_EU_REGULATORY_DATA_SCOPING\tests\test_pilot_a_required_groups.py", line 86, in test_holdout_bound_counts_families_emptied_by_forcing
+    f = sel.feasibility(self.rows, [jur, apl], seed=self.seed)
+        ^^^^^^^^^^^^^^^
+AttributeError: module 'select_pilot_a' has no attribute 'feasibility'
+
+======================================================================
+ERROR: test_too_many_forced_records_is_infeasible (tests.test_pilot_a_required_groups.FeasibilityTests.test_too_many_forced_records_is_infeasible)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "G:\Meu Drive\PRJ-David\Prf-David\08_EU_REGULATORY_DATA_SCOPING\tests\test_pilot_a_required_groups.py", line 78, in test_too_many_forced_records_is_infeasible
+    f = sel.feasibility(self.rows, [ids], seed=self.seed)
+        ^^^^^^^^^^^^^^^
+AttributeError: module 'select_pilot_a' has no attribute 'feasibility'
+
+======================================================================
+ERROR: test_outputs_go_to_the_given_folder_and_are_marked_proposed (tests.test_pilot_a_required_groups.OutputTests.test_outputs_go_to_the_given_folder_and_are_marked_proposed)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "G:\Meu Drive\PRJ-David\Prf-David\08_EU_REGULATORY_DATA_SCOPING\tests\test_pilot_a_required_groups.py", line 103, in test_outputs_go_to_the_given_folder_and_are_marked_proposed
+    result = sel.select(seed, rows, required_groups=[g['ids'] for g in spec['groups']])
+TypeError: select() got an unexpected keyword argument 'required_groups'
+
+======================================================================
+ERROR: test_required_groups_enter_complete_and_constraints_still_hold (tests.test_pilot_a_required_groups.RequiredGroupTests.test_required_groups_enter_complete_and_constraints_still_hold)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "G:\Meu Drive\PRJ-David\Prf-David\08_EU_REGULATORY_DATA_SCOPING\tests\test_pilot_a_required_groups.py", line 34, in test_required_groups_enter_complete_and_constraints_still_hold
+    result = sel.select(self.seed, self.rows, required_groups=groups)
+TypeError: select() got an unexpected keyword argument 'required_groups'
+
+======================================================================
+ERROR: test_selection_with_groups_is_deterministic (tests.test_pilot_a_required_groups.RequiredGroupTests.test_selection_with_groups_is_deterministic)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "G:\Meu Drive\PRJ-David\Prf-David\08_EU_REGULATORY_DATA_SCOPING\tests\test_pilot_a_required_groups.py", line 45, in test_selection_with_groups_is_deterministic
+    a = sel.select(self.seed, self.rows, required_groups=groups)['sample']
+        ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: select() got an unexpected keyword argument 'required_groups'
+
+======================================================================
+ERROR: test_unknown_identifier_is_rejected (tests.test_pilot_a_required_groups.RequiredGroupTests.test_unknown_identifier_is_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "G:\Meu Drive\PRJ-David\Prf-David\08_EU_REGULATORY_DATA_SCOPING\tests\test_pilot_a_required_groups.py", line 51, in test_unknown_identifier_is_rejected
+    sel.select(self.seed, self.rows, required_groups=[['EU08', 'EU99']])
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: select() got an unexpected keyword argument 'required_groups'
+
+======================================================================
+ERROR: test_without_groups_the_g1_prep_sample_is_reproduced (tests.test_pilot_a_required_groups.RequiredGroupTests.test_without_groups_the_g1_prep_sample_is_reproduced)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "G:\Meu Drive\PRJ-David\Prf-David\08_EU_REGULATORY_DATA_SCOPING\tests\test_pilot_a_required_groups.py", line 30, in test_without_groups_the_g1_prep_sample_is_reproduced
+    self.assertEqual(sel.select(self.seed, self.rows, required_groups=[])['sample'], G1_PREP_SAMPLE)
+                     ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: select() got an unexpected keyword argument 'required_groups'
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.048s
+
+FAILED (errors=10)
+exit=1

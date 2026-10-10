@@ -1,0 +1,28 @@
+---
+title: "Team & contributors"
+subtitle: "People and responsibilities, confirmed before they are presented."
+toc: false
+listing:
+  id: contributor-list
+  contents: contributors/*/index.qmd
+  type: default
+  fields: [title, description]
+  sort: title
+---
+
+[THE PEOPLE BEHIND THE WORK]{.eyebrow}
+
+The Observatory is intended as a collaborative research and publication platform. Contributor profiles will be added with the individuals' approval and confirmation of their roles and affiliations.
+
+::: {.editorial-empty-state}
+## Contributor details are not yet confirmed
+
+No team members, authors, institutional affiliations or collaborators are listed at this stage. This page does not imply an institutional partnership or an assigned research role.
+:::
+
+::: {#contributor-list}
+:::
+
+Future profiles may include a confirmed role, affiliation, research interests, biography, personal website, ORCID and related projects.
+
+[About the proposed Observatory →](about.qmd){.text-link}

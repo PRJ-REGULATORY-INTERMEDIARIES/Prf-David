@@ -1,0 +1,46 @@
+---
+title: "Datasets & resources"
+subtitle: "Discover the context, provenance and access routes of research outputs."
+toc: false
+listing:
+  id: dataset-catalog
+  contents: datasets/*/index.qmd
+  type: default
+  fields: [title, description, categories]
+  sort: title
+---
+
+[THE RESOURCE CATALOG]{.eyebrow}
+
+This section is prepared to describe approved datasets produced by independent research initiatives and to link to their documentation and access locations. A resource may be hosted by its producer, an institutional repository or another approved custodian.
+
+::: {.editorial-empty-state}
+## No datasets have been released here
+
+The catalog is awaiting reviewed contributions. Research datasets under development remain separate from this website; their scope, classifications, methods and validation are determined by the responsible research teams.
+:::
+
+::: {#dataset-catalog}
+:::
+
+::: {.area-grid}
+::: {.area-item}
+### Understand the resource
+
+Description, producing project, contributors, geographic and temporal coverage, structure and provenance.
+:::
+::: {.area-item}
+### Find the right version
+
+A confirmed version, publication or update date, documentation and citation information.
+:::
+::: {.area-item}
+### Review access conditions
+
+Custodian, license or access restrictions, and a verified repository, DOI or other access route.
+:::
+:::
+
+This website is a publication catalog. It does not query an internal research database or imply that an unfinished dataset has been completed or validated.
+
+[Read about the Observatory's role →](about.qmd){.text-link}

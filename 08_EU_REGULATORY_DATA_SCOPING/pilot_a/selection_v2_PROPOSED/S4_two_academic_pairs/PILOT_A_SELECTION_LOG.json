@@ -1,0 +1,347 @@
+{
+  "generated_at_utc": "2026-10-10T03:23:16+00:00",
+  "script": "scripts/select_pilot_a.py",
+  "script_sha256": "aafc7c177f3038129976c2b5bf4c11d1e5df8cfd5ee7702f23d180cd7c0970b4",
+  "input": "inputs/seed_inventory_v0_1.csv",
+  "input_sha256": "45316803ea07f677e0e25b0c559ae2cbee43790da06fb86240953cc9bf670bdd",
+  "columns_read": [
+    "source_seed_id",
+    "layer",
+    "name",
+    "resource_type",
+    "source_url"
+  ],
+  "columns_never_read": [
+    "rgam_potential",
+    "initial_priority",
+    "limitations",
+    "possible_legal_id",
+    "observation_unit",
+    "announced_access"
+  ],
+  "seed": 1160865795,
+  "seed_source": "first 8 hex digits of sha256(inputs/seed_inventory_v0_1.csv)",
+  "parameters": {
+    "SIZE": 20,
+    "MIN_PER_FAMILY": 1,
+    "FORCE_IDENTICAL_URL": true,
+    "MIN_HOST_CLUSTERS": 3,
+    "MIN_COMPOSITE_TYPE": 3,
+    "MIN_DISTINCT_TYPES": 18,
+    "MAX_PER_FAMILY": 4,
+    "MIN_HOLDOUT_FAMILIES": 9,
+    "MAX_ATTEMPTS": 200000
+  },
+  "generic_hosts_excluded_from_clusters": [
+    "github.com",
+    "huggingface.co",
+    "zenodo.org"
+  ],
+  "attempts_until_acceptance": 43,
+  "constraint_failures_in_rejected_attempts": {
+    "C5_composite_type": 42,
+    "C6_distinct_types": 24,
+    "C7_max_per_family": 12,
+    "C8_holdout_families": 8,
+    "C4_host_clusters": 6
+  },
+  "constraints_satisfied": {
+    "C1_size": true,
+    "C2_all_families": true,
+    "C3_identical_url_complete": true,
+    "C4_host_clusters": true,
+    "C5_composite_type": true,
+    "C6_distinct_types": true,
+    "C7_max_per_family": true,
+    "C8_holdout_families": true
+  },
+  "objective_groups": {
+    "identical_url_groups": {
+      "https://data.europa.eu/en/ELDS": [
+        "EU03",
+        "EU07"
+      ]
+    },
+    "host_clusters": {
+      "commission.europa.eu": [
+        "EU12",
+        "EU13",
+        "EU14",
+        "EU15",
+        "EU16",
+        "EU21"
+      ],
+      "data.europa.eu": [
+        "EU03",
+        "EU07",
+        "EU11",
+        "EU17"
+      ],
+      "digital-strategy.ec.europa.eu": [
+        "EU26",
+        "EU27",
+        "EU28"
+      ],
+      "eur-lex.europa.eu": [
+        "EU01",
+        "EU04",
+        "EU05",
+        "EU18",
+        "EU23"
+      ],
+      "joint-research-centre.ec.europa.eu": [
+        "EU37",
+        "EU38"
+      ],
+      "op.europa.eu": [
+        "EU02",
+        "EU06"
+      ]
+    },
+    "composite_type": [
+      "EU01",
+      "EU02",
+      "EU05",
+      "EU12",
+      "EU23"
+    ],
+    "families": [
+      "Aplicação setorial",
+      "Atores/participação",
+      "Corpus acadêmico",
+      "Corpus normativo",
+      "Delegação/implementação",
+      "Fiscalização",
+      "Infraestrutura",
+      "Intermediação RIT",
+      "Jurisprudência",
+      "Processo legislativo",
+      "Transposição/Estados"
+    ]
+  },
+  "sample": [
+    "EU02",
+    "EU03",
+    "EU07",
+    "EU08",
+    "EU09",
+    "EU11",
+    "EU12",
+    "EU16",
+    "EU17",
+    "EU18",
+    "EU19",
+    "EU21",
+    "EU23",
+    "EU27",
+    "EU33",
+    "EU34",
+    "EU35",
+    "EU37",
+    "EU38",
+    "EU39"
+  ],
+  "reserve": [
+    "EU01",
+    "EU04",
+    "EU05",
+    "EU06",
+    "EU10",
+    "EU13",
+    "EU14",
+    "EU15",
+    "EU20",
+    "EU22",
+    "EU24",
+    "EU25",
+    "EU26",
+    "EU28",
+    "EU29",
+    "EU30",
+    "EU31",
+    "EU32",
+    "EU36",
+    "EU40",
+    "EU41"
+  ],
+  "summary": {
+    "families_in_sample": {
+      "Aplicação setorial": 2,
+      "Atores/participação": 1,
+      "Corpus acadêmico": 4,
+      "Corpus normativo": 2,
+      "Delegação/implementação": 1,
+      "Fiscalização": 1,
+      "Infraestrutura": 1,
+      "Intermediação RIT": 1,
+      "Jurisprudência": 1,
+      "Processo legislativo": 4,
+      "Transposição/Estados": 2
+    },
+    "families_in_reserve": {
+      "Corpus acadêmico": 3,
+      "Corpus normativo": 2,
+      "Delegação/implementação": 2,
+      "Fiscalização": 2,
+      "Infraestrutura": 2,
+      "Intermediação RIT": 6,
+      "Jurisprudência": 1,
+      "Processo legislativo": 2,
+      "Transposição/Estados": 1
+    },
+    "distinct_resource_types_in_sample": 18,
+    "composite_type_in_sample": [
+      "EU02",
+      "EU12",
+      "EU23"
+    ],
+    "host_clusters_with_two_or_more_in_sample": {
+      "commission.europa.eu": [
+        "EU12",
+        "EU16",
+        "EU21"
+      ],
+      "data.europa.eu": [
+        "EU03",
+        "EU07",
+        "EU11",
+        "EU17"
+      ],
+      "eur-lex.europa.eu": [
+        "EU18",
+        "EU23"
+      ],
+      "joint-research-centre.ec.europa.eu": [
+        "EU37",
+        "EU38"
+      ]
+    }
+  },
+  "status": "PROPOSED (G1-READY option B, scenario S4_two_academic_pairs - comparison scenario) - requires human approval; nothing was classified or screened",
+  "required_groups": {
+    "status": "PROPOSED - not approved; explicit human-reviewable constraint",
+    "scenario": "S4_two_academic_pairs",
+    "designation_rule": null,
+    "groups": [
+      {
+        "ids": [
+          "EU08",
+          "EU09"
+        ],
+        "reason": "Interface and collection of the same institution on different hosts; the host proxy of G1-PREP could not pair them.",
+        "tests": "R2 versus R10; distribution_of versus overlaps_with"
+      },
+      {
+        "ids": [
+          "EU33",
+          "EU34"
+        ],
+        "reason": "Data service and search API of the same publisher on different hosts; left incomplete by G1-PREP.",
+        "tests": "R2 versus R10; distribution_of"
+      },
+      {
+        "ids": [
+          "EU11"
+        ],
+        "reason": "Only record whose inventory name marks it as an old dataset; no discontinued resource was in the G1-PREP sample.",
+        "tests": "protocol criterion I5; relation successor_of; evidence for a discontinued resource"
+      },
+      {
+        "ids": [
+          "EU35",
+          "EU39"
+        ],
+        "reason": "Research corpus and benchmark task built on EU legislation; candidate derivation chain between two third-party resources (relation not verified).",
+        "tests": "R6; derived_from between derived corpora"
+      },
+      {
+        "ids": [
+          "EU37",
+          "EU38"
+        ],
+        "reason": "Two parallel corpora on the same host with the same name stem.",
+        "tests": "overlaps_with versus part_of; same-maintainer rule"
+      }
+    ]
+  },
+  "forced_records": [
+    "EU03",
+    "EU07",
+    "EU08",
+    "EU09",
+    "EU11",
+    "EU33",
+    "EU34",
+    "EU35",
+    "EU37",
+    "EU38",
+    "EU39"
+  ],
+  "feasibility_before_selection": {
+    "status": "FEASIBLE",
+    "bounds": {
+      "C1_size": {
+        "ok": true,
+        "forced": 11,
+        "required": "<= 20"
+      },
+      "C2_all_families": {
+        "ok": true,
+        "families_still_to_cover": 6,
+        "free_slots": 9,
+        "required": "free slots >= families still to cover"
+      },
+      "C3_identical_url_complete": {
+        "ok": true,
+        "note": "identical-URL groups are forced"
+      },
+      "C4_host_clusters": {
+        "ok": true,
+        "best_possible": 6,
+        "required": 3
+      },
+      "C5_composite_type": {
+        "ok": true,
+        "best_possible": 5,
+        "required": 3
+      },
+      "C6_distinct_types": {
+        "ok": true,
+        "best_possible": 18,
+        "required": 18,
+        "distinct_types_among_forced": 9,
+        "forced": 11
+      },
+      "C7_max_per_family": {
+        "ok": true,
+        "largest_forced_family": 4,
+        "required": "<= 4",
+        "forced_per_family": {
+          "Aplicação setorial": 2,
+          "Corpus acadêmico": 4,
+          "Corpus normativo": 1,
+          "Infraestrutura": 1,
+          "Processo legislativo": 3
+        }
+      },
+      "C8_holdout_families": {
+        "ok": true,
+        "best_possible": 9,
+        "required": 9
+      }
+    },
+    "search": {
+      "trials": 2000,
+      "accepted": 30,
+      "acceptance_rate": 0.015,
+      "failures_by_constraint": {
+        "C4_host_clusters": 231,
+        "C5_composite_type": 1931,
+        "C6_distinct_types": 1052,
+        "C7_max_per_family": 709,
+        "C8_holdout_families": 320
+      },
+      "stream": "random.Random(seed XOR 0x5F5E100), independent of the selection stream"
+    }
+  }
+}

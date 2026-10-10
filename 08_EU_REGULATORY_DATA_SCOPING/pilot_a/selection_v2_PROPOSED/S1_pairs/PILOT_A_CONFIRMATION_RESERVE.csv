@@ -1,0 +1,22 @@
+﻿source_seed_id,layer,name,resource_type,source_url,objective_properties
+EU02,Corpus normativo,CELLAR — repositório e grafo de metadados,Grafo/API,https://op.europa.eu/en/web/cellar/cellar-data/metadata/knowledge-graph,host:op.europa.eu;composite_type
+EU04,Corpus normativo,Official Journal — arquivos XML Formex,Coleção XML,https://eur-lex.europa.eu/content/help/data-reuse/reuse-contents-eurlex-details.html?locale=en,host:eur-lex.europa.eu
+EU05,Infraestrutura,European Legislation Identifier (ELI),Padrão/metadados,https://eur-lex.europa.eu/eli-register/what_is_eli.html,host:eur-lex.europa.eu;composite_type
+EU06,Infraestrutura,EuroVoc — tesauro multilíngue,Vocabulário controlado,https://op.europa.eu/en/web/eu-vocabularies,host:op.europa.eu
+EU10,Processo legislativo,Council — resultados de votações legislativas,Base consultável,https://www.consilium.europa.eu/en/general-secretariat/corporate-policies/transparency/voting-results/,
+EU11,Processo legislativo,Council votes on legislative acts — dataset antigo,Dataset histórico,https://data.europa.eu/data/datasets/council-votes-on-legislative-acts?locale=en,host:data.europa.eu
+EU13,Processo legislativo,Register of Commission Documents,Base documental,https://commission.europa.eu/about/service-standards-and-principles/transparency/how-access-commission-documents_en,host:commission.europa.eu
+EU15,Delegação/implementação,Comitology Register — comitês e atos de execução,Base processual,https://commission.europa.eu/law/law-making-process/adopting-eu-law/implementing-and-delegated-acts/comitology_en,host:commission.europa.eu
+EU18,Transposição/Estados,EUR-Lex — National Transposition Measures (NIM),Base jurídica,https://eur-lex.europa.eu/collection/n-law/mne.html?locale=en,host:eur-lex.europa.eu
+EU20,Transposição/Estados,TRIS — notificações de regras técnicas nacionais,Base processual,https://technical-regulation-information-system.ec.europa.eu/en/search,
+EU21,Fiscalização,Commission — Infringement Decisions Register,Registro de casos,https://commission.europa.eu/law/application-eu-law_en,host:commission.europa.eu
+EU22,Jurisprudência,InfoCuria — decisões do TJUE,Base jurisprudencial,https://curia.europa.eu/site/jcms/p1_1000063986/en/new-infocuria-case-law-database-and-search-tool,
+EU28,Intermediação RIT,DGA — Register of Data Intermediation Services,Cadastro temático,https://digital-strategy.ec.europa.eu/en/policies/data-intermediary-services,host:digital-strategy.ec.europa.eu
+EU29,Intermediação RIT,NANDO — Notified Bodies,Cadastro de intermediários,https://single-market-economy.ec.europa.eu/single-market/goods/building-blocks/notified-bodies_en,
+EU31,Intermediação RIT,EEA — Reportnet 3 / Dataflows,Plataforma de reportes,https://reportnet.europa.eu/,
+EU35,Corpus acadêmico,MultiEURLEX — EU legislation corpus,Dataset de pesquisa,https://zenodo.org/records/5363165,
+EU36,Corpus acadêmico,EURLEX57K,Dataset de pesquisa,https://github.com/iliaschalkidis/lmtc-eurlex57k,
+EU37,Corpus acadêmico,JRC-Acquis,Corpus paralelo,https://joint-research-centre.ec.europa.eu/language-technology-resources/jrc-acquis_en,host:joint-research-centre.ec.europa.eu
+EU38,Corpus acadêmico,DGT-Acquis,Corpus paralelo,https://joint-research-centre.ec.europa.eu/language-technology-resources/dgt-acquis_en,host:joint-research-centre.ec.europa.eu
+EU39,Corpus acadêmico,LexGLUE — subtarefa EUR-LEX,Benchmark jurídico,https://github.com/coastalcph/lex-glue,
+EU41,Corpus acadêmico,ParlTrack,Base cívica derivada,https://github.com/parltrack/parltrack,

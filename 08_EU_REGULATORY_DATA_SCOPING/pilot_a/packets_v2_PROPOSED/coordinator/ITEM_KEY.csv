@@ -1,0 +1,21 @@
+﻿source_seed_id,item_id_A,item_id_B,label_shown
+EU01,A-12,B-02,EUR-Lex
+EU03,A-08,B-01,EUR-Lex data dump
+EU04,A-18,B-12,Official Journal of the European Union (Formex)
+EU07,A-04,B-11,European Legal Data Space (ELDS)
+EU08,A-09,B-19,European Parliament Open Data API (procedures)
+EU09,A-15,B-03,Legislative Observatory (OEIL)
+EU11,A-19,B-05,Council votes on legislative acts
+EU12,A-03,B-09,Have Your Say / Better Regulation (European Commission)
+EU15,A-06,B-04,Comitology Register
+EU17,A-05,B-17,EU Transparency Register
+EU19,A-13,B-20,N-Lex
+EU20,A-16,B-13,TRIS (Technical Regulation Information System)
+EU21,A-01,B-18,European Commission (infringement decisions)
+EU23,A-20,B-06,European Case Law Identifier (ECLI) / European e-Justice Portal
+EU29,A-07,B-07,NANDO
+EU33,A-14,B-14,TED Open Data Service
+EU34,A-11,B-08,TED Search API
+EU35,A-17,B-10,MultiEURLEX
+EU39,A-02,B-16,LexGLUE (EUR-LEX task)
+EU41,A-10,B-15,ParlTrack

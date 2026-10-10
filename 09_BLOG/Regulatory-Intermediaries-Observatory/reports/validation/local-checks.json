@@ -1,0 +1,58 @@
+[
+  {
+    "command": [
+      "G:\\Meu Drive\\PRJ-David\\Prf-David\\09_BLOG\\Regulatory-Intermediaries-Observatory\\.venv\\Scripts\\python.exe",
+      "-m",
+      "rio",
+      "validate"
+    ],
+    "returncode": 0,
+    "stdout": "{\n  \"valid\": true,\n  \"errors\": []\n}\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "G:\\Meu Drive\\PRJ-David\\Prf-David\\09_BLOG\\Regulatory-Intermediaries-Observatory\\.venv\\Scripts\\python.exe",
+      "scripts/validation/validate.py",
+      "--db",
+      "data/working/synthetic.sqlite"
+    ],
+    "returncode": 0,
+    "stdout": "{\n  \"valid\": true,\n  \"errors\": []\n}\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "git",
+      "status",
+      "--short"
+    ],
+    "returncode": 0,
+    "stdout": "?? .gitignore\n?? CHANGELOG.md\n?? README.md\n?? codebook/\n?? data/\n?? database/\n?? docs/\n?? protocol/\n?? pyproject.toml\n?? references/\n?? reports/\n?? scripts/\n?? src/\n?? tests/\n?? website/\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "git",
+      "remote",
+      "-v"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "git",
+      "check-ignore",
+      "data/working/rio.sqlite",
+      "data/working/synthetic.sqlite",
+      "data/processed/synthetic-demo/snapshot.json",
+      ".venv/pyvenv.cfg",
+      "website/_site/index.html"
+    ],
+    "returncode": 0,
+    "stdout": "data/working/rio.sqlite\ndata/working/synthetic.sqlite\ndata/processed/synthetic-demo/snapshot.json\n.venv/pyvenv.cfg\nwebsite/_site/index.html\n",
+    "stderr": ""
+  }
+]

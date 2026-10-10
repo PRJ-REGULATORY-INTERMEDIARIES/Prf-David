@@ -1,0 +1,39 @@
+{
+  "http_checks": [
+    {
+      "page": "index.html",
+      "http_status": 200,
+      "bytes": 24164
+    },
+    {
+      "page": "research.html",
+      "http_status": 200,
+      "bytes": 24706
+    },
+    {
+      "page": "dataset.html",
+      "http_status": 200,
+      "bytes": 24801
+    },
+    {
+      "page": "blog.html",
+      "http_status": 200,
+      "bytes": 25926
+    },
+    {
+      "page": "team.html",
+      "http_status": 200,
+      "bytes": 22300
+    },
+    {
+      "page": "posts/infrastructure-preview/index.html",
+      "http_status": 200,
+      "bytes": 22962
+    }
+  ],
+  "local_link_errors": [],
+  "blog_entry_link": true,
+  "browser_visual_inspection": false,
+  "preview_command": "quarto preview website --host 127.0.0.1 --port 4321 --no-browser --no-watch-inputs",
+  "notes": "Functional HTTP and generated-file checks only; no browser-based visual inspection."
+}

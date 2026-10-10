@@ -1,0 +1,37 @@
+---
+title: "Visualizations"
+subtitle: "Making research legible, with context and evidence."
+toc: false
+---
+
+[VISUAL RESEARCH]{.eyebrow}
+
+This section is prepared for comparative charts, relationship diagrams, geographic views and interactive research graphics. Every future visualization should identify its source, scope, version, methods and limitations.
+
+::: {.editorial-empty-state}
+## A space for future visual evidence
+
+No empirical visualizations are available. Charts and diagrams will be introduced only with reviewed source material and explanatory context.
+:::
+
+::: {.area-grid}
+::: {.area-item}
+### Compare
+
+Charts with clear units, denominators and uncertainty, accompanied by a readable table where possible.
+:::
+::: {.area-item}
+### Connect
+
+Relationship views that explain the meaning and direction of connections, without treating missing evidence as absence.
+:::
+::: {.area-item}
+### Locate
+
+Geographic views with a defined spatial scope, accessible labels and a text alternative.
+:::
+:::
+
+Accessible descriptions and a static alternative will accompany interactive work. Visual presentation will not substitute for the underlying methodology.
+
+[Explore datasets & resources →](dataset.qmd){.text-link}
