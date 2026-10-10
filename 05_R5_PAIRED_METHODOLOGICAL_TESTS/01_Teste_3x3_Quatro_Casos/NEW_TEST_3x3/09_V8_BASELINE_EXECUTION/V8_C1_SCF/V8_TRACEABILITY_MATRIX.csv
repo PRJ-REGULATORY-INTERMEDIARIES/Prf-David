@@ -1,0 +1,16 @@
+architecture_id,configuration_id,relation_id,claim_id,legal_anchor,source_element_or_attribute,inferential_link,status
+A01,CFG01,R01,C03,Arts. 16(1)–(3);17(1)–(4),Commission assessment authority and Plan decision,Required submission plus assessment and decision authorize Fund-supported Plan,Direct text to relation
+A01,CFG01,R03,C08,Arts. 5(1)–(3);6(1)(n),Consultation duty and account of stakeholder input,Consultation is embedded in the Plan preparation process,Direct text to relation
+A01,CFG01,R01,C11,Arts. 4–6;16–17,Plan formation and authorization configuration,Submission consultation assessment and decision combine around one stage,Configuration inference
+A01,CFG02,R02,C04,"Arts. 12;17(2)(a), (d);21(1);Annex III point 1(a)",Commission direct management and Member State implementation/control assignments,Distinct functions allocated across EU and national levels,Cross-provision relation
+A01,CFG02,R02,C05,Arts. 7(2);17(2)(b);19;20(1)–(9),Milestones/targets condition payment; suspension/reduction/termination consequences,Funding sequence links performance to consequential disbursement decisions,Cross-provision relation
+A01,CFG02,R09,C07,Arts. 20(4)–(7);21(4),Remedial authority and opportunity to comment,Financial consequences and procedural protections shape conditional funding,Cross-provision relation
+A01,CFG02,R02,C12,Arts. 7(2);12;17(2)(b);19–20,Direct management and performance-linked payment configuration,Several relations jointly organize disbursement,Configuration inference
+A01,CFG03,R04,C09,Art. 9(1)–(2),Optional channels and pass-through obligation,Recipient delivery may be mediated but is not structurally required,Direct text; limited architectural weight
+A01,CFG03,R05,C10,Art. 24(1)–(4);27(1)–(3),Reporting monitoring and evaluation functions,Reporting connects national implementation to Commission monitoring/evaluation,Cross-provision relation
+A01,CFG03,R06,C06,Art. 21(1)–(3);Annex III points 1–3,Internal controls audit data and recovery duties,Control obligations connect Member State implementation with EU financial protection,Cross-provision relation
+A01,CFG03,R07,C13,Arts. 25–26,Transparency/dialogue relationships,Additional oversight paths supplement reporting and audit,Cross-provision aggregation
+A01,CFG03,R08,C10,Art. 27(1)–(4),Evaluation relationship,Ex post/interim evaluation extends accountability and review over time,Direct text
+A01,CFG03,R09,C07,Arts. 20(4)–(7);21(4),Suspension/reduction/recovery powers,Consequential remedial powers attach to implementation and finance,Direct text
+A01,CFG03,R05,C13,Arts. 21–27;Annex III points 1–3,National implementation and accountability configuration,"Control, reporting, transparency and remedial ties combine around implementation",Configuration inference
+A01,CFG01;CFG02;CFG03,,C14,Arts. 1–27;Annex III points 1–3,Vertical allocation; authority; sequence; consequence; substitutability,Three linked configurations aggregate into bounded Fund legal architecture,Architecture inference; medium-high confidence

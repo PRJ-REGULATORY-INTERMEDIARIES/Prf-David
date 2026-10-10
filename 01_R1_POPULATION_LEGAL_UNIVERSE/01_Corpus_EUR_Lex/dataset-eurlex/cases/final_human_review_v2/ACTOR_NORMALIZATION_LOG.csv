@@ -1,0 +1,38 @@
+verbatim_name,normalized_name,case_id,decision,reason
+"European Parliament and Council (Union legislature, acting through this Regulation)","European Parliament and Council (Union legislature, acting through this Regulation)",case_01,RETAINED,Retained verbatim: no safe alias merge was required.
+Member States,Member States,case_01,RETAINED,Explicit canonicalization of a role-bearing label; no cross-actor merge.
+relevant Union institutions,relevant Union institutions,case_01,RETAINED,Retained verbatim: no safe alias merge was required.
+European Commission,European Commission,case_01,RETAINED,Explicit canonicalization of a role-bearing label; no cross-actor merge.
+European Environment Agency (EEA),European Environment Agency (EEA),case_01,RETAINED,Explicit canonicalization of a role-bearing label; no cross-actor merge.
+European Scientific Advisory Board on Climate Change (Advisory Board),European Scientific Advisory Board on Climate Change (Advisory Board),case_01,RETAINED,Explicit canonicalization of a role-bearing label; no cross-actor merge.
+sectors of the economy (undertakings choosing to prepare voluntary roadmaps),sectors of the economy (undertakings choosing to prepare voluntary roadmaps),case_01,RETAINED,Retained verbatim: no safe alias merge was required.
+European Commission,European Commission,case_02,RETAINED,Explicit canonicalization of a role-bearing label; no cross-actor merge.
+Member State competent authorities,Member State competent authorities,case_02,RETAINED,Explicit canonicalization of a role-bearing label; no cross-actor merge.
+accredited verifiers,Accredited verifiers,case_02,NORMALIZED,Explicit canonicalization of a role-bearing label; no cross-actor merge.
+authorised CBAM declarants,authorised CBAM declarants,case_02,RETAINED,Retained verbatim: no safe alias merge was required.
+national accreditation bodies,National accreditation bodies,case_02,NORMALIZED,Explicit canonicalization of a role-bearing label; no cross-actor merge.
+verifiers,verifiers,case_02,RETAINED,Retained verbatim: no safe alias merge was required.
+customs authorities,Customs authorities,case_02,NORMALIZED,Explicit canonicalization of a role-bearing label; no cross-actor merge.
+authorised CBAM declarants / importers,authorised CBAM declarants / importers,case_02,RETAINED,Retained verbatim: no safe alias merge was required.
+persons introducing goods without authorisation,persons introducing goods without authorisation,case_02,RETAINED,Retained verbatim: no safe alias merge was required.
+operators of installations in third countries,operators of installations in third countries,case_02,RETAINED,Retained verbatim: no safe alias merge was required.
+third countries or territories seeking electricity-market exemption,third countries or territories seeking electricity-market exemption,case_02,RETAINED,Retained verbatim: no safe alias merge was required.
+"producers, exporters, importers or traders engaged in practices of circumvention","producers, exporters, importers or traders engaged in practices of circumvention",case_02,RETAINED,Retained verbatim: no safe alias merge was required.
+Member State competent authorities,Member State competent authorities,case_03,RETAINED,Explicit canonicalization of a role-bearing label; no cross-actor merge.
+European Commission,European Commission,case_03,RETAINED,Explicit canonicalization of a role-bearing label; no cross-actor merge.
+operators,operators,case_03,RETAINED,Retained verbatim: no safe alias merge was required.
+traders (including non-SME traders treated as operators),traders (including non-SME traders treated as operators),case_03,RETAINED,Retained verbatim: no safe alias merge was required.
+customs authorities,Customs authorities,case_03,NORMALIZED,Explicit canonicalization of a role-bearing label; no cross-actor merge.
+traders,traders,case_03,RETAINED,Retained verbatim: no safe alias merge was required.
+Member States and third countries or parts thereof,Member States and third countries or parts thereof,case_03,RETAINED,Retained verbatim: no safe alias merge was required.
+natural or legal persons submitting substantiated concerns,natural or legal persons submitting substantiated concerns,case_03,RETAINED,Retained verbatim: no safe alias merge was required.
+FLEGT licensing authorities/scheme (operating under Regulation (EC) No 2173/2005 Voluntary Partnership Agreements),FLEGT licensing authorities/scheme,case_03,NORMALIZED,Explicit canonicalization of a role-bearing label; no cross-actor merge.
+operators and traders of FLEGT-licensed wood products,operators and traders of FLEGT-licensed wood products,case_03,RETAINED,Retained verbatim: no safe alias merge was required.
+Energy Union Committee,Energy Union Committee,case_01,RETAINED,Explicit canonicalization of a role-bearing label; no cross-actor merge.
+CBAM Committee,CBAM Committee,case_02,RETAINED,Explicit canonicalization of a role-bearing label; no cross-actor merge.
+Authorised CBAM declarants,Authorised CBAM declarants,case_02,RETAINED,Retained verbatim: no safe alias merge was required.
+Experts designated by each Member State,Experts designated by each Member State,case_02,RETAINED,Explicit canonicalization of a role-bearing label; no cross-actor merge.
+Authorised CBAM declarants / operators affected by the resulting delegated acts,Authorised CBAM declarants / operators affected by the resulting delegated acts,case_02,RETAINED,Retained verbatim: no safe alias merge was required.
+"Comitology committee, Article 36","Comitology committee, Article 36",case_03,RETAINED,Explicit canonicalization of a role-bearing label; no cross-actor merge.
+Operators,Operators,case_03,RETAINED,Retained verbatim: no safe alias merge was required.
+Traders,Traders,case_03,RETAINED,Retained verbatim: no safe alias merge was required.

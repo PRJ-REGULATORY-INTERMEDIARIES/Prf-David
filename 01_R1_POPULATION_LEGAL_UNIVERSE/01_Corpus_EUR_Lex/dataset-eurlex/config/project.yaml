@@ -1,0 +1,45 @@
+project:
+  name: dataset-eurlex
+  status: methodology_locked
+  methodology:
+    current_version: 1.1.0
+    status: locked
+    path: methodology/v1.1.0
+    supersedes: 1.0.0
+    review_status: external_methodological_review_completed
+  study_type: single_case_methodological_pilot
+  purpose: >
+    Exploratory single-case methodological pilot for identifying and coding
+    regulatory acts using one EUR-Lex normative act and comparing human
+    adjudicated reference coding with three LLM instruction conditions: G0,
+    G1 and G2.
+
+corpus:
+  number_of_documents: 1
+  source: EUR-Lex
+  celex: 32021R1119
+  title: >
+    Regulation (EU) 2021/1119 of the European Parliament and of the Council
+    of 30 June 2021 establishing the framework for achieving climate neutrality
+    and amending Regulations (EC) No 401/2009 and (EU) 2018/1999
+    ('European Climate Law')
+  url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32021R1119
+
+experimental_conditions:
+  - G0
+  - G1
+  - G2
+
+human_role:
+  mode: minimal_adjudication
+  required_gate: HUMAN_GATE_REFERENCE_ADJUDICATION
+
+reference:
+  type: researcher_adjudicated_reference_benchmark
+  locked: false
+
+human_reference:
+  required: true
+  completed: false
+
+created_files_are_ground_truth: false

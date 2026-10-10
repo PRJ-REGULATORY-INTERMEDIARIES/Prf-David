@@ -1,0 +1,6 @@
+sample_id,case_id,act_name,celex,sample_type,blind,source_url,selection_rule
+CAL_01,P01,76/889/EEC,31976L0889,CALIBRATION,NO,https://eur-lex.europa.eu/eli/dir/1976/889/oj/eng,Same five acts as PILOT_02; frozen for calibration and contrast.
+CAL_02,P02,89/336/EEC,31989L0336,CALIBRATION,NO,https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:31989L0336,Same five acts as PILOT_02; frozen for calibration and contrast.
+CAL_03,P03,91/263/EEC,31991L0263,CALIBRATION,NO,https://eur-lex.europa.eu/eli/dir/1991/263/oj/eng,Same five acts as PILOT_02; frozen for calibration and contrast.
+CAL_04,P04,Commission Regulation (EC) No 874/2004,32004R0874,CALIBRATION,NO,https://eur-lex.europa.eu/eli/reg/2004/874/oj/eng,Same five acts as PILOT_02; frozen for calibration and contrast.
+CAL_05,P05,Regulation (EC) No 1781/2006,32006R1781,CALIBRATION,NO,https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32006R1781,Same five acts as PILOT_02; frozen for calibration and contrast.

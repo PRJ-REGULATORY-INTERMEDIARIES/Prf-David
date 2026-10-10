@@ -1,0 +1,27 @@
+EU Green-Transition Regulatory Intermediaries — Final Three-Case Dataset,,,,,,,
+,,,,,,,
+,,,,,,,
+"Researcher-adjudicated dataset using a multi-level R-I-T architecture: Act/Regime → Actor-in-Role → Intermediary Function/Mechanism, supported by relation-level evidence.",,,,,,,
+,,,,,,,
+=COUNTA(ACT_SUMMARY!A2:A4),,=SUM(ACT_SUMMARY!F2:F4),,=SUM(ACT_SUMMARY!G2:G4),,=SUM(ACT_SUMMARY!I2:I4),
+Regulations,,Final relations,,Intermediated relations,,Intermediary actor-role records,
+,,,,,,,
+Final analytical structure,,,,,,,
+Level,Purpose,,,,,,
+Act / regime,Defines the legal and institutional context of each regulation.,,,,,,
+Actor-in-role,"Maps actors as R, I or T within each act; roles remain relational and context-dependent.",,,,,,
+Relation evidence,Preserves the operative legal episodes that justify role and intermediary classifications.,,,,,,
+,,,,,,,
+Cases,,,,,,,
+Case,CELEX,Regulation,Domain,Final relations,Intermediated,Direct,Source
+case_01,32021R1119,Regulation (EU) 2021/1119 — European Climate Law,Climate governance,=ACT_SUMMARY!F2,=ACT_SUMMARY!G2,=ACT_SUMMARY!H2,https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32021R1119
+case_02,32023R0956,Regulation (EU) 2023/956 — Carbon Border Adjustment Mechanism (CBAM),"Climate, trade and industrial decarbonisation",=ACT_SUMMARY!F3,=ACT_SUMMARY!G3,=ACT_SUMMARY!H3,https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32023R0956
+case_03,32023R1115,Regulation (EU) 2023/1115 — Deforestation-Free Products Regulation (EUDR),"Deforestation, biodiversity and supply-chain governance",=ACT_SUMMARY!F4,=ACT_SUMMARY!G4,=ACT_SUMMARY!H4,https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32023R1115
+,,,,,,,
+Mechanism-family convention,,,,,,,
+Family,Meaning in this dataset,,,,,,
+reporting,Formal reporting or evidence transmission used as part of the regulatory mechanism.,,,,,,
+certification,Certification/licensing/accreditation functions that validate actors or compliance status.,,,,,,
+auditing,Independent verification/assurance of regulated information or performance.,,,,,,
+other,"Institutionally integrated intermediary functions outside the four focal families (e.g., comitology, expert consultation, border-information functions).",,,,,,
+ranking/rating,No final instance identified in these three acts.,,,,,,

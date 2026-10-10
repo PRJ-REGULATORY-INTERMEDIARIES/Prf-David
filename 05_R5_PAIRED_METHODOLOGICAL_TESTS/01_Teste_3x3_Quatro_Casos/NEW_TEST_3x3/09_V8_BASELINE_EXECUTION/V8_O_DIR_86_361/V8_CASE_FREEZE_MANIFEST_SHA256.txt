@@ -1,0 +1,2 @@
+case_manifest_sha256  5EA5F2D2ADDB251262555D0090AB131C7C14F4C063D5DF4A2A0093870D4F9D85
+self-hash is detached; this file is not self-referential

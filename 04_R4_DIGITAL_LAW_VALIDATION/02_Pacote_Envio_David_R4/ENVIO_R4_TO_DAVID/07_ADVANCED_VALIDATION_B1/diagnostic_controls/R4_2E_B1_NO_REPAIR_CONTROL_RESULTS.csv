@@ -1,0 +1,4 @@
+"CONTROL_DIAGNOSTIC","BATCH_ID","CASE_ID","RECORD_ID","ACT","SOURCE_REFERENCE","CONTROL_RESULT","ADVANCED_DEFECT_PRESENT","PROPOSITION_ANCHOR_CONFIDENCE","NOTE"
+"NO_REPAIR_CONTROL_DIAGNOSTIC","B1-01","D1_GDPR","EXT-000085",,"32016R0679#article_40/p5","DEFECT_FOUND","YES","HIGH","The control reveals a local proposition-boundary/action/relational misallocation. One B1-01 control does not establish systematic compression failure."
+"NO_REPAIR_CONTROL_DIAGNOSTIC","B1-01","D2_DSA","EXT-000529",,"32022R2065#article_22/p5","CLEAN_CONFIRMED","NO","HIGH","The frozen source supports the original structural representation for this control."
+"NO_REPAIR_CONTROL_DIAGNOSTIC","B1-01","D3_AI_ACT","EXT-000947",,"32024R1689#article_17/p1","CLEAN_CONFIRMED","NO","HIGH","The frozen source supports the original structural representation for this control."

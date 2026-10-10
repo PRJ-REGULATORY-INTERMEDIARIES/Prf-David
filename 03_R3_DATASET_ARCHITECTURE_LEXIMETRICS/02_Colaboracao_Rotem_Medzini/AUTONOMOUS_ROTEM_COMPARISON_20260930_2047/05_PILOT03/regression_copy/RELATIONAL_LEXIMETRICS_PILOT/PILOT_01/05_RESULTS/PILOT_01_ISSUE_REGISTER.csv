@@ -1,0 +1,11 @@
+﻿issue_id,case_scope,issue_type,description,diagnostic,recommended_handling,provenance,status
+ISSUE_001,P02/P03,PROVISION_TRACEABILITY,Several rich coding rows have no structured relevant provision reference.,BLOCKS_FULL_LEGAL_VALIDATION,Retrieve and verify articles/annexes before scaling.,MODEL_PILOT,OPEN
+ISSUE_002,P03,FUNCTION_MECHANISM,"Monitoring, audit, surveillance and assurance overlap in the existing record.",DUPLICATION_RISK,"Keep action, function, mechanism and device separate; do not add a production category yet.",MODEL_PILOT,OPEN
+ISSUE_003,P02,ACTOR_STATUS,Insurance companies may be a supporting device rather than a regulatory intermediary.,INTERMEDIARY_STATUS_UNCERTAIN,Retain as an unresolved actor edge and adjudicate against text.,MODEL_PILOT,OPEN
+ISSUE_004,P05,ACTOR_STATUS,Auditor and recognized self-regulatory body appear as alternative categories in one narrative.,ALTERNATIVE_CATEGORY,Branch the alternatives or establish an explicit OR relation.,MODEL_PILOT,OPEN
+ISSUE_005,P04,ROLE_MULTIPLICITY,"Registry is simultaneously institutional context, regulator of registrars and selecting actor for specialist intermediaries.",ROLE_NOT_FIXED,Use relationship-specific roles and retain identity separately.,MODEL_PILOT,OPEN
+ISSUE_006,P02/P03,FUNCTION_FLAG,"Current function flags may not match the narrative action set (e.g., enforcement or auditing).",FLAG_NARRATIVE_MISMATCH,Do not translate flags directly into relational rows without comparison.,HUMAN_EXISTING,OPEN
+ISSUE_007,ALL,EVIDENCE_LAYER,"Current workbook statements are normalized summaries, not consistently verbatim excerpts.",EVIDENCE_TYPE_MIX,Add direct excerpt field and evidence type to production candidate schema only after testing.,MODEL_PILOT,OPEN
+ISSUE_008,ALL,MODALITY,Required/authorized/optional status is not consistently structured in selected source rows.,MODALITY_MISSING,Capture deontic force at provision level.,MODEL_PILOT,OPEN
+ISSUE_009,ALL,ACTOR_POSITION,A/B alone cannot represent R-I-T and reporting recipients without role collapse.,POSITIONAL_SCHEMA,Retain optional ACTOR_I and recipient/oversight positions.,DERIVED_RULE,OPEN
+ISSUE_010,ALL,SCALING,Five purposive cases cannot establish prevalence or intercoder reliability.,SAMPLE_LIMIT,Run PILOT_02 with independent duplicate coding.,MODEL_PILOT,OPEN

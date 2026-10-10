@@ -1,0 +1,201 @@
+{
+ "R1_units_exist": [
+  true,
+  []
+ ],
+ "R1_screened_eq_total": [
+  true,
+  [
+   558,
+   558
+  ]
+ ],
+ "R2_statements": [
+  true,
+  []
+ ],
+ "R3_ids_resolve": [
+  true,
+  []
+ ],
+ "R3_accountable_via_empty_or_accountability": [
+  true,
+  "no accountability-type QR exists; field blank for all"
+ ],
+ "R4_qr_parties_modality_status": [
+  true,
+  []
+ ],
+ "R5_provenance_and_derived": [
+  true,
+  []
+ ],
+ "R6_arch_outcomes_hq": [
+  true,
+  []
+ ],
+ "R7_closure": [
+  true,
+  []
+ ],
+ "R8_ext_not_checked": [
+  true,
+  33
+ ],
+ "R9_human_cols_blank": [
+  true,
+  16
+ ],
+ "R10_trace": [
+  true,
+  []
+ ],
+ "spans_le_400_verbatim": true,
+ "screen_issues": [],
+ "unresolved_keys": [],
+ "no_prohibition_QR": true,
+ "na_prohibition_constraint_only_Y": true,
+ "headers_equal_templates": true,
+ "unique_ids": true,
+ "counts": {
+  "W_DECLARATION": 1,
+  "SOURCE_UNIT_INVENTORY": 558,
+  "UNIT_SCREENING": 558,
+  "INSTITUTIONAL_STATEMENTS": 174,
+  "NORMATIVE_ASSIGNMENTS": 65,
+  "POSITIONS_AND_DEVICES": 27,
+  "QUALIFIED_RELATIONS": 101,
+  "EXTERNAL_REFERENCES": 33,
+  "SUBCONFIGURATIONS": 11,
+  "ARCHITECTURE_CANDIDATES": 7,
+  "PROPERTY_REGISTER": 19,
+  "CLOSURE_REGISTER": 7,
+  "PROVENANCE_LINKS": 2855,
+  "UNCERTAINTY_LOG": 44,
+  "HUMAN_REVIEW_QUEUE": 16,
+  "TRACE_DEMONSTRATIONS": 2,
+  "INSTRUMENT_LEVEL_SUMMARY": 1,
+  "PROTOCOL_DEVIATION_LOG": 12,
+  "RUN_METADATA": 1
+ },
+ "screen_counts": {
+  "yes": 433,
+  "no": 125,
+  "uncertain": 0
+ },
+ "trace": {
+  "draw": [
+   "SC-05",
+   "sc.ENFORCE",
+   78,
+   8
+  ],
+  "largest": [
+   "ARCH-07",
+   "arch.WHOLE",
+   283,
+   14
+  ],
+  "eligible": [
+   "ARCH-01",
+   "ARCH-02",
+   "ARCH-04",
+   "ARCH-05",
+   "ARCH-07",
+   "SC-01",
+   "SC-02",
+   "SC-03",
+   "SC-04",
+   "SC-05",
+   "SC-06",
+   "SC-08",
+   "SC-09"
+  ],
+  "select": "SEEDED_DRAW among candidate S/ARCH records citing units from >= 2 distinct parts (chapters/annexes) of the instrument, over the list sorted by id, seed = integer value of the first 8 hex digits of the case source SHA-256 (3296602003); index = random.Random(seed).randrange(len(list)) (Python 3)"
+ },
+ "down_coded": {
+  "na.A21_PRICE": [
+   "ext.REG1031"
+  ],
+  "na.A25_PROHIB": [
+   "ext.UCC_PERSONS"
+  ],
+  "na.A26_LIABLE_ACD": [
+   "ext.DIR87_PEN"
+  ],
+  "na.A26_LIABLE_OTHER": [
+   "ext.DIR87_PEN"
+  ],
+  "na.A30P8_REPORT": [
+   "ext.REG2021_947"
+  ],
+  "na.A31_ADJUST": [
+   "ext.DIR87_FREE"
+  ],
+  "na.A31P2_IMPL": [
+   "ext.DIR87_FREE"
+  ],
+  "na.A32_ICR": [
+   "ext.UCC_PERSONS"
+  ],
+  "qr.A2P10_DEL": [
+   "ext.REG2015_1222"
+  ],
+  "qr.A8_ENSURE": [
+   "ext.REG2018_2067"
+  ],
+  "qr.A10_VERIFY": [
+   "ext.REG2018_2067"
+  ],
+  "qr.A18_ACCREDIT": [
+   "ext.REG765_NAB"
+  ],
+  "qr.A25_COMM": [
+   "ext.UCC_SURVEIL"
+  ],
+  "qr.A25_CONF": [
+   "ext.UCC_SURVEIL"
+  ],
+  "qr.A26_IMPOSE_ACD": [
+   "ext.DIR87_PEN"
+  ],
+  "qr.A26_IMPOSE_OTHER": [
+   "ext.DIR87_PEN"
+  ],
+  "qr.A26_SECURE": [
+   "ext.NATLAW"
+  ],
+  "qr.A29_ASSIST": [
+   "ext.REG182"
+  ],
+  "qr.A33_INFORM": [
+   "ext.UCC_PERSONS"
+  ],
+  "qr.A33_COMM": [
+   "ext.UCC_SURVEIL"
+  ],
+  "qr.A35_REPORT": [
+   "ext.UCC_PROCESSING"
+  ],
+  "qr.ANX4_ELEC_CERT": [
+   "ext.REG2018_2067"
+  ],
+  "qr.ANX6_PRINC": [
+   "ext.REG2018_2067"
+  ],
+  "qr.ANX6_REPORT": [
+   "ext.REG2018_2067"
+  ]
+ },
+ "outcomes": {
+  "ARCH-01 arch.LIFECYCLE": "INTEGRATED",
+  "ARCH-02 arch.ASSURANCE": "INDETERMINATE",
+  "ARCH-03 arch.TRANSITION": "INDETERMINATE",
+  "ARCH-04 arch.DELEGATION": "INDETERMINATE",
+  "ARCH-05 arch.SCOPEMGMT": "INTEGRATED",
+  "ARCH-06 arch.CIRCUMVENTION": "INDETERMINATE",
+  "ARCH-07 arch.WHOLE": "OVERLAPPING_OR_PARTIALLY_INTEGRATED"
+ },
+ "status_profile": "QUALIFIED_RELATIONS: 83 legal_constitution_evidenced; 18 documented; 0 material_establishment_evidenced (never carried by relations); 0 exercise_evidenced. NORMATIVE_ASSIGNMENTS: 52 legal_constitution_evidenced; 13 documented; 0 material_establishment_evidenced; 0 exercise_evidenced. POSITIONS_AND_DEVICES: 0 legal_constitution_evidenced; 27 documented; material establishment not_assessed for all; 0 exercise_evidenced. Legal status of norm at the 2026-01-01 reference: in_force for all coded norms; no not_yet_applicable, suspended, expired_or_repealed or conditional_on_further_act status asserted.",
+ "end": "2026-10-06T19:43:24Z"
+}

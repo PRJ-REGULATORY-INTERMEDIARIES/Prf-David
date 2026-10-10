@@ -1,0 +1,14 @@
+{
+  "capsule_id": "RGAM_C2_CBAM",
+  "instrument_title": "Regulation (EU) 2023/956 — CBAM",
+  "celex": "32023R0956",
+  "language": "EN",
+  "version_and_scope": "Original act OJ L 130 16 May 2023; not consolidated",
+  "official_source_url": "https://publications.europa.eu/resource/cellar/e5587bf5-f383-11ed-a05c-01aa75ed71a1.0006.03/DOC_1",
+  "corpus_scope": "FULL_OFFICIAL_INSTRUMENT",
+  "article_count_metadata": 36,
+  "annex_count_metadata": 6,
+  "controlling_source_file": "LEGAL_SOURCE/32023R0956_official_en.xhtml",
+  "source_sha256": "c47e2793e7b92333ce9a891aba18924ff21b15b2745fffda98348b04b15a770e",
+  "corpus_register_status": "VERIFIED_COMPLETE"
+}

@@ -1,0 +1,18 @@
+R4 delivery package archive
+===========================
+
+Archive   : ENVIO_R4_TO_DAVID.zip
+Files     : 188
+Size      : 2,139,887 bytes
+SHA-256   : 437461E5B7CE201394FB645A17039F21FFC66F2425E5D600433CF2DC86DB06FF
+
+Verified at creation: the archive was re-opened, testzip() reported no error, and every
+entry was hash-compared against its file on disk with zero mismatches.
+
+This hash file sits beside the archive rather than inside it, so the archive's own hash can
+be recorded without changing the archive.
+
+ENVIO_R4_TO_DAVID/00_START_HERE/R4_PACKAGE_MANIFEST.csv lists every other file in the package
+with its SHA-256; it cannot list its own hash for the same reason.
+
+The unpacked folder ENVIO_R4_TO_DAVID/ is retained alongside the archive.

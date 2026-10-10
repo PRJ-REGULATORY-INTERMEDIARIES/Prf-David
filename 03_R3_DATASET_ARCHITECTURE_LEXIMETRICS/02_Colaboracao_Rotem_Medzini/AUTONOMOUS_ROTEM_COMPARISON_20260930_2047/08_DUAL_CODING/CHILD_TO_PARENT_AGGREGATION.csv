@@ -1,0 +1,13 @@
+PASS,PARENT_ID,N_EVENTS,N_FUNCTION_EVENTS,CODED_FUNCTIONS,CHILD_DERIVED_FUNCTIONS,FUNCTIONS_CODED_WITHOUT_SUPPORTING_EVENT,FUNCTIONS_IN_EVENTS_NOT_CODED_AT_PARENT,CODED_REGULATOR_CONTEXT,CHILD_DERIVED_REGULATOR_CATEGORIES,CODED_TARGET_CONTEXT,CHILD_DERIVED_TARGET_CATEGORIES,PARENT_KEY_INTEGRITY
+FIRST_PASS,P01_AUD,4,2,F_ASSURANCE; F_AUDITING,F_AUDITING,F_ASSURANCE,NONE,EU_public,EU_public; hybrid_public_private,service_provider,service_provider,OK
+FIRST_PASS,P01_VAL,17,3,F_ASSURANCE,F_ASSURANCE,NONE,NONE,hybrid_public_private; national_public,EU_public; hybrid_public_private; national_public,individual; public_body,individual,OK
+FIRST_PASS,P01_ADR,9,3,F_COMPLAINT_HANDLING; F_DISPUTE_RESOLUTION,F_COMPLAINT_HANDLING; F_DISPUTE_RESOLUTION,NONE,NONE,hybrid_public_private,hybrid_public_private,individual,individual; service_provider,OK
+FIRST_PASS,P02_CB,3,1,F_ASSURANCE,F_ASSURANCE,NONE,NONE,national_public,national_public,product_economic_operator,product_economic_operator,OK
+FIRST_PASS,P02_NB,11,1,F_ASSURANCE,F_ASSURANCE,NONE,NONE,EU_public; national_public,EU_public; national_public,product_economic_operator,product_economic_operator,OK
+FIRST_PASS,P02_INS,1,0,F_INSURANCE_RISK_UNDERWRITING,,F_INSURANCE_RISK_UNDERWRITING,NONE,national_public,NONE,regulatory_intermediary,regulatory_intermediary,OK
+FIRST_PASS,P03_NB,23,13,F_ASSURANCE; F_AUDITING; F_MONITORING,F_ASSURANCE; F_AUDITING; F_MONITORING,NONE,NONE,EU_public; national_public,EU_public; national_public,product_economic_operator; regulatory_intermediary,product_economic_operator; regulatory_intermediary,OK
+FIRST_PASS,P03_TL,3,0,F_ASSURANCE,,F_ASSURANCE,NONE,national_public,EU_public; national_public,product_economic_operator,NONE,OK
+FIRST_PASS,P03_INS,1,0,F_INSURANCE_RISK_UNDERWRITING,,F_INSURANCE_RISK_UNDERWRITING,NONE,national_public,NONE,regulatory_intermediary,regulatory_intermediary,OK
+FIRST_PASS,P04_LAB,15,2,F_ASSURANCE,F_ASSURANCE,NONE,NONE,EU_public; national_public,EU_public; national_public,product_economic_operator; public_body,NONE,OK
+FIRST_PASS,P05_AUD,16,6,F_ASSURANCE; F_AUDITING,F_ASSURANCE; F_AUDITING,NONE,NONE,EU_public; national_public,EU_public; national_public,platform_provider; service_provider,platform_provider; service_provider,OK
+FIRST_PASS,P06_TF,13,2,F_MONITORING,F_MONITORING,NONE,NONE,EU_public; national_public,EU_public; national_public,platform_provider,platform_provider,OK

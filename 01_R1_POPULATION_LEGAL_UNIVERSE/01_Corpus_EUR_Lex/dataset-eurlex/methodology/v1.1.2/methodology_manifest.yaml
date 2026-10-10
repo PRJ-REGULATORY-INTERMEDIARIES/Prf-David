@@ -1,0 +1,33 @@
+methodology:
+  name: dataset-eurlex
+  version: 1.1.2
+  status: proposed_pre_experiment
+  scope: experimental_output_interface_only
+  supersedes_for_experiment: 1.1.1
+  reference_methodology_unchanged: true
+  empirical_results_used: false
+  benchmark_accessed: false
+  candidate_universe_changed: false
+
+correction:
+  type: pre_experiment_protocol_correction
+  reason: represent_zero_or_multiple_actors_without_order_dependence
+  changed_fields:
+    - R
+    - I
+    - T
+  actor_field_representation: arrays_of_actor_label_strings
+  empty_actor_representation: []
+  reference_subroles_introduced: false
+  prior_experimental_interface_preserved: true
+  common_conditions:
+    - G0
+    - G1
+    - G2
+
+interface:
+  schema: methodology/v1.1.2/experimental_output_schema.json
+  run_local_identifier: relation_id
+  reference_candidate_id_exposed_to_conditions: false
+  reference_candidate_origin_exposed_to_conditions: false
+  reference_candidate_list_exposed_to_conditions: false

@@ -1,0 +1,134 @@
+ANX2.HEAD	ANNEX II - List of criminal offences referred to in Article 5(1), first subparagraph, point (h)(iii)
+ANX2.P0	Criminal offences referred to in Article 5(1), first subparagraph, point (h)(iii):
+ANX2.P0.ptb1	terrorism,
+ANX2.P0.ptb2	trafficking in human beings,
+ANX2.P0.ptb3	sexual exploitation of children, and child pornography,
+ANX2.P0.ptb4	illicit trafficking in narcotic drugs or psychotropic substances,
+ANX2.P0.ptb5	illicit trafficking in weapons, munitions or explosives,
+ANX2.P0.ptb6	murder, grievous bodily injury,
+ANX2.P0.ptb7	illicit trade in human organs or tissue,
+ANX2.P0.ptb8	illicit trafficking in nuclear or radioactive materials,
+ANX2.P0.ptb9	kidnapping, illegal restraint or hostage-taking,
+ANX2.P0.ptb10	crimes within the jurisdiction of the International Criminal Court,
+ANX2.P0.ptb11	unlawful seizure of aircraft or ships,
+ANX2.P0.ptb12	rape,
+ANX2.P0.ptb13	environmental crime,
+ANX2.P0.ptb14	organised or armed robbery,
+ANX2.P0.ptb15	sabotage,
+ANX2.P0.ptb16	participation in a criminal organisation involved in one or more of the offences listed above.
+ANX3.HEAD	ANNEX III - High-risk AI systems referred to in Article 6(2)
+ANX3.P0	High-risk AI systems pursuant to Article 6(2) are the AI systems listed in any of the following areas:
+ANX3.P0.pt1	Biometrics, in so far as their use is permitted under relevant Union or national law:
+ANX3.P0.pt1.pta	remote biometric identification systems.
+ANX3.P0.pt1.pta.SP2	This shall not include AI systems intended to be used for biometric verification the sole purpose of which is to confirm that a specific natural person is the person he or she claims to be;
+ANX3.P0.pt1.ptb	AI systems intended to be used for biometric categorisation, according to sensitive or protected attributes or characteristics based on the inference of those attributes or characteristics;
+ANX3.P0.pt1.ptc	AI systems intended to be used for emotion recognition.
+ANX3.P0.pt2	Critical infrastructure: AI systems intended to be used as safety components in the management and operation of critical digital infrastructure, road traffic, or in the supply of water, gas, heating or electricity.
+ANX3.P0.pt3	Education and vocational training:
+ANX3.P0.pt3.pta	AI systems intended to be used to determine access or admission or to assign natural persons to educational and vocational training institutions at all levels;
+ANX3.P0.pt3.ptb	AI systems intended to be used to evaluate learning outcomes, including when those outcomes are used to steer the learning process of natural persons in educational and vocational training institutions at all levels;
+ANX3.P0.pt3.ptc	AI systems intended to be used for the purpose of assessing the appropriate level of education that an individual will receive or will be able to access, in the context of or within educational and vocational training institutions at all levels;
+ANX3.P0.pt3.ptd	AI systems intended to be used for monitoring and detecting prohibited behaviour of students during tests in the context of or within educational and vocational training institutions at all levels.
+ANX3.P0.pt4	Employment, workers’ management and access to self-employment:
+ANX3.P0.pt4.pta	AI systems intended to be used for the recruitment or selection of natural persons, in particular to place targeted job advertisements, to analyse and filter job applications, and to evaluate candidates;
+ANX3.P0.pt4.ptb	AI systems intended to be used to make decisions affecting terms of work-related relationships, the promotion or termination of work-related contractual relationships, to allocate tasks based on individual behaviour or personal traits or characteristics or to monitor and evaluate the performance and behaviour of persons in such relationships.
+ANX3.P0.pt5	Access to and enjoyment of essential private services and essential public services and benefits:
+ANX3.P0.pt5.pta	AI systems intended to be used by public authorities or on behalf of public authorities to evaluate the eligibility of natural persons for essential public assistance benefits and services, including healthcare services, as well as to grant, reduce, revoke, or reclaim such benefits and services;
+ANX3.P0.pt5.ptb	AI systems intended to be used to evaluate the creditworthiness of natural persons or establish their credit score, with the exception of AI systems used for the purpose of detecting financial fraud;
+ANX3.P0.pt5.ptc	AI systems intended to be used for risk assessment and pricing in relation to natural persons in the case of life and health insurance;
+ANX3.P0.pt5.ptd	AI systems intended to evaluate and classify emergency calls by natural persons or to be used to dispatch, or to establish priority in the dispatching of, emergency first response services, including by police, firefighters and medical aid, as well as of emergency healthcare patient triage systems.
+ANX3.P0.pt6	Law enforcement, in so far as their use is permitted under relevant Union or national law:
+ANX3.P0.pt6.pta	AI systems intended to be used by or on behalf of law enforcement authorities, or by Union institutions, bodies, offices or agencies in support of law enforcement authorities or on their behalf to assess the risk of a natural person becoming the victim of criminal offences;
+ANX3.P0.pt6.ptb	AI systems intended to be used by or on behalf of law enforcement authorities or by Union institutions, bodies, offices or agencies in support of law enforcement authorities as polygraphs or similar tools;
+ANX3.P0.pt6.ptc	AI systems intended to be used by or on behalf of law enforcement authorities, or by Union institutions, bodies, offices or agencies, in support of law enforcement authorities to evaluate the reliability of evidence in the course of the investigation or prosecution of criminal offences;
+ANX3.P0.pt6.ptd	AI systems intended to be used by law enforcement authorities or on their behalf or by Union institutions, bodies, offices or agencies in support of law enforcement authorities for assessing the risk of a natural person offending or re-offending not solely on the basis of the profiling of natural persons as referred to in Article 3(4) of Directive (EU) 2016/680, or to assess personality traits and characteristics or past criminal behaviour of natural persons or groups;
+ANX3.P0.pt6.pte	AI systems intended to be used by or on behalf of law enforcement authorities or by Union institutions, bodies, offices or agencies in support of law enforcement authorities for the profiling of natural persons as referred to in Article 3(4) of Directive (EU) 2016/680 in the course of the detection, investigation or prosecution of criminal offences.
+ANX3.P0.pt7	Migration, asylum and border control management, in so far as their use is permitted under relevant Union or national law:
+ANX3.P0.pt7.pta	AI systems intended to be used by or on behalf of competent public authorities or by Union institutions, bodies, offices or agencies as polygraphs or similar tools;
+ANX3.P0.pt7.ptb	AI systems intended to be used by or on behalf of competent public authorities or by Union institutions, bodies, offices or agencies to assess a risk, including a security risk, a risk of irregular migration, or a health risk, posed by a natural person who intends to enter or who has entered into the territory of a Member State;
+ANX3.P0.pt7.ptc	AI systems intended to be used by or on behalf of competent public authorities or by Union institutions, bodies, offices or agencies to assist competent public authorities for the examination of applications for asylum, visa or residence permits and for associated complaints with regard to the eligibility of the natural persons applying for a status, including related assessments of the reliability of evidence;
+ANX3.P0.pt7.ptd	AI systems intended to be used by or on behalf of competent public authorities, or by Union institutions, bodies, offices or agencies, in the context of migration, asylum or border control management, for the purpose of detecting, recognising or identifying natural persons, with the exception of the verification of travel documents.
+ANX3.P0.pt8	Administration of justice and democratic processes:
+ANX3.P0.pt8.pta	AI systems intended to be used by a judicial authority or on their behalf to assist a judicial authority in researching and interpreting facts and the law and in applying the law to a concrete set of facts, or to be used in a similar way in alternative dispute resolution;
+ANX3.P0.pt8.ptb	AI systems intended to be used for influencing the outcome of an election or referendum or the voting behaviour of natural persons in the exercise of their vote in elections or referenda. This does not include AI systems to the output of which natural persons are not directly exposed, such as tools used to organise, optimise or structure political campaigns from an administrative or logistical point of view.
+ANX4.HEAD	ANNEX IV - Technical documentation referred to in Article 11(1)
+ANX4.P0	The technical documentation referred to in Article 11(1) shall contain at least the following information, as applicable to the relevant AI system:
+ANX4.P0.pt1	A general description of the AI system including:
+ANX4.P0.pt1.pta	its intended purpose, the name of the provider and the version of the system reflecting its relation to previous versions;
+ANX4.P0.pt1.ptb	how the AI system interacts with, or can be used to interact with, hardware or software, including with other AI systems, that are not part of the AI system itself, where applicable;
+ANX4.P0.pt1.ptc	the versions of relevant software or firmware, and any requirements related to version updates;
+ANX4.P0.pt1.ptd	the description of all the forms in which the AI system is placed on the market or put into service, such as software packages embedded into hardware, downloads, or APIs;
+ANX4.P0.pt1.pte	the description of the hardware on which the AI system is intended to run;
+ANX4.P0.pt1.ptf	where the AI system is a component of products, photographs or illustrations showing external features, the marking and internal layout of those products;
+ANX4.P0.pt1.ptg	a basic description of the user-interface provided to the deployer;
+ANX4.P0.pt1.pth	instructions for use for the deployer, and a basic description of the user-interface provided to the deployer, where applicable;
+ANX4.P0.pt2	A detailed description of the elements of the AI system and of the process for its development, including:
+ANX4.P0.pt2.pta	the methods and steps performed for the development of the AI system, including, where relevant, recourse to pre-trained systems or tools provided by third parties and how those were used, integrated or modified by the provider;
+ANX4.P0.pt2.ptb	the design specifications of the system, namely the general logic of the AI system and of the algorithms; the key design choices including the rationale and assumptions made, including with regard to persons or groups of persons in respect of who, the system is intended to be used; the main classification choices; what the system is designed to optimise for, and the relevance of the different parameters; the description of the expected output and output quality of the system; the decisions about any possible trade-off made regarding the technical solutions adopted to comply with the requirements set out in Chapter III, Section 2;
+ANX4.P0.pt2.ptc	the description of the system architecture explaining how software components build on or feed into each other and integrate into the overall processing; the computational resources used to develop, train, test and validate the AI system;
+ANX4.P0.pt2.ptd	where relevant, the data requirements in terms of datasheets describing the training methodologies and techniques and the training data sets used, including a general description of these data sets, information about their provenance, scope and main characteristics; how the data was obtained and selected; labelling procedures (e.g. for supervised learning), data cleaning methodologies (e.g. outliers detection);
+ANX4.P0.pt2.pte	assessment of the human oversight measures needed in accordance with Article 14, including an assessment of the technical measures needed to facilitate the interpretation of the outputs of AI systems by the deployers, in accordance with Article 13(3), point (d);
+ANX4.P0.pt2.ptf	where applicable, a detailed description of pre-determined changes to the AI system and its performance, together with all the relevant information related to the technical solutions adopted to ensure continuous compliance of the AI system with the relevant requirements set out in Chapter III, Section 2;
+ANX4.P0.pt2.ptg	the validation and testing procedures used, including information about the validation and testing data used and their main characteristics; metrics used to measure accuracy, robustness and compliance with other relevant requirements set out in Chapter III, Section 2, as well as potentially discriminatory impacts; test logs and all test reports dated and signed by the responsible persons, including with regard to pre-determined changes as referred to under point (f);
+ANX4.P0.pt2.pth	cybersecurity measures put in place;
+ANX4.P0.pt3	Detailed information about the monitoring, functioning and control of the AI system, in particular with regard to: its capabilities and limitations in performance, including the degrees of accuracy for specific persons or groups of persons on which the system is intended to be used and the overall expected level of accuracy in relation to its intended purpose; the foreseeable unintended outcomes and sources of risks to health and safety, fundamental rights and discrimination in view of the intended purpose of the AI system; the human oversight measures needed in accordance with Article 14, including the technical measures put in place to facilitate the interpretation of the outputs of AI systems by the deployers; specifications on input data, as appropriate;
+ANX4.P0.pt4	A description of the appropriateness of the performance metrics for the specific AI system;
+ANX4.P0.pt5	A detailed description of the risk management system in accordance with Article 9;
+ANX4.P0.pt6	A description of relevant changes made by the provider to the system through its lifecycle;
+ANX4.P0.pt7	A list of the harmonised standards applied in full or in part the references of which have been published in the Official Journal of the European Union; where no such harmonised standards have been applied, a detailed description of the solutions adopted to meet the requirements set out in Chapter III, Section 2, including a list of other relevant standards and technical specifications applied;
+ANX4.P0.pt8	A copy of the EU declaration of conformity referred to in Article 47;
+ANX4.P0.pt9	A detailed description of the system in place to evaluate the AI system performance in the post-market phase in accordance with Article 72, including the post-market monitoring plan referred to in Article 72(3).
+ANX5.HEAD	ANNEX V - EU declaration of conformity
+ANX5.P0	The EU declaration of conformity referred to in Article 47, shall contain all of the following information:
+ANX5.P0.pt1	AI system name and type and any additional unambiguous reference allowing the identification and traceability of the AI system;
+ANX5.P0.pt2	The name and address of the provider or, where applicable, of their authorised representative;
+ANX5.P0.pt3	A statement that the EU declaration of conformity referred to in Article 47 is issued under the sole responsibility of the provider;
+ANX5.P0.pt4	A statement that the AI system is in conformity with this Regulation and, if applicable, with any other relevant Union law that provides for the issuing of the EU declaration of conformity referred to in Article 47;
+ANX5.P0.pt5	Where an AI system involves the processing of personal data, a statement that that AI system complies with Regulations (EU) 2016/679 and (EU) 2018/1725 and Directive (EU) 2016/680;
+ANX5.P0.pt6	References to any relevant harmonised standards used or any other common specification in relation to which conformity is declared;
+ANX5.P0.pt7	Where applicable, the name and identification number of the notified body, a description of the conformity assessment procedure performed, and identification of the certificate issued;
+ANX5.P0.pt8	The place and date of issue of the declaration, the name and function of the person who signed it, as well as an indication for, or on behalf of whom, that person signed, a signature.
+ANX6.HEAD	ANNEX VI - Conformity assessment procedure based on internal control
+ANX6.P0.pt1	The conformity assessment procedure based on internal control is the conformity assessment procedure based on points 2, 3 and 4.
+ANX6.P0.pt2	The provider verifies that the established quality management system is in compliance with the requirements of Article 17.
+ANX6.P0.pt3	The provider examines the information contained in the technical documentation in order to assess the compliance of the AI system with the relevant essential requirements set out in Chapter III, Section 2.
+ANX6.P0.pt4	The provider also verifies that the design and development process of the AI system and its post-market monitoring as referred to in Article 72 is consistent with the technical documentation.
+ANX7.HEAD	ANNEX VII - Conformity based on an assessment of the quality management system and an assessment of the technical documentation
+ANX7.S1.HEAD	1. Introduction
+ANX7.S1.P0	Conformity based on an assessment of the quality management system and an assessment of the technical documentation is the conformity assessment procedure based on points 2 to 5.
+ANX7.S2.HEAD	2. Overview
+ANX7.S2.P0	The approved quality management system for the design, development and testing of AI systems pursuant to Article 17 shall be examined in accordance with point 3 and shall be subject to surveillance as specified in point 5. The technical documentation of the AI system shall be examined in accordance with point 4.
+ANX7.S3.HEAD	3. Quality management system
+ANX7.S3.P0.pt3.1	The application of the provider shall include:
+ANX7.S3.P0.pt3.1.pta	the name and address of the provider and, if the application is lodged by an authorised representative, also their name and address;
+ANX7.S3.P0.pt3.1.ptb	the list of AI systems covered under the same quality management system;
+ANX7.S3.P0.pt3.1.ptc	the technical documentation for each AI system covered under the same quality management system;
+ANX7.S3.P0.pt3.1.ptd	the documentation concerning the quality management system which shall cover all the aspects listed under Article 17;
+ANX7.S3.P0.pt3.1.pte	a description of the procedures in place to ensure that the quality management system remains adequate and effective;
+ANX7.S3.P0.pt3.1.ptf	a written declaration that the same application has not been lodged with any other notified body.
+ANX7.S3.P0.pt3.2	The quality management system shall be assessed by the notified body, which shall determine whether it satisfies the requirements referred to in Article 17.
+ANX7.S3.P0.pt3.2.SP2	The decision shall be notified to the provider or its authorised representative.
+ANX7.S3.P0.pt3.2.SP3	The notification shall contain the conclusions of the assessment of the quality management system and the reasoned assessment decision.
+ANX7.S3.P0.pt3.3	The quality management system as approved shall continue to be implemented and maintained by the provider so that it remains adequate and efficient.
+ANX7.S3.P0.pt3.4	Any intended change to the approved quality management system or the list of AI systems covered by the latter shall be brought to the attention of the notified body by the provider.
+ANX7.S3.P0.pt3.4.SP2	The proposed changes shall be examined by the notified body, which shall decide whether the modified quality management system continues to satisfy the requirements referred to in point 3.2 or whether a reassessment is necessary.
+ANX7.S3.P0.pt3.4.SP3	The notified body shall notify the provider of its decision. The notification shall contain the conclusions of the examination of the changes and the reasoned assessment decision.
+ANX7.S4.HEAD	4. Control of the technical documentation.
+ANX7.S4.P0.pt4.1	In addition to the application referred to in point 3, an application with a notified body of their choice shall be lodged by the provider for the assessment of the technical documentation relating to the AI system which the provider intends to place on the market or put into service and which is covered by the quality management system referred to under point 3.
+ANX7.S4.P0.pt4.2	The application shall include:
+ANX7.S4.P0.pt4.2.pta	the name and address of the provider;
+ANX7.S4.P0.pt4.2.ptb	a written declaration that the same application has not been lodged with any other notified body;
+ANX7.S4.P0.pt4.2.ptc	the technical documentation referred to in Annex IV.
+ANX7.S4.P0.pt4.3	The technical documentation shall be examined by the notified body. Where relevant, and limited to what is necessary to fulfil its tasks, the notified body shall be granted full access to the training, validation, and testing data sets used, including, where appropriate and subject to security safeguards, through API or other relevant technical means and tools enabling remote access.
+ANX7.S4.P0.pt4.4	In examining the technical documentation, the notified body may require that the provider supply further evidence or carry out further tests so as to enable a proper assessment of the conformity of the AI system with the requirements set out in Chapter III, Section 2. Where the notified body is not satisfied with the tests carried out by the provider, the notified body shall itself directly carry out adequate tests, as appropriate.
+ANX7.S4.P0.pt4.5	Where necessary to assess the conformity of the high-risk AI system with the requirements set out in Chapter III, Section 2, after all other reasonable means to verify conformity have been exhausted and have proven to be insufficient, and upon a reasoned request, the notified body shall also be granted access to the training and trained models of the AI system, including its relevant parameters. Such access shall be subject to existing Union law on the protection of intellectual property and trade secrets.
+ANX7.S4.P0.pt4.6	The decision of the notified body shall be notified to the provider or its authorised representative. The notification shall contain the conclusions of the assessment of the technical documentation and the reasoned assessment decision.
+ANX7.S4.P0.pt4.6.SP2	Where the AI system is in conformity with the requirements set out in Chapter III, Section 2, the notified body shall issue a Union technical documentation assessment certificate. The certificate shall indicate the name and address of the provider, the conclusions of the examination, the conditions (if any) for its validity and the data necessary for the identification of the AI system.
+ANX7.S4.P0.pt4.6.SP3	The certificate and its annexes shall contain all relevant information to allow the conformity of the AI system to be evaluated, and to allow for control of the AI system while in use, where applicable.
+ANX7.S4.P0.pt4.6.SP4	Where the AI system is not in conformity with the requirements set out in Chapter III, Section 2, the notified body shall refuse to issue a Union technical documentation assessment certificate and shall inform the applicant accordingly, giving detailed reasons for its refusal.
+ANX7.S4.P0.pt4.6.SP5	Where the AI system does not meet the requirement relating to the data used to train it, re-training of the AI system will be needed prior to the application for a new conformity assessment. In this case, the reasoned assessment decision of the notified body refusing to issue the Union technical documentation assessment certificate shall contain specific considerations on the quality data used to train the AI system, in particular on the reasons for non-compliance.
+ANX7.S4.P0.pt4.7	Any change to the AI system that could affect the compliance of the AI system with the requirements or its intended purpose shall be assessed by the notified body which issued the Union technical documentation assessment certificate. The provider shall inform such notified body of its intention to introduce any of the abovementioned changes, or if it otherwise becomes aware of the occurrence of such changes. The intended changes shall be assessed by the notified body, which shall decide whether those changes require a new conformity assessment in accordance with Article 43(4) or whether they could be addressed by means of a supplement to the Union technical documentation assessment certificate. In the latter case, the notified body shall assess the changes, notify the provider of its decision and, where the changes are approved, issue to the provider a supplement to the Union technical documentation assessment certificate.
+ANX7.S5.HEAD	5. Surveillance of the approved quality management system.
+ANX7.S5.P0.pt5.1	The purpose of the surveillance carried out by the notified body referred to in Point 3 is to make sure that the provider duly complies with the terms and conditions of the approved quality management system.
+ANX7.S5.P0.pt5.2	For assessment purposes, the provider shall allow the notified body to access the premises where the design, development, testing of the AI systems is taking place. The provider shall further share with the notified body all necessary information.
+ANX7.S5.P0.pt5.3	The notified body shall carry out periodic audits to make sure that the provider maintains and applies the quality management system and shall provide the provider with an audit report. In the context of those audits, the notified body may carry out additional tests of the AI systems for which a Union technical documentation assessment certificate was issued.

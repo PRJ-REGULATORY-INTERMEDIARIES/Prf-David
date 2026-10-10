@@ -1,0 +1,747 @@
+﻿link_id,record_id,record_type,unit_id,support_type,evidence_level,claim_status_supported,limitation
+LNK-00001,ST-0001,ST,RGAM_O_DIR_86_361.FRM3,direct,A,documented,
+LNK-00002,ST-0002,ST,RGAM_O_DIR_86_361.A1.P0,direct,A,documented,
+LNK-00003,ST-0003,ST,RGAM_O_DIR_86_361.A2.P0.pt1,direct,A,documented,
+LNK-00004,ST-0004,ST,RGAM_O_DIR_86_361.A2.P0.pt2,direct,A,documented,
+LNK-00005,ST-0005,ST,RGAM_O_DIR_86_361.A2.P0.pt4,direct,A,documented,
+LNK-00006,ST-0006,ST,RGAM_O_DIR_86_361.A2.P0.pt4,direct,A,documented,
+LNK-00007,ST-0007,ST,RGAM_O_DIR_86_361.A2.P0.pt8,direct,A,documented,
+LNK-00008,ST-0008,ST,RGAM_O_DIR_86_361.A2.P0.pt8,direct,A,documented,
+LNK-00009,ST-0009,ST,RGAM_O_DIR_86_361.A2.P0.pt8,direct,A,documented,
+LNK-00010,ST-0010,ST,RGAM_O_DIR_86_361.A2.P0.pt8,direct,A,documented,
+LNK-00011,ST-0011,ST,RGAM_O_DIR_86_361.A2.P0.pt9,direct,A,documented,
+LNK-00012,ST-0012,ST,RGAM_O_DIR_86_361.A2.P0.pt10,direct,A,documented,
+LNK-00013,ST-0013,ST,RGAM_O_DIR_86_361.A2.P0.pt13,direct,A,documented,
+LNK-00014,ST-0014,ST,RGAM_O_DIR_86_361.A2.P0.pt15,direct,A,documented,
+LNK-00015,ST-0015,ST,RGAM_O_DIR_86_361.A2.P0.pt15,direct,A,documented,
+LNK-00016,ST-0016,ST,RGAM_O_DIR_86_361.A2.P0.pt16,direct,A,documented,
+LNK-00017,ST-0017,ST,RGAM_O_DIR_86_361.A2.P0.pt17,direct,A,documented,
+LNK-00018,ST-0017,ST,RGAM_O_DIR_86_361.A2.P0.pt17.dash1,direct,A,documented,
+LNK-00019,ST-0017,ST,RGAM_O_DIR_86_361.A2.P0.pt17.dash2,direct,A,documented,
+LNK-00020,ST-0017,ST,RGAM_O_DIR_86_361.A2.P0.pt17.dash3,direct,A,documented,
+LNK-00021,ST-0017,ST,RGAM_O_DIR_86_361.A2.P0.pt17.dash4,direct,A,documented,
+LNK-00022,ST-0018,ST,RGAM_O_DIR_86_361.A2.P0.pt17.dash1,direct,A,documented,
+LNK-00023,ST-0018,ST,RGAM_O_DIR_86_361.A2.P0.pt17.dash2,direct,A,documented,
+LNK-00024,ST-0019,ST,RGAM_O_DIR_86_361.A3.P0,direct,A,documented,
+LNK-00025,ST-0020,ST,RGAM_O_DIR_86_361.A2.P0.pt17,direct,A,documented,
+LNK-00026,ST-0020,ST,RGAM_O_DIR_86_361.A3.P0,direct,A,documented,
+LNK-00027,ST-0021,ST,RGAM_O_DIR_86_361.A3.P0,direct,A,documented,
+LNK-00028,ST-0022,ST,RGAM_O_DIR_86_361.A4.P0,direct,A,documented,
+LNK-00029,ST-0022,ST,RGAM_O_DIR_86_361.A4.P0.pt1,direct,A,documented,
+LNK-00030,ST-0022,ST,RGAM_O_DIR_86_361.A4.P0.pt1.dash1,direct,A,documented,
+LNK-00031,ST-0022,ST,RGAM_O_DIR_86_361.A4.P0.pt1.dash2,direct,A,documented,
+LNK-00032,ST-0022,ST,RGAM_O_DIR_86_361.A4.P0.pt1.dash3,direct,A,documented,
+LNK-00033,ST-0023,ST,RGAM_O_DIR_86_361.A4.P0.pt1,direct,A,documented,
+LNK-00034,ST-0023,ST,RGAM_O_DIR_86_361.A5.P1,direct,A,documented,
+LNK-00035,ST-0024,ST,RGAM_O_DIR_86_361.A4.P0.pt1,direct,A,documented,
+LNK-00036,ST-0025,ST,RGAM_O_DIR_86_361.A4.P0,direct,A,documented,
+LNK-00037,ST-0025,ST,RGAM_O_DIR_86_361.A4.P0.pt2,direct,A,documented,
+LNK-00038,ST-0026,ST,RGAM_O_DIR_86_361.A4.P0.pt2,direct,A,documented,
+LNK-00039,ST-0027,ST,RGAM_O_DIR_86_361.A5.P1,direct,A,documented,
+LNK-00040,ST-0028,ST,RGAM_O_DIR_86_361.A4.P0,direct,A,documented,
+LNK-00041,ST-0028,ST,RGAM_O_DIR_86_361.A5.P1,direct,A,documented,
+LNK-00042,ST-0029,ST,RGAM_O_DIR_86_361.A5.P1,direct,A,documented,
+LNK-00043,ST-0030,ST,RGAM_O_DIR_86_361.A5.P1,direct,A,documented,
+LNK-00044,ST-0031,ST,RGAM_O_DIR_86_361.A5.P2,direct,A,documented,
+LNK-00045,ST-0031,ST,RGAM_O_DIR_86_361.A5.P2.pta,direct,A,documented,
+LNK-00046,ST-0032,ST,RGAM_O_DIR_86_361.A2.P0.pt8,direct,A,documented,
+LNK-00047,ST-0032,ST,RGAM_O_DIR_86_361.A5.P2,direct,A,documented,
+LNK-00048,ST-0032,ST,RGAM_O_DIR_86_361.A5.P2.ptb,direct,A,documented,
+LNK-00049,ST-0033,ST,RGAM_O_DIR_86_361.A5.P2,direct,A,documented,
+LNK-00050,ST-0033,ST,RGAM_O_DIR_86_361.A5.P2.ptc,direct,A,documented,
+LNK-00051,ST-0034,ST,RGAM_O_DIR_86_361.A5.P2.sub2,direct,A,documented,
+LNK-00052,ST-0035,ST,RGAM_O_DIR_86_361.A5.P3,direct,A,documented,
+LNK-00053,ST-0036,ST,RGAM_O_DIR_86_361.A5.P4,direct,A,documented,
+LNK-00054,ST-0037,ST,RGAM_O_DIR_86_361.A6.P1,direct,A,documented,
+LNK-00055,ST-0038,ST,RGAM_O_DIR_86_361.A6.P1.sub2,direct,A,documented,
+LNK-00056,ST-0039,ST,RGAM_O_DIR_86_361.A2.P0.pt16,direct,A,documented,
+LNK-00057,ST-0039,ST,RGAM_O_DIR_86_361.A6.P2,direct,A,documented,
+LNK-00058,ST-0039,ST,RGAM_O_DIR_86_361.A7.P3,direct,A,documented,
+LNK-00059,ST-0040,ST,RGAM_O_DIR_86_361.A2.P0.pt16,direct,A,documented,
+LNK-00060,ST-0040,ST,RGAM_O_DIR_86_361.A6.P2,direct,A,documented,
+LNK-00061,ST-0040,ST,RGAM_O_DIR_86_361.A7.P3,direct,A,documented,
+LNK-00062,ST-0041,ST,RGAM_O_DIR_86_361.A6.P3,direct,A,documented,
+LNK-00063,ST-0042,ST,RGAM_O_DIR_86_361.A6.P3,direct,A,documented,
+LNK-00064,ST-0042,ST,RGAM_O_DIR_86_361.A6.P3.sub2,direct,A,documented,
+LNK-00065,ST-0042,ST,RGAM_O_DIR_86_361.A7.P4,direct,A,documented,
+LNK-00066,ST-0043,ST,RGAM_O_DIR_86_361.A7.P1,direct,A,documented,
+LNK-00067,ST-0044,ST,RGAM_O_DIR_86_361.A7.P1,direct,A,documented,
+LNK-00068,ST-0045,ST,RGAM_O_DIR_86_361.A7.P2,direct,A,documented,
+LNK-00069,ST-0046,ST,RGAM_O_DIR_86_361.A7.P2,direct,A,documented,
+LNK-00070,ST-0047,ST,RGAM_O_DIR_86_361.A7.P2,direct,A,documented,
+LNK-00071,ST-0048,ST,RGAM_O_DIR_86_361.A6.P2,direct,A,documented,
+LNK-00072,ST-0048,ST,RGAM_O_DIR_86_361.A7.P3,direct,A,documented,
+LNK-00073,ST-0049,ST,RGAM_O_DIR_86_361.A7.P4,direct,A,documented,
+LNK-00074,ST-0050,ST,RGAM_O_DIR_86_361.A7.P4.pta,direct,A,documented,
+LNK-00075,ST-0051,ST,RGAM_O_DIR_86_361.A7.P4.pta,direct,A,documented,
+LNK-00076,ST-0052,ST,RGAM_O_DIR_86_361.A7.P4.ptb,direct,A,documented,
+LNK-00077,ST-0053,ST,RGAM_O_DIR_86_361.A7.P4.ptb,direct,A,documented,
+LNK-00078,ST-0054,ST,RGAM_O_DIR_86_361.A7.P4.ptb,direct,A,documented,
+LNK-00079,ST-0055,ST,RGAM_O_DIR_86_361.A7.P4.ptb,direct,A,documented,
+LNK-00080,ST-0056,ST,RGAM_O_DIR_86_361.A7.P4.ptb,direct,A,documented,
+LNK-00081,ST-0057,ST,RGAM_O_DIR_86_361.A7.P4.ptb,direct,A,documented,
+LNK-00082,ST-0058,ST,RGAM_O_DIR_86_361.A7.P4.ptb,direct,A,documented,
+LNK-00083,ST-0058,ST,RGAM_O_DIR_86_361.A7.P4.sub2,direct,A,documented,
+LNK-00084,ST-0059,ST,RGAM_O_DIR_86_361.A7.P4.sub3,direct,A,documented,
+LNK-00085,ST-0060,ST,RGAM_O_DIR_86_361.A7.P5,direct,A,documented,
+LNK-00086,ST-0061,ST,RGAM_O_DIR_86_361.A8.P1,direct,A,documented,
+LNK-00087,ST-0061,ST,RGAM_O_DIR_86_361.A8.P1.pta,direct,A,documented,
+LNK-00088,ST-0062,ST,RGAM_O_DIR_86_361.A8.P1,direct,A,documented,
+LNK-00089,ST-0062,ST,RGAM_O_DIR_86_361.A8.P1.ptb,direct,A,documented,
+LNK-00090,ST-0063,ST,RGAM_O_DIR_86_361.A8.P1,direct,A,documented,
+LNK-00091,ST-0063,ST,RGAM_O_DIR_86_361.A8.P1.sub2,direct,A,documented,
+LNK-00092,ST-0064,ST,RGAM_O_DIR_86_361.A8.P2,direct,A,documented,
+LNK-00093,ST-0065,ST,RGAM_O_DIR_86_361.A8.P1.pta,direct,A,documented,
+LNK-00094,ST-0065,ST,RGAM_O_DIR_86_361.A8.P3,direct,A,documented,
+LNK-00095,ST-0066,ST,RGAM_O_DIR_86_361.A7.P2,direct,A,documented,
+LNK-00096,ST-0066,ST,RGAM_O_DIR_86_361.A8.P3,direct,A,documented,
+LNK-00097,ST-0067,ST,RGAM_O_DIR_86_361.A8.P3,direct,A,documented,
+LNK-00098,ST-0068,ST,RGAM_O_DIR_86_361.A8.P3,direct,A,documented,
+LNK-00099,ST-0068,ST,RGAM_O_DIR_86_361.A8.P3.sub2,direct,A,documented,
+LNK-00100,ST-0069,ST,RGAM_O_DIR_86_361.A8.P3.sub2,direct,A,documented,
+LNK-00101,ST-0070,ST,RGAM_O_DIR_86_361.A8.P3.sub3,direct,A,documented,
+LNK-00102,ST-0071,ST,RGAM_O_DIR_86_361.A8.P3.sub3,direct,A,documented,
+LNK-00103,ST-0072,ST,RGAM_O_DIR_86_361.A8.P1.ptb,direct,A,documented,
+LNK-00104,ST-0072,ST,RGAM_O_DIR_86_361.A8.P4,direct,A,documented,
+LNK-00105,ST-0073,ST,RGAM_O_DIR_86_361.A8.P4,direct,A,documented,
+LNK-00106,ST-0074,ST,RGAM_O_DIR_86_361.A8.P4,direct,A,documented,
+LNK-00107,ST-0075,ST,RGAM_O_DIR_86_361.A8.P4,direct,A,documented,
+LNK-00108,ST-0076,ST,RGAM_O_DIR_86_361.A8.P4,direct,A,documented,
+LNK-00109,ST-0077,ST,RGAM_O_DIR_86_361.A8.P5,direct,A,documented,
+LNK-00110,ST-0078,ST,RGAM_O_DIR_86_361.A8.P1.sub2,direct,A,documented,
+LNK-00111,ST-0078,ST,RGAM_O_DIR_86_361.A8.P2,direct,A,documented,
+LNK-00112,ST-0078,ST,RGAM_O_DIR_86_361.A8.P5,direct,A,documented,
+LNK-00113,ST-0079,ST,RGAM_O_DIR_86_361.A9.P0,direct,A,documented,
+LNK-00114,ST-0080,ST,RGAM_O_DIR_86_361.A9.P0,direct,A,documented,
+LNK-00115,ST-0081,ST,RGAM_O_DIR_86_361.A10.P0,direct,A,documented,
+LNK-00116,ST-0082,ST,RGAM_O_DIR_86_361.A11.P1,direct,A,documented,
+LNK-00117,ST-0083,ST,RGAM_O_DIR_86_361.A11.P1,direct,A,documented,
+LNK-00118,ST-0084,ST,RGAM_O_DIR_86_361.A11.P2,direct,A,documented,
+LNK-00119,ST-0085,ST,RGAM_O_DIR_86_361.A12.P0,direct,A,documented,
+LNK-00120,ST-0086,ST,RGAM_O_DIR_86_361.FRM8,direct,A,documented,
+LNK-00121,PD-001,PD,RGAM_O_DIR_86_361.A1.P0,direct,A,documented,establishment not assessed (layer X); no instance inferred from a type
+LNK-00122,PD-001,PD,RGAM_O_DIR_86_361.A12.P0,direct,A,documented,establishment not assessed (layer X); no instance inferred from a type
+LNK-00123,PD-002,PD,RGAM_O_DIR_86_361.A2.P0.pt10,direct,A,documented,establishment not assessed (layer X); no instance inferred from a type
+LNK-00124,PD-002,PD,RGAM_O_DIR_86_361.A6.P2,direct,A,documented,establishment not assessed (layer X); no instance inferred from a type
+LNK-00125,PD-002,PD,RGAM_O_DIR_86_361.A7.P1,direct,A,documented,establishment not assessed (layer X); no instance inferred from a type
+LNK-00126,PD-003,PD,RGAM_O_DIR_86_361.A2.P0.pt8,direct,A,documented,establishment not assessed (layer X); no instance inferred from a type
+LNK-00127,PD-003,PD,RGAM_O_DIR_86_361.A7.P2,direct,A,documented,establishment not assessed (layer X); no instance inferred from a type
+LNK-00128,PD-003,PD,RGAM_O_DIR_86_361.A7.P3,direct,A,documented,establishment not assessed (layer X); no instance inferred from a type
+LNK-00129,PD-004,PD,RGAM_O_DIR_86_361.A3.P0,direct,A,documented,establishment not assessed (layer X); no instance inferred from a type
+LNK-00130,PD-005,PD,RGAM_O_DIR_86_361.A4.P0,direct,A,documented,establishment not assessed (layer X); no instance inferred from a type
+LNK-00131,PD-006,PD,RGAM_O_DIR_86_361.A5.P1,direct,A,documented,establishment not assessed (layer X); no instance inferred from a type
+LNK-00132,PD-007,PD,RGAM_O_DIR_86_361.A2.P0.pt15,direct,A,documented,establishment not assessed (layer X); no instance inferred from a type
+LNK-00133,PD-007,PD,RGAM_O_DIR_86_361.A4.P0.pt2,direct,A,documented,establishment not assessed (layer X); no instance inferred from a type
+LNK-00134,PD-008,PD,RGAM_O_DIR_86_361.A2.P0.pt1,direct,A,documented,establishment not assessed (layer X); no instance inferred from a type
+LNK-00135,PD-008,PD,RGAM_O_DIR_86_361.A7.P4,direct,A,documented,establishment not assessed (layer X); no instance inferred from a type
+LNK-00136,PD-009,PD,RGAM_O_DIR_86_361.A4.P0.pt2,direct,A,documented,establishment not assessed (layer X); no instance inferred from a type
+LNK-00137,PD-010,PD,RGAM_O_DIR_86_361.A5.P1,direct,A,documented,establishment not assessed (layer X); no instance inferred from a type
+LNK-00138,PD-011,PD,RGAM_O_DIR_86_361.A5.P1,direct,A,documented,establishment not assessed (layer X); no instance inferred from a type
+LNK-00139,PD-011,PD,RGAM_O_DIR_86_361.A5.P2.sub2,direct,A,documented,establishment not assessed (layer X); no instance inferred from a type
+LNK-00140,PD-012,PD,RGAM_O_DIR_86_361.A2.P0.pt8,direct,A,documented,establishment not assessed (layer X); no instance inferred from a type
+LNK-00141,PD-012,PD,RGAM_O_DIR_86_361.A5.P2.ptb,direct,A,documented,establishment not assessed (layer X); no instance inferred from a type
+LNK-00142,NA-0001,NA,RGAM_O_DIR_86_361.A1.P0,direct,A,legal_constitution_evidenced,inscription only; epistemic ceiling from legal text
+LNK-00143,NA-0001,NA,RGAM_O_DIR_86_361.A11.P1,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00144,NA-0001,NA,RGAM_O_DIR_86_361.A12.P0,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00145,NA-0001,NA,RGAM_O_DIR_86_361.FRM8,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00146,NA-0002,NA,RGAM_O_DIR_86_361.A11.P1,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00147,NA-0002,NA,RGAM_O_DIR_86_361.A12.P0,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00148,NA-0002,NA,RGAM_O_DIR_86_361.A3.P0,direct,A,legal_constitution_evidenced,inscription only; epistemic ceiling from legal text
+LNK-00149,NA-0002,NA,RGAM_O_DIR_86_361.FRM8,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00150,NA-0003,NA,RGAM_O_DIR_86_361.A11.P1,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00151,NA-0003,NA,RGAM_O_DIR_86_361.A12.P0,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00152,NA-0003,NA,RGAM_O_DIR_86_361.A4.P0,direct,A,legal_constitution_evidenced,inscription only; epistemic ceiling from legal text
+LNK-00153,NA-0003,NA,RGAM_O_DIR_86_361.A4.P0.pt1,direct,A,legal_constitution_evidenced,inscription only; epistemic ceiling from legal text
+LNK-00154,NA-0003,NA,RGAM_O_DIR_86_361.A4.P0.pt1.dash1,direct,A,legal_constitution_evidenced,inscription only; epistemic ceiling from legal text
+LNK-00155,NA-0003,NA,RGAM_O_DIR_86_361.A4.P0.pt1.dash2,direct,A,legal_constitution_evidenced,inscription only; epistemic ceiling from legal text
+LNK-00156,NA-0003,NA,RGAM_O_DIR_86_361.A4.P0.pt1.dash3,direct,A,legal_constitution_evidenced,inscription only; epistemic ceiling from legal text
+LNK-00157,NA-0003,NA,RGAM_O_DIR_86_361.FRM8,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00158,NA-0004,NA,RGAM_O_DIR_86_361.A5.P1,direct,A,documented,documented only (see uncertainty/limitations)
+LNK-00159,NA-0005,NA,RGAM_O_DIR_86_361.A11.P1,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00160,NA-0005,NA,RGAM_O_DIR_86_361.A12.P0,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00161,NA-0005,NA,RGAM_O_DIR_86_361.A5.P3,direct,A,legal_constitution_evidenced,inscription only; epistemic ceiling from legal text
+LNK-00162,NA-0005,NA,RGAM_O_DIR_86_361.FRM8,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00163,NA-0006,NA,RGAM_O_DIR_86_361.A11.P1,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00164,NA-0006,NA,RGAM_O_DIR_86_361.A12.P0,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00165,NA-0006,NA,RGAM_O_DIR_86_361.A2.P0.pt16,direct,A,legal_constitution_evidenced,inscription only; epistemic ceiling from legal text
+LNK-00166,NA-0006,NA,RGAM_O_DIR_86_361.A6.P2,direct,A,legal_constitution_evidenced,inscription only; epistemic ceiling from legal text
+LNK-00167,NA-0006,NA,RGAM_O_DIR_86_361.A7.P3,direct,A,legal_constitution_evidenced,inscription only; epistemic ceiling from legal text
+LNK-00168,NA-0006,NA,RGAM_O_DIR_86_361.FRM8,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00169,NA-0007,NA,RGAM_O_DIR_86_361.A11.P1,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00170,NA-0007,NA,RGAM_O_DIR_86_361.A12.P0,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00171,NA-0007,NA,RGAM_O_DIR_86_361.A6.P3,direct,A,legal_constitution_evidenced,inscription only; epistemic ceiling from legal text
+LNK-00172,NA-0007,NA,RGAM_O_DIR_86_361.FRM8,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00173,NA-0008,NA,RGAM_O_DIR_86_361.A6.P3,direct,A,documented,documented only (see uncertainty/limitations)
+LNK-00174,NA-0008,NA,RGAM_O_DIR_86_361.A6.P3.sub2,direct,A,documented,documented only (see uncertainty/limitations)
+LNK-00175,NA-0008,NA,RGAM_O_DIR_86_361.A7.P4,direct,A,documented,documented only (see uncertainty/limitations)
+LNK-00176,NA-0009,NA,RGAM_O_DIR_86_361.A11.P1,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00177,NA-0009,NA,RGAM_O_DIR_86_361.A12.P0,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00178,NA-0009,NA,RGAM_O_DIR_86_361.A7.P1,direct,A,legal_constitution_evidenced,inscription only; epistemic ceiling from legal text
+LNK-00179,NA-0009,NA,RGAM_O_DIR_86_361.FRM8,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00180,NA-0010,NA,RGAM_O_DIR_86_361.A6.P2,direct,A,documented,documented only (see uncertainty/limitations)
+LNK-00181,NA-0010,NA,RGAM_O_DIR_86_361.A7.P3,direct,A,documented,documented only (see uncertainty/limitations)
+LNK-00182,NA-0011,NA,RGAM_O_DIR_86_361.A11.P1,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00183,NA-0011,NA,RGAM_O_DIR_86_361.A12.P0,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00184,NA-0011,NA,RGAM_O_DIR_86_361.A7.P4.ptb,direct,A,legal_constitution_evidenced,inscription only; epistemic ceiling from legal text
+LNK-00185,NA-0011,NA,RGAM_O_DIR_86_361.FRM8,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00186,NA-0012,NA,RGAM_O_DIR_86_361.A11.P1,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00187,NA-0012,NA,RGAM_O_DIR_86_361.A12.P0,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00188,NA-0012,NA,RGAM_O_DIR_86_361.A7.P4.ptb,direct,A,legal_constitution_evidenced,inscription only; epistemic ceiling from legal text
+LNK-00189,NA-0012,NA,RGAM_O_DIR_86_361.FRM8,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00190,NA-0013,NA,RGAM_O_DIR_86_361.A11.P1,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00191,NA-0013,NA,RGAM_O_DIR_86_361.A12.P0,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00192,NA-0013,NA,RGAM_O_DIR_86_361.A8.P1,direct,A,legal_constitution_evidenced,inscription only; epistemic ceiling from legal text
+LNK-00193,NA-0013,NA,RGAM_O_DIR_86_361.A8.P1.pta,direct,A,legal_constitution_evidenced,inscription only; epistemic ceiling from legal text
+LNK-00194,NA-0013,NA,RGAM_O_DIR_86_361.FRM8,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00195,NA-0014,NA,RGAM_O_DIR_86_361.A11.P1,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00196,NA-0014,NA,RGAM_O_DIR_86_361.A12.P0,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00197,NA-0014,NA,RGAM_O_DIR_86_361.A8.P1,direct,A,legal_constitution_evidenced,inscription only; epistemic ceiling from legal text
+LNK-00198,NA-0014,NA,RGAM_O_DIR_86_361.A8.P1.ptb,direct,A,legal_constitution_evidenced,inscription only; epistemic ceiling from legal text
+LNK-00199,NA-0014,NA,RGAM_O_DIR_86_361.FRM8,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00200,NA-0015,NA,RGAM_O_DIR_86_361.A11.P1,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00201,NA-0015,NA,RGAM_O_DIR_86_361.A12.P0,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00202,NA-0015,NA,RGAM_O_DIR_86_361.A8.P3.sub2,direct,A,legal_constitution_evidenced,inscription only; epistemic ceiling from legal text
+LNK-00203,NA-0015,NA,RGAM_O_DIR_86_361.FRM8,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00204,NA-0016,NA,RGAM_O_DIR_86_361.A11.P1,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00205,NA-0016,NA,RGAM_O_DIR_86_361.A12.P0,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00206,NA-0016,NA,RGAM_O_DIR_86_361.A8.P4,direct,A,legal_constitution_evidenced,inscription only; epistemic ceiling from legal text
+LNK-00207,NA-0016,NA,RGAM_O_DIR_86_361.FRM8,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00208,NA-0017,NA,RGAM_O_DIR_86_361.A11.P1,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00209,NA-0017,NA,RGAM_O_DIR_86_361.A12.P0,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00210,NA-0017,NA,RGAM_O_DIR_86_361.A8.P5,direct,A,legal_constitution_evidenced,inscription only; epistemic ceiling from legal text
+LNK-00211,NA-0017,NA,RGAM_O_DIR_86_361.FRM8,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00212,NA-0018,NA,RGAM_O_DIR_86_361.A8.P1.sub2,direct,A,documented,documented only (see uncertainty/limitations)
+LNK-00213,NA-0018,NA,RGAM_O_DIR_86_361.A8.P2,direct,A,documented,documented only (see uncertainty/limitations)
+LNK-00214,NA-0018,NA,RGAM_O_DIR_86_361.A8.P5,direct,A,documented,documented only (see uncertainty/limitations)
+LNK-00215,NA-0019,NA,RGAM_O_DIR_86_361.A11.P1,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00216,NA-0019,NA,RGAM_O_DIR_86_361.A12.P0,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00217,NA-0019,NA,RGAM_O_DIR_86_361.A9.P0,direct,A,legal_constitution_evidenced,inscription only; epistemic ceiling from legal text
+LNK-00218,NA-0019,NA,RGAM_O_DIR_86_361.FRM8,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00219,NA-0020,NA,RGAM_O_DIR_86_361.A11.P1,direct,A,legal_constitution_evidenced,inscription only; epistemic ceiling from legal text
+LNK-00220,NA-0020,NA,RGAM_O_DIR_86_361.A12.P0,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00221,NA-0020,NA,RGAM_O_DIR_86_361.FRM8,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00222,QR-0001,QR,RGAM_O_DIR_86_361.A2.P0.pt8,direct,A,documented,documented only (see uncertainty/limitations)
+LNK-00223,QR-0002,QR,RGAM_O_DIR_86_361.A2.P0.pt8,direct,A,documented,documented only (see uncertainty/limitations)
+LNK-00224,QR-0003,QR,RGAM_O_DIR_86_361.A11.P1,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00225,QR-0003,QR,RGAM_O_DIR_86_361.A12.P0,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00226,QR-0003,QR,RGAM_O_DIR_86_361.A2.P0.pt17,direct,A,legal_constitution_evidenced,inscription only; epistemic ceiling from legal text
+LNK-00227,QR-0003,QR,RGAM_O_DIR_86_361.A3.P0,direct,A,legal_constitution_evidenced,inscription only; epistemic ceiling from legal text
+LNK-00228,QR-0003,QR,RGAM_O_DIR_86_361.FRM8,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00229,QR-0004,QR,RGAM_O_DIR_86_361.A11.P1,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00230,QR-0004,QR,RGAM_O_DIR_86_361.A12.P0,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00231,QR-0004,QR,RGAM_O_DIR_86_361.A4.P0.pt1,direct,A,legal_constitution_evidenced,inscription only; epistemic ceiling from legal text
+LNK-00232,QR-0004,QR,RGAM_O_DIR_86_361.A5.P1,direct,A,legal_constitution_evidenced,inscription only; epistemic ceiling from legal text
+LNK-00233,QR-0004,QR,RGAM_O_DIR_86_361.FRM8,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00234,QR-0005,QR,RGAM_O_DIR_86_361.A11.P1,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00235,QR-0005,QR,RGAM_O_DIR_86_361.A12.P0,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00236,QR-0005,QR,RGAM_O_DIR_86_361.A4.P0,direct,A,legal_constitution_evidenced,inscription only; epistemic ceiling from legal text
+LNK-00237,QR-0005,QR,RGAM_O_DIR_86_361.A4.P0.pt2,direct,A,legal_constitution_evidenced,inscription only; epistemic ceiling from legal text
+LNK-00238,QR-0005,QR,RGAM_O_DIR_86_361.FRM8,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00239,QR-0006,QR,RGAM_O_DIR_86_361.A4.P0.pt2,direct,A,documented,documented only (see uncertainty/limitations)
+LNK-00240,QR-0007,QR,RGAM_O_DIR_86_361.A11.P1,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00241,QR-0007,QR,RGAM_O_DIR_86_361.A12.P0,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00242,QR-0007,QR,RGAM_O_DIR_86_361.A4.P0,direct,A,legal_constitution_evidenced,inscription only; epistemic ceiling from legal text
+LNK-00243,QR-0007,QR,RGAM_O_DIR_86_361.A5.P1,direct,A,legal_constitution_evidenced,inscription only; epistemic ceiling from legal text
+LNK-00244,QR-0007,QR,RGAM_O_DIR_86_361.FRM8,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00245,QR-0008,QR,RGAM_O_DIR_86_361.A11.P1,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00246,QR-0008,QR,RGAM_O_DIR_86_361.A12.P0,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00247,QR-0008,QR,RGAM_O_DIR_86_361.A5.P1,direct,A,legal_constitution_evidenced,inscription only; epistemic ceiling from legal text
+LNK-00248,QR-0008,QR,RGAM_O_DIR_86_361.FRM8,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00249,QR-0009,QR,RGAM_O_DIR_86_361.A11.P1,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00250,QR-0009,QR,RGAM_O_DIR_86_361.A12.P0,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00251,QR-0009,QR,RGAM_O_DIR_86_361.A5.P2,direct,A,legal_constitution_evidenced,inscription only; epistemic ceiling from legal text
+LNK-00252,QR-0009,QR,RGAM_O_DIR_86_361.A5.P2.pta,direct,A,legal_constitution_evidenced,inscription only; epistemic ceiling from legal text
+LNK-00253,QR-0009,QR,RGAM_O_DIR_86_361.FRM8,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00254,QR-0010,QR,RGAM_O_DIR_86_361.A11.P1,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00255,QR-0010,QR,RGAM_O_DIR_86_361.A12.P0,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00256,QR-0010,QR,RGAM_O_DIR_86_361.A2.P0.pt8,direct,A,legal_constitution_evidenced,inscription only; epistemic ceiling from legal text
+LNK-00257,QR-0010,QR,RGAM_O_DIR_86_361.A5.P2,direct,A,legal_constitution_evidenced,inscription only; epistemic ceiling from legal text
+LNK-00258,QR-0010,QR,RGAM_O_DIR_86_361.A5.P2.ptb,direct,A,legal_constitution_evidenced,inscription only; epistemic ceiling from legal text
+LNK-00259,QR-0010,QR,RGAM_O_DIR_86_361.FRM8,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00260,QR-0011,QR,RGAM_O_DIR_86_361.A11.P1,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00261,QR-0011,QR,RGAM_O_DIR_86_361.A12.P0,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00262,QR-0011,QR,RGAM_O_DIR_86_361.A5.P2,direct,A,legal_constitution_evidenced,inscription only; epistemic ceiling from legal text
+LNK-00263,QR-0011,QR,RGAM_O_DIR_86_361.A5.P2.ptc,direct,A,legal_constitution_evidenced,inscription only; epistemic ceiling from legal text
+LNK-00264,QR-0011,QR,RGAM_O_DIR_86_361.FRM8,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00265,QR-0012,QR,RGAM_O_DIR_86_361.A11.P1,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00266,QR-0012,QR,RGAM_O_DIR_86_361.A12.P0,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00267,QR-0012,QR,RGAM_O_DIR_86_361.A5.P2.sub2,direct,A,legal_constitution_evidenced,inscription only; epistemic ceiling from legal text
+LNK-00268,QR-0012,QR,RGAM_O_DIR_86_361.FRM8,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00269,QR-0013,QR,RGAM_O_DIR_86_361.A11.P1,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00270,QR-0013,QR,RGAM_O_DIR_86_361.A12.P0,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00271,QR-0013,QR,RGAM_O_DIR_86_361.A5.P4,direct,A,legal_constitution_evidenced,inscription only; epistemic ceiling from legal text
+LNK-00272,QR-0013,QR,RGAM_O_DIR_86_361.FRM8,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00273,QR-0014,QR,RGAM_O_DIR_86_361.A11.P1,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00274,QR-0014,QR,RGAM_O_DIR_86_361.A12.P0,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00275,QR-0014,QR,RGAM_O_DIR_86_361.A2.P0.pt16,direct,A,legal_constitution_evidenced,inscription only; epistemic ceiling from legal text
+LNK-00276,QR-0014,QR,RGAM_O_DIR_86_361.A6.P2,direct,A,legal_constitution_evidenced,inscription only; epistemic ceiling from legal text
+LNK-00277,QR-0014,QR,RGAM_O_DIR_86_361.A7.P3,direct,A,legal_constitution_evidenced,inscription only; epistemic ceiling from legal text
+LNK-00278,QR-0014,QR,RGAM_O_DIR_86_361.FRM8,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00279,QR-0015,QR,RGAM_O_DIR_86_361.A11.P1,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00280,QR-0015,QR,RGAM_O_DIR_86_361.A12.P0,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00281,QR-0015,QR,RGAM_O_DIR_86_361.A7.P1,direct,A,legal_constitution_evidenced,inscription only; epistemic ceiling from legal text
+LNK-00282,QR-0015,QR,RGAM_O_DIR_86_361.FRM8,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00283,QR-0016,QR,RGAM_O_DIR_86_361.A11.P1,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00284,QR-0016,QR,RGAM_O_DIR_86_361.A12.P0,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00285,QR-0016,QR,RGAM_O_DIR_86_361.A7.P2,direct,A,legal_constitution_evidenced,inscription only; epistemic ceiling from legal text
+LNK-00286,QR-0016,QR,RGAM_O_DIR_86_361.FRM8,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00287,QR-0017,QR,RGAM_O_DIR_86_361.A11.P1,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00288,QR-0017,QR,RGAM_O_DIR_86_361.A12.P0,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00289,QR-0017,QR,RGAM_O_DIR_86_361.A7.P2,direct,A,legal_constitution_evidenced,inscription only; epistemic ceiling from legal text
+LNK-00290,QR-0017,QR,RGAM_O_DIR_86_361.FRM8,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00291,QR-0018,QR,RGAM_O_DIR_86_361.A11.P1,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00292,QR-0018,QR,RGAM_O_DIR_86_361.A12.P0,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00293,QR-0018,QR,RGAM_O_DIR_86_361.A7.P4,direct,A,legal_constitution_evidenced,inscription only; epistemic ceiling from legal text
+LNK-00294,QR-0018,QR,RGAM_O_DIR_86_361.A7.P4.pta,direct,A,legal_constitution_evidenced,inscription only; epistemic ceiling from legal text
+LNK-00295,QR-0018,QR,RGAM_O_DIR_86_361.A7.P4.ptb,direct,A,legal_constitution_evidenced,inscription only; epistemic ceiling from legal text
+LNK-00296,QR-0018,QR,RGAM_O_DIR_86_361.FRM8,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00297,QR-0019,QR,RGAM_O_DIR_86_361.A11.P1,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00298,QR-0019,QR,RGAM_O_DIR_86_361.A12.P0,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00299,QR-0019,QR,RGAM_O_DIR_86_361.A7.P4.ptb,direct,A,legal_constitution_evidenced,inscription only; epistemic ceiling from legal text
+LNK-00300,QR-0019,QR,RGAM_O_DIR_86_361.FRM8,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00301,QR-0020,QR,RGAM_O_DIR_86_361.A11.P1,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00302,QR-0020,QR,RGAM_O_DIR_86_361.A12.P0,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00303,QR-0020,QR,RGAM_O_DIR_86_361.A7.P4.ptb,direct,A,legal_constitution_evidenced,inscription only; epistemic ceiling from legal text
+LNK-00304,QR-0020,QR,RGAM_O_DIR_86_361.FRM8,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00305,QR-0021,QR,RGAM_O_DIR_86_361.A11.P1,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00306,QR-0021,QR,RGAM_O_DIR_86_361.A12.P0,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00307,QR-0021,QR,RGAM_O_DIR_86_361.A7.P4.ptb,direct,A,legal_constitution_evidenced,inscription only; epistemic ceiling from legal text
+LNK-00308,QR-0021,QR,RGAM_O_DIR_86_361.FRM8,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00309,QR-0022,QR,RGAM_O_DIR_86_361.A11.P1,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00310,QR-0022,QR,RGAM_O_DIR_86_361.A12.P0,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00311,QR-0022,QR,RGAM_O_DIR_86_361.A7.P4.ptb,direct,A,legal_constitution_evidenced,inscription only; epistemic ceiling from legal text
+LNK-00312,QR-0022,QR,RGAM_O_DIR_86_361.A7.P4.sub2,direct,A,legal_constitution_evidenced,inscription only; epistemic ceiling from legal text
+LNK-00313,QR-0022,QR,RGAM_O_DIR_86_361.FRM8,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00314,QR-0023,QR,RGAM_O_DIR_86_361.A11.P1,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00315,QR-0023,QR,RGAM_O_DIR_86_361.A12.P0,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00316,QR-0023,QR,RGAM_O_DIR_86_361.A7.P4.sub3,direct,A,legal_constitution_evidenced,inscription only; epistemic ceiling from legal text
+LNK-00317,QR-0023,QR,RGAM_O_DIR_86_361.FRM8,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00318,QR-0024,QR,RGAM_O_DIR_86_361.A11.P1,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00319,QR-0024,QR,RGAM_O_DIR_86_361.A12.P0,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00320,QR-0024,QR,RGAM_O_DIR_86_361.A7.P5,direct,A,legal_constitution_evidenced,inscription only; epistemic ceiling from legal text
+LNK-00321,QR-0024,QR,RGAM_O_DIR_86_361.FRM8,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00322,QR-0025,QR,RGAM_O_DIR_86_361.A11.P1,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00323,QR-0025,QR,RGAM_O_DIR_86_361.A12.P0,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00324,QR-0025,QR,RGAM_O_DIR_86_361.A8.P1,direct,A,legal_constitution_evidenced,inscription only; epistemic ceiling from legal text
+LNK-00325,QR-0025,QR,RGAM_O_DIR_86_361.A8.P1.sub2,direct,A,legal_constitution_evidenced,inscription only; epistemic ceiling from legal text
+LNK-00326,QR-0025,QR,RGAM_O_DIR_86_361.FRM8,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00327,QR-0026,QR,RGAM_O_DIR_86_361.A7.P2,direct,A,documented,documented only (see uncertainty/limitations)
+LNK-00328,QR-0026,QR,RGAM_O_DIR_86_361.A8.P1,direct,A,documented,documented only (see uncertainty/limitations)
+LNK-00329,QR-0026,QR,RGAM_O_DIR_86_361.A8.P1.pta,direct,A,documented,documented only (see uncertainty/limitations)
+LNK-00330,QR-0026,QR,RGAM_O_DIR_86_361.A8.P1.ptb,direct,A,documented,documented only (see uncertainty/limitations)
+LNK-00331,QR-0026,QR,RGAM_O_DIR_86_361.A8.P1.sub2,direct,A,documented,documented only (see uncertainty/limitations)
+LNK-00332,QR-0026,QR,RGAM_O_DIR_86_361.A8.P3,direct,A,documented,documented only (see uncertainty/limitations)
+LNK-00333,QR-0026,QR,RGAM_O_DIR_86_361.A8.P3.sub2,direct,A,documented,documented only (see uncertainty/limitations)
+LNK-00334,QR-0026,QR,RGAM_O_DIR_86_361.A8.P3.sub3,direct,A,documented,documented only (see uncertainty/limitations)
+LNK-00335,QR-0026,QR,RGAM_O_DIR_86_361.A8.P4,direct,A,documented,documented only (see uncertainty/limitations)
+LNK-00336,QR-0027,QR,RGAM_O_DIR_86_361.A11.P1,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00337,QR-0027,QR,RGAM_O_DIR_86_361.A12.P0,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00338,QR-0027,QR,RGAM_O_DIR_86_361.A8.P1.pta,direct,A,legal_constitution_evidenced,inscription only; epistemic ceiling from legal text
+LNK-00339,QR-0027,QR,RGAM_O_DIR_86_361.A8.P3,direct,A,legal_constitution_evidenced,inscription only; epistemic ceiling from legal text
+LNK-00340,QR-0027,QR,RGAM_O_DIR_86_361.FRM8,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00341,QR-0028,QR,RGAM_O_DIR_86_361.A11.P1,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00342,QR-0028,QR,RGAM_O_DIR_86_361.A12.P0,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00343,QR-0028,QR,RGAM_O_DIR_86_361.A7.P2,direct,A,legal_constitution_evidenced,inscription only; epistemic ceiling from legal text
+LNK-00344,QR-0028,QR,RGAM_O_DIR_86_361.A8.P3,direct,A,legal_constitution_evidenced,inscription only; epistemic ceiling from legal text
+LNK-00345,QR-0028,QR,RGAM_O_DIR_86_361.FRM8,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00346,QR-0029,QR,RGAM_O_DIR_86_361.A11.P1,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00347,QR-0029,QR,RGAM_O_DIR_86_361.A12.P0,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00348,QR-0029,QR,RGAM_O_DIR_86_361.A8.P3,direct,A,legal_constitution_evidenced,inscription only; epistemic ceiling from legal text
+LNK-00349,QR-0029,QR,RGAM_O_DIR_86_361.FRM8,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00350,QR-0030,QR,RGAM_O_DIR_86_361.A11.P1,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00351,QR-0030,QR,RGAM_O_DIR_86_361.A12.P0,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00352,QR-0030,QR,RGAM_O_DIR_86_361.A8.P3,direct,A,legal_constitution_evidenced,inscription only; epistemic ceiling from legal text
+LNK-00353,QR-0030,QR,RGAM_O_DIR_86_361.A8.P3.sub2,direct,A,legal_constitution_evidenced,inscription only; epistemic ceiling from legal text
+LNK-00354,QR-0030,QR,RGAM_O_DIR_86_361.FRM8,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00355,QR-0031,QR,RGAM_O_DIR_86_361.A11.P1,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00356,QR-0031,QR,RGAM_O_DIR_86_361.A12.P0,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00357,QR-0031,QR,RGAM_O_DIR_86_361.A8.P3.sub3,direct,A,legal_constitution_evidenced,inscription only; epistemic ceiling from legal text
+LNK-00358,QR-0031,QR,RGAM_O_DIR_86_361.FRM8,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00359,QR-0032,QR,RGAM_O_DIR_86_361.A11.P1,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00360,QR-0032,QR,RGAM_O_DIR_86_361.A12.P0,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00361,QR-0032,QR,RGAM_O_DIR_86_361.A8.P3.sub3,direct,A,legal_constitution_evidenced,inscription only; epistemic ceiling from legal text
+LNK-00362,QR-0032,QR,RGAM_O_DIR_86_361.FRM8,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00363,QR-0033,QR,RGAM_O_DIR_86_361.A11.P1,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00364,QR-0033,QR,RGAM_O_DIR_86_361.A12.P0,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00365,QR-0033,QR,RGAM_O_DIR_86_361.A8.P1.ptb,direct,A,legal_constitution_evidenced,inscription only; epistemic ceiling from legal text
+LNK-00366,QR-0033,QR,RGAM_O_DIR_86_361.A8.P4,direct,A,legal_constitution_evidenced,inscription only; epistemic ceiling from legal text
+LNK-00367,QR-0033,QR,RGAM_O_DIR_86_361.FRM8,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00368,QR-0034,QR,RGAM_O_DIR_86_361.A11.P1,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00369,QR-0034,QR,RGAM_O_DIR_86_361.A12.P0,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00370,QR-0034,QR,RGAM_O_DIR_86_361.A8.P4,direct,A,legal_constitution_evidenced,inscription only; epistemic ceiling from legal text
+LNK-00371,QR-0034,QR,RGAM_O_DIR_86_361.FRM8,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00372,QR-0035,QR,RGAM_O_DIR_86_361.A11.P1,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00373,QR-0035,QR,RGAM_O_DIR_86_361.A12.P0,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00374,QR-0035,QR,RGAM_O_DIR_86_361.A8.P4,direct,A,legal_constitution_evidenced,inscription only; epistemic ceiling from legal text
+LNK-00375,QR-0035,QR,RGAM_O_DIR_86_361.FRM8,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00376,QR-0036,QR,RGAM_O_DIR_86_361.A11.P1,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00377,QR-0036,QR,RGAM_O_DIR_86_361.A12.P0,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00378,QR-0036,QR,RGAM_O_DIR_86_361.A8.P4,direct,A,legal_constitution_evidenced,inscription only; epistemic ceiling from legal text
+LNK-00379,QR-0036,QR,RGAM_O_DIR_86_361.FRM8,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00380,QR-0037,QR,RGAM_O_DIR_86_361.A11.P1,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00381,QR-0037,QR,RGAM_O_DIR_86_361.A12.P0,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00382,QR-0037,QR,RGAM_O_DIR_86_361.A9.P0,direct,A,legal_constitution_evidenced,inscription only; epistemic ceiling from legal text
+LNK-00383,QR-0037,QR,RGAM_O_DIR_86_361.FRM8,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00384,QR-0038,QR,RGAM_O_DIR_86_361.A11.P1,direct,A,legal_constitution_evidenced,inscription only; epistemic ceiling from legal text
+LNK-00385,QR-0038,QR,RGAM_O_DIR_86_361.A12.P0,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00386,QR-0038,QR,RGAM_O_DIR_86_361.FRM8,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00387,QR-0039,QR,RGAM_O_DIR_86_361.A11.P1,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00388,QR-0039,QR,RGAM_O_DIR_86_361.A11.P2,direct,A,legal_constitution_evidenced,inscription only; epistemic ceiling from legal text
+LNK-00389,QR-0039,QR,RGAM_O_DIR_86_361.A12.P0,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00390,QR-0039,QR,RGAM_O_DIR_86_361.FRM8,indirect,A,legal_constitution_evidenced,"evidences addressee, implementation period and adoption date (force and applicability for the declared temporal reference); not establishment or exercise"
+LNK-00391,EXT-001,EXT,RGAM_O_DIR_86_361.FRM3,direct,A,documented,legal relevance only; source not checked
+LNK-00392,EXT-002,EXT,RGAM_O_DIR_86_361.A3.P0,direct,A,documented,legal relevance only; source not checked
+LNK-00393,EXT-003,EXT,RGAM_O_DIR_86_361.A4.P0.pt1,direct,A,documented,legal relevance only; source not checked
+LNK-00394,EXT-004,EXT,RGAM_O_DIR_86_361.A2.P0.pt4,direct,A,documented,legal relevance only; source not checked
+LNK-00395,EXT-004,EXT,RGAM_O_DIR_86_361.A4.P0.pt1.dash1,indirect,A,documented,identification or scope support; source not checked
+LNK-00396,EXT-005,EXT,RGAM_O_DIR_86_361.A2.P0.pt15,direct,A,documented,legal relevance only; source not checked
+LNK-00397,EXT-005,EXT,RGAM_O_DIR_86_361.A6.P1,indirect,A,documented,identification or scope support; source not checked
+LNK-00398,EXT-006,EXT,RGAM_O_DIR_86_361.A2.P0.pt8,direct,A,documented,legal relevance only; source not checked
+LNK-00399,EXT-006,EXT,RGAM_O_DIR_86_361.A5.P2.ptb,indirect,A,documented,identification or scope support; source not checked
+LNK-00400,EXT-007,EXT,RGAM_O_DIR_86_361.A2.P0.pt8,direct,A,documented,legal relevance only; source not checked
+LNK-00401,EXT-008,EXT,RGAM_O_DIR_86_361.A2.P0.pt17.dash1,direct,A,documented,legal relevance only; source not checked
+LNK-00402,EXT-008,EXT,RGAM_O_DIR_86_361.A2.P0.pt17.dash2,direct,A,documented,legal relevance only; source not checked
+LNK-00403,EXT-008,EXT,RGAM_O_DIR_86_361.FRM11,indirect,A,documented,identification or scope support; source not checked
+LNK-00404,EXT-009,EXT,RGAM_O_DIR_86_361.A8.P2,direct,A,documented,legal relevance only; source not checked
+LNK-00405,EXT-009,EXT,RGAM_O_DIR_86_361.FRM11,indirect,A,documented,identification or scope support; source not checked
+LNK-00406,EXT-010,EXT,RGAM_O_DIR_86_361.A10.P0,direct,A,documented,legal relevance only; source not checked
+LNK-00407,EXT-010,EXT,RGAM_O_DIR_86_361.FRM12,indirect,A,documented,identification or scope support; source not checked
+LNK-00408,SC-01,SC,RGAM_O_DIR_86_361.A2.P0.pt17,indirect,A,documented,via member records; inherits the weakest member status
+LNK-00409,SC-01,SC,RGAM_O_DIR_86_361.A3.P0,indirect,A,documented,via member records; inherits the weakest member status
+LNK-00410,SC-01,SC,RGAM_O_DIR_86_361.A4.P0,indirect,A,documented,via member records; inherits the weakest member status
+LNK-00411,SC-01,SC,RGAM_O_DIR_86_361.A4.P0.pt1,indirect,A,documented,via member records; inherits the weakest member status
+LNK-00412,SC-01,SC,RGAM_O_DIR_86_361.A4.P0.pt1.dash1,indirect,A,documented,via member records; inherits the weakest member status
+LNK-00413,SC-01,SC,RGAM_O_DIR_86_361.A4.P0.pt1.dash2,indirect,A,documented,via member records; inherits the weakest member status
+LNK-00414,SC-01,SC,RGAM_O_DIR_86_361.A4.P0.pt1.dash3,indirect,A,documented,via member records; inherits the weakest member status
+LNK-00415,SC-01,SC,RGAM_O_DIR_86_361.A4.P0.pt2,indirect,A,documented,via member records; inherits the weakest member status
+LNK-00416,SC-01,SC,RGAM_O_DIR_86_361.A5.P1,indirect,A,documented,via member records; inherits the weakest member status
+LNK-00417,SC-01,SC,RGAM_O_DIR_86_361.A5.P2,indirect,A,documented,via member records; inherits the weakest member status
+LNK-00418,SC-01,SC,RGAM_O_DIR_86_361.A5.P2.pta,indirect,A,documented,via member records; inherits the weakest member status
+LNK-00419,SC-01,SC,RGAM_O_DIR_86_361.A5.P2.ptc,indirect,A,documented,via member records; inherits the weakest member status
+LNK-00420,SC-02,SC,RGAM_O_DIR_86_361.A1.P0,indirect,A,documented,via member records; inherits the weakest member status
+LNK-00421,SC-02,SC,RGAM_O_DIR_86_361.A2.P0.pt16,indirect,A,documented,via member records; inherits the weakest member status
+LNK-00422,SC-02,SC,RGAM_O_DIR_86_361.A6.P2,indirect,A,documented,via member records; inherits the weakest member status
+LNK-00423,SC-02,SC,RGAM_O_DIR_86_361.A6.P3,indirect,A,documented,via member records; inherits the weakest member status
+LNK-00424,SC-02,SC,RGAM_O_DIR_86_361.A6.P3.sub2,indirect,A,documented,via member records; inherits the weakest member status
+LNK-00425,SC-02,SC,RGAM_O_DIR_86_361.A7.P3,indirect,A,documented,via member records; inherits the weakest member status
+LNK-00426,SC-02,SC,RGAM_O_DIR_86_361.A7.P4,indirect,A,documented,via member records; inherits the weakest member status
+LNK-00427,SC-03,SC,RGAM_O_DIR_86_361.A2.P0.pt8,indirect,A,documented,via member records; inherits the weakest member status
+LNK-00428,SC-03,SC,RGAM_O_DIR_86_361.A5.P2,indirect,A,documented,via member records; inherits the weakest member status
+LNK-00429,SC-03,SC,RGAM_O_DIR_86_361.A5.P2.ptb,indirect,A,documented,via member records; inherits the weakest member status
+LNK-00430,SC-03,SC,RGAM_O_DIR_86_361.A7.P1,indirect,A,documented,via member records; inherits the weakest member status
+LNK-00431,SC-03,SC,RGAM_O_DIR_86_361.A7.P2,indirect,A,documented,via member records; inherits the weakest member status
+LNK-00432,SC-03,SC,RGAM_O_DIR_86_361.A7.P5,indirect,A,documented,via member records; inherits the weakest member status
+LNK-00433,SC-04,SC,RGAM_O_DIR_86_361.A7.P4,indirect,A,documented,via member records; inherits the weakest member status
+LNK-00434,SC-04,SC,RGAM_O_DIR_86_361.A7.P4.pta,indirect,A,documented,via member records; inherits the weakest member status
+LNK-00435,SC-04,SC,RGAM_O_DIR_86_361.A7.P4.ptb,indirect,A,documented,via member records; inherits the weakest member status
+LNK-00436,SC-04,SC,RGAM_O_DIR_86_361.A7.P4.sub2,indirect,A,documented,via member records; inherits the weakest member status
+LNK-00437,SC-04,SC,RGAM_O_DIR_86_361.A7.P4.sub3,indirect,A,documented,via member records; inherits the weakest member status
+LNK-00438,SC-05,SC,RGAM_O_DIR_86_361.A7.P2,indirect,A,documented,via member records; inherits the weakest member status
+LNK-00439,SC-05,SC,RGAM_O_DIR_86_361.A8.P1,indirect,A,documented,via member records; inherits the weakest member status
+LNK-00440,SC-05,SC,RGAM_O_DIR_86_361.A8.P1.pta,indirect,A,documented,via member records; inherits the weakest member status
+LNK-00441,SC-05,SC,RGAM_O_DIR_86_361.A8.P1.ptb,indirect,A,documented,via member records; inherits the weakest member status
+LNK-00442,SC-05,SC,RGAM_O_DIR_86_361.A8.P1.sub2,indirect,A,documented,via member records; inherits the weakest member status
+LNK-00443,SC-05,SC,RGAM_O_DIR_86_361.A8.P2,indirect,A,documented,via member records; inherits the weakest member status
+LNK-00444,SC-05,SC,RGAM_O_DIR_86_361.A8.P3,indirect,A,documented,via member records; inherits the weakest member status
+LNK-00445,SC-05,SC,RGAM_O_DIR_86_361.A8.P3.sub2,indirect,A,documented,via member records; inherits the weakest member status
+LNK-00446,SC-05,SC,RGAM_O_DIR_86_361.A8.P3.sub3,indirect,A,documented,via member records; inherits the weakest member status
+LNK-00447,SC-05,SC,RGAM_O_DIR_86_361.A8.P4,indirect,A,documented,via member records; inherits the weakest member status
+LNK-00448,SC-05,SC,RGAM_O_DIR_86_361.A8.P5,indirect,A,documented,via member records; inherits the weakest member status
+LNK-00449,SC-06,SC,RGAM_O_DIR_86_361.A4.P0,indirect,A,documented,via member records; inherits the weakest member status
+LNK-00450,SC-06,SC,RGAM_O_DIR_86_361.A5.P1,indirect,A,documented,via member records; inherits the weakest member status
+LNK-00451,SC-06,SC,RGAM_O_DIR_86_361.A5.P2.sub2,indirect,A,documented,via member records; inherits the weakest member status
+LNK-00452,SC-06,SC,RGAM_O_DIR_86_361.A5.P3,indirect,A,documented,via member records; inherits the weakest member status
+LNK-00453,SC-06,SC,RGAM_O_DIR_86_361.A5.P4,indirect,A,documented,via member records; inherits the weakest member status
+LNK-00454,ARCH-01,ARCH,RGAM_O_DIR_86_361.A1.P0,direct,A,documented,I1 scope material
+LNK-00455,ARCH-01,ARCH,RGAM_O_DIR_86_361.A2.P0.pt16,direct,A,documented,I1 scope material
+LNK-00456,ARCH-01,ARCH,RGAM_O_DIR_86_361.A2.P0.pt8,indirect,A,documented,I2 coupling relation support
+LNK-00457,ARCH-01,ARCH,RGAM_O_DIR_86_361.A4.P0,indirect,A,documented,I2 coupling relation support
+LNK-00458,ARCH-01,ARCH,RGAM_O_DIR_86_361.A4.P0.pt2,indirect,A,documented,I2 coupling relation support
+LNK-00459,ARCH-01,ARCH,RGAM_O_DIR_86_361.A6.P2,direct,A,documented,I1 scope material
+LNK-00460,ARCH-01,ARCH,RGAM_O_DIR_86_361.A7.P2,indirect,A,documented,I2 coupling relation support
+LNK-00461,ARCH-01,ARCH,RGAM_O_DIR_86_361.A7.P3,indirect,A,documented,I2 coupling relation support
+LNK-00462,ARCH-01,ARCH,RGAM_O_DIR_86_361.A8.P3,indirect,A,documented,I2 coupling relation support
+LNK-00463,ARCH-01,ARCH,RGAM_O_DIR_86_361.A8.P4,indirect,A,documented,I2 coupling relation support
+LNK-00464,ARCH-01,ARCH,RGAM_O_DIR_86_361.FRM1,direct,A,documented,I1 scope material
+LNK-00465,ARCH-02,ARCH,RGAM_O_DIR_86_361.A1.P0,direct,A,documented,I1 scope material
+LNK-00466,ARCH-02,ARCH,RGAM_O_DIR_86_361.A2.P0.pt16,direct,A,documented,I1 scope material
+LNK-00467,ARCH-02,ARCH,RGAM_O_DIR_86_361.A2.P0.pt8,indirect,A,documented,I2 coupling relation support
+LNK-00468,ARCH-02,ARCH,RGAM_O_DIR_86_361.A4.P0,indirect,A,documented,I2 coupling relation support
+LNK-00469,ARCH-02,ARCH,RGAM_O_DIR_86_361.A4.P0.pt1,indirect,A,documented,I2 coupling relation support
+LNK-00470,ARCH-02,ARCH,RGAM_O_DIR_86_361.A5.P1,indirect,A,documented,I2 coupling relation support
+LNK-00471,ARCH-02,ARCH,RGAM_O_DIR_86_361.A5.P2,indirect,A,documented,I2 coupling relation support
+LNK-00472,ARCH-02,ARCH,RGAM_O_DIR_86_361.A5.P2.ptb,indirect,A,documented,I2 coupling relation support
+LNK-00473,ARCH-02,ARCH,RGAM_O_DIR_86_361.A7.P4.ptb,indirect,A,documented,I2 coupling relation support
+LNK-00474,ARCH-02,ARCH,RGAM_O_DIR_86_361.A7.P5,indirect,A,documented,I2 coupling relation support
+LNK-00475,ARCH-02,ARCH,RGAM_O_DIR_86_361.A8.P1.ptb,indirect,A,documented,I2 coupling relation support
+LNK-00476,ARCH-02,ARCH,RGAM_O_DIR_86_361.A8.P4,indirect,A,documented,I2 coupling relation support
+LNK-00477,ARCH-02,ARCH,RGAM_O_DIR_86_361.A9.P0,direct,A,documented,I1 scope material
+LNK-00478,ARCH-02,ARCH,RGAM_O_DIR_86_361.FRM1,direct,A,documented,I1 scope material
+LNK-00479,PROP-001,PROP,RGAM_O_DIR_86_361.A2.P0.pt17,indirect,A,documented,via supporting records
+LNK-00480,PROP-001,PROP,RGAM_O_DIR_86_361.A3.P0,indirect,A,documented,via supporting records
+LNK-00481,PROP-001,PROP,RGAM_O_DIR_86_361.A4.P0,indirect,A,documented,via supporting records
+LNK-00482,PROP-001,PROP,RGAM_O_DIR_86_361.A4.P0.pt1,indirect,A,documented,via supporting records
+LNK-00483,PROP-001,PROP,RGAM_O_DIR_86_361.A4.P0.pt1.dash1,indirect,A,documented,via supporting records
+LNK-00484,PROP-001,PROP,RGAM_O_DIR_86_361.A4.P0.pt1.dash2,indirect,A,documented,via supporting records
+LNK-00485,PROP-001,PROP,RGAM_O_DIR_86_361.A4.P0.pt1.dash3,indirect,A,documented,via supporting records
+LNK-00486,PROP-001,PROP,RGAM_O_DIR_86_361.A4.P0.pt2,indirect,A,documented,via supporting records
+LNK-00487,PROP-001,PROP,RGAM_O_DIR_86_361.A5.P1,indirect,A,documented,via bearer subconfiguration
+LNK-00488,PROP-001,PROP,RGAM_O_DIR_86_361.A5.P2,indirect,A,documented,via bearer subconfiguration
+LNK-00489,PROP-001,PROP,RGAM_O_DIR_86_361.A5.P2.pta,indirect,A,documented,via bearer subconfiguration
+LNK-00490,PROP-001,PROP,RGAM_O_DIR_86_361.A5.P2.ptc,indirect,A,documented,via bearer subconfiguration
+LNK-00491,PROP-002,PROP,RGAM_O_DIR_86_361.A1.P0,indirect,A,documented,via supporting records
+LNK-00492,PROP-002,PROP,RGAM_O_DIR_86_361.A2.P0.pt16,indirect,A,documented,via supporting records
+LNK-00493,PROP-002,PROP,RGAM_O_DIR_86_361.A6.P2,indirect,A,documented,via supporting records
+LNK-00494,PROP-002,PROP,RGAM_O_DIR_86_361.A6.P3,indirect,A,documented,via supporting records
+LNK-00495,PROP-002,PROP,RGAM_O_DIR_86_361.A6.P3.sub2,indirect,A,documented,via bearer subconfiguration
+LNK-00496,PROP-002,PROP,RGAM_O_DIR_86_361.A7.P3,indirect,A,documented,via supporting records
+LNK-00497,PROP-002,PROP,RGAM_O_DIR_86_361.A7.P4,indirect,A,documented,via bearer subconfiguration
+LNK-00498,PROP-003,PROP,RGAM_O_DIR_86_361.A7.P2,indirect,A,documented,via supporting records
+LNK-00499,PROP-003,PROP,RGAM_O_DIR_86_361.A8.P1,indirect,A,documented,via supporting records
+LNK-00500,PROP-003,PROP,RGAM_O_DIR_86_361.A8.P1.pta,indirect,A,documented,via supporting records
+LNK-00501,PROP-003,PROP,RGAM_O_DIR_86_361.A8.P1.ptb,indirect,A,documented,via supporting records
+LNK-00502,PROP-003,PROP,RGAM_O_DIR_86_361.A8.P1.sub2,indirect,A,documented,via bearer subconfiguration
+LNK-00503,PROP-003,PROP,RGAM_O_DIR_86_361.A8.P2,indirect,A,documented,via bearer subconfiguration
+LNK-00504,PROP-003,PROP,RGAM_O_DIR_86_361.A8.P3,indirect,A,documented,via supporting records
+LNK-00505,PROP-003,PROP,RGAM_O_DIR_86_361.A8.P3.sub2,indirect,A,documented,via supporting records
+LNK-00506,PROP-003,PROP,RGAM_O_DIR_86_361.A8.P3.sub3,indirect,A,documented,via supporting records
+LNK-00507,PROP-003,PROP,RGAM_O_DIR_86_361.A8.P4,indirect,A,documented,via supporting records
+LNK-00508,PROP-003,PROP,RGAM_O_DIR_86_361.A8.P5,indirect,A,documented,via supporting records
+LNK-00509,PROP-004,PROP,RGAM_O_DIR_86_361.A7.P4,indirect,A,documented,via bearer subconfiguration
+LNK-00510,PROP-004,PROP,RGAM_O_DIR_86_361.A7.P4.pta,indirect,A,documented,via bearer subconfiguration
+LNK-00511,PROP-004,PROP,RGAM_O_DIR_86_361.A7.P4.ptb,indirect,A,documented,via supporting records
+LNK-00512,PROP-004,PROP,RGAM_O_DIR_86_361.A7.P4.sub2,indirect,A,documented,via bearer subconfiguration
+LNK-00513,PROP-004,PROP,RGAM_O_DIR_86_361.A7.P4.sub3,indirect,A,documented,via supporting records
+LNK-00514,PROP-005,PROP,RGAM_O_DIR_86_361.A7.P2,indirect,A,documented,via supporting records
+LNK-00515,PROP-005,PROP,RGAM_O_DIR_86_361.A8.P1,indirect,A,documented,via supporting records
+LNK-00516,PROP-005,PROP,RGAM_O_DIR_86_361.A8.P1.pta,indirect,A,documented,via supporting records
+LNK-00517,PROP-005,PROP,RGAM_O_DIR_86_361.A8.P1.ptb,indirect,A,documented,via supporting records
+LNK-00518,PROP-005,PROP,RGAM_O_DIR_86_361.A8.P1.sub2,indirect,A,documented,via bearer subconfiguration
+LNK-00519,PROP-005,PROP,RGAM_O_DIR_86_361.A8.P2,indirect,A,documented,via bearer subconfiguration
+LNK-00520,PROP-005,PROP,RGAM_O_DIR_86_361.A8.P3,indirect,A,documented,via supporting records
+LNK-00521,PROP-005,PROP,RGAM_O_DIR_86_361.A8.P3.sub2,indirect,A,documented,via supporting records
+LNK-00522,PROP-005,PROP,RGAM_O_DIR_86_361.A8.P3.sub3,indirect,A,documented,via bearer subconfiguration
+LNK-00523,PROP-005,PROP,RGAM_O_DIR_86_361.A8.P4,indirect,A,documented,via supporting records
+LNK-00524,PROP-005,PROP,RGAM_O_DIR_86_361.A8.P5,indirect,A,documented,via bearer subconfiguration
+LNK-00525,PROP-006,PROP,RGAM_O_DIR_86_361.A7.P4,indirect,A,documented,via supporting records
+LNK-00526,PROP-006,PROP,RGAM_O_DIR_86_361.A7.P4.pta,indirect,A,documented,via supporting records
+LNK-00527,PROP-006,PROP,RGAM_O_DIR_86_361.A7.P4.ptb,indirect,A,documented,via supporting records
+LNK-00528,PROP-006,PROP,RGAM_O_DIR_86_361.A7.P4.sub2,indirect,A,documented,via bearer subconfiguration
+LNK-00529,PROP-006,PROP,RGAM_O_DIR_86_361.A7.P4.sub3,indirect,A,documented,via supporting records
+LNK-00530,PROP-007,PROP,RGAM_O_DIR_86_361.A7.P2,indirect,A,documented,via bearer subconfiguration
+LNK-00531,PROP-007,PROP,RGAM_O_DIR_86_361.A8.P1,indirect,A,documented,via supporting records
+LNK-00532,PROP-007,PROP,RGAM_O_DIR_86_361.A8.P1.pta,indirect,A,documented,via supporting records
+LNK-00533,PROP-007,PROP,RGAM_O_DIR_86_361.A8.P1.ptb,indirect,A,documented,via bearer subconfiguration
+LNK-00534,PROP-007,PROP,RGAM_O_DIR_86_361.A8.P1.sub2,indirect,A,documented,via bearer subconfiguration
+LNK-00535,PROP-007,PROP,RGAM_O_DIR_86_361.A8.P2,indirect,A,documented,via bearer subconfiguration
+LNK-00536,PROP-007,PROP,RGAM_O_DIR_86_361.A8.P3,indirect,A,documented,via supporting records
+LNK-00537,PROP-007,PROP,RGAM_O_DIR_86_361.A8.P3.sub2,indirect,A,documented,via bearer subconfiguration
+LNK-00538,PROP-007,PROP,RGAM_O_DIR_86_361.A8.P3.sub3,indirect,A,documented,via bearer subconfiguration
+LNK-00539,PROP-007,PROP,RGAM_O_DIR_86_361.A8.P4,indirect,A,documented,via supporting records
+LNK-00540,PROP-007,PROP,RGAM_O_DIR_86_361.A8.P5,indirect,A,documented,via bearer subconfiguration
+LNK-00541,PROP-008,PROP,RGAM_O_DIR_86_361.A7.P2,indirect,A,documented,via bearer subconfiguration
+LNK-00542,PROP-008,PROP,RGAM_O_DIR_86_361.A8.P1,indirect,A,documented,via supporting records
+LNK-00543,PROP-008,PROP,RGAM_O_DIR_86_361.A8.P1.pta,indirect,A,documented,via supporting records
+LNK-00544,PROP-008,PROP,RGAM_O_DIR_86_361.A8.P1.ptb,indirect,A,documented,via bearer subconfiguration
+LNK-00545,PROP-008,PROP,RGAM_O_DIR_86_361.A8.P1.sub2,indirect,A,documented,via bearer subconfiguration
+LNK-00546,PROP-008,PROP,RGAM_O_DIR_86_361.A8.P2,indirect,A,documented,via bearer subconfiguration
+LNK-00547,PROP-008,PROP,RGAM_O_DIR_86_361.A8.P3,indirect,A,documented,via bearer subconfiguration
+LNK-00548,PROP-008,PROP,RGAM_O_DIR_86_361.A8.P3.sub2,indirect,A,documented,via bearer subconfiguration
+LNK-00549,PROP-008,PROP,RGAM_O_DIR_86_361.A8.P3.sub3,indirect,A,documented,via bearer subconfiguration
+LNK-00550,PROP-008,PROP,RGAM_O_DIR_86_361.A8.P4,indirect,A,documented,via supporting records
+LNK-00551,PROP-008,PROP,RGAM_O_DIR_86_361.A8.P5,indirect,A,documented,via supporting records
+LNK-00552,PROP-009,PROP,RGAM_O_DIR_86_361.A2.P0.pt17,indirect,A,documented,via bearer subconfiguration
+LNK-00553,PROP-009,PROP,RGAM_O_DIR_86_361.A3.P0,indirect,A,documented,via bearer subconfiguration
+LNK-00554,PROP-009,PROP,RGAM_O_DIR_86_361.A4.P0,indirect,A,documented,via supporting records
+LNK-00555,PROP-009,PROP,RGAM_O_DIR_86_361.A4.P0.pt1,indirect,A,documented,via bearer subconfiguration
+LNK-00556,PROP-009,PROP,RGAM_O_DIR_86_361.A4.P0.pt1.dash1,indirect,A,documented,via bearer subconfiguration
+LNK-00557,PROP-009,PROP,RGAM_O_DIR_86_361.A4.P0.pt1.dash2,indirect,A,documented,via bearer subconfiguration
+LNK-00558,PROP-009,PROP,RGAM_O_DIR_86_361.A4.P0.pt1.dash3,indirect,A,documented,via bearer subconfiguration
+LNK-00559,PROP-009,PROP,RGAM_O_DIR_86_361.A4.P0.pt2,indirect,A,documented,via supporting records
+LNK-00560,PROP-009,PROP,RGAM_O_DIR_86_361.A5.P1,indirect,A,documented,via bearer subconfiguration
+LNK-00561,PROP-009,PROP,RGAM_O_DIR_86_361.A5.P2,indirect,A,documented,via bearer subconfiguration
+LNK-00562,PROP-009,PROP,RGAM_O_DIR_86_361.A5.P2.pta,indirect,A,documented,via bearer subconfiguration
+LNK-00563,PROP-009,PROP,RGAM_O_DIR_86_361.A5.P2.ptc,indirect,A,documented,via bearer subconfiguration
+LNK-00564,PROP-010,PROP,RGAM_O_DIR_86_361.A7.P2,indirect,A,documented,via supporting records
+LNK-00565,PROP-010,PROP,RGAM_O_DIR_86_361.A8.P1,indirect,A,documented,via supporting records
+LNK-00566,PROP-010,PROP,RGAM_O_DIR_86_361.A8.P1.pta,indirect,A,documented,via supporting records
+LNK-00567,PROP-010,PROP,RGAM_O_DIR_86_361.A8.P1.ptb,indirect,A,documented,via supporting records
+LNK-00568,PROP-010,PROP,RGAM_O_DIR_86_361.A8.P1.sub2,indirect,A,documented,via supporting records
+LNK-00569,PROP-010,PROP,RGAM_O_DIR_86_361.A8.P2,indirect,A,documented,via bearer subconfiguration
+LNK-00570,PROP-010,PROP,RGAM_O_DIR_86_361.A8.P3,indirect,A,documented,via supporting records
+LNK-00571,PROP-010,PROP,RGAM_O_DIR_86_361.A8.P3.sub2,indirect,A,documented,via supporting records
+LNK-00572,PROP-010,PROP,RGAM_O_DIR_86_361.A8.P3.sub3,indirect,A,documented,via supporting records
+LNK-00573,PROP-010,PROP,RGAM_O_DIR_86_361.A8.P4,indirect,A,documented,via supporting records
+LNK-00574,PROP-010,PROP,RGAM_O_DIR_86_361.A8.P5,indirect,A,documented,via bearer subconfiguration
+LNK-00575,PROP-011,PROP,RGAM_O_DIR_86_361.A7.P4,indirect,A,documented,via bearer subconfiguration
+LNK-00576,PROP-011,PROP,RGAM_O_DIR_86_361.A7.P4.pta,indirect,A,documented,via bearer subconfiguration
+LNK-00577,PROP-011,PROP,RGAM_O_DIR_86_361.A7.P4.ptb,indirect,A,documented,via supporting records
+LNK-00578,PROP-011,PROP,RGAM_O_DIR_86_361.A7.P4.sub2,indirect,A,documented,via supporting records
+LNK-00579,PROP-011,PROP,RGAM_O_DIR_86_361.A7.P4.sub3,indirect,A,documented,via bearer subconfiguration
+LNK-00580,PROP-012,PROP,RGAM_O_DIR_86_361.A8.P4,indirect,A,documented,via supporting records
+LNK-00581,PROP-013,PROP,RGAM_O_DIR_86_361.A4.P0,indirect,A,documented,via supporting records
+LNK-00582,PROP-013,PROP,RGAM_O_DIR_86_361.A4.P0.pt2,indirect,A,documented,via supporting records
+LNK-00583,PROP-013,PROP,RGAM_O_DIR_86_361.A6.P1,indirect,A,documented,via supporting records
+LNK-00584,PROP-014,PROP,RGAM_O_DIR_86_361.A1.P0,indirect,A,documented,via bearer architecture candidate
+LNK-00585,PROP-014,PROP,RGAM_O_DIR_86_361.A2.P0.pt16,indirect,A,documented,via supporting records
+LNK-00586,PROP-014,PROP,RGAM_O_DIR_86_361.A2.P0.pt17,indirect,A,documented,via supporting records
+LNK-00587,PROP-014,PROP,RGAM_O_DIR_86_361.A2.P0.pt8,indirect,A,documented,via bearer architecture candidate
+LNK-00588,PROP-014,PROP,RGAM_O_DIR_86_361.A3.P0,indirect,A,documented,via supporting records
+LNK-00589,PROP-014,PROP,RGAM_O_DIR_86_361.A4.P0,indirect,A,documented,via supporting records
+LNK-00590,PROP-014,PROP,RGAM_O_DIR_86_361.A4.P0.pt1,indirect,A,documented,via bearer architecture candidate
+LNK-00591,PROP-014,PROP,RGAM_O_DIR_86_361.A4.P0.pt1.dash1,indirect,A,documented,via bearer architecture candidate
+LNK-00592,PROP-014,PROP,RGAM_O_DIR_86_361.A4.P0.pt1.dash2,indirect,A,documented,via bearer architecture candidate
+LNK-00593,PROP-014,PROP,RGAM_O_DIR_86_361.A4.P0.pt1.dash3,indirect,A,documented,via bearer architecture candidate
+LNK-00594,PROP-014,PROP,RGAM_O_DIR_86_361.A4.P0.pt2,indirect,A,documented,via supporting records
+LNK-00595,PROP-014,PROP,RGAM_O_DIR_86_361.A5.P1,indirect,A,documented,via bearer architecture candidate
+LNK-00596,PROP-014,PROP,RGAM_O_DIR_86_361.A5.P2,indirect,A,documented,via bearer architecture candidate
+LNK-00597,PROP-014,PROP,RGAM_O_DIR_86_361.A5.P2.pta,indirect,A,documented,via bearer architecture candidate
+LNK-00598,PROP-014,PROP,RGAM_O_DIR_86_361.A5.P2.ptb,indirect,A,documented,via bearer architecture candidate
+LNK-00599,PROP-014,PROP,RGAM_O_DIR_86_361.A5.P2.ptc,indirect,A,documented,via bearer architecture candidate
+LNK-00600,PROP-014,PROP,RGAM_O_DIR_86_361.A6.P2,indirect,A,documented,via supporting records
+LNK-00601,PROP-014,PROP,RGAM_O_DIR_86_361.A6.P3,indirect,A,documented,via bearer architecture candidate
+LNK-00602,PROP-014,PROP,RGAM_O_DIR_86_361.A6.P3.sub2,indirect,A,documented,via bearer architecture candidate
+LNK-00603,PROP-014,PROP,RGAM_O_DIR_86_361.A7.P1,indirect,A,documented,via bearer architecture candidate
+LNK-00604,PROP-014,PROP,RGAM_O_DIR_86_361.A7.P2,indirect,A,documented,via bearer architecture candidate
+LNK-00605,PROP-014,PROP,RGAM_O_DIR_86_361.A7.P3,indirect,A,documented,via supporting records
+LNK-00606,PROP-014,PROP,RGAM_O_DIR_86_361.A7.P4,indirect,A,documented,via bearer architecture candidate
+LNK-00607,PROP-014,PROP,RGAM_O_DIR_86_361.A7.P5,indirect,A,documented,via bearer architecture candidate
+LNK-00608,PROP-014,PROP,RGAM_O_DIR_86_361.A8.P1,indirect,A,documented,via bearer architecture candidate
+LNK-00609,PROP-014,PROP,RGAM_O_DIR_86_361.A8.P1.pta,indirect,A,documented,via bearer architecture candidate
+LNK-00610,PROP-014,PROP,RGAM_O_DIR_86_361.A8.P1.ptb,indirect,A,documented,via bearer architecture candidate
+LNK-00611,PROP-014,PROP,RGAM_O_DIR_86_361.A8.P1.sub2,indirect,A,documented,via bearer architecture candidate
+LNK-00612,PROP-014,PROP,RGAM_O_DIR_86_361.A8.P2,indirect,A,documented,via bearer architecture candidate
+LNK-00613,PROP-014,PROP,RGAM_O_DIR_86_361.A8.P3,indirect,A,documented,via bearer architecture candidate
+LNK-00614,PROP-014,PROP,RGAM_O_DIR_86_361.A8.P3.sub2,indirect,A,documented,via bearer architecture candidate
+LNK-00615,PROP-014,PROP,RGAM_O_DIR_86_361.A8.P3.sub3,indirect,A,documented,via bearer architecture candidate
+LNK-00616,PROP-014,PROP,RGAM_O_DIR_86_361.A8.P4,indirect,A,documented,via bearer architecture candidate
+LNK-00617,PROP-014,PROP,RGAM_O_DIR_86_361.A8.P5,indirect,A,documented,via bearer architecture candidate
+LNK-00618,PROP-014,PROP,RGAM_O_DIR_86_361.FRM1,indirect,A,documented,via bearer architecture candidate
+LNK-00619,PROP-015,PROP,RGAM_O_DIR_86_361.A1.P0,indirect,A,documented,via bearer architecture candidate
+LNK-00620,PROP-015,PROP,RGAM_O_DIR_86_361.A2.P0.pt16,indirect,A,documented,via bearer architecture candidate
+LNK-00621,PROP-015,PROP,RGAM_O_DIR_86_361.A2.P0.pt17,indirect,A,documented,via bearer architecture candidate
+LNK-00622,PROP-015,PROP,RGAM_O_DIR_86_361.A2.P0.pt8,indirect,A,documented,via bearer architecture candidate
+LNK-00623,PROP-015,PROP,RGAM_O_DIR_86_361.A3.P0,indirect,A,documented,via bearer architecture candidate
+LNK-00624,PROP-015,PROP,RGAM_O_DIR_86_361.A4.P0,indirect,A,documented,via bearer architecture candidate
+LNK-00625,PROP-015,PROP,RGAM_O_DIR_86_361.A4.P0.pt1,indirect,A,documented,via bearer architecture candidate
+LNK-00626,PROP-015,PROP,RGAM_O_DIR_86_361.A4.P0.pt1.dash1,indirect,A,documented,via bearer architecture candidate
+LNK-00627,PROP-015,PROP,RGAM_O_DIR_86_361.A4.P0.pt1.dash2,indirect,A,documented,via bearer architecture candidate
+LNK-00628,PROP-015,PROP,RGAM_O_DIR_86_361.A4.P0.pt1.dash3,indirect,A,documented,via bearer architecture candidate
+LNK-00629,PROP-015,PROP,RGAM_O_DIR_86_361.A4.P0.pt2,indirect,A,documented,via bearer architecture candidate
+LNK-00630,PROP-015,PROP,RGAM_O_DIR_86_361.A5.P1,indirect,A,documented,via bearer architecture candidate
+LNK-00631,PROP-015,PROP,RGAM_O_DIR_86_361.A5.P2,indirect,A,documented,via bearer architecture candidate
+LNK-00632,PROP-015,PROP,RGAM_O_DIR_86_361.A5.P2.pta,indirect,A,documented,via bearer architecture candidate
+LNK-00633,PROP-015,PROP,RGAM_O_DIR_86_361.A5.P2.ptb,indirect,A,documented,via bearer architecture candidate
+LNK-00634,PROP-015,PROP,RGAM_O_DIR_86_361.A5.P2.ptc,indirect,A,documented,via bearer architecture candidate
+LNK-00635,PROP-015,PROP,RGAM_O_DIR_86_361.A6.P2,indirect,A,documented,via bearer architecture candidate
+LNK-00636,PROP-015,PROP,RGAM_O_DIR_86_361.A6.P3,indirect,A,documented,via bearer architecture candidate
+LNK-00637,PROP-015,PROP,RGAM_O_DIR_86_361.A6.P3.sub2,indirect,A,documented,via bearer architecture candidate
+LNK-00638,PROP-015,PROP,RGAM_O_DIR_86_361.A7.P1,indirect,A,documented,via bearer architecture candidate
+LNK-00639,PROP-015,PROP,RGAM_O_DIR_86_361.A7.P2,indirect,A,documented,via bearer architecture candidate
+LNK-00640,PROP-015,PROP,RGAM_O_DIR_86_361.A7.P3,indirect,A,documented,via bearer architecture candidate
+LNK-00641,PROP-015,PROP,RGAM_O_DIR_86_361.A7.P4,indirect,A,documented,via bearer architecture candidate
+LNK-00642,PROP-015,PROP,RGAM_O_DIR_86_361.A7.P5,indirect,A,documented,via bearer architecture candidate
+LNK-00643,PROP-015,PROP,RGAM_O_DIR_86_361.A8.P1,indirect,A,documented,via bearer architecture candidate
+LNK-00644,PROP-015,PROP,RGAM_O_DIR_86_361.A8.P1.pta,indirect,A,documented,via bearer architecture candidate
+LNK-00645,PROP-015,PROP,RGAM_O_DIR_86_361.A8.P1.ptb,indirect,A,documented,via bearer architecture candidate
+LNK-00646,PROP-015,PROP,RGAM_O_DIR_86_361.A8.P1.sub2,indirect,A,documented,via bearer architecture candidate
+LNK-00647,PROP-015,PROP,RGAM_O_DIR_86_361.A8.P2,indirect,A,documented,via bearer architecture candidate
+LNK-00648,PROP-015,PROP,RGAM_O_DIR_86_361.A8.P3,indirect,A,documented,via bearer architecture candidate
+LNK-00649,PROP-015,PROP,RGAM_O_DIR_86_361.A8.P3.sub2,indirect,A,documented,via bearer architecture candidate
+LNK-00650,PROP-015,PROP,RGAM_O_DIR_86_361.A8.P3.sub3,indirect,A,documented,via bearer architecture candidate
+LNK-00651,PROP-015,PROP,RGAM_O_DIR_86_361.A8.P4,indirect,A,documented,via bearer architecture candidate
+LNK-00652,PROP-015,PROP,RGAM_O_DIR_86_361.A8.P5,indirect,A,documented,via bearer architecture candidate
+LNK-00653,PROP-015,PROP,RGAM_O_DIR_86_361.FRM1,indirect,A,documented,via bearer architecture candidate
+LNK-00654,CL-01,CL,RGAM_O_DIR_86_361.A1.P0,indirect,A,documented,coverage statement over every unit
+LNK-00655,CL-01,CL,RGAM_O_DIR_86_361.A10.P0,indirect,A,documented,coverage statement over every unit
+LNK-00656,CL-01,CL,RGAM_O_DIR_86_361.A11.P1,indirect,A,documented,coverage statement over every unit
+LNK-00657,CL-01,CL,RGAM_O_DIR_86_361.A11.P2,indirect,A,documented,coverage statement over every unit
+LNK-00658,CL-01,CL,RGAM_O_DIR_86_361.A12.P0,indirect,A,documented,coverage statement over every unit
+LNK-00659,CL-01,CL,RGAM_O_DIR_86_361.A2.P0,indirect,A,documented,coverage statement over every unit
+LNK-00660,CL-01,CL,RGAM_O_DIR_86_361.A2.P0.pt1,indirect,A,documented,coverage statement over every unit
+LNK-00661,CL-01,CL,RGAM_O_DIR_86_361.A2.P0.pt10,indirect,A,documented,coverage statement over every unit
+LNK-00662,CL-01,CL,RGAM_O_DIR_86_361.A2.P0.pt11,indirect,A,documented,coverage statement over every unit
+LNK-00663,CL-01,CL,RGAM_O_DIR_86_361.A2.P0.pt12,indirect,A,documented,coverage statement over every unit
+LNK-00664,CL-01,CL,RGAM_O_DIR_86_361.A2.P0.pt13,indirect,A,documented,coverage statement over every unit
+LNK-00665,CL-01,CL,RGAM_O_DIR_86_361.A2.P0.pt14,indirect,A,documented,coverage statement over every unit
+LNK-00666,CL-01,CL,RGAM_O_DIR_86_361.A2.P0.pt15,indirect,A,documented,coverage statement over every unit
+LNK-00667,CL-01,CL,RGAM_O_DIR_86_361.A2.P0.pt16,indirect,A,documented,coverage statement over every unit
+LNK-00668,CL-01,CL,RGAM_O_DIR_86_361.A2.P0.pt17,indirect,A,documented,coverage statement over every unit
+LNK-00669,CL-01,CL,RGAM_O_DIR_86_361.A2.P0.pt17.dash1,indirect,A,documented,coverage statement over every unit
+LNK-00670,CL-01,CL,RGAM_O_DIR_86_361.A2.P0.pt17.dash2,indirect,A,documented,coverage statement over every unit
+LNK-00671,CL-01,CL,RGAM_O_DIR_86_361.A2.P0.pt17.dash3,indirect,A,documented,coverage statement over every unit
+LNK-00672,CL-01,CL,RGAM_O_DIR_86_361.A2.P0.pt17.dash4,indirect,A,documented,coverage statement over every unit
+LNK-00673,CL-01,CL,RGAM_O_DIR_86_361.A2.P0.pt2,indirect,A,documented,coverage statement over every unit
+LNK-00674,CL-01,CL,RGAM_O_DIR_86_361.A2.P0.pt3,indirect,A,documented,coverage statement over every unit
+LNK-00675,CL-01,CL,RGAM_O_DIR_86_361.A2.P0.pt4,indirect,A,documented,coverage statement over every unit
+LNK-00676,CL-01,CL,RGAM_O_DIR_86_361.A2.P0.pt5,indirect,A,documented,coverage statement over every unit
+LNK-00677,CL-01,CL,RGAM_O_DIR_86_361.A2.P0.pt6,indirect,A,documented,coverage statement over every unit
+LNK-00678,CL-01,CL,RGAM_O_DIR_86_361.A2.P0.pt7,indirect,A,documented,coverage statement over every unit
+LNK-00679,CL-01,CL,RGAM_O_DIR_86_361.A2.P0.pt8,indirect,A,documented,coverage statement over every unit
+LNK-00680,CL-01,CL,RGAM_O_DIR_86_361.A2.P0.pt9,indirect,A,documented,coverage statement over every unit
+LNK-00681,CL-01,CL,RGAM_O_DIR_86_361.A3.P0,indirect,A,documented,coverage statement over every unit
+LNK-00682,CL-01,CL,RGAM_O_DIR_86_361.A4.P0,indirect,A,documented,coverage statement over every unit
+LNK-00683,CL-01,CL,RGAM_O_DIR_86_361.A4.P0.pt1,indirect,A,documented,coverage statement over every unit
+LNK-00684,CL-01,CL,RGAM_O_DIR_86_361.A4.P0.pt1.dash1,indirect,A,documented,coverage statement over every unit
+LNK-00685,CL-01,CL,RGAM_O_DIR_86_361.A4.P0.pt1.dash2,indirect,A,documented,coverage statement over every unit
+LNK-00686,CL-01,CL,RGAM_O_DIR_86_361.A4.P0.pt1.dash3,indirect,A,documented,coverage statement over every unit
+LNK-00687,CL-01,CL,RGAM_O_DIR_86_361.A4.P0.pt2,indirect,A,documented,coverage statement over every unit
+LNK-00688,CL-01,CL,RGAM_O_DIR_86_361.A5.P1,indirect,A,documented,coverage statement over every unit
+LNK-00689,CL-01,CL,RGAM_O_DIR_86_361.A5.P2,indirect,A,documented,coverage statement over every unit
+LNK-00690,CL-01,CL,RGAM_O_DIR_86_361.A5.P2.pta,indirect,A,documented,coverage statement over every unit
+LNK-00691,CL-01,CL,RGAM_O_DIR_86_361.A5.P2.ptb,indirect,A,documented,coverage statement over every unit
+LNK-00692,CL-01,CL,RGAM_O_DIR_86_361.A5.P2.ptc,indirect,A,documented,coverage statement over every unit
+LNK-00693,CL-01,CL,RGAM_O_DIR_86_361.A5.P2.sub2,indirect,A,documented,coverage statement over every unit
+LNK-00694,CL-01,CL,RGAM_O_DIR_86_361.A5.P3,indirect,A,documented,coverage statement over every unit
+LNK-00695,CL-01,CL,RGAM_O_DIR_86_361.A5.P4,indirect,A,documented,coverage statement over every unit
+LNK-00696,CL-01,CL,RGAM_O_DIR_86_361.A6.P1,indirect,A,documented,coverage statement over every unit
+LNK-00697,CL-01,CL,RGAM_O_DIR_86_361.A6.P1.sub2,indirect,A,documented,coverage statement over every unit
+LNK-00698,CL-01,CL,RGAM_O_DIR_86_361.A6.P2,indirect,A,documented,coverage statement over every unit
+LNK-00699,CL-01,CL,RGAM_O_DIR_86_361.A6.P3,indirect,A,documented,coverage statement over every unit
+LNK-00700,CL-01,CL,RGAM_O_DIR_86_361.A6.P3.sub2,indirect,A,documented,coverage statement over every unit
+LNK-00701,CL-01,CL,RGAM_O_DIR_86_361.A7.P1,indirect,A,documented,coverage statement over every unit
+LNK-00702,CL-01,CL,RGAM_O_DIR_86_361.A7.P2,indirect,A,documented,coverage statement over every unit
+LNK-00703,CL-01,CL,RGAM_O_DIR_86_361.A7.P3,indirect,A,documented,coverage statement over every unit
+LNK-00704,CL-01,CL,RGAM_O_DIR_86_361.A7.P4,indirect,A,documented,coverage statement over every unit
+LNK-00705,CL-01,CL,RGAM_O_DIR_86_361.A7.P4.pta,indirect,A,documented,coverage statement over every unit
+LNK-00706,CL-01,CL,RGAM_O_DIR_86_361.A7.P4.ptb,indirect,A,documented,coverage statement over every unit
+LNK-00707,CL-01,CL,RGAM_O_DIR_86_361.A7.P4.sub2,indirect,A,documented,coverage statement over every unit
+LNK-00708,CL-01,CL,RGAM_O_DIR_86_361.A7.P4.sub3,indirect,A,documented,coverage statement over every unit
+LNK-00709,CL-01,CL,RGAM_O_DIR_86_361.A7.P5,indirect,A,documented,coverage statement over every unit
+LNK-00710,CL-01,CL,RGAM_O_DIR_86_361.A8.P1,indirect,A,documented,coverage statement over every unit
+LNK-00711,CL-01,CL,RGAM_O_DIR_86_361.A8.P1.pta,indirect,A,documented,coverage statement over every unit
+LNK-00712,CL-01,CL,RGAM_O_DIR_86_361.A8.P1.ptb,indirect,A,documented,coverage statement over every unit
+LNK-00713,CL-01,CL,RGAM_O_DIR_86_361.A8.P1.sub2,indirect,A,documented,coverage statement over every unit
+LNK-00714,CL-01,CL,RGAM_O_DIR_86_361.A8.P2,indirect,A,documented,coverage statement over every unit
+LNK-00715,CL-01,CL,RGAM_O_DIR_86_361.A8.P3,indirect,A,documented,coverage statement over every unit
+LNK-00716,CL-01,CL,RGAM_O_DIR_86_361.A8.P3.sub2,indirect,A,documented,coverage statement over every unit
+LNK-00717,CL-01,CL,RGAM_O_DIR_86_361.A8.P3.sub3,indirect,A,documented,coverage statement over every unit
+LNK-00718,CL-01,CL,RGAM_O_DIR_86_361.A8.P4,indirect,A,documented,coverage statement over every unit
+LNK-00719,CL-01,CL,RGAM_O_DIR_86_361.A8.P5,indirect,A,documented,coverage statement over every unit
+LNK-00720,CL-01,CL,RGAM_O_DIR_86_361.A9.P0,indirect,A,documented,coverage statement over every unit
+LNK-00721,CL-01,CL,RGAM_O_DIR_86_361.FRM1,indirect,A,documented,coverage statement over every unit
+LNK-00722,CL-01,CL,RGAM_O_DIR_86_361.FRM10,indirect,A,documented,coverage statement over every unit
+LNK-00723,CL-01,CL,RGAM_O_DIR_86_361.FRM11,indirect,A,documented,coverage statement over every unit
+LNK-00724,CL-01,CL,RGAM_O_DIR_86_361.FRM12,indirect,A,documented,coverage statement over every unit
+LNK-00725,CL-01,CL,RGAM_O_DIR_86_361.FRM2,indirect,A,documented,coverage statement over every unit
+LNK-00726,CL-01,CL,RGAM_O_DIR_86_361.FRM3,indirect,A,documented,coverage statement over every unit
+LNK-00727,CL-01,CL,RGAM_O_DIR_86_361.FRM4,indirect,A,documented,coverage statement over every unit
+LNK-00728,CL-01,CL,RGAM_O_DIR_86_361.FRM5,indirect,A,documented,coverage statement over every unit
+LNK-00729,CL-01,CL,RGAM_O_DIR_86_361.FRM6,indirect,A,documented,coverage statement over every unit
+LNK-00730,CL-01,CL,RGAM_O_DIR_86_361.FRM7,indirect,A,documented,coverage statement over every unit
+LNK-00731,CL-01,CL,RGAM_O_DIR_86_361.FRM8,indirect,A,documented,coverage statement over every unit
+LNK-00732,CL-01,CL,RGAM_O_DIR_86_361.FRM9,indirect,A,documented,coverage statement over every unit
+LNK-00733,CL-01,CL,RGAM_O_DIR_86_361.REC1,indirect,A,documented,coverage statement over every unit
+LNK-00734,CL-01,CL,RGAM_O_DIR_86_361.REC10,indirect,A,documented,coverage statement over every unit
+LNK-00735,CL-01,CL,RGAM_O_DIR_86_361.REC11,indirect,A,documented,coverage statement over every unit
+LNK-00736,CL-01,CL,RGAM_O_DIR_86_361.REC12,indirect,A,documented,coverage statement over every unit
+LNK-00737,CL-01,CL,RGAM_O_DIR_86_361.REC13,indirect,A,documented,coverage statement over every unit
+LNK-00738,CL-01,CL,RGAM_O_DIR_86_361.REC14,indirect,A,documented,coverage statement over every unit
+LNK-00739,CL-01,CL,RGAM_O_DIR_86_361.REC2,indirect,A,documented,coverage statement over every unit
+LNK-00740,CL-01,CL,RGAM_O_DIR_86_361.REC3,indirect,A,documented,coverage statement over every unit
+LNK-00741,CL-01,CL,RGAM_O_DIR_86_361.REC4,indirect,A,documented,coverage statement over every unit
+LNK-00742,CL-01,CL,RGAM_O_DIR_86_361.REC5,indirect,A,documented,coverage statement over every unit
+LNK-00743,CL-01,CL,RGAM_O_DIR_86_361.REC6,indirect,A,documented,coverage statement over every unit
+LNK-00744,CL-01,CL,RGAM_O_DIR_86_361.REC7,indirect,A,documented,coverage statement over every unit
+LNK-00745,CL-01,CL,RGAM_O_DIR_86_361.REC8,indirect,A,documented,coverage statement over every unit
+LNK-00746,CL-01,CL,RGAM_O_DIR_86_361.REC9,indirect,A,documented,coverage statement over every unit

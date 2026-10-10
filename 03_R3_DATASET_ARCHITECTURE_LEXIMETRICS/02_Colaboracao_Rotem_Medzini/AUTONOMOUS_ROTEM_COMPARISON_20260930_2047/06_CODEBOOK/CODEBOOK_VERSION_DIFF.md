@@ -1,0 +1,36 @@
+# CODEBOOK_VERSION_DIFF (R06)
+
+## Sources compared
+| Abbreviation | Source | Status |
+|---|---|---|
+| **UNREV** | `Codebook - Regulatory Intermediation (1).docx` (Downloads), **¶1–¶144 only** | `UNREVISED_BASELINE`. ¶145–¶339 are embedded review commentary whose author is not established; they are excluded, see I-006 |
+| **CK** | `Chart Key - Regulatory Intermediation (2).docx` (Downloads) | `UNREVISED_BASELINE` |
+| **REV** | `Codebook_Regulatory_Intermediation_Revised (1).docx` (PILOT_01/00_SOURCES) | Revised; who made which revision is not established (I-007) |
+
+Paragraph numbers refer to the derived texts in `01_BASELINES/derived_text/`. The table compares texts only; it says nothing about which version is "right".
+
+| Dimension | UNREV / CK | REV | Nature of change |
+|---|---|---|---|
+| Title / scope | "Regulatory Intermediation in European Digital Governance"; instruments 1976–2026 (UNREV ¶3) | Same title; "from the 1970s to 2026"; acts and policy documents "that substantively concern digital governance" (REV ¶13–¶17); explicit act inclusion and exclusion rules | Scope rules added |
+| Units | "Unit of analysis: A European Union legislative instrument" (UNREV ¶14) **and** "Each regulatory intermediary … coded as a separate observation" (¶15); CK ¶6 the same | Three components: Excluded_acts / ACT_SUMMARY / INTERMEDIARY_MAP. "The intermediary as legally constituted or recognized within a particular act is the unit of observation in INTERMEDIARY_MAP … a legal provision is a unit of evidence" (REV ¶23); rows are intermediary *categories* (¶24); No_intermediary rows keep zero cases (¶19) | The unit tension is resolved by explicit multilevel tables |
+| Inclusion rule | "substantively assigns it a regulatory function within or between the regulator, regulatory target, and beneficiaries" (UNREV ¶16); "established, recognized, or otherwise relied upon" (¶71) | "substantively assigns, recognizes, or relies upon that actor to perform at least one identified regulatory function through an identifiable governance mechanism" (REV ¶27). Necessary reliance, with the insurance example (¶28). Exclusions: mere mention, positional middle, expertise, ordinary commercial service, being regulated, external practice (¶29). Regulated entity counts only where it has a function toward another actor (¶30). Public authorities are regulators; standardisation bodies excluded (¶31) | **Restrictive turn.** Consistent with Rotem's e-mail l.7 ("variables I added … with a more restrictive coding") |
+| Evidence | Relevant provisions include "Chapters, Articles, Recitals, Annexes, and Appendices" (UNREV ¶17) | Operative provisions and binding annexes primary; recitals "do not ordinarily provide sufficient evidence" (REV ¶34); cross-reference only if expressly incorporated (¶35); evidence may be spread over several provisions, and all must be listed (¶36) | Stricter evidentiary hierarchy |
+| Functions | 9: Rule-setting/Code creation; Assurance; Monitoring ("…and, where applicable, transmitting information to an oversight body"); Internal compliance; Dispute redress; Complaint handling; Auditing ("systematic and, where applicable, periodic examination of activities, processes, or compliance"); Insurance; Enforcement ("as an intermediary rather than as a regulatory authority") (UNREV ¶84–¶110; CK ¶8) | 10 flags: adds **registry_administration**; dispute redress becomes **dispute_resolution**; **monitoring** loses the transmission clause; **auditing** becomes "a systematic examination identified or structured as an audit"; insurance becomes "Insurance / risk underwriting"; enforcement becomes "secure third-party compliance, protect rights, restrict conduct, or remedy violations". "A function receives Yes only where the function is assigned to the intermediary itself" (REV ¶42) | Two definitional changes bear directly on Rotem's Zoom topics (monitoring/transmission; auditing) |
+| Mechanisms | None | `mechanism_family` (REV ¶82, ¶87): Code creation; Assurance; Monitoring; Registry administration; Internal compliance; Dispute resolution; Complaint handling; Insurance / risk underwriting; Enforcement; N/A. "Must … remain distinct from the function" | New. 9 of 10 function labels reused as family labels; auditing has none |
+| Recognition | UNREV ¶122–¶130: Designation/notification; Vetting/accreditation; Other formal recognition; None; Unclear; Unclear/cross-reference; N/A. CK ¶12: 5 labels (vetting "including accreditation or certification") | `Recognition_pathways`: Vetting; Designation; None; N/A (REV ¶85), defined as "Formal pathway through which the intermediary acquires its recognised status or authority" | Values reduced. "Other formal recognition" and both "Unclear" values dropped |
+| Organisational basis | 4 types: market/private-capable; epistemic/professional; associational; public/quasi-public (UNREV ¶113–¶120) | `Intermediary_type`: For-profit; Industry association; Epistemic/professional; Unclear; N/A, "coded from the focal act, not from external knowledge" (REV ¶45) | Re-specified |
+| Relational position | Not present (CK: none) | `orientation` (target-facing / regulator-facing / bidirectional / intermediary-facing), `regulator_context`, `target_context` (all multi-valued), REV ¶79 | **New relational layer at row level** |
+| Modality | Not present | `intermediary_involvement`: Required; Conditional; Optional; Member State option; Not specified; N/A, with a rationale field | New |
+| Rationale / traceability | Relevant provision(s) only | Value-specific rationale fields for act-level object/architecture/configuration/strategy and intermediary-level involvement/object/strategy. Function_description and Regulation_of_description in free text. QA section: backward checks, decision log, adjudication before amendment (REV ¶54, ¶62–¶64) | New, but no rationale field for functions, recognition, orientation or contexts |
+| Obligations | Obligation intensity (cumulative scale), Supervision "[TO BE SPECIFIED]" (UNREV ¶132–¶144) | Obligation_intensity plus 18 disaggregated obligation flags; Regulation_of_description (REV ¶85) | Disaggregated |
+| Inference of function codes | CK ¶6 admits functions "Inferred from intermediary type, although it is not stated explicitly in the existing coding" | REV ¶42, ¶45, ¶53 forbid inference from type or external practice | **REV is stricter than CK.** Workbook codings made under CK conventions may contain type-inferred flags (cannot be identified from the workbook) |
+
+## What did *not* change
+- Multiple functions per intermediary (UNREV ¶18; REV ¶49).
+- The Yes / No / N/A convention (REV adds that a blank cell means "not yet assessed", ¶51).
+- Insurance as a function.
+- Relevant provisions as the evidentiary anchor.
+
+## Bearing on the comparison
+1. **Most "relational" desiderata are already in Rotem's design** (REV): the intermediary × act table, orientation, contexts, involvement modality, and rationale and decision-log procedures. The comparison must therefore test what a provision-level layer adds **beyond REV**, not beyond the workbook.
+2. **Several workbook features pre-date REV**: act-level packing, blank function cells, non-listed recognition values, merged function/mechanism labels. They must be classified as `DOCUMENTATION_IMPLEMENTATION_GAP` (delta §6), not as defects of REV.

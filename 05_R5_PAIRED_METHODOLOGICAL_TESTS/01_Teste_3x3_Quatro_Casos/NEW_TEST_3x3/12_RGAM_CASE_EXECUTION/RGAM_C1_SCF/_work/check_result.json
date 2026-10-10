@@ -1,0 +1,15 @@
+{
+ "res": {
+  "rule1": "PASS",
+  "rule2": "PASS",
+  "rule3": "PASS",
+  "rule4": "PASS",
+  "rule5": "PASS",
+  "rule6": "PASS",
+  "rule7": "PASS",
+  "rule8": "PASS",
+  "rule9": "PASS",
+  "rule10": "PASS"
+ },
+ "fails": []
+}

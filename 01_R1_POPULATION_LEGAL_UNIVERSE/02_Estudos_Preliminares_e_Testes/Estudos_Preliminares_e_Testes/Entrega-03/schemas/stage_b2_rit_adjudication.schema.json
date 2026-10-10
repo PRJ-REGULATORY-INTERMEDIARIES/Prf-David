@@ -1,0 +1,46 @@
+{
+  "name": "stage_b2_rit_adjudication",
+  "description": "Stage B2 - R-I-T relational adjudication. Unit: one candidate. Consumes the stage_b1 architecture output plus the five relational-test conditions (verbatim from reference/RIT_CODEBOOK_v3.md). Answer each condition independently and in order before forming a final verdict.",
+  "strict": true,
+  "schema": {
+    "type": "object",
+    "properties": {
+      "relationship_candidate_id": { "type": "string" },
+      "condition_a_regulator_identifiable": { "$ref": "#/$defs/TestCondition" },
+      "condition_b_target_identifiable": { "$ref": "#/$defs/TestCondition" },
+      "condition_c_distinct_third_actor": { "$ref": "#/$defs/TestCondition" },
+      "condition_d_mediates_relationship": { "$ref": "#/$defs/TestCondition" },
+      "condition_e_evidence_supports": { "$ref": "#/$defs/TestCondition" },
+      "relational_test_result": {
+        "type": "string",
+        "enum": ["positive", "negative", "conditional", "insufficient_evidence"],
+        "description": "positive only if ALL FIVE conditions are YES. If any is NO, result is negative. If any is UNCLEAR without being NO, result is conditional or insufficient_evidence - never rounded up to positive."
+      },
+      "R_actor": { "type": ["string", "null"] },
+      "evidence_R": { "type": ["string", "null"] },
+      "I_actor": { "type": ["string", "null"] },
+      "evidence_I": { "type": ["string", "null"] },
+      "T_actor": { "type": ["string", "null"] },
+      "evidence_T": { "type": ["string", "null"] },
+      "mediating_function": { "type": ["string", "null"] },
+      "evidence_mediation": { "type": ["string", "null"] },
+      "primary_mechanism": { "$ref": "#/$defs/MechanismLabel" },
+      "secondary_mechanism": { "$ref": "#/$defs/MechanismLabel" },
+      "ambiguity_flag": { "type": "boolean" },
+      "abstention_reason": { "type": ["string", "null"] },
+      "context_escape_hatch": { "$ref": "#/$defs/ContextEscapeHatch" },
+      "ai_confidence": { "$ref": "#/$defs/ConfidenceLevel" }
+    },
+    "required": [
+      "relationship_candidate_id",
+      "condition_a_regulator_identifiable", "condition_b_target_identifiable",
+      "condition_c_distinct_third_actor", "condition_d_mediates_relationship",
+      "condition_e_evidence_supports", "relational_test_result",
+      "R_actor", "evidence_R", "I_actor", "evidence_I", "T_actor", "evidence_T",
+      "mediating_function", "evidence_mediation",
+      "primary_mechanism", "secondary_mechanism",
+      "ambiguity_flag", "abstention_reason", "context_escape_hatch", "ai_confidence"
+    ],
+    "additionalProperties": false
+  }
+}

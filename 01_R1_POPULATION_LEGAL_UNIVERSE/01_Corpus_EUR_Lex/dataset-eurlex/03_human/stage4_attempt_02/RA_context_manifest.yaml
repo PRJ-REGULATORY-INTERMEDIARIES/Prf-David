@@ -1,0 +1,19 @@
+attempt: stage4_attempt_02
+role: RA
+status: not_started
+execution_context: independent_context_RA
+allowed_shared_inputs:
+  - ../../02_corpus/act.md
+  - ../../methodology/v1.1.0/codebook.md
+  - ../../methodology/v1.1.0/reference_coding_schema.json
+  - anonymized_R1_output_after_R1_context_closed
+  - anonymized_R2_output_after_R2_context_closed
+forbidden_inputs:
+  - ../../methodology/v1.1.0/strings.yaml
+  - R1_coding_input.json
+  - R2_coding_input.json
+  - ../stage4_attempt_01/
+  - ../../05_runs/
+strings_authorized_in_substantive_context: false
+execution_prerequisite: both_independent_outputs_validated_and_raw_outputs_preserved
+output_target: RA_output.json

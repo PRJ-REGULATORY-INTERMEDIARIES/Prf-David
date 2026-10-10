@@ -1,0 +1,49 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Research: import exploratory seeds",
+      "type": "shell",
+      "command": "python",
+      "args": [
+        "scripts/cli.py",
+        "import-seeds"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "Research: quality control",
+      "type": "shell",
+      "command": "python",
+      "args": [
+        "scripts/cli.py",
+        "check"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "Research: progress report",
+      "type": "shell",
+      "command": "python",
+      "args": [
+        "scripts/cli.py",
+        "report"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "Research: tests",
+      "type": "shell",
+      "command": "python",
+      "args": [
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "problemMatcher": []
+    }
+  ]
+}

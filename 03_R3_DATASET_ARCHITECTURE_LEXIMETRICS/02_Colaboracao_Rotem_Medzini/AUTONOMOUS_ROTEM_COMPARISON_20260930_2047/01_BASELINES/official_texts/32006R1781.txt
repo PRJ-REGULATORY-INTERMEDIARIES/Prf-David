@@ -1,0 +1,278 @@
+L_2006345EN.01000101.xml 
+ 8.12.2006 
+ EN
+ Official Journal of the European Union
+ L 345/1
+ REGULATION (EC) No 1781/2006 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL
+ of 15 November 2006
+ on information on the payer accompanying transfers of funds
+ (Text with EEA relevance)
+ THE EUROPEAN PARLIAMENT AND THE COUNCIL OF THE EUROPEAN UNION,
+ Having regard to the Treaty establishing the European Community, and in particular Article 95 thereof,
+ Having regard to the proposal from the Commission,
+ Having regard to the opinion of the European Central Bank ( 1 ) ,
+ Acting in accordance with the procedure laid down in Article 251 of the Treaty ( 2 ) ,
+ Whereas:
+ (1)
+ Flows of dirty money through transfers of funds can damage the stability and reputation of the financial sector and threaten the internal market. Terrorism shakes the very foundations of our society. The soundness, integrity and stability of the system of transfers of funds and confidence in the financial system as a whole could be seriously jeopardised by the efforts of criminals and their associates either to disguise the origin of criminal proceeds or to transfer funds for terrorist purposes.
+ (2)
+ In order to facilitate their criminal activities, money launderers and terrorist financers could try to take advantage of the freedom of capital movements entailed by the integrated financial area, unless certain coordinating measures are adopted at Community level. By its scale, Community action should ensure that Special Recommendation VII on wire transfers (SR VII) of the Financial Action Task Force (FATF) established by the Paris G7 Summit of 1989 is transposed uniformly throughout the European Union, and, in particular, that there is no discrimination between national payments within a Member State and cross-border payments between Member States. Uncoordinated action by Member States alone in the field of cross-border transfers of funds could have a significant impact on the smooth functioning of payment systems at EU level, and therefore damage the internal market in the field of financial services.
+ (3)
+ In the wake of the terrorist attacks in the USA on 11 September 2001, the extraordinary European Council on 21 September 2001 reiterated that the fight against terrorism is a key objective of the European Union. The European Council approved a plan of action dealing with enhanced police and judicial cooperation, developing international legal instruments against terrorism, preventing terrorist funding, strengthening air security and greater consistency between all relevant policies. This plan of action was revised by the European Council following the terrorist attacks of 11 March 2004 in Madrid, and now specifically addresses the need to ensure that the legislative framework created by the Community for the purpose of combating terrorism and improving judicial cooperation is adapted to the nine Special Recommendations against Terrorist Financing adopted by the FATF.
+ (4)
+ In order to prevent terrorist funding, measures aimed at the freezing of funds and economic resources of certain persons, groups and entities have been taken, including Regulation (EC) No 2580/2001 ( 3 ) , and Council Regulation (EC) No 881/2002 ( 4 ) . To that same end, measures aimed at protecting the financial system against the channelling of funds and economic resources for terrorist purposes have been taken. Directive 2005/60/EC of the European Parliament and of the Council ( 5 ) contains a number of measures aimed at combating the misuse of the financial system for the purpose of money laundering and terrorist financing. Those measures do not, however, fully prevent terrorists and other criminals from having access to payment systems for moving their funds.
+ (5)
+ In order to foster a coherent approach in the international context in the field of combating money laundering and terrorist financing, further Community action should take account of developments at that level, namely the nine Special Recommendations against Terrorist Financing adopted by the FATF, and in particular SR VII and the revised interpretative note for its implementation.
+ (6)
+ The full traceability of transfers of funds can be a particularly important and valuable tool in the prevention, investigation and detection of money laundering or terrorist financing. It is therefore appropriate, in order to ensure the transmission of information on the payer throughout the payment chain, to provide for a system imposing the obligation on payment service providers to have transfers of funds accompanied by accurate and meaningful information on the payer.
+ (7)
+ The provisions of this Regulation apply without prejudice to Directive 95/46/EC of the European Parliament and of the Council ( 6 ) . For example, information collected and kept for the purpose of this Regulation should not be used for commercial purposes.
+ (8)
+ Persons who merely convert paper documents into electronic data and are acting under a contract with a payment service provider do not fall within the scope of this Regulation; the same applies to any natural or legal person who provides payment service providers solely with messaging or other support systems for transmitting funds or with clearing and settlement systems.
+ (9)
+ It is appropriate to exclude from the scope of this Regulation transfers of funds that represent a low risk of money laundering or terrorist financing. Such exclusions should cover credit or debit cards, Automated Teller Machine (ATM) withdrawals, direct debits, truncated cheques, payments of taxes, fines or other levies, and transfers of funds where both the payer and the payee are payment service providers acting on their own behalf. In addition, in order to reflect the special characteristics of national payment systems, Member States may exempt electronic giro payments, provided that it is always possible to trace the transfer of funds back to the payer. Where Member States have applied the derogation for electronic money in Directive 2005/60/EC, it should be applied under this Regulation, provided the amount transacted does not exceed EUR 1 000.
+ (10)
+ The exemption for electronic money, as defined by Directive 2000/46/EC of the European Parliament and of the Council ( 7 ) , covers electronic money irrespective of whether the issuer of such money benefits from a waiver under Article 8 of that Directive.
+ (11)
+ In order not to impair the efficiency of payment systems, the verification requirements for transfers of funds made from an account should be separate from those for transfers of funds not made from an account. In order to balance the risk of driving transactions underground by imposing overly strict identification requirements against the potential terrorist threat posed by small transfers of funds, the obligation to check whether the information on the payer is accurate should, in the case of transfers of funds not made from an account, be imposed only in respect of individual transfers of funds that exceed EUR 1 000, without prejudice to the obligations under Directive 2005/60/EC. For transfers of funds made from an account, payment service providers should not be required to verify information on the payer accompanying each transfer of funds, where the obligations under Directive 2005/60/EC have been met.
+ (12)
+ Against the background of Regulation (EC) No 2560/2001 of the European Parliament and of the Council ( 8 ) and the Commission Communication ‘A New Legal Framework for Payments in the Internal Market’, it is sufficient to provide for simplified information on the payer to accompany transfers of funds within the Community.
+ (13)
+ In order to allow the authorities responsible for combating money laundering or terrorist financing in third countries to trace the source of funds used for those purposes, transfers of funds from the Community to outside the Community should carry complete information on the payer. Those authorities should be granted access to complete information on the payer only for the purposes of preventing, investigating and detecting money laundering or terrorist financing.
+ (14)
+ For transfers of funds from a single payer to several payees to be sent in an inexpensive way in batch files containing individual transfers from the Community to outside the Community, provision should be made for such individual transfers to carry only the account number of the payer or a unique identifier provided that the batch file contains complete information on the payer.
+ (15)
+ In order to check whether the required information on the payer accompanies transfers of funds, and to help to identify suspicious transactions, the payment service provider of the payee should have effective procedures in place in order to detect whether information on the payer is missing.
+ (16)
+ Owing to the potential terrorist financing threat posed by anonymous transfers, it is appropriate to enable the payment service provider of the payee to avoid or correct such situations when it becomes aware that information on the payer is missing or incomplete. In this regard, flexibility should be allowed as concerns the extent of information on the payer on a risk-sensitive basis. In addition, the accuracy and completeness of information on the payer should remain the responsibility of the payment service provider of the payer. Where the payment service provider of the payer is situated outside the territory of the Community, enhanced customer due diligence should be applied, in accordance with Directive 2005/60/EC, in respect of cross-border correspondent banking relationships with that payment service provider.
+ (17)
+ Where guidance is given by national competent authorities as regards the obligations either to reject all transfers from a payment service provider which regularly fails to supply the required information on the payer or to decide whether or not to restrict or terminate a business relationship with that payment service provider, it should inter alia be based on the convergence of best practices and should also take into account the fact that the revised interpretative note to SR VII of the FATF allows third countries to set a threshold of EUR 1 000 or USD 1 000 for the obligation to send information on the payer, without prejudice to the objective of efficiently combating money laundering and terrorist financing.
+ (18)
+ In any event, the payment service provider of the payee should exercise special vigilance, assessing the risks, when it becomes aware that information on the payer is missing or incomplete, and should report suspicious transactions to the competent authorities, in accordance with the reporting obligations set out in Directive 2005/60/EC and national implementing measures.
+ (19)
+ The provisions on transfers of funds where information on the payer is missing or incomplete apply without prejudice to any obligations on payment service providers to suspend and/or reject transfers of funds which violate provisions of civil, administrative or criminal law.
+ (20)
+ Until technical limitations that may prevent intermediary payment service providers from satisfying the obligation to transmit all the information they receive on the payer are removed, those intermediary payment service providers should keep records of that information. Such technical limitations should be removed as soon as payment systems are upgraded.
+ (21)
+ Since in criminal investigations it may not be possible to identify the data required or the individuals involved until many months, or even years, after the original transfer of funds, it is appropriate to require payment service providers to keep records of information on the payer for the purposes of preventing, investigating and detecting money laundering or terrorist financing. This period should be limited.
+ (22)
+ To enable prompt action to be taken in the fight against terrorism, payment service providers should respond promptly to requests for information on the payer from the authorities responsible for combating money laundering or terrorist financing in the Member State where they are situated.
+ (23)
+ The number of working days in the Member State of the payment service provider of the payer determines the number of days to respond to requests for information on the payer.
+ (24)
+ Given the importance of the fight against money laundering and terrorist financing, Member States should lay down effective, proportionate and dissuasive penalties in national law for failure to comply with this Regulation.
+ (25)
+ The measures necessary for the implementation of this Regulation should be adopted in accordance with Council Decision 1999/468/EC of 28 June 1999 laying down the procedures for the exercise of implementing powers conferred on the Commission ( 9 ) .
+ (26)
+ A number of countries and territories which do not form part of the territory of the Community share a monetary union with a Member State, form part of the currency area of a Member State or have signed a monetary convention with the European Community represented by a Member State, and have payment service providers that participate directly or indirectly in the payment and settlement systems of that Member State. In order to avoid the application of this Regulation to transfers of funds between the Member States concerned and those countries or territories having a significant negative effect on the economies of those countries or territories, it is appropriate to provide for the possibility for such transfers of funds to be treated as transfers of funds within the Member States concerned.
+ (27)
+ In order not to discourage donations for charitable purposes, it is appropriate to authorise Member States to exempt payment services providers situated in their territory from collecting, verifying, recording, or sending information on the payer for transfers of funds up to a maximum amount of EUR 150 executed within the territory of that Member State. It is also appropriate to make this option conditional upon requirements to be met by non-profit organisations, in order to allow Member States to ensure that this exemption does not give rise to abuse by terrorists as a cover for or a means of facilitating the financing of their activities.
+ (28)
+ Since the objectives of this Regulation cannot be sufficiently achieved by the Member States and can therefore, by reason of the scale or effects of the action, be better achieved at Community level, the Community may adopt measures, in accordance with the principle of subsidiarity as set out in Article 5 of the Treaty. In accordance with the principle of proportionality, as set out in that Article, this Regulation does not go beyond what is necessary in order to achieve those objectives.
+ (29)
+ In order to establish a coherent approach in the field of combating money laundering and terrorist financing, the main provisions of this Regulation should apply from the same date as the relevant provisions adopted at international level,
+ HAVE ADOPTED THIS REGULATION:
+ CHAPTER I
+ SUBJECT MATTER, DEFINITIONS AND SCOPE
+ Article 1
+ Subject matter
+ This Regulation lays down rules on information on the payer to accompany transfers of funds for the purposes of the prevention, investigation and detection of money laundering and terrorist financing.
+ Article 2
+ Definitions
+ For the purposes of this Regulation, the following definitions shall apply:
+ (1)
+ ‘terrorist financing’ means the provision or collection of funds within the meaning of Article 1(4) of Directive 2005/60/EC;
+ (2)
+ ‘money laundering’ means any conduct which, when committed intentionally, is regarded as money laundering for the purposes of Article 1(2) or (3) of Directive 2005/60/EC;
+ (3)
+ ‘payer’ means either a natural or legal person who holds an account and allows a transfer of funds from that account, or, where there is no account, a natural or legal person who places an order for a transfer of funds;
+ (4)
+ ‘payee’ means a natural or legal person who is the intended final recipient of transferred funds;
+ (5)
+ ‘payment service provider’ means a natural or legal person whose business includes the provision of transfer of funds services;
+ (6)
+ ‘intermediary payment service provider’ means a payment service provider, neither of the payer nor of the payee, that participates in the execution of transfers of funds;
+ (7)
+ ‘transfer of funds’ means any transaction carried out on behalf of a payer through a payment service provider by electronic means, with a view to making funds available to a payee at a payment service provider, irrespective of whether the payer and the payee are the same person;
+ (8)
+ ‘batch file transfer’ means several individual transfers of funds which are bundled together for transmission;
+ (9)
+ ‘unique identifier’ means a combination of letters, numbers or symbols, determined by the payment service provider, in accordance with the protocols of the payment and settlement system or messaging system used to effect the transfer of funds.
+ Article 3
+ Scope
+ 1. This Regulation shall apply to transfers of funds, in any currency, which are sent or received by a payment service provider established in the Community.
+ 2. This Regulation shall not apply to transfers of funds carried out using a credit or debit card, provided that:
+ (a)
+ the payee has an agreement with the payment service provider permitting payment for the provision of goods and services;
+ and
+ (b)
+ a unique identifier, allowing the transaction to be traced back to the payer, accompanies such transfer of funds.
+ 3. Where a Member State chooses to apply the derogation set out in Article 11(5)(d) of Directive 2005/60/EC, this Regulation shall not apply to transfers of funds using electronic money covered by that derogation, except where the amount transferred exceeds EUR 1 000.
+ 4. Without prejudice to paragraph 3, this Regulation shall not apply to transfers of funds carried out by means of a mobile telephone or any other digital or Information Technology (IT) device, when such transfers are pre-paid and do not exceed EUR 150.
+ 5. This Regulation shall not apply to transfers of funds carried out by means of a mobile telephone or any other digital or IT device, when such transfers are post-paid and meet all of the following conditions:
+ (a)
+ the payee has an agreement with the payment service provider permitting payment for the provision of goods and services;
+ (b)
+ a unique identifier, allowing the transaction to be traced back to the payer, accompanies the transfer of funds;
+ and
+ (c)
+ the payment service provider is subject to the obligations set out in Directive 2005/60/EC.
+ 6. Member States may decide not to apply this Regulation to transfers of funds within that Member State to a payee account permitting payment for the provision of goods or services if:
+ (a)
+ the payment service provider of the payee is subject to the obligations set out in Directive 2005/60/EC;
+ (b)
+ the payment service provider of the payee is able by means of a unique reference number to trace back, through the payee, the transfer of funds from the natural or legal person who has an agreement with the payee for the provision of goods and services;
+ and
+ (c)
+ the amount transacted is EUR 1 000 or less.
+ Member States making use of this derogation shall inform the Commission thereof.
+ 7. This Regulation shall not apply to transfers of funds:
+ (a)
+ where the payer withdraws cash from his or her own account;
+ (b)
+ where there is a debit transfer authorisation between two parties permitting payments between them through accounts, provided that a unique identifier accompanies the transfer of funds, enabling the natural or legal person to be traced back;
+ (c)
+ where truncated cheques are used;
+ (d)
+ to public authorities for taxes, fines or other levies within a Member State;
+ (e)
+ where both the payer and the payee are payment service providers acting on their own behalf.
+ CHAPTER II
+ OBLIGATIONS ON THE PAYMENT SERVICE PROVIDER OF THE PAYER
+ Article 4
+ Complete information on the payer
+ 1. Complete information on the payer shall consist of his name, address and account number.
+ 2. The address may be substituted with the date and place of birth of the payer, his customer identification number or national identity number.
+ 3. Where the payer does not have an account number, the payment service provider of the payer shall substitute it by a unique identifier which allows the transaction to be traced back to the payer.
+ Article 5
+ Information accompanying transfers of funds and record keeping
+ 1. Payment service providers shall ensure that transfers of funds are accompanied by complete information on the payer.
+ 2. The payment service provider of the payer shall, before transferring the funds, verify the complete information on the payer on the basis of documents, data or information obtained from a reliable and independent source.
+ 3. In the case of transfers of funds from an account, verification may be deemed to have taken place if:
+ (a)
+ a payer's identity has been verified in connection with the opening of the account and the information obtained by this verification has been stored in accordance with the obligations set out in Articles 8(2) and 30(a) of Directive 2005/60/EC;
+ or
+ (b)
+ the payer falls within the scope of Article 9(6) of Directive 2005/60/EC.
+ 4. However, without prejudice to Article 7(c) of Directive 2005/60/EC, in the case of transfers of funds not made from an account, the payment service provider of the payer shall verify the information on the payer only where the amount exceeds EUR 1 000, unless the transaction is carried out in several operations that appear to be linked and together exceed EUR 1 000.
+ 5. The payment service provider of the payer shall for five years keep records of complete information on the payer which accompanies transfers of funds.
+ Article 6
+ Transfers of funds within the Community
+ 1. By way of derogation from Article 5(1), where both the payment service provider of the payer and the payment service provider of the payee are situated in the Community, transfers of funds shall be required to be accompanied only by the account number of the payer or a unique identifier allowing the transaction to be traced back to the payer.
+ 2. However, if so requested by the payment service provider of the payee, the payment service provider of the payer shall make available to the payment service provider of the payee complete information on the payer, within three working days of receiving that request.
+ Article 7
+ Transfers of funds from the Community to outside the Community
+ 1. Transfers of funds where the payment service provider of the payee is situated outside the Community shall be accompanied by complete information on the payer.
+ 2. In the case of batch file transfers from a single payer where the payment service providers of the payees are situated outside the Community, paragraph 1 shall not apply to the individual transfers bundled together therein, provided that the batch file contains that information and that the individual transfers carry the account number of the payer or a unique identifier.
+ CHAPTER III
+ OBLIGATIONS ON THE PAYMENT SERVICE PROVIDER OF THE PAYEE
+ Article 8
+ Detection of missing information on the payer
+ The payment service provider of the payee shall detect whether, in the messaging or payment and settlement system used to effect a transfer of funds, the fields relating to the information on the payer have been completed using the characters or inputs admissible within the conventions of that messaging or payment and settlement system. Such provider shall have effective procedures in place in order to detect whether the following information on the payer is missing:
+ (a)
+ for transfers of funds where the payment service provider of the payer is situated in the Community, the information required under Article 6;
+ (b)
+ for transfers of funds where the payment service provider of the payer is situated outside the Community, complete information on the payer as referred to in Article 4, or where applicable, the information required under Article 13;
+ and
+ (c)
+ for batch file transfers where the payment service provider of the payer is situated outside the Community, complete information on the payer as referred to in Article 4 in the batch file transfer only, but not in the individual transfers bundled therein.
+ Article 9
+ Transfers of funds with missing or incomplete information on the payer
+ 1. If the payment service provider of the payee becomes aware, when receiving transfers of funds, that information on the payer required under this Regulation is missing or incomplete, it shall either reject the transfer or ask for complete information on the payer. In any event, the payment service provider of the payee shall comply with any applicable law or administrative provisions relating to money laundering and terrorist financing, in particular, Regulations (EC) No 2580/2001 and (EC) No 881/2002, Directive 2005/60/EC and any national implementing measures.
+ 2. Where a payment service provider regularly fails to supply the required information on the payer, the payment service provider of the payee shall take steps, which may initially include the issuing of warnings and setting of deadlines, before either rejecting any future transfers of funds from that payment service provider or deciding whether or not to restrict or terminate its business relationship with that payment service provider.
+ The payment service provider of the payee shall report that fact to the authorities responsible for combating money laundering or terrorist financing.
+ Article 10
+ Risk-based assessment
+ The payment service provider of the payee shall consider missing or incomplete information on the payer as a factor in assessing whether the transfer of funds, or any related transaction, is suspicious, and whether it must be reported, in accordance with the obligations set out in Chapter III of Directive 2005/60/EC, to the authorities responsible for combating money laundering or terrorist financing.
+ Article 11
+ Record keeping
+ The payment service provider of the payee shall for five years keep records of any information received on the payer.
+ CHAPTER IV
+ OBLIGATIONS ON INTERMEDIARY PAYMENT SERVICE PROVIDERS
+ Article 12
+ Keeping information on the payer with the transfer
+ Intermediary payment service providers shall ensure that all information received on the payer that accompanies a transfer of funds is kept with the transfer.
+ Article 13
+ Technical limitations
+ 1. This Article shall apply where the payment service provider of the payer is situated outside the Community and the intermediary payment service provider is situated within the Community.
+ 2. Unless the intermediary payment service provider becomes aware, when receiving a transfer of funds, that information on the payer required under this Regulation is missing or incomplete, it may use a payment system with technical limitations which prevents information on the payer from accompanying the transfer of funds to send transfers of funds to the payment service provider of the payee.
+ 3. Where the intermediary payment service provider becomes aware, when receiving a transfer of funds, that information on the payer required under this Regulation is missing or incomplete, it shall only use a payment system with technical limitations if it is able to inform the payment service provider of the payee thereof, either within a messaging or payment system that provides for communication of this fact or through another procedure, provided that the manner of communication is accepted by, or agreed between, both payment service providers.
+ 4. Where the intermediary payment service provider uses a payment system with technical limitations, the intermediary payment service provider shall, upon request from the payment service provider of the payee, make available to that payment service provider all the information on the payer which it has received, irrespective of whether it is complete or not, within three working days of receiving that request.
+ 5. In the cases referred to in paragraphs 2 and 3, the intermediary payment service provider shall for five years keep records of all information received.
+ CHAPTER V
+ GENERAL OBLIGATIONS AND IMPLEMENTING POWERS
+ Article 14
+ Cooperation obligations
+ Payment service providers shall respond fully and without delay, in accordance with the procedural requirements established in the national law of the Member State in which they are situated, to enquiries from the authorities responsible for combating money laundering or terrorist financing of that Member State concerning the information on the payer accompanying transfers of funds and corresponding records.
+ Without prejudice to national criminal law and the protection of fundamental rights, those authorities may use that information only for the purposes of preventing, investigating or detecting money laundering or terrorist financing.
+ Article 15
+ Penalties and monitoring
+ 1. Member States shall lay down the rules on penalties applicable to infringements of the provisions of this Regulation and shall take all measures necessary to ensure that they are implemented. Such penalties shall be effective, proportionate and dissuasive. They shall apply from 15 December 2007.
+ 2. Member States shall notify the Commission of the rules referred to in paragraph 1 and the authorities responsible for their application by 14 December 2007at the latest, and shall notify it without delay of any subsequent amendment affecting them.
+ 3. Member States shall require competent authorities to effectively monitor, and take necessary measures with a view to ensuring, compliance with the requirements of this Regulation.
+ Article 16
+ Committee procedure
+ 1. The Commission shall be assisted by the Committee on the Prevention of Money Laundering and Terrorist Financing established by Directive 2005/60/EC, hereinafter referred to as ‘the Committee’.
+ 2. Where reference is made to this paragraph, Articles 5 and 7 of Decision 1999/468/EC shall apply, having regard to the provisions of Article 8 thereof and provided that the implementing measures adopted in accordance with this procedure do not modify the essential provisions of this Regulation.
+ The period laid down in Article 5(6) of Decision 1999/468/EC shall be set at three months.
+ CHAPTER VI
+ DEROGATIONS
+ Article 17
+ Agreements with territories or countries which do not form part of the territory of the Community
+ 1. The Commission may authorise any Member State to conclude agreements, under national arrangements, with a country or territory which does not form part of the territory of the Community as determined in accordance with Article 299 of the Treaty, which contain derogations from this Regulation, in order to allow for transfers of funds between that country or territory and the Member State concerned to be treated as transfers of funds within that Member State.
+ Such agreements may be authorised only if:
+ (a)
+ the country or territory concerned shares a monetary union with the Member State concerned, forms part of the currency area of that Member State or has signed a Monetary Convention with the European Community represented by a Member State;
+ (b)
+ payment service providers in the country or territory concerned participate directly or indirectly in payment and settlement systems in that Member State;
+ and
+ (c)
+ the country or territory concerned requires payment service providers under its jurisdiction to apply the same rules as those established under this Regulation.
+ 2. Any Member State wishing to conclude an agreement as referred to in paragraph 1 shall send an application to the Commission and provide it with all the necessary information.
+ Upon receipt by the Commission of an application from a Member State, transfers of funds between that Member State and the country or territory concerned shall be provisionally treated as transfers of funds within that Member State, until a decision is reached in accordance with the procedure set out in this Article.
+ If the Commission considers that it does not have all the necessary information, it shall contact the Member State concerned within two months of receipt of the application and specify the additional information required.
+ Once the Commission has all the information it considers necessary for appraisal of the request, it shall within one month notify the requesting Member State accordingly and shall transmit the request to the other Member States.
+ 3. Within three months of the notification referred to in the fourth subparagraph of paragraph 2, the Commission shall decide, in accordance with the procedure referred to in Article 16(2), whether to authorise the Member State concerned to conclude the agreement referred to in paragraph 1 of this Article.
+ In any event, a decision as referred to in the first subparagraph shall be adopted within eighteen months of receipt of the application by the Commission.
+ Article 18
+ Transfers of funds to non-profit organisations within a Member State
+ 1. Member States may exempt payment service providers situated in their territory from the obligations set out in Article 5, as regards transfers of funds to organisations carrying out activities for non-profit charitable, religious, cultural, educational, social, scientific or fraternal purposes, provided that those organisations are subject to reporting and external audit requirements or supervision by a public authority or self-regulatory body recognised under national law and that those transfers of funds are limited to a maximum amount of EUR 150 per transfer and take place exclusively within the territory of that Member State.
+ 2. Member States making use of this Article shall communicate to the Commission the measures that they have adopted for applying the option provided for in paragraph 1, including a list of organisations covered by the exemption, the names of the natural persons who ultimately control those organisations and an explanation of how the list will be updated. That information shall also be made available to the authorities responsible for combating money laundering and terrorist financing.
+ 3. An up-to-date list of organisations covered by the exemption shall be communicated by the Member State concerned to the payment service providers operating in that Member State.
+ Article 19
+ Review clause
+ 1. By 28 December 2011 the Commission shall present a report to the European Parliament and to the Council giving a full economic and legal assessment of the application of this Regulation, accompanied, if appropriate, by a proposal for its modification or repeal.
+ 2. That report shall in particular review:
+ (a)
+ the application of Article 3 with regard to further experience of the possible misuse of electronic money, as defined in Article 1(3) of Directive 2000/46/EC, and other newly-developed means of payment, for the purposes of money laundering and terrorist financing. Should there be a risk of such misuse, the Commission shall submit a proposal to amend this Regulation;
+ (b)
+ the application of Article 13 with regard to the technical limitations which may prevent complete information on the payer from being transmitted to the payment service provider of the payee. Should it be possible to overcome such technical limitations in the light of new developments in the payments area, and taking into account related costs for payment service providers, the Commission shall submit a proposal to amend this Regulation.
+ CHAPTER VII
+ FINAL PROVISIONS
+ Article 20
+ Entry into force
+ This Regulation shall enter into force on the 20th day following the day of its publication in the Official Journal of the European Union , but in any event not before 1 January 2007.
+ This Regulation shall be binding in its entirety and directly applicable in all Member States.
+ Done at Strasbourg, 15 November 2006.
+ For the European Parliament 
+ The President 
+ J. BORRELL FONTELLES
+ For the Council 
+ The President 
+ P. LEHTOMÄKI
+ ( 1 ) 
+ OJ C 336, 31.12.2005, p. 109 .
+ ( 2 ) Opinion of the European Parliament delivered on 6 July 2006 (not yet published in the Official Journal) and Council Decision delivered on 7 November 2006.
+ ( 3 ) 
+ OJ L 344, 28.12.2001, p. 70 . Regulation as last amended by Commission Regulation (EC) No 1461/2006 ( OJ L 272, 3.10.2006, p. 11 ).
+ ( 4 ) 
+ OJ L 139, 29.5.2002, p. 9 . Regulation as last amended by Commission Regulation (EC) No 1508/2006 ( OJ L 280, 12.10.2006, p. 12 ).
+ ( 5 ) 
+ OJ L 309, 25.11.2005, p. 15 .
+ ( 6 ) 
+ OJ L 281, 23.11.1995, p. 31 . Directive as amended by Regulation (EC) No 1882/2003 ( OJ L 284, 31.10.2003, p. 1 ).
+ ( 7 ) 
+ OJ L 275, 27.10.2000, p. 39 .
+ ( 8 ) Regulation as corrected by OJ L 344, 28.12.2001, p. 13 .
+ ( 9 ) 
+ OJ L 184, 17.7.1999, p. 23 . Decision as last amended by Decision 2006/512/EC ( OJ L 200, 22.7.2006, p. 11 ).

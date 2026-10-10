@@ -1,0 +1,13 @@
+PARENT_ID,CASE_ID,ACT_ID,INTERMEDIARY_NAME,CANDIDATE_SOURCE
+P01_AUD,CASE_01,32004R0874,Independent auditor (phased registration audit),candidate list of the dataset under comparison
+P01_VAL,CASE_01,32004R0874,Validation agents,candidate list of the dataset under comparison
+P01_ADR,CASE_01,32004R0874,ADR providers,candidate list of the dataset under comparison
+P02_CB,CASE_02,31989L0336,Competent bodies,candidate list of the dataset under comparison
+P02_NB,CASE_02,31989L0336,Notified bodies,candidate list of the dataset under comparison
+P02_INS,CASE_02,31989L0336,Insurance providers (civil liability insurance),candidate list of the dataset under comparison
+P03_NB,CASE_03,31991L0263,Notified bodies,candidate list of the dataset under comparison
+P03_TL,CASE_03,31991L0263,Test laboratories,candidate list of the dataset under comparison
+P03_INS,CASE_03,31991L0263,Insurance providers (liability insurance),candidate list of the dataset under comparison
+P04_LAB,CASE_04,31986L0361,Approved testing laboratories,candidate list of the dataset under comparison
+P05_AUD,CASE_05,32022R2065,Organisations performing independent audits,candidate list of the dataset under comparison
+P06_TF,CASE_06,32022R2065,Trusted flaggers,candidate list of the dataset under comparison

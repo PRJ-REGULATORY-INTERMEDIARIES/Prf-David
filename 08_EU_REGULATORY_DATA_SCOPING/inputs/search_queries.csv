@@ -1,0 +1,15 @@
+﻿query_id,platform,exact_query_or_keywords,purpose,search_mode
+Q01,data.europa.eu,EU legislation,core legal datasets,Portal/API
+Q02,data.europa.eu,regulatory decisions,regulatory enforcement,Portal/API
+Q03,data.europa.eu,directive transposition,national implementation,Portal/API
+Q04,data.europa.eu,notified bodies,conformity intermediaries,Portal/API
+Q05,data.europa.eu,comitology,implementation and committees,Portal/API
+Q06,data.europa.eu,trusted flaggers,digital intermediaries,Portal/API
+Q07,EUR-Lex/CELLAR,legal acts metadata CELEX ELI,legal document graph,Official manual + API
+Q08,EU Parliament Open Data,legislative procedures API,law making,Official manual + API
+Q09,OpenAlex / Scopus / WoS,(European Union OR EU) AND (legislat* OR regulat* OR legal) AND (dataset* OR corpus OR database OR API),scholarly datasets,Bibliographic
+Q10,Zenodo / OpenAIRE,EU legal corpus dataset OR European legal dataset OR regulatory dataset,research data,Repository
+Q11,European Commission registers,delegated acts implementing acts register,implementation,Official manual
+Q12,Reference chaining,citations of seed articles and datasets,snowballing,Backward/forward
+Q13,National EU law portals,national transposition datasets EU directives,national nodes,Targeted multilingual
+Q14,EU member-state registers,registre organismes notifiés EU / benannte Stellen EU,multilingual sensitivity,Targeted multilingual

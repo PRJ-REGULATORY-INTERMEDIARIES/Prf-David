@@ -1,0 +1,15 @@
+decision_id,earlier_pilot,earlier_record_or_claim_affected,type_of_impact,new_human_adjudicated_interpretation,impact_domain,backward_impact_flag,historical_outputs_modified
+H_006,PILOT_01,P01_C01 / P01_PR01,wrong recipient and direction,Member State→other Member States/Commission: notify bodies; designation requires separate support.,relational,YES,NO
+H_007,PILOT_01,P01_C02 / P01_PR01,legal effect recast as actor edge,Exemption effect retained separately; no Member State→manufacturer enable-use edge.,relational,YES,NO
+H_008,PILOT_01,P01_C02 / P01_PR01,action normalization error,Action remains not applicable until the edge is reconstructed.,functional,YES,NO
+H_009,PILOT_02,P02_C03 / P02_PR03,intermediary over-attribution,Insurance condition does not establish direct intermediary status.,intermediary-status,YES,NO
+H_010,PILOT_02,P02_C03 / P02_PR03,intermediary over-attribution,Insurance condition does not establish derived R–I–T.,intermediary-status,YES,NO
+H_011,PILOT_02,P03_C02 / P03_PR02,wrong recipient and direction,Inform is directed to the Commission; laboratory designation requires separate support.,relational,YES,NO
+H_012,PILOT_02,P03_C03 / P03_PR03,function boundary,Assurance is distinct from later continuing surveillance.,functional,YES,NO
+H_013,PILOT_02,P03_C03 / P03_PR03,mechanism boundary,Quality-system assessment is distinct from periodic audit/surveillance.,mechanism-related,YES,NO
+H_014,PILOT_02,P03_C03 / P03_PR03,device boundary,"Device follows the point 3.3 assessment procedure, while audit-like elements remain caveated.",device-related,YES,NO
+H_015,PILOT_02,P04_C01 / P04_PR01,composite edge,Registry→auditor appoint; auditor→Registry audit; auditor→Commission report.,relational,YES,NO
+H_016,PILOT_02,P04_C03 / P04_PR03,candidate options misspecified,Applicant→validation agent submit documentary evidence remains a direct edge.,relational,YES,NO
+H_017,PILOT_02,P04_C06 / P04_PR06,composite edge,"Selection, complaint submission, and provider→Registry information are separate edges.",relational,YES,NO
+H_018,PILOT_02,P05_C01 / P05_PR01,conditional intermediary over-attribution,Exemption condition does not establish status for the candidate organization line.,intermediary-status,YES,NO
+H_019,PILOT_02,P05_C01 / P05_PR01,conditional intermediary over-attribution,Safeguard enumeration does not document qualifying derived edges.,intermediary-status,YES,NO

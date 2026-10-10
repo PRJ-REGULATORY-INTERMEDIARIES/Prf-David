@@ -1,0 +1,17 @@
+# batch d01: TITLE .. REC33
+SCR | u=TITLE | rel=No | tag=final/formal | note=Title and type of act; read only to state W domain/object from the title (RGAM-DR-03); not itself a provision, creates no record; mention of amended acts is treated at the amending provisions (GAP-02)
+SCR | u=PRE.P1 | rel=No | tag=final/formal | note=Preamble formula naming the adopting institutions; editorial, no governance content
+SCR | u=CIT2;CIT3;CIT4;CIT5;CIT6;CIT7 | rel=No | tag=final/formal | note=Preamble citation recording a procedural step or consultation of the adoption procedure; no norm, no record
+ST | id=s_cit1 | u=CIT1 | k=ex | sum=The Regulation cites Articles 16 and 114 of the Treaty on the Functioning of the European Union as its legal basis. | sp=Having regard to the Treaty on the Functioning of the European Union, and in particular Articles 16 and 114 thereof
+EXT | key=EXT_TFEU_16_114 | src=Treaty on the Functioning of the European Union, Articles 16 and 114 | sk=legal_instrument | role=other | dk=specifies | cd=N | eff=Legal basis of enactment only; no claim of this analysis depends on it (reference shows legal relevance only)
+SCR | u=REC1..REC2 | rel=No | tag=recital (interpretive context only, DR-07) | note=Recital stating purpose and values of the Regulation; context only; no record created from a recital
+SCR | u=REC3 | rel=No | tag=recital (interpretive context only, DR-07) | note=Recital on market-fragmentation rationale and choice of legal bases; context only
+SCR | u=REC4..REC8 | rel=No | tag=recital (interpretive context only, DR-07) | note=Recital on AI benefits and risks and the need for a harmonised Union framework; context only
+SCR | u=REC9..REC11 | rel=No | tag=recital (interpretive context only, DR-07) | note=Recital on relationship with other Union law (New Legislative Framework, data protection, intermediary services); context only
+SCR | u=REC12..REC13 | rel=No | tag=recital (interpretive context only, DR-07) | note=Recital explaining the notions of AI system and deployer; context only (operative definitions are in Article 3)
+SCR | u=REC14..REC19 | rel=No | tag=recital (interpretive context only, DR-07) | note=Recital explaining biometric notions and publicly accessible space; context only
+SCR | u=REC20 | rel=No | tag=recital (interpretive context only, DR-07) | note=Recital on AI literacy and the support role of the Board and Commission; context only; any record rests on the operative Articles
+SCR | u=REC21..REC25 | rel=No | tag=recital (interpretive context only, DR-07) | note=Recital on territorial and material scope (third-country providers, Union bodies, military/defence/national-security and research exclusions); context only
+SCR | u=REC26..REC27 | rel=No | tag=recital (interpretive context only, DR-07) | note=Recital on the risk-based approach and ethics guidelines; context only
+SCR | u=REC28..REC31 | rel=No | tag=recital (interpretive context only, DR-07) | note=Recital on rationale of prohibited practices (manipulation, exploitation, biometric categorisation, social scoring); context only
+SCR | u=REC32..REC33 | rel=No | tag=recital (interpretive context only, DR-07) | note=Recital on rationale and exceptions of real-time remote biometric identification for law enforcement; context only

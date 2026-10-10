@@ -1,0 +1,33 @@
+{
+ "by_chapter_relevance": {
+  "Chapter I|No": 8,
+  "Chapter I|Uncertain": 2,
+  "Chapter I|Yes": 1,
+  "Chapter II|No": 7,
+  "Chapter II|Yes": 11,
+  "Chapter II|Uncertain": 2,
+  "Chapter III|Yes": 34,
+  "Chapter III|No": 10,
+  "Chapter III|Uncertain": 1,
+  "Chapter IV|Yes": 92,
+  "Chapter IV|No": 15,
+  "Chapter IV|Uncertain": 2,
+  "Chapter V|Yes": 19,
+  "Chapter V|No": 7,
+  "Chapter VI|Yes": 34,
+  "Chapter VI|No": 1,
+  "Chapter VI|Uncertain": 1,
+  "Chapter VII|Yes": 68,
+  "Chapter VII|No": 8,
+  "Chapter VIII|Yes": 30,
+  "Chapter IX|Yes": 15,
+  "Chapter IX|No": 1,
+  "Chapter X|Yes": 8,
+  "Chapter XI|No": 3,
+  "Chapter XI|Yes": 9
+ },
+ "n_units": 389,
+ "units_with_qr": 189,
+ "units_with_na": 158,
+ "units_with_ext": 26
+}

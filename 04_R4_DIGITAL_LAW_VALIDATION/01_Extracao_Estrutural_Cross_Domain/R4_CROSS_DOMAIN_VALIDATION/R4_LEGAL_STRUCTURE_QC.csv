@@ -1,0 +1,4 @@
+"case_id","celex","root_language","article_count","recital_count","chapter_count","section_count","annex_count","expected_annex_count","article_sequence_coherent","recital_sequence_coherent","document_end_marker_present","recitals_preserved","operative_provisions_present","annex_check","status","note"
+"D1_GDPR","32016R0679","EN","99","173","11","15","0","0","True","True","True","True","True","PASS","VALIDATED","Structural validation only; no actor, intermediary or mechanism extraction performed."
+"D2_DSA","32022R2065","EN","93","156","5","12","0","0","True","True","True","True","True","PASS","VALIDATED","Structural validation only; no actor, intermediary or mechanism extraction performed."
+"D3_AI_ACT","32024R1689","EN","113","180","13","16","13","13","True","True","True","True","True","PASS","VALIDATED","Structural validation only; no actor, intermediary or mechanism extraction performed."

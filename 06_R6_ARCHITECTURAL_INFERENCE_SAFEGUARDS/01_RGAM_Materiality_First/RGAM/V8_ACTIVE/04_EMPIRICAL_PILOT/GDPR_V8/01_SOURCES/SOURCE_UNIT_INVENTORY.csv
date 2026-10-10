@@ -1,0 +1,772 @@
+unit_id,kind,article,article_title,paragraph,point,chapter,section,chars,n_points,text_sha256_16
+GDPR.A1.P1,paragraph,1,Subject-matter and objectives,1,,cpt_I,,186,0,bd6ef2a19e39df2c
+GDPR.A1.P2,paragraph,1,Subject-matter and objectives,2,,cpt_I,,145,0,393def33f59bf51c
+GDPR.A1.P3,paragraph,1,Subject-matter and objectives,3,,cpt_I,,207,0,2c9f0df07b2070ba
+GDPR.A2.P1,paragraph,2,Material scope,1,,cpt_I,,251,0,060d7f98dfadc02a
+GDPR.A2.P2,paragraph,2,Material scope,2,,cpt_I,,597,4,000faa993d7d30d6
+GDPR.A2.P2.pta,point,2,Material scope,2,(a),cpt_I,,72,0,d845f7885e51fa9b
+GDPR.A2.P2.ptb,point,2,Material scope,2,(b),cpt_I,,113,0,fc8afe42d4cd3ff1
+GDPR.A2.P2.ptc,point,2,Material scope,2,(c),cpt_I,,77,0,47f32f6248aa7e7e
+GDPR.A2.P2.ptd,point,2,Material scope,2,(d),cpt_I,,246,0,ad51f1f06d0e5471
+GDPR.A2.P3,paragraph,2,Material scope,3,,cpt_I,,328,0,1e8302d5329dcf8b
+GDPR.A2.P4,paragraph,2,Material scope,4,,cpt_I,,201,0,b34740f9e52add08
+GDPR.A3.P1,paragraph,3,Territorial scope,1,,cpt_I,,230,0,5a3699560380fadf
+GDPR.A3.P2,paragraph,3,Territorial scope,2,,cpt_I,,445,2,14e52cf878010fb7
+GDPR.A3.P2.pta,point,3,Territorial scope,2,(a),cpt_I,,140,0,9da16cad4c1283a2
+GDPR.A3.P2.ptb,point,3,Territorial scope,2,(b),cpt_I,,89,0,d264f5144420b94f
+GDPR.A3.P3,paragraph,3,Territorial scope,3,,cpt_I,,193,0,3d0a0f0306f92543
+GDPR.A4.P0,paragraph,4,Definitions,0,,cpt_I,,8631,26,ca113827692908bd
+GDPR.A4.P0.pt1,point,4,Definitions,0,(1),cpt_I,,465,0,cbab8ea9e248265d
+GDPR.A4.P0.pt2,point,4,Definitions,0,(2),cpt_I,,412,0,4a149b2fe5275026
+GDPR.A4.P0.pt3,point,4,Definitions,0,(3),cpt_I,,126,0,af723b545f0123b0
+GDPR.A4.P0.pt4,point,4,Definitions,0,(4),cpt_I,,379,0,c0976bba8b4bbc34
+GDPR.A4.P0.pt5,point,4,Definitions,0,(5),cpt_I,,412,0,35c421536ca45503
+GDPR.A4.P0.pt6,point,4,Definitions,0,(6),cpt_I,,197,0,c5227cd51a69b55c
+GDPR.A4.P0.pt7,point,4,Definitions,0,(7),cpt_I,,395,0,241ad2c53f08c50e
+GDPR.A4.P0.pt8,point,4,Definitions,0,(8),cpt_I,,142,0,864920f5e38df156
+GDPR.A4.P0.pt9,point,4,Definitions,0,(9),cpt_I,,508,0,872c2c6c9f1475f1
+GDPR.A4.P0.pt10,point,4,Definitions,0,(10),cpt_I,,247,0,752b2356f3c2247f
+GDPR.A4.P0.pt11,point,4,Definitions,0,(11),cpt_I,,276,0,a858921e7c4fe52b
+GDPR.A4.P0.pt12,point,4,Definitions,0,(12),cpt_I,,218,0,b68e7b0e1d6f6532
+GDPR.A4.P0.pt13,point,4,Definitions,0,(13),cpt_I,,314,0,914d3b0c3b63603c
+GDPR.A4.P0.pt14,point,4,Definitions,0,(14),cpt_I,,291,0,212a7cb217aed7da
+GDPR.A4.P0.pt15,point,4,Definitions,0,(15),cpt_I,,212,0,acfc9969f14d631c
+GDPR.A4.P0.pt16,point,4,Definitions,0,(16),cpt_I,,951,0,d34972bd6d5126b1
+GDPR.A4.P0.pt17,point,4,Definitions,0,(17),cpt_I,,261,0,92045adb1cb12644
+GDPR.A4.P0.pt18,point,4,Definitions,0,(18),cpt_I,,191,0,060fc0c8b7845a83
+GDPR.A4.P0.pt19,point,4,Definitions,0,(19),cpt_I,,88,0,d41585c7836d795d
+GDPR.A4.P0.pt20,point,4,Definitions,0,(20),cpt_I,,369,0,6cb11fbb8a090713
+GDPR.A4.P0.pt21,point,4,Definitions,0,(21),cpt_I,,124,0,708ea3601dc0246d
+GDPR.A4.P0.pt22,point,4,Definitions,0,(22),cpt_I,,471,0,9cbd129837f9efbf
+GDPR.A4.P0.pt23,point,4,Definitions,0,(23),cpt_I,,560,0,e8fb8afeb9990eef
+GDPR.A4.P0.pt24,point,4,Definitions,0,(24),cpt_I,,454,0,3a6c37792f48edbb
+GDPR.A4.P0.pt25,point,4,Definitions,0,(25),cpt_I,,168,0,2c39e51eac0102de
+GDPR.A4.P0.pt26,point,4,Definitions,0,(26),cpt_I,,217,0,d0c57d6d7389d112
+GDPR.A5.P1,paragraph,5,Principles relating to processing of personal data,1,,cpt_II,,1844,6,708a1a251b80ccf1
+GDPR.A5.P1.pta,point,5,Principles relating to processing of personal data,1,(a),cpt_II,,129,0,22be9e2ef1ca59c1
+GDPR.A5.P1.ptb,point,5,Principles relating to processing of personal data,1,(b),cpt_II,,398,0,f5550332afb6ac63
+GDPR.A5.P1.ptc,point,5,Principles relating to processing of personal data,1,(c),cpt_II,,131,0,729ee4e785bbf7ab
+GDPR.A5.P1.ptd,point,5,Principles relating to processing of personal data,1,(d),cpt_II,,245,0,6845b4e2030deb56
+GDPR.A5.P1.pte,point,5,Principles relating to processing of personal data,1,(e),cpt_II,,601,0,bfddfe300f583693
+GDPR.A5.P1.ptf,point,5,Principles relating to processing of personal data,1,(f),cpt_II,,284,0,ac30be9598df9b7c
+GDPR.A5.P2,paragraph,5,Principles relating to processing of personal data,2,,cpt_II,,120,0,475cd96328d867a4
+GDPR.A6.P1,paragraph,6,Lawfulness of processing,1,,cpt_II,,1255,6,c8a586924a78ad19
+GDPR.A6.P1.pta,point,6,Lawfulness of processing,1,(a),cpt_II,,115,0,4f5fe4f603c3c489
+GDPR.A6.P1.ptb,point,6,Lawfulness of processing,1,(b),cpt_II,,188,0,2a378b74e8ecd439
+GDPR.A6.P1.ptc,point,6,Lawfulness of processing,1,(c),cpt_II,,98,0,ecdbea7f25bfd2e4
+GDPR.A6.P1.ptd,point,6,Lawfulness of processing,1,(d),cpt_II,,113,0,18cfa93a07472a01
+GDPR.A6.P1.pte,point,6,Lawfulness of processing,1,(e),cpt_II,,155,0,85cd102ec2952bd8
+GDPR.A6.P1.ptf,point,6,Lawfulness of processing,1,(f),cpt_II,,322,0,1991e3dfd083c128
+GDPR.A6.P2,paragraph,6,Lawfulness of processing,2,,cpt_II,,414,0,6d7a845a80ff96d6
+GDPR.A6.P3,paragraph,6,Lawfulness of processing,3,,cpt_II,,1195,2,9536bed32f383937
+GDPR.A6.P3.pta,point,6,Lawfulness of processing,3,(a),cpt_II,,13,0,da4379def352c38e
+GDPR.A6.P3.ptb,point,6,Lawfulness of processing,3,(b),cpt_II,,52,0,5121327d7514d900
+GDPR.A6.P4,paragraph,6,Lawfulness of processing,4,,cpt_II,,1217,5,86cd80e45ea92f45
+GDPR.A6.P4.pta,point,6,Lawfulness of processing,4,(a),cpt_II,,130,0,065d8c1abc77b4e6
+GDPR.A6.P4.ptb,point,6,Lawfulness of processing,4,(b),cpt_II,,142,0,586c0349b1b8e40d
+GDPR.A6.P4.ptc,point,6,Lawfulness of processing,4,(c),cpt_II,,237,0,291b194dbeb4ba4f
+GDPR.A6.P4.ptd,point,6,Lawfulness of processing,4,(d),cpt_II,,79,0,7a856fa6078e4dab
+GDPR.A6.P4.pte,point,6,Lawfulness of processing,4,(e),cpt_II,,90,0,372b1a967a359576
+GDPR.A7.P1,paragraph,7,Conditions for consent,1,,cpt_II,,164,0,e9e4431dd8681a7c
+GDPR.A7.P2,paragraph,7,Conditions for consent,2,,cpt_II,,414,0,3148d1e050ddc9d5
+GDPR.A7.P3,paragraph,7,Conditions for consent,3,,cpt_II,,318,0,67995aca27aedca2
+GDPR.A7.P4,paragraph,7,Conditions for consent,4,,cpt_II,,296,0,8cbf975e3a7ae747
+GDPR.A8.P1,paragraph,8,Conditions applicable to child's consent in relation to information society services,1,,cpt_II,,544,0,46da90775baa1e07
+GDPR.A8.P2,paragraph,8,Conditions applicable to child's consent in relation to information society services,2,,cpt_II,,213,0,c648a0ed42f80e71
+GDPR.A8.P3,paragraph,8,Conditions applicable to child's consent in relation to information society services,3,,cpt_II,,167,0,94b794576c364d52
+GDPR.A9.P1,paragraph,9,Processing of special categories of personal data,1,,cpt_II,,371,0,87478b2cb9ac8be6
+GDPR.A9.P2,paragraph,9,Processing of special categories of personal data,2,,cpt_II,,3361,10,b757a7c9ae1c8cbd
+GDPR.A9.P2.pta,point,9,Processing of special categories of personal data,2,(a),cpt_II,,254,0,d632d9c0c7d0e186
+GDPR.A9.P2.ptb,point,9,Processing of special categories of personal data,2,(b),cpt_II,,434,0,3bdc9311bd8c5c59
+GDPR.A9.P2.ptc,point,9,Processing of special categories of personal data,2,(c),cpt_II,,180,0,d2fb1c51b10fc41c
+GDPR.A9.P2.ptd,point,9,Processing of special categories of personal data,2,(d),cpt_II,,504,0,76e3cc3284b8d703
+GDPR.A9.P2.pte,point,9,Processing of special categories of personal data,2,(e),cpt_II,,89,0,1ebf77c031645967
+GDPR.A9.P2.ptf,point,9,Processing of special categories of personal data,2,(f),cpt_II,,140,0,c1b93413af8e560d
+GDPR.A9.P2.ptg,point,9,Processing of special categories of personal data,2,(g),cpt_II,,332,0,82d1a810a740a7f2
+GDPR.A9.P2.pth,point,9,Processing of special categories of personal data,2,(h),cpt_II,,441,0,fe211673dc4363a0
+GDPR.A9.P2.pti,point,9,Processing of special categories of personal data,2,(i),cpt_II,,446,0,a71b53067efa3acf
+GDPR.A9.P2.ptj,point,9,Processing of special categories of personal data,2,(j),cpt_II,,428,0,3f626b1e516fb06c
+GDPR.A9.P3,paragraph,9,Processing of special categories of personal data,3,,cpt_II,,474,0,5634909b43a31e3f
+GDPR.A9.P4,paragraph,9,Processing of special categories of personal data,4,,cpt_II,,175,0,aa34a6bacf34a776
+GDPR.A10.P0,paragraph,10,Processing of personal data relating to criminal convictions and offences,0,,cpt_II,,451,0,1e67dcf3a2327787
+GDPR.A11.P1,paragraph,11,Processing which does not require identification,1,,cpt_II,,338,0,efedde91ce5befd8
+GDPR.A11.P2,paragraph,11,Processing which does not require identification,2,,cpt_II,,449,0,769b62247f86b7e7
+GDPR.A12.P1,paragraph,12,"Transparent information, communication and modalities for the exercise of the rights of the data subject",1,,cpt_III,cpt_III.sct_1,641,0,f8a854bbaef0cabf
+GDPR.A12.P2,paragraph,12,"Transparent information, communication and modalities for the exercise of the rights of the data subject",2,,cpt_III,cpt_III.sct_1,365,0,96515d26a31d047b
+GDPR.A12.P3,paragraph,12,"Transparent information, communication and modalities for the exercise of the rights of the data subject",3,,cpt_III,cpt_III.sct_1,665,0,07a669e0989fce02
+GDPR.A12.P4,paragraph,12,"Transparent information, communication and modalities for the exercise of the rights of the data subject",4,,cpt_III,cpt_III.sct_1,341,0,9126bbbe2e90a7fd
+GDPR.A12.P5,paragraph,12,"Transparent information, communication and modalities for the exercise of the rights of the data subject",5,,cpt_III,cpt_III.sct_1,617,2,97da7984212d1023
+GDPR.A12.P5.pta,point,12,"Transparent information, communication and modalities for the exercise of the rights of the data subject",5,(a),cpt_III,cpt_III.sct_1,149,0,b9432802096ec3ba
+GDPR.A12.P5.ptb,point,12,"Transparent information, communication and modalities for the exercise of the rights of the data subject",5,(b),cpt_III,cpt_III.sct_1,29,0,0f1ee01fe26c768b
+GDPR.A12.P6,paragraph,12,"Transparent information, communication and modalities for the exercise of the rights of the data subject",6,,cpt_III,cpt_III.sct_1,300,0,b91d54967127dc79
+GDPR.A12.P7,paragraph,12,"Transparent information, communication and modalities for the exercise of the rights of the data subject",7,,cpt_III,cpt_III.sct_1,343,0,64d687c22c39169c
+GDPR.A12.P8,paragraph,12,"Transparent information, communication and modalities for the exercise of the rights of the data subject",8,,cpt_III,cpt_III.sct_1,220,0,6072d843ab0ea3d0
+GDPR.A13.P1,paragraph,13,Information to be provided where personal data are collected from the data subject,1,,cpt_III,cpt_III.sct_2,1197,6,f0ff4c8927030dae
+GDPR.A13.P1.pta,point,13,Information to be provided where personal data are collected from the data subject,1,(a),cpt_III,cpt_III.sct_2,113,0,316c582415d64476
+GDPR.A13.P1.ptb,point,13,Information to be provided where personal data are collected from the data subject,1,(b),cpt_III,cpt_III.sct_2,69,0,2f91b49621735edc
+GDPR.A13.P1.ptc,point,13,Information to be provided where personal data are collected from the data subject,1,(c),cpt_III,cpt_III.sct_2,118,0,652f801c513eae31
+GDPR.A13.P1.ptd,point,13,Information to be provided where personal data are collected from the data subject,1,(d),cpt_III,cpt_III.sct_2,131,0,470b9e64429e6ac5
+GDPR.A13.P1.pte,point,13,Information to be provided where personal data are collected from the data subject,1,(e),cpt_III,cpt_III.sct_2,72,0,b76272f7c527b897
+GDPR.A13.P1.ptf,point,13,Information to be provided where personal data are collected from the data subject,1,(f),cpt_III,cpt_III.sct_2,447,0,1d1541e2dc8c8656
+GDPR.A13.P2,paragraph,13,Information to be provided where personal data are collected from the data subject,2,,cpt_III,cpt_III.sct_2,1491,6,80b4ca9dcdc3252b
+GDPR.A13.P2.pta,point,13,Information to be provided where personal data are collected from the data subject,2,(a),cpt_III,cpt_III.sct_2,126,0,f53f5c07f9377dcb
+GDPR.A13.P2.ptb,point,13,Information to be provided where personal data are collected from the data subject,2,(b),cpt_III,cpt_III.sct_2,239,0,af76392f277c6dba
+GDPR.A13.P2.ptc,point,13,Information to be provided where personal data are collected from the data subject,2,(c),cpt_III,cpt_III.sct_2,235,0,16eb913c70007c33
+GDPR.A13.P2.ptd,point,13,Information to be provided where personal data are collected from the data subject,2,(d),cpt_III,cpt_III.sct_2,60,0,42a0578cac6708b4
+GDPR.A13.P2.pte,point,13,Information to be provided where personal data are collected from the data subject,2,(e),cpt_III,cpt_III.sct_2,276,0,3036e9624919cdc7
+GDPR.A13.P2.ptf,point,13,Information to be provided where personal data are collected from the data subject,2,(f),cpt_III,cpt_III.sct_2,280,0,873c212a203fd2e5
+GDPR.A13.P3,paragraph,13,Information to be provided where personal data are collected from the data subject,3,,cpt_III,cpt_III.sct_2,334,0,c9b8aba2dec6dbf3
+GDPR.A13.P4,paragraph,13,Information to be provided where personal data are collected from the data subject,4,,cpt_III,cpt_III.sct_2,108,0,d8bdfcbffcd8e83a
+GDPR.A14.P1,paragraph,14,Information to be provided where personal data have not been obtained from the data subject,1,,cpt_III,cpt_III.sct_2,1034,6,575a67cdfeebf3c2
+GDPR.A14.P1.pta,point,14,Information to be provided where personal data have not been obtained from the data subject,1,(a),cpt_III,cpt_III.sct_2,113,0,316c582415d64476
+GDPR.A14.P1.ptb,point,14,Information to be provided where personal data have not been obtained from the data subject,1,(b),cpt_III,cpt_III.sct_2,69,0,2f91b49621735edc
+GDPR.A14.P1.ptc,point,14,Information to be provided where personal data have not been obtained from the data subject,1,(c),cpt_III,cpt_III.sct_2,118,0,652f801c513eae31
+GDPR.A14.P1.ptd,point,14,Information to be provided where personal data have not been obtained from the data subject,1,(d),cpt_III,cpt_III.sct_2,42,0,20c14420231f2238
+GDPR.A14.P1.pte,point,14,Information to be provided where personal data have not been obtained from the data subject,1,(e),cpt_III,cpt_III.sct_2,72,0,b76272f7c527b897
+GDPR.A14.P1.ptf,point,14,Information to be provided where personal data have not been obtained from the data subject,1,(f),cpt_III,cpt_III.sct_2,444,0,a54d2cfa72b465aa
+GDPR.A14.P2,paragraph,14,Information to be provided where personal data have not been obtained from the data subject,2,,cpt_III,cpt_III.sct_2,1440,7,2dabd29c320bb520
+GDPR.A14.P2.pta,point,14,Information to be provided where personal data have not been obtained from the data subject,2,(a),cpt_III,cpt_III.sct_2,126,0,f53f5c07f9377dcb
+GDPR.A14.P2.ptb,point,14,Information to be provided where personal data have not been obtained from the data subject,2,(b),cpt_III,cpt_III.sct_2,131,0,470b9e64429e6ac5
+GDPR.A14.P2.ptc,point,14,Information to be provided where personal data have not been obtained from the data subject,2,(c),cpt_III,cpt_III.sct_2,240,0,52b520c0003ea311
+GDPR.A14.P2.ptd,point,14,Information to be provided where personal data have not been obtained from the data subject,2,(d),cpt_III,cpt_III.sct_2,231,0,f8d8c19bd9cba7e2
+GDPR.A14.P2.pte,point,14,Information to be provided where personal data have not been obtained from the data subject,2,(e),cpt_III,cpt_III.sct_2,60,0,42a0578cac6708b4
+GDPR.A14.P2.ptf,point,14,Information to be provided where personal data have not been obtained from the data subject,2,(f),cpt_III,cpt_III.sct_2,115,0,d0df72154009e859
+GDPR.A14.P2.ptg,point,14,Information to be provided where personal data have not been obtained from the data subject,2,(g),cpt_III,cpt_III.sct_2,280,0,873c212a203fd2e5
+GDPR.A14.P3,paragraph,14,Information to be provided where personal data have not been obtained from the data subject,3,,cpt_III,cpt_III.sct_2,542,3,7c1d2bcd5e41efd8
+GDPR.A14.P3.pta,point,14,Information to be provided where personal data have not been obtained from the data subject,3,(a),cpt_III,cpt_III.sct_2,183,0,a1a588ae37fe5232
+GDPR.A14.P3.ptb,point,14,Information to be provided where personal data have not been obtained from the data subject,3,(b),cpt_III,cpt_III.sct_2,154,0,97db91065b0b2469
+GDPR.A14.P3.ptc,point,14,Information to be provided where personal data have not been obtained from the data subject,3,(c),cpt_III,cpt_III.sct_2,108,0,b0c03a7ce6c9f219
+GDPR.A14.P4,paragraph,14,Information to be provided where personal data have not been obtained from the data subject,4,,cpt_III,cpt_III.sct_2,333,0,d7434ff9507a9328
+GDPR.A14.P5,paragraph,14,Information to be provided where personal data have not been obtained from the data subject,5,,cpt_III,cpt_III.sct_2,1188,4,b15cb3fe8a952767
+GDPR.A14.P5.pta,point,14,Information to be provided where personal data have not been obtained from the data subject,5,(a),cpt_III,cpt_III.sct_2,45,0,cf928d1150731d3e
+GDPR.A14.P5.ptb,point,14,Information to be provided where personal data have not been obtained from the data subject,5,(b),cpt_III,cpt_III.sct_2,678,0,15558c5d3ba2b7ac
+GDPR.A14.P5.ptc,point,14,Information to be provided where personal data have not been obtained from the data subject,5,(c),cpt_III,cpt_III.sct_2,205,0,d1877c5c02b12ffc
+GDPR.A14.P5.ptd,point,14,Information to be provided where personal data have not been obtained from the data subject,5,(d),cpt_III,cpt_III.sct_2,182,0,64e7eba949278ca5
+GDPR.A15.P1,paragraph,15,Right of access by the data subject,1,,cpt_III,cpt_III.sct_2,1338,8,bf55c1952c9260f6
+GDPR.A15.P1.pta,point,15,Right of access by the data subject,1,(a),cpt_III,cpt_III.sct_2,31,0,7832f11882758048
+GDPR.A15.P1.ptb,point,15,Right of access by the data subject,1,(b),cpt_III,cpt_III.sct_2,42,0,20c14420231f2238
+GDPR.A15.P1.ptc,point,15,Right of access by the data subject,1,(c),cpt_III,cpt_III.sct_2,175,0,1d54573518cc9bf7
+GDPR.A15.P1.ptd,point,15,Right of access by the data subject,1,(d),cpt_III,cpt_III.sct_2,145,0,828d336735df064e
+GDPR.A15.P1.pte,point,15,Right of access by the data subject,1,(e),cpt_III,cpt_III.sct_2,206,0,70cdca2b1a5477aa
+GDPR.A15.P1.ptf,point,15,Right of access by the data subject,1,(f),cpt_III,cpt_III.sct_2,60,0,42a0578cac6708b4
+GDPR.A15.P1.ptg,point,15,Right of access by the data subject,1,(g),cpt_III,cpt_III.sct_2,110,0,7180f8f14fd0b509
+GDPR.A15.P1.pth,point,15,Right of access by the data subject,1,(h),cpt_III,cpt_III.sct_2,280,0,873c212a203fd2e5
+GDPR.A15.P2,paragraph,15,Right of access by the data subject,2,,cpt_III,cpt_III.sct_2,227,0,89bf9a2314b061f5
+GDPR.A15.P3,paragraph,15,Right of access by the data subject,3,,cpt_III,cpt_III.sct_2,395,0,891e8d62b5e2d440
+GDPR.A15.P4,paragraph,15,Right of access by the data subject,4,,cpt_III,cpt_III.sct_2,119,0,02bf616be8adeef4
+GDPR.A16.P0,paragraph,16,Right to rectification,0,,cpt_III,cpt_III.sct_3,350,0,2bce1bd37e64a6f0
+GDPR.A17.P1,paragraph,17,Right to erasure (‘right to be forgotten’),1,,cpt_III,cpt_III.sct_3,1143,6,e737eb9db14fde67
+GDPR.A17.P1.pta,point,17,Right to erasure (‘right to be forgotten’),1,(a),cpt_III,cpt_III.sct_3,123,0,e4728328544aa72e
+GDPR.A17.P1.ptb,point,17,Right to erasure (‘right to be forgotten’),1,(b),cpt_III,cpt_III.sct_3,198,0,1a72b705c5143d04
+GDPR.A17.P1.ptc,point,17,Right to erasure (‘right to be forgotten’),1,(c),cpt_III,cpt_III.sct_3,208,0,fd0abc2c75eec1c3
+GDPR.A17.P1.ptd,point,17,Right to erasure (‘right to be forgotten’),1,(d),cpt_III,cpt_III.sct_3,49,0,dca884eae4f048cb
+GDPR.A17.P1.pte,point,17,Right to erasure (‘right to be forgotten’),1,(e),cpt_III,cpt_III.sct_3,139,0,c992f42386c2fa66
+GDPR.A17.P1.ptf,point,17,Right to erasure (‘right to be forgotten’),1,(f),cpt_III,cpt_III.sct_3,123,0,dd0e1ae1f29d0831
+GDPR.A17.P2,paragraph,17,Right to erasure (‘right to be forgotten’),2,,cpt_III,cpt_III.sct_3,465,0,2e95c3b0b4eedbb2
+GDPR.A17.P3,paragraph,17,Right to erasure (‘right to be forgotten’),3,,cpt_III,cpt_III.sct_3,936,5,91ab10fa440c2d1f
+GDPR.A17.P3.pta,point,17,Right to erasure (‘right to be forgotten’),3,(a),cpt_III,cpt_III.sct_3,66,0,2e16fb18cb85533c
+GDPR.A17.P3.ptb,point,17,Right to erasure (‘right to be forgotten’),3,(b),cpt_III,cpt_III.sct_3,263,0,2a0c4773503be72f
+GDPR.A17.P3.ptc,point,17,Right to erasure (‘right to be forgotten’),3,(c),cpt_III,cpt_III.sct_3,138,0,a1458825757f7292
+GDPR.A17.P3.ptd,point,17,Right to erasure (‘right to be forgotten’),3,(d),cpt_III,cpt_III.sct_3,304,0,dc313a58fdcfcd66
+GDPR.A17.P3.pte,point,17,Right to erasure (‘right to be forgotten’),3,(e),cpt_III,cpt_III.sct_3,59,0,a8588a22c2d26717
+GDPR.A18.P1,paragraph,18,Right to restriction of processing,1,,cpt_III,cpt_III.sct_3,805,4,e41c623149c58c52
+GDPR.A18.P1.pta,point,18,Right to restriction of processing,1,(a),cpt_III,cpt_III.sct_3,149,0,1e69e8f657fff649
+GDPR.A18.P1.ptb,point,18,Right to restriction of processing,1,(b),cpt_III,cpt_III.sct_3,139,0,3b1d7506adb48e39
+GDPR.A18.P1.ptc,point,18,Right to restriction of processing,1,(c),cpt_III,cpt_III.sct_3,186,0,f33f43ef58270291
+GDPR.A18.P1.ptd,point,18,Right to restriction of processing,1,(d),cpt_III,cpt_III.sct_3,179,0,b0dce371a4334fac
+GDPR.A18.P2,paragraph,18,Right to restriction of processing,2,,cpt_III,cpt_III.sct_3,378,0,452138037eaaa656
+GDPR.A18.P3,paragraph,18,Right to restriction of processing,3,,cpt_III,cpt_III.sct_3,169,0,ac976cefd34774b2
+GDPR.A19.P0,paragraph,19,Notification obligation regarding rectification or erasure of personal data or restriction of processing,0,,cpt_III,cpt_III.sct_3,413,0,968ce8aa20e7e897
+GDPR.A20.P1,paragraph,20,Right to data portability,1,,cpt_III,cpt_III.sct_3,573,2,6b606d1cc530a75a
+GDPR.A20.P1.pta,point,20,Right to data portability,1,(a),cpt_III,cpt_III.sct_3,161,0,a5a105ad85dc736d
+GDPR.A20.P1.ptb,point,20,Right to data portability,1,(b),cpt_III,cpt_III.sct_3,49,0,ba63b402fc6fa5b7
+GDPR.A20.P2,paragraph,20,Right to data portability,2,,cpt_III,cpt_III.sct_3,224,0,0b64e1cef68413e1
+GDPR.A20.P3,paragraph,20,Right to data portability,3,,cpt_III,cpt_III.sct_3,297,0,11a9ff9e426cba9e
+GDPR.A20.P4,paragraph,20,Right to data portability,4,,cpt_III,cpt_III.sct_3,102,0,91a40bb1d0506310
+GDPR.A21.P1,paragraph,21,Right to object,1,,cpt_III,cpt_III.sct_4,546,0,b5a2dc9d3bb376c3
+GDPR.A21.P2,paragraph,21,Right to object,2,,cpt_III,cpt_III.sct_4,285,0,8bc9d602f66ce0eb
+GDPR.A21.P3,paragraph,21,Right to object,3,,cpt_III,cpt_III.sct_4,145,0,26591feb712d1121
+GDPR.A21.P4,paragraph,21,Right to object,4,,cpt_III,cpt_III.sct_4,262,0,d2ba5358da05f18f
+GDPR.A21.P5,paragraph,21,Right to object,5,,cpt_III,cpt_III.sct_4,212,0,87491b5d5fbaa6a8
+GDPR.A21.P6,paragraph,21,Right to object,6,,cpt_III,cpt_III.sct_4,403,0,4e3596cdaaf01652
+GDPR.A22.P1,paragraph,22,"Automated individual decision-making, including profiling",1,,cpt_III,cpt_III.sct_4,230,0,dc05b633555d9b78
+GDPR.A22.P2,paragraph,22,"Automated individual decision-making, including profiling",2,,cpt_III,cpt_III.sct_4,420,3,21460c42c2c0ad20
+GDPR.A22.P2.pta,point,22,"Automated individual decision-making, including profiling",2,(a),cpt_III,cpt_III.sct_4,109,0,d0fb072c4d6c5474
+GDPR.A22.P2.ptb,point,22,"Automated individual decision-making, including profiling",2,(b),cpt_III,cpt_III.sct_4,201,0,dad2bafeb12ecede
+GDPR.A22.P2.ptc,point,22,"Automated individual decision-making, including profiling",2,(c),cpt_III,cpt_III.sct_4,48,0,562b8bf4e63757ca
+GDPR.A22.P3,paragraph,22,"Automated individual decision-making, including profiling",3,,cpt_III,cpt_III.sct_4,342,0,276a425162a84ab1
+GDPR.A22.P4,paragraph,22,"Automated individual decision-making, including profiling",4,,cpt_III,cpt_III.sct_4,288,0,9ab152f18da63455
+GDPR.A23.P1,paragraph,23,Restrictions,1,,cpt_III,cpt_III.sct_5,1519,10,83c35a09322267f0
+GDPR.A23.P1.pta,point,23,Restrictions,1,(a),cpt_III,cpt_III.sct_5,18,0,49db7f23abb821c9
+GDPR.A23.P1.ptb,point,23,Restrictions,1,(b),cpt_III,cpt_III.sct_5,8,0,c8eeb1d816eb6a2e
+GDPR.A23.P1.ptc,point,23,Restrictions,1,(c),cpt_III,cpt_III.sct_5,16,0,e50acfc2b82683c2
+GDPR.A23.P1.ptd,point,23,Restrictions,1,(d),cpt_III,cpt_III.sct_5,201,0,3cd632890bb8f2cb
+GDPR.A23.P1.pte,point,23,Restrictions,1,(e),cpt_III,cpt_III.sct_5,270,0,04807bf4a4a1ee06
+GDPR.A23.P1.ptf,point,23,Restrictions,1,(f),cpt_III,cpt_III.sct_5,65,0,ea972fe13f53cc2b
+GDPR.A23.P1.ptg,point,23,Restrictions,1,(g),cpt_III,cpt_III.sct_5,105,0,48bb274ef611ac56
+GDPR.A23.P1.pth,point,23,Restrictions,1,(h),cpt_III,cpt_III.sct_5,170,0,b44c7dbc1514ee78
+GDPR.A23.P1.pti,point,23,Restrictions,1,(i),cpt_III,cpt_III.sct_5,72,0,a6395f214ed00fc0
+GDPR.A23.P1.ptj,point,23,Restrictions,1,(j),cpt_III,cpt_III.sct_5,36,0,17e0c419e530fd5e
+GDPR.A23.P2,paragraph,23,Restrictions,2,,cpt_III,cpt_III.sct_5,770,8,d983be5ee0094f7d
+GDPR.A23.P2.pta,point,23,Restrictions,2,(a),cpt_III,cpt_III.sct_5,59,0,17580a40b5207832
+GDPR.A23.P2.ptb,point,23,Restrictions,2,(b),cpt_III,cpt_III.sct_5,32,0,13dda5595c2ba926
+GDPR.A23.P2.ptc,point,23,Restrictions,2,(c),cpt_III,cpt_III.sct_5,41,0,ace1fda2a3b9552c
+GDPR.A23.P2.ptd,point,23,Restrictions,2,(d),cpt_III,cpt_III.sct_5,63,0,aa86c0e893972965
+GDPR.A23.P2.pte,point,23,Restrictions,2,(e),cpt_III,cpt_III.sct_5,65,0,3f22773ab7ec81b0
+GDPR.A23.P2.ptf,point,23,Restrictions,2,(f),cpt_III,cpt_III.sct_5,147,0,d7a827304849bf87
+GDPR.A23.P2.ptg,point,23,Restrictions,2,(g),cpt_III,cpt_III.sct_5,58,0,785588606dbb1dbe
+GDPR.A23.P2.pth,point,23,Restrictions,2,(h),cpt_III,cpt_III.sct_5,130,0,4deac253a6ba0b3e
+GDPR.A24.P1,paragraph,24,Responsibility of the controller,1,,cpt_IV,cpt_IV.sct_1,429,0,5978cfac05851dc8
+GDPR.A24.P2,paragraph,24,Responsibility of the controller,2,,cpt_IV,cpt_IV.sct_1,193,0,201312c9235b5c2c
+GDPR.A24.P3,paragraph,24,Responsibility of the controller,3,,cpt_IV,cpt_IV.sct_1,238,0,6d38ef7d1183c7cc
+GDPR.A25.P1,paragraph,25,Data protection by design and by default,1,,cpt_IV,cpt_IV.sct_1,737,0,e0ae6bd42c4c167a
+GDPR.A25.P2,paragraph,25,Data protection by design and by default,2,,cpt_IV,cpt_IV.sct_1,542,0,f0bade1ce32b981a
+GDPR.A25.P3,paragraph,25,Data protection by design and by default,3,,cpt_IV,cpt_IV.sct_1,183,0,a0eb49a947cff750
+GDPR.A26.P1,paragraph,26,Joint controllers,1,,cpt_IV,cpt_IV.sct_1,688,0,2707a857e8c877c9
+GDPR.A26.P2,paragraph,26,Joint controllers,2,,cpt_IV,cpt_IV.sct_1,234,0,5cf997d32f44b4fb
+GDPR.A26.P3,paragraph,26,Joint controllers,3,,cpt_IV,cpt_IV.sct_1,197,0,1e2bf8c88061bb1e
+GDPR.A27.P1,paragraph,27,Representatives of controllers or processors not established in the Union,1,,cpt_IV,cpt_IV.sct_1,121,0,9a09b9ed13013ce0
+GDPR.A27.P2,paragraph,27,Representatives of controllers or processors not established in the Union,2,,cpt_IV,cpt_IV.sct_1,523,2,37eb729c492c7765
+GDPR.A27.P2.pta,point,27,Representatives of controllers or processors not established in the Union,2,(a),cpt_IV,cpt_IV.sct_1,408,0,85ffd8b3eaea3247
+GDPR.A27.P2.ptb,point,27,Representatives of controllers or processors not established in the Union,2,(b),cpt_IV,cpt_IV.sct_1,27,0,7387d48f3377e021
+GDPR.A27.P3,paragraph,27,Representatives of controllers or processors not established in the Union,3,,cpt_IV,cpt_IV.sct_1,226,0,10569cce10eada1f
+GDPR.A27.P4,paragraph,27,Representatives of controllers or processors not established in the Union,4,,cpt_IV,cpt_IV.sct_1,309,0,6c367c843559be1b
+GDPR.A27.P5,paragraph,27,Representatives of controllers or processors not established in the Union,5,,cpt_IV,cpt_IV.sct_1,191,0,8d43cd4aa71d28cf
+GDPR.A28.P1,paragraph,28,Processor,1,,cpt_IV,cpt_IV.sct_1,344,0,aa5ed4910eda8f7b
+GDPR.A28.P2,paragraph,28,Processor,2,,cpt_IV,cpt_IV.sct_1,372,0,9df21d332b2aeb97
+GDPR.A28.P3,paragraph,28,Processor,3,,cpt_IV,cpt_IV.sct_1,2532,8,9d7dafdbd72baf5f
+GDPR.A28.P3.pta,point,28,Processor,3,(a),cpt_IV,cpt_IV.sct_1,461,0,0ea92cff653d0fb7
+GDPR.A28.P3.ptb,point,28,Processor,3,(b),cpt_IV,cpt_IV.sct_1,174,0,110bb43468f68ad3
+GDPR.A28.P3.ptc,point,28,Processor,3,(c),cpt_IV,cpt_IV.sct_1,51,0,bc2b08fb86593210
+GDPR.A28.P3.ptd,point,28,Processor,3,(d),cpt_IV,cpt_IV.sct_1,89,0,bb4b263dfd92084e
+GDPR.A28.P3.pte,point,28,Processor,3,(e),cpt_IV,cpt_IV.sct_1,295,0,a71a0dbf37846972
+GDPR.A28.P3.ptf,point,28,Processor,3,(f),cpt_IV,cpt_IV.sct_1,189,0,2ceb44c893ba7ca8
+GDPR.A28.P3.ptg,point,28,Processor,3,(g),cpt_IV,cpt_IV.sct_1,258,0,2e82fe9568927821
+GDPR.A28.P3.pth,point,28,Processor,3,(h),cpt_IV,cpt_IV.sct_1,270,0,823f2122c1ecb206
+GDPR.A28.P4,paragraph,28,Processor,4,,cpt_IV,cpt_IV.sct_1,786,0,1d643b59941417d5
+GDPR.A28.P5,paragraph,28,Processor,5,,cpt_IV,cpt_IV.sct_1,282,0,fc0cff50a4c3488d
+GDPR.A28.P6,paragraph,28,Processor,6,,cpt_IV,cpt_IV.sct_1,412,0,6f7dfdae04c2a559
+GDPR.A28.P7,paragraph,28,Processor,7,,cpt_IV,cpt_IV.sct_1,204,0,707e055d1b4eca81
+GDPR.A28.P8,paragraph,28,Processor,8,,cpt_IV,cpt_IV.sct_1,207,0,7e4b852b9a27a9d5
+GDPR.A28.P9,paragraph,28,Processor,9,,cpt_IV,cpt_IV.sct_1,124,0,ca04c171d5cc97bb
+GDPR.A28.P10,paragraph,28,Processor,10,,cpt_IV,cpt_IV.sct_1,227,0,2f4adf664146dc64
+GDPR.A29.P0,paragraph,29,Processing under the authority of the controller or processor,0,,cpt_IV,cpt_IV.sct_1,256,0,92bd5ff90dd23b8e
+GDPR.A30.P1,paragraph,30,Records of processing activities,1,,cpt_IV,cpt_IV.sct_1,1194,7,3f642a47ca243ed4
+GDPR.A30.P1.pta,point,30,Records of processing activities,1,(a),cpt_IV,cpt_IV.sct_1,156,0,db5ac062e874d518
+GDPR.A30.P1.ptb,point,30,Records of processing activities,1,(b),cpt_IV,cpt_IV.sct_1,31,0,7832f11882758048
+GDPR.A30.P1.ptc,point,30,Records of processing activities,1,(c),cpt_IV,cpt_IV.sct_1,88,0,75969e9ea6d55afb
+GDPR.A30.P1.ptd,point,30,Records of processing activities,1,(d),cpt_IV,cpt_IV.sct_1,157,0,5c62ed6bc47c0189
+GDPR.A30.P1.pte,point,30,Records of processing activities,1,(e),cpt_IV,cpt_IV.sct_1,307,0,6cf32c30bdc77852
+GDPR.A30.P1.ptf,point,30,Records of processing activities,1,(f),cpt_IV,cpt_IV.sct_1,90,0,8b6a4d0b31e11895
+GDPR.A30.P1.ptg,point,30,Records of processing activities,1,(g),cpt_IV,cpt_IV.sct_1,121,0,4c2578fa2f99425d
+GDPR.A30.P2,paragraph,30,Records of processing activities,2,,cpt_IV,cpt_IV.sct_1,944,4,06cec6741bdee119
+GDPR.A30.P2.pta,point,30,Records of processing activities,2,(a),cpt_IV,cpt_IV.sct_1,237,0,cfa3e517b0616b70
+GDPR.A30.P2.ptb,point,30,Records of processing activities,2,(b),cpt_IV,cpt_IV.sct_1,70,0,a077eced1da7840c
+GDPR.A30.P2.ptc,point,30,Records of processing activities,2,(c),cpt_IV,cpt_IV.sct_1,307,0,6cf32c30bdc77852
+GDPR.A30.P2.ptd,point,30,Records of processing activities,2,(d),cpt_IV,cpt_IV.sct_1,121,0,4c2578fa2f99425d
+GDPR.A30.P3,paragraph,30,Records of processing activities,3,,cpt_IV,cpt_IV.sct_1,100,0,a5351daf277ebbcf
+GDPR.A30.P4,paragraph,30,Records of processing activities,4,,cpt_IV,cpt_IV.sct_1,183,0,56cfa6cebe65a81e
+GDPR.A30.P5,paragraph,30,Records of processing activities,5,,cpt_IV,cpt_IV.sct_1,459,0,fd9ce3841247640b
+GDPR.A31.P0,paragraph,31,Cooperation with the supervisory authority,0,,cpt_IV,cpt_IV.sct_1,172,0,c07a2d48099f46fd
+GDPR.A32.P1,paragraph,32,Security of processing,1,,cpt_IV,cpt_IV.sct_2,919,4,ab18713a98db7049
+GDPR.A32.P1.pta,point,32,Security of processing,1,(a),cpt_IV,cpt_IV.sct_2,53,0,a4b8f3626b1e9418
+GDPR.A32.P1.ptb,point,32,Security of processing,1,(b),cpt_IV,cpt_IV.sct_2,125,0,a3b601b38a57b1ff
+GDPR.A32.P1.ptc,point,32,Security of processing,1,(c),cpt_IV,cpt_IV.sct_2,136,0,e383cea226597f36
+GDPR.A32.P1.ptd,point,32,Security of processing,1,(d),cpt_IV,cpt_IV.sct_2,161,0,77e4377eac12fb4f
+GDPR.A32.P2,paragraph,32,Security of processing,2,,cpt_IV,cpt_IV.sct_2,306,0,44b7fd73da16d26e
+GDPR.A32.P3,paragraph,32,Security of processing,3,,cpt_IV,cpt_IV.sct_2,264,0,642db901947035f4
+GDPR.A32.P4,paragraph,32,Security of processing,4,,cpt_IV,cpt_IV.sct_2,311,0,dc28ff0c6ede9c95
+GDPR.A33.P1,paragraph,33,Notification of a personal data breach to the supervisory authority,1,,cpt_IV,cpt_IV.sct_2,505,0,3d6c2419e7c18dad
+GDPR.A33.P2,paragraph,33,Notification of a personal data breach to the supervisory authority,2,,cpt_IV,cpt_IV.sct_2,113,0,f9bb1169656ba047
+GDPR.A33.P3,paragraph,33,Notification of a personal data breach to the supervisory authority,3,,cpt_IV,cpt_IV.sct_2,680,4,f00027dd96d9cc77
+GDPR.A33.P3.pta,point,33,Notification of a personal data breach to the supervisory authority,3,(a),cpt_IV,cpt_IV.sct_2,216,0,2238231ef4a5ddb0
+GDPR.A33.P3.ptb,point,33,Notification of a personal data breach to the supervisory authority,3,(b),cpt_IV,cpt_IV.sct_2,134,0,584e53422fd831dc
+GDPR.A33.P3.ptc,point,33,Notification of a personal data breach to the supervisory authority,3,(c),cpt_IV,cpt_IV.sct_2,61,0,a809d00f50ccbe62
+GDPR.A33.P3.ptd,point,33,Notification of a personal data breach to the supervisory authority,3,(d),cpt_IV,cpt_IV.sct_2,187,0,cb777ba985e482a7
+GDPR.A33.P4,paragraph,33,Notification of a personal data breach to the supervisory authority,4,,cpt_IV,cpt_IV.sct_2,163,0,786df22b2e1e3345
+GDPR.A33.P5,paragraph,33,Notification of a personal data breach to the supervisory authority,5,,cpt_IV,cpt_IV.sct_2,261,0,c3d2f7c71cd5e899
+GDPR.A34.P1,paragraph,34,Communication of a personal data breach to the data subject,1,,cpt_IV,cpt_IV.sct_2,214,0,ded9eb831089187a
+GDPR.A34.P2,paragraph,34,Communication of a personal data breach to the data subject,2,,cpt_IV,cpt_IV.sct_2,273,0,b7854b13d6c66324
+GDPR.A34.P3,paragraph,34,Communication of a personal data breach to the data subject,3,,cpt_IV,cpt_IV.sct_2,842,3,1304041dff31780f
+GDPR.A34.P3.pta,point,34,Communication of a personal data breach to the data subject,3,(a),cpt_IV,cpt_IV.sct_2,318,0,933dc4a3ee1080ed
+GDPR.A34.P3.ptb,point,34,Communication of a personal data breach to the data subject,3,(b),cpt_IV,cpt_IV.sct_2,183,0,d78b65864920498e
+GDPR.A34.P3.ptc,point,34,Communication of a personal data breach to the data subject,3,(c),cpt_IV,cpt_IV.sct_2,193,0,71d39da898ee8ef0
+GDPR.A34.P4,paragraph,34,Communication of a personal data breach to the data subject,4,,cpt_IV,cpt_IV.sct_2,311,0,7a2444d96176ad7d
+GDPR.A35.P1,paragraph,35,Data protection impact assessment,1,,cpt_IV,cpt_IV.sct_3,497,0,99d01ceb18ff5b0b
+GDPR.A35.P2,paragraph,35,Data protection impact assessment,2,,cpt_IV,cpt_IV.sct_3,145,0,6818d1d36ef9abf9
+GDPR.A35.P3,paragraph,35,Data protection impact assessment,3,,cpt_IV,cpt_IV.sct_3,671,3,56fba989e6204daf
+GDPR.A35.P3.pta,point,35,Data protection impact assessment,3,(a),cpt_IV,cpt_IV.sct_3,290,0,c21101f268b3a20d
+GDPR.A35.P3.ptb,point,35,Data protection impact assessment,3,(b),cpt_IV,cpt_IV.sct_3,182,0,8ab8d9e7f49580bb
+GDPR.A35.P3.ptc,point,35,Data protection impact assessment,3,(c),cpt_IV,cpt_IV.sct_3,71,0,68b23cbc1ef289a7
+GDPR.A35.P4,paragraph,35,Data protection impact assessment,4,,cpt_IV,cpt_IV.sct_3,303,0,07d2a97e2a4f34ea
+GDPR.A35.P5,paragraph,35,Data protection impact assessment,5,,cpt_IV,cpt_IV.sct_3,238,0,9bafb1c31c1f4808
+GDPR.A35.P6,paragraph,35,Data protection impact assessment,6,,cpt_IV,cpt_IV.sct_3,439,0,b4ca5ab8cc88ecba
+GDPR.A35.P7,paragraph,35,Data protection impact assessment,7,,cpt_IV,cpt_IV.sct_3,744,4,845463b99e016738
+GDPR.A35.P7.pta,point,35,Data protection impact assessment,7,(a),cpt_IV,cpt_IV.sct_3,179,0,b1f4d61b09846481
+GDPR.A35.P7.ptb,point,35,Data protection impact assessment,7,(b),cpt_IV,cpt_IV.sct_3,108,0,729b71c708cc67f6
+GDPR.A35.P7.ptc,point,35,Data protection impact assessment,7,(c),cpt_IV,cpt_IV.sct_3,102,0,0a12c4ba07489e33
+GDPR.A35.P7.ptd,point,35,Data protection impact assessment,7,(d),cpt_IV,cpt_IV.sct_3,294,0,6cd365b74818b3c1
+GDPR.A35.P8,paragraph,35,Data protection impact assessment,8,,cpt_IV,cpt_IV.sct_3,314,0,ca150b70e0aa54cf
+GDPR.A35.P9,paragraph,35,Data protection impact assessment,9,,cpt_IV,cpt_IV.sct_3,240,0,270a431e6d0c2245
+GDPR.A35.P10,paragraph,35,Data protection impact assessment,10,,cpt_IV,cpt_IV.sct_3,557,0,a26ae16889b116ca
+GDPR.A35.P11,paragraph,35,Data protection impact assessment,11,,cpt_IV,cpt_IV.sct_3,237,0,0717bf056567fc63
+GDPR.A36.P1,paragraph,36,Prior consultation,1,,cpt_IV,cpt_IV.sct_3,268,0,86febb0ac13ae69f
+GDPR.A36.P2,paragraph,36,Prior consultation,2,,cpt_IV,cpt_IV.sct_3,942,0,a413b79010734a87
+GDPR.A36.P3,paragraph,36,Prior consultation,3,,cpt_IV,cpt_IV.sct_3,716,6,a3533134a6570210
+GDPR.A36.P3.pta,point,36,Prior consultation,3,(a),cpt_IV,cpt_IV.sct_3,190,0,be0506d343b4c508
+GDPR.A36.P3.ptb,point,36,Prior consultation,3,(b),cpt_IV,cpt_IV.sct_3,50,0,4e90c1f9819179db
+GDPR.A36.P3.ptc,point,36,Prior consultation,3,(c),cpt_IV,cpt_IV.sct_3,117,0,7019bb63c6d80e54
+GDPR.A36.P3.ptd,point,36,Prior consultation,3,(d),cpt_IV,cpt_IV.sct_3,69,0,f0f116c98a7fcb8a
+GDPR.A36.P3.pte,point,36,Prior consultation,3,(e),cpt_IV,cpt_IV.sct_3,69,0,6696b0bb7607b696
+GDPR.A36.P3.ptf,point,36,Prior consultation,3,(f),cpt_IV,cpt_IV.sct_3,61,0,6f47ef6a6226acdf
+GDPR.A36.P4,paragraph,36,Prior consultation,4,,cpt_IV,cpt_IV.sct_3,253,0,c3334a15c54be4d5
+GDPR.A36.P5,paragraph,36,Prior consultation,5,,cpt_IV,cpt_IV.sct_3,352,0,aff80df704c7b386
+GDPR.A37.P1,paragraph,37,Designation of the data protection officer,1,,cpt_IV,cpt_IV.sct_4,695,3,2442b0d751030a60
+GDPR.A37.P1.pta,point,37,Designation of the data protection officer,1,(a),cpt_IV,cpt_IV.sct_4,113,0,ac79152fe2f65f77
+GDPR.A37.P1.ptb,point,37,Designation of the data protection officer,1,(b),cpt_IV,cpt_IV.sct_4,236,0,a5cec0a1a812d5df
+GDPR.A37.P1.ptc,point,37,Designation of the data protection officer,1,(c),cpt_IV,cpt_IV.sct_4,235,0,d2b886ad827fd386
+GDPR.A37.P2,paragraph,37,Designation of the data protection officer,2,,cpt_IV,cpt_IV.sct_4,158,0,7ce504c438492995
+GDPR.A37.P3,paragraph,37,Designation of the data protection officer,3,,cpt_IV,cpt_IV.sct_4,222,0,6f7623bc6bad1a2d
+GDPR.A37.P4,paragraph,37,Designation of the data protection officer,4,,cpt_IV,cpt_IV.sct_4,382,0,e9605c029af30f6d
+GDPR.A37.P5,paragraph,37,Designation of the data protection officer,5,,cpt_IV,cpt_IV.sct_4,227,0,5372926981aa8f75
+GDPR.A37.P6,paragraph,37,Designation of the data protection officer,6,,cpt_IV,cpt_IV.sct_4,141,0,9b615c5aa7ca3756
+GDPR.A37.P7,paragraph,37,Designation of the data protection officer,7,,cpt_IV,cpt_IV.sct_4,151,0,cef04b90afcb91da
+GDPR.A38.P1,paragraph,38,Position of the data protection officer,1,,cpt_IV,cpt_IV.sct_4,191,0,89cf418d0fa9a331
+GDPR.A38.P2,paragraph,38,Position of the data protection officer,2,,cpt_IV,cpt_IV.sct_4,282,0,4ceaa5dae44e0192
+GDPR.A38.P3,paragraph,38,Position of the data protection officer,3,,cpt_IV,cpt_IV.sct_4,376,0,f1f8c022d95cfac0
+GDPR.A38.P4,paragraph,38,Position of the data protection officer,4,,cpt_IV,cpt_IV.sct_4,187,0,cb1b94c188f27f7f
+GDPR.A38.P5,paragraph,38,Position of the data protection officer,5,,cpt_IV,cpt_IV.sct_4,170,0,210ced0ce51ee8d0
+GDPR.A38.P6,paragraph,38,Position of the data protection officer,6,,cpt_IV,cpt_IV.sct_4,180,0,4dda37f01cab83ef
+GDPR.A39.P1,paragraph,39,Tasks of the data protection officer,1,,cpt_IV,cpt_IV.sct_4,1049,5,784d5e24a3da7dbb
+GDPR.A39.P1.pta,point,39,Tasks of the data protection officer,1,(a),cpt_IV,cpt_IV.sct_4,207,0,95be6069eff6d399
+GDPR.A39.P1.ptb,point,39,Tasks of the data protection officer,1,(b),cpt_IV,cpt_IV.sct_4,349,0,3698b52c3467951d
+GDPR.A39.P1.ptc,point,39,Tasks of the data protection officer,1,(c),cpt_IV,cpt_IV.sct_4,134,0,7108c1209ec4064b
+GDPR.A39.P1.ptd,point,39,Tasks of the data protection officer,1,(d),cpt_IV,cpt_IV.sct_4,44,0,0f5e53518b87e3a0
+GDPR.A39.P1.pte,point,39,Tasks of the data protection officer,1,(e),cpt_IV,cpt_IV.sct_4,219,0,cf3cfe8cd86c566c
+GDPR.A39.P2,paragraph,39,Tasks of the data protection officer,2,,cpt_IV,cpt_IV.sct_4,218,0,be99d704032a0e2e
+GDPR.A40.P1,paragraph,40,Codes of conduct,1,,cpt_IV,cpt_IV.sct_5,343,0,61794a26bbc2a73e
+GDPR.A40.P2,paragraph,40,Codes of conduct,2,,cpt_IV,cpt_IV.sct_5,1332,11,7fcddbf79fb42f26
+GDPR.A40.P2.pta,point,40,Codes of conduct,2,(a),cpt_IV,cpt_IV.sct_5,32,0,7b86953ed708a875
+GDPR.A40.P2.ptb,point,40,Codes of conduct,2,(b),cpt_IV,cpt_IV.sct_5,69,0,3567dc2a5868e245
+GDPR.A40.P2.ptc,point,40,Codes of conduct,2,(c),cpt_IV,cpt_IV.sct_5,32,0,922b980d6595735c
+GDPR.A40.P2.ptd,point,40,Codes of conduct,2,(d),cpt_IV,cpt_IV.sct_5,38,0,d32d9695a1e5f3b4
+GDPR.A40.P2.pte,point,40,Codes of conduct,2,(e),cpt_IV,cpt_IV.sct_5,60,0,407c2a10f6003980
+GDPR.A40.P2.ptf,point,40,Codes of conduct,2,(f),cpt_IV,cpt_IV.sct_5,44,0,c89a5c0dc46d96a5
+GDPR.A40.P2.ptg,point,40,Codes of conduct,2,(g),cpt_IV,cpt_IV.sct_5,172,0,14efb4001750b6fc
+GDPR.A40.P2.pth,point,40,Codes of conduct,2,(h),cpt_IV,cpt_IV.sct_5,138,0,946c1fcd1306e43a
+GDPR.A40.P2.pti,point,40,Codes of conduct,2,(i),cpt_IV,cpt_IV.sct_5,140,0,49daa521d72c9d98
+GDPR.A40.P2.ptj,point,40,Codes of conduct,2,(j),cpt_IV,cpt_IV.sct_5,83,0,4a88a5a8091348ef
+GDPR.A40.P2.ptk,point,40,Codes of conduct,2,(k),cpt_IV,cpt_IV.sct_5,233,0,607ff6095a69053f
+GDPR.A40.P3,paragraph,40,Codes of conduct,3,,cpt_IV,cpt_IV.sct_5,758,0,ed0733452cf0a219
+GDPR.A40.P4,paragraph,40,Codes of conduct,4,,cpt_IV,cpt_IV.sct_5,383,0,a6e09c3eeceedd2b
+GDPR.A40.P5,paragraph,40,Codes of conduct,5,,cpt_IV,cpt_IV.sct_5,534,0,7bc1d500637ca2dc
+GDPR.A40.P6,paragraph,40,Codes of conduct,6,,cpt_IV,cpt_IV.sct_5,265,0,abdd50b78057818f
+GDPR.A40.P7,paragraph,40,Codes of conduct,7,,cpt_IV,cpt_IV.sct_5,499,0,f6fd67fe8cd87414
+GDPR.A40.P8,paragraph,40,Codes of conduct,8,,cpt_IV,cpt_IV.sct_5,268,0,30c60f5d45bf538e
+GDPR.A40.P9,paragraph,40,Codes of conduct,9,,cpt_IV,cpt_IV.sct_5,325,0,b3c802e657c63e60
+GDPR.A40.P10,paragraph,40,Codes of conduct,10,,cpt_IV,cpt_IV.sct_5,160,0,f6f00327d98a627c
+GDPR.A40.P11,paragraph,40,Codes of conduct,11,,cpt_IV,cpt_IV.sct_5,167,0,832f3c0c1004b7cf
+GDPR.A41.P1,paragraph,41,Monitoring of approved codes of conduct,1,,cpt_IV,cpt_IV.sct_5,379,0,04b49f91c6ffc7f3
+GDPR.A41.P2,paragraph,41,Monitoring of approved codes of conduct,2,,cpt_IV,cpt_IV.sct_5,923,4,088d2404a632f9a6
+GDPR.A41.P2.pta,point,41,Monitoring of approved codes of conduct,2,(a),cpt_IV,cpt_IV.sct_5,149,0,bb7122fb67cf7939
+GDPR.A41.P2.ptb,point,41,Monitoring of approved codes of conduct,2,(b),cpt_IV,cpt_IV.sct_5,212,0,5f5d3a9417c307b0
+GDPR.A41.P2.ptc,point,41,Monitoring of approved codes of conduct,2,(c),cpt_IV,cpt_IV.sct_5,280,0,559a583fdb8abcf9
+GDPR.A41.P2.ptd,point,41,Monitoring of approved codes of conduct,2,(d),cpt_IV,cpt_IV.sct_5,139,0,b70f3ecac8969924
+GDPR.A41.P3,paragraph,41,Monitoring of approved codes of conduct,3,,cpt_IV,cpt_IV.sct_5,227,0,26fa67127b841688
+GDPR.A41.P4,paragraph,41,Monitoring of approved codes of conduct,4,,cpt_IV,cpt_IV.sct_5,497,0,35efe36c455bf16d
+GDPR.A41.P5,paragraph,41,Monitoring of approved codes of conduct,5,,cpt_IV,cpt_IV.sct_5,240,0,c623f2abbbad3095
+GDPR.A41.P6,paragraph,41,Monitoring of approved codes of conduct,6,,cpt_IV,cpt_IV.sct_5,92,0,7c15b487cd1a3a6a
+GDPR.A42.P1,paragraph,42,Certification,1,,cpt_IV,cpt_IV.sct_5,443,0,f3dceb88decd74a6
+GDPR.A42.P2,paragraph,42,Certification,2,,cpt_IV,cpt_IV.sct_5,766,0,78f0320e6ad259eb
+GDPR.A42.P3,paragraph,42,Certification,3,,cpt_IV,cpt_IV.sct_5,89,0,c01c374c9a91d932
+GDPR.A42.P4,paragraph,42,Certification,4,,cpt_IV,cpt_IV.sct_5,280,0,823f945556633e78
+GDPR.A42.P5,paragraph,42,Certification,5,,cpt_IV,cpt_IV.sct_5,421,0,e5c922d24ce5fa1f
+GDPR.A42.P6,paragraph,42,Certification,6,,cpt_IV,cpt_IV.sct_5,334,0,804c855c9aecabf1
+GDPR.A42.P7,paragraph,42,Certification,7,,cpt_IV,cpt_IV.sct_5,417,0,c04d9f5b4ec077d1
+GDPR.A42.P8,paragraph,42,Certification,8,,cpt_IV,cpt_IV.sct_5,171,0,79fb564cf6c80a23
+GDPR.A43.P1,paragraph,43,Certification bodies,1,,cpt_IV,cpt_IV.sct_5,882,2,2bfc5678d335d5dd
+GDPR.A43.P1.pta,point,43,Certification bodies,1,(a),cpt_IV,cpt_IV.sct_5,74,0,29714f780c0af7a3
+GDPR.A43.P1.ptb,point,43,Certification bodies,1,(b),cpt_IV,cpt_IV.sct_5,305,0,f794757d9e566888
+GDPR.A43.P2,paragraph,43,Certification bodies,2,,cpt_IV,cpt_IV.sct_5,1068,5,d5c5a4840c162da0
+GDPR.A43.P2.pta,point,43,Certification bodies,2,(a),cpt_IV,cpt_IV.sct_5,160,0,bcc627811c20187c
+GDPR.A43.P2.ptb,point,43,Certification bodies,2,(b),cpt_IV,cpt_IV.sct_5,193,0,5458043dc5cfb162
+GDPR.A43.P2.ptc,point,43,Certification bodies,2,(c),cpt_IV,cpt_IV.sct_5,121,0,003d2a08128dbf71
+GDPR.A43.P2.ptd,point,43,Certification bodies,2,(d),cpt_IV,cpt_IV.sct_5,300,0,64fe32ea1b32c0cc
+GDPR.A43.P2.pte,point,43,Certification bodies,2,(e),cpt_IV,cpt_IV.sct_5,143,0,fd4e5b59bfd85031
+GDPR.A43.P3,paragraph,43,Certification bodies,3,,cpt_IV,cpt_IV.sct_5,530,0,2a90eb6550f43fd3
+GDPR.A43.P4,paragraph,43,Certification bodies,4,,cpt_IV,cpt_IV.sct_5,475,0,b5f6a9a936c4fc65
+GDPR.A43.P5,paragraph,43,Certification bodies,5,,cpt_IV,cpt_IV.sct_5,181,0,c6136ab57a6a9336
+GDPR.A43.P6,paragraph,43,Certification bodies,6,,cpt_IV,cpt_IV.sct_5,283,0,029b5131d7374cd0
+GDPR.A43.P7,paragraph,43,Certification bodies,7,,cpt_IV,cpt_IV.sct_5,350,0,49fa4485d0198135
+GDPR.A43.P8,paragraph,43,Certification bodies,8,,cpt_IV,cpt_IV.sct_5,242,0,8b36683692492735
+GDPR.A43.P9,paragraph,43,Certification bodies,9,,cpt_IV,cpt_IV.sct_5,349,0,4519a2fc20a48c58
+GDPR.A44.P0,paragraph,44,General principle for transfers,0,,cpt_V,,668,0,d0442716a3b2a06a
+GDPR.A45.P1,paragraph,45,Transfers on the basis of an adequacy decision,1,,cpt_V,,376,0,72e9a97ad73230d9
+GDPR.A45.P2,paragraph,45,Transfers on the basis of an adequacy decision,2,,cpt_V,,1644,3,e28ec79694914dab
+GDPR.A45.P2.pta,point,45,Transfers on the basis of an adequacy decision,2,(a),cpt_V,,734,0,b82cbaf47ede8346
+GDPR.A45.P2.ptb,point,45,Transfers on the basis of an adequacy decision,2,(b),cpt_V,,445,0,9ef09555705149a6
+GDPR.A45.P2.ptc,point,45,Transfers on the basis of an adequacy decision,2,(c),cpt_V,,315,0,99512baf50be0f86
+GDPR.A45.P3,paragraph,45,Transfers on the basis of an adequacy decision,3,,cpt_V,,861,0,53cf951010784fad
+GDPR.A45.P4,paragraph,45,Transfers on the basis of an adequacy decision,4,,cpt_V,,288,0,7f5a8706683a212b
+GDPR.A45.P5,paragraph,45,Transfers on the basis of an adequacy decision,5,,cpt_V,,827,0,623db1d456cd95cc
+GDPR.A45.P6,paragraph,45,Transfers on the basis of an adequacy decision,6,,cpt_V,,199,0,a1480a8ee053a5fd
+GDPR.A45.P7,paragraph,45,Transfers on the basis of an adequacy decision,7,,cpt_V,,276,0,d0e786c72a66d61b
+GDPR.A45.P8,paragraph,45,Transfers on the basis of an adequacy decision,8,,cpt_V,,307,0,67a8d8a10e12c038
+GDPR.A45.P9,paragraph,45,Transfers on the basis of an adequacy decision,9,,cpt_V,,235,0,ceb7088e05041c1a
+GDPR.A46.P1,paragraph,46,Transfers subject to appropriate safeguards,1,,cpt_V,,353,0,adffc0836097a5fd
+GDPR.A46.P2,paragraph,46,Transfers subject to appropriate safeguards,2,,cpt_V,,1098,6,0394d580b2c6885c
+GDPR.A46.P2.pta,point,46,Transfers subject to appropriate safeguards,2,(a),cpt_V,,82,0,13fcd990aa5019c2
+GDPR.A46.P2.ptb,point,46,Transfers subject to appropriate safeguards,2,(b),cpt_V,,54,0,31513335a571d943
+GDPR.A46.P2.ptc,point,46,Transfers subject to appropriate safeguards,2,(c),cpt_V,,133,0,e795855a4d3cb07b
+GDPR.A46.P2.ptd,point,46,Transfers subject to appropriate safeguards,2,(d),cpt_V,,166,0,33e39ff12a2ddaf6
+GDPR.A46.P2.pte,point,46,Transfers subject to appropriate safeguards,2,(e),cpt_V,,236,0,10f8b50ae41ea312
+GDPR.A46.P2.ptf,point,46,Transfers subject to appropriate safeguards,2,(f),cpt_V,,241,0,5b2c26f833f97203
+GDPR.A46.P3,paragraph,46,Transfers subject to appropriate safeguards,3,,cpt_V,,516,2,8ca192aa9594207b
+GDPR.A46.P3.pta,point,46,Transfers subject to appropriate safeguards,3,(a),cpt_V,,178,0,f680fa266d137305
+GDPR.A46.P3.ptb,point,46,Transfers subject to appropriate safeguards,3,(b),cpt_V,,156,0,48e7c81541061b72
+GDPR.A46.P4,paragraph,46,Transfers subject to appropriate safeguards,4,,cpt_V,,150,0,a138a2806fe09583
+GDPR.A46.P5,paragraph,46,Transfers subject to appropriate safeguards,5,,cpt_V,,456,0,9ffaa48fc31254d7
+GDPR.A47.P1,paragraph,47,Binding corporate rules,1,,cpt_V,,532,3,1f794e98b6e50caf
+GDPR.A47.P1.pta,point,47,Binding corporate rules,1,(a),cpt_V,,194,0,8ca4ba94703176ef
+GDPR.A47.P1.ptb,point,47,Binding corporate rules,1,(b),cpt_V,,110,0,d26f595c9d7b2d5b
+GDPR.A47.P1.ptc,point,47,Binding corporate rules,1,(c),cpt_V,,49,0,15278c4f06b9fedf
+GDPR.A47.P2,paragraph,47,Binding corporate rules,2,,cpt_V,,3991,14,00635ac5cadee201
+GDPR.A47.P2.pta,point,47,Binding corporate rules,2,(a),cpt_V,,152,0,1129798556339478
+GDPR.A47.P2.ptb,point,47,Binding corporate rules,2,(b),cpt_V,,228,0,b8a9417addb1687d
+GDPR.A47.P2.ptc,point,47,Binding corporate rules,2,(c),cpt_V,,61,0,68e3690643e4f85f
+GDPR.A47.P2.ptd,point,47,Binding corporate rules,2,(d),cpt_V,,409,0,53a7e07455d8da7b
+GDPR.A47.P2.pte,point,47,Binding corporate rules,2,(e),cpt_V,,491,0,16019cd5ab2827ba
+GDPR.A47.P2.ptf,point,47,Binding corporate rules,2,(f),cpt_V,,392,0,be502b9e00870f65
+GDPR.A47.P2.ptg,point,47,Binding corporate rules,2,(g),cpt_V,,208,0,261005909bf86e75
+GDPR.A47.P2.pth,point,47,Binding corporate rules,2,(h),cpt_V,,334,0,a4ceee128e0faebc
+GDPR.A47.P2.pti,point,47,Binding corporate rules,2,(i),cpt_V,,25,0,58e10a545ad309d7
+GDPR.A47.P2.ptj,point,47,Binding corporate rules,2,(j),cpt_V,,650,0,2b4839f8f0ab7cd7
+GDPR.A47.P2.ptk,point,47,Binding corporate rules,2,(k),cpt_V,,121,0,1e00d5c6b6b81800
+GDPR.A47.P2.ptl,point,47,Binding corporate rules,2,(l),cpt_V,,317,0,b6e34f92c0bb6a65
+GDPR.A47.P2.ptm,point,47,Binding corporate rules,2,(m),cpt_V,,346,0,04e53dc83e4da7c3
+GDPR.A47.P2.ptn,point,47,Binding corporate rules,2,(n),cpt_V,,106,0,37c65a8283c51248
+GDPR.A47.P3,paragraph,47,Binding corporate rules,3,,cpt_V,,324,0,27c7aee46ac26911
+GDPR.A48.P0,paragraph,48,Transfers or disclosures not authorised by Union law,0,,cpt_V,,464,0,46c414936e640cfe
+GDPR.A49.P1,paragraph,49,Derogations for specific situations,1,,cpt_V,,2729,7,f349ca0107fe7a29
+GDPR.A49.P1.pta,point,49,Derogations for specific situations,1,(a),cpt_V,,226,0,8c193f03cca55c15
+GDPR.A49.P1.ptb,point,49,Derogations for specific situations,1,(b),cpt_V,,190,0,5603d3129d81f836
+GDPR.A49.P1.ptc,point,49,Derogations for specific situations,1,(c),cpt_V,,179,0,a7d8016d2a05d66f
+GDPR.A49.P1.ptd,point,49,Derogations for specific situations,1,(d),cpt_V,,67,0,646f9c42a3126fd1
+GDPR.A49.P1.pte,point,49,Derogations for specific situations,1,(e),cpt_V,,85,0,a5205abbd4ddc029
+GDPR.A49.P1.ptf,point,49,Derogations for specific situations,1,(f),cpt_V,,183,0,bc32581012ba169b
+GDPR.A49.P1.ptg,point,49,Derogations for specific situations,1,(g),cpt_V,,393,0,293879aa95356165
+GDPR.A49.P2,paragraph,49,Derogations for specific situations,2,,cpt_V,,388,0,94e63cc05ee3659a
+GDPR.A49.P3,paragraph,49,Derogations for specific situations,3,,cpt_V,,208,0,63d75f3a1a3b7828
+GDPR.A49.P4,paragraph,49,Derogations for specific situations,4,,cpt_V,,192,0,a83bd362d5963405
+GDPR.A49.P5,paragraph,49,Derogations for specific situations,5,,cpt_V,,308,0,4b3d785c3489bf4c
+GDPR.A49.P6,paragraph,49,Derogations for specific situations,6,,cpt_V,,208,0,c8fec371c12f77c0
+GDPR.A50.P0,paragraph,50,International cooperation for the protection of personal data,0,,cpt_V,,947,4,83af70b34e535c6e
+GDPR.A50.P0.pta,point,50,International cooperation for the protection of personal data,0,(a),cpt_V,,136,0,cbfee67dbeecc7be
+GDPR.A50.P0.ptb,point,50,International cooperation for the protection of personal data,0,(b),cpt_V,,326,0,79da641d1ab04651
+GDPR.A50.P0.ptc,point,50,International cooperation for the protection of personal data,0,(c),cpt_V,,174,0,a53584df3795a899
+GDPR.A50.P0.ptd,point,50,International cooperation for the protection of personal data,0,(d),cpt_V,,152,0,1cfbbd9348b7fa09
+GDPR.A51.P1,paragraph,51,Supervisory authority,1,,cpt_VI,cpt_VI.sct_1,345,0,958b588fffdb928d
+GDPR.A51.P2,paragraph,51,Supervisory authority,2,,cpt_VI,cpt_VI.sct_1,247,0,50485483759e20db
+GDPR.A51.P3,paragraph,51,Supervisory authority,3,,cpt_VI,cpt_VI.sct_1,350,0,6a1e52b5e878612d
+GDPR.A51.P4,paragraph,51,Supervisory authority,4,,cpt_VI,cpt_VI.sct_1,196,0,011d40fecca408fd
+GDPR.A52.P1,paragraph,52,Independence,1,,cpt_VI,cpt_VI.sct_1,153,0,adef8c9a58c6c19f
+GDPR.A52.P2,paragraph,52,Independence,2,,cpt_VI,cpt_VI.sct_1,285,0,e5c6e9d6c64e7e64
+GDPR.A52.P3,paragraph,52,Independence,3,,cpt_VI,cpt_VI.sct_1,219,0,426542a47eb3c83b
+GDPR.A52.P4,paragraph,52,Independence,4,,cpt_VI,cpt_VI.sct_1,353,0,5c5c9dad91377c28
+GDPR.A52.P5,paragraph,52,Independence,5,,cpt_VI,cpt_VI.sct_1,211,0,186a90c0825e479a
+GDPR.A52.P6,paragraph,52,Independence,6,,cpt_VI,cpt_VI.sct_1,245,0,8e4a7af34b501db1
+GDPR.A53.P1,paragraph,53,General conditions for the members of the supervisory authority,1,,cpt_VI,cpt_VI.sct_1,278,4,2960bf7884f96b40
+GDPR.A53.P1.pt—,point,53,General conditions for the members of the supervisory authority,1,—,cpt_VI,cpt_VI.sct_1,17,0,0256a48586ee7d1a
+GDPR.A53.P1.pt—,point,53,General conditions for the members of the supervisory authority,1,—,cpt_VI,cpt_VI.sct_1,17,0,8fc8143a8d31ea3b
+GDPR.A53.P1.pt—,point,53,General conditions for the members of the supervisory authority,1,—,cpt_VI,cpt_VI.sct_1,23,0,e871220ca7558abe
+GDPR.A53.P1.pt—,point,53,General conditions for the members of the supervisory authority,1,—,cpt_VI,cpt_VI.sct_1,74,0,cb508cdecf7abe7b
+GDPR.A53.P2,paragraph,53,General conditions for the members of the supervisory authority,2,,cpt_VI,cpt_VI.sct_1,187,0,7f61e8ac35da0500
+GDPR.A53.P3,paragraph,53,General conditions for the members of the supervisory authority,3,,cpt_VI,cpt_VI.sct_1,182,0,575ca2f0277263b9
+GDPR.A53.P4,paragraph,53,General conditions for the members of the supervisory authority,4,,cpt_VI,cpt_VI.sct_1,161,0,db76a12119031914
+GDPR.A54.P1,paragraph,54,Rules on the establishment of the supervisory authority,1,,cpt_VI,cpt_VI.sct_1,1078,6,be5ff095d0c64dda
+GDPR.A54.P1.pta,point,54,Rules on the establishment of the supervisory authority,1,(a),cpt_VI,cpt_VI.sct_1,48,0,89ec1769974c2097
+GDPR.A54.P1.ptb,point,54,Rules on the establishment of the supervisory authority,1,(b),cpt_VI,cpt_VI.sct_1,111,0,3c16d48e9d11105d
+GDPR.A54.P1.ptc,point,54,Rules on the establishment of the supervisory authority,1,(c),cpt_VI,cpt_VI.sct_1,100,0,e6b8f655700a67f6
+GDPR.A54.P1.ptd,point,54,Rules on the establishment of the supervisory authority,1,(d),cpt_VI,cpt_VI.sct_1,337,0,23780050e8e9fc1c
+GDPR.A54.P1.pte,point,54,Rules on the establishment of the supervisory authority,1,(e),cpt_VI,cpt_VI.sct_1,121,0,0e6b292c8b8d92cf
+GDPR.A54.P1.ptf,point,54,Rules on the establishment of the supervisory authority,1,(f),cpt_VI,cpt_VI.sct_1,264,0,e77269f721a87688
+GDPR.A54.P2,paragraph,54,Rules on the establishment of the supervisory authority,2,,cpt_VI,cpt_VI.sct_1,524,0,e150e04e2b69f382
+GDPR.A55.P1,paragraph,55,Competence,1,,cpt_VI,cpt_VI.sct_2,218,0,253c0d14cba45dcd
+GDPR.A55.P2,paragraph,55,Competence,2,,cpt_VI,cpt_VI.sct_2,249,0,f32e2b6429d9bc8c
+GDPR.A55.P3,paragraph,55,Competence,3,,cpt_VI,cpt_VI.sct_2,130,0,30a74113716363ed
+GDPR.A56.P1,paragraph,56,Competence of the lead supervisory authority,1,,cpt_VI,cpt_VI.sct_2,339,0,301d3e1e8e30d3e1
+GDPR.A56.P2,paragraph,56,Competence of the lead supervisory authority,2,,cpt_VI,cpt_VI.sct_2,305,0,52a4543119426652
+GDPR.A56.P3,paragraph,56,Competence of the lead supervisory authority,3,,cpt_VI,cpt_VI.sct_2,512,0,20519bc9676fa4e0
+GDPR.A56.P4,paragraph,56,Competence of the lead supervisory authority,4,,cpt_VI,cpt_VI.sct_2,394,0,516792df34097677
+GDPR.A56.P5,paragraph,56,Competence of the lead supervisory authority,5,,cpt_VI,cpt_VI.sct_2,193,0,4a68da6f97df84eb
+GDPR.A56.P6,paragraph,56,Competence of the lead supervisory authority,6,,cpt_VI,cpt_VI.sct_2,173,0,bda1e4d06f915846
+GDPR.A57.P1,paragraph,57,Tasks,1,,cpt_VI,cpt_VI.sct_2,3476,22,a5019497e9360c6b
+GDPR.A57.P1.pta,point,57,Tasks,1,(a),cpt_VI,cpt_VI.sct_2,55,0,0f6e0e1b54969ed9
+GDPR.A57.P1.ptb,point,57,Tasks,1,(b),cpt_VI,cpt_VI.sct_2,192,0,518b4f8db6cdb53c
+GDPR.A57.P1.ptc,point,57,Tasks,1,(c),cpt_VI,cpt_VI.sct_2,256,0,9113f5f3f632c110
+GDPR.A57.P1.ptd,point,57,Tasks,1,(d),cpt_VI,cpt_VI.sct_2,95,0,0a6d97a9b7703afe
+GDPR.A57.P1.pte,point,57,Tasks,1,(e),cpt_VI,cpt_VI.sct_2,215,0,4c5610e417bbd239
+GDPR.A57.P1.ptf,point,57,Tasks,1,(f),cpt_VI,cpt_VI.sct_2,408,0,902d42103f3b8736
+GDPR.A57.P1.ptg,point,57,Tasks,1,(g),cpt_VI,cpt_VI.sct_2,200,0,a78985df60dc052b
+GDPR.A57.P1.pth,point,57,Tasks,1,(h),cpt_VI,cpt_VI.sct_2,170,0,3c35dfd5c397e948
+GDPR.A57.P1.pti,point,57,Tasks,1,(i),cpt_VI,cpt_VI.sct_2,199,0,805c124d1fbc749c
+GDPR.A57.P1.ptj,point,57,Tasks,1,(j),cpt_VI,cpt_VI.sct_2,98,0,7cdbee8d9572464e
+GDPR.A57.P1.ptk,point,57,Tasks,1,(k),cpt_VI,cpt_VI.sct_2,125,0,ef40f4a8235521a6
+GDPR.A57.P1.ptl,point,57,Tasks,1,(l),cpt_VI,cpt_VI.sct_2,70,0,fb170ee4cd66eefb
+GDPR.A57.P1.ptm,point,57,Tasks,1,(m),cpt_VI,cpt_VI.sct_2,191,0,dbbba1881da13881
+GDPR.A57.P1.ptn,point,57,Tasks,1,(n),cpt_VI,cpt_VI.sct_2,206,0,abd329342d5a617b
+GDPR.A57.P1.pto,point,57,Tasks,1,(o),cpt_VI,cpt_VI.sct_2,104,0,f89d66e8b68cde64
+GDPR.A57.P1.ptp,point,57,Tasks,1,(p),cpt_VI,cpt_VI.sct_2,169,0,4c7fb90ff1c0c4e2
+GDPR.A57.P1.ptq,point,57,Tasks,1,(q),cpt_VI,cpt_VI.sct_2,142,0,dbe4393dd6a0b420
+GDPR.A57.P1.ptr,point,57,Tasks,1,(r),cpt_VI,cpt_VI.sct_2,74,0,c428201045f06233
+GDPR.A57.P1.pts,point,57,Tasks,1,(s),cpt_VI,cpt_VI.sct_2,55,0,a3604f5c8b9df2a4
+GDPR.A57.P1.ptt,point,57,Tasks,1,(t),cpt_VI,cpt_VI.sct_2,42,0,c041ac1cd17730ba
+GDPR.A57.P1.ptu,point,57,Tasks,1,(u),cpt_VI,cpt_VI.sct_2,117,0,90dda296bed7875a
+GDPR.A57.P1.ptv,point,57,Tasks,1,(v),cpt_VI,cpt_VI.sct_2,66,0,bdde45a868e56752
+GDPR.A57.P2,paragraph,57,Tasks,2,,cpt_VI,cpt_VI.sct_2,256,0,e97d8e8895877c06
+GDPR.A57.P3,paragraph,57,Tasks,3,,cpt_VI,cpt_VI.sct_2,163,0,c07ce2a71445232b
+GDPR.A57.P4,paragraph,57,Tasks,4,,cpt_VI,cpt_VI.sct_2,357,0,0443ace2bf4c088d
+GDPR.A58.P1,paragraph,58,Powers,1,,cpt_VI,cpt_VI.sct_2,853,6,21b81a28ab0da901
+GDPR.A58.P1.pta,point,58,Powers,1,(a),cpt_VI,cpt_VI.sct_2,189,0,f7250e454049c967
+GDPR.A58.P1.ptb,point,58,Powers,1,(b),cpt_VI,cpt_VI.sct_2,66,0,55a49cf768cbba2a
+GDPR.A58.P1.ptc,point,58,Powers,1,(c),cpt_VI,cpt_VI.sct_2,73,0,97ff54e5c079a1e7
+GDPR.A58.P1.ptd,point,58,Powers,1,(d),cpt_VI,cpt_VI.sct_2,88,0,9b9a398b25ae3137
+GDPR.A58.P1.pte,point,58,Powers,1,(e),cpt_VI,cpt_VI.sct_2,144,0,17143019dc2b7de7
+GDPR.A58.P1.ptf,point,58,Powers,1,(f),cpt_VI,cpt_VI.sct_2,180,0,e38fd275e12af5b0
+GDPR.A58.P2,paragraph,58,Powers,2,,cpt_VI,cpt_VI.sct_2,1696,10,e78deeb7f4edd7c7
+GDPR.A58.P2.pta,point,58,Powers,2,(a),cpt_VI,cpt_VI.sct_2,136,0,065c1bd17b89a890
+GDPR.A58.P2.ptb,point,58,Powers,2,(b),cpt_VI,cpt_VI.sct_2,124,0,abfb7ea1313df877
+GDPR.A58.P2.ptc,point,58,Powers,2,(c),cpt_VI,cpt_VI.sct_2,142,0,42d2ac5075eae180
+GDPR.A58.P2.ptd,point,58,Powers,2,(d),cpt_VI,cpt_VI.sct_2,195,0,8e786247666b47ae
+GDPR.A58.P2.pte,point,58,Powers,2,(e),cpt_VI,cpt_VI.sct_2,82,0,f51641faa665ea2e
+GDPR.A58.P2.ptf,point,58,Powers,2,(f),cpt_VI,cpt_VI.sct_2,77,0,74d67b9337605d43
+GDPR.A58.P2.ptg,point,58,Powers,2,(g),cpt_VI,cpt_VI.sct_2,257,0,7f52babe98409590
+GDPR.A58.P2.pth,point,58,Powers,2,(h),cpt_VI,cpt_VI.sct_2,263,0,9b5b7412ec3f6d54
+GDPR.A58.P2.pti,point,58,Powers,2,(i),cpt_VI,cpt_VI.sct_2,182,0,c7001328459e5c1a
+GDPR.A58.P2.ptj,point,58,Powers,2,(j),cpt_VI,cpt_VI.sct_2,108,0,4ad38092c92e4d51
+GDPR.A58.P3,paragraph,58,Powers,3,,cpt_VI,cpt_VI.sct_2,1188,10,94b220d7acee9242
+GDPR.A58.P3.pta,point,58,Powers,3,(a),cpt_VI,cpt_VI.sct_2,103,0,34993c01d1bbe87c
+GDPR.A58.P3.ptb,point,58,Powers,3,(b),cpt_VI,cpt_VI.sct_2,267,0,0161f6c57b550ab1
+GDPR.A58.P3.ptc,point,58,Powers,3,(c),cpt_VI,cpt_VI.sct_2,119,0,3d0f723f1bf9b3df
+GDPR.A58.P3.ptd,point,58,Powers,3,(d),cpt_VI,cpt_VI.sct_2,81,0,2a8afffde8916722
+GDPR.A58.P3.pte,point,58,Powers,3,(e),cpt_VI,cpt_VI.sct_2,56,0,13852dfba1980ec1
+GDPR.A58.P3.ptf,point,58,Powers,3,(f),cpt_VI,cpt_VI.sct_2,95,0,3831377a3152f68a
+GDPR.A58.P3.ptg,point,58,Powers,3,(g),cpt_VI,cpt_VI.sct_2,105,0,469ad29ebbd64161
+GDPR.A58.P3.pth,point,58,Powers,3,(h),cpt_VI,cpt_VI.sct_2,75,0,743e1d630be7b02c
+GDPR.A58.P3.pti,point,58,Powers,3,(i),cpt_VI,cpt_VI.sct_2,83,0,28094a5723ded859
+GDPR.A58.P3.ptj,point,58,Powers,3,(j),cpt_VI,cpt_VI.sct_2,58,0,9c21ce061275b47a
+GDPR.A58.P4,paragraph,58,Powers,4,,cpt_VI,cpt_VI.sct_2,261,0,be87c8d5f08bda3e
+GDPR.A58.P5,paragraph,58,Powers,5,,cpt_VI,cpt_VI.sct_2,313,0,9056b42fec8df921
+GDPR.A58.P6,paragraph,58,Powers,6,,cpt_VI,cpt_VI.sct_2,233,0,ad3edfbda7a8e86d
+GDPR.A59.P0,paragraph,59,Activity reports,0,,cpt_VI,cpt_VI.sct_2,413,0,8cfa9bf19b447f64
+GDPR.A60.P1,paragraph,60,Cooperation between the lead supervisory authority and the other supervisory authorities concerned,1,,cpt_VII,cpt_VII.sct_1,297,0,6c68ba29554c8312
+GDPR.A60.P2,paragraph,60,Cooperation between the lead supervisory authority and the other supervisory authorities concerned,2,,cpt_VII,cpt_VII.sct_1,377,0,3fffc5ce7b8dc795
+GDPR.A60.P3,paragraph,60,Cooperation between the lead supervisory authority and the other supervisory authorities concerned,3,,cpt_VII,cpt_VII.sct_1,304,0,aa1d6a4a9d3ae8d4
+GDPR.A60.P4,paragraph,60,Cooperation between the lead supervisory authority and the other supervisory authorities concerned,4,,cpt_VII,cpt_VII.sct_1,472,0,e50f1ea197f5b352
+GDPR.A60.P5,paragraph,60,Cooperation between the lead supervisory authority and the other supervisory authorities concerned,5,,cpt_VII,cpt_VII.sct_1,326,0,add540d220ebb750
+GDPR.A60.P6,paragraph,60,Cooperation between the lead supervisory authority and the other supervisory authorities concerned,6,,cpt_VII,cpt_VII.sct_1,352,0,70c977c4a86c36c5
+GDPR.A60.P7,paragraph,60,Cooperation between the lead supervisory authority and the other supervisory authorities concerned,7,,cpt_VII,cpt_VII.sct_1,435,0,01ffd88f307e5647
+GDPR.A60.P8,paragraph,60,Cooperation between the lead supervisory authority and the other supervisory authorities concerned,8,,cpt_VII,cpt_VII.sct_1,240,0,18dd81bb613c60b4
+GDPR.A60.P9,paragraph,60,Cooperation between the lead supervisory authority and the other supervisory authorities concerned,9,,cpt_VII,cpt_VII.sct_1,782,0,366821c8bd5a4bc3
+GDPR.A60.P10,paragraph,60,Cooperation between the lead supervisory authority and the other supervisory authorities concerned,10,,cpt_VII,cpt_VII.sct_1,487,0,7f0bb2b514eb846b
+GDPR.A60.P11,paragraph,60,Cooperation between the lead supervisory authority and the other supervisory authorities concerned,11,,cpt_VII,cpt_VII.sct_1,248,0,cc135d93178a4d03
+GDPR.A60.P12,paragraph,60,Cooperation between the lead supervisory authority and the other supervisory authorities concerned,12,,cpt_VII,cpt_VII.sct_1,204,0,ab56d564d97d263c
+GDPR.A61.P1,paragraph,61,Mutual assistance,1,,cpt_VII,cpt_VII.sct_1,443,0,aa2f7dc010c7017a
+GDPR.A61.P2,paragraph,61,Mutual assistance,2,,cpt_VII,cpt_VII.sct_1,326,0,111a29a39bdf89e6
+GDPR.A61.P3,paragraph,61,Mutual assistance,3,,cpt_VII,cpt_VII.sct_1,211,0,391fe8f1367e16f2
+GDPR.A61.P4,paragraph,61,Mutual assistance,4,,cpt_VII,cpt_VII.sct_1,364,2,b2affea59d3dd3b4
+GDPR.A61.P4.pta,point,61,Mutual assistance,4,(a),cpt_VII,cpt_VII.sct_1,108,0,483638c7651fb9f2
+GDPR.A61.P4.ptb,point,61,Mutual assistance,4,(b),cpt_VII,cpt_VII.sct_1,156,0,b1e1a0374a4278a8
+GDPR.A61.P5,paragraph,61,Mutual assistance,5,,cpt_VII,cpt_VII.sct_1,326,0,e56b41be5a99a26a
+GDPR.A61.P6,paragraph,61,Mutual assistance,6,,cpt_VII,cpt_VII.sct_1,171,0,479976daa5317eae
+GDPR.A61.P7,paragraph,61,Mutual assistance,7,,cpt_VII,cpt_VII.sct_1,304,0,23abcd04660e69ea
+GDPR.A61.P8,paragraph,61,Mutual assistance,8,,cpt_VII,cpt_VII.sct_1,491,0,ff70578a1ec46b45
+GDPR.A61.P9,paragraph,61,Mutual assistance,9,,cpt_VII,cpt_VII.sct_1,493,0,0b9c3cc705a4ca3d
+GDPR.A62.P1,paragraph,62,Joint operations of supervisory authorities,1,,cpt_VII,cpt_VII.sct_1,238,0,40e9ece48a67dc70
+GDPR.A62.P2,paragraph,62,Joint operations of supervisory authorities,2,,cpt_VII,cpt_VII.sct_1,611,0,de5f495dc5108dea
+GDPR.A62.P3,paragraph,62,Joint operations of supervisory authorities,3,,cpt_VII,cpt_VII.sct_1,812,0,2f01b3d1a7aedfaa
+GDPR.A62.P4,paragraph,62,Joint operations of supervisory authorities,4,,cpt_VII,cpt_VII.sct_1,378,0,305a7f298eaeb5aa
+GDPR.A62.P5,paragraph,62,Joint operations of supervisory authorities,5,,cpt_VII,cpt_VII.sct_1,407,0,6d3045bb9bd92430
+GDPR.A62.P6,paragraph,62,Joint operations of supervisory authorities,6,,cpt_VII,cpt_VII.sct_1,294,0,c3d640e3362cc992
+GDPR.A62.P7,paragraph,62,Joint operations of supervisory authorities,7,,cpt_VII,cpt_VII.sct_1,501,0,4d0e42733f60691f
+GDPR.A63.P0,paragraph,63,Consistency mechanism,0,,cpt_VII,cpt_VII.sct_2,258,0,b945c08a14165e7c
+GDPR.A64.P1,paragraph,64,Opinion of the Board,1,,cpt_VII,cpt_VII.sct_2,1028,6,6745a7c29f9e010e
+GDPR.A64.P1.pta,point,64,Opinion of the Board,1,(a),cpt_VII,cpt_VII.sct_2,143,0,2c301fd9e502d009
+GDPR.A64.P1.ptb,point,64,Opinion of the Board,1,(b),cpt_VII,cpt_VII.sct_2,156,0,33525ac1e85c8660
+GDPR.A64.P1.ptc,point,64,Opinion of the Board,1,(c),cpt_VII,cpt_VII.sct_2,201,0,0204c6a3e3f8aea5
+GDPR.A64.P1.ptd,point,64,Opinion of the Board,1,(d),cpt_VII,cpt_VII.sct_2,114,0,844989d465d66ce3
+GDPR.A64.P1.pte,point,64,Opinion of the Board,1,(e),cpt_VII,cpt_VII.sct_2,83,0,b7d13fd775999ec9
+GDPR.A64.P1.ptf,point,64,Opinion of the Board,1,(f),cpt_VII,cpt_VII.sct_2,73,0,d9bee3aac62b168c
+GDPR.A64.P2,paragraph,64,Opinion of the Board,2,,cpt_VII,cpt_VII.sct_2,433,0,e3727c0b51780711
+GDPR.A64.P3,paragraph,64,Opinion of the Board,3,,cpt_VII,cpt_VII.sct_2,662,0,5a1f443cdef63540
+GDPR.A64.P4,paragraph,64,Opinion of the Board,4,,cpt_VII,cpt_VII.sct_2,369,0,77272cc195f3a34a
+GDPR.A64.P5,paragraph,64,Opinion of the Board,5,,cpt_VII,cpt_VII.sct_2,463,2,831b414520d73e12
+GDPR.A64.P5.pta,point,64,Opinion of the Board,5,(a),cpt_VII,cpt_VII.sct_2,237,0,dd0348eb2e6764bc
+GDPR.A64.P5.ptb,point,64,Opinion of the Board,5,(b),cpt_VII,cpt_VII.sct_2,135,0,0c679e9dde86e21b
+GDPR.A64.P6,paragraph,64,Opinion of the Board,6,,cpt_VII,cpt_VII.sct_2,174,0,e336554b3e3a11f5
+GDPR.A64.P7,paragraph,64,Opinion of the Board,7,,cpt_VII,cpt_VII.sct_2,358,0,b07c5cb01c470d21
+GDPR.A64.P8,paragraph,64,Opinion of the Board,8,,cpt_VII,cpt_VII.sct_2,304,0,a5c42c46c19af674
+GDPR.A65.P1,paragraph,65,Dispute resolution by the Board,1,,cpt_VII,cpt_VII.sct_2,1100,3,9e7805c9b3222972
+GDPR.A65.P1.pta,point,65,Dispute resolution by the Board,1,(a),cpt_VII,cpt_VII.sct_2,494,0,5f8681e5b6b25d35
+GDPR.A65.P1.ptb,point,65,Dispute resolution by the Board,1,(b),cpt_VII,cpt_VII.sct_2,124,0,6d714f38cbf41199
+GDPR.A65.P1.ptc,point,65,Dispute resolution by the Board,1,(c),cpt_VII,cpt_VII.sct_2,302,0,72c926b032e19b03
+GDPR.A65.P2,paragraph,65,Dispute resolution by the Board,2,,cpt_VII,cpt_VII.sct_2,443,0,8406bb36a96e8e37
+GDPR.A65.P3,paragraph,65,Dispute resolution by the Board,3,,cpt_VII,cpt_VII.sct_2,367,0,8ceefe8c41e3d904
+GDPR.A65.P4,paragraph,65,Dispute resolution by the Board,4,,cpt_VII,cpt_VII.sct_2,185,0,e37a22d6f40cf8ae
+GDPR.A65.P5,paragraph,65,Dispute resolution by the Board,5,,cpt_VII,cpt_VII.sct_2,349,0,346375e2a2bf131f
+GDPR.A65.P6,paragraph,65,Dispute resolution by the Board,6,,cpt_VII,cpt_VII.sct_2,1053,0,5de0859fa3f4b71c
+GDPR.A66.P1,paragraph,66,Urgency procedure,1,,cpt_VII,cpt_VII.sct_2,683,0,ef457799c9298270
+GDPR.A66.P2,paragraph,66,Urgency procedure,2,,cpt_VII,cpt_VII.sct_2,272,0,0b59a28cb7cef9ea
+GDPR.A66.P3,paragraph,66,Urgency procedure,3,,cpt_VII,cpt_VII.sct_2,411,0,2cdd6f5f621aa329
+GDPR.A66.P4,paragraph,66,Urgency procedure,4,,cpt_VII,cpt_VII.sct_2,235,0,4ee985f09f7f74fc
+GDPR.A67.P0,paragraph,67,Exchange of information,0,,cpt_VII,cpt_VII.sct_2,414,0,f94f1c62f338be56
+GDPR.A68.P1,paragraph,68,European Data Protection Board,1,,cpt_VII,cpt_VII.sct_3,131,0,332573c806c753ef
+GDPR.A68.P2,paragraph,68,European Data Protection Board,2,,cpt_VII,cpt_VII.sct_3,48,0,13a7a606a241f436
+GDPR.A68.P3,paragraph,68,European Data Protection Board,3,,cpt_VII,cpt_VII.sct_3,178,0,b66298112555af7e
+GDPR.A68.P4,paragraph,68,European Data Protection Board,4,,cpt_VII,cpt_VII.sct_3,242,0,0ab9a03c5024305b
+GDPR.A68.P5,paragraph,68,European Data Protection Board,5,,cpt_VII,cpt_VII.sct_3,257,0,c3d11e63b95c6e30
+GDPR.A68.P6,paragraph,68,European Data Protection Board,6,,cpt_VII,cpt_VII.sct_3,287,0,2e61b08d8c9a0b52
+GDPR.A69.P1,paragraph,69,Independence,1,,cpt_VII,cpt_VII.sct_3,120,0,d22b73d5da086942
+GDPR.A69.P2,paragraph,69,Independence,2,,cpt_VII,cpt_VII.sct_3,218,0,71602273bcd1d428
+GDPR.A70.P1,paragraph,70,Tasks of the Board,1,,cpt_VII,cpt_VII.sct_3,5735,25,27b58120b2f2f88f
+GDPR.A70.P1.pta,point,70,Tasks of the Board,1,(a),cpt_VII,cpt_VII.sct_3,177,0,f537ad2fe969f61f
+GDPR.A70.P1.ptb,point,70,Tasks of the Board,1,(b),cpt_VII,cpt_VII.sct_3,147,0,b3174f2eda1a26ec
+GDPR.A70.P1.ptc,point,70,Tasks of the Board,1,(c),cpt_VII,cpt_VII.sct_3,171,0,ae7d81bb8d4ee07c
+GDPR.A70.P1.ptd,point,70,Tasks of the Board,1,(d),cpt_VII,cpt_VII.sct_3,206,0,3762d9a66d8b751f
+GDPR.A70.P1.pte,point,70,Tasks of the Board,1,(e),cpt_VII,cpt_VII.sct_3,276,0,be42bd54841439be
+GDPR.A70.P1.ptf,point,70,Tasks of the Board,1,(f),cpt_VII,cpt_VII.sct_3,210,0,567181ef63944537
+GDPR.A70.P1.ptg,point,70,Tasks of the Board,1,(g),cpt_VII,cpt_VII.sct_3,334,0,985272eeb02dd29a
+GDPR.A70.P1.pth,point,70,Tasks of the Board,1,(h),cpt_VII,cpt_VII.sct_3,270,0,8606e7ed95ce0af6
+GDPR.A70.P1.pti,point,70,Tasks of the Board,1,(i),cpt_VII,cpt_VII.sct_3,445,0,4ed2a786e49fcc76
+GDPR.A70.P1.ptj,point,70,Tasks of the Board,1,(j),cpt_VII,cpt_VII.sct_3,230,0,36f358b52577dee6
+GDPR.A70.P1.ptk,point,70,Tasks of the Board,1,(k),cpt_VII,cpt_VII.sct_3,191,0,8a7475a2f7541917
+GDPR.A70.P1.ptl,point,70,Tasks of the Board,1,(l),cpt_VII,cpt_VII.sct_3,87,0,8264fb6c9ed29e7a
+GDPR.A70.P1.ptm,point,70,Tasks of the Board,1,(m),cpt_VII,cpt_VII.sct_3,230,0,ba2141fbc097956f
+GDPR.A70.P1.ptn,point,70,Tasks of the Board,1,(n),cpt_VII,cpt_VII.sct_3,178,0,d7903b2a7b236621
+GDPR.A70.P1.pto,point,70,Tasks of the Board,1,(o),cpt_VII,cpt_VII.sct_3,289,0,7119c6c99af45dc3
+GDPR.A70.P1.ptp,point,70,Tasks of the Board,1,(p),cpt_VII,cpt_VII.sct_3,137,0,dbfc19d2f202cd5f
+GDPR.A70.P1.ptq,point,70,Tasks of the Board,1,(q),cpt_VII,cpt_VII.sct_3,102,0,20313ee2fb52e408
+GDPR.A70.P1.ptr,point,70,Tasks of the Board,1,(r),cpt_VII,cpt_VII.sct_3,81,0,8a533ecaeccc4109
+GDPR.A70.P1.pts,point,70,Tasks of the Board,1,(s),cpt_VII,cpt_VII.sct_3,619,0,385d1c59d945788f
+GDPR.A70.P1.ptt,point,70,Tasks of the Board,1,(t),cpt_VII,cpt_VII.sct_3,276,0,36ae31b3115b8dd0
+GDPR.A70.P1.ptu,point,70,Tasks of the Board,1,(u),cpt_VII,cpt_VII.sct_3,148,0,28ca43ee1b488733
+GDPR.A70.P1.ptv,point,70,Tasks of the Board,1,(v),cpt_VII,cpt_VII.sct_3,218,0,49bf12d6793c2f47
+GDPR.A70.P1.ptw,point,70,Tasks of the Board,1,(w),cpt_VII,cpt_VII.sct_3,151,0,4f6945be9946ce76
+GDPR.A70.P1.ptx,point,70,Tasks of the Board,1,(x),cpt_VII,cpt_VII.sct_3,89,0,b348075146786999
+GDPR.A70.P1.pty,point,70,Tasks of the Board,1,(y),cpt_VII,cpt_VII.sct_3,155,0,f255e3e7b2b42fab
+GDPR.A70.P2,paragraph,70,Tasks of the Board,2,,cpt_VII,cpt_VII.sct_3,133,0,e99f84a455ce77f4
+GDPR.A70.P3,paragraph,70,Tasks of the Board,3,,cpt_VII,cpt_VII.sct_3,176,0,617c2a774422b3b4
+GDPR.A70.P4,paragraph,70,Tasks of the Board,4,,cpt_VII,cpt_VII.sct_3,252,0,df7bb2d8ca2c4449
+GDPR.A71.P1,paragraph,71,Reports,1,,cpt_VII,cpt_VII.sct_3,317,0,fb8c6bf64f3273a8
+GDPR.A71.P2,paragraph,71,Reports,2,,cpt_VII,cpt_VII.sct_3,232,0,0203f8702c0daef3
+GDPR.A72.P1,paragraph,72,Procedure,1,,cpt_VII,cpt_VII.sct_3,121,0,9a3579c7e5696bd5
+GDPR.A72.P2,paragraph,72,Procedure,2,,cpt_VII,cpt_VII.sct_3,139,0,1104b5e317e73f35
+GDPR.A73.P1,paragraph,73,Chair,1,,cpt_VII,cpt_VII.sct_3,100,0,67d5ce020558a880
+GDPR.A73.P2,paragraph,73,Chair,2,,cpt_VII,cpt_VII.sct_3,103,0,746478475b8d724b
+GDPR.A74.P1,paragraph,74,Tasks of the Chair,1,,cpt_VII,cpt_VII.sct_3,400,3,4dfb08a37bc228ad
+GDPR.A74.P1.pta,point,74,Tasks of the Chair,1,(a),cpt_VII,cpt_VII.sct_3,60,0,bfaea1ff0becdf39
+GDPR.A74.P1.ptb,point,74,Tasks of the Chair,1,(b),cpt_VII,cpt_VII.sct_3,140,0,a6a543c63ed73468
+GDPR.A74.P1.ptc,point,74,Tasks of the Chair,1,(c),cpt_VII,cpt_VII.sct_3,141,0,d29799ff2bfc6553
+GDPR.A74.P2,paragraph,74,Tasks of the Chair,2,,cpt_VII,cpt_VII.sct_3,119,0,4d3e9bf351d06596
+GDPR.A75.P1,paragraph,75,Secretariat,1,,cpt_VII,cpt_VII.sct_3,107,0,22282561aac62a48
+GDPR.A75.P2,paragraph,75,Secretariat,2,,cpt_VII,cpt_VII.sct_3,105,0,121a3d403685b953
+GDPR.A75.P3,paragraph,75,Secretariat,3,,cpt_VII,cpt_VII.sct_3,278,0,4163588a0abf5875
+GDPR.A75.P4,paragraph,75,Secretariat,4,,cpt_VII,cpt_VII.sct_3,354,0,5a13d28df707b888
+GDPR.A75.P5,paragraph,75,Secretariat,5,,cpt_VII,cpt_VII.sct_3,97,0,0766077b7895555e
+GDPR.A75.P6,paragraph,75,Secretariat,6,,cpt_VII,cpt_VII.sct_3,595,7,c97a4fc14d59e820
+GDPR.A75.P6.pta,point,75,Secretariat,6,(a),cpt_VII,cpt_VII.sct_3,37,0,6f2c627a7110ee60
+GDPR.A75.P6.ptb,point,75,Secretariat,6,(b),cpt_VII,cpt_VII.sct_3,77,0,c588e672e2469828
+GDPR.A75.P6.ptc,point,75,Secretariat,6,(c),cpt_VII,cpt_VII.sct_3,53,0,7a1386cd6a54c241
+GDPR.A75.P6.ptd,point,75,Secretariat,6,(d),cpt_VII,cpt_VII.sct_3,72,0,8b292f2945f2636a
+GDPR.A75.P6.pte,point,75,Secretariat,6,(e),cpt_VII,cpt_VII.sct_3,40,0,120c121526b15530
+GDPR.A75.P6.ptf,point,75,Secretariat,6,(f),cpt_VII,cpt_VII.sct_3,59,0,dab09377dbc70b56
+GDPR.A75.P6.ptg,point,75,Secretariat,6,(g),cpt_VII,cpt_VII.sct_3,164,0,db3aa16da3aaa6c3
+GDPR.A76.P1,paragraph,76,Confidentiality,1,,cpt_VII,cpt_VII.sct_3,133,0,4045e0e9bc744bf2
+GDPR.A76.P2,paragraph,76,Confidentiality,2,,cpt_VII,cpt_VII.sct_3,208,0,2e49e65b7597a684
+GDPR.A77.P1,paragraph,77,Right to lodge a complaint with a supervisory authority,1,,cpt_VIII,,396,0,063f2cfaefc599a9
+GDPR.A77.P2,paragraph,77,Right to lodge a complaint with a supervisory authority,2,,cpt_VIII,,219,0,7479e2e53cbc8ec2
+GDPR.A78.P1,paragraph,78,Right to an effective judicial remedy against a supervisory authority,1,,cpt_VIII,,234,0,68bb44cb41aa5afd
+GDPR.A78.P2,paragraph,78,Right to an effective judicial remedy against a supervisory authority,2,,cpt_VIII,,387,0,22f0d20bfd6ee0fe
+GDPR.A78.P3,paragraph,78,Right to an effective judicial remedy against a supervisory authority,3,,cpt_VIII,,150,0,490f6470ed27626c
+GDPR.A78.P4,paragraph,78,Right to an effective judicial remedy against a supervisory authority,4,,cpt_VIII,,248,0,f58291cd44946c17
+GDPR.A79.P1,paragraph,79,Right to an effective judicial remedy against a controller or processor,1,,cpt_VIII,,431,0,5167b1e730301d14
+GDPR.A79.P2,paragraph,79,Right to an effective judicial remedy against a controller or processor,2,,cpt_VIII,,425,0,f39e9b958a6b6d4d
+GDPR.A80.P1,paragraph,80,Representation of data subjects,1,,cpt_VIII,,645,0,3ba89a26f967af08
+GDPR.A80.P2,paragraph,80,Representation of data subjects,2,,cpt_VIII,,474,0,e9401d9e41eb1b3d
+GDPR.A81.P1,paragraph,81,Suspension of proceedings,1,,cpt_VIII,,324,0,52b8fd2017bee2dc
+GDPR.A81.P2,paragraph,81,Suspension of proceedings,2,,cpt_VIII,,245,0,005b47476c8898f9
+GDPR.A81.P3,paragraph,81,Suspension of proceedings,3,,cpt_VIII,,294,0,77286948f6c00dde
+GDPR.A82.P1,paragraph,82,Right to compensation and liability,1,,cpt_VIII,,216,0,5dec518afcabfd22
+GDPR.A82.P2,paragraph,82,Right to compensation and liability,2,,cpt_VIII,,377,0,1893fafaf9f7cae1
+GDPR.A82.P3,paragraph,82,Right to compensation and liability,3,,cpt_VIII,,170,0,19f3702d3f3b1b26
+GDPR.A82.P4,paragraph,82,Right to compensation and liability,4,,cpt_VIII,,352,0,c2645f3c389fd403
+GDPR.A82.P5,paragraph,82,Right to compensation and liability,5,,cpt_VIII,,404,0,c87ba0c580a2a852
+GDPR.A82.P6,paragraph,82,Right to compensation and liability,6,,cpt_VIII,,179,0,3339644f3836746e
+GDPR.A83.P1,paragraph,83,General conditions for imposing administrative fines,1,,cpt_VIII,,270,0,2d4e0ed135606b1a
+GDPR.A83.P2,paragraph,83,General conditions for imposing administrative fines,2,,cpt_VIII,,1942,11,b0603c5eb548009f
+GDPR.A83.P2.pta,point,83,General conditions for imposing administrative fines,2,(a),cpt_VIII,,218,0,1028fad48febdec6
+GDPR.A83.P2.ptb,point,83,General conditions for imposing administrative fines,2,(b),cpt_VIII,,59,0,5d44a0cf57c28d3f
+GDPR.A83.P2.ptc,point,83,General conditions for imposing administrative fines,2,(c),cpt_VIII,,97,0,a15485f0a6e12bb5
+GDPR.A83.P2.ptd,point,83,General conditions for imposing administrative fines,2,(d),cpt_VIII,,169,0,c28cd7c8b99cc78f
+GDPR.A83.P2.pte,point,83,General conditions for imposing administrative fines,2,(e),cpt_VIII,,67,0,34bf397cfa4c48d8
+GDPR.A83.P2.ptf,point,83,General conditions for imposing administrative fines,2,(f),cpt_VIII,,156,0,86ebb9bc4f165cb7
+GDPR.A83.P2.ptg,point,83,General conditions for imposing administrative fines,2,(g),cpt_VIII,,61,0,b94d45aa58b3d044
+GDPR.A83.P2.pth,point,83,General conditions for imposing administrative fines,2,(h),cpt_VIII,,183,0,3170292305d36649
+GDPR.A83.P2.pti,point,83,General conditions for imposing administrative fines,2,(i),cpt_VIII,,190,0,758503b651d26ad2
+GDPR.A83.P2.ptj,point,83,General conditions for imposing administrative fines,2,(j),cpt_VIII,,126,0,3f89c3a923a62e10
+GDPR.A83.P2.ptk,point,83,General conditions for imposing administrative fines,2,(k),cpt_VIII,,188,0,97368889be44d8c8
+GDPR.A83.P3,paragraph,83,General conditions for imposing administrative fines,3,,cpt_VIII,,269,0,9ce9f3891e1eb964
+GDPR.A83.P4,paragraph,83,General conditions for imposing administrative fines,4,,cpt_VIII,,533,3,71862da83b6a94d3
+GDPR.A83.P4.pta,point,83,General conditions for imposing administrative fines,4,(a),cpt_VIII,,103,0,043fa87b03cb1a51
+GDPR.A83.P4.ptb,point,83,General conditions for imposing administrative fines,4,(b),cpt_VIII,,73,0,18d9cac622d7ceca
+GDPR.A83.P4.ptc,point,83,General conditions for imposing administrative fines,4,(c),cpt_VIII,,65,0,43bd70cf8696a13a
+GDPR.A83.P5,paragraph,83,General conditions for imposing administrative fines,5,,cpt_VIII,,891,5,9aa2a79bd8e9ce1b
+GDPR.A83.P5.pta,point,83,General conditions for imposing administrative fines,5,(a),cpt_VIII,,106,0,8b102906733d3f0f
+GDPR.A83.P5.ptb,point,83,General conditions for imposing administrative fines,5,(b),cpt_VIII,,56,0,f129940513cdec9e
+GDPR.A83.P5.ptc,point,83,General conditions for imposing administrative fines,5,(c),cpt_VIII,,128,0,93e361b36b742421
+GDPR.A83.P5.ptd,point,83,General conditions for imposing administrative fines,5,(d),cpt_VIII,,70,0,e2c87eb6150edc9c
+GDPR.A83.P5.pte,point,83,General conditions for imposing administrative fines,5,(e),cpt_VIII,,229,0,f2c1a075ae8473fb
+GDPR.A83.P6,paragraph,83,General conditions for imposing administrative fines,6,,cpt_VIII,,342,0,dc8640bd2b6717a5
+GDPR.A83.P7,paragraph,83,General conditions for imposing administrative fines,7,,cpt_VIII,,274,0,a22860a41dd0dfad
+GDPR.A83.P8,paragraph,83,General conditions for imposing administrative fines,8,,cpt_VIII,,232,0,8ab17b4720a58611
+GDPR.A83.P9,paragraph,83,General conditions for imposing administrative fines,9,,cpt_VIII,,690,0,3d3a65dd199e261d
+GDPR.A84.P1,paragraph,84,Penalties,1,,cpt_VIII,,350,0,333121874f38d7b4
+GDPR.A84.P2,paragraph,84,Penalties,2,,cpt_VIII,,195,0,58db7776b2333acd
+GDPR.A85.P1,paragraph,85,Processing and freedom of expression and information,1,,cpt_IX,,280,0,660fd8e3b171f7bf
+GDPR.A85.P2,paragraph,85,Processing and freedom of expression and information,2,,cpt_IX,,647,0,2b9c33cbcde8b02d
+GDPR.A85.P3,paragraph,85,Processing and freedom of expression and information,3,,cpt_IX,,201,0,a7633c434477d149
+GDPR.A86.P0,paragraph,86,Processing and public access to official documents,0,,cpt_IX,,436,0,f4c736426f38122c
+GDPR.A87.P0,paragraph,87,Processing of the national identification number,0,,cpt_IX,,383,0,01aada30cd3dafbb
+GDPR.A88.P1,paragraph,88,Processing in the context of employment,1,,cpt_IX,,775,0,faa25265cd0d0dea
+GDPR.A88.P2,paragraph,88,Processing in the context of employment,2,,cpt_IX,,377,0,3c84c20334dd5b0e
+GDPR.A88.P3,paragraph,88,Processing in the context of employment,3,,cpt_IX,,197,0,b1668ac77434feff
+GDPR.A89.P1,paragraph,89,"Safeguards and derogations relating to processing for archiving purposes in the public interest, scientific or historical research purposes or statistical purposes",1,,cpt_IX,,721,0,896fd92023315a09
+GDPR.A89.P2,paragraph,89,"Safeguards and derogations relating to processing for archiving purposes in the public interest, scientific or historical research purposes or statistical purposes",2,,cpt_IX,,497,0,31bc43d839f35e25
+GDPR.A89.P3,paragraph,89,"Safeguards and derogations relating to processing for archiving purposes in the public interest, scientific or historical research purposes or statistical purposes",3,,cpt_IX,,480,0,75be22b6254133ba
+GDPR.A89.P4,paragraph,89,"Safeguards and derogations relating to processing for archiving purposes in the public interest, scientific or historical research purposes or statistical purposes",4,,cpt_IX,,192,0,9328083a9b3d67b7
+GDPR.A90.P1,paragraph,90,Obligations of secrecy,1,,cpt_IX,,692,0,ea74a2e710d50807
+GDPR.A90.P2,paragraph,90,Obligations of secrecy,2,,cpt_IX,,171,0,cef4e1868fbcaf15
+GDPR.A91.P1,paragraph,91,Existing data protection rules of churches and religious associations,1,,cpt_IX,,328,0,f5ea08b68b36a01e
+GDPR.A91.P2,paragraph,91,Existing data protection rules of churches and religious associations,2,,cpt_IX,,302,0,1a265d99579f7bc6
+GDPR.A92.P1,paragraph,92,Exercise of the delegation,1,,cpt_X,,121,0,7f3b0907a8d8c7cf
+GDPR.A92.P2,paragraph,92,Exercise of the delegation,2,,cpt_X,,165,0,b18131913de83d70
+GDPR.A92.P3,paragraph,92,Exercise of the delegation,3,,cpt_X,,464,0,7fb0c4ff9121e11f
+GDPR.A92.P4,paragraph,92,Exercise of the delegation,4,,cpt_X,,134,0,ba314a27b7d53bd5
+GDPR.A92.P5,paragraph,92,Exercise of the delegation,5,,cpt_X,,538,0,4f42a17e8bf3333a
+GDPR.A93.P1,paragraph,93,Committee procedure,1,,cpt_X,,139,0,4f96da0c46a9f12d
+GDPR.A93.P2,paragraph,93,Committee procedure,2,,cpt_X,,100,0,90ace465f2d710ec
+GDPR.A93.P3,paragraph,93,Committee procedure,3,,cpt_X,,140,0,287e0bec6a3dc241
+GDPR.A94.P1,paragraph,94,Repeal of Directive 95/46/EC,1,,cpt_XI,,64,0,033cb24e8c1389e7
+GDPR.A94.P2,paragraph,94,Repeal of Directive 95/46/EC,2,,cpt_XI,,356,0,d746d8439f411d13
+GDPR.A95.P0,paragraph,95,Relationship with Directive 2002/58/EC,0,,cpt_XI,,377,0,ac036bfe14c85de8
+GDPR.A96.P0,paragraph,96,Relationship with previously concluded Agreements,0,,cpt_XI,,299,0,56cfcb9ec04f547b
+GDPR.A97.P1,paragraph,97,Commission reports,1,,cpt_XI,,217,0,8c6cee97f561f7f6
+GDPR.A97.P2,paragraph,97,Commission reports,2,,cpt_XI,,466,2,8bed474d0b765ff8
+GDPR.A97.P2.pta,point,97,Commission reports,2,(a),cpt_XI,,256,0,80e3811a04e99504
+GDPR.A97.P2.ptb,point,97,Commission reports,2,(b),cpt_XI,,43,0,4bcc844633ae3766
+GDPR.A97.P3,paragraph,97,Commission reports,3,,cpt_XI,,122,0,20d972a49dd96e8c
+GDPR.A97.P4,paragraph,97,Commission reports,4,,cpt_XI,,233,0,3f123b9b733d0299
+GDPR.A97.P5,paragraph,97,Commission reports,5,,cpt_XI,,240,0,06447898ec46f1a9
+GDPR.A98.P0,paragraph,98,Review of other Union legal acts on data protection,0,,cpt_XI,,455,0,b9f1e526437f3237
+GDPR.A99.P1,paragraph,99,Entry into force and application,1,,cpt_XI,,145,0,eb79aaed2fc992bd
+GDPR.A99.P2,paragraph,99,Entry into force and application,2,,cpt_XI,,36,0,73f7d8b590be31e5

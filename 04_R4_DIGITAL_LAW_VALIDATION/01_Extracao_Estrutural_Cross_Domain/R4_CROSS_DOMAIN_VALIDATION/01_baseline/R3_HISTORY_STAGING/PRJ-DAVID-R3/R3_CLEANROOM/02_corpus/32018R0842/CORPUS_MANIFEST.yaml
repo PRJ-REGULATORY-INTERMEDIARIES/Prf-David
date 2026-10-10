@@ -1,0 +1,44 @@
+celex_id: 32018R0842
+official_title: "Regulation (EU) 2018/842 of the European Parliament and of the Council of 30 May 2018 on binding annual greenhouse gas emission reductions by Member States from 2021 to 2030 contributing to climate action to meet commitments under the Paris Agreement and amending Regulation (EU) No 525/2013 (Text with EEA relevance)"
+source_file: 01_sources/32018R0842/source_original_en.pdf
+source_sha256: DD429F4752B9F0F9320CE2FC79152D02A7D34BE262EE86019D98B96E62D07048
+source_url: "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX%3A32018R0842&from=EN"
+retrieval_timestamp: "2026-09-20T16:29:35.6372729-03:00"
+source_version: ORIGINAL_ACT_AS_ADOPTED
+corpus_generation_timestamp: "2026-09-20T16:52:06.3613512-03:00"
+generated_files:
+  - act_full.md
+  - recitals.md
+  - operative.md
+  - act_numbered.md
+  - article_index.csv
+generated_file_sha256:
+  act_full.md: 5FFADD5877BFD0055F69CC68C2B8A20A5976CDBDABA4CE5D72F5644077BA7893
+  recitals.md: 09CA3A80B8606536F18816E32E0E8CC929A46FA19CDA65692D8162829C28B01B
+  operative.md: 0FCF60547801B03E1CBB8EC28C8327788BD6883CB80F38B4F63D9AD978644A7D
+  act_numbered.md: B10AF4CF8C99CBD09A9D7936F036892070F36563AE2707F305560A20420B3AD0
+  article_index.csv: 1F78C820012BBE2DB1531E67A29BBAC04A89FA0EC2F7DA2756F6750764E95ABE
+normalization_operations:
+  - remove Official Journal page headers and form-feed page separators
+  - trim extraction-only leading/trailing whitespace
+  - repair line-wrap hyphenation when the continuation begins with lowercase text
+  - preserve paragraph, heading, numbering, table and annex line structure
+  - no substantive rewriting, summarization or inference
+structural_counts:
+  recitals: 46
+  articles: 17
+  annexes: 4
+  titles: 0
+  chapters: 0
+  sections: 0
+  words: 9067
+  characters: 57372
+quality_checks:
+  pdf_pages: 17
+  first_article: 1
+  last_article: 17
+  first_recital: 1
+  last_recital: 32
+  source_hash_matches_phase1: True
+  corpus_status: CORPUS_TEXT_REQUIRES_REVIEW
+  source_to_corpus_fidelity: STRUCTURAL_CHECK_PASS_REVIEW_REQUIRED

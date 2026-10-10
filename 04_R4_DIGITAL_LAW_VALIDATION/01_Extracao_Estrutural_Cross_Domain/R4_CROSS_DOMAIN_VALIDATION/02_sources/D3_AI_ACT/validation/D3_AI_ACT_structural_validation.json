@@ -1,0 +1,19 @@
+{
+  "case_id": "D3_AI_ACT",
+  "celex": "32024R1689",
+  "root_language": "EN",
+  "article_count": 113,
+  "recital_count": 180,
+  "chapter_count": 13,
+  "section_count": 16,
+  "annex_count": 13,
+  "expected_annex_count": 13,
+  "article_sequence_coherent": true,
+  "recital_sequence_coherent": true,
+  "document_end_marker_present": true,
+  "recitals_preserved": true,
+  "operative_provisions_present": true,
+  "annex_check": "PASS",
+  "status": "VALIDATED",
+  "note": "Structural validation only; no actor, intermediary or mechanism extraction performed."
+}

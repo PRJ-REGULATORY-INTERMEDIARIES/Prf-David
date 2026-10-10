@@ -1,0 +1,169 @@
+version: 1.0.0
+purpose: lexical_screening_only
+source_bounded: true
+language: en
+notes:
+  - Strings indicate salience and do not decide whether an intermediary exists.
+  - Patterns are generic and were not tuned to the selected act.
+  - Every lexical hit requires structural and legal review.
+
+strings:
+  - string_id: ACTOR_COMPETENT_AUTHORITY
+    pattern: "\\bcompetent authority\\b"
+    semantic_role: actor
+    mechanism_family: null
+    confidence: high
+    exclusion_pattern: null
+    notes: Potential authority term; do not assign R automatically.
+
+  - string_id: ACTOR_REGULATORY_BODY
+    pattern: "\\b(regulatory body|regulatory authority|supervisory authority)\\b"
+    semantic_role: actor
+    mechanism_family: supervision
+    confidence: high
+    exclusion_pattern: null
+    notes: Potential public or statutory actor; inspect the legal function.
+
+  - string_id: ACTOR_AGENCY_BODY
+    pattern: "\\b(agency|body|board|committee)\\b"
+    semantic_role: actor
+    mechanism_family: null
+    confidence: low
+    exclusion_pattern: null
+    notes: Broad salience pattern with expected noise.
+
+  - string_id: ACTOR_AUDITOR_VERIFIER
+    pattern: "\\b(auditor|audit firm|verifier|verification body|assurance provider)\\b"
+    semantic_role: actor
+    mechanism_family: auditing
+    confidence: high
+    exclusion_pattern: null
+    notes: Potential intermediary actor; function must be established.
+
+  - string_id: ACTOR_CERTIFICATION_ACCREDITATION
+    pattern: "\\b(certification body|certification body|accreditation body|conformity-assessment body)\\b"
+    semantic_role: actor
+    mechanism_family: certification
+    confidence: high
+    exclusion_pattern: null
+    notes: Potential conformity actor; do not infer mediation from label.
+
+  - string_id: ACTOR_OPERATOR_UNDERTAKING
+    pattern: "\\b(operator|undertaking|regulated entity|manufacturer|importer)\\b"
+    semantic_role: target_candidate
+    mechanism_family: null
+    confidence: medium
+    exclusion_pattern: null
+    notes: Potential target; identify the conduct or object regulated.
+
+  - string_id: MECH_REPORTING
+    pattern: "\\b(report|reports|reported|reporting|disclose|disclosure|shall submit)\\b"
+    semantic_role: mechanism_or_action
+    mechanism_family: reporting
+    confidence: high
+    exclusion_pattern: "\\b(reporting date|reporting period)\\b"
+    notes: Reporting hit does not imply an intermediary.
+
+  - string_id: MECH_VERIFICATION
+    pattern: "\\b(verif(y|ies|ied|ication|ier)|validate|validation)\\b"
+    semantic_role: mechanism_or_action
+    mechanism_family: auditing
+    confidence: high
+    exclusion_pattern: null
+    notes: Identify who verifies what for whom.
+
+  - string_id: MECH_AUDITING_ASSURANCE
+    pattern: "\\b(audit|auditing|auditor|assurance|assurance engagement|assurance opinion)\\b"
+    semantic_role: mechanism_or_action
+    mechanism_family: auditing
+    confidence: high
+    exclusion_pattern: null
+    notes: Distinguish actor, function, instrument and procedure.
+
+  - string_id: MECH_CERTIFICATION
+    pattern: "\\b(certif(y|ies|ied|ication)|certificate)\\b"
+    semantic_role: mechanism_or_action
+    mechanism_family: certification
+    confidence: high
+    exclusion_pattern: null
+    notes: A certificate is an instrument; certification is a mechanism.
+
+  - string_id: MECH_ACCREDITATION
+    pattern: "\\baccredit(ed|ation|ing)?\\b"
+    semantic_role: mechanism_or_action
+    mechanism_family: certification
+    confidence: medium
+    exclusion_pattern: null
+    notes: Accreditation may regulate an intermediary rather than mediate the focal target relation.
+
+  - string_id: MECH_ASSESSMENT
+    pattern: "\\b(assess|assesses|assessment|evaluate|evaluation|rating|ranking|benchmark)\\b"
+    semantic_role: mechanism_or_action
+    mechanism_family: ranking_rating
+    confidence: medium
+    exclusion_pattern: null
+    notes: Code ranking/rating only when the function is regulatory and text-supported.
+
+  - string_id: MECH_MONITORING_SUPERVISION
+    pattern: "\\b(monitor|monitoring|supervis(e|es|ed|ion)|oversight|inspection)\\b"
+    semantic_role: mechanism_or_action
+    mechanism_family: auditing
+    confidence: medium
+    exclusion_pattern: null
+    notes: Monitoring or supervision may be direct R–T regulation.
+
+  - string_id: INSTRUMENT_REPORT
+    pattern: "\\b(report|statement|disclosure|submission|notification)\\b"
+    semantic_role: instrument
+    mechanism_family: reporting
+    confidence: medium
+    exclusion_pattern: null
+    notes: Record the artefact separately from the reporting function.
+
+  - string_id: INSTRUMENT_CERTIFICATE_OPINION
+    pattern: "\\b(certificate|assurance opinion|verification opinion|attestation)\\b"
+    semantic_role: instrument
+    mechanism_family: certification
+    confidence: high
+    exclusion_pattern: null
+    notes: Instrument hit; identify issuing actor and recipient.
+
+  - string_id: INSTRUMENT_METHODOLOGY_PLAN
+    pattern: "\\b(methodology|plan|roadmap|guidelines|rules of procedure)\\b"
+    semantic_role: instrument
+    mechanism_family: other_mechanism
+    confidence: low
+    exclusion_pattern: null
+    notes: Do not treat every plan or methodology as a regulatory instrument.
+
+  - string_id: PROCEDURE_SUBMISSION
+    pattern: "\\b(shall submit|shall provide|shall communicate|shall disclose|make available)\\b"
+    semantic_role: procedure_or_obligation
+    mechanism_family: reporting
+    confidence: high
+    exclusion_pattern: null
+    notes: Locate actor, recipient, object and legal consequence.
+
+  - string_id: PROCEDURE_DESIGNATION
+    pattern: "\\b(designate|designated|designation|appoint|appointed|nominate)\\b"
+    semantic_role: procedure_or_authority
+    mechanism_family: other_mechanism
+    confidence: medium
+    exclusion_pattern: null
+    notes: Designation alone does not establish intermediation.
+
+  - string_id: PROCEDURE_ESTABLISHMENT
+    pattern: "\\b(establish|established|set up|adopt rules|adoption of rules)\\b"
+    semantic_role: procedure_or_authority
+    mechanism_family: other_mechanism
+    confidence: medium
+    exclusion_pattern: null
+    notes: Inspect whether the procedure creates an actor, duty or standard.
+
+  - string_id: PROCEDURE_REVIEW_PARTICIPATION
+    pattern: "\\b(review|reviewed|public participation|stakeholder engagement|consultation|dialogue)\\b"
+    semantic_role: procedure_or_participation
+    mechanism_family: other_mechanism
+    confidence: low
+    exclusion_pattern: null
+    notes: Participation or consultation is not intermediation without a mediating function.

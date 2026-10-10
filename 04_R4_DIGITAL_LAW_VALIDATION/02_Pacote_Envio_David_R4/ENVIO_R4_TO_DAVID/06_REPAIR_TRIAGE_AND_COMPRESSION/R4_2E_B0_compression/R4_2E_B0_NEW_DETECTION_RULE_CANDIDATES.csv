@@ -1,0 +1,2 @@
+"NEW_DETECTION_RULE_CANDIDATE","OBSERVED_CASES","DESCRIPTION","STATUS","REQUIRES"
+"CROSS_FIELD_SOURCE_ANCHOR_ALIGNMENT_CHECK","R4_2D-QA2B-026;R4_2D-QA2B-056;R4_2D-QA2B-089","Check whether actor/action/object/counterpart/recipient spans originate in the same proposition/source location as the extracted predicate.","CANDIDATE_NOT_ADOPTED","Test on positive and negative examples; retain separate model pattern and human root-cause fields."

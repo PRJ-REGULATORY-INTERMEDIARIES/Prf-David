@@ -1,0 +1,73 @@
+PASS | header identical to template: W_DECLARATION
+PASS | UTF-8 BOM: W_DECLARATION
+PASS | header identical to template: SOURCE_UNIT_INVENTORY
+PASS | UTF-8 BOM: SOURCE_UNIT_INVENTORY
+PASS | header identical to template: UNIT_SCREENING
+PASS | UTF-8 BOM: UNIT_SCREENING
+PASS | header identical to template: INSTITUTIONAL_STATEMENTS
+PASS | UTF-8 BOM: INSTITUTIONAL_STATEMENTS
+PASS | header identical to template: NORMATIVE_ASSIGNMENTS
+PASS | UTF-8 BOM: NORMATIVE_ASSIGNMENTS
+PASS | header identical to template: POSITIONS_AND_DEVICES
+PASS | UTF-8 BOM: POSITIONS_AND_DEVICES
+PASS | header identical to template: QUALIFIED_RELATIONS
+PASS | UTF-8 BOM: QUALIFIED_RELATIONS
+PASS | header identical to template: EXTERNAL_REFERENCES
+PASS | UTF-8 BOM: EXTERNAL_REFERENCES
+PASS | header identical to template: SUBCONFIGURATIONS
+PASS | UTF-8 BOM: SUBCONFIGURATIONS
+PASS | header identical to template: ARCHITECTURE_CANDIDATES
+PASS | UTF-8 BOM: ARCHITECTURE_CANDIDATES
+PASS | header identical to template: PROPERTY_REGISTER
+PASS | UTF-8 BOM: PROPERTY_REGISTER
+PASS | header identical to template: CLOSURE_REGISTER
+PASS | UTF-8 BOM: CLOSURE_REGISTER
+PASS | header identical to template: PROVENANCE_LINKS
+PASS | UTF-8 BOM: PROVENANCE_LINKS
+PASS | header identical to template: UNCERTAINTY_LOG
+PASS | UTF-8 BOM: UNCERTAINTY_LOG
+PASS | header identical to template: HUMAN_REVIEW_QUEUE
+PASS | UTF-8 BOM: HUMAN_REVIEW_QUEUE
+PASS | header identical to template: TRACE_DEMONSTRATIONS
+PASS | UTF-8 BOM: TRACE_DEMONSTRATIONS
+PASS | header identical to template: INSTRUMENT_LEVEL_SUMMARY
+PASS | UTF-8 BOM: INSTRUMENT_LEVEL_SUMMARY
+PASS | header identical to template: PROTOCOL_DEVIATION_LOG
+PASS | UTF-8 BOM: PROTOCOL_DEVIATION_LOG
+PASS | header identical to template: RUN_METADATA
+PASS | UTF-8 BOM: RUN_METADATA
+PASS | exactly 19 CSV tables present
+PASS | inventory unit ids equal units.json
+PASS | every unit text is a verbatim substring of the normalized source body | []
+PASS | text_sha256 recomputes
+PASS | Rule 1a: every unit_id in any table exists in SOURCE_UNIT_INVENTORY | []
+PASS | Rule 1b: units_screened = units_total = inventory = screening rows
+PASS | Rule 2a: every ST cites >=1 unit
+PASS | Rule 2b: every NA, PD, QR, EXT cites >=1 ST (PD via ST.derived_record_ids)
+PASS | Rule 2c: no ST with recital_only=Y has derived records; no statement rests on a recital unit
+PASS | Rule 3a: every *_ids / *_pd_id / refs field resolves to an existing record | []
+PASS | Rule 3b: accountable_via_qr_ids resolve to QR of type accountability
+PASS | Rule 4: every QR has origin and counterpart, modality != prohibition, no material_establishment_evidenced
+PASS | Rule 5a: every NA/QR/SC/ARCH/PROP has >=1 PROVENANCE_LINKS row
+PASS | Rule 5b: every derived NA/QR states derivation_rule and cites >=2 units or a cross-reference | 12 derived
+PASS | Provenance mirrors supporting_unit_ids (direct links) for ST/PD/NA/QR/EXT
+PASS | Provenance links: evidence_level A only; record ids resolve; link ids unique
+PASS | Rule 6: INTEGRATED/OVERLAPPING outcomes have HQ; INTEGRATED only if I1-I4 SATISFIED | outcomes: INDETERMINATE,INDETERMINATE
+PASS | Rule 7: PROP closure_ref resolves; UNDETERMINED closure forces PROP undetermined
+PASS | Rule 8: every EXT not_checked and outside_corpus_not_expanded
+PASS | Rule 9: HUMAN_REVIEW_QUEUE human_* columns blank
+PASS | Rule 10: TRACE vertical_chain resolves to existing ids, units and verbatim spans
+PASS | Evidence spans are verbatim (<=400 chars) from a cited unit: ST, NA, QR, PD | []
+PASS | Vocabularies: epistemic, function, modality, relation type, norm type, legal status, derivation
+PASS | NA: prohibitions are constraint_only=Y and only prohibitions; counterpart_status consistent
+PASS | QR: accountability class/sufficiency fields consistent
+PASS | PD: material_establishment_evidence fixed not_assessed; no instance without own source
+PASS | ARCH outcomes in vocabulary; INSTRUMENT_LEVEL result in vocabulary
+PASS | No numeric score/threshold tokens in PROPERTY_REGISTER/ARCH values
+PASS | Closure register has >=1 COVERAGE row
+PASS | IDs unique within each table and follow the frozen patterns
+PASS | W_DECLARATION: hash match Y and source_sha256 recomputes
+PASS | Screening statement_ids consistent with INSTITUTIONAL_STATEMENTS; relevance Yes iff statements
+PASS | No NA/PD/QR/EXT resting on a recital unit
+PASS | No orphan PD (every PD cited by an NA/QR party or ST)
+FAILS: 0

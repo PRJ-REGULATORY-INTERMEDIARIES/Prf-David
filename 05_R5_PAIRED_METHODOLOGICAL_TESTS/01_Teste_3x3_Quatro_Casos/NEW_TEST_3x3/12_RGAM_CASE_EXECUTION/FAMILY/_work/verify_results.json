@@ -1,0 +1,134 @@
+{
+ "protocol_manifest": [
+  true,
+  "recomputed SHA-256 `9ca016b97289b39049dc099b265c20662c1ebc05e86bc720f0fbe80e0bac5932`; expected `9ca016b97289b39049dc099b265c20662c1ebc05e86bc720f0fbe80e0bac5932`; sidecar `9ca016b97289b39049dc099b265c20662c1ebc05e86bc720f0fbe80e0bac5932`; files listed 107; files valid 107; invalid none"
+ ],
+ "addendum": [
+  true,
+  "recomputed `b9dc184ebc857e5e3aae85ea5e1b5ac28f64c9947086b2bbe763a3b936e02da4`; expected `b9dc184ebc857e5e3aae85ea5e1b5ac28f64c9947086b2bbe763a3b936e02da4`; sidecar `b9dc184ebc857e5e3aae85ea5e1b5ac28f64c9947086b2bbe763a3b936e02da4`"
+ ],
+ "case_RGAM_C1_SCF": [
+  true,
+  "manifest recomputed `7fd01ed8e0e95616c8dfb836694e00f29c5887f04b24f0f483b2220b15ef3f65`, sidecar `7fd01ed8e0e95616c8dfb836694e00f29c5887f04b24f0f483b2220b15ef3f65`, files listed 25, valid 25; gate `RGAM_CASE_FROZEN`"
+ ],
+ "case_RGAM_C2_CBAM": [
+  true,
+  "manifest recomputed `84647523b5800816b7d56279383cbbfaaeea95296765e7e171e2329dafe6e096`, sidecar `84647523b5800816b7d56279383cbbfaaeea95296765e7e171e2329dafe6e096`, files listed 25, valid 25; gate `RGAM_CASE_FROZEN`"
+ ],
+ "case_RGAM_AI_AI_ACT": [
+  true,
+  "manifest recomputed `160217c11f2cf5e70f22a3eb527ac916cb460ce3d9c70a313ae91160e5e15372`, sidecar `160217c11f2cf5e70f22a3eb527ac916cb460ce3d9c70a313ae91160e5e15372`, files listed 25, valid 25; gate `RGAM_CASE_FROZEN`"
+ ],
+ "case_RGAM_O_DIR_86_361": [
+  true,
+  "manifest recomputed `3dc9add69f04c3a9e5658c0dc90a4a1b5fe6be348e286aae102c4ba8a6c30b1b`, sidecar `3dc9add69f04c3a9e5658c0dc90a4a1b5fe6be348e286aae102c4ba8a6c30b1b`, files listed 25, valid 25; gate `RGAM_CASE_FROZEN`"
+ ],
+ "method_RGAM_C1_SCF": [
+  true,
+  "RUN_METADATA protocol_version+manifest hash: True; EXECUTION_PROVENANCE names manifest hash and addendum: True; RUN_METADATA files_read lists all six frozen method documents: True; method-document SHA-256 values cited in provenance that equal recomputed hashes: 0 of 6"
+ ],
+ "method_RGAM_C2_CBAM": [
+  true,
+  "RUN_METADATA protocol_version+manifest hash: True; EXECUTION_PROVENANCE names manifest hash and addendum: True; RUN_METADATA files_read lists all six frozen method documents: True; method-document SHA-256 values cited in provenance that equal recomputed hashes: 6 of 6"
+ ],
+ "method_RGAM_AI_AI_ACT": [
+  true,
+  "RUN_METADATA protocol_version+manifest hash: True; EXECUTION_PROVENANCE names manifest hash and addendum: True; RUN_METADATA files_read lists all six frozen method documents: True; method-document SHA-256 values cited in provenance that equal recomputed hashes: 6 of 6"
+ ],
+ "method_RGAM_O_DIR_86_361": [
+  true,
+  "RUN_METADATA protocol_version+manifest hash: True; EXECUTION_PROVENANCE names manifest hash and addendum: True; RUN_METADATA files_read lists all six frozen method documents: True; method-document SHA-256 values cited in provenance that equal recomputed hashes: 0 of 6"
+ ],
+ "legal_RGAM_C1_SCF": [
+  true,
+  "recomputed `cf8c60fc233311436dfdd3ee236d0c8399eda55fea174610e91b5594f84a0408`; CASE_METADATA `cf8c60fc233311436dfdd3ee236d0c8399eda55fea174610e91b5594f84a0408`; capsule register `cf8c60fc233311436dfdd3ee236d0c8399eda55fea174610e91b5594f84a0408`; W_DECLARATION source/expected/hash_match = `cf8c60fc2333...`/`cf8c60fc2333...`/`Y`"
+ ],
+ "legal_RGAM_C2_CBAM": [
+  true,
+  "recomputed `c47e2793e7b92333ce9a891aba18924ff21b15b2745fffda98348b04b15a770e`; CASE_METADATA `c47e2793e7b92333ce9a891aba18924ff21b15b2745fffda98348b04b15a770e`; capsule register `c47e2793e7b92333ce9a891aba18924ff21b15b2745fffda98348b04b15a770e`; W_DECLARATION source/expected/hash_match = `c47e2793e7b9...`/`c47e2793e7b9...`/`Y`"
+ ],
+ "legal_RGAM_AI_AI_ACT": [
+  true,
+  "recomputed `8f0b656302f9864cc87e040c371f209a9d65ae1a6cecc25ca5eb737e872d721a`; CASE_METADATA `8f0b656302f9864cc87e040c371f209a9d65ae1a6cecc25ca5eb737e872d721a`; capsule register `8f0b656302f9864cc87e040c371f209a9d65ae1a6cecc25ca5eb737e872d721a`; W_DECLARATION source/expected/hash_match = `8f0b656302f9...`/`8f0b656302f9...`/`Y`"
+ ],
+ "legal_RGAM_O_DIR_86_361": [
+  true,
+  "recomputed `d3f55bd448695b2a5e2c5f9f9167f7f5027c9a80c609a80072439756e80d8c57`; CASE_METADATA `d3f55bd448695b2a5e2c5f9f9167f7f5027c9a80c609a80072439756e80d8c57`; capsule register `d3f55bd448695b2a5e2c5f9f9167f7f5027c9a80c609a80072439756e80d8c57`; W_DECLARATION source/expected/hash_match = `d3f55bd44869...`/`d3f55bd44869...`/`Y`"
+ ],
+ "headers_RGAM_C1_SCF": [
+  true,
+  "19 tables compared with the frozen data-dictionary field lists (section 3.1-3.19): header mismatches none; ragged rows none; files without UTF-8 BOM none; CASE_RGAM_REPORT.md present"
+ ],
+ "headers_RGAM_C2_CBAM": [
+  true,
+  "19 tables compared with the frozen data-dictionary field lists (section 3.1-3.19): header mismatches none; ragged rows none; files without UTF-8 BOM none; CASE_RGAM_REPORT.md present"
+ ],
+ "headers_RGAM_AI_AI_ACT": [
+  true,
+  "19 tables compared with the frozen data-dictionary field lists (section 3.1-3.19): header mismatches none; ragged rows none; files without UTF-8 BOM none; CASE_RGAM_REPORT.md present"
+ ],
+ "headers_RGAM_O_DIR_86_361": [
+  true,
+  "19 tables compared with the frozen data-dictionary field lists (section 3.1-3.19): header mismatches none; ragged rows none; files without UTF-8 BOM none; CASE_RGAM_REPORT.md present"
+ ],
+ "integrity_RGAM_C1_SCF": [
+  true,
+  "independent recomputation of data-dictionary integrity rules 1-10: 0 failures"
+ ],
+ "integrity_RGAM_C2_CBAM": [
+  true,
+  "independent recomputation of data-dictionary integrity rules 1-10: 0 failures"
+ ],
+ "integrity_RGAM_AI_AI_ACT": [
+  true,
+  "independent recomputation of data-dictionary integrity rules 1-10: 0 failures"
+ ],
+ "integrity_RGAM_O_DIR_86_361": [
+  true,
+  "independent recomputation of data-dictionary integrity rules 1-10: 0 failures"
+ ],
+ "ils_RGAM_C1_SCF": [
+  true,
+  "15 listed counts, mismatches none; hq_open_count, unresolved_ext_count, units_total/units_screened equal recomputed values: True"
+ ],
+ "ils_RGAM_C2_CBAM": [
+  true,
+  "13 listed counts, mismatches none; hq_open_count, unresolved_ext_count, units_total/units_screened equal recomputed values: True"
+ ],
+ "ils_RGAM_AI_AI_ACT": [
+  true,
+  "17 listed counts, mismatches none; hq_open_count, unresolved_ext_count, units_total/units_screened equal recomputed values: True"
+ ],
+ "ils_RGAM_O_DIR_86_361": [
+  true,
+  "15 listed counts, mismatches none; hq_open_count, unresolved_ext_count, units_total/units_screened equal recomputed values: True"
+ ],
+ "human_RGAM_C1_SCF": [
+  true,
+  "human-decision columns found 4 (all in HUMAN_REVIEW_QUEUE); non-blank cells 0"
+ ],
+ "human_RGAM_C2_CBAM": [
+  true,
+  "human-decision columns found 4 (all in HUMAN_REVIEW_QUEUE); non-blank cells 0"
+ ],
+ "human_RGAM_AI_AI_ACT": [
+  true,
+  "human-decision columns found 4 (all in HUMAN_REVIEW_QUEUE); non-blank cells 0"
+ ],
+ "human_RGAM_O_DIR_86_361": [
+  true,
+  "human-decision columns found 4 (all in HUMAN_REVIEW_QUEUE); non-blank cells 0"
+ ],
+ "human_family": [
+  true,
+  "family queue rows 89; non-blank human cells 0"
+ ],
+ "family_register": [
+  true,
+  "register rows 4; mismatches against recomputed table/stratum/HQ counts: none"
+ ],
+ "family_queue": [
+  true,
+  "combined queue rows 89 = sum of case queues 89 (19, 16, 35, 19); every item traced to its case row (all original columns identical): untraceable none; family ids unique: True; recurring_category_label non-empty for all: True"
+ ]
+}

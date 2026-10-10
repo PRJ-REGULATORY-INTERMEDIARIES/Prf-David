@@ -1,0 +1,36 @@
+source:
+  provider: EUR-Lex
+  celex: 32021R1119
+  title: >
+    Regulation (EU) 2021/1119 of the European Parliament and of the Council
+    of 30 June 2021 establishing the framework for achieving climate neutrality
+    and amending Regulations (EC) No 401/2009 and (EU) 2018/1999
+    ('European Climate Law')
+  document_type: regulation
+  date: 2021-06-30
+  language: en
+  official_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32021R1119
+  accessed_at: 2026-09-07T11:04:12-03:00
+
+selection:
+  purpose: pilot
+  thematic_focus: climate regulation
+  rationale: >
+    Deliberately selected as an exploratory single case because of its
+    substantive centrality to Union climate policy, clearly bounded normative
+    form and administrable length for an intensive methodological pilot. The
+    selection was not conditioned on previously identified regulatory
+    intermediaries, R-I-T relations or lexical occurrences.
+  inclusion_criteria:
+    - stable CELEX identifier
+    - complete official EUR-Lex text available
+    - substantive climate-regulatory content
+    - diversity of obligations, competences, instruments and procedures
+    - administrable length for a single-case pilot
+  exclusions_considered:
+    - corrigendum 32021R1119R(01)
+    - later consolidated versions
+    - non-regulatory or purely preparatory documents
+
+integrity:
+  previous_empirical_results_used: false

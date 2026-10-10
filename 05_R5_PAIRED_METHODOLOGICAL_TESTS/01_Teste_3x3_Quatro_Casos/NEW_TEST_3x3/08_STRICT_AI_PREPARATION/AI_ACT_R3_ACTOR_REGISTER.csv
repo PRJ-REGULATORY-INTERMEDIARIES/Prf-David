@@ -1,0 +1,27 @@
+actor_id,legal_actor_class,role_in_scan,source_basis,note
+A01,European Commission,regulator / R,Articles 40 43 57 68 90 92 97-99,Commission powers and tasks
+A02,AI Office,regulator / R,Articles 64-66 75 90-94,Commission office with assigned enforcement tasks; role kept distinct for coding
+A03,Member States,regulator / R,Articles 28 57 74 77,Member State designation and implementation duties
+A04,National competent authorities,regulator / R,Articles 57 64 70,Competent authority role
+A05,Market surveillance authorities,regulator / R,Articles 43 60 73-77 85,Market surveillance powers and complaint handling
+A06,Notifying authorities,regulator / R,Articles 28-34,Assessment designation notification and monitoring
+A07,National public authorities protecting fundamental rights,regulator / R,Article 77,Authority powers within jurisdiction
+A08,European Data Protection Supervisor,regulator / R,Articles 57 74,Union institutional supervisory/sandbox role
+A09,Board (European Artificial Intelligence Board),coordination/advice actor,Articles 65-67 90,Statutory coordination and advisory role
+A10,Advisory Forum,advisory actor,Articles 67 40,Stakeholder advice; not presumed intermediary
+A11,Scientific panel of independent experts,intermediary / I,Articles 68-69 90,Expert support/qualified alerts
+A12,Independent experts appointed for evaluations,intermediary / I,Article 92,External evaluators appointed for Commission evaluations
+A13,National accreditation bodies,intermediary / I,Article 28(2),May perform assessment and monitoring of conformity assessment bodies
+A14,Conformity assessment bodies,intermediary or target by relation,Articles 28-34 43,Relational role; includes notified bodies when notified
+A15,Notified bodies,intermediary / I,Articles 31-34 43,Third-party conformity assessment function
+A16,European standardisation organisations,boundary candidate / I,Article 40,Produce requested standards; R-T mediation not counted without a sufficiently direct gate
+A17,Providers of high-risk AI systems,target / T,Articles 16-25 43,Provider obligation class
+A18,Third-country providers of high-risk AI systems,target / T,Articles 22-23,Sub-class for representative duties
+A19,Providers of general-purpose AI models,target / T,Articles 53-55 90-94,GPAI provider class
+A20,Providers of GPAI models with systemic risk,target / T,Articles 51-55 90-94,Systemic-risk subclass
+A21,Deployers / public authority deployers,regulated actor / T,Articles 26 60 77,Deployer duties and use context
+A22,Importers,regulated actor / T,Article 23,Economic operator duties
+A23,Distributors,regulated actor / T,Article 24,Economic operator duties
+A24,Product manufacturers,regulated actor / T,Article 25,Manufacturer duties for product-integrated AI
+A25,Natural or legal complainants,boundary actor,Article 85,May lodge a complaint; not classified as regulator under the R3 gate
+A26,Authorised representatives of providers,intermediary / I,Articles 22 and 54,Distinct legally assigned representative class; relation to provider is coded separately by provider category

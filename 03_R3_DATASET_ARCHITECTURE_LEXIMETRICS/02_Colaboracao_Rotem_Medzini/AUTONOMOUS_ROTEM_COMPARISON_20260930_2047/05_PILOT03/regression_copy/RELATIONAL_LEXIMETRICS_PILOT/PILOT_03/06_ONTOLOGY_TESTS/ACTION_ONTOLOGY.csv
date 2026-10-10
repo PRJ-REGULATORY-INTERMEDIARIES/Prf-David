@@ -1,0 +1,29 @@
+action_id,action_verbatim_example,action_normalized,occurrences,provisional_function,provisional_mechanism,device,direct_relationship_type_coding,candidate_derived_relationship_family,ambiguity_flag
+ACT_01,apply for injunction,apply,1,enforcement,injunction application,court application,EDGE_A_TO_B,RIT_DERIVED if R1-R9 pass; otherwise BINARY_ONLY,REVIEW
+ACT_02,appoint; audit; report findings to,appoint,1,UNRESOLVED,UNRESOLVED,UNRESOLVED,COMPOSITE_CANDIDATE,RIT_DERIVED if R1-R9 pass; otherwise BINARY_ONLY,REVIEW
+ACT_03,assess,assess,1,assurance,quality-system assessment,quality-system assessment,EDGE_A_TO_B,RIT_DERIVED if R1-R9 pass; otherwise BINARY_ONLY,NO
+ACT_04,audit and provide audit report to,audit and provide audit report to,1,monitoring,audit_surveillance,audit report,EDGE_A_TO_B,RIT_DERIVED if R1-R9 pass; otherwise BINARY_ONLY,REVIEW
+ACT_05,communicate exemption measures and list,communicate exemption measures and list,1,reporting,information transmission,communication/list,EDGE_A_TO_B,RIT_DERIVED if R1-R9 pass; otherwise BINARY_ONLY,NO
+ACT_06,condition exemption on reporting/audit or supervision,condition exemption on reporting/audit or supervision,1,assurance,conditional oversight,reporting/audit/supervision condition,COMPOSITE_CANDIDATE,RIT_DERIVED if R1-R9 pass; otherwise BINARY_ONLY,REVIEW
+ACT_07,consult/receive assistance from,consult,1,advice,committee procedure,committee opinion,EDGE_A_TO_B,RIT_DERIVED if R1-R9 pass; otherwise BINARY_ONLY,REVIEW
+ACT_08,coordinate/encourage,coordinate,1,standardization,coordination,standards work programme,EDGE_A_TO_B,RIT_DERIVED if R1-R9 pass; otherwise BINARY_ONLY,REVIEW
+ACT_09,define/recognize,define,2,standardization,technical specification,standard,EDGE_A_TO_B,RIT_DERIVED if R1-R9 pass; otherwise BINARY_ONLY,NO
+ACT_10,derogate/provide remuneration,derogate,1,distribution,exception/remuneration,payment scheme,EDGE_A_TO_B,RIT_DERIVED if R1-R9 pass; otherwise BINARY_ONLY,NO
+ACT_11,enable use of marks/certificates,enable use of marks/certificates,1,assurance,conformity attestation,mark/certificate,COMPOSITE_CANDIDATE,RIT_DERIVED if R1-R9 pass; otherwise BINARY_ONLY,REVIEW
+ACT_12,enter into agreement with; submit database copy,enter into agreement with,1,accountability,escrow,escrow agreement/database copy,COMPOSITE_CANDIDATE,RIT_DERIVED if R1-R9 pass; otherwise BINARY_ONLY,REVIEW
+ACT_13,entrust administration,entrust,1,distribution/administration,delegation,remuneration administration,EDGE_A_TO_B,RIT_DERIVED if R1-R9 pass; otherwise BINARY_ONLY,REVIEW
+ACT_14,establish/entrust,establish,1,constitution/recognition,institutional designation,legal mandate,EDGE_A_TO_B,RIT_DERIVED if R1-R9 pass; otherwise BINARY_ONLY,REVIEW
+ACT_15,examine and notify,examine and notify,1,assurance,validation,validation notice,EDGE_A_TO_B,RIT_DERIVED if R1-R9 pass; otherwise BINARY_ONLY,REVIEW
+ACT_16,inform/designate,inform/designate,1,constitution/recognition,designation/notification,notification,EDGE_A_TO_B,RIT_DERIVED if R1-R9 pass; otherwise BINARY_ONLY,NO
+ACT_17,issue injunction,issue,1,enforcement,injunction,court order,EDGE_A_TO_B,RIT_DERIVED if R1-R9 pass; otherwise BINARY_ONLY,REVIEW
+ACT_18,keep/submit,keep,1,monitoring,reporting,cost-accounting records,EDGE_A_TO_B,RIT_DERIVED if R1-R9 pass; otherwise BINARY_ONLY,REVIEW
+ACT_19,maintain civil-liability insurance,maintain civil-liability insurance,1,risk cover,insurance/risk underwriting,insurance,UNRESOLVED_DIRECT_EDGE,RIT_DERIVED if R1-R9 pass; otherwise BINARY_ONLY,REVIEW
+ACT_20,notify/designate,notify,2,notification,information transmission,notification,EDGE_A_TO_B,RIT_DERIVED if R1-R9 pass; otherwise BINARY_ONLY,NO
+ACT_21,notify/designate,notify/designate,3,constitution/recognition,designation/notification,notification,COMPOSITE_CANDIDATE;EDGE_A_TO_B,RIT_DERIVED if R1-R9 pass; otherwise BINARY_ONLY,NO
+ACT_22,obtain technical report or certificate from,obtain technical report or certificate from,1,assurance,technical report/certificate,technical report/certificate,EDGE_A_TO_B,RIT_DERIVED if R1-R9 pass; otherwise BINARY_ONLY,REVIEW
+ACT_23,provide measures,provide,1,enforcement,corrective measures,national procedure,EDGE_A_TO_B,RIT_DERIVED if R1-R9 pass; otherwise BINARY_ONLY,REVIEW
+ACT_24,regulate,regulate,1,oversight,statutory regulation,national rules,EDGE_A_TO_B,RIT_DERIVED if R1-R9 pass; otherwise BINARY_ONLY,REVIEW
+ACT_25,seek/communicate,seek,1,review,expert opinion,laboratory opinion,EDGE_A_TO_B,RIT_DERIVED if R1-R9 pass; otherwise BINARY_ONLY,REVIEW
+ACT_26,select,select,2,constitution/recognition,selection,selection/accreditation,COMPOSITE_CANDIDATE;EDGE_A_TO_B,RIT_DERIVED if R1-R9 pass; otherwise BINARY_ONLY,NO
+ACT_27,submit documentary evidence to,submit documentary evidence to,1,reporting/information,documentary validation,documentary evidence,COMPOSITE_CANDIDATE,RIT_DERIVED if R1-R9 pass; otherwise BINARY_ONLY,REVIEW
+ACT_28,suspend recognition,suspend,1,assurance,review/suspension,certificate/test results,EDGE_A_TO_B,RIT_DERIVED if R1-R9 pass; otherwise BINARY_ONLY,REVIEW

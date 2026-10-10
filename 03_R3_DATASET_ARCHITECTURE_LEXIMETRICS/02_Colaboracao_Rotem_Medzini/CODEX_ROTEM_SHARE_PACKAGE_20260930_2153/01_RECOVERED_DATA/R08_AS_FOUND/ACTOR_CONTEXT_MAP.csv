@@ -1,0 +1,24 @@
+ACTOR_PATTERN,CONTEXT_CATEGORY,CATEGORY_TYPE,BASIS
+commission,EU_public,REGULATOR,EU institution (Commission)
+committee,EU_public,REGULATOR,Comitology committee assisting the Commission
+board,EU_public,REGULATOR,European Board for Digital Services (DSA Art 61)
+member state,national_public,REGULATOR,Member State authorities
+competent authorit,national_public,REGULATOR,National competent authorities
+body recognized as competent,national_public,REGULATOR,Body recognised as competent by a Member State (86/361 Art 2(8))
+digital services coordinator,national_public,REGULATOR,National DSA authority
+registry,hybrid_public_private,REGULATOR,".eu Registry: private non-profit entity administering the TLD under Commission rules (classification is an interpretive choice; see CASE_01 notes)"
+manufacturer,product_economic_operator,TARGET,Manufacturer or authorised representative
+providers of very large,platform_provider,TARGET,VLOP/VLOSE providers (VLOSE would be service_provider; both coded at parent level)
+provider of online platforms,platform_provider,TARGET,Online platform providers
+providers of online platforms,platform_provider,TARGET,Online platform providers
+provider of the very large,platform_provider,TARGET,VLOP/VLOSE provider
+the provider,platform_provider,TARGET,VLOP/VLOSE provider (CASE_05 context)
+applicant,individual,TARGET,"Domain-name applicants (natural or legal persons; vocabulary has no generic 'right-holder' category)"
+respondent,individual,TARGET,ADR respondent (domain-name holder or Registry)
+complainant,individual,BENEFICIARY,ADR complainant
+notified bod,regulatory_intermediary,TARGET,Another intermediary as target (secondary intermediation)
+test laborator,regulatory_intermediary,TARGET,Another intermediary as target
+providers of hosting services,platform_provider,TARGET,Hosting providers whose actions are reported
+registry,service_provider,TARGET,".eu Registry when it is the audited/target entity (CASE_01 auditor)"
+providers of vlops,platform_provider,TARGET,Abbreviated VLOP/VLOSE provider label
+search engine,service_provider,TARGET,VLOSE providers (online search engines)

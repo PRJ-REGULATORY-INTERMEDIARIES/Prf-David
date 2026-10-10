@@ -1,0 +1,27 @@
+corpus:
+  case_id: case_03
+  celex: 32023R1115
+  source: EUR-Lex
+  source_file: ../source/act_official.xhtml
+  generated_files:
+    - act.md
+    - act_numbered.md
+  source_sha256: 2DE95792BC63322FCCAC00216EDD9D301A0DBB639C14E59BCE0A7281A2E6F1B2
+  normalized_corpus_sha256: D2393FD43A024B1E430175951DA9DFD61F08C74F9C9FB038AD431E21A61B3B3C
+  source_size_bytes: 390156
+  normalized_corpus_size_bytes: 172816
+  words_approx: 27029
+  recitals: 86
+  articles: 38
+  annexes:
+    - Annex I
+    - Annex II
+  normalized_at: 2026-09-07
+  locked: true
+
+transformations:
+  - removed presentation and navigation artefacts from the official XHTML
+  - normalized whitespace without translating, summarizing, or paraphrasing
+  - represented headings, paragraphs, points, subparagraphs, and tables in Markdown
+  - preserved title, preamble, recitals, operative provisions, annexes, final provisions, and source order
+  - added no analytical labels, codebook categories, keywords, classifications, or R-I-T fields

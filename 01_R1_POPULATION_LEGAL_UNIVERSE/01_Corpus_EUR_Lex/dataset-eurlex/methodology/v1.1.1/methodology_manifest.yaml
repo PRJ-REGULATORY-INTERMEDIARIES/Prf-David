@@ -1,0 +1,30 @@
+methodology:
+  name: dataset-eurlex
+  version: 1.1.1
+  status: proposed_pre_experiment
+  scope: experimental_output_interface_only
+  supersedes_for_experiment: 1.1.0
+  reference_methodology_unchanged: true
+  empirical_results_used: false
+  benchmark_accessed: false
+  candidate_universe_changed: false
+
+correction:
+  type: pre-experiment_protocol_correction
+  reason: remove_candidate_origin_leakage_and_preserve_condition_symmetry
+  removed_from_experimental_interface:
+    - candidate_origin
+  retained_reference_artifacts:
+    - methodology/v1.1.0/codebook.md
+    - methodology/v1.1.0/reference_coding_schema.json
+  common_conditions:
+    - G0
+    - G1
+    - G2
+
+interface:
+  schema: methodology/v1.1.1/experimental_output_schema.json
+  run_local_identifier: relation_id
+  reference_candidate_id_exposed_to_conditions: false
+  reference_candidate_origin_exposed_to_conditions: false
+

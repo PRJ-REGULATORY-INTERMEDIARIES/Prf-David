@@ -1,0 +1,53 @@
+instrument:
+  celex: 32020R0852
+  short_name: eu_taxonomy_regulation
+  official_title: >-
+    Regulation (EU) 2020/852 of the European Parliament and of the Council of 18 June 2020
+    on the establishment of a framework to facilitate sustainable investment, and amending
+    Regulation (EU) 2019/2088 (Text with EEA relevance)
+  oj_reference: "OJ L 198, 22.6.2020, p. 13"
+  eli: https://eur-lex.europa.eu/eli/reg/2020/852/oj
+  language: EN
+  version_coded: original OJ act (not a consolidated version); consolidated texts and later amendments NOT checked
+
+files:
+  - name: act_official_legacy_PilotA_2026-09-06.xhtml
+    role: T1 legal source; byte-identical copy of legacy taxonomy_raw.html
+    origin: Before_R2/Estudos Preliminares e testes/PoC 01/Entrega-04/data/raw_html/taxonomy_raw.html
+    acquired_utc: "2026-09-06T19:58:59Z"   # from legacy CELEX_MANIFEST_v4.json
+    source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32020R0852
+    bytes: 339583
+    sha256: B006E305A02AF1DF8DDC03D33E1AF067378D8A5818AF53B3B6F6A7F03FB531F2
+    hash_matches_legacy_manifest: true
+  - name: act_official_fresh_2026-09-19.xhtml
+    role: T1 legal source; independent re-acquisition
+    requested_url: http://publications.europa.eu/resource/celex/32020R0852
+    resolved_url: http://publications.europa.eu/resource/cellar/e5ba36a8-b454-11ea-bb7a-01aa75ed71a1.0006.03/DOC_1
+    http_status: 200
+    content_type: application/xhtml+xml;charset=UTF-8
+    acquired_utc: "2026-09-19T12:00:37Z"   # HTTP Date header
+    bytes: 337514
+    sha256: 9CF32A280DFDE87851A89FC1E9C358B9166CA1349FA9FFD578D3AE2638F8E5A6
+    headers_file: headers_fresh.txt
+    headers_sha256: DEBD66435632BE2F496758B15710A8F8D8EE8DBE7DE6C7CAF1FA91DDE1F12D88
+
+equivalence_check:
+  method: strip <head>, scripts, styles and tags; unescape entities; collapse whitespace; compare strings
+  extracted_text_length_chars: 124151
+  extracted_text_identical: true
+  byte_difference: 2069 bytes, markup only (cause not diagnosed)
+  structure_both_files:
+    articles_detected: 27      # ids art_1..art_27, contiguous
+    recitals_detected: 60      # ids rct_1..rct_60, contiguous
+    annexes_detected: 0
+    converter: CONVEX 9.15.0, generated 2023-12-07
+    source_document_id: L_2020198EN.01001301.xml
+  not_verified:
+    - official article/recital counts against the Official Journal (Phase 1 must confirm)
+    - later amendments or corrigenda to the act
+    - whether the Pilot A workbooks were coded on this exact text (closed by firewall)
+
+designation:
+  proposed_primary: act_official_legacy_PilotA_2026-09-06.xhtml   # same bytes the earlier Taxonomy PoC used; hash locked in a manifest
+  proposed_verification_copy: act_official_fresh_2026-09-19.xhtml
+  status: PROPOSED_PENDING_RESEARCHER_CONFIRMATION

@@ -1,0 +1,5 @@
+issue_id,severity,issue,status,mitigation,evidence
+P03-I01,HIGH,Human adjudication is required before final reliability or ontology gate.,OPEN_PENDING_HUMAN,Do not resolve automatically.,HUMAN_ADJUDICATION_RESPONSES.csv
+P03-I02,MEDIUM,Direct relationship type and derived RIT configuration can diverge.,OPEN_TESTED,Keep both fields and apply preregistered rules.,RELATIONSHIP_TYPE_DIRECT_VS_DERIVED.md
+P03-I03,MEDIUM,"Intermediary status is conditional in regulator, committee and collecting-society cases.",OPEN_PENDING_HUMAN,Preserve direct/derived distinction.,INTERMEDIARY_STATUS_TEST.md
+P03-I04,LOW,"Two passes are model-independent, not human intercoder passes.",DOCUMENTED,Do not report as human kappa.,AGREEMENT_REPORT.md

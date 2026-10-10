@@ -1,0 +1,44 @@
+celex_id: 32021R1119
+official_title: "Regulation (EU) 2021/1119 of the European Parliament and of the Council of 30 June 2021 establishing the framework for achieving climate neutrality and amending Regulations (EC) No 401/2009 and (EU) 2018/1999 (‘European Climate Law’)"
+source_file: 01_sources/32021R1119/source_original_en.pdf
+source_sha256: 855EBC344E9FAF2DB68D75317C08034AF54A1CCE216D8D00C640C3073E639840
+source_url: "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX%3A32021R1119&from=EN"
+retrieval_timestamp: "2026-09-20T16:29:36.9612139-03:00"
+source_version: ORIGINAL_ACT_AS_ADOPTED
+corpus_generation_timestamp: "2026-09-20T16:52:07.0722284-03:00"
+generated_files:
+  - act_full.md
+  - recitals.md
+  - operative.md
+  - act_numbered.md
+  - article_index.csv
+generated_file_sha256:
+  act_full.md: 0770DA131B77FF2A57915D746B883CD403BA8B38D6E9F9EB10E01F7AF4730F78
+  recitals.md: E5E94FDF6442D2B1896346EE159920EF3CC51788E64F9626BF80E9EE4AF801B6
+  operative.md: D04A0CFE7D47FC066F7057A10DF7FB0715A79F7927B2D19F8AF944183B537CDF
+  act_numbered.md: F267DEBCBC2204110848928B777746BABBE206F8E910BA3F4E45ACB1F5161723
+  article_index.csv: 03E4E8B027D862D85AB64B20075920965AF28A5F27A4C674959F21DB09125895
+normalization_operations:
+  - remove Official Journal page headers and form-feed page separators
+  - trim extraction-only leading/trailing whitespace
+  - repair line-wrap hyphenation when the continuation begins with lowercase text
+  - preserve paragraph, heading, numbering, table and annex line structure
+  - no substantive rewriting, summarization or inference
+structural_counts:
+  recitals: 40
+  articles: 14
+  annexes: 0
+  titles: 0
+  chapters: 0
+  sections: 0
+  words: 10159
+  characters: 67234
+quality_checks:
+  pdf_pages: 17
+  first_article: 1
+  last_article: 14
+  first_recital: 1
+  last_recital: 40
+  source_hash_matches_phase1: True
+  corpus_status: CORPUS_TEXT_REQUIRES_REVIEW
+  source_to_corpus_fidelity: STRUCTURAL_CHECK_PASS_REVIEW_REQUIRED

@@ -1,0 +1,14 @@
+{
+  "capsule_id": "RGAM_AI_AI_ACT",
+  "instrument_title": "Regulation (EU) 2024/1689 — Artificial Intelligence Act",
+  "celex": "32024R1689",
+  "language": "EN",
+  "version_and_scope": "Original act OJ L 2024/1689 12 July 2024; not consolidated",
+  "official_source_url": "http://publications.europa.eu/resource/cellar/dc8116a1-3fe6-11ef-865a-01aa75ed71a1.0006.03/DOC_1",
+  "corpus_scope": "FULL_OFFICIAL_INSTRUMENT",
+  "article_count_metadata": 113,
+  "annex_count_metadata": 13,
+  "controlling_source_file": "LEGAL_SOURCE/32024R1689_official_en.xhtml",
+  "source_sha256": "8f0b656302f9864cc87e040c371f209a9d65ae1a6cecc25ca5eb737e872d721a",
+  "corpus_register_status": "VERIFIED_COMPLETE"
+}

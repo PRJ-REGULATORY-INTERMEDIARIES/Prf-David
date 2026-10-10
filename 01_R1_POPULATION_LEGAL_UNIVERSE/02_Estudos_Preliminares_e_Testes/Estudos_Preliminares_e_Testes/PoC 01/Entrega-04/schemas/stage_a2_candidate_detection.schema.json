@@ -1,0 +1,33 @@
+{
+  "name": "stage_a2_candidate_detection",
+  "description": "Stage A2 - semantic candidate detection. Unit: one legal provision. Complements (does not replace) the regex-based Stage A1 in screening_v3.py.",
+  "strict": true,
+  "schema": {
+    "type": "object",
+    "properties": {
+      "provision_id": { "type": "string" },
+      "ai_candidate": {
+        "type": "string",
+        "enum": ["1", "0", "UNK"],
+        "description": "Does this provision potentially contain a regulatory relationship in which an analytically distinct actor mediates between a rule-maker/regulator and a rule-taker/target, even if none of the canonical intermediary labels appears?"
+      },
+      "candidate_actor": { "type": ["string", "null"] },
+      "candidate_function": { "type": ["string", "null"] },
+      "candidate_mechanism": { "$ref": "#/$defs/MechanismLabel" },
+      "ai_evidence": { "type": "string" },
+      "additional_context_required": { "type": "boolean" },
+      "requested_legal_source": { "type": ["string", "null"] },
+      "reason": { "type": ["string", "null"] },
+      "ai_run_ref": { "type": "string" },
+      "ai_confidence": { "$ref": "#/$defs/ConfidenceLevel" },
+      "abstention_reason": { "type": ["string", "null"] }
+    },
+    "required": [
+      "provision_id", "ai_candidate", "candidate_actor", "candidate_function",
+      "candidate_mechanism", "ai_evidence", "additional_context_required",
+      "requested_legal_source", "reason", "ai_run_ref", "ai_confidence",
+      "abstention_reason"
+    ],
+    "additionalProperties": false
+  }
+}

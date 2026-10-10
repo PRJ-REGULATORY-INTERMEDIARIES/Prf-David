@@ -1,0 +1,10 @@
+rule_id,rule,required,test
+R1,same_act_or_legal_arrangement,YES,Both edges belong to the same act or an explicitly connected legal arrangement.
+R2,shared_candidate_intermediary,YES,The same actor is the endpoint of R→I and the source of I→T.
+R3,explicit_R_to_I_edge,YES,A provision-supported R→I edge exists.
+R4,explicit_I_to_T_edge,YES,A provision-supported I→T edge exists.
+R5,compatible_object_or_procedure,YES,Objects/procedures are legally connected and not merely co-mentioned.
+R6,compatible_modality,YES,Modal force does not contradict across edges.
+R7,no_direction_contradiction,YES,The proposed composition preserves edge direction.
+R8,governance_work,YES,"I performs assurance, monitoring, reporting, dispute resolution or another governance function."
+R9,ordinary_service_exclusion,YES,I is not classified as intermediary merely because it supplies an ordinary commercial service.

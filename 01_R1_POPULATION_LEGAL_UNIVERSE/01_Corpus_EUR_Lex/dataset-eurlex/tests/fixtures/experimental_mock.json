@@ -1,0 +1,26 @@
+[
+  {
+    "relation_id": "RUN-001",
+    "location": {"article": "1", "paragraph": "1", "point": null, "subparagraph": null, "recital": null},
+    "evidence": ["Synthetic provision one"],
+    "R": ["Authority A"], "I": ["Verifier B"], "T": ["Operator C"],
+    "action": ["verify"], "object": ["report"], "mediating_function": ["verification"],
+    "mechanism": "verification", "decision": "intermediated", "confidence": "high", "notes": []
+  },
+  {
+    "relation_id": "RUN-003",
+    "location": {"article": "3", "paragraph": "1", "point": null, "subparagraph": null, "recital": null},
+    "evidence": ["Synthetic provision three"],
+    "R": ["Authority Z", "Authority Y"], "I": ["Unknown Y", "Unknown X"], "T": ["Operator Q", "Operator R"],
+    "action": ["certify"], "object": ["product"], "mediating_function": ["certification"],
+    "mechanism": "certification", "decision": "intermediated", "confidence": "medium", "notes": []
+  },
+  {
+    "relation_id": "RUN-004",
+    "location": {"article": "4", "paragraph": "1", "point": null, "subparagraph": null, "recital": null},
+    "evidence": ["Synthetic provision four"],
+    "R": [], "I": [], "T": [],
+    "action": ["apply"], "object": ["rule"], "mediating_function": [],
+    "mechanism": "none_or_direct", "decision": "direct", "confidence": "low", "notes": []
+  }
+]

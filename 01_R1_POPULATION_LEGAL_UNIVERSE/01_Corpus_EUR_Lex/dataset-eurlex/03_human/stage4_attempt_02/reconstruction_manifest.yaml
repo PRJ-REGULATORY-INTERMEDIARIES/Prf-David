@@ -1,0 +1,72 @@
+attempt: stage4_attempt_02
+status: prepared_not_executed
+supersedes: stage4_attempt_01
+corpus:
+  path: 02_corpus/act.md
+  canonical_only: true
+methodology:
+  path: methodology/v1.1.0
+  reference_schema_only_for_R1_R2_RA: true
+  experimental_schema_used: false
+  strings_used_only_for_screening_and_reconstruction: true
+  strings_authorized_in_substantive_contexts: false
+candidate_reconstruction:
+  path: 03_human/stage4_attempt_02/candidate_reconstruction.json
+  channels:
+    - lexical_screening
+    - structural_reading_with_hierarchy_and_same_act_context
+  substantive_R_I_T_coding_completed: false
+  candidate_count: 90
+  origin_counts:
+    lexical: 25
+    structural: 21
+    both: 44
+  sha256: 38416B70F9337AD66DBD6C6D41D280D18AD9E5694E0CACB0C938C5833B1AFF55
+  csv_sha256: 0C2D10E32E9AB81BA6E628CC64866C5C7A2D3008165805A6FD9A4BBF60D5B7D6
+  newly_reconstructed_from_attempt_01:
+    - attempt_01_candidate_id: CAND-0031
+      candidate_id: CAND2-DAF9214798E0
+      source_location: Recital 38, lines 171-171
+    - attempt_01_candidate_id: CAND-0066
+      candidate_id: CAND2-7811F95526B7
+      source_location: Article 6, paragraph 2, lines 280-282
+transition_audit:
+  path: 03_human/stage4_attempt_02/candidate_transition_audit.csv
+  attempt_01_candidates: 106
+  attempt_02_candidates: 90
+  coding_fields_reused: none
+  no_automatic_exclusion_for_unmatched: true
+  every_attempt_01_candidate_has_one_audit_outcome: true
+  absorbed_rows_require_absorbed_by_candidate_id: true
+  explicit_exclusions_require_concrete_structural_reason: true
+  transitions:
+    retained: 74
+    hierarchically_remapped: 5
+    absorbed_into_new_candidate: 7
+    explicitly_excluded_after_reconstruction: 18
+    unmatched_requires_review: 0
+    newly_reconstructed: 2
+  unmatched_candidate_ids: []
+isolation:
+  R1_packet: R1_coding_input.json
+  R2_packet: R2_coding_input.json
+  R1_packet_sha256: 813B984C5E80AA03C98BC4399F40644C7D802EEDD45F55A2D7A9A787A82D0B38
+  R2_packet_sha256: 813B984C5E80AA03C98BC4399F40644C7D802EEDD45F55A2D7A9A787A82D0B38
+  packet_candidate_count: 90
+  R1_R2_share_outputs: false
+  RA_started: false
+  human_gate_started: false
+  stage_5_started: false
+logic_validation:
+  implementation: validate_reference_logic.py
+  relational_result_consistency_required: true
+  human_trigger_rules_prepared: true
+  substantive_signature_comparison: true
+  low_confidence_trigger_any_of_R1_R2_RA: true
+human_review:
+  template: human_review_template.csv
+  populated: false
+  approve_ra_recommendation_present: false
+state_after_preparation:
+  project_status: methodology_locked
+  experiment_status: not_started

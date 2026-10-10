@@ -1,0 +1,21 @@
+[
+  {
+    "candidate_id": "MOCK-001",
+    "source_location": {"article": "1", "paragraph": "1", "point": null, "subparagraph": null, "recital": null},
+    "relational_result": "positive",
+    "R": [{"label": "Authority A"}],
+    "I": [{"label": "Verifier B"}],
+    "T": [{"label": "Operator C"}],
+    "primary_mechanism": "verification"
+  },
+  {
+    "candidate_id": "MOCK-002",
+    "source_location": {"article": "2", "paragraph": "1", "point": null, "subparagraph": null, "recital": null},
+    "relational_result": "positive",
+    "R": [{"label": "Authority A"}],
+    "I": [{"label": "Auditor B"}],
+    "T": [{"label": "Operator D"}],
+    "primary_mechanism": "auditing"
+  }
+]
+

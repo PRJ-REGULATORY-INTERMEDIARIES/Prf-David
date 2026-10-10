@@ -1,0 +1,21 @@
+﻿relationship_id,object,function,mechanism,instrument_or_legal_device,relationship_type,provenance,issue_flag
+P01_REL_01,technical apparatus and conformity requirements,constitution/recognition,designation,notification/designation by Member States,R_I_T,MODEL_PILOT,
+P01_REL_02,technical apparatus and conformity requirements,assurance,conformity_attestation,conformity mark/certificate,I_T,MODEL_PILOT,
+P02_REL_01,apparatus conformity,assurance,vetting,technical report/certificate,R_I_T,MODEL_PILOT,PROVISION_REFERENCE_MISSING
+P02_REL_02,apparatus conformity,assurance,vetting,EC type-examination certificate,R_I_T,MODEL_PILOT,PROVISION_REFERENCE_MISSING
+P02_REL_03,intermediary organizational and financial governance,risk underwriting,insurance,civil-liability insurance,I_T,MODEL_PILOT,INTERMEDIARY_STATUS_UNCERTAIN
+P03_REL_01,terminal equipment conformity,assurance,vetting,designation plus conformity procedure,R_I_T,MODEL_PILOT,PROVISION_REFERENCE_MISSING
+P03_REL_02,terminal equipment,assurance,conformity_assessment,EC type-examination and product checks,I_T,MODEL_PILOT,PROVISION_REFERENCE_MISSING
+P03_REL_03,manufacturer quality systems,monitoring,audit_surveillance,quality-system approval and surveillance,I_T,MODEL_PILOT,FUNCTION_MECHANISM_BOUNDARY
+P03_REL_04,terminal equipment,assurance,testing,test laboratory,I_T,MODEL_PILOT,PROVISION_REFERENCE_MISSING
+P04_REL_01,.eu domain registration and administration,oversight,public_oversight,Commission oversight/consent,R_I_T,MODEL_PILOT,
+P04_REL_02,domain-name registration services,constitution/recognition,accreditation,accreditation and contract,R_I_T,MODEL_PILOT,PROVISION_REFERENCE_MISSING
+P04_REL_03,prior-right claims in domain-name applications,assurance,validation,documentary validation,R_I_T,MODEL_PILOT,
+P04_REL_04,prior-right claims in domain-name applications,assurance,validation,documentary validation,I_T,MODEL_PILOT,
+P04_REL_05,phased registration administration,auditing,independent_audit,independent audit,R_I_T,MODEL_PILOT,
+P04_REL_06,phased registration administration,reporting,information_transmission,audit report,I_T,MODEL_PILOT,
+P04_REL_07,continuity of domain service,assurance,escrow,escrow agreement,R_I_T,MODEL_PILOT,
+P04_REL_08,abusive registration disputes and Registry decisions,dispute resolution,ADR,ADR procedure,R_I_T,MODEL_PILOT,PROVISION_REFERENCE_MISSING
+P04_REL_09,abusive registration disputes,dispute resolution,ADR,ADR panel,I_T,MODEL_PILOT,PROVISION_REFERENCE_MISSING
+P05_REL_01,payer information and AML/CFT controls,assurance,external_audit,audit/supervision condition,R_I_T,MODEL_PILOT,LEGAL_TEXT_VALIDATION_REQUIRED
+P05_REL_02,payer information and related records,reporting,information_transmission,reporting/audit arrangement,I_T,MODEL_PILOT,ALTERNATIVE_INTERMEDIARY_CATEGORY

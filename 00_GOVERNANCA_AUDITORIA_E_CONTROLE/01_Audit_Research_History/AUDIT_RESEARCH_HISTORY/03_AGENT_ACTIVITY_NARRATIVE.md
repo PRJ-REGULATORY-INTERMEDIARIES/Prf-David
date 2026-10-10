@@ -1,0 +1,5 @@
+# Atividade de agentes e automação
+
+Há evidência documental de fluxos com IA: `Entrega-04/data/ai_runs_v4.csv/jsonl` e summary, `R4_AI_EXECUTION_LOG.csv`, prompts, schemas, relatórios R4 e provenance corrections. R4.2 method note registra Luna solicitada com variante runtime não exposta; relatórios seguintes distinguem revisão Terra, autocheck Luna reclassificado e uso de Claude na continuidade de lote, preservando as limitações de identidade/model label. PILOT_03 registra dois passes de modelo e camada separada de 19 adjudicações humanas; isso não mede confiabilidade entre codificadores humanos. R4 closeout/nota diz que Rotem não foi consultado na validação estrutural.
+
+O CSV lista fontes candidatas, não presume um arquivo = ação. Não havia logs de sessão exportados diretamente descobertos nesta raiz, e não se consultaram pastas fora do workspace. Autor Git é `cairesmachado-svg`; não há base para atribuir commits individuais a IA. Atividades específicas permanecem atribuíveis apenas aos nomes/descrições registrados nos artefatos.

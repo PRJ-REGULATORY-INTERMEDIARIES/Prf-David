@@ -1,0 +1,19 @@
+{
+  "pilot": "PILOT_02",
+  "generated_at": "2026-09-30T21:04:04",
+  "cases": [
+    "76/889/EEC",
+    "89/336/EEC",
+    "91/263/EEC",
+    "EC 874/2004",
+    "1781/2006"
+  ],
+  "provision_count": 17,
+  "candidate_count": 17,
+  "coder_a": "MODEL_INDEPENDENT_A",
+  "coder_b": "MODEL_INDEPENDENT_B",
+  "disagreement_cells": 30,
+  "gate": "RELATIONAL_MODEL_RELIABILITY_SUPPORTED_WITH_REVISIONS",
+  "production_modified": false,
+  "pilot_01_modified": false
+}

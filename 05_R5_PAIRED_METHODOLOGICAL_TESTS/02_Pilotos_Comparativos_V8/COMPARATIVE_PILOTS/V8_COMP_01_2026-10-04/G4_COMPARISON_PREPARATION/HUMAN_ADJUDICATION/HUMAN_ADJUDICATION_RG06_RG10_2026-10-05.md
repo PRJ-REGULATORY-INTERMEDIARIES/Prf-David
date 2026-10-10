@@ -1,0 +1,108 @@
+# RG-06 and RG-10 - human adjudication packet
+
+**Date prepared:** 2026-10-05  
+**Status:** `PENDING_HUMAN_DECISION` for both correspondence items.  
+**Purpose:** Resolve only the correspondence and evidence-scope questions below. This packet does not assign a Step 2A outcome or initiate Step 2B.
+
+The cards retain anonymized proposition labels A-E. A coordinator-only source map is included at the end because provenance was requested; keep that section sealed until any blinded review is complete. The two human-source files and prior frozen records remain unchanged.
+
+## RG-06 - CG-018
+
+**Case/level:** P03 / configuration.  
+**Step 2A proposal:** CANDIDATE_OVERLAPPING_PROPOSITION (candidate only; 4 original members plus derived unit(s) CLAUDE_A:CL-P03-02#CORE; no outcome label). Same case, same core relations (audit, audit report; statements CS-P03-005, CS-P03-006), same organising idea (assurance of a manufacturer's quality system); membership and treatment of the assessment statement differ. Overlapping, not identical.
+
+### Anonymized propositions
+
+Proposition A: In P03, in the Annex III anchor, the cell records a configuration in which the notified body assesses the manufacturer's quality system, audits at reasonable intervals and provides an audit report to the manufacturer, described as a partial third-party assessment-and-surveillance pattern with reporting back ([ref] [ref]; CS-P03-005, CS-P03-006, with CS-P03-003 for function and object only).
+Proposition B: In P03 (CS-P03-003, CS-P03-005, CS-P03-006), the cell records a configuration of a notified-body audit of the manufacturer ([ref]) and an audit report to the manufacturer ([ref]), together with the retained quality-system assessment assignment (CS-P03-003), concerning assessment and monitoring of a manufacturer's quality system. CS-P03-004 is outside the configuration because its sender is not expressed. The cell states that no accountability system is inferred.
+Proposition C: Constructed at Step 0 from [ref] by removing the relation whose counterparty comes from text outside the frozen set ([ref]): in P03 (CS-P03-003, CS-P03-005, CS-P03-006), a notified body audits at reasonable intervals and provides an audit report to the manufacturer ([ref] [ref]); the assessment function of CS-P03-003 is retained without a counterparty.
+Proposition D: In P03 (CS-P03-003, CS-P03-005, CS-P03-006), the cell records a configuration of the notified body's periodic audit of the manufacturer and the audit report to the manufacturer ([ref] [ref]), with CS-P03-003 retained as an assessment assignment without an actor edge. CS-P03-004 is excluded because the notifying actor is unspecified. No certification, sanction, market-access or accountability consequence is added.
+Proposition E: In P03, within Annex III as sampled, the cell records a partial candidate configuration in which a notified body assesses the manufacturer's quality system, audits at reasonable intervals and provides an audit report to the manufacturer, the report going to the audited party only. Members: [ref] (assessment; its counterparty is taken from text outside the frozen set), [ref] [ref]
+
+### Exact frozen evidence
+
+CS-P03-003 [Annex III point 3.3]: The notified body shall assess the quality system to determine whether it satisfies the requirements referred to in point 3.2.
+CS-P03-005 [Annex III point 4.3]: The notified body shall carry out audits at reasonable intervals to make sure that the manufacturer maintains and applies the quality system
+CS-P03-006 [Annex III point 4.3]: The notified body shall carry out audits at reasonable intervals to make sure that the manufacturer maintains and applies the quality system and shall provide an audit report to the manufacturer.
+
+### Out-of-scope context (not frozen evidence)
+
+OUTSIDE FROZEN EVIDENCE / HISTORICAL SCOPE NOTE: Proposition A's descriptive attribution to the manufacturer references Annex III points 2/3.1 as peripheral corroboration in the earlier card; Proposition E was SC-C because its assessment counterparty came from outside the frozen excerpts. Igor's P1 decision supplies an alternative frozen provenance via point 4.3 for R-P03-04. Do not import the wording of points 2, 3.1, or 3.2 into this review.
+
+### Effect of prior P1 human decisions
+
+Item-level scope: Igor's P1 decisions link to HRQ-01 / S1-037 / CLAUDE_A / R-P03-04; HRQ-14 / S1-093 / CLAUDE_A / CL-P03-02 (Proposition E); and HRQ-24 / S1-113 / CLAUDE_A / CL-P03-02#CORE (Proposition C). The similarly named Proposition A, CLAUDE_B / S1-102 / CL-P03-02, is a distinct P2 item (HRQ-18) and is NOT adjudicated by the P1 decision. The P1 decisions do not settle whether A-E correspond and do not adjudicate the Codex configuration claims.
+
+### Remaining question for Igor
+
+Do the propositions describe the same configuration, and does any proposition depend on text outside the frozen excerpts? Q1 Do the propositions correspond to the same institutional proposition on the frozen excerpts (SAME / PARTLY_SAME / DIFFERENT / CANNOT_JUDGE)? Q2 Which propositions rely on any text outside the excerpts shown? Q3 Are the differences mainly segmentation, vocabulary, scope of what is claimed, or substance? Do not infer which system produced a proposition; record a guess in free_comments if you have one.
+
+### Neutral response frame (no answer preselected)
+
+For correspondence: SAME / PARTLY_SAME / DIFFERENT / CANNOT_JUDGE. For scope, identify proposition(s) and whether the relied-on basis is frozen, only peripheral context, outside-frozen and load-bearing (sensitivity-only), or indeterminate. For differences: segmentation / vocabulary / scope / substance / mixed / other. These are neutral alternatives; free-text reasoning controls. No answer is preselected.
+
+**Human decision:** ____________________  
+**Confidence (1-5):** ____________________  
+**Justification:** ____________________  
+**Reviewer identity/code:** ____________________  
+**Review date (YYYY-MM-DD):** ____________________
+
+## RG-10 - CG-019
+
+**Case/level:** P04 / configuration.  
+**Step 2A proposal:** CANDIDATE_OVERLAPPING_PROPOSITION (candidate only; 4 original members plus derived unit(s) CLAUDE_B:CL-P04-02#CORE; no outcome label). Same case, statements CS-P04-001 and CS-P04-002, same organising idea (constitution of the independent audit); membership and the treatment of the audit object differ. Overlapping, not identical.
+
+### Anonymized propositions
+
+Proposition A: In P04 (CS-P04-001, CS-P04-002), the cell records a configuration in which the independent audit of the phased registration is performed after the Registry has appointed the auditor having consulted the Commission, at the end of the phased registration and at the Registry's expense, and reports its findings to the Commission. The configuration chain also includes an auditor-to-Registry verification relation ([ref]) whose object comes from text outside the frozen statements.
+Proposition B: In P04 (CS-P04-001, CS-P04-002), the cell records a configuration of the Registry's appointment of the auditor ([ref]) and the Registry's consultation of the Commission ([ref]), concerning the constitution of an independent audit at the end of phased registration. The audit-report requirement (CS-P04-001) is retained as an assignment, not as an auditor-to-Commission relation. The cell states that consultation does not establish approval, veto, accountability or continuing supervision.
+Proposition C: In P04 (CS-P04-001, CS-P04-002), within Article 12(5) as sampled, the cell records a narrow candidate configuration: the Registry appoints the auditor after consulting the Commission and the audit reports its findings to the Commission. The cell makes no claim about what is audited or about accountability.
+Proposition D: In P04 (CS-P04-001, CS-P04-002), the cell records a configuration of the Registry's appointment of the auditor and the Registry's consultation of the Commission ([ref] [ref]), with CS-P04-001 retained as an audit-report assignment, concerning the constitution of an independent audit at the end of phased registration. No actor-to-Commission audit-report relation, Commission approval or audit accountability system is inferred.
+Proposition E: Constructed at Step 0 from [ref] by removing the auditor-to-Registry verification relation ([ref]) and the auditee premise from the warrant: in P04 (CS-P04-001, CS-P04-002), the independent audit is performed at the end of the phased registration at the Registry's expense, the auditor is appointed by the Registry after consulting the Commission, and findings are reported to the Commission.
+
+### Exact frozen evidence
+
+CS-P04-001 [Article 12(5)]: At the end of the phased registration an independent audit shall be performed at the expense of the Registry and shall report its findings to the Commission.
+CS-P04-002 [Article 12(5)]: The auditor shall be appointed by the Registry after consulting the Commission.
+
+### Out-of-scope context (not frozen evidence)
+
+OUTSIDE FROZEN EVIDENCE: Proposition A's auditor-to-Registry verification relation and auditee premise were previously classified SC-C; Igor's decision retains R-P04-05 as sensitivity-only. The source memo identifies the third sentence of Article 12(5) as the out-of-scope audit-object source. That sentence is not reproduced here and was not consulted for the frozen reopening test.
+
+### Effect of prior P1 human decisions
+
+Item-level scope: Igor's P1 decisions link to HRQ-04 / S1-059 / CLAUDE_B / R-P04-05; HRQ-19 / S1-104 / CLAUDE_B / CL-P04-02 (Proposition A); and HRQ-25 / S1-114 / CLAUDE_B / CL-P04-02#CORE (Proposition E). Proposition C, CLAUDE_A / S1-096 / CL-P04-02, is a distinct non-P1 unit and is NOT adjudicated by the P1 decision. The original Claude B warrant remains sensitivity-only; its derived core is an aid with mandatory with/without reporting. None of these decisions settles whether A-E correspond.
+
+### Remaining question for Igor
+
+Do the propositions describe the same configuration, and does any proposition depend on text outside the frozen excerpts? Q1 Do the propositions correspond to the same institutional proposition on the frozen excerpts (SAME / PARTLY_SAME / DIFFERENT / CANNOT_JUDGE)? Q2 Which propositions rely on any text outside the excerpts shown? Q3 Are the differences mainly segmentation, vocabulary, scope of what is claimed, or substance? Do not infer which system produced a proposition; record a guess in free_comments if you have one.
+
+### Neutral response frame (no answer preselected)
+
+For correspondence: SAME / PARTLY_SAME / DIFFERENT / CANNOT_JUDGE. For scope, identify proposition(s) and whether the relied-on basis is frozen, only peripheral context, outside-frozen and load-bearing (sensitivity-only), or indeterminate. For differences: segmentation / vocabulary / scope / substance / mixed / other. These are neutral alternatives; free-text reasoning controls. No answer is preselected.
+
+**Human decision:** ____________________  
+**Confidence (1-5):** ____________________  
+**Justification:** ____________________  
+**Reviewer identity/code:** ____________________  
+**Review date (YYYY-MM-DD):** ____________________
+
+## Coordinator-only source map - seal from blinded reviewer
+
+This map identifies source cells and claims as requested. Remove or seal this section before any blinded review; the adjudication questions above preserve proposition labels A-E.
+
+### RG-06 / CG-018
+
+Proposition A: CLAUDE_B / CL-P03-02 [ORIGINAL_CELL_CLAIM; S1-102]
+Proposition B: CODEX_A / TA-P03-CFG-02 [ORIGINAL_CELL_CLAIM; S1-073]
+Proposition C: CLAUDE_A / CL-P03-02#CORE [STEP0_DERIVED; S1-113]
+Proposition D: CODEX_B / TB-P03-CFG-02 [ORIGINAL_CELL_CLAIM; S1-081]
+Proposition E: CLAUDE_A / CL-P03-02 [ORIGINAL_CELL_CLAIM; S1-093]
+
+### RG-10 / CG-019
+
+Proposition A: CLAUDE_B / CL-P04-02 [ORIGINAL_CELL_CLAIM; S1-104]
+Proposition B: CODEX_A / TA-P04-CFG-01 [ORIGINAL_CELL_CLAIM; S1-074]
+Proposition C: CLAUDE_A / CL-P04-02 [ORIGINAL_CELL_CLAIM; S1-096]
+Proposition D: CODEX_B / TB-P04-CFG-01 [ORIGINAL_CELL_CLAIM; S1-082]
+Proposition E: CLAUDE_B / CL-P04-02#CORE [STEP0_DERIVED; S1-114]

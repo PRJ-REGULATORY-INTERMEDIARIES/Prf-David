@@ -1,0 +1,48 @@
+provider: Anthropic
+role: Primary Interpretive Reader (second independent reading, R2)
+prompt_version: production_v1.1
+prompt_path: prompts/production/PRIMARY_INTERPRETIVE_READER.md
+schema_version: production_v1.1
+case_id: case_02
+celex: 32023R0956
+corpus_path: cases/case_02/corpus/act.md
+run_date: 2026-09-08
+model: null
+model_version: null
+reasoning_effort: null
+run_id: R2
+note: >
+  Exact model identity, model version, and reasoning-effort telemetry are recorded by the
+  orchestrating session rather than reliably self-observable with certainty from inside this
+  run; left null rather than guessed, per the functional-role-naming principle in
+  docs/methodology/METHODOLOGY_WORKING_DRAFT_V1_1.md section 8.
+
+authorization_and_design_note: >
+  Intentional second, independent Primary Interpretive Reader run, authorized explicitly by
+  the researcher after being informed that PRIMARY_INTERPRETIVE_READER_PROPOSAL.{json,md} and
+  RUN_METADATA.yaml already existed for all three cases and had already passed validation
+  (see cases/case_01/primary_coding/RUN_METADATA_R2.yaml for the full disclosure). Output is
+  written to new, distinctly named files and does not overwrite, edit, or delete any existing
+  artifact for this or any other case.
+
+context_exposure_transparency_note: >
+  Before this reading began, this session read this case's own RUN_METADATA.yaml (for the
+  existing R1 proposal), whose validation-summary line disclosed an aggregate count: "all 15
+  relation records" / "15/15 relation records" verbatim-checked. This session did not open
+  PRIMARY_INTERPRETIVE_READER_PROPOSAL.json, PRIMARY_INTERPRETIVE_READER_PROPOSAL.md, or any
+  CLAUDE_CODING_PROPOSAL.* file for this or any other case, and did not see which provisions,
+  actors, or relation types the first reading identified. The count of 15 was not targeted,
+  approached, or adjusted toward in this reading (which independently arrived at 8 main-matrix
+  relations); see cases/case_01/primary_coding/RUN_METADATA_R2.yaml for the parallel
+  disclosure regarding Case 03's count and a documented Case 01 interpretive disagreement,
+  both incidentally seen during this session's initial status investigation before any
+  case-specific reading began.
+
+validation:
+  jsonschema_against_coding_matrix_schema: pass (Draft 2020-12, 8/8 relation records)
+  validate_production_logic_validate_all: pass (0 errors, 8/8 relation records)
+  evidence_quote_verbatim_check: pass (17 evidence_quote strings confirmed as verbatim substrings of cases/case_02/corpus/act.md)
+outputs:
+  - cases/case_02/primary_coding/PRIMARY_INTERPRETIVE_READER_PROPOSAL_R2.json
+  - cases/case_02/primary_coding/PRIMARY_INTERPRETIVE_READER_PROPOSAL_R2.md
+  - cases/case_02/primary_coding/RUN_METADATA_R2.yaml

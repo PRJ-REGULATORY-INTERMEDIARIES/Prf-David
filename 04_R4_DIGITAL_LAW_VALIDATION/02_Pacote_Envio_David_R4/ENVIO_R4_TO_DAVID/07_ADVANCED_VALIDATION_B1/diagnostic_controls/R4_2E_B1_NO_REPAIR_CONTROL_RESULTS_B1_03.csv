@@ -1,0 +1,4 @@
+"CONTROL_DIAGNOSTIC","BATCH_ID","RECORD_ID","CONTROL_RESULT","ADVANCED_DEFECT_PRESENT","CONTROL_DEFECT_TYPE","CONTROL_DEFECT_SEVERITY","NOTE"
+"NO_REPAIR_CONTROL_DIAGNOSTIC","B1-03","EXT-000163","DEFECT_FOUND","YES","PREDICATE_RECONSTRUCTION_ERROR","MODERATE","Article 60(8) loses a coordinated notification and information predicate and misallocates the two addressees."
+"NO_REPAIR_CONTROL_DIAGNOSTIC","B1-03","EXT-000660","DEFECT_FOUND","YES","RELATIONAL_FIELD_ERROR","MODERATE","Article 66(4) merges the Commission recipient into the object and duplicates it as counterpart and recipient."
+"NO_REPAIR_CONTROL_DIAGNOSTIC","B1-03","EXT-000986","CLEAN_CONFIRMED","NO","","","The Article 31(1) establishment and legal-personality proposition is structurally retained."

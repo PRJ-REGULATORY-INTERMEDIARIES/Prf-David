@@ -1,0 +1,8 @@
+freeze_item_id,artifact_or_evidence,role,controlling_path_or_manifest_id,sha256_or_value,freeze_status,freeze_timestamp,notes
+CSF-001,COMMON_STATEMENT_REGISTER.csv,COMMON_INPUT_DATASET,COMMON_STATEMENT_REGISTER.csv,417A35A361E44F8BECFBD8FC39B34738C026591C59B7E837FDDF292F9EF3E77F,FROZEN,2026-10-04T12:41:44-03:00,"20 neutral statements: P03=6; P04=14"
+CSF-002,P03 official legal text,CONTROLLING_PRIMARY_SOURCE,FE-001,01D5BDB117B370AE9DAD7F3ABB151583A75519CBAD0E7808EFC9040C8D656888,FROZEN_VERIFIED,2026-10-04T12:41:44-03:00,"Council Directive 91/263/EEC; common input source for every P03 statement"
+CSF-003,P04 official legal text,CONTROLLING_PRIMARY_SOURCE,FE-003,62AFB4DDCCAE5E7157590B1386040AA8D160701D7194DBD2F2403AC4B6781449,FROZEN_VERIFIED,2026-10-04T12:41:44-03:00,"Commission Regulation (EC) No 874/2004; common input source for every P04 statement"
+CSF-004,PILOT_03 canonical provision register,HISTORICAL_PROVENANCE,FE-005,EDBBB5A4C7BAB6334C6B8A195A7443899669180B8843B9359A9CC9E3ED1B59F0,PRESERVED_REFERENCE,2026-10-04T12:41:44-03:00,"Controls anchor-selection provenance only; not legal wording or new conclusions"
+CSF-005,source-integrity recheck,VERIFICATION_RECORD,SOURCE_INTEGRITY_RECHECK.csv,ALL_14_ACCESSIBLE_ARTIFACTS_MATCH,PASS,2026-10-04T12:41:44-03:00,"FE-011 expanded into three separately verifiable entries in FE011_COMPONENT_MANIFEST.csv"
+CSF-006,scope exclusion,CONSTRAINT,P04 Article 22(7),EXCLUDED_CONTEXT_ONLY,PASS,2026-10-04T12:41:44-03:00,"No statement derived; an amendment would be required to include it"
+CSF-007,prospective input parity,EXPERIMENTAL_CONTROL,Track A and Track B,CSF-001+CSF-002+CSF-003,REQUIRED,PENDING_NEXT_ITERATION,"Both tracks must receive these exact frozen artifacts; Track A precedes Track B"

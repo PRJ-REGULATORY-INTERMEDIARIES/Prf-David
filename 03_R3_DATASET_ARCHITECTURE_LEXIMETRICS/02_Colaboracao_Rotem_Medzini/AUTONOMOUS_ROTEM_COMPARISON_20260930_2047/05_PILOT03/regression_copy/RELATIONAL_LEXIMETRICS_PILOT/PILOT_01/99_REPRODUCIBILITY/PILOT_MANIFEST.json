@@ -1,0 +1,17 @@
+{
+  "pilot": "RELATIONAL_LEXIMETRICS_PILOT/PILOT_01",
+  "generated_at": "2026-09-30T21:04:03",
+  "source_dataset": "G:\\Meu Drive\\PRJ-David\\Prf-David\\AUTONOMOUS_ROTEM_COMPARISON_20260930_2047\\05_PILOT03\\regression_copy\\RELATIONAL_LEXIMETRICS_PILOT\\PILOT_01\\00_SOURCES\\dataset_of_EU_regulatory_intermediation.xlsx",
+  "selected_cases": [
+    "P01",
+    "P02",
+    "P03",
+    "P04",
+    "P05"
+  ],
+  "relationship_count": 20,
+  "evidence_count": 20,
+  "actor_count": 24,
+  "crosswalk_field_count": 170,
+  "production_modified": false
+}

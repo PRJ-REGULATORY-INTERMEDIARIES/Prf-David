@@ -1,0 +1,2 @@
+SHA-256 (IMPORT_MANIFEST.csv) = b40cf972cba0cf5c1ee72ac3ae0114a13ea5184edd3feb952fa650b597c65fc6
+Import timestamp = 2026-10-08T14:30:46-03:00

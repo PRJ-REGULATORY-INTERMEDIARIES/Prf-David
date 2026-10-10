@@ -1,0 +1,74 @@
+production_version: v1.3
+production_version_history:
+  - v1.0
+  - v1.1
+  - v1.2
+  - v1.3
+production_version_changelog: docs/methodology/PRODUCTION_CHANGELOG.md
+production_version_note: >
+  v1.3 introduces the actor-in-role analytical architecture for final human review:
+  relationships remain coding/evidentiary units; actor-in-role is the principal
+  substantive unit; act/regime is the comparative unit; mechanism/orientation is
+  recorded for I. It does not recode historical production output. v1.2 interpretive
+  boundary rules and the v1.1 schema/validator remain current for their respective roles.
+
+primary_coder:
+  role: Primary Interpretive Reader
+  role_naming: functional (provider/model not part of the methodological architecture)
+  metadata_note: >
+    Provider, model, model version, and reasoning-effort telemetry for each run are
+    recorded per run, per case, alongside that run's output -- never here, and never
+    invented when unobserved.
+
+secondary_reviewer:
+  role: Secondary Critical Reviewer
+  role_naming: functional (provider/model not part of the methodological architecture)
+  metadata_note: same per-run recording rule as primary_coder.
+
+case_count: 3
+case_registry: cases/CASE_REGISTRY.yaml
+codebook: methodology/v1.1.0/codebook.md
+coding_schema: methodology/production_v1.1/coding_matrix_schema.json
+coding_logic_validator: methodology/production_v1.1/validate_production_logic.py
+researcher_review_schema: methodology/production_v1.0/researcher_review_matrix_schema.json
+
+prompts:
+  primary_interpretive_reader:
+    path: prompts/production/PRIMARY_INTERPRETIVE_READER.md
+    sha256: 05BDEC4C53F61358EE453039BAFC1B090631C0208D9615136D335A978C8BF8C7
+    prior_sha256_v1_1: 3D2024C669BB70FD361C5C8A5CAEE923226045AE47625EBF6056244CCB85AC64
+    status: definitive_prompt_present
+    supersedes: prompts/production/CLAUDE_PRIMARY_CODER.md (v1.0, preserved unchanged)
+  secondary_critical_reviewer:
+    path: prompts/production/SECONDARY_CRITICAL_REVIEWER.md
+    sha256: BCC3751C1E1185E68C926EBFC4B9BD0713060CA5102C5B21C88EEE180119E00E
+    status: definitive_prompt_present
+    supersedes: prompts/production/LUNA_SECONDARY_REVIEWER.md (v1.0, preserved unchanged)
+
+workflow_states:
+  - pending_selection
+  - selected
+  - source_locked
+  - corpus_locked
+  - primary_coded
+  - secondary_reviewed
+  - human_reviewed
+  - finalized
+
+controls:
+  same_primary_prompt_for_all_cases: true
+  same_secondary_prompt_for_all_cases: true
+  researcher_adjudication_required: true
+  human_decision_values:
+    - APPROVE
+    - CHANGE
+    - EXCLUDE
+    - UNRESOLVED
+  final_dataset_created_automatically: false
+  coding_started: true
+  coding_status_note: >
+    v1.0 primary coding and secondary review completed for case_01/02/03
+    (see cases/*/primary_coding/CLAUDE_CODING_PROPOSAL.* and
+    outputs/LUNA_SECONDARY_REVIEW_NOTE.md); this field was stale (false) as of v1.0
+    and is corrected here as part of the v1.1 change. v1.1 primary coding for all
+    three cases follows this same change.

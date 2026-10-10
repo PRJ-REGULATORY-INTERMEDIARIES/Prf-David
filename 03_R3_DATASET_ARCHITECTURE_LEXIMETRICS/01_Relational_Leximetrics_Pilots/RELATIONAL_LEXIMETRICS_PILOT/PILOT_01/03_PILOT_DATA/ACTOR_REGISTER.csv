@@ -1,0 +1,25 @@
+﻿actor_id,actor_identity,actor_type,institutional_context,relational_roles_observed,pilot_cases,provenance,normalization_note
+ACTOR_001,ADR providers,NOT_NORMALIZED_BEYOND_SOURCE,EC 874/2004,intermediary,P04,MODEL_PILOT,Role is relationship-specific; identity is retained separately.
+ACTOR_002,Accredited registrars,NOT_NORMALIZED_BEYOND_SOURCE,EC 874/2004,intermediary,P04,MODEL_PILOT,Role is relationship-specific; identity is retained separately.
+ACTOR_003,Competent bodies,NOT_NORMALIZED_BEYOND_SOURCE,89/336/EEC,intermediary,P02,MODEL_PILOT,Role is relationship-specific; identity is retained separately.
+ACTOR_004,Competent public authorities,NOT_NORMALIZED_BEYOND_SOURCE,1781/2006,regulator,P05,MODEL_PILOT,Role is relationship-specific; identity is retained separately.
+ACTOR_005,Designated testing laboratories,NOT_NORMALIZED_BEYOND_SOURCE,91/263/EEC,intermediary,P03,MODEL_PILOT,Role is relationship-specific; identity is retained separately.
+ACTOR_006,Escrow agents,NOT_NORMALIZED_BEYOND_SOURCE,EC 874/2004,intermediary,P04,MODEL_PILOT,Role is relationship-specific; identity is retained separately.
+ACTOR_007,European Commission,NOT_NORMALIZED_BEYOND_SOURCE,EC 874/2004,regulator,P04,MODEL_PILOT,Role is relationship-specific; identity is retained separately.
+ACTOR_008,Independent auditor,NOT_NORMALIZED_BEYOND_SOURCE,EC 874/2004,intermediary,P04,MODEL_PILOT,Role is relationship-specific; identity is retained separately.
+ACTOR_009,Insurance companies,NOT_NORMALIZED_BEYOND_SOURCE,89/336/EEC,intermediary,P02,MODEL_PILOT,Role is relationship-specific; identity is retained separately.
+ACTOR_010,Member State authorities,NOT_NORMALIZED_BEYOND_SOURCE,76/889/EEC; 89/336/EEC; 91/263/EEC,regulator,P01; P02; P03,MODEL_PILOT,Role is relationship-specific; identity is retained separately.
+ACTOR_011,Non-profit organisations,NOT_NORMALIZED_BEYOND_SOURCE,1781/2006,target,P05,MODEL_PILOT,Role is relationship-specific; identity is retained separately.
+ACTOR_012,Notified bodies,NOT_NORMALIZED_BEYOND_SOURCE,76/889/EEC; 89/336/EEC; 91/263/EEC,intermediary,P01; P02; P03,MODEL_PILOT,Role is relationship-specific; identity is retained separately.
+ACTOR_013,Registry,NOT_NORMALIZED_BEYOND_SOURCE,EC 874/2004,intermediary; regulator,P04,MODEL_PILOT,Role is relationship-specific; identity is retained separately.
+ACTOR_014,Registry administration,NOT_NORMALIZED_BEYOND_SOURCE,EC 874/2004,target,P04,MODEL_PILOT,Role is relationship-specific; identity is retained separately.
+ACTOR_015,Validation agents,NOT_NORMALIZED_BEYOND_SOURCE,EC 874/2004,intermediary,P04,MODEL_PILOT,Role is relationship-specific; identity is retained separately.
+ACTOR_016,competent/notified bodies,NOT_NORMALIZED_BEYOND_SOURCE,89/336/EEC,target,P02,MODEL_PILOT,Role is relationship-specific; identity is retained separately.
+ACTOR_017,domain-name applicants,NOT_NORMALIZED_BEYOND_SOURCE,EC 874/2004,target,P04,MODEL_PILOT,Role is relationship-specific; identity is retained separately.
+ACTOR_018,domain-name holders,NOT_NORMALIZED_BEYOND_SOURCE,EC 874/2004,target,P04,MODEL_PILOT,Role is relationship-specific; identity is retained separately.
+ACTOR_019,external auditors or recognized self-regulatory body,NOT_NORMALIZED_BEYOND_SOURCE,1781/2006,intermediary,P05,MODEL_PILOT,Role is relationship-specific; identity is retained separately.
+ACTOR_020,local Internet community,NOT_NORMALIZED_BEYOND_SOURCE,EC 874/2004,target,P04,MODEL_PILOT,Role is relationship-specific; identity is retained separately.
+ACTOR_021,manufacturers,NOT_NORMALIZED_BEYOND_SOURCE,76/889/EEC; 89/336/EEC; 91/263/EEC,target,P01; P02; P03,MODEL_PILOT,Role is relationship-specific; identity is retained separately.
+ACTOR_022,non-profit organisations,NOT_NORMALIZED_BEYOND_SOURCE,1781/2006,target,P05,MODEL_PILOT,Role is relationship-specific; identity is retained separately.
+ACTOR_023,registrants,NOT_NORMALIZED_BEYOND_SOURCE,EC 874/2004,target,P04,MODEL_PILOT,Role is relationship-specific; identity is retained separately.
+ACTOR_024,registrars and registrants,NOT_NORMALIZED_BEYOND_SOURCE,EC 874/2004,target,P04,MODEL_PILOT,Role is relationship-specific; identity is retained separately.

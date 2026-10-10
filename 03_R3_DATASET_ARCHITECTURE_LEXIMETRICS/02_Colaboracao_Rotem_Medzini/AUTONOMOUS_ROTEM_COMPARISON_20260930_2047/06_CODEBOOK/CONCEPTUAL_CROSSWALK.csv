@@ -1,0 +1,22 @@
+CHILD_FIELD (proposed test layer),PURPOSE,CLOSEST_ROTEM_FIELD,ROTEM_FIELD_LEVEL,ROTEM_REF,RELATION,STATUS_OF_OUR_FIELD,NOTE
+EVENT_ID,Unique id of one provision-anchored activity/relation,—,—,—,NO_EQUIVALENT,PROPOSED,Needed only if a child table exists
+PARENT_ID,Link to the intermediary × act record,intermediary_record_id,INTERMEDIARY_X_ACT,REV ¶79,EQUIVALENT_KEY,PROPOSED (reuses EXISTING key),Child aggregates to Rotem's unit; parent unit unchanged
+ACT_ID / CELEX,Act identity,celex / Legislation Code,ACT,REV ¶74,EQUIVALENT,EXISTING (Rotem),
+SOURCE_PROVISION_ID,Provision supporting this event,Relevant provision(s),INTERMEDIARY_X_ACT (list for the whole row),"REV ¶36, ¶79",FINER_GRAIN,PROPOSED (granularity),Rotem: all provisions for the row; child: one provision per event (decision-level anchoring)
+TEXT_SPAN,Verbatim span of the official text,— (rationale prose may quote),—,—,NO_EQUIVALENT,PROPOSED,Guards against paraphrase loss (I-015)
+REGULATOR_ACTOR,Named regulator involved in this event,regulator_context,"INTERMEDIARY_X_ACT (category, multi-valued)",REV ¶79,INSTANCE_OF_CATEGORY,PROPOSED (granularity),Context = institutional category; child = specific actor in a specific activity
+INTERMEDIARY_ACTOR,Intermediary performing/receiving the event,Intermediary_name,INTERMEDIARY_X_ACT,REV ¶79,EQUIVALENT,EXISTING (Rotem),
+TARGET_ACTOR,Actor whose conduct is regulated in this event,target_context,"INTERMEDIARY_X_ACT (category, multi-valued)",REV ¶79,INSTANCE_OF_CATEGORY,PROPOSED (granularity),
+ACTION_ADDRESSEE (extra),Actor to whom the action/communication is directed (≠ regulatory target),orientation (direction only),INTERMEDIARY_X_ACT,REV ¶79,PARTIAL,PROPOSED (extra column added by this run),Added because PILOT_03 rule 1 and R4.2D rule 6 show recipient ≠ target; not in the prompt's minimal list
+ACTION,Legal verb/action (verbatim normalised),Function_description (prose); Function_summary (approved label),INTERMEDIARY_X_ACT,REV ¶82,PARTIAL,PROPOSED (granularity),
+OBJECT,What the action operates on,intermediary_object,INTERMEDIARY_X_ACT (restrictive direct-object rule),"REV ¶40, ¶82",PARTIAL,EXISTING concept; PROPOSED instance,
+NORMATIVE_MODALITY,shall / may / must / conditional,intermediary_involvement,INTERMEDIARY_X_ACT (Required/Conditional/Optional/Member State option),REV ¶79,PARTIAL (row vs event),EXISTING concept; PROPOSED granularity,Row-level involvement vs modality of each activity
+TRIGGER_CONDITION,Condition that activates the event,intermediary_involvement = Conditional + rationale,INTERMEDIARY_X_ACT,REV ¶79,PARTIAL,EXISTING concept; PROPOSED granularity,
+LEGAL_EFFECT,Legal consequence (not an actor-actor relation),— ('legal consequence' named as distinct concept),—,REV ¶46,CONCEPT_ONLY,PROPOSED field; EXISTING concept,PILOT_03 rule 4
+FUNCTION_CODE,Function performed in this event,Function_* flags,INTERMEDIARY_X_ACT,REV ¶82,"EQUIVALENT_VOCABULARY, FINER_GRAIN",EXISTING vocabulary (Rotem),Child must use Rotem's approved labels to allow child→parent aggregation
+MECHANISM_CODE,Mechanism through which the function is performed,mechanism_family,INTERMEDIARY_X_ACT (primary function),"REV ¶82, ¶87","EQUIVALENT_VOCABULARY, FINER_GRAIN",EXISTING vocabulary (Rotem),
+INFERENCE_BASIS,Textual vs inferential basis for coding the event,¶27 clause (assigns / recognizes / relies upon) — not a field,INTERMEDIARY_X_ACT (inclusion),REV ¶27-¶28,CONCEPT_ONLY,PROPOSED field; EXISTING criterion,Related to identification basis (E3)
+RATIONALE,Why this code,value-specific *_rationale fields (some variables only),ACT / INTERMEDIARY_X_ACT,"REV ¶74, ¶79, ¶82",PARTIAL,EXISTING (Rotem) for some variables,
+CONFIDENCE,Coder confidence,'Unclear' permitted for some variables,INTERMEDIARY_X_ACT,REV ¶52,PARTIAL,PROPOSED,
+REVIEW_STATUS,MODEL_CODED / MODEL_REVIEWED / HUMAN_ADJUDICATED …,decision log & adjudication procedure,PROCEDURE,"REV ¶54, ¶63",PROCEDURE_ONLY,PROPOSED field; EXISTING procedure,
+EVIDENCE_STATUS / SOURCE_ID (extra),Provenance of the span,source_url (act level),ACT,REV ¶74,PARTIAL,PROPOSED (extra),Required by master prompt §5

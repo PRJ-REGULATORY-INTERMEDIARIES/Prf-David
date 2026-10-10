@@ -1,0 +1,467 @@
+# RGAM — PAIRED DATA DICTIONARY v1.0 (frozen before case execution)
+
+Companion to `RGAM_PAIRED_EXECUTION_PROTOCOL_v1_0.md` and `RGAM_PAIRED_DECISION_RULES_v1_0.md`. Generated from `TOOLS/schema.py` so that this dictionary, the output schema and the blank templates are identical in structure. **Case-general:** no field or vocabulary derives from any experimental legal text. Source tags: MS = manuscript v0.6.1 (controlling), ON = ontology v0.4 rev3 (subordinate), TPL = template rules v1.2 (procedural only).
+
+## 1. Conventions
+
+- All outputs are CSV (UTF-8 with BOM), one file per table, header row exactly as listed below; list-valued cells use `;` as separator; empty cells are blank, never `NA` unless an enumeration lists it.
+- All machine-generated records are provisional (`machine_provisional`). Human-only columns exist only in HUMAN_REVIEW_QUEUE and must stay blank.
+- Unit ids: `<case_id>.A{n}.P{k}` (paragraph), `…pt{x}` (point), `.P0` (single-paragraph article), `<case_id>.ANX{n}.pt{x}` (annex point), `<case_id>.REC{n}` (recital). Record ids: `ST-nnnn`, `NA-nnnn`, `PD-nnn`, `QR-nnnn`, `EXT-nnn`, `SC-nn`, `ARCH-nn`, `PROP-nnn`, `CL-nn`, `UNC-nnn`, `HQ-nnn`, `LNK-nnnnn`, `TR-nn`, `DEV-nn`, `RUN-nn`.
+- Evidence spans are verbatim minimal spans (≤ 400 characters) from the unit; no paraphrase in an `evidence_span` column.
+- Counts recorded in any table are evidence descriptors only; no table defines a score, index, threshold or ranking.
+
+## 2. Controlled vocabularies
+
+| Vocabulary | Values and source |
+|---|---|
+| `EPISTEMIC` | conceptually_projected | documented | legal_constitution_evidenced | material_establishment_evidenced | exercise_evidenced (MS §4.4; tokens as in TPL §12) |
+| `LEGAL_STATUS` | in_force | not_yet_applicable | suspended | expired_or_repealed | conditional_on_further_act (MS §4.4); with validity note |
+| `NORM_TYPE` | N0 | N1 | N2 | N3 | N4 | COMPOUND | AMBIGUOUS (N1-N4: MS §4.3; N0 = ordinary norm that does not establish) |
+| `MODALITY` | obligation | obligation_promotional | prohibition | permission | competence | entitlement | definition | declaratory (TPL §5) |
+| `RELTYPE` | authority_control | delegation_authorization | oversight_supervision | accountability | information_reporting | verification_assurance | review_adjudication | representation_participation | contractual_exchange | beneficiary_protective (ON §3.3, the ten relation types recorded in RGAM) |
+| `FUNCTION` | rule_making_standard_setting | implementation | interpretation_translation | information_provision | monitoring | verification_assurance | enforcement | adjudication_dispute_resolution | remediation | representation_participation* | authorization_designation* | cooperation_coordination* (*residual tags, flagged; TPL §6) |
+| `DERIV` | direct | derived (derived requires derivation_rule and >= 2 supporting units or an explicit cross-reference) |
+| `YN` | Y | N |
+
+Additional fixed vocabularies are given inline in the field tables (e.g., `ACCOUNTABILITY` classes, `ARCH.outcome`). Instrument-level result tokens: `NO_ARCHITECTURE_WARRANTED`, `ONE_ARCHITECTURE`, `SEVERAL_DISTINGUISHABLE`, `OVERLAPPING_OR_PARTIALLY_INTEGRATED`, `INDETERMINATE`. Claim-status ceilings from legal text: `documented`, `legal_constitution_evidenced`; `material_establishment_evidenced` and `exercise_evidenced` are not collected (`not_assessed`).
+
+## 3. Tables
+
+| # | File | Stratum | Purpose |
+|---:|---|---|---|
+| 1 | `W_DECLARATION.csv` | W | Declaration of the documentary corpus W (one row per case). MS §2.4, §6.2, §8.4(1)-(2); ON §5.1. |
+| 2 | `SOURCE_UNIT_INVENTORY.csv` | E | Inventory of every addressable unit of W (inscription level). MS §6.2 (E), §8.4(2); TPL §1. |
+| 3 | `UNIT_SCREENING.csv` | E | Screening of EVERY unit in article order. TPL §3; MS §8.4(2). |
+| 4 | `INSTITUTIONAL_STATEMENTS.csv` | E | Institutional statements derived from provisions (the second component of E). MS §6.2 (E), §7.1. |
+| 5 | `NORMATIVE_ASSIGNMENTS.csv` | P | Normative assignments attached to positions (duties, powers, permissions) without an identifiable counterparty; also constraint-only prohibitions. MS §6.2 (P); TPL §4.1. |
+| 6 | `POSITIONS_AND_DEVICES.csv` | P | Positions (type/instance) and institutional devices. MS §6.2 (P), §6.3; ON §3.1-3.2 (as subordinated by MS); TPL §4.2, §9. |
+| 7 | `QUALIFIED_RELATIONS.csv` | R | Reified qualified relations. Admitted only when both parties are identifiable in the provision or by explicit cross-reference. MS §6.2 (R); TPL §4.3, §7, §10 (v1.1/v1.2 direction rules). |
+| 8 | `EXTERNAL_REFERENCES.csv` | R/E | Typed references to sources outside W; legal relevance only, never instantiation or operation. MS §6.5; ON §3.7 (PT-6, PT-8); TPL §4.4. |
+| 9 | `SUBCONFIGURATIONS.csv` | S | Subconfigurations: sets of relations satisfying a stated pattern rule. MS §6.2 (S); ON §3.4; TPL §14. |
+| 10 | `ARCHITECTURE_CANDIDATES.csv` | A | S->A assessment for each candidate whole under the I1-I4 warrant protocol. MS §6.2 (S->A rule, I1-I4); TPL §15 (anti-circularity sequence). |
+| 11 | `PROPERTY_REGISTER.csv` | S/A | Attribution of properties to bearers with scale and aggregation stated before any generalization. MS §6.6, §5.3, §8.4(5); ON §6, §6.1. |
+| 12 | `CLOSURE_REGISTER.csv` | W/A | Coverage/closure statements and absence-dependent claims. MS §4.7, §6.2 (I4), §8.4(2)(6)(7); ON PT-4, PT-8. |
+| 13 | `PROVENANCE_LINKS.csv` | all | Many-to-many provenance and claim-level evidence links (evidence status belongs to the claim, not to the artifact). MS §6.5, ON §3.6; TPL §1. |
+| 14 | `UNCERTAINTY_LOG.csv` | all | Uncertainties and unresolved interpretations; consequential ones are queued, never silently resolved. TPL §18; MS §4.3. |
+| 15 | `HUMAN_REVIEW_QUEUE.csv` | all | Queue of items requiring human adjudication. The executor fills the machine columns ONLY; the human_* columns remain blank. TPL §18; ON §10. |
+| 16 | `TRACE_DEMONSTRATIONS.csv` | A | Vertical-traceability demonstrations A -> S -> R -> lower records -> exact provision, chosen by a rule fixed here (not for expected support). TPL §17 generalized. |
+| 17 | `INSTRUMENT_LEVEL_SUMMARY.csv` | profile | Instrument-level result and status profile (one row per case): not one label, not one score. MS §6.2, §4.7. |
+| 18 | `PROTOCOL_DEVIATION_LOG.csv` | meta | Any deviation from, or gap encountered in, the frozen protocol; no silent harmonization. |
+| 19 | `RUN_METADATA.csv` | meta | Run identity and isolation attestations. |
+
+### 3.1 `W_DECLARATION.csv` — W_DECLARATION (stratum W)
+
+Declaration of the documentary corpus W (one row per case). MS §2.4, §6.2, §8.4(1)-(2); ON §5.1.
+
+| Field | Definition | Allowed values / format |
+|---|---|---|
+| `case_id` | Capsule case identifier | RGAM_C1_SCF | RGAM_C2_CBAM | RGAM_AI_AI_ACT | RGAM_O_DIR_86_361 |
+| `instrument_title` | Official title as printed in the source | text |
+| `celex` | CELEX identifier from neutral metadata | text |
+| `jurisdiction` | Jurisdiction of the instrument | text |
+| `domain_declaration` | Domain of W stated from the instrument's own title and object clause only | text; no outside knowledge |
+| `instrument_type` | Regulation / Directive / other as printed | text |
+| `version_type` | Version of the text analysed (original act as published; no consolidation) | text |
+| `temporal_reference` | Point or interval for which legal status is asserted; derived from the act's own entry-into-force/application/repeal-related provisions and the neutral metadata | text |
+| `inclusion_rule` | Rule fixing membership of W (all units of the frozen source file) | text |
+| `exclusions` | Declared exclusions and reasons (e.g., content not representable in the source file) | text or NONE |
+| `source_file` | Path of the controlling legal source in the capsule | path |
+| `source_sha256` | SHA-256 of the source file as verified at run time | hex64 |
+| `expected_sha256` | SHA-256 stated in the capsule metadata | hex64 |
+| `hash_match` | Whether verified hash equals expected hash; run stops if N | Y | N |
+| `article_count_parsed` | Operative articles found by the structural parse | integer |
+| `annex_count_parsed` | Annexes found by the structural parse | integer |
+| `recital_count_parsed` | Recitals found by the structural parse | integer |
+| `structure_check` | Result of comparing parsed counts with neutral metadata counts | MATCH | DISCREPANCY (described) |
+| `closure_scope_statement` | Statement of what the corpus can and cannot close (MS §4.7; ON PT-4) | text |
+| `w_is_not_a` | Reminder field: W is a documentary universe, not an architecture | must read: W != A |
+
+### 3.2 `SOURCE_UNIT_INVENTORY.csv` — SOURCE_UNIT_INVENTORY (stratum E)
+
+Inventory of every addressable unit of W (inscription level). MS §6.2 (E), §8.4(2); TPL §1.
+
+| Field | Definition | Allowed values / format |
+|---|---|---|
+| `unit_id` | Stable unit id: <case_id>.<structure code> e.g. A{n}.P{k}, A{n}.P{k}.pt{x}, A{n}.P0 (single-paragraph article), ANX{n}.pt{x}, REC{n} | id |
+| `case_id` | Case | id |
+| `structure_class` | Class of unit | OPERATIVE_ARTICLE | ANNEX | RECITAL | FORMAL_OTHER | HEADING_ONLY |
+| `article_or_annex_no` | Number or label | text |
+| `paragraph` | Paragraph label | text or blank |
+| `point` | Point/sub-point label | text or blank |
+| `parent_unit_id` | Parent unit | unit_id or blank |
+| `locator_text` | Human-readable locator as printed | text |
+| `text_sha256` | SHA-256 of the whitespace-normalized unit text (auditability without copying the text) | hex64 |
+| `source_anchor` | Anchor in the source file (element id or ordinal) | text |
+
+### 3.3 `UNIT_SCREENING.csv` — UNIT_SCREENING (stratum E)
+
+Screening of EVERY unit in article order. TPL §3; MS §8.4(2).
+
+| Field | Definition | Allowed values / format |
+|---|---|---|
+| `unit_id` | Unit screened | unit_id |
+| `governance_relevance` | Yes = at least one extracted statement/record; No = none; Uncertain | Yes | No | Uncertain |
+| `governance_role_tag` | Free tag (e.g., operative-assignment, relation-bearing, position-defining, scope/definitional-context, procedural-mechanism, substantive-rule-without-governance-structure, final/formal) | text |
+| `statement_ids` | Institutional statements derived from the unit | ST ids (; separated) |
+| `screening_note` | Brief reason; a 'No' is a legitimate result; headings are never evidence | text |
+
+### 3.4 `INSTITUTIONAL_STATEMENTS.csv` — INSTITUTIONAL_STATEMENTS (stratum E)
+
+Institutional statements derived from provisions (the second component of E). MS §6.2 (E), §7.1.
+
+| Field | Definition | Allowed values / format |
+|---|---|---|
+| `st_id` | ST-nnnn | id |
+| `supporting_unit_ids` | Units from which the statement is derived (many-to-many) | unit_ids (; separated) |
+| `statement_kind` | Kind of statement | assignment_bearing | relation_bearing | position_defining | device_defining | definitional | scope | procedural | external_referencing | final_formal | other |
+| `statement_summary` | Minimal normalized reading of the unit (no added content) | text |
+| `evidence_span` | Verbatim minimal span from the unit supporting the statement | text (<= 400 chars) |
+| `derived_record_ids` | NA/PD/QR/EXT ids derived from this statement | ids (; separated) |
+| `recital_only` | Y if the only support is a recital (then no NA/PD/QR may be created from it) | Y | N |
+
+### 3.5 `NORMATIVE_ASSIGNMENTS.csv` — NORMATIVE_ASSIGNMENTS (stratum P)
+
+Normative assignments attached to positions (duties, powers, permissions) without an identifiable counterparty; also constraint-only prohibitions. MS §6.2 (P); TPL §4.1.
+
+| Field | Definition | Allowed values / format |
+|---|---|---|
+| `na_id` | NA-nnnn | id |
+| `case_id` | Case | id |
+| `statement_ids` | Source statements | ST ids |
+| `supporting_unit_ids` | Source units (mirrors PROVENANCE_LINKS) | unit_ids |
+| `subject_pd_id` | Position or device bearing the assignment | PD id |
+| `action` | Action/duty/power | text |
+| `object` | Object of the action | text |
+| `function` | Function slot (kept separate from mechanism and instrument) | FUNCTION |
+| `mechanism` | Mechanism slot (means of governing: e.g., command, disclosure, accreditation) - not Bhaskar's 'generative mechanism' | text or blank |
+| `instrument_ref` | INS-TYPE label (typed characteristic) or DEV pd_id | text | PD id | blank |
+| `modality` | Deontic character | MODALITY |
+| `conditions` | Conditions of application | text or blank |
+| `counterpart_if_identifiable` | Counterparty if the text identifies one (never invented) | text or blank |
+| `counterpart_status` | Whether a counterparty is identifiable | NONE_IDENTIFIABLE | IN_PROVISION | BY_EXPLICIT_CROSS_REFERENCE |
+| `norm_type` | What the norm constitutes | NORM_TYPE |
+| `constitution_effect` | What is legally constituted by this norm (duty, competence, entity, conditional constitution) | text |
+| `not_constituted_note` | What is NOT thereby constituted (MS §4.3 table) | text |
+| `constraint_only` | Y for prohibitions recorded as constraints on positions, not as relations of the architecture (MS §6.2) | YN |
+| `derivation` | Direct or derived | DERIV |
+| `derivation_rule` | Rule stating how a derived record follows from several provisions | text or blank |
+| `depends_on_pd_ids` | Positions/devices through which the assignment exists or is exercised (expectation, never a gate) | PD ids |
+| `legal_status_of_norm` | Legal status for the declared temporal reference | LEGAL_STATUS |
+| `epistemic_status` | Status of the researcher's claim | EPISTEMIC |
+| `evidence_span` | Verbatim minimal span | text (<= 400 chars) |
+| `uncertainty_ids` | UNC ids | ids |
+| `hq_ids` | Human-review queue ids | ids |
+
+### 3.6 `POSITIONS_AND_DEVICES.csv` — POSITIONS_AND_DEVICES (stratum P)
+
+Positions (type/instance) and institutional devices. MS §6.2 (P), §6.3; ON §3.1-3.2 (as subordinated by MS); TPL §4.2, §9.
+
+| Field | Definition | Allowed values / format |
+|---|---|---|
+| `pd_id` | PD-nnn | id |
+| `case_id` | Case | id |
+| `kind` | Position or juridically constituted institutional device (a device is never an actor; a source document is neither) | POSITION | DEVICE |
+| `label` | Label as used in the text | text |
+| `type_or_instance` | Generic legal category (TYPE) or specific institution/office (INSTANCE); an instance is recorded only with its own source and never inferred from a type | TYPE | INSTANCE |
+| `instance_source_unit_ids` | Source for an instance | unit_ids or blank |
+| `jurisdiction` | Jurisdiction of the position/device | text |
+| `temporal_reference` | Interval concerned | text |
+| `legal_multiplicity` | Multiplicity stated by the text (PT-7: counts only from evidenced instances or stated multiplicity) | exactly_one | one_or_more | unspecified | other (described) |
+| `establishment_norm_type` | Norm type establishing the entity | NORM_TYPE or NONE |
+| `device_identity_evidence` | Devices only: text giving the device identity (can be singled out) | text or blank |
+| `device_function_evidence` | Devices only: operator OR governing rules OR legally specified bounded function | text or blank |
+| `device_classification` | Typed characteristic (INS-TYPE) vs juridically constituted device (DEV); borderline = INS-TYPE + queue | INS-TYPE | DEV | BORDERLINE_INS-TYPE |
+| `legal_constitution_status` | Whether the entity itself is legally constituted by the text (N1 only); N2-N4 constitute an obligation, competence or conditional norm, not the entity | constituted_by_N1 | not_constituted_obligation_only | not_constituted_competence_only | conditionally_constituted | not_applicable |
+| `material_establishment_evidence` | Establishment evidence beyond the legal prescription is NOT collected from legal text | not_assessed (fixed) |
+| `epistemic_status` | Status of the claim | EPISTEMIC |
+| `supporting_unit_ids` | Sources | unit_ids |
+| `evidence_span` | Verbatim minimal span | text (<= 400 chars) |
+| `uncertainty_ids` | UNC ids | ids |
+| `hq_ids` | HQ ids | ids |
+
+### 3.7 `QUALIFIED_RELATIONS.csv` — QUALIFIED_RELATIONS (stratum R)
+
+Reified qualified relations. Admitted only when both parties are identifiable in the provision or by explicit cross-reference. MS §6.2 (R); TPL §4.3, §7, §10 (v1.1/v1.2 direction rules).
+
+| Field | Definition | Allowed values / format |
+|---|---|---|
+| `qr_id` | QR-nnnn | id |
+| `case_id` | Case | id |
+| `statement_ids` | Source statements | ST ids |
+| `supporting_unit_ids` | Source units (many-to-many; mirrors PROVENANCE_LINKS) | unit_ids |
+| `origin_pd_id` | Legal subject of the statement (obligor / power-holder) | PD id |
+| `counterpart_pd_id` | Identified counterparty (position, defined category or institutional forum) | PD id |
+| `additional_party_pd_ids` | n-ary parties where the text supports them | PD ids or blank |
+| `relation_type` | One of the ten relation types; two records where a provision supports two types | RELTYPE |
+| `type_note` | Notes, including residual typing flags and 'gov-direction: X->Y' where governance direction differs from origin->counterpart | text or blank |
+| `textual_direction` | origin -> counterpart as stated | text |
+| `governance_direction` | Direction of governance work where it differs from textual direction and is defensible | text or blank |
+| `action` | Action | text |
+| `object` | Object | text |
+| `function` | Function slot | FUNCTION |
+| `mechanism` | Mechanism slot | text or blank |
+| `instrument_ref` | INS-TYPE label or DEV pd_id | text | PD id | blank |
+| `modality` | Deontic character (prohibition is NOT admitted as a relation; see NORMATIVE_ASSIGNMENTS.constraint_only) | MODALITY minus prohibition |
+| `conditions` | Conditions on application | text or blank |
+| `validity_note` | Validity interval / version / conditional dates | text |
+| `legal_status_of_norm` | Legal status of the underlying norm | LEGAL_STATUS |
+| `epistemic_status` | Status of the claim (a relation never carries material_establishment_evidenced; PT-2) | EPISTEMIC minus material_establishment_evidenced |
+| `derivation` | Direct or derived | DERIV |
+| `derivation_rule` | Stated rule for derived relations | text or blank |
+| `authority_attribute` | Authority qualifier of the relation (no scalar aggregate) | text or blank |
+| `discretion_attribute` | Discretion qualifier, by function (no aggregate score) | text or blank |
+| `accountability_class` | INFO = information/disclosure only; ANSWERABILITY; ACCOUNTABILITY; NONE (MS §6.4) | NONE | INFO | ANSWERABILITY | ACCOUNTABILITY |
+| `accountability_sufficiency` | Separate evidential assessment (MS §6.4) | sufficient | indeterminate | NA |
+| `accountability_missing_elements` | Elements not evidenced when indeterminate or answerability-only | text or blank |
+| `accountable_via_qr_ids` | Pointer(s) to accountability relation(s) qualifying this relation (no duplicate observation) | QR ids or blank |
+| `depends_on_pd_ids` | Positions/devices through which the relation exists or is exercised | PD ids |
+| `support_gap_report` | Dependencies whose establishment is not evidenced (reported, never a gate) | text or blank |
+| `external_ref_ids` | EXT ids on which the relation depends | EXT ids or blank |
+| `evidence_span` | Verbatim minimal span | text (<= 400 chars) |
+| `uncertainty_ids` | UNC ids | ids |
+| `hq_ids` | HQ ids | ids |
+
+### 3.8 `EXTERNAL_REFERENCES.csv` — EXTERNAL_REFERENCES (stratum R/E)
+
+Typed references to sources outside W; legal relevance only, never instantiation or operation. MS §6.5; ON §3.7 (PT-6, PT-8); TPL §4.4.
+
+| Field | Definition | Allowed values / format |
+|---|---|---|
+| `ext_id` | EXT-nnn | id |
+| `case_id` | Case | id |
+| `supporting_unit_ids` | Provision span making the reference | unit_ids |
+| `referenced_legal_source` | Instrument/provision/standard referred to, with version/date as stated | text |
+| `source_kind` | Type of source (a technical standard is not a legal source in the strict sense) | legal_instrument | technical_standard | administrative_act | other_normative |
+| `reference_role` | Role of the reference | constitutes_position | constitutes_device | designates_competence | supplies_rule_or_standard | defines_term | other (described; e.g., amendment of another instrument) |
+| `source_verification_status` | Fixed for this experiment: no external retrieval is authorized | not_checked (fixed) |
+| `boundary_status` | Boundary decision | outside_corpus_not_expanded (default) | outside_corpus_pending_decision | included_by_decision (requires a recorded boundary decision) |
+| `dependent_record_ids` | Elements depending on the reference | ids |
+| `dependency_kind` | How they depend | constitutes | qualifies | conditions | specifies |
+| `constitutive_dependency` | Y if a claim's legal constitution or an absence-dependent claim rests on the reference | YN |
+| `effect_on_claims` | Claims made undetermined or scoped 'within the declared corpus only' | text or blank |
+
+### 3.9 `SUBCONFIGURATIONS.csv` — SUBCONFIGURATIONS (stratum S)
+
+Subconfigurations: sets of relations satisfying a stated pattern rule. MS §6.2 (S); ON §3.4; TPL §14.
+
+| Field | Definition | Allowed values / format |
+|---|---|---|
+| `sc_id` | SC-nn | id |
+| `case_id` | Case | id |
+| `scope_label` | Function, stage or subsystem to which the S is scoped | text |
+| `pattern_rule` | The pattern rule satisfied (named pattern matched, or an explicit relational pattern statement) | text |
+| `governance_question` | The question the S is meant to answer | text |
+| `member_qr_ids` | Constituent relations | QR ids |
+| `member_na_ids` | Normative assignments included | NA ids or blank |
+| `member_pd_ids` | Positions/devices included | PD ids |
+| `organizing_mechanism` | Legal coupling that organizes the members (qualified relations, competences, dependencies) - not chapter, vocabulary or theme | text |
+| `warrant_basis` | Why the grouping is warranted beyond same chapter / related vocabulary / same theme | text |
+| `units_spanned` | Distinct supporting units and parts of the instrument spanned (cross-chapter possible) | unit_ids / text |
+| `boundary_statement` | Boundary of the S | text |
+| `overlap_sc_ids` | Overlapping S | SC ids or blank |
+| `nested_in_sc_id` | Containing S | SC id or blank |
+| `competing_grouping` | A rival grouping of the same relations | text |
+| `uncertainty_ids` | UNC ids | ids |
+| `hq_ids` | HQ ids | ids |
+| `default_status` | Every candidate grouping starts as S; it becomes A only through the I1-I4 assessment | S (fixed) |
+
+### 3.10 `ARCHITECTURE_CANDIDATES.csv` — ARCHITECTURE_CANDIDATES (stratum A)
+
+S->A assessment for each candidate whole under the I1-I4 warrant protocol. MS §6.2 (S->A rule, I1-I4); TPL §15 (anti-circularity sequence).
+
+| Field | Definition | Allowed values / format |
+|---|---|---|
+| `arch_id` | ARCH-nn | id |
+| `case_id` | Case | id |
+| `member_sc_ids` | Subconfigurations considered (one S qualifies; several require between-S coupling) | SC ids |
+| `i1_governing_problem_and_scale` | I1: declared governing problem, scale, domain, jurisdiction, interval | text |
+| `i1_scope_units` | I1: legal material fixing the scope (membership in the same act or chapter does not suffice) | unit_ids |
+| `i1_status` | Warrant status of I1 | SATISFIED | NOT_SATISFIED | INDETERMINATE |
+| `i2_coupling_description` | I2: legal competence, conditional dependency, delegation, procedural linkage, mandatory interface or cross-functional rule relating the S (common actor, vocabulary, adjacency or an external citation alone do not suffice) | text |
+| `i2_coupling_kind` | Kind of connection (not an ordered scale) | shared_participation | coordination_or_communication | qualified_procedural_dependency | mandatory_interface | conditional_dependency | integration_through_distributed_powers | integration_explicitly_constituted_by_law | NONE |
+| `i2_qr_ids` | Relations supporting the coupling (directed parties, effect, conditions, spans) | QR ids |
+| `i2_status` | Warrant status of I2 | SATISFIED | NOT_SATISFIED | INDETERMINATE |
+| `i3_configurational_consequence` | I3: property attributable to the whole rather than to each S independently (coordinated authority, alternative route, constraint spanning functions, conditional sequence, differentiated discretion, accountability interface, ...) | text |
+| `i3_bearer_and_rule` | I3: bearer and inferential rule (cannot presuppose the integration it warrants; must not merely re-describe the inventory or infer transmission from reachability) | text |
+| `i3_status` | Warrant status of I3 | SATISFIED | NOT_SATISFIED | INDETERMINATE |
+| `i4_evidence_searched` | I4: coverage/closure reference (CLOSURE_REGISTER) of what was searched | text / closure ids |
+| `i4_external_dependencies` | I4: unresolved external constitutive dependencies | EXT ids or blank |
+| `i4_rival_grouping` | I4: a rival grouping that could explain the same pattern | text |
+| `i4_boundary_sensitivity` | I4: qualitative statement of how the claim changes under a different boundary or closure assumption (no numeric score) | text |
+| `i4_status` | Warrant status of I4 | SATISFIED | NOT_SATISFIED | INDETERMINATE |
+| `anticircularity_sequence_followed` | Question -> independent coupling -> consequence -> rivals/boundary followed in this order, with I2 identified independently of the expected global property | YN |
+| `outcome` | Outcome for this candidate (no scores, no thresholds, no forced architecture) | INTEGRATED | DISTINGUISHABLE | OVERLAPPING_OR_PARTIALLY_INTEGRATED | INDETERMINATE |
+| `outcome_basis` | Why this outcome follows from I1-I4 and the rival grouping | text |
+| `status_profile` | Descriptive tally of constituent claim statuses (e.g., N relations legal_constitution_evidenced; 0 material_establishment_evidenced; 0 exercise_evidenced) | text |
+| `uncertainty_ids` | UNC ids | ids |
+| `hq_ids` | HQ ids (every INTEGRATED or OVERLAPPING outcome must be queued: I2/I3 are provisional) | ids |
+
+### 3.11 `PROPERTY_REGISTER.csv` — PROPERTY_REGISTER (stratum S/A)
+
+Attribution of properties to bearers with scale and aggregation stated before any generalization. MS §6.6, §5.3, §8.4(5); ON §6, §6.1.
+
+| Field | Definition | Allowed values / format |
+|---|---|---|
+| `prop_id` | PROP-nnn | id |
+| `case_id` | Case | id |
+| `property_name` | From the property list: the ten architectural dimensions of ON §6.1 (centralization; directness and intermediation; public-private allocation; self-regulatory autonomy; vertical distribution; decision-centre plurality; relational depth; functional allocation; discretion distribution; accountability structure) and the positional examples of MS §6.6 (necessary stage; depth from the rule-making position; substitutability). Any other name needs a deviation entry. | text |
+| `property_family` | Family F1-F5 (organizing proposal, not validated metrics) | F1 | F2 | F3 | F4 | F5 |
+| `bearer_type` | Where the property resides | POSITION | RELATION | SUBCONFIGURATION | ARCHITECTURE |
+| `bearer_id` | Id of the bearer | id |
+| `scale` | Subconfigurations (and function/stage) over which the property is stated | SC ids / text |
+| `value_statement` | Qualitative statement per function/position/relation; never a scalar score or composite | text |
+| `inference_rule` | Rule from records to the property | text |
+| `path_semantics` | If path-based: which relation types, modalities and conditions constitute a path step, and the legal rule (if any) linking successive relations; reachability alone is a candidate positional property | text or blank |
+| `aggregation_rule` | Rule for summarizing from S to A; values per S are reported before any summary | text |
+| `supporting_record_ids` | Records on which the property rests | ids |
+| `closure_dependency` | Y if the property depends on absence (necessity, substitutability, exclusivity, no alternative path) | YN |
+| `closure_ref` | CLOSURE_REGISTER id when closure_dependency = Y | id or blank |
+| `count_basis` | For count-dependent properties: evidenced instances or stated legal multiplicity (PT-7), else 'undetermined' | text or blank |
+| `fallacy_check` | Atomistic / ecological / premature-aggregation check performed | YN |
+| `rival_partition` | Rival partition considered | text or blank |
+| `status` | Result | asserted | undetermined | not_attributable |
+| `hq_ids` | HQ ids | ids |
+
+### 3.12 `CLOSURE_REGISTER.csv` — CLOSURE_REGISTER (stratum W/A)
+
+Coverage/closure statements and absence-dependent claims. MS §4.7, §6.2 (I4), §8.4(2)(6)(7); ON PT-4, PT-8.
+
+| Field | Definition | Allowed values / format |
+|---|---|---|
+| `closure_id` | CL-nn | id |
+| `case_id` | Case | id |
+| `record_kind` | Coverage statement or absence-dependent claim | COVERAGE | ABSENCE_CLAIM |
+| `claim_or_scope` | For COVERAGE: units/provisions and instruments searched and how; for ABSENCE_CLAIM: the claim (necessary stage, no alternative path, exclusivity, absence of a relation) | text |
+| `search_description` | How the search was done ('not found' is a statement about the search, not about the law) | text |
+| `unresolved_ext_ids` | Unresolved external references with constitutive dependency touching the claim | EXT ids or blank |
+| `result` | Result of the closure test | ASSERTED_WITHIN_DECLARED_CORPUS | UNDETERMINED |
+| `affected_claim_ids` | Properties/outcomes affected | ids |
+
+### 3.13 `PROVENANCE_LINKS.csv` — PROVENANCE_LINKS (stratum all)
+
+Many-to-many provenance and claim-level evidence links (evidence status belongs to the claim, not to the artifact). MS §6.5, ON §3.6; TPL §1.
+
+| Field | Definition | Allowed values / format |
+|---|---|---|
+| `link_id` | LNK-nnnnn | id |
+| `record_id` | Id of the supported record (ST/NA/PD/QR/EXT/SC/ARCH/PROP/CL) | id |
+| `record_type` | Type of the supported record | ST | NA | PD | QR | EXT | SC | ARCH | PROP | CL |
+| `unit_id` | Supporting unit | unit_id |
+| `support_type` | Direct or indirect support | direct | indirect |
+| `evidence_level` | A = inscription; B/C = establishment/operation evidence (not collected from legal text) | A (B and C not used) |
+| `claim_status_supported` | Highest epistemic status this link can support | EPISTEMIC |
+| `limitation` | Limits of the support | text or blank |
+
+### 3.14 `UNCERTAINTY_LOG.csv` — UNCERTAINTY_LOG (stratum all)
+
+Uncertainties and unresolved interpretations; consequential ones are queued, never silently resolved. TPL §18; MS §4.3.
+
+| Field | Definition | Allowed values / format |
+|---|---|---|
+| `unc_id` | UNC-nnn | id |
+| `case_id` | Case | id |
+| `record_ids` | Records affected | ids |
+| `unit_ids` | Units concerned | unit_ids |
+| `uncertainty_type` | Type | SOURCE_AMBIGUITY | DRAFTING_CUE | DIRECTION | DEV_THRESHOLD | ACCOUNTABILITY_SUFFICIENCY | COUPLING_THRESHOLD | EXTERNAL_DEPENDENCY | CLOSURE | PROTOCOL_GAP | OTHER |
+| `description` | What is uncertain | text |
+| `treatment` | How it was treated provisionally | text |
+| `effect_on_claims` | Claims affected | text |
+| `status` | Status | OPEN | ESCALATED_TO_HQ |
+
+### 3.15 `HUMAN_REVIEW_QUEUE.csv` — HUMAN_REVIEW_QUEUE (stratum all)
+
+Queue of items requiring human adjudication. The executor fills the machine columns ONLY; the human_* columns remain blank. TPL §18; ON §10.
+
+| Field | Definition | Allowed values / format |
+|---|---|---|
+| `hq_id` | HQ-nnn | id |
+| `case_id` | Case | id |
+| `trigger_code` | Trigger | HQ-NORMTYPE | HQ-DEV | HQ-ACCOUNT | HQ-INTEGRATION | HQ-OVERLAP | HQ-XREF | HQ-DIRECTION | HQ-GAP | HQ-EXTDEP | HQ-OTHER |
+| `record_refs` | Records concerned | ids |
+| `question` | Question for the human adjudicator | text |
+| `competing_readings` | Competing readings | text |
+| `machine_recommendation` | Provisional machine recommendation (not a decision) | text |
+| `reason_human_required` | Why a human decision is required | text |
+| `human_decision` | HUMAN ONLY - must stay blank in machine output | blank |
+| `human_rationale` | HUMAN ONLY - must stay blank in machine output | blank |
+| `decided_by` | HUMAN ONLY - must stay blank in machine output | blank |
+| `decision_date` | HUMAN ONLY - must stay blank in machine output | blank |
+
+### 3.16 `TRACE_DEMONSTRATIONS.csv` — TRACE_DEMONSTRATIONS (stratum A)
+
+Vertical-traceability demonstrations A -> S -> R -> lower records -> exact provision, chosen by a rule fixed here (not for expected support). TPL §17 generalized.
+
+| Field | Definition | Allowed values / format |
+|---|---|---|
+| `trace_id` | TR-nn | id |
+| `case_id` | Case | id |
+| `selection_rule` | SEEDED_DRAW among candidate S/A citing units from >= 2 distinct chapters/parts, over the list sorted by id, seed = integer value of the first 8 hex digits of the case source SHA-256; LARGEST_SUPPORT = candidate with the most distinct supporting units | SEEDED_DRAW | LARGEST_SUPPORT | NOT_APPLICABLE_NO_CANDIDATE |
+| `seed_integer` | Seed used (SEEDED_DRAW) | integer or blank |
+| `candidate_list` | Sorted candidate ids from which the draw was made | ids |
+| `traced_id` | Selected S/ARCH id | id |
+| `vertical_chain` | ARCH -> SC -> QR/NA -> ST -> unit ids -> evidence spans | text |
+| `chain_complete` | Whether every step resolves to a source unit | YN |
+
+### 3.17 `INSTRUMENT_LEVEL_SUMMARY.csv` — INSTRUMENT_LEVEL_SUMMARY (stratum profile)
+
+Instrument-level result and status profile (one row per case): not one label, not one score. MS §6.2, §4.7.
+
+| Field | Definition | Allowed values / format |
+|---|---|---|
+| `case_id` | Case | id |
+| `units_total` | Units in SOURCE_UNIT_INVENTORY | integer |
+| `units_screened` | Units in UNIT_SCREENING (must equal units_total) | integer |
+| `record_counts` | Descriptive counts of records by table (evidence descriptors, not significance) | text |
+| `instrument_level_result` | Result at instrument level | NO_ARCHITECTURE_WARRANTED | ONE_ARCHITECTURE | SEVERAL_DISTINGUISHABLE | OVERLAPPING_OR_PARTIALLY_INTEGRATED | INDETERMINATE |
+| `highest_level_reached` | Highest stratum for which the evidence warranted a claim (stopping rule) | E | P | R | S | A |
+| `status_profile` | Tally of claim statuses by element class | text |
+| `hq_open_count` | Open HQ items | integer |
+| `unresolved_ext_count` | Unresolved external references with constitutive dependency | integer |
+| `machine_provisional` | All records are machine-generated and provisional | Y (fixed) |
+| `summary_note` | Neutral note; no comparison with any other method or case | text |
+
+### 3.18 `PROTOCOL_DEVIATION_LOG.csv` — PROTOCOL_DEVIATION_LOG (stratum meta)
+
+Any deviation from, or gap encountered in, the frozen protocol; no silent harmonization.
+
+| Field | Definition | Allowed values / format |
+|---|---|---|
+| `dev_id` | DEV-nn | id |
+| `case_id` | Case | id |
+| `rule_id` | Protocol rule affected (RGAM-DR-nn) | text |
+| `description` | What happened | text |
+| `reason` | Why | text |
+| `impact` | Impact on records/claims | text |
+| `gap_ref` | Gap-register id if applicable (GAP-nn) | text or blank |
+
+### 3.19 `RUN_METADATA.csv` — RUN_METADATA (stratum meta)
+
+Run identity and isolation attestations.
+
+| Field | Definition | Allowed values / format |
+|---|---|---|
+| `run_id` | RUN-nn | id |
+| `case_id` | Case | id |
+| `protocol_version` | Protocol version | RGAM paired execution protocol v1.0 |
+| `protocol_manifest_sha256` | SHA-256 of RGAM_PROTOCOL_FREEZE_MANIFEST.csv as stated in the capsule | hex64 |
+| `model_id` | Model identifier as exposed by the interface | text or NOT EXPOSED |
+| `model_parameters` | Parameters exposed by the interface | text or NOT EXPOSED |
+| `start_time` | Start | timestamp |
+| `end_time` | End | timestamp |
+| `fresh_context_attested` | Fresh sequential subcontext with no prior case content | YN |
+| `files_read` | Every path read during the run | paths |
+| `forbidden_paths_attempted` | Any attempt to read a path outside the allow-list (and the result) | text or NONE |
+| `machine_generated` | All outputs machine-generated and provisional | Y (fixed) |
+
+## 4. Referential-integrity rules (checked by the executor at P9 and by any later validator)
+
+1. Every `unit_id` in any table exists in SOURCE_UNIT_INVENTORY; `units_screened` = `units_total` in INSTRUMENT_LEVEL_SUMMARY.
+2. Every NA, PD, QR, EXT cites ≥1 `ST` id, and every `ST` cites ≥1 unit; a statement with `recital_only = Y` has no derived NA/PD/QR.
+3. Every `*_ids` and `*_pd_id` field resolves to an existing record; `accountable_via_qr_ids` resolve to QR records of type `accountability`.
+4. Every QR has non-empty `origin_pd_id` and `counterpart_pd_id`, modality ≠ prohibition, and no `material_establishment_evidenced` status.
+5. Every NA/QR/SC/ARCH/PROP record has ≥1 row in PROVENANCE_LINKS; every derived record states `derivation_rule` and cites ≥2 units or an explicit cross-reference.
+6. Every `ARCH` with `outcome` INTEGRATED or OVERLAPPING_OR_PARTIALLY_INTEGRATED has an HQ item; no `ARCH` outcome is INTEGRATED unless `i1`–`i4` statuses are all SATISFIED.
+7. Every `PROP` with `closure_dependency = Y` has a `closure_ref` resolving to CLOSURE_REGISTER; a closure result `UNDETERMINED` forces `PROP.status = undetermined`.
+8. Every EXT has `source_verification_status = not_checked` and, unless a boundary decision is recorded, `boundary_status = outside_corpus_not_expanded`.
+9. HUMAN_REVIEW_QUEUE columns `human_decision`, `human_rationale`, `decided_by`, `decision_date` are blank.
+10. `TRACE_DEMONSTRATIONS.vertical_chain` resolves, step by step, to existing ids down to a unit and an evidence span.

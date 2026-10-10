@@ -1,0 +1,423 @@
+# Registro consolidado das interações com David Levi-Faur
+
+**Período coberto:** até 12 de setembro de 2026
+**Objeto:** colaboração científica sobre regulatory governance, regulatory intermediaries e legislação da União Europeia.
+**Finalidade:** memória cronológica e metodológica da relação de trabalho.
+
+## 1. Origem da colaboração
+
+O contato com David Levi-Faur surgiu no contexto de uma oportunidade de colaboração como **Research Assistant/Partner** em seu projeto sobre **“Governance by and of Intermediaries”**, associado à agenda mais ampla formulada na proposta **“Can Intermediaries Save Liberal Governance? Toward Effective and Legitimate Regulatory Intermediation”**.
+
+A proposta parte da ideia de que boa parte da literatura regulatória permanece excessivamente concentrada na relação bilateral entre **rule-makers/regulators** e **rule-takers/regulatees**, deixando pouco examinados os atores situados entre eles. David denomina esses atores **regulatory intermediaries** ou *rule-brokers*. A proposta inclui atividades como certification, reporting, ranking/rating, monitoring, testing, gatekeeping e auditing.
+
+A oportunidade específica apresentada a mim dizia respeito à **identificação e codificação de intermediários regulatórios em legislação da União Europeia**, inicialmente com atenção à transição verde. Os documentos que preparei desde 5 de setembro registram explicitamente esse trabalho como resposta à chamada de David para um assistente/parceiro de pesquisa.
+
+## 2. Primeira reunião — 5 de setembro de 2026
+
+Na primeira conversa direta, David apresentou o projeto, sua agenda de pesquisa e a possibilidade concreta de colaboração.
+
+Os pontos centrais que ficaram da reunião foram:
+
+| Tema                         | Conteúdo da conversa                                                                      |
+| ---------------------------- | ----------------------------------------------------------------------------------------- |
+| Projeto                      | Estudo de regulatory intermediaries e dos mecanismos de intermediação                     |
+| Campo empírico               | Legislação da União Europeia                                                              |
+| Recorte inicial              | Transição verde/regulação climática                                                       |
+| Interesse de David           | Construção de dados empiricamente utilizáveis sobre intermediários                        |
+| Próxima etapa                | Um exercício prático de construção/codificação de dataset                                 |
+| Avaliação                    | David solicitou que eu demonstrasse capacidade de pesquisa aplicada e construção de dados |
+| Material adicional           | Também houve solicitação de um writing sample                                             |
+| Possibilidade de colaboração | David informou possuir recursos/capacidade para contratação no âmbito do projeto          |
+
+Minha interpretação após a reunião foi de que David não buscava simplesmente uma revisão bibliográfica. Ele queria verificar se eu conseguiria **transformar uma construção teórica sobre intermediação regulatória em um protocolo empírico reproduzível**.
+
+Esse ponto passou a orientar todo o trabalho subsequente.
+
+## 3. Primeira resposta ao exercício — 5 e 6 de setembro
+
+Imediatamente após a conversa, estudei a proposta teórica de David e construí uma primeira operacionalização.
+
+O primeiro desenho utilizou quatro atos europeus escolhidos como casos exemplificativos de mecanismos diferentes:
+
+| Ato                                                 | CELEX      | Mecanismo inicialmente associado |
+| --------------------------------------------------- | ---------- | -------------------------------- |
+| Corporate Sustainability Reporting Directive — CSRD | 32022L2464 | reporting + auditing/assurance   |
+| EU Ecolabel Regulation                              | 32010R0066 | certification                    |
+| Climate Benchmarks Regulation                       | 32019R2089 | ranking/rating                   |
+| EU ETS Verification and Accreditation               | 32018R2067 | auditing/certification           |
+
+Essa primeira PoC foi construída com coleta programática dos textos do EUR-Lex, identificação CELEX, normalização documental, screening lexical e preservação dos trechos normativos usados como evidência. O relatório de 5 de setembro registra 1.079 sinais encontrados nesses quatro atos.
+
+A primeira grande descoberta metodológica foi que:
+
+**keyword hit ≠ regulatory intermediary.**
+
+A presença de termos como *audit*, *report*, *certification* ou *benchmark* não prova, por si só, que exista uma relação de intermediação regulatória.
+
+Isso levou à separação entre:
+
+**Stage A — lexical screening**, utilizado apenas para aumentar recall e localizar candidatos;
+
+e
+
+**Stage B — substantive R-I-T reconstruction**, no qual é necessário demonstrar documentalmente quem é o regulator, quem é o intermediary, quem é o target e qual função ou mecanismo conecta esses atores.
+
+Essa distinção tornou-se um dos princípios metodológicos centrais do projeto.
+
+## 4. Evolução do exercício durante o primeiro fim de semana
+
+Entre 5 e 8 de setembro, o trabalho passou por várias iterações.
+
+A primeira arquitetura foi ampliada de quatro para cinco atos e chegou a um corpus com **1.092 hits lexicais**, preservando sete relações R-I-T já validadas e deixando vinte unidades para adjudicação humana.
+
+Depois, deliberadamente simplifiquei o desenho. Foram experimentadas alternativas envolvendo:
+
+* múltiplos atos;
+* diferentes agentes/modelos de leitura;
+* codebooks progressivamente mais estruturados;
+* comparação entre codificadores;
+* adjudicação humana;
+* construção de benchmark;
+* condições experimentais G0/G1/G2.
+
+Em determinado momento, o protocolo foi reduzido metodologicamente a um único ato, três condições de scaffolding e três execuções. Essa arquitetura foi importante para aprender a separar construção de benchmark de avaliação de modelos, embora **não tenha sido a forma final do material discutido posteriormente com David**. A memória metodológica de 7 de setembro registra explicitamente esse desenho experimental.
+
+A conclusão importante desse período foi que eu já não estava apenas “extraindo palavras” de normas. Passei a trabalhar com a reconstrução de **relações regulatórias documentalmente sustentadas**.
+
+## 5. Reorientação para três casos
+
+Depois das primeiras experiências, o exercício foi reorganizado em torno de três atos europeus:
+
+**Case 01 — European Climate Law**
+CELEX **32021R1119**
+
+**Case 02 — Carbon Border Adjustment Mechanism — CBAM**
+CELEX **32023R0956**
+
+**Case 03 — Deforestation-Free Products Regulation**
+CELEX **32023R1115**
+
+Essa escolha buscava variedade de arquiteturas regulatórias:
+
+* European Climate Law: governança climática, conhecimento científico, monitoramento e coordenação;
+* CBAM: mercado, emissões, certificados, autoridades aduaneiras e compliance;
+* Deforestation Regulation: due diligence, rastreabilidade, supervisão e cadeias produtivas.
+
+O trabalho evoluiu para leitura substantiva dos atos, identificação de atores e reconstrução de relações R-I-T, sempre preservando a evidência textual.
+
+## 6. O que comuniquei a David sobre o trabalho realizado
+
+Na comunicação preparada para David, resumi o trabalho aproximadamente nos seguintes blocos:
+
+1. estudo da literatura de regulatory intermediation e do modelo R-I-T;
+2. identificação das categorias mais amplas e dos mecanismos mais diretamente associados ao projeto;
+3. operacionalização dos conceitos em regras de codificação;
+4. desenvolvimento de coleta dos atos EUR-Lex/CELEX e transformação em arquivos mais adequados à leitura e análise;
+5. desenvolvimento e teste de prompts, strings e protocolos de validação;
+6. comparação de formas diferentes de leitura/codificação automatizada;
+7. calibração dos protocolos a partir de leitura humana;
+8. aplicação do procedimento aos três atos;
+9. construção de dataset e documentação metodológica.
+
+Também questionei David sobre a suficiência de utilizar **apenas três atos CELEX como proof of concept**, em vez de tentar construir prematuramente um universo grande.
+
+## 7. Feedback decisivo de David — 9 de setembro
+
+David respondeu ao exercício de maneira muito positiva, mas com uma ressalva metodologicamente importante.
+
+A essência da mensagem foi:
+
+**o trabalho era impressionante, mas não correspondia exatamente ao que ele tinha originalmente em mente.**
+
+Ao mesmo tempo, afirmou estar **confiante de que poderíamos trabalhar juntos**.
+
+Essa mensagem foi importante porque separou duas avaliações diferentes:
+
+**capacidade de pesquisa:** claramente positiva;
+
+**aderência exata do desenho à pergunta teórica dele:** ainda precisava de calibração.
+
+Não interpretei, portanto, a mensagem como rejeição do exercício. O ponto era outro: eu havia demonstrado capacidade técnica e metodológica, mas precisava me aproximar mais da forma como David concebia a população, os intermediários e os mecanismos.
+
+David também encaminhou nessa ocasião o documento:
+
+**`european climate law - governance design.docx`**
+
+O documento é particularmente relevante porque mostra como ele próprio explorou a European Climate Law utilizando categorias de **rule-makers, rule-takers, rule-intermediaries e rule-beneficiaries** e identificando as respectivas disposições normativas.
+
+Nesse documento, a European Climate Law aparece como um sistema de **multilevel intermediation**, no qual Comissão, Estados-Membros, European Scientific Advisory Board, EEA, organismos científicos, sociedade civil e outros atores exercem funções distintas.
+
+Uma observação conceitualmente muito importante do documento é que a accountability da Climate Law é predominantemente **procedural**, seguindo sequências como:
+
+**assess → report → recommend → respond → explain → publish → review**
+
+mais do que:
+
+**inspect → detect → sanction.**
+
+Isso ampliou minha compreensão de intermediation para além dos mecanismos mais intuitivos de fiscalização.
+
+## 8. Minha resposta ao feedback de 9 de setembro
+
+Respondi agradecendo o retorno e o documento e informando que aproveitaria o intervalo antes das próximas observações para **aprofundar meu conhecimento sobre o tema**.
+
+A postura adotada foi deliberadamente de abertura: em vez de defender o desenho que eu havia produzido, passei a tentar compreender com mais precisão o que David estava procurando.
+
+Foi a decisão correta metodologicamente. O exercício já havia cumprido a função de demonstrar capacidade; a prioridade seguinte era calibrar o objeto.
+
+## 9. Segundo feedback substantivo — 10 de setembro
+
+Em 10 de setembro, David enviou nova mensagem.
+
+Informou que havia trabalhado um pouco **com IA sobre as três leis europeias que eu estava analisando** e também realizado uma comparação entre elas.
+
+Disse que o material anexado poderia ser útil, embora **“even if partially misleading”**.
+
+Esse comentário é revelador: David não tratou a análise automatizada como resultado científico. Utilizou-a como instrumento exploratório e sinalizou explicitamente que poderia conter interpretações enganosas.
+
+Em seguida, formulou aquela que se tornou a principal correção metodológica do projeto:
+
+**“It seems to me that we need to establish population.”**
+
+Esse é provavelmente o ponto mais importante de toda a troca até agora.
+
+Antes de procurar intermediários em atos selecionados, precisamos determinar **qual é a população normativa que queremos estudar**.
+
+Isso implica definir:
+
+* o universo de atos;
+* critérios de inclusão e exclusão;
+* período;
+* tipos normativos;
+* domínio regulatório;
+* unidade de análise;
+* sampling frame;
+* forma de tratamento de alterações e versões;
+* eventual estratégia amostral.
+
+Consequentemente, a presença conhecida de intermediários **não pode ser o critério para construir a população**, pois isso introduziria selection bias. Esse princípio já passou a integrar formalmente a arquitetura metodológica do projeto.
+
+David acrescentou outro direcionamento:
+
+**eu deveria ler mais sobre intermediários em diferentes esferas.**
+
+Isso indicou que eu estava excessivamente concentrado na operacionalização normativa antes de estabilizar plenamente a literatura e a variedade institucional do fenômeno.
+
+## 10. Artigo encaminhado por David com Rotem Medzini
+
+Na mesma comunicação de 10 de setembro, David anexou trabalho desenvolvido com **Rotem Medzini**:
+
+**“Why the DSA Monitors and the AI Act Assures? Enhanced Self-Regulation in Digital Governance.”**
+
+David também informou que já havia encaminhado anteriormente sua grant proposal e uma apresentação.
+
+O artigo com Rotem tornou-se especialmente importante porque oferece uma formulação mais refinada das funções dos intermediários.
+
+O paper compara duas formas de **Enhanced Self-Regulation — ESR**:
+
+**DSA → monitoring**
+
+e
+
+**AI Act → assurance.**
+
+No DSA, intermediários como auditors, trusted flaggers e vetted researchers geram informação e tornam o comportamento das plataformas mais observável, preservando importante discricionariedade pública de enforcement.
+
+No AI Act, notified bodies desempenham funções de **assurance**, realizando avaliações de conformidade que podem afetar diretamente o acesso ao mercado.
+
+Assim, a diferença não está simplesmente em “ter ou não ter intermediários”, mas na **função, autoridade, discricionariedade e accountability atribuídas a eles**.
+
+Esse paper deslocou minha compreensão de uma taxonomia excessivamente baseada em nomes de mecanismos para uma análise mais propriamente institucional:
+
+**o que o intermediário faz, qual autoridade recebe e como essa delegação redistribui poder regulatório.**
+
+## 11. Grant proposal de David
+
+Outro documento central recebido é a proposta:
+
+**“Can Intermediaries Save Liberal Governance? Toward Effective and Legitimate Regulatory Intermediation.”**
+
+Ela situa a pesquisa em uma agenda muito mais ampla que o exercício EUR-Lex.
+
+Os objetivos incluem, entre outros aspectos:
+
+* identificar e classificar intermediários;
+* construir medidas de autonomia e accountability;
+* estudar mudanças entre issues, países e períodos históricos;
+* investigar emergência, institucionalização e difusão dos mecanismos;
+* relacionar intermediação, efetividade e legitimidade;
+* compreender regimes monocêntricos e policêntricos;
+* estudar estratégias de responsibilization e empowerment.
+
+A proposta trabalha explicitamente com mecanismos como **reporting, certification, ranking/rating e auditing**, mas dentro de uma teoria maior de regulatory intermediation, polycentric governance, legitimacy e effectiveness.
+
+Isso esclareceu que o dataset das normas europeias é apenas **uma peça empírica de uma agenda científica significativamente maior**.
+
+## 12. Minha resposta de 10 de setembro
+
+Respondi a David agradecendo o artigo e dizendo que estava estudando o tema com grande interesse.
+
+Também destaquei que a agenda dialogava diretamente com questões que já vinham aparecendo no meu próprio universo de pesquisa e manifestei entusiasmo em trabalhar com ele.
+
+Confirmei minha disponibilidade para a reunião de sábado.
+
+Na troca estavam também copiados **Rotem Medzini** e **Michael Sierra**, sinalizando que a conversa já começava a se inserir numa equipe mais ampla, embora até agora minhas interações substantivas tenham ocorrido principalmente com David.
+
+## 13. Reunião marcada para sábado, 12 de setembro
+
+Para a reunião de 12 de setembro, David explicitou de maneira muito clara a agenda:
+
+**“I’ll ask you first to explain what u did and thereafter how to continue.”**
+
+Portanto, ele estruturou a conversa em duas partes:
+
+**1. explicar o trabalho que fiz;**
+
+**2. discutir como continuar.**
+
+Houve também um ajuste de horário. David informou que havia se equivocado sobre a diferença de fuso e escreveu:
+
+**“I guess I was wrong about your time compared to mine. It is now 13.42 CET. I can do in 3 hours to 7 hours from now.”**
+
+Respondi confirmando a disponibilidade e sugerindo aproximadamente meio-dia no horário de Brasília.
+
+Até o momento deste registro, essa é a reunião mais recente/agendada e representa a passagem de um **teste individual de capacidade** para uma discussão potencialmente mais estruturada sobre **desenho conjunto da pesquisa**.
+
+## 14. Materiais recebidos de David até agora
+
+Os principais materiais identificáveis são:
+
+| Material                                                                                                  | Relevância                                                                                              |
+| --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| **Can Intermediaries Save Liberal Governance? Toward Effective and Legitimate Regulatory Intermediation** | Grant proposal e arquitetura geral do programa                                                          |
+| **European Climate Law — governance design**                                                              | Exercício/análise de David sobre atores, papéis, intermediação e accountability                         |
+| **Why the DSA Monitors and the AI Act Assures?** — Medzini & Levi-Faur                                    | Desenvolvimento recente sobre monitoring, assurance e Enhanced Self-Regulation                          |
+| Comparação produzida por David com auxílio de IA sobre as três leis                                       | Material exploratório; ele próprio alertou que poderia ser parcialmente misleading                      |
+| Apresentação do projeto                                                                                   | David afirmou já tê-la enviado; não a identifico com segurança entre os arquivos atualmente recuperados |
+
+O documento da Climate Law está preservado no projeto. O artigo com Rotem também está preservado e contém indicação expressa de que é material para conferência e não deve ser distribuído sem autorização dos autores.
+
+## 15. Materiais e entregas que produzi em resposta a David
+
+Ao longo do exercício foram produzidas várias versões, entre elas:
+
+**Proposta_Codificacao_Intermediarios_UE.docx** — primeira consolidação conceitual e operacional do exercício, preparada em 5 de setembro.
+
+**RESEARCH_NOTE_v3** — nota curta preparada especificamente para David.
+
+**RELATORIO_FINAL_APRESENTACAO.docx** — documentação detalhada das primeiras rodadas, incluindo screening, reconstrução R-I-T e validação. Nessa etapa, o exercício chegou a sete relações R-I-T validadas a partir da PoC inicial.
+
+**RELATORIO_COMPLETO_INTERMEDIARIES_EN.docx** — versão ampliada da experiência com cinco atos, utilizada sobretudo como registro metodológico e de desenvolvimento.
+
+Depois dessas versões, o exercício foi reconstruído de maneira mais enxuta e orientada aos **três casos CELEX** discutidos com David.
+
+Também foram produzidos datasets, matrizes de codificação, codebooks, logs metodológicos, arquivos de validação e notas técnicas.
+
+É importante registrar que **nem todas essas versões foram necessariamente enviadas a David**. Muitas foram iterações internas realizadas para chegar ao material efetivamente apresentado. Para fins históricos, elas documentam a evolução da metodologia, mas não devem ser confundidas com entregas formais.
+
+## 16. Evolução intelectual da conversa
+
+A trajetória até aqui pode ser sintetizada em cinco movimentos.
+
+**Primeiro:** comecei tentando identificar termos e mecanismos de intermediação em normas.
+
+**Segundo:** percebi que termos não são relações e passei a reconstruir tríades **Regulator–Intermediary–Target** sustentadas por evidência textual.
+
+**Terceiro:** passei a compreender que os papéis R, I e T são **relacionais**, não propriedades permanentes das organizações. Uma mesma entidade pode ocupar posições diferentes em relações diferentes. Essa formulação está formalmente incorporada à arquitetura metodológica atual.
+
+**Quarto:** o feedback e os materiais de David deslocaram a análise da simples identificação de intermediários para a investigação de suas **funções, autoridade, autonomia, accountability e grau de discricionariedade**, especialmente a distinção entre monitoring e assurance.
+
+**Quinto:** David recolocou a questão no nível metodológico anterior à codificação: antes de perguntar quantos intermediários existem, é preciso saber **qual é a população na qual os estamos procurando**.
+
+Essa última passagem é atualmente a fronteira do projeto.
+
+## 17. O que David parece estar avaliando em mim
+
+Pelas interações até agora, David não parece estar avaliando apenas domínio prévio da literatura.
+
+Ele já pôde observar quatro capacidades:
+
+**capacidade de aprender rapidamente um campo novo;**
+
+**capacidade de transformar teoria em desenho empírico;**
+
+**capacidade de trabalhar com documentação jurídica e construir datasets reproduzíveis;**
+
+**capacidade de receber uma crítica metodológica e reconstruir o desenho sem apego à solução anterior.**
+
+O comentário de que o trabalho foi **“impressive”**, acompanhado da afirmação de que ainda não era exatamente o que tinha imaginado, é especialmente informativo: a competência operacional foi reconhecida; o desafio atual é o **fit teórico e metodológico com o programa de pesquisa**.
+
+## 18. Situação da colaboração em 12 de setembro de 2026
+
+Neste momento, a relação já ultrapassou uma candidatura genérica.
+
+Existe:
+
+**uma questão científica concreta;
+um exercício realizado;
+feedback substantivo de David;
+troca de literatura e materiais não publicados;
+introdução indireta a outros membros da equipe;
+nova reunião dedicada a discutir continuidade;
+e uma indicação explícita anterior de capacidade de contratação.**
+
+Ao mesmo tempo, ainda não considero formalmente resolvidos:
+
+**o vínculo/contratação;
+o papel exato que eu exerceria;
+o desenho definitivo do dataset;
+a população empírica;
+a escala do estudo;
+e a divisão de responsabilidades na equipe.**
+
+Esses pontos permanecem abertos.
+
+## 19. Questão metodológica atualmente prioritária
+
+A pergunta operacional mais importante para a próxima fase não é:
+
+**“Como encontrar mais intermediários?”**
+
+É:
+
+**“What is the population from which regulatory intermediation should be observed and compared?”**
+
+Somente depois dessa definição será defensável decidir:
+
+* quais atos entram;
+* quais atos ficam fora;
+* qual a unidade de observação;
+* como comparar atos com e sem intermediação;
+* quais mecanismos serão codificados;
+* e como eventualmente escalar a coleta.
+
+Essa mudança evita que o dataset seja construído selecionando apenas casos em que já sabemos que há intermediários — o equivalente metodológico de desenhar o alvo em volta das flechas depois de atirá-las.
+
+## 20. Estado conceitual que levo para a próxima conversa com David
+
+A compreensão consolidada neste momento é:
+
+**Regulatory intermediation não é uma lista de organizações.**
+
+É uma arquitetura relacional de governança na qual atores distintos recebem funções, autoridade e discricionariedade para operar entre processos de rule-making/regulation e rule-taking/compliance.
+
+A análise, portanto, deve conseguir responder:
+
+**quem regula;
+quem é regulado;
+quem está entre eles;
+o que esse intermediário faz;
+qual autoridade recebeu;
+qual mecanismo utiliza;
+quanto de discricionariedade possui;
+como sua autonomia é estruturada;
+como é responsabilizado;
+e que tipo de governança essa arquitetura produz.**
+
+O dataset é o instrumento empírico para responder a essas perguntas. Ele não deve substituir a pergunta teórica.
+
+---
+
+### Síntese de uma frase
+
+**A colaboração com David começou como um teste de capacidade para codificar intermediários em legislação europeia; o exercício demonstrou capacidade técnica e metodológica, recebeu avaliação explicitamente positiva, mas o diálogo evoluiu para uma questão científica mais sofisticada: construir uma população defensável de regimes normativos e estudar comparativamente como diferentes formas de intermediação — especialmente monitoring e assurance — redistribuem autoridade, autonomia e accountability na governança regulatória.**

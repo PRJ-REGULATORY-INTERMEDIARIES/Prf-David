@@ -1,0 +1,13 @@
+higher_order_id,configuration_id,claim_id,relation_id,legal_anchor,vertical_path
+A01,K01,C03,R01,"Articles 9–19, 26; Articles 13 and 26","Legal text → provider/deployer assignments → provider/deployer relationship → lifecycle assurance configuration → formal architecture"
+A01,K01,C04,R01,"Article 26(1)–(3)","Legal text → deployer duties → instruction/use relation → lifecycle assurance configuration → formal architecture"
+A01,K01,C05,R02,"Articles 28–34, 43","Legal text → conditional third-party assessment and public notification → provider/notified-body and authority/body relations → lifecycle assurance configuration → formal architecture"
+A01,K02,C06,R04,"Articles 20–21, 73–85","Legal text → provider information/reporting and authority powers → information/enforcement relations → market-surveillance configuration → formal architecture"
+A01,K02,C07,R08,"Article 77","Legal text → documentation access and notification → rights-authority/surveillance-authority link → market-surveillance configuration → formal architecture"
+A01,K02,C09,R03,"Articles 28–30","Legal text → national designation/monitoring powers → authority/body relation → market-surveillance and conformity-assurance configuration → formal architecture"
+A01,K02,C10,R07,"Articles 79(5), 81","Legal text → Commission safeguard role → national-to-Union review relation → multilevel surveillance configuration → formal architecture"
+A01,K03,C08,R09,"Articles 3(47), 88, 91–94","Legal text → Commission/AI Office powers → Commission-provider relation → GPAI configuration → formal architecture"
+A01,K03,C08,R10,"Article 90","Legal text → scientific-panel alert → alert-trigger link → GPAI configuration → formal architecture"
+A01,K03,C08,R11,"Articles 90, 92, 93","Legal text → Board consultation/information roles → Commission-Board relation → GPAI configuration → formal architecture"
+A01,K01,C11,R02,"Articles 26(3), 43","Legal text → bounded choices → relation-specific discretion → lifecycle assurance configuration → formal architecture"
+A01,K02,C12,R06,"Articles 79–84, 99–101","Legal text → notice, procedural safeguards and review → authority/operator accountability features → surveillance configuration → formal architecture"

@@ -1,0 +1,7 @@
+﻿issue_id,case_scope,issue_type,description,diagnostic,recommended_handling,provenance,status
+P02_ISSUE_001,ALL,MODEL_INDEPENDENCE,"Two passes are simulated model replications, not human intercoder reliability.",LIMITS_RELIABILITY_CLAIM,Use human duplicate coding before production change.,MODEL_INDEPENDENT_A/B,OPEN
+P02_ISSUE_002,P01/P04,SCHEMA,Ternary R-I-T rows can combine legally separate binary edges.,RIT_COMPOSITE_OVERASSERTION,Use binary core and derive ternary configuration.,ADJUDICATED_SIMULATION,OPEN
+P02_ISSUE_003,P03,FUNCTION_MECHANISM,"Assessment, assurance, monitoring, audit and surveillance remain overlapping.",FUNCTION_MECHANISM_COLLAPSE_RISK,Retain separate fields plus explicit collapse flag.,MODEL_INDEPENDENT_A/B,OPEN
+P02_ISSUE_004,P02,ACTOR_STATUS,"Insurance is a statutory condition on bodies, not necessarily a regulatory intermediary.",SOURCE_AMBIGUOUS,Do not derive intermediary status automatically.,ADJUDICATED_SIMULATION,OPEN
+P02_ISSUE_005,P05,ACTOR_STATUS,Article 18 permits exemption conditional on audit/supervision but does not settle intermediary status.,SOURCE_AMBIGUOUS,Keep unresolved pending human legal adjudication.,ADJUDICATED_SIMULATION,OPEN
+P02_ISSUE_006,ALL,ACTOR_NORMALIZATION,"Legal categories such as competent body, notified body and validation agent need identity and category fields.",NORMALIZATION_AMBIGUITY,Store verbatim legal label and normalized identity separately.,MODEL_PILOT,OPEN

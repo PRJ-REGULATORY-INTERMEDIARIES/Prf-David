@@ -1,0 +1,17 @@
+{
+  "pilot": "RELATIONAL_LEXIMETRICS_PILOT/PILOT_01",
+  "generated_at": "2026-09-29T14:07:51",
+  "source_dataset": "G:\\Meu Drive\\PRJ-David\\Prf-David\\RELATIONAL_LEXIMETRICS_PILOT\\PILOT_01\\00_SOURCES\\dataset_of_EU_regulatory_intermediation.xlsx",
+  "selected_cases": [
+    "P01",
+    "P02",
+    "P03",
+    "P04",
+    "P05"
+  ],
+  "relationship_count": 20,
+  "evidence_count": 20,
+  "actor_count": 24,
+  "crosswalk_field_count": 170,
+  "production_modified": false
+}

@@ -1,0 +1,83 @@
+version: 1.0.0
+status: specification_only
+RA_started: false
+mapping_generated: false
+coders_exposed_to_RA:
+  - Coder A
+  - Coder B
+  - Coder C
+  - Coder D
+mapping_generation:
+  timing: only_when_future_RA_package_is_built
+  method: cryptographically_secure_random_permutation
+  implementation_requirement: use an operating-system CSPRNG over the four source codings
+  no_fixed_family_position: true
+  no_current_mapping: true
+mapping_custody:
+  filename_future: RA_4way_identity_mapping.yaml
+  storage: researcher-controlled location outside the RA-accessible package
+  accessible_to_RA: false
+  disclose_only_after: RA decisions are closed and hashes are recorded
+fields_removed_from_each_coder_proposal:
+  - provider
+  - model_name
+  - model_id
+  - family
+  - original_coder_label
+  - original_R1_or_R2_label
+  - source_file_path
+  - execution_context
+  - execution_timestamps
+  - effort_or_reasoning_metadata
+  - actor.role
+  - notes
+  - interpretive_note
+  - coder-authored evidence wording
+  - coder-specific evidence IDs and evidence_refs
+  - free-text action
+  - free-text object
+  - free-text mediating_function
+fields_preserved_symmetrically_per_proposal:
+  - screening_status
+  - normalized_R_label_set
+  - normalized_I_label_set
+  - normalized_T_label_set
+  - condition_A
+  - condition_B
+  - condition_C
+  - condition_D
+  - condition_E
+  - relational_result
+  - primary_mechanism
+  - confidence
+canonical_evidence_supplied_once_per_candidate:
+  - candidate_id
+  - source_location
+  - focal_excerpt
+  - parent_context
+  - authorized_same_act_context
+  - canonical_corpus_access_when_needed
+  - methodology_v1_1_0_codebook
+  - reference_schema
+content_preservation:
+  source_outputs_modified: false
+  normalized_fields_are_derived_only: true
+  actor_role_used_as_identity_or_provider_clue: false
+  original_files_retained_for_post_adjudication_audit: true
+forbidden_RA_information:
+  - provider or model identity
+  - OpenAI or Anthropic family identity
+  - which two coders belong to the same family
+  - majority-by-family statistics
+  - any claim that 3/4 equals truth
+RA_output_required_fields:
+  - own_decision
+  - justification
+  - canonical_evidence
+  - relationship_to_Coder_A_through_D
+  - reasons_for_accepting_or_rejecting_competing_interpretations
+current_non_actions:
+  RA_executed: false
+  RA_decision_file_created: false
+  human_gate_executed: false
+  benchmark_locked: false

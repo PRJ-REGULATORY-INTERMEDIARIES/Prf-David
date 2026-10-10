@@ -1,0 +1,7 @@
+# Directive case recovery-state note (2026-10-07)
+
+**Classification: DIR-REC-C — ANALYTICAL_OUTPUTS_COMPLETE_NOT_VALIDATED**
+
+Structural basis only (no analytical content interpreted by the orchestrator): a previous executor was interrupted by an API rate limit. Present in `RGAM_O_DIR_86_361/`: the executor brief; the 19 schema CSV tables, all populated (row counts equal the provisional pre-freeze counts the executor had printed: inventory and screening 93 each; 86 statements; 20 assignments; 12 positions/devices; 39 relations; 10 external references; 6 subconfigurations; 2 architecture candidates; 15 properties; 6 closure rows; 746 provenance links; 36 uncertainties; 19 queue items; 2 traces; 1 summary; 13 deviation rows; 1 run-metadata row; 1 W declaration); `_work/` with the mechanical parsing scripts, the authored analytical source files (`data_*.py`), `build.py`, `build_info.json`, `units.json`, `validate.py` and `PROGRESS.md`. **Absent:** `CASE_RGAM_REPORT.md`, `CASE_QA_REPORT.md`, `ACCESS_AND_CONTAMINATION_LOG.md`, `EXECUTION_PROVENANCE.md`, `CASE_FREEZE_MANIFEST.csv`, its SHA-256 sidecar and `CASE_GATE.md`. `validate.py` had been written but **not run**; nothing is validated or frozen. The counts are provisional and are not results.
+
+Preservation: `DIR_CASE_FILE_INVENTORY_AT_RECOVERY.csv` (path, bytes, mtime, SHA-256), `PROGRESS_AT_RECOVERY.md` and `STATE_COPY/` (byte copy of the case directory excluding `__pycache__`) in this directory form an immutable snapshot and must not be altered or read for any purpose other than this note.

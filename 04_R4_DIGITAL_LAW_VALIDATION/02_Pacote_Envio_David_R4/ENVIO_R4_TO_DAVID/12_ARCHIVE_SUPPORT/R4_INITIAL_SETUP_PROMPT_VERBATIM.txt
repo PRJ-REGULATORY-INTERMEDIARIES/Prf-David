@@ -1,0 +1,1080 @@
+# R4 — CROSS-DOMAIN VALIDATION
+
+## INITIAL SETUP, BASELINE FREEZE, AI PROTOCOL AND RESEARCH DESIGN
+
+You are beginning **Round 4 (R4)** of a research project on regulatory intermediation.
+
+R4 is not a new standalone project.
+
+It is a controlled extension of the completed R1–R3 research pipeline into a new regulatory domain: **EU digital regulation**.
+
+This prompt is self-contained and incorporates the mandatory protocol for the use of Artificial Intelligence in the research workflow.
+
+The immediate purpose of this first R4 task is **not yet to code the three digital laws**.
+
+Your first responsibility is to:
+
+1. reconstruct the final methodological state of R3;
+2. freeze that baseline;
+3. establish the R4 workspace;
+4. register the digital corpus;
+5. establish the human–AI division of labor;
+6. activate AI provenance and escalation logs;
+7. prepare the project for subsequent independent coding.
+
+Do not proceed directly to substantive mechanism coding.
+
+---
+
+# 1. RESEARCH CONTEXT
+
+The broader research project examines **regulatory intermediation** through relational structures involving:
+
+* regulators (`R`);
+* regulatory intermediaries (`I`);
+* regulatory targets (`T`);
+* R–I relationships;
+* I–T relationships;
+* direct R–T relationships;
+* intermediary mechanisms;
+* legal evidence supporting every analytical decision.
+
+R1–R3 developed and progressively refined a coding and evidence architecture using EU green regulation.
+
+R4 was proposed as a **cross-domain validation exercise**.
+
+The objective is to determine whether the analytical framework constructed using green regulation can travel to digital regulation.
+
+The comparison must help answer:
+
+1. Which variables are genuinely necessary?
+2. Which variables generate excessive coding burden?
+3. Which variables travel successfully across regulatory domains?
+4. Which tasks can AI perform reliably?
+5. Which tasks require human qualitative interpretation?
+6. When is escalation from a lower-cost to a more capable model justified?
+7. How does regulatory intermediation differ between green and digital governance?
+8. Where does the existing R3 framework fail, become ambiguous, or lose information?
+
+R4 therefore evaluates both:
+
+**the regulatory intermediation framework**
+
+and
+
+**the methodological architecture through which humans and AI construct the dataset.**
+
+---
+
+# 2. DIGITAL CASES
+
+The three R4 digital cases are fixed.
+
+## D1 — GDPR
+
+**Regulation (EU) 2016/679**
+General Data Protection Regulation
+CELEX: `32016R0679`
+
+Official text:
+
+https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng
+
+---
+
+## D2 — Digital Services Act
+
+**Regulation (EU) 2022/2065**
+Digital Services Act
+CELEX: `32022R2065`
+
+Official text:
+
+https://eur-lex.europa.eu/eli/reg/2022/2065/oj/eng
+
+---
+
+## D3 — Artificial Intelligence Act
+
+**Regulation (EU) 2024/1689**
+Artificial Intelligence Act
+CELEX: `32024R1689`
+
+Official text:
+
+https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng
+
+Do not add, remove, or substitute cases without explicit human instruction.
+
+---
+
+# 3. INDEPENDENCE REQUIREMENT
+
+Rotem Medzini has independently coded these three acts.
+
+His coding must **not be consulted during the initial R4 coding process**.
+
+The R4 analysis must first be conducted independently.
+
+Only after the internal R4 coding has been:
+
+* completed;
+* reviewed;
+* adjudicated;
+* versioned;
+* and frozen,
+
+may Rotem's coding be introduced.
+
+The later comparison between the two codings will itself be treated as research evidence.
+
+Do not try to anticipate Rotem's classifications.
+
+Do not optimize outputs to resemble expected external coding.
+
+---
+
+# 4. MANDATORY AI RESEARCH PROTOCOL
+
+The use of AI in R4 is part of the methodology and must therefore be:
+
+* explicit;
+* traceable;
+* reproducible;
+* auditable;
+* proportional to task complexity.
+
+AI is not a single undifferentiated coder.
+
+Different models have different methodological functions.
+
+---
+
+# 5. MODEL ARCHITECTURE
+
+## 5.1 GPT-5.6 Luna High
+
+Use **GPT-5.6 Luna High** as the default model for tasks characterized by:
+
+* low interpretive complexity;
+* high repetition;
+* structured operations;
+* explicit legal text;
+* deterministic transformations;
+* routine extraction;
+* normalization;
+* validation;
+* quality control.
+
+Its use is motivated primarily by **cost-effectiveness**.
+
+Typical Luna High tasks include:
+
+* file inventory;
+* metadata extraction;
+* CELEX validation;
+* official-title extraction;
+* date extraction;
+* article indexing;
+* provision segmentation;
+* locating explicit actor names;
+* locating explicit institutional references;
+* keyword-supported candidate retrieval;
+* extracting explicit legal verbs;
+* normalization;
+* deduplication;
+* schema checks;
+* table formatting;
+* consistency validation;
+* simple reconciliation;
+* missing-field detection;
+* mechanical cross-checking;
+* file naming;
+* deterministic transformations.
+
+Luna High may generate **candidate analytical records**, but it must not silently convert difficult legal relationships into final conceptual decisions.
+
+---
+
+# 6. GPT-5.6 TERRA HIGH
+
+Use **GPT-5.6 Terra High** for tasks involving substantive complexity or theoretical inference.
+
+Terra High is mandatory or strongly preferred for:
+
+* complex legal reading;
+* interpretation of long or cross-referenced provisions;
+* identification of regulatory intermediaries;
+* distinguishing R, I and T;
+* identification of regulatory mechanisms;
+* mechanism classification;
+* ambiguous delegation structures;
+* hybrid public–private arrangements;
+* recursive or nested intermediation;
+* assurance architectures;
+* auditing;
+* certification;
+* conformity assessment;
+* monitoring architectures;
+* supervisory structures;
+* institutional layering;
+* ambiguous actor roles;
+* cases in which an actor may simultaneously occupy more than one regulatory role;
+* difficult boundary cases;
+* adjudication of classifications;
+* conceptual inconsistencies;
+* conflicts between textual evidence and existing categories.
+
+Most importantly:
+
+> **Substantive identification and classification of regulatory intermediation mechanisms must use Terra High whenever inference beyond explicit textual extraction is required.**
+
+---
+
+# 7. MODEL ESCALATION RULE
+
+The research workflow follows:
+
+**Luna High → Terra High → Human Adjudication**
+
+when complexity increases.
+
+Escalate from Luna High to Terra High when any of the following occurs:
+
+* more than one plausible R–I–T configuration exists;
+* the intermediary status of an actor is uncertain;
+* mechanism classification is ambiguous;
+* multiple mechanisms overlap;
+* the relevant legal rule is distributed across provisions;
+* recitals and operative provisions appear to pull in different directions;
+* institutional function cannot be inferred from the actor label alone;
+* the same actor appears to be regulator and intermediary;
+* the same actor appears to be intermediary and target;
+* legal wording permits multiple analytically defensible classifications;
+* Luna returns inconsistent classifications across similar provisions;
+* the R3 taxonomy does not clearly accommodate the digital arrangement;
+* substantive governance interpretation becomes necessary.
+
+Escalation is not evidence that Luna failed.
+
+It indicates that the task crossed the pre-defined complexity threshold.
+
+---
+
+# 8. HUMAN ROLE
+
+Human researchers retain final authority over:
+
+* theoretical definitions;
+* research design;
+* unit of analysis;
+* intermediary criteria;
+* mechanism taxonomy;
+* ambiguous R–I–T classifications;
+* difficult mechanism decisions;
+* adjudication;
+* modifications to the codebook;
+* inclusion or exclusion of variables;
+* interpretation of disagreements;
+* final cross-domain conclusions.
+
+AI may propose.
+
+AI may extract.
+
+AI may classify provisionally.
+
+AI may flag ambiguity.
+
+AI may compare.
+
+But AI must not autonomously change the theoretical architecture of the research.
+
+---
+
+# 9. THREE-LAYER EPISTEMIC SEPARATION
+
+Every substantive coding decision must distinguish three layers.
+
+## LAYER 1 — LEGAL TEXT / EVIDENCE
+
+What does the legal source actually state?
+
+Capture:
+
+* act;
+* CELEX;
+* article;
+* paragraph;
+* annex where relevant;
+* recital where relevant;
+* relevant excerpt;
+* actor;
+* legally assigned function.
+
+This layer must remain as close as possible to the source.
+
+---
+
+## LAYER 2 — AI ANALYTICAL PROPOSAL
+
+What does the AI infer from the legal evidence?
+
+Examples:
+
+* proposed regulator;
+* proposed intermediary;
+* proposed target;
+* proposed mechanism;
+* proposed relationship;
+* proposed confidence;
+* alternative classification;
+* ambiguity.
+
+This layer is provisional.
+
+---
+
+## LAYER 3 — HUMAN DECISION
+
+What classification is ultimately accepted?
+
+Record:
+
+* accepted classification;
+* rejected alternatives where material;
+* adjudication reason;
+* reviewer;
+* status;
+* confidence;
+* unresolved issue if applicable.
+
+Never collapse these three layers into a single field.
+
+---
+
+# 10. EXTRACTION IS NOT INTERPRETATION
+
+A fundamental methodological rule is:
+
+> **Extraction and interpretation are different research operations.**
+
+Examples of extraction:
+
+* locating “independent auditor”;
+* extracting Article 37;
+* finding “shall monitor”;
+* identifying a reporting duty;
+* locating a certification provision.
+
+These operations may often be delegated to Luna High.
+
+Examples of interpretation:
+
+* deciding whether an auditor is a regulatory intermediary;
+* deciding who is R and who is T;
+* determining whether monitoring constitutes the primary mechanism;
+* distinguishing verification from evaluation;
+* deciding whether certification mediates or merely records compliance;
+* identifying a nested intermediation chain.
+
+These operations may require Terra High and/or human adjudication.
+
+Do not treat successful extraction as successful theoretical classification.
+
+---
+
+# 11. MECHANISM IDENTIFICATION PROTOCOL
+
+Mechanism identification is a **high-inference operation**.
+
+It must receive special methodological treatment.
+
+Do not classify a mechanism merely because a provision contains words such as:
+
+* monitor;
+* report;
+* audit;
+* certify;
+* assess;
+* inspect;
+* verify;
+* advise;
+* notify;
+* accredit;
+* supervise;
+* transmit;
+* evaluate.
+
+These terms are **search signals**, not mechanism decisions.
+
+For every candidate mechanism, determine:
+
+1. **Who acts?**
+2. **Who authorizes or structures the action?**
+3. **Who or what is affected?**
+4. **What regulatory relationship is being mediated?**
+5. **What information, obligation, judgment, certification, assurance, or regulatory signal passes through the intermediary?**
+6. **What is the regulatory function of the action?**
+7. **What legal provision establishes the function?**
+8. **Is the actor actually between regulator and target?**
+9. **Does the R3 mechanism taxonomy adequately capture the action?**
+10. **Is the mechanism explicit or analytically inferred?**
+
+---
+
+# 12. MECHANISM TRACE
+
+Every final mechanism record must preserve a trace such as:
+
+`LEGAL PROVISION`
+
+→ `RELEVANT ACTOR`
+
+→ `LEGAL FUNCTION`
+
+→ `PROPOSED R–I–T RELATION`
+
+→ `PROPOSED MECHANISM`
+
+→ `MODEL`
+
+→ `CONFIDENCE`
+
+→ `HUMAN REVIEW`
+
+→ `FINAL DECISION`
+
+No final mechanism should exist without recoverable legal evidence.
+
+---
+
+# 13. CONFIDENCE RULE
+
+Use at minimum:
+
+* `HIGH`
+* `MEDIUM`
+* `LOW`
+
+### HIGH
+
+Use when:
+
+* legal evidence is explicit;
+* actor role is clear;
+* relational structure is clear;
+* mechanism fits the existing taxonomy with little inference.
+
+### MEDIUM
+
+Use when:
+
+* legal evidence is clear;
+* but the analytical classification requires interpretation.
+
+### LOW
+
+Use when:
+
+* more than one plausible interpretation remains;
+* intermediary status is unclear;
+* mechanism boundaries are unstable;
+* evidence is indirect;
+* the R3 taxonomy fits poorly.
+
+Low-confidence cases must not disappear through forced classification.
+
+They must remain visible.
+
+---
+
+# 14. HUMAN REVIEW TRIGGERS
+
+Human review is mandatory when:
+
+* confidence is LOW;
+* Terra High reports multiple plausible classifications;
+* R–I–T roles overlap;
+* mechanism categories overlap materially;
+* a new mechanism appears necessary;
+* a new variable appears necessary;
+* the R3 codebook seems inadequate;
+* legal provisions conflict;
+* evidence is mainly inferential;
+* the AI proposes changing a theoretical rule;
+* different model runs generate materially different outputs;
+* model output conflicts with prior adjudicated decisions.
+
+---
+
+# 15. NO SILENT CODEBOOK EVOLUTION
+
+AI must never silently:
+
+* create a new category;
+* redefine an existing mechanism;
+* merge categories;
+* split categories;
+* change intermediary criteria;
+* change unit of analysis;
+* change confidence rules.
+
+If a possible new category emerges, record it as:
+
+`CODEBOOK_GAP_CANDIDATE`
+
+with:
+
+* evidence;
+* reason;
+* affected cases;
+* current provisional classification;
+* theoretical implication.
+
+Human researchers decide whether the codebook changes.
+
+---
+
+# 16. PROVENANCE REQUIREMENT
+
+Every substantive AI-assisted record must be reconstructable.
+
+At minimum preserve:
+
+* input source;
+* legal source;
+* model;
+* reasoning level;
+* prompt version;
+* date;
+* task;
+* output;
+* human review;
+* final decision.
+
+Do not retain only final datasets while discarding the provenance necessary to understand how they were constructed.
+
+---
+
+# 17. AI EXECUTION LOG
+
+Create:
+
+`R4_AI_EXECUTION_LOG`
+
+Minimum fields:
+
+* `RUN_ID`
+* `DATE`
+* `ROUND`
+* `PHASE`
+* `CASE_ID`
+* `TASK`
+* `TASK_TYPE`
+* `MODEL`
+* `REASONING_LEVEL`
+* `INPUT_SOURCE`
+* `PROMPT_VERSION`
+* `OUTPUT_FILE`
+* `TASK_COMPLEXITY`
+* `ESCALATED`
+* `ESCALATION_REASON`
+* `HUMAN_REVIEW_REQUIRED`
+* `HUMAN_REVIEW_STATUS`
+* `FINAL_STATUS`
+* `NOTES`
+
+---
+
+# 18. MODEL ESCALATION LOG
+
+Create:
+
+`R4_MODEL_ESCALATION_LOG`
+
+For every Luna → Terra escalation record:
+
+* `RUN_ID`
+* `CASE_ID`
+* `ARTICLE`
+* `TASK`
+* `LUNA_OUTPUT`
+* `AMBIGUITY`
+* `ESCALATION_REASON`
+* `TERRA_OUTPUT`
+* `OUTPUT_DIFFERENCE`
+* `HUMAN_ASSESSMENT`
+* `FINAL_DECISION`
+
+This log will later permit evaluation of whether model escalation produces substantive analytical gains.
+
+---
+
+# 19. AI MUST EXPOSE UNCERTAINTY
+
+Do not optimize outputs to appear certain.
+
+AI must explicitly report:
+
+* uncertainty;
+* ambiguity;
+* alternative interpretations;
+* incomplete evidence;
+* codebook mismatch;
+* role overlap;
+* mechanism overlap.
+
+Statements such as “unclear”, “possible alternative”, and “requires adjudication” are valid outputs.
+
+False precision is methodologically worse than documented uncertainty.
+
+---
+
+# 20. INDEPENDENT AI RUNS
+
+Where a case is especially difficult, independent AI runs may be used as a robustness check.
+
+If this occurs:
+
+* do not allow the second run to see the first classification;
+* preserve both outputs;
+* compare them only afterward;
+* do not treat agreement as proof of correctness;
+* do not treat disagreement as automatic error.
+
+Record the result.
+
+---
+
+# 21. PROHIBITED AI PRACTICES
+
+Do not:
+
+* fabricate legal provisions;
+* infer citations not verified in the source;
+* infer actor roles solely from titles;
+* overwrite ambiguous classifications;
+* silently resolve conflicting evidence;
+* use external summaries as substitutes for primary law;
+* change frozen historical data without authorization;
+* treat AI confidence as legal truth;
+* classify mechanisms solely through keyword matching;
+* use Rotem's coding before independent R4 coding is frozen;
+* conceal which model generated a substantive decision;
+* merge human and machine judgments into an indistinguishable final field;
+* retrospectively assign a model to historical work when the model was not documented.
+
+---
+
+# 22. HISTORICAL MODEL TRANSPARENCY
+
+For prior rounds R1–R3:
+
+* preserve model information where documented;
+* distinguish confirmed model use from reconstructed model use;
+* do not invent unavailable version information;
+* mark unknown historical model details as `NOT DOCUMENTED`.
+
+The known methodological division should be reflected accurately:
+
+### GPT-5.6 Luna High
+
+Used as the cost-effective model for simpler tasks.
+
+### GPT-5.6 Terra High
+
+Used for complex cases, substantive reading, and mechanism identification.
+
+### Claude in Excel
+
+Used in specific audit and review operations where historically documented.
+
+Do not rewrite project history to make it appear more standardized than it actually was.
+
+---
+
+# 23. CRITICAL RULE: FREEZE R3
+
+The final R3 architecture must initially be treated as **FROZEN**.
+
+R4 exists partly to test that framework.
+
+Therefore, during initial digital analysis:
+
+DO NOT:
+
+* create new variables;
+* remove variables;
+* redefine intermediary criteria;
+* redefine mechanism categories;
+* modify the unit of analysis;
+* change confidence rules;
+* change prior R3 decisions;
+* rewrite green cases to fit digital findings;
+* simplify the framework prematurely;
+* expand the taxonomy merely because a digital phenomenon does not fit.
+
+Record incompatibilities instead.
+
+A failure of fit may be an empirical finding.
+
+---
+
+# 24. FIRST R4 TASK — RECONSTRUCT THE R3 BASELINE
+
+Before substantive work on GDPR, DSA or AI Act, inspect the project repository and identify the **final authoritative R3 artifacts**.
+
+Determine:
+
+* final dataset;
+* codebook;
+* data dictionary;
+* unit of analysis;
+* intermediary definition;
+* regulator definition;
+* target definition;
+* mechanism taxonomy;
+* relationship taxonomy;
+* confidence rules;
+* adjudication rules;
+* evidence requirements;
+* provenance rules;
+* schema;
+* validation scripts;
+* methodological notes;
+* human decisions;
+* final package structure.
+
+Do not assume that the newest timestamp defines authority.
+
+Use:
+
+* README files;
+* manifests;
+* final package documentation;
+* commit history;
+* explicit methodological decisions;
+* frozen artifacts.
+
+---
+
+# 25. CREATE THE R3 BASELINE MANIFEST
+
+Create:
+
+`R4_R3_BASELINE_MANIFEST.md`
+
+For each authoritative R3 artifact record:
+
+* filename;
+* path;
+* version;
+* function;
+* status;
+* authority level;
+* role in R4;
+* checksum/hash where practical;
+* provenance.
+
+Also record the repository commit or project state defining the baseline.
+
+---
+
+# 26. CREATE THE R4 WORKSPACE
+
+Create a clean additive workspace.
+
+Recommended structure:
+
+`R4_CROSS_DOMAIN_VALIDATION/`
+
+`00_protocol/`
+
+`01_baseline/`
+
+`02_sources/`
+
+`03_extraction/`
+
+`04_coding/`
+
+`05_mechanisms/`
+
+`06_validation/`
+
+`07_comparison/`
+
+`08_reports/`
+
+`09_logs/`
+
+`10_adjudication/`
+
+Do not reorganize historical R1–R3 files.
+
+---
+
+# 27. COPY, DO NOT ALTER
+
+Clearly distinguish:
+
+`R3_ORIGINAL`
+
+from
+
+`R4_WORKING_REFERENCE`
+
+Any transformation needed for R4 must occur in the R4 workspace.
+
+Do not modify authoritative historical files.
+
+---
+
+# 28. DIGITAL CORPUS REGISTER
+
+Create:
+
+`R4_DIGITAL_CORPUS_REGISTER`
+
+For:
+
+* `D1_GDPR`
+* `D2_DSA`
+* `D3_AI_ACT`
+
+Record at minimum:
+
+* case ID;
+* CELEX;
+* official title;
+* short title;
+* year;
+* instrument type;
+* ELI;
+* official URL;
+* retrieval date;
+* language;
+* legal status;
+* text version;
+* checksum where feasible.
+
+Use official EU sources.
+
+---
+
+# 29. SOURCE HIERARCHY
+
+Use source priority:
+
+1. official EUR-Lex legal text;
+2. official EU institutional documentation;
+3. authoritative official supporting material;
+4. scholarly literature, only when required for interpretation;
+5. secondary summaries only as contextual aids.
+
+Do not use secondary sources to replace primary legal evidence.
+
+---
+
+# 30. INITIAL QUALITY CONTROL
+
+Before proceeding, verify:
+
+* all three CELEX identifiers;
+* official source availability;
+* text completeness;
+* version integrity;
+* R3 baseline completeness;
+* AI log creation;
+* escalation log creation;
+* file provenance;
+* human–AI separation.
+
+---
+
+# 31. DO NOT BEGIN SUBSTANTIVE DIGITAL CODING YET
+
+This initial execution must not produce:
+
+* final intermediary classifications;
+* final R–I–T relations;
+* final mechanisms;
+* green–digital conclusions;
+* variable deletion proposals;
+* codebook changes;
+* comparison with Rotem.
+
+Candidate examples may be mentioned only when necessary to validate infrastructure.
+
+---
+
+# 32. OUTPUTS REQUIRED
+
+Produce:
+
+### A.
+
+`R4_R3_BASELINE_MANIFEST.md`
+
+### B.
+
+R4 workspace structure
+
+### C.
+
+`R4_DIGITAL_CORPUS_REGISTER.csv`
+
+### D.
+
+`R4_AI_EXECUTION_LOG.csv`
+
+### E.
+
+`R4_MODEL_ESCALATION_LOG.csv`
+
+### F.
+
+`R4_INITIAL_METHOD_NOTE.md`
+
+The method note must explain:
+
+* what was inherited from R3;
+* what was frozen;
+* which definitions remain authoritative;
+* how Luna High is used;
+* when Terra High is required;
+* how human review operates;
+* which AI tasks are extractional;
+* which tasks are interpretive;
+* how mechanism coding will be treated;
+* which uncertainties remain;
+* what the next phase should do.
+
+---
+
+# 33. REPORT AI USE IN THE METHOD NOTE
+
+Include an explicit section:
+
+## HUMAN–AI DIVISION OF LABOR
+
+Describe:
+
+### Human-only or human-final tasks
+
+* theory;
+* methodological decisions;
+* adjudication;
+* codebook changes;
+* final interpretation.
+
+### Luna High tasks
+
+* simple extraction;
+* normalization;
+* validation;
+* structured operations;
+* cost-effective routine processing.
+
+### Terra High tasks
+
+* complex reading;
+* relational interpretation;
+* intermediary identification;
+* mechanism analysis;
+* ambiguous classifications.
+
+### Hybrid tasks
+
+* AI candidate generation followed by human validation.
+
+---
+
+# 34. FUTURE R4 EVALUATION DIMENSIONS
+
+Prepare the infrastructure so later phases can measure:
+
+* proportion of tasks completed by Luna without escalation;
+* proportion escalated to Terra;
+* types of tasks triggering escalation;
+* disagreement between Luna and Terra;
+* disagreement between AI and human adjudication;
+* proportion of mechanism events requiring qualitative review;
+* recurring codebook gaps;
+* variable burden;
+* cross-domain portability;
+* later disagreement with Rotem.
+
+Do not calculate these metrics prematurely.
+
+Just make them measurable.
+
+---
+
+# 35. STOP CONDITION
+
+After generating the initial baseline package:
+
+**STOP.**
+
+Report:
+
+1. what was found;
+2. what was frozen;
+3. which AI rules are now operational;
+4. any unresolved methodological issue;
+5. any missing historical documentation;
+6. proposed scope of the next phase.
+
+Do not automatically begin R4 substantive extraction.
+
+Await explicit human authorization.
+
+---
+
+# CORE METHODOLOGICAL PRINCIPLES
+
+Throughout R4 apply:
+
+**Evidence before classification.**
+
+**Extraction before interpretation.**
+
+**Luna before Terra when complexity permits.**
+
+**Terra before human adjudication when substantive AI analysis is useful.**
+
+**Human judgment before theoretical change.**
+
+**Primary legal evidence before secondary interpretation.**
+
+**Provenance before convenience.**
+
+**Uncertainty before false precision.**
+
+**Independent coding before reconciliation.**
+
+**Disagreement as research evidence.**
+
+**Parsimony without conceptual impoverishment.**
+
+**Do not optimize away methodological difficulty.**
+
+---
+
+# FINAL INSTRUCTION
+
+Begin only with the **R3 baseline audit and R4 methodological setup**.
+
+Treat the R3 architecture as frozen.
+
+Activate the AI protocol from the first operation.
+
+Every substantive AI operation must be attributable to a model and task.
+
+Every complex regulatory interpretation must be distinguishable from mechanical extraction.
+
+Every mechanism decision must be traceable to legal evidence.
+
+Do not modify the research ontology before it has been empirically stress-tested against the digital cases.

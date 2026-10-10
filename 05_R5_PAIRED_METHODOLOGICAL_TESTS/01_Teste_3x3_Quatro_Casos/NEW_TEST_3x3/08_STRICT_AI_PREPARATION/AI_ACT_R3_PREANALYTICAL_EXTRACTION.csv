@@ -1,0 +1,12 @@
+metric,value,unit,definition_or_note,selection_status
+total_actors,26,legal actor classes,Distinct legally named actor classes in the full-instrument scan; role-specific classes/subclasses are counted as registered and are not a census of every natural or legal person.,DESCRIPTIVE_ONLY_AFTER_SELECTION
+regulators,8,legal actor classes,Distinct classes with regulatory/enforcement powers or tasks identified in the actor register (A01-A08); classes can overlap institutionally and are not persons.,DESCRIPTIVE_ONLY_AFTER_SELECTION
+intermediaries,5,legal actor classes,Distinct intermediary classes in supported RIT rows (notified bodies; national accreditation bodies; authorised representatives; independent expert evaluators/scientific panel).,DESCRIPTIVE_ONLY_AFTER_SELECTION
+targets,8,legal actor classes,Distinct regulated target/operator classes identified in the full-instrument actor register (A17-A24); provider sub-classes are retained where the act assigns separate duties.,DESCRIPTIVE_ONLY_AFTER_SELECTION
+total_retained_relations,12,adjudicated relation records,Rows marked retained=YES (supported RIT + direct R-T + legal relation non-RIT + uncertain).,DESCRIPTIVE_ONLY_AFTER_SELECTION
+regulatory_intermediation_relations,5,supported R-I-T relation records,Rows AI-R01 through AI-R05 satisfy frozen R3 C1/C2/C3; no uncertain row is included.,DESCRIPTIVE_ONLY_AFTER_SELECTION
+rejected_or_boundary_cases,8,boundary register records,Eight unique boundary records; AI-R10/11/13 uncertain and AI-R09 legal non-RIT; overlaps relation rows and is not added to retained relation denominator.,DESCRIPTIVE_ONLY_AFTER_SELECTION
+uncertain_relations,3,relation records,AI-R10, AI-R11 and AI-R13; preserved as uncertainty and excluded from positive RIT count.,DESCRIPTIVE_ONLY_AFTER_SELECTION
+not_supported_relations,4,relation records,AI-R12, AI-R14, AI-R15 and AI-R16; excluded from retained relations and positive RIT count.,DESCRIPTIVE_ONLY_AFTER_SELECTION
+historical_selection_basis,UNIQUE_ELIGIBLE_AI_SPECIFIC_CASE,decision code,AI Act selected before this extraction because it was the only eligible previously studied AI-specific instrument; no pre-existing AI R3 count existed.,NOT_CASE_SELECTION_EVIDENCE
+temporal_order,SELECTION_PRECEDED_COUNT,chronology,The new R3 count is a post-selection descriptive baseline and cannot retrospectively justify selection.,NOT_CASE_SELECTION_EVIDENCE

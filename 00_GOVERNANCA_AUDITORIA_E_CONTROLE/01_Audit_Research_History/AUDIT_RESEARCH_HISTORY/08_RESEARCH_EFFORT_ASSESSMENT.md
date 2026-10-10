@@ -1,0 +1,3 @@
+# Avaliação de esforço
+
+O volume e a complexidade estão documentados, mas não há base para somar horas. Logs de execução podem registrar processamento automatizado, que não equivale a tempo humano. As 19 decisões do PILOT_03, a revisão R4 e decisões de escopo R2.1 demonstram trabalho analítico, sem durações vinculadas a cada tarefa. Datas entre commits são tempo calendário, não tempo ativo. O benchmark anteriormente discutido de 80 horas não é verificável. Não foram convertidos commits, linhas, tokens ou quantidade de arquivos em horas. Uma estimativa defensável exigiria timesheets ou logs temporais por tarefa com distinção entre operador, processamento e revisão.

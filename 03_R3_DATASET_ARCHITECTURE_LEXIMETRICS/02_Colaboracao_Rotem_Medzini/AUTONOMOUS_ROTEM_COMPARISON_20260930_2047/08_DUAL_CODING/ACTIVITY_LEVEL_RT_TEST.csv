@@ -1,0 +1,13 @@
+PASS,PARENT_ID,FUNCTIONS,REGULATOR_CONTEXT_VALUES,TARGET_CONTEXT_VALUES,IMPLIED_TRIPLES_FxRxT,TEXT_SUPPORTED_TRIPLES,UNSUPPORTED_IMPLIED_TRIPLES,SHARE_UNSUPPORTED,FUNCTION_EVENTS,FUNCTION_EVENTS_WITHOUT_REGULATOR,IMPLIED_RT_PAIRS,RT_PAIRS_PATH_SUPPORTED,RT_PAIRS_DIRECT_CO_PARTICIPATION,RT_PAIRS_WITHOUT_TEXTUAL_PATH,OUTPUT_ADDRESSEES_OF_INTERMEDIARY_FUNCTION_EVENTS,SUPPORTED_TRIPLES_LIST,CHILD_TRIPLES_ALL
+FIRST_PASS,P01_AUD,2,1,1,2,1,1,0.5,2,1,1,1,1,NONE,EU_public=1,F_AUDITING|EU_public|service_provider,F_AUDITING|EU_public|service_provider; F_AUDITING|NONE|service_provider
+FIRST_PASS,P01_VAL,1,2,2,4,1,3,0.75,3,1,4,2,1,hybrid_public_private|public_body; national_public|public_body,hybrid_public_private=2,F_ASSURANCE|hybrid_public_private|individual,F_ASSURANCE|NONE|individual; F_ASSURANCE|hybrid_public_private|individual; F_ASSURANCE|hybrid_public_private|service_provider
+FIRST_PASS,P01_ADR,2,1,1,2,0,2,1.0,3,2,1,1,0,NONE,(non-regulator)=1; hybrid_public_private=1,NONE,F_COMPLAINT_HANDLING|NONE|NONE; F_COMPLAINT_HANDLING|NONE|individual; F_COMPLAINT_HANDLING|NONE|service_provider; F_DISPUTE_RESOLUTION|hybrid_public_private|service_provider
+FIRST_PASS,P02_CB,1,1,1,1,0,1,1.0,1,1,1,1,0,NONE,(non-regulator)=1,NONE,F_ASSURANCE|NONE|product_economic_operator
+FIRST_PASS,P02_NB,1,2,1,2,0,2,1.0,1,1,2,2,0,NONE,(non-regulator)=1,NONE,F_ASSURANCE|NONE|product_economic_operator; F_ASSURANCE|NONE|regulatory_intermediary
+FIRST_PASS,P02_INS,1,1,1,1,0,1,1.0,0,0,1,0,0,national_public|regulatory_intermediary,NONE,NONE,NONE
+FIRST_PASS,P03_NB,3,2,2,12,0,12,1.0,13,13,4,4,0,NONE,(non-regulator)=6,NONE,F_ASSURANCE|NONE|product_economic_operator; F_ASSURANCE|NONE|regulatory_intermediary; F_AUDITING|NONE|product_economic_operator; F_MONITORING|NONE|product_economic_operator
+FIRST_PASS,P03_TL,1,1,1,1,0,1,1.0,0,0,1,0,0,national_public|product_economic_operator,NONE,NONE,NONE
+FIRST_PASS,P03_INS,1,1,1,1,0,1,1.0,0,0,1,0,0,national_public|regulatory_intermediary,NONE,NONE,NONE
+FIRST_PASS,P04_LAB,1,2,2,4,0,4,1.0,2,1,4,0,0,EU_public|product_economic_operator; EU_public|public_body; national_public|product_economic_operator; national_public|public_body,EU_public=1,NONE,F_ASSURANCE|EU_public|NONE; F_ASSURANCE|NONE|NONE
+FIRST_PASS,P05_AUD,2,2,2,8,0,8,1.0,6,6,4,4,0,NONE,(non-regulator)=2,NONE,F_ASSURANCE|NONE|platform_provider; F_AUDITING|NONE|NONE; F_AUDITING|NONE|platform_provider; F_AUDITING|NONE|service_provider
+FIRST_PASS,P06_TF,1,2,1,2,1,1,0.5,2,1,2,2,1,NONE,(non-regulator)=1; national_public=1,F_MONITORING|national_public|platform_provider,F_MONITORING|NONE|platform_provider; F_MONITORING|national_public|platform_provider

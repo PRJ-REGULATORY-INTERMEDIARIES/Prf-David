@@ -1,0 +1,64 @@
+{
+  "case_01": {
+    "relations": 8,
+    "actors": 8,
+    "R": 2,
+    "I": 3,
+    "T": 3,
+    "intermediaries": 3,
+    "unresolved": 0,
+    "mechanisms": {
+      "delegated_implementation": 1,
+      "reporting": 2,
+      "standard_setting": 1
+    },
+    "target": 0,
+    "regulator": 3,
+    "bidirectional": 0
+  },
+  "case_02": {
+    "relations": 10,
+    "actors": 16,
+    "R": 2,
+    "I": 5,
+    "T": 9,
+    "intermediaries": 5,
+    "unresolved": 1,
+    "mechanisms": {
+      "verification": 1,
+      "delegated_implementation": 1,
+      "information_transmission": 1,
+      "standard_setting": 1,
+      "accreditation": 1
+    },
+    "target": 1,
+    "regulator": 2,
+    "bidirectional": 2
+  },
+  "case_03": {
+    "relations": 7,
+    "actors": 13,
+    "R": 2,
+    "I": 4,
+    "T": 7,
+    "intermediaries": 4,
+    "unresolved": 0,
+    "mechanisms": {
+      "delegated_implementation": 1,
+      "information_transmission": 2,
+      "certification": 1
+    },
+    "target": 0,
+    "regulator": 2,
+    "bidirectional": 2
+  },
+  "TOTAL": {
+    "relations": 25,
+    "actors": 37,
+    "R": 6,
+    "I": 12,
+    "T": 19,
+    "intermediaries": 12,
+    "unresolved": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "recorded_date": "2026-09-06",
+  "provider": "openai",
+  "model_requested": "gpt-5.6-terra",
+  "sdk_version": "2.32.0",
+  "request_surface": "Responses API with strict JSON Schema and store=false",
+  "authentication": "accepted for model listing; key value withheld",
+  "generation_status": "blocked_no_credits",
+  "error_type": "insufficient_quota",
+  "error_code": "credit_balance_exhausted",
+  "substantive_responses_accepted": 0,
+  "next_action": "Restore project credits, then run the independent-human-gated Tier 1 pipeline."
+}

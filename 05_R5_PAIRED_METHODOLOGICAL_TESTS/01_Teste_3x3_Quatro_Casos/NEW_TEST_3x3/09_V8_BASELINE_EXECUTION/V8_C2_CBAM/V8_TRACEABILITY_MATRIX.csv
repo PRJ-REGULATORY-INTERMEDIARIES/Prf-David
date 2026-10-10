@@ -1,0 +1,17 @@
+claim_id,legal_anchor,source_unit,level,analysis_record,relation_ids,configuration_ids,higher_order_link,status
+C01,Article 1(2)-(3),Article/paragraph,Level I; Level III boundary,C01; Native analysis; uncertainty U06,,,Express inter-scheme connection only; no regime inference,textual-to-boundary
+C02,Articles 4-5 and 17,Articles/paragraphs,Level I; Level II,C02,R01;R02,CFG1,Supports authorization gate within A1,derived
+C03,Articles 6 and 22,Articles/paragraphs,Level I; Level II,C03,R03,CFG2;CFG4,Connects declarations and surrender within A1,derived
+C04,Article 10(1)-(7),Article/paragraph,Level I,C04,R04,CFG2,Third-country operator duties form one component of A1,derived
+C05,Articles 8 and 18,Articles/paragraphs,Level I; Level II,C05,R04;R05,CFG2,Verifier assurance relation contributes to A1,derived
+C06,Articles 14-16,Articles/paragraphs,Level I; Level II,C06,R07,CFG3;CFG4,Registry instrument links data/account administration in A1,derived
+C07,Article 25(1)-(4),Article/paragraph,Level I; Level II,C07,R06;R07,CFG1;CFG3,Customs gate and data relay contribute to A1,derived
+C08,Articles 15 and 19,Articles/paragraphs,Level I; Level II,C08,R08,CFG3,Review/oversight allocation contributes to A1,derived
+C09,Articles 2;7-9;18;20-21;25;28-29,Article/paragraph,Level I; Level II,C09,,CFG5,Procedural rulemaking allocation contributes to A1,derived
+C10,Articles 15;17;19;26,Articles/paragraphs,Level II,C10,R02;R08;R09,CFG1;CFG3;CFG4,Bounded discretion across configurations; actual use unresolved,derived
+C11,Article 27,Article/paragraph,Level I; Level II,C11,,CFG5,Investigation initiation paths and Commission authority within formal design,derived
+C12,Articles 7(5)-(6),Article/paragraph,Level I; Level II,C12,R04;R05,CFG2,Recordkeeping connects data duties to assurance/review,derived
+C13,Article 26(4)-(5),Article/paragraph,Level II,C13,R03;R09,CFG4,Procedural notice and sanction consequence,derived
+C14,Article 30(2)-(4),Article/paragraph,Level I; Level II,C14,R10,CFG5,Specified reporting line; not sufficient alone for broad accountability claim,derived
+C15,Articles 4-30 and 32-35,Cross-article configuration,Level III,C15,R01;R02;R03;R04;R05;R06;R07;R08;R09;R10,CFG1;CFG2;CFG3;CFG4;CFG5,A1: formal CBAM governance architecture; no complete regime/logic claim,higher-order
+C16,Articles 11(1);12;19(1),Article/paragraph,Level I,C16,,,Preserve institutional assignments without adding an unsupported dyadic edge,textual

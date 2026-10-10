@@ -1,0 +1,55 @@
+{
+  "name": "stage_b1_architecture",
+  "description": "Stage B1 - regulatory architecture extraction. Unit: one candidate. MUST run before stage_b2 - reconstructs actors and stated relations WITHOUT assigning R/I/T roles yet. Motivated by the project's own RIT-007/CAND-09 correction (see reference/RIT_CODEBOOK_v3.md).",
+  "strict": true,
+  "schema": {
+    "type": "object",
+    "properties": {
+      "relationship_candidate_id": { "type": "string" },
+      "actors_identified": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "actor_label": { "type": "string" },
+            "actor_type_hint": {
+              "type": "string",
+              "enum": ["public", "private", "hybrid", "unknown"]
+            },
+            "verbatim_evidence": { "type": "string" }
+          },
+          "required": ["actor_label", "actor_type_hint", "verbatim_evidence"],
+          "additionalProperties": false
+        }
+      },
+      "relations_identified": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "source_actor": { "type": "string" },
+            "target_actor": { "type": "string" },
+            "relation_description": {
+              "type": "string",
+              "description": "Plain description of what the source actor does to/for the target actor, per the text. Do not use R/I/T labels here - that happens in stage_b2."
+            },
+            "verbatim_evidence": { "type": "string" }
+          },
+          "required": ["source_actor", "target_actor", "relation_description", "verbatim_evidence"],
+          "additionalProperties": false
+        }
+      },
+      "architecture_summary": {
+        "type": "string",
+        "description": "One paragraph, plain language, no R/I/T labels."
+      },
+      "context_escape_hatch": { "$ref": "#/$defs/ContextEscapeHatch" },
+      "ai_confidence": { "$ref": "#/$defs/ConfidenceLevel" }
+    },
+    "required": [
+      "relationship_candidate_id", "actors_identified", "relations_identified",
+      "architecture_summary", "context_escape_hatch", "ai_confidence"
+    ],
+    "additionalProperties": false
+  }
+}

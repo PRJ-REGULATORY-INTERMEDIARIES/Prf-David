@@ -1,0 +1,32 @@
+experiment:
+  status: not_started
+
+design:
+  documents: 1
+  conditions: 3
+  conditions_names:
+    - G0
+    - G1
+    - G2
+  runs_per_condition: 1
+  total_expected_runs: 3
+
+controls:
+  same_document_for_all_conditions: true
+  independent_model_runs: true
+  benchmark_hidden_from_experimental_agents: true
+  human_validation_mode: minimal_adjudication
+
+model:
+  provider: OpenAI
+  model: null
+  reasoning_effort: null
+
+execution:
+  automated: true
+  api: null
+
+notes:
+  - Experimental prompts will be defined only at Etapa 6.
+  - Model, reasoning and API or calling method remain configurable until Etapa 6.
+  - This pilot is descriptive and does not support statistical generalization.

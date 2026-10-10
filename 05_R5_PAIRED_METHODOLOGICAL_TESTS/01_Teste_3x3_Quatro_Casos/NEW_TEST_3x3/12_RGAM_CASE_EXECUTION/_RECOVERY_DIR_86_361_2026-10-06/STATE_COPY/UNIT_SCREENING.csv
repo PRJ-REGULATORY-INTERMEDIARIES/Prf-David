@@ -1,0 +1,94 @@
+﻿unit_id,governance_relevance,governance_role_tag,statement_ids,screening_note
+RGAM_O_DIR_86_361.FRM1,No,heading/title,,Title block; headings are never evidence; the object wording is used only for the domain declaration in W_DECLARATION.
+RGAM_O_DIR_86_361.FRM2,No,final/formal,,Enacting formula naming the adopting institution; no governance assignment or relation.
+RGAM_O_DIR_86_361.FRM3,Yes,external-reference (legal-basis citation),ST-0001,Citation of Article 100 of the Treaty as legal basis; recorded as EXT; no relation of W.
+RGAM_O_DIR_86_361.FRM4,No,final/formal,,Citation of the Commission proposal: adoption-procedure history; no record (logged in the deviation log).
+RGAM_O_DIR_86_361.FRM5,No,final/formal,,Citation of the opinion of the European Parliament: adoption-procedure history; no record (footnote 1 gives its Official Journal reference).
+RGAM_O_DIR_86_361.FRM6,No,final/formal,,Citation of the opinion of the Economic and Social Committee: adoption-procedure history; no record (footnote 2).
+RGAM_O_DIR_86_361.REC1,No,recital-context-only,,Recital: interpretive context only (RGAM-DR-07); no record is created from it.
+RGAM_O_DIR_86_361.REC2,No,recital-context-only,,Recital: interpretive context only (RGAM-DR-07); no record is created from it.
+RGAM_O_DIR_86_361.REC3,No,recital-context-only,,Recital: interpretive context only (RGAM-DR-07); no record is created from it.
+RGAM_O_DIR_86_361.REC4,No,recital-context-only,,Recital: interpretive context only (RGAM-DR-07); no record is created from it.
+RGAM_O_DIR_86_361.REC5,No,recital-context-only,,Recital: interpretive context only (RGAM-DR-07); no record is created from it.
+RGAM_O_DIR_86_361.REC6,No,recital-context-only,,Recital: interpretive context only (RGAM-DR-07); no record is created from it.
+RGAM_O_DIR_86_361.REC7,No,recital-context-only,,Recital: interpretive context only (RGAM-DR-07); no record is created from it.
+RGAM_O_DIR_86_361.REC8,No,recital-context-only,,Recital: interpretive context only (RGAM-DR-07); no record is created from it.
+RGAM_O_DIR_86_361.REC9,No,recital-context-only,,Recital: interpretive context only (RGAM-DR-07); no record is created from it.
+RGAM_O_DIR_86_361.REC10,No,recital-context-only,,Recital: interpretive context only (RGAM-DR-07); no record is created from it.
+RGAM_O_DIR_86_361.REC11,No,recital-context-only,,"Recital: interpretive context only (RGAM-DR-07); no record is created from it. Mentions Directives 73/23/EEC and 83/189/EEC; EXT records rest on operative text, not on this recital."
+RGAM_O_DIR_86_361.REC12,No,recital-context-only,,Recital: interpretive context only (RGAM-DR-07); no record is created from it. Mentions the CEPT Memorandum of Understanding; EXT rests on A2.P0.pt15.
+RGAM_O_DIR_86_361.REC13,No,recital-context-only,,Recital: interpretive context only (RGAM-DR-07); no record is created from it. Mentions the Copenhagen mechanism and NETs; no record.
+RGAM_O_DIR_86_361.REC14,No,recital-context-only,,Recital: interpretive context only (RGAM-DR-07); no record is created from it. Mentions the setting up of a Committee: context only for the Committee designation in A5.P1 (see UNC on the Committee).
+RGAM_O_DIR_86_361.FRM7,No,final/formal,,Adoption formula; no governance content.
+RGAM_O_DIR_86_361.A1.P0,Yes,operative-assignment,ST-0002,Member State duty to implement mutual recognition of conformity-test results.
+RGAM_O_DIR_86_361.A2.P0,No,scope/definitional-context,,Introductory words of the definitions article; no statement.
+RGAM_O_DIR_86_361.A2.P0.pt1,Yes,scope/definitional-context,ST-0003,Defines telecommunications administrations; cited as support for the Member State ensure-relation.
+RGAM_O_DIR_86_361.A2.P0.pt2,Yes,scope/definitional-context,ST-0004,Defines terminal equipment; scope term.
+RGAM_O_DIR_86_361.A2.P0.pt3,No,scope/definitional-context,,Defines technical specification; no NA/QR depends on it as a position or relation; screened No (GAP-07).
+RGAM_O_DIR_86_361.A2.P0.pt4,Yes,scope/definitional-context,ST-0005;ST-0006,Defines international technical specification by reference to CCITT/CEPT recommendations; EXT.
+RGAM_O_DIR_86_361.A2.P0.pt5,No,scope/definitional-context,,Defines common technical specification; not cited by any record (GAP-07).
+RGAM_O_DIR_86_361.A2.P0.pt6,No,scope/definitional-context,,Defines standard; not cited by any record (GAP-07).
+RGAM_O_DIR_86_361.A2.P0.pt7,No,scope/definitional-context,,Defines international standard; not cited by any record (GAP-07).
+RGAM_O_DIR_86_361.A2.P0.pt8,Yes,scope/definitional-context; relation-bearing (definition-derived); external-reference,ST-0007;ST-0008;ST-0009;ST-0010;ST-0032,Defines approved testing laboratory; states verification and approval by Member State or recognized body (GAP-07: QR coded at documented); references the CEPT accreditation system and ISO guides (EXT).
+RGAM_O_DIR_86_361.A2.P0.pt9,Yes,scope/definitional-context,ST-0011,Defines certificate of conformity; cited as support for recognition.
+RGAM_O_DIR_86_361.A2.P0.pt10,Yes,scope/definitional-context,ST-0012,Defines type approval and the competent authority of a Member State; cited as support for the competent-authority position.
+RGAM_O_DIR_86_361.A2.P0.pt11,No,scope/definitional-context,,Defines conformity specification; not cited by any record (GAP-07).
+RGAM_O_DIR_86_361.A2.P0.pt12,No,scope/definitional-context,,Defines type approval specification; not cited by any record (GAP-07).
+RGAM_O_DIR_86_361.A2.P0.pt13,Yes,scope/definitional-context,ST-0013,Defines common conformity specification; cited as support for the competent-authority use duty.
+RGAM_O_DIR_86_361.A2.P0.pt14,No,scope/definitional-context,,Defines common type approval specification; not cited by any record (GAP-07).
+RGAM_O_DIR_86_361.A2.P0.pt15,Yes,scope/definitional-context; external-reference,ST-0014;ST-0015,"Defines NET by reference to a Memorandum of Understanding outside W (EXT, constitutive dependency)."
+RGAM_O_DIR_86_361.A2.P0.pt16,Yes,scope/definitional-context,ST-0016;ST-0039;ST-0040,Defines mutual recognition of conformity-test results; cited as support for the recognition relation and the issuer class.
+RGAM_O_DIR_86_361.A2.P0.pt17,Yes,scope/definitional-context,ST-0017;ST-0020,Defines essential requirements; cited as support for the Council competence and the safeguard grounds.
+RGAM_O_DIR_86_361.A2.P0.pt17.dash1,Yes,scope/definitional-context; external-reference,ST-0017;ST-0018,"First essential requirement (user safety), delimited by Directive 73/23/EEC (EXT)."
+RGAM_O_DIR_86_361.A2.P0.pt17.dash2,Yes,scope/definitional-context; external-reference,ST-0017;ST-0018,"Second essential requirement (employee safety), delimited by Directive 73/23/EEC (EXT)."
+RGAM_O_DIR_86_361.A2.P0.pt17.dash3,Yes,scope/definitional-context,ST-0017,Third essential requirement (protection of public networks); content only.
+RGAM_O_DIR_86_361.A2.P0.pt17.dash4,Yes,scope/definitional-context,ST-0017,"Fourth essential requirement (interworking, in justified cases); content only."
+RGAM_O_DIR_86_361.A3.P0,Yes,operative-assignment; relation-bearing; external-reference,ST-0019;ST-0020;ST-0021,Council duty to supplement essential requirements on a Commission proposal under Treaty rules (EXT).
+RGAM_O_DIR_86_361.A4.P0,Yes,procedural-mechanism,ST-0022;ST-0025;ST-0028,Chapeau: the Commission shall; position-defining for the Commission and support for the programming and request statements.
+RGAM_O_DIR_86_361.A4.P0.pt1,Yes,operative-assignment; relation-bearing; external-reference,ST-0022;ST-0023;ST-0024,Annual lists and timetable; consultation of the Committee; due regard to an external programme (EXT).
+RGAM_O_DIR_86_361.A4.P0.pt1.dash1,Yes,operative-assignment,ST-0022,First item of the annual lists (standards and specifications to be harmonized).
+RGAM_O_DIR_86_361.A4.P0.pt1.dash2,Yes,operative-assignment,ST-0022,"Second item (priority terminal equipment, based on essential requirements)."
+RGAM_O_DIR_86_361.A4.P0.pt1.dash3,Yes,operative-assignment,ST-0022,Third item (timetable).
+RGAM_O_DIR_86_361.A4.P0.pt2,Yes,relation-bearing,ST-0025;ST-0026,Request to the CEPT and CEPT consultation duty.
+RGAM_O_DIR_86_361.A5.P1,Yes,position-defining; relation-bearing,ST-0023;ST-0027;ST-0028;ST-0029;ST-0030,"Designation of the Committee, assistance, chair, and permission for members to be assisted."
+RGAM_O_DIR_86_361.A5.P2,Yes,relation-bearing,ST-0031;ST-0032;ST-0033,Chapeau of the Commission duty to consult the Committee.
+RGAM_O_DIR_86_361.A5.P2.pta,Yes,relation-bearing,ST-0031,Object of consultation: standardization policy.
+RGAM_O_DIR_86_361.A5.P2.ptb,Yes,relation-bearing,ST-0032,Object of consultation: laboratory approval and the accreditation system.
+RGAM_O_DIR_86_361.A5.P2.ptc,Yes,relation-bearing,ST-0033,Object of consultation: technological progress and mandate to the CEPT.
+RGAM_O_DIR_86_361.A5.P2.sub2,Yes,relation-bearing,ST-0034,Committee may consider any question at the request of its Chairman or a Member State.
+RGAM_O_DIR_86_361.A5.P3,Yes,operative-assignment,ST-0035,Committee duty to adopt rules of procedure.
+RGAM_O_DIR_86_361.A5.P4,Yes,relation-bearing,ST-0036,Secretariat provided by the Commission.
+RGAM_O_DIR_86_361.A6.P1,Yes,scope/definitional-context,ST-0037,Equivalence of a NET and the common conformity specification.
+RGAM_O_DIR_86_361.A6.P1.sub2,Yes,procedural-mechanism,ST-0038,Publication of references to NETs in the Official Journal; publisher not stated; no NA or QR.
+RGAM_O_DIR_86_361.A6.P2,Yes,operative-assignment; relation-bearing,ST-0039;ST-0040;ST-0048,No further tests; recognition of the certificate of conformity.
+RGAM_O_DIR_86_361.A6.P3,Yes,operative-assignment,ST-0041;ST-0042,Mandatory use of common conformity specifications by competent authorities.
+RGAM_O_DIR_86_361.A6.P3.sub2,Yes,operative-assignment,ST-0042,Permission to apply the Article 7(4) exceptions procedure; ambiguous cross-reference.
+RGAM_O_DIR_86_361.A7.P1,Yes,relation-bearing; operative-assignment,ST-0043;ST-0044,Notification of competent authorities; Commission publishes the list.
+RGAM_O_DIR_86_361.A7.P2,Yes,relation-bearing; procedural-mechanism,ST-0045;ST-0046;ST-0047;ST-0066,List and reports on approved laboratories; transmission to the Committee unresolved (transmitter not stated).
+RGAM_O_DIR_86_361.A7.P3,Yes,operative-assignment,ST-0039;ST-0040;ST-0048,Certificate accompanied by data; compound wording.
+RGAM_O_DIR_86_361.A7.P4,Yes,relation-bearing,ST-0042;ST-0049,"Member State duty to ensure use of specifications in purchasing, with exceptions."
+RGAM_O_DIR_86_361.A7.P4.pta,Yes,procedural-mechanism,ST-0050;ST-0051,Exception (a) conditions and unresolved information duties.
+RGAM_O_DIR_86_361.A7.P4.ptb,Yes,operative-assignment; relation-bearing; procedural-mechanism,ST-0052;ST-0053;ST-0054;ST-0055;ST-0056;ST-0057;ST-0058,"Exception (b): waiver permission, notification, consultation, CEPT revision, Committee review."
+RGAM_O_DIR_86_361.A7.P4.sub2,Yes,relation-bearing,ST-0058,Cessation of the waiver on evidence from another Member State.
+RGAM_O_DIR_86_361.A7.P4.sub3,Yes,relation-bearing,ST-0059,Extension of the waiver with Commission agreement on Committee advice.
+RGAM_O_DIR_86_361.A7.P5,Yes,relation-bearing,ST-0060,Member States consult within the Committee on fair competition among laboratories.
+RGAM_O_DIR_86_361.A8.P1,Yes,operative-assignment,ST-0061;ST-0062;ST-0063,Chapeau of the Member State competence to suspend recognition.
+RGAM_O_DIR_86_361.A8.P1.pta,Yes,operative-assignment,ST-0061;ST-0065,Ground (a): shortcomings in application of the specification.
+RGAM_O_DIR_86_361.A8.P1.ptb,Yes,operative-assignment,ST-0062;ST-0072,Ground (b): specification fails the essential requirements.
+RGAM_O_DIR_86_361.A8.P1.sub2,Yes,relation-bearing,ST-0063;ST-0078,Notification of the suspension with reasons.
+RGAM_O_DIR_86_361.A8.P2,Yes,external-reference,ST-0064;ST-0078,"Electrical-safety decisions: Article 9 of Directive 73/23/EEC applies (EXT, constitutive dependency)."
+RGAM_O_DIR_86_361.A8.P3,Yes,relation-bearing,ST-0065;ST-0066;ST-0067;ST-0068,"Ground (a) procedure: consultation, laboratory opinion, communication, comments."
+RGAM_O_DIR_86_361.A8.P3.sub2,Yes,operative-assignment,ST-0068;ST-0069,Recommendations or opinions.
+RGAM_O_DIR_86_361.A8.P3.sub3,Yes,relation-bearing,ST-0070;ST-0071,Defraying of laboratory expenditure; reimbursement by the Member State.
+RGAM_O_DIR_86_361.A8.P4,Yes,relation-bearing; operative-assignment,ST-0072;ST-0073;ST-0074;ST-0075;ST-0076,"Ground (b) procedure: referral, opinion, withdrawal decision, information and further brief to the CEPT."
+RGAM_O_DIR_86_361.A8.P5,Yes,operative-assignment,ST-0077;ST-0078,Revocation of approved type approval and duty to apply paragraphs 1 and 2.
+RGAM_O_DIR_86_361.A9.P0,Yes,operative-assignment; relation-bearing,ST-0079;ST-0080,Commission examination of second-stage rules and proposals to the Council.
+RGAM_O_DIR_86_361.A10.P0,Yes,external-reference,ST-0081,"Non-prejudice clause toward Directive 83/189/EEC (EXT, constitutive dependency for absence claims)."
+RGAM_O_DIR_86_361.A11.P1,Yes,operative-assignment; relation-bearing,ST-0082;ST-0083,Transposition duty and notification to the Commission.
+RGAM_O_DIR_86_361.A11.P2,Yes,relation-bearing,ST-0084,Information of the Commission on national law.
+RGAM_O_DIR_86_361.A12.P0,Yes,final/formal,ST-0085,Addressee clause: the Directive is addressed to the Member States; used as scope support.
+RGAM_O_DIR_86_361.FRM8,Yes,final/formal,ST-0086,"Date, place and signature block; cited as support for the temporal reference."
+RGAM_O_DIR_86_361.FRM9,No,final/formal,,Footnote (1): Official Journal reference of the Parliament opinion; no record.
+RGAM_O_DIR_86_361.FRM10,No,final/formal,,Footnote (2): Official Journal reference of the ESC opinion; no record.
+RGAM_O_DIR_86_361.FRM11,No,final/formal,,Footnote (3): identification of Directive 73/23/EEC; cited only as indirect identification support for EXT.
+RGAM_O_DIR_86_361.FRM12,No,final/formal,,Footnote (4): identification of Directive 83/189/EEC; cited only as indirect identification support for EXT.

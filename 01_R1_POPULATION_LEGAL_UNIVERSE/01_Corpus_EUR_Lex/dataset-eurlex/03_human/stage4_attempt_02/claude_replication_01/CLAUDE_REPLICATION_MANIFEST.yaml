@@ -1,0 +1,119 @@
+replication:
+  id: claude_replication_01
+  type: cross_model_replication
+  project: dataset-eurlex
+  stage: 4
+  stage_path: 03_human/stage4_attempt_02/claude_replication_01
+  purpose: >
+    Produce two independent substantive codings (Claude-R1, Claude-R2) over the
+    same frozen 90-candidate universe already used for the OpenAI/Terra
+    execution, for later external comparison against Terra-R1, Terra-R2,
+    Claude-R1 and Claude-R2. This replication performs no comparison itself.
+
+model:
+  provider: Anthropic
+  model_name: Claude Sonnet 5
+  model_id: claude-sonnet-5
+  reasoning_effort: default (inherited from orchestrating session; no explicit
+    effort override applied to either subagent context)
+  identical_for_R1_and_R2: true
+
+execution:
+  orchestrator_session_model: claude-sonnet-5
+  r1_context: independent fresh subagent context ("Claude-R1"), no memory of
+    orchestrator conversation beyond the explicit authorized-input prompt
+  r2_context: independent fresh subagent context ("Claude-R2"), spawned only
+    after the Claude-R1 context was closed; contains no summary, statistics,
+    decisions, or derived information from Claude-R1
+  isolation_mechanism: >
+    Each subagent context is created via a new, independent agent invocation
+    with no shared memory across invocations and no resumption of a prior
+    agent. R1 and R2 are separate invocations; neither was given any content
+    derived from the other.
+  isolation_guaranteed: true
+  timestamp_utc: 2026-09-07T17:45:43Z
+
+corpus:
+  celex: 32021R1119
+  source: EUR-Lex
+  path: 02_corpus/act.md
+  sha256: b24a02ea241ca631b606660bb48bb5a2222b29f849c4e4552fb99f871b2e8fd4
+  locked: true
+
+methodology:
+  version: 1.1.0
+  path: methodology/v1.1.0/
+  codebook_path: methodology/v1.1.0/codebook.md
+  codebook_sha256: c160e153907a786c04070cb09f6e9baa11de709a4432a5f89ebe375a8a7eb472
+  reference_coding_schema_path: methodology/v1.1.0/reference_coding_schema.json
+  reference_coding_schema_sha256: abbc4325a5e749cf31836fb24314c27ed22061d6e6539fb435fce8236d5ad2ec
+  validation_script_path: 03_human/stage4_attempt_02/validate_reference_logic.py
+  validation_script_sha256: b502413da838f1b447ab67b49fe073ab0a1d6a076fe86a9298d9d4a021ff998d
+  strings_yaml_access: forbidden_during_substantive_coding
+
+inputs:
+  r1_coding_input:
+    path: 03_human/stage4_attempt_02/R1_coding_input.json
+    sha256: 813b984c5e80aa03c98bc4399f40644c7d802eedd45f55a2d7a9a787a82d0b38
+  r2_coding_input:
+    path: 03_human/stage4_attempt_02/R2_coding_input.json
+    sha256: 813b984c5e80aa03c98bc4399f40644c7d802eedd45f55a2d7a9a787a82d0b38
+  candidate_count: 90
+  candidate_ids_identical_across_r1_r2_inputs: true
+  candidate_ids_frozen: true
+  candidate_universe_source: candidate_reconstruction.json (not directly read
+    by Claude-R1 or Claude-R2; consumed only via R1/R2_coding_input.json)
+
+isolation_and_access_control:
+  cross_model_isolation: >
+    This replication must not consult, use, compare, or infer any result
+    produced by Terra/OpenAI.
+  forbidden_inputs:
+    - 03_human/stage4_attempt_02/R1_output_raw.json (Terra)
+    - 03_human/stage4_attempt_02/R1_output.json (Terra)
+    - 03_human/stage4_attempt_02/R1_validation_log.md (Terra)
+    - 03_human/stage4_attempt_02/R1_context_manifest.yaml (Terra)
+    - 03_human/stage4_attempt_02/R2_output_raw.json (Terra)
+    - 03_human/stage4_attempt_02/R2_output.json (Terra)
+    - 03_human/stage4_attempt_02/R2_validation_log.md (Terra)
+    - 03_human/stage4_attempt_02/R2_context_manifest.yaml (Terra)
+    - 03_human/stage4_attempt_02/RA_context_manifest.yaml
+    - any Terra R1xR2 comparison
+    - any RA (existing or future)
+    - 03_human/stage4_attempt_01/** (any file)
+    - any prior benchmark
+    - G0/G1/G2 outputs (04_prompts/, 05_runs/, 06_comparison/, 07_report/)
+    - methodology/v1.1.0/strings.yaml (and prior-version strings.yaml)
+    - any prior empirical LLM result
+  forbidden_inputs_status: present_in_workspace_but_not_accessed
+  frozen_artifacts_not_altered:
+    - 02_corpus/act.md
+    - methodology/v1.1.0/
+    - 03_human/stage4_attempt_02/candidate_reconstruction.json
+    - 03_human/stage4_attempt_02/R1_coding_input.json
+    - 03_human/stage4_attempt_02/R2_coding_input.json
+    - candidate IDs, candidate order, schemas, codebook
+
+deliverables_this_stage:
+  - CLAUDE_REPLICATION_MANIFEST.yaml (done)
+  - Claude_R1_context_manifest.yaml (done)
+  - Claude_R2_context_manifest.yaml (done)
+  - Claude_R1_output_raw.json (done, sha256 f997f3d763836887d858528e78ac3753be9fb0dfe23bfd0fa0bf885ea4870daa)
+  - Claude_R1_output.json (done, sha256 86cf2af470fad31165efd0af8ac1cb02fa77c20b6bacad265a40601d5611e2e5)
+  - Claude_R1_validation_log.md (done)
+  - Claude_R2_output_raw.json (done, sha256 e9cecdb87207a636d94b54e5e86e4d099986bac77fcb6428844b2631a5844df5)
+  - Claude_R2_output.json (done, sha256 cfea747db3441279cb4293092a7cc9435434bb967880ae0f5404e1b401f5a06e)
+  - Claude_R2_validation_log.md (done)
+  - Claude_replication_execution_log.md (done)
+
+status: complete
+
+explicit_non_actions:
+  - no comparison Claude-R1 x Claude-R2
+  - no comparison Claude x Terra
+  - no RA
+  - no human gate
+  - no Stage 5
+  - no G0/G1/G2
+  - no codebook alteration
+  - no candidate universe alteration

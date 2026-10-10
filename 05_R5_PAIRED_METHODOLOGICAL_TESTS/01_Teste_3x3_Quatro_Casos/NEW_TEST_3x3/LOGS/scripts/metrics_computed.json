@@ -1,0 +1,1524 @@
+{
+ "R3": {
+  "32003L0087": {
+   "actors_native": 15,
+   "actors_specific_entities": 4,
+   "actors_in_any_relation": 7,
+   "actors_in_supported_relations": 3,
+   "regulators_distinct_all_relations": 4,
+   "regulators_distinct_supported": 1,
+   "intermediaries_native": 1,
+   "targets_distinct_all_relations": 3,
+   "targets_distinct_supported": 1,
+   "relations_native": 9,
+   "by_class": {
+    "DIRECT_R_T": 7,
+    "SUPPORTED_INTERMEDIATION": 1,
+    "LEGAL_RELATION_NON_RIT": 1
+   },
+   "intermediation_native": 1,
+   "rit_triples_supported": 1
+  },
+  "32015D1814": {
+   "actors_native": 8,
+   "actors_specific_entities": 4,
+   "actors_in_any_relation": 5,
+   "actors_in_supported_relations": 0,
+   "regulators_distinct_all_relations": 2,
+   "regulators_distinct_supported": 0,
+   "intermediaries_native": 0,
+   "targets_distinct_all_relations": 4,
+   "targets_distinct_supported": 0,
+   "relations_native": 6,
+   "by_class": {
+    "DIRECT_R_T": 4,
+    "LEGAL_RELATION_NON_RIT": 2
+   },
+   "intermediation_native": 0,
+   "rit_triples_supported": 0
+  },
+  "32018R0842": {
+   "actors_native": 11,
+   "actors_specific_entities": 6,
+   "actors_in_any_relation": 5,
+   "actors_in_supported_relations": 4,
+   "regulators_distinct_all_relations": 2,
+   "regulators_distinct_supported": 1,
+   "intermediaries_native": 2,
+   "targets_distinct_all_relations": 2,
+   "targets_distinct_supported": 1,
+   "relations_native": 10,
+   "by_class": {
+    "DIRECT_R_T": 5,
+    "LEGAL_RELATION_NON_RIT": 3,
+    "SUPPORTED_INTERMEDIATION": 2
+   },
+   "intermediation_native": 2,
+   "rit_triples_supported": 2
+  },
+  "32021R1119": {
+   "actors_native": 21,
+   "actors_specific_entities": 9,
+   "actors_in_any_relation": 3,
+   "actors_in_supported_relations": 3,
+   "regulators_distinct_all_relations": 1,
+   "regulators_distinct_supported": 1,
+   "intermediaries_native": 1,
+   "targets_distinct_all_relations": 1,
+   "targets_distinct_supported": 1,
+   "relations_native": 11,
+   "by_class": {
+    "LEGAL_RELATION_NON_RIT": 7,
+    "DIRECT_R_T": 3,
+    "SUPPORTED_INTERMEDIATION": 1
+   },
+   "intermediation_native": 1,
+   "rit_triples_supported": 1
+  },
+  "32023R0955": {
+   "actors_native": 34,
+   "actors_specific_entities": 8,
+   "actors_in_any_relation": 9,
+   "actors_in_supported_relations": 8,
+   "regulators_distinct_all_relations": 2,
+   "regulators_distinct_supported": 2,
+   "intermediaries_native": 3,
+   "targets_distinct_all_relations": 5,
+   "targets_distinct_supported": 4,
+   "relations_native": 20,
+   "by_class": {
+    "LEGAL_RELATION_NON_RIT": 10,
+    "DIRECT_R_T": 5,
+    "SUPPORTED_INTERMEDIATION": 5
+   },
+   "intermediation_native": 5,
+   "rit_triples_supported": 5
+  }
+ },
+ "R2_final_v2": {
+  "case_01": {
+   "celex": "32021R1119",
+   "relations_native": 8,
+   "by_type": {
+    "intermediated": 3,
+    "direct": 2,
+    "not_supported": 2,
+    "uncertain": 1
+   },
+   "by_status": {
+    "RESEARCHER_APPROVED": 3,
+    "NOT_SUPPORTED_RESEARCHER_CONFIRMED": 2,
+    "RESEARCHER_MODIFIED": 2,
+    "UNCERTAIN": 1
+   },
+   "intermediation_native": 3,
+   "actors_native": 8,
+   "actor_role_records": 8,
+   "role_records": {
+    "I": 3,
+    "T": 3,
+    "R": 2
+   },
+   "intermediaries_native": 3,
+   "targets_native": 3,
+   "regulators_native": 2,
+   "rit_triples_intermediated_expanded": 3,
+   "actors_in_intermediated_relations_parsed": 5,
+   "regulators_in_intermediated_relations": 1,
+   "intermediaries_in_intermediated_relations": 3,
+   "targets_in_intermediated_relations": 1,
+   "distinct_actor_labels_in_relation_fields": 9
+  },
+  "case_02": {
+   "celex": "32023R0956",
+   "relations_native": 10,
+   "by_type": {
+    "intermediated": 5,
+    "direct": 4,
+    "uncertain": 1
+   },
+   "by_status": {
+    "RESEARCHER_APPROVED": 7,
+    "RESEARCHER_MODIFIED": 2,
+    "UNCERTAIN": 1
+   },
+   "intermediation_native": 5,
+   "actors_native": 16,
+   "actor_role_records": 16,
+   "role_records": {
+    "T": 9,
+    "I": 5,
+    "R": 2
+   },
+   "intermediaries_native": 5,
+   "targets_native": 9,
+   "regulators_native": 2,
+   "rit_triples_intermediated_expanded": 7,
+   "actors_in_intermediated_relations_parsed": 12,
+   "regulators_in_intermediated_relations": 2,
+   "intermediaries_in_intermediated_relations": 5,
+   "targets_in_intermediated_relations": 5,
+   "distinct_actor_labels_in_relation_fields": 17
+  },
+  "case_03": {
+   "celex": "32023R1115",
+   "relations_native": 7,
+   "by_type": {
+    "intermediated": 4,
+    "direct": 2,
+    "uncertain": 1
+   },
+   "by_status": {
+    "RESEARCHER_APPROVED": 5,
+    "UNCERTAIN": 1,
+    "RESEARCHER_MODIFIED": 1
+   },
+   "intermediation_native": 4,
+   "actors_native": 13,
+   "actor_role_records": 13,
+   "role_records": {
+    "T": 7,
+    "I": 4,
+    "R": 2
+   },
+   "intermediaries_native": 4,
+   "targets_native": 7,
+   "regulators_native": 2,
+   "rit_triples_intermediated_expanded": 9,
+   "actors_in_intermediated_relations_parsed": 11,
+   "regulators_in_intermediated_relations": 2,
+   "intermediaries_in_intermediated_relations": 4,
+   "targets_in_intermediated_relations": 5,
+   "distinct_actor_labels_in_relation_fields": 14
+  }
+ },
+ "R2_proposal_versions": {
+  "case_01|CLAUDE_CODING_PROPOSAL": {
+   "relations": 7,
+   "by_type": {
+    "direct": 4,
+    "intermediated": 1,
+    "uncertain": 2
+   },
+   "intermediated": 1,
+   "distinct_R": 1,
+   "distinct_I": 3,
+   "distinct_T": 3
+  },
+  "case_01|PRIMARY_INTERPRETIVE_READER_PROPOSAL": {
+   "relations": 4,
+   "by_type": {
+    "direct": 4
+   },
+   "intermediated": 0,
+   "distinct_R": 2,
+   "distinct_I": 0,
+   "distinct_T": 3
+  },
+  "case_01|PRIMARY_INTERPRETIVE_READER_PROPOSAL_R2": {
+   "relations": 6,
+   "by_type": {
+    "direct": 2,
+    "intermediated": 1,
+    "uncertain": 1,
+    "not_supported": 2
+   },
+   "intermediated": 1,
+   "distinct_R": 2,
+   "distinct_I": 2,
+   "distinct_T": 3
+  },
+  "case_02|CLAUDE_CODING_PROPOSAL": {
+   "relations": 22,
+   "by_type": {
+    "intermediated": 5,
+    "uncertain": 1,
+    "direct": 16
+   },
+   "intermediated": 5,
+   "distinct_R": 5,
+   "distinct_I": 4,
+   "distinct_T": 13
+  },
+  "case_02|PRIMARY_INTERPRETIVE_READER_PROPOSAL": {
+   "relations": 15,
+   "by_type": {
+    "direct": 8,
+    "intermediated": 7
+   },
+   "intermediated": 7,
+   "distinct_R": 4,
+   "distinct_I": 4,
+   "distinct_T": 9
+  },
+  "case_02|PRIMARY_INTERPRETIVE_READER_PROPOSAL_R2": {
+   "relations": 8,
+   "by_type": {
+    "intermediated": 3,
+    "direct": 4,
+    "uncertain": 1
+   },
+   "intermediated": 3,
+   "distinct_R": 2,
+   "distinct_I": 4,
+   "distinct_T": 7
+  },
+  "case_03|CLAUDE_CODING_PROPOSAL": {
+   "relations": 10,
+   "by_type": {
+    "direct": 5,
+    "intermediated": 3,
+    "uncertain": 2
+   },
+   "intermediated": 3,
+   "distinct_R": 3,
+   "distinct_I": 4,
+   "distinct_T": 8
+  },
+  "case_03|PRIMARY_INTERPRETIVE_READER_PROPOSAL": {
+   "relations": 9,
+   "by_type": {
+    "intermediated": 2,
+    "uncertain": 1,
+    "direct": 6
+   },
+   "intermediated": 2,
+   "distinct_R": 2,
+   "distinct_I": 3,
+   "distinct_T": 4
+  },
+  "case_03|PRIMARY_INTERPRETIVE_READER_PROPOSAL_R2": {
+   "relations": 6,
+   "by_type": {
+    "direct": 2,
+    "intermediated": 3,
+    "uncertain": 1
+   },
+   "intermediated": 3,
+   "distinct_R": 2,
+   "distinct_I": 4,
+   "distinct_T": 5
+  }
+ },
+ "R2_sent_dataset_email01": {
+  "case_01": {
+   "relations": 5,
+   "direct": 2,
+   "intermediated": 3,
+   "actor_role_records_R": 2,
+   "actor_role_records_I": 3,
+   "actor_role_records_T": 2
+  },
+  "case_02": {
+   "relations": 9,
+   "intermediated": 5,
+   "direct": 4,
+   "actor_role_records_R": 2,
+   "actor_role_records_I": 5,
+   "actor_role_records_T": 7
+  },
+  "case_03": {
+   "relations": 6,
+   "direct": 2,
+   "intermediated": 4,
+   "actor_role_records_R": 2,
+   "actor_role_records_I": 4,
+   "actor_role_records_T": 4
+  }
+ },
+ "R2_stage4_climate_law": {
+  "candidates_attempt02": 90,
+  "RA_result": {
+   "negative": 89,
+   "insufficient_evidence": 1
+  }
+ },
+ "PoC": {
+  "32010R0066": {
+   "v4_relations": 3,
+   "v4_actor_ids": 5,
+   "v4_I": 3,
+   "v4_R": 2,
+   "v4_T": 1,
+   "v4_screening_hits": 94,
+   "v3_relations": 3,
+   "v2_sample_rows": 3
+  },
+  "32018R2067": {
+   "v4_relations": 2,
+   "v4_actor_ids": 5,
+   "v4_I": 2,
+   "v4_R": 2,
+   "v4_T": 2,
+   "v4_screening_hits": 365,
+   "v3_relations": 2,
+   "v2_sample_rows": 2
+  },
+  "32022L2464": {
+   "v4_relations": 2,
+   "v4_actor_ids": 5,
+   "v4_I": 2,
+   "v4_R": 2,
+   "v4_T": 2,
+   "v4_screening_hits": 559,
+   "v3_relations": 2,
+   "v2_sample_rows": 3
+  },
+  "32019R2089": {
+   "v4_screening_hits": 61,
+   "v2_sample_rows": 1
+  },
+  "32020R0852": {
+   "v4_screening_hits": 13
+  },
+  "_v1_rows": 4,
+  "_v1_by_act": {
+   "32022L2464": 1,
+   "32010R0066": 1,
+   "32019R2089": 1,
+   "32018R2067": 1
+  }
+ },
+ "PILOT_03": {
+  "31976L0889": {
+   "regulators_A": 1,
+   "targets_A": 1,
+   "provisions": 2,
+   "edges_modelA": 2,
+   "edges_modelB": 2,
+   "derived_rit_candidates_A": 2,
+   "derived_rit_candidates_B": 2,
+   "distinct_actors_A": 3,
+   "distinct_intermediary_actor_b_A": 2,
+   "intermediary_status_direct_YES_A": 2
+  },
+  "31986L0361": {
+   "regulators_A": 0,
+   "targets_A": 0,
+   "provisions": 4,
+   "edges_modelA": 4,
+   "edges_modelB": 4,
+   "derived_rit_candidates_A": 3,
+   "derived_rit_candidates_B": 3,
+   "distinct_actors_A": 6,
+   "distinct_intermediary_actor_b_A": 3,
+   "intermediary_status_direct_YES_A": 3
+  },
+  "31987D0095": {
+   "regulators_A": 0,
+   "targets_A": 0,
+   "provisions": 3,
+   "edges_modelA": 3,
+   "edges_modelB": 3,
+   "derived_rit_candidates_A": 2,
+   "derived_rit_candidates_B": 2,
+   "distinct_actors_A": 5,
+   "distinct_intermediary_actor_b_A": 2,
+   "intermediary_status_direct_YES_A": 2
+  },
+  "31989L0336": {
+   "regulators_A": 1,
+   "targets_A": 2,
+   "provisions": 3,
+   "edges_modelA": 3,
+   "edges_modelB": 3,
+   "derived_rit_candidates_A": 0,
+   "derived_rit_candidates_B": 0,
+   "distinct_actors_A": 6,
+   "distinct_intermediary_actor_b_A": 3,
+   "intermediary_status_direct_YES_A": 3
+  },
+  "31991L0263": {
+   "regulators_A": 1,
+   "targets_A": 2,
+   "provisions": 4,
+   "edges_modelA": 4,
+   "edges_modelB": 4,
+   "derived_rit_candidates_A": 3,
+   "derived_rit_candidates_B": 3,
+   "distinct_actors_A": 6,
+   "distinct_intermediary_actor_b_A": 3,
+   "intermediary_status_direct_YES_A": 4
+  },
+  "31992L0044": {
+   "regulators_A": 0,
+   "targets_A": 0,
+   "provisions": 3,
+   "edges_modelA": 3,
+   "edges_modelB": 3,
+   "derived_rit_candidates_A": 2,
+   "derived_rit_candidates_B": 2,
+   "distinct_actors_A": 4,
+   "distinct_intermediary_actor_b_A": 1,
+   "intermediary_status_direct_YES_A": 2
+  },
+  "32004L0048": {
+   "regulators_A": 0,
+   "targets_A": 0,
+   "provisions": 3,
+   "edges_modelA": 3,
+   "edges_modelB": 3,
+   "derived_rit_candidates_A": 2,
+   "derived_rit_candidates_B": 2,
+   "distinct_actors_A": 5,
+   "distinct_intermediary_actor_b_A": 1,
+   "intermediary_status_direct_YES_A": 2
+  },
+  "32004R0874": {
+   "regulators_A": 1,
+   "targets_A": 0,
+   "provisions": 6,
+   "edges_modelA": 6,
+   "edges_modelB": 6,
+   "derived_rit_candidates_A": 6,
+   "derived_rit_candidates_B": 6,
+   "distinct_actors_A": 6,
+   "distinct_intermediary_actor_b_A": 4,
+   "intermediary_status_direct_YES_A": 6
+  },
+  "32006L0115": {
+   "regulators_A": 0,
+   "targets_A": 0,
+   "provisions": 3,
+   "edges_modelA": 3,
+   "edges_modelB": 3,
+   "derived_rit_candidates_A": 2,
+   "derived_rit_candidates_B": 2,
+   "distinct_actors_A": 4,
+   "distinct_intermediary_actor_b_A": 1,
+   "intermediary_status_direct_YES_A": 2
+  },
+  "32006R1781": {
+   "regulators_A": 1,
+   "targets_A": 1,
+   "provisions": 2,
+   "edges_modelA": 2,
+   "edges_modelB": 2,
+   "derived_rit_candidates_A": 0,
+   "derived_rit_candidates_B": 0,
+   "distinct_actors_A": 5,
+   "distinct_intermediary_actor_b_A": 1,
+   "intermediary_status_direct_YES_A": 1
+  }
+ },
+ "PILOT_01": {
+  "1781/2006": {
+   "relationships": 2,
+   "with_actor_i": 1
+  },
+  "76/889/EEC": {
+   "relationships": 2,
+   "with_actor_i": 1
+  },
+  "89/336/EEC": {
+   "relationships": 3,
+   "with_actor_i": 2
+  },
+  "91/263/EEC": {
+   "relationships": 4,
+   "with_actor_i": 1
+  },
+  "EC 874/2004": {
+   "relationships": 9,
+   "with_actor_i": 6
+  }
+ },
+ "PILOT_02": {
+  "31976L0889": {
+   "relationships": 2,
+   "with_actor_i": 2
+  },
+  "31989L0336": {
+   "relationships": 3,
+   "with_actor_i": 0
+  },
+  "31991L0263": {
+   "relationships": 4,
+   "with_actor_i": 0
+  },
+  "32004R0874": {
+   "relationships": 6,
+   "with_actor_i": 3
+  },
+  "32006R1781": {
+   "relationships": 2,
+   "with_actor_i": 1
+  }
+ },
+ "R4": {
+  "D1_GDPR": {
+   "structural_records": 485,
+   "by_source_type": {
+    "OPERATIVE_ARTICLE": 264,
+    "RECITAL": 221
+   },
+   "actor_candidates": 195,
+   "legal_action_rows": 344,
+   "distinct_actor_normalized_in_records": 195
+  },
+  "D2_DSA": {
+   "structural_records": 424,
+   "by_source_type": {
+    "OPERATIVE_ARTICLE": 242,
+    "RECITAL": 182
+   },
+   "actor_candidates": 139,
+   "legal_action_rows": 311,
+   "distinct_actor_normalized_in_records": 139
+  },
+  "D3_AI_ACT": {
+   "structural_records": 495,
+   "by_source_type": {
+    "OPERATIVE_ARTICLE": 336,
+    "RECITAL": 143,
+    "ANNEX": 16
+   },
+   "actor_candidates": 179,
+   "legal_action_rows": 316,
+   "distinct_actor_normalized_in_records": 179
+  }
+ },
+ "GDPR_PILOT_01": {
+  "qualified_relations": 238,
+  "normative_assignments": 157,
+  "positions_and_devices": 47,
+  "distinct_origin": 60,
+  "distinct_counterpart": 94,
+  "distinct_assignment_subjects": 57,
+  "distinct_origin_or_counterpart_union": 130
+ },
+ "Rotem_CDI_rows": [
+  {
+   "title": "Directive on the approximation of the laws of the Member States relating to radio interference caused by electrical household appliances, portable tools and similar equipment",
+   "year": "1976",
+   "code": "76/889/EEC",
+   "sector": "Telecommunications",
+   "assessed": "Yes",
+   "intermediaries": "Notified bodies"
+  },
+  {
+   "title": "Directive on the approximation of the laws of the Member States relating to the suppression of radio interference with regard to fluorescent lighting luminaires fitted with starters",
+   "year": "1976",
+   "code": "76/890/EEC",
+   "sector": "Telecommunications",
+   "assessed": "Yes",
+   "intermediaries": "Notified bodies"
+  },
+  {
+   "title": "Directive laying down a procedure for the provision of information in the field of technical standards and regulations",
+   "year": "1983",
+   "code": "83/189/EEC",
+   "sector": "Unspecified",
+   "assessed": "Yes",
+   "intermediaries": "N/A"
+  },
+  {
+   "title": "Council Recommendation of 12 November 1984 concerning the implementation of harmonization in the field of telecommunications",
+   "year": "1984",
+   "code": "84/549/EEC",
+   "sector": "Telecommunications",
+   "assessed": "Yes",
+   "intermediaries": "N/A"
+  },
+  {
+   "title": "Council Resolution of 7 May 1985 on a new approach to technical harmonization and standards (85/C 136/01)",
+   "year": "1985",
+   "code": "85/C 136/01",
+   "sector": "Unspecified",
+   "assessed": "Yes",
+   "intermediaries": "N/A"
+  },
+  {
+   "title": "Directive on the initial stage of the mutual recognition of type approval for telecommunications terminal equipment",
+   "year": "1986",
+   "code": "86/361/EEC",
+   "sector": "Telecommunications",
+   "assessed": "Yes",
+   "intermediaries": "Testing laboratories"
+  },
+  {
+   "title": "Decision on the promotion of standardization in Europe and the preparation and implementation of standards in the field of information technology and telecommunications",
+   "year": "1987",
+   "code": "87/95/EEC",
+   "sector": "Telecommunications",
+   "assessed": "Yes",
+   "intermediaries": "Test laboratories"
+  },
+  {
+   "title": "Council recommendation on the coordinated introduction of public pan-European cellular digital land-based mobile communications in the Community",
+   "year": "1987",
+   "code": "87/371/EEC",
+   "sector": "Telecommunications",
+   "assessed": "Yes",
+   "intermediaries": "N/A"
+  },
+  {
+   "title": "Frequency Bands Directive",
+   "year": "1987",
+   "code": "87/372/EEC",
+   "sector": "Telecommunications",
+   "assessed": "Yes",
+   "intermediaries": "N/A"
+  },
+  {
+   "title": "Directive laying down a procedure for the provision of information in the field of technical standards and regulations",
+   "year": "1988",
+   "code": "88/182/EEC",
+   "sector": "Unspecified",
+   "assessed": "",
+   "intermediaries": "N/A"
+  },
+  {
+   "title": "Resolution of 30 June 1988 (5) on the development of the common market for telecommunications services and equipment",
+   "year": "1988",
+   "code": "88/C 257/01",
+   "sector": "",
+   "assessed": "Yes",
+   "intermediaries": "N/A"
+  },
+  {
+   "title": "Commission Directive 88/301/EEC of 16 May 1988 on competition in the markets in telecommunications terminal equipment",
+   "year": "1988",
+   "code": "88/301/EEC",
+   "sector": "Telecommunications",
+   "assessed": "Yes",
+   "intermediaries": "N/A"
+  },
+  {
+   "title": "Directive on the approximation of the laws of the Member States relating to electromagnetic compatibility",
+   "year": "1989",
+   "code": "89/336/EEC",
+   "sector": "Unspecified",
+   "assessed": "Yes",
+   "intermediaries": "Competent bodies; notified bodies; insurance companies"
+  },
+  {
+   "title": "Television Without Frontiers Directive",
+   "year": "1989",
+   "code": "89/552/EEC",
+   "sector": "Media",
+   "assessed": "Yes",
+   "intermediaries": "N/A"
+  },
+  {
+   "title": "Directive  on the establishment of the internal market for telecommunications services through the implementation of open network provision",
+   "year": "1990",
+   "code": "90/387/EEC",
+   "sector": "Telecommunications",
+   "assessed": "Yes",
+   "intermediaries": "N/A"
+  },
+  {
+   "title": "Commission Directive on competition in the markets for telecommunications services",
+   "year": "1990",
+   "code": "90/388/EEC",
+   "sector": "Telecommunications",
+   "assessed": "Yes",
+   "intermediaries": "N/A"
+  },
+  {
+   "title": "The legal protection of computer programs directive",
+   "year": "1991",
+   "code": "91/250/EEC",
+   "sector": "IPR",
+   "assessed": "Yes",
+   "intermediaries": "N/A"
+  },
+  {
+   "title": "Directive on the approximation of the laws of the Member States concerning telecommunications terminal equipment",
+   "year": "1991",
+   "code": "91/263/EEC",
+   "sector": "Telecommunications",
+   "assessed": "Yes",
+   "intermediaries": "Notified bodies and testing laboratories\n\nInsurance companies"
+  },
+  {
+   "title": "Resolution of 19 December 1991 on the development of the common market for satellite communications services and equipment",
+   "year": "1991",
+   "code": "92/C 8/01",
+   "sector": "",
+   "assessed": "",
+   "intermediaries": ""
+  },
+  {
+   "title": "Directive on the application of open network provision to leased lines",
+   "year": "1992",
+   "code": "92/44/EEC",
+   "sector": "Telecommunications",
+   "assessed": "Yes",
+   "intermediaries": "Telecommunications organisations providing leased lines"
+  },
+  {
+   "title": "Directive on the rental right and lending right and on certain rights related to copyright in the field of intellectual property",
+   "year": "1992",
+   "code": "92/100/EEC",
+   "sector": "IPR",
+   "assessed": "Yes",
+   "intermediaries": "Collecting society"
+  },
+  {
+   "title": "Satellite and Cable Directive",
+   "year": "1993",
+   "code": "EEC 1993/83",
+   "sector": "Media",
+   "assessed": "",
+   "intermediaries": "Collecting societies (between authors and broadcasting organisations) and mediators (between collecting societies and broadcasting organisations)"
+  },
+  {
+   "title": "Council Directive 93/97/EEC of 29 October 1993 supplementing Directive 91/263/EEC in respect of satellite earth station equipments",
+   "year": "1993",
+   "code": "Directive 93/97/EEC",
+   "sector": "Telecommunications",
+   "assessed": "",
+   "intermediaries": "Notified bodies and testing laboratories"
+  },
+  {
+   "title": "Directive on harmonizing the term of protection of copyright and certain related rights",
+   "year": "1993",
+   "code": "Directive 93/98/EEC",
+   "sector": "IPR",
+   "assessed": "",
+   "intermediaries": "N/A"
+  },
+  {
+   "title": "Decision on an action plan for the introduction of advanced television services in Europe",
+   "year": "1994",
+   "code": "93/424/EEC",
+   "sector": "Media",
+   "assessed": "",
+   "intermediaries": "N/A"
+  },
+  {
+   "title": "Satellite Services Directive",
+   "year": "1994",
+   "code": "94/46/EC",
+   "sector": "Telecommunications",
+   "assessed": "",
+   "intermediaries": "N/A"
+  },
+  {
+   "title": "Opinion on the Communication",
+   "year": "1994",
+   "code": "94/C 34/12",
+   "sector": "",
+   "assessed": "",
+   "intermediaries": ""
+  },
+  {
+   "title": "Council Regulation (EC) No 40/94 of 20 December 1993 on the Community trade mark(",
+   "year": "",
+   "code": "",
+   "sector": "",
+   "assessed": "",
+   "intermediaries": ""
+  },
+  {
+   "title": "Data Protection Directive",
+   "year": "1995",
+   "code": "EC 1995/46",
+   "sector": "Data & Privacy",
+   "assessed": "",
+   "intermediaries": "Data protection officials & trade associations"
+  },
+  {
+   "title": "Directive on the application of open network provision (ONP) to voice telephony",
+   "year": "1995",
+   "code": "95/62/EC",
+   "sector": "Telecommunications",
+   "assessed": "",
+   "intermediaries": "organizations representing user and/or consumer interests (article 6.2)\n\nIndependent dispute resolution bodies (art. 27)\n\nAn independent competent body must verify the compliance of the cost accountin"
+  },
+  {
+   "title": "Directive on the use of standards for the transmission of television signals",
+   "year": "1995",
+   "code": "95/47/EC",
+   "sector": "Media",
+   "assessed": "",
+   "intermediaries": "The Directive mentions the need to have approporate dispute  resolution proceduress  regarding the application of the Directive accesible, easy, and inexpensive, but it does not say if it should be an"
+  },
+  {
+   "title": "Directive Directive 96/2/EC amending Directive 90/388/EEC with regard to mobile and personal communications",
+   "year": "1996",
+   "code": "96/2/EC",
+   "sector": "Telecommunications",
+   "assessed": "",
+   "intermediaries": "N/A"
+  },
+  {
+   "title": "Database Directive",
+   "year": "1996",
+   "code": "EC 1996/9",
+   "sector": "IPR",
+   "assessed": "",
+   "intermediaries": "N/A"
+  },
+  {
+   "title": "Commission Directive with regard to the implementation of full competition in telecommunications markets",
+   "year": "1996",
+   "code": "96/19",
+   "sector": "Telecommunications",
+   "assessed": "",
+   "intermediaries": "The Directive only mentioned some intermediaries in the receitals but does not operationalise them in the amended text."
+  },
+  {
+   "title": "Distance Contracts Directive",
+   "year": "1997",
+   "code": "EC 1997/7",
+   "sector": "E-commerce & Consumer Protection",
+   "assessed": "",
+   "intermediaries": ""
+  },
+  {
+   "title": "סיכום מספר החלטות של הפרלמנט והמועצה כפי שאלו מאוזכרות בדירקטיבה 97/13/EC",
+   "year": "",
+   "code": "",
+   "sector": "",
+   "assessed": "",
+   "intermediaries": ""
+  },
+  {
+   "title": "Directive on a common framework for general authorisations and individual licences in the field of telecommunications services",
+   "year": "1997",
+   "code": "97/13/EC",
+   "sector": "Telecommunications",
+   "assessed": "",
+   "intermediaries": "N/A"
+  },
+  {
+   "title": "The Interconnection Directive",
+   "year": "1997",
+   "code": "97/33",
+   "sector": "Telecommunications",
+   "assessed": "",
+   "intermediaries": ""
+  },
+  {
+   "title": "Directive concerning the processing of personal data and the protection of privacy in the telecommunications sector",
+   "year": "1997",
+   "code": "97/66/EC",
+   "sector": "Data & Privacy",
+   "assessed": "",
+   "intermediaries": "N/A"
+  },
+  {
+   "title": "Decision on a  coordinated authorization approach in the field of satellite personal-communication services in the Community",
+   "year": "",
+   "code": "710/97/EC",
+   "sector": "",
+   "assessed": "",
+   "intermediaries": ""
+  },
+  {
+   "title": "Green Paper on the Convergence of The Telecommunications, Media, and Information Technology Sectors, and the Implications for Regulation: Toward an Information Society Approach",
+   "year": "1997",
+   "code": "Com(97)623",
+   "sector": "",
+   "assessed": "",
+   "intermediaries": ""
+  },
+  {
+   "title": "Directive on the application of open network provision (ONP) to voice telephony and on universal service for telecommunications in a competitive environment",
+   "year": "1998",
+   "code": "98/10/EC",
+   "sector": "Telecommunications",
+   "assessed": "",
+   "intermediaries": "Indirectly mentioned:\norganisation representing user or consumer interests (article 10 & Article 26(c)(1))\n\nIndependent auditors (Article 12.4)\n\nIndependent dispute resolution bodies (Article 26(c)(1)"
+  },
+  {
+   "title": "Directive relating to telecommunications terminal equipment and satellite earth station equipment, including the mutual recognition of their conformity",
+   "year": "1998",
+   "code": "98/13/EC",
+   "sector": "Trust & Safety",
+   "assessed": "",
+   "intermediaries": "Notified bodies and testing laboratories"
+  },
+  {
+   "title": "Directive 98/48/EC amending Directive 98/34/EC laying down a procedure for the provision of information in the field of technical standards and regulations",
+   "year": "1998",
+   "code": "98/48/EC",
+   "sector": "E-commerce & Consumer Protection",
+   "assessed": "",
+   "intermediaries": "Professional bodies and other organisations developing codes of practice"
+  },
+  {
+   "title": "Green Paper on Radio Spectrum Policy: in the context of European Community policies such as telecommunication, broadcasting, transport, and R&D",
+   "year": "1998",
+   "code": "Com(1998)596",
+   "sector": "",
+   "assessed": "",
+   "intermediaries": ""
+  },
+  {
+   "title": "Radio and Telecommunications Terminal Equipment Directive (R&TTE)",
+   "year": "1999",
+   "code": "EC 1999/5",
+   "sector": "Connectivity",
+   "assessed": "",
+   "intermediaries": "Notified bodies"
+  },
+  {
+   "title": "Directive on a Community framework for electronic signatures",
+   "year": "1999",
+   "code": "1999/93/EC",
+   "sector": "",
+   "assessed": "",
+   "intermediaries": "Two actors act as intermediaries:\nNational bodies responsible for accreditation and supervision oversee certification-service providers and any voluntary accreditation schemes established under nation"
+  },
+  {
+   "title": "Decision on the coordinated introduction of a third-generation mobile and wireless communications system (UMTS) in the Community",
+   "year": "1999",
+   "code": "128/1999",
+   "sector": "Telecommunications",
+   "assessed": "",
+   "intermediaries": "N/A"
+  },
+  {
+   "title": "Communication on the Organisation and Management of the Internet International and European Policy Issues 1998- 2000",
+   "year": "1999",
+   "code": "Com(2000) 202",
+   "sector": "Telecommunications",
+   "assessed": "",
+   "intermediaries": "Alternative dispute resolution bodies"
+  },
+  {
+   "title": "Next Steps in Radio Spectrum Policy: Results of the Public Consultation on the Green Paper",
+   "year": "1999",
+   "code": "Com(1999) 538",
+   "sector": "",
+   "assessed": "",
+   "intermediaries": ""
+  },
+  {
+   "title": "Communication on the results of the public consultation on the 1999 communications review and orientations for the new regulatory framework",
+   "year": "1999",
+   "code": "(1999)539",
+   "sector": "Telecommunications",
+   "assessed": "",
+   "intermediaries": ""
+  },
+  {
+   "title": "The Commission communication \"Principles and guidelines for the Community's audio-visual policy in the digital age\", and the Council conclusions of 6 June 2000 welcoming this communication.",
+   "year": "",
+   "code": "(1999)657",
+   "sector": "",
+   "assessed": "",
+   "intermediaries": "N/A"
+  },
+  {
+   "title": "Council resolution of 3 October 2000 on the organisation and management of the Internet",
+   "year": "2000",
+   "code": "2000/C 293/02",
+   "sector": "",
+   "assessed": "",
+   "intermediaries": "N/A"
+  },
+  {
+   "title": "E-commerce Directive",
+   "year": "2000",
+   "code": "2000/31",
+   "sector": "E-commerce & Consumer Protection",
+   "assessed": "",
+   "intermediaries": "trade, professional and consumer associations or organisations; alternative dispute resolution bodies"
+  },
+  {
+   "title": "The European Parliament Resolution of 13 June 2000",
+   "year": "",
+   "code": "",
+   "sector": "",
+   "assessed": "",
+   "intermediaries": ""
+  },
+  {
+   "title": "Regulation on unbundled access to the local loop",
+   "year": "2000",
+   "code": "2887/2000",
+   "sector": "Telecommunications",
+   "assessed": "",
+   "intermediaries": "Dispute resolution according to Directive 97/33/EC"
+  },
+  {
+   "title": "Information Society Directive",
+   "year": "2001",
+   "code": "EC 2001/29",
+   "sector": "IPR",
+   "assessed": "",
+   "intermediaries": "N/A"
+  },
+  {
+   "title": "Regulation on Personal Data Processed by EU Institutions (predecessor)",
+   "year": "2001",
+   "code": "EC 2001/45",
+   "sector": "Data & Privacy",
+   "assessed": "",
+   "intermediaries": "Data protection officers"
+  },
+  {
+   "title": "Radio Spectrum Decision",
+   "year": "2002",
+   "code": "EC 2002/676",
+   "sector": "Telecommunications",
+   "assessed": "",
+   "intermediaries": "N/A"
+  },
+  {
+   "title": "ePrivacy Directive",
+   "year": "2002",
+   "code": "EC 2002/58",
+   "sector": "Data & Privacy",
+   "assessed": "",
+   "intermediaries": "N/A"
+  },
+  {
+   "title": "Access Directive",
+   "year": "2002",
+   "code": "EC 2002/19",
+   "sector": "Telecommunications",
+   "assessed": "",
+   "intermediaries": "qualified independent body verifying cost-accounting systems"
+  },
+  {
+   "title": "Authorisation Directive",
+   "year": "2002",
+   "code": "EC 2002/20",
+   "sector": "Telecommunications",
+   "assessed": "",
+   "intermediaries": "N/A"
+  },
+  {
+   "title": "Framework Directive for Electronic Communications",
+   "year": "2002",
+   "code": "EC 2002/21",
+   "sector": "Telecommunications",
+   "assessed": "",
+   "intermediaries": "N/A"
+  },
+  {
+   "title": "Universal Service Directive",
+   "year": "2002",
+   "code": "EC 2002/22",
+   "sector": "",
+   "assessed": "",
+   "intermediaries": "Mechanisms developed by interested groups, out-of-court dispute resolution bodies, qualified independent body verifying cost-accounting systems, and independent auditors or similar reviewers of the pe"
+  },
+  {
+   "title": ".eu Domain Name Regulation (predecessor)",
+   "year": "2002",
+   "code": "EC 2002/733",
+   "sector": "Internet governance",
+   "assessed": "",
+   "intermediaries": "N/A"
+  },
+  {
+   "title": "Decision establishing the European Data Protection Supervisor (predecessor)",
+   "year": "2002",
+   "code": "EC 2002/1247",
+   "sector": "Data & Privacy",
+   "assessed": "Yes",
+   "intermediaries": "N/A"
+  },
+  {
+   "title": "Community Design Regulation / EU Design Regulation",
+   "year": "2002",
+   "code": "EC 6/2002",
+   "sector": "IPR",
+   "assessed": "Yes",
+   "intermediaries": "N/A"
+  },
+  {
+   "title": "Community Design Implementing Regulation",
+   "year": "2002",
+   "code": "EC 2002/2246",
+   "sector": "IPR",
+   "assessed": "Yes",
+   "intermediaries": "N/A"
+  },
+  {
+   "title": "Commission Decision 2003/375/EC",
+   "year": "2003",
+   "code": "2003/375/EC",
+   "sector": "Internet governance",
+   "assessed": "Yes",
+   "intermediaries": "N/A"
+  },
+  {
+   "title": "Public Sector Information Directive",
+   "year": "2003",
+   "code": "EC 2003/98",
+   "sector": "",
+   "assessed": "Yes",
+   "intermediaries": "N/A"
+  },
+  {
+   "title": "Enforcement Directive (IPR)",
+   "year": "2004",
+   "code": "EC 2004/48",
+   "sector": "IPR",
+   "assessed": "Yes",
+   "intermediaries": "Intellectual property collective rights management bodies and professional defence bodies\n\ntrade or professional associations or organisations"
+  },
+  {
+   "title": "ENISA Regulation (predecessor)",
+   "year": "",
+   "code": "460/2004",
+   "sector": "",
+   "assessed": "",
+   "intermediaries": "Court of auditors & the Commission internal auditor\n\nOmbudgsman\n\nThe Permanent Stakeholders Group"
+  },
+  {
+   "title": ".eu Domain Name Implementing Regulation",
+   "year": "2004",
+   "code": "EC 874/2004",
+   "sector": "Internet governance",
+   "assessed": "Yes",
+   "intermediaries": "Accredited registrars, validation agents, escrow agents, independent auditor, and ADR providers."
+  },
+  {
+   "title": "Framework Decision on Attacks Against Information Systems (predecessor)",
+   "year": "2005",
+   "code": "JHA 2005/222",
+   "sector": "law enforcement",
+   "assessed": "Yes",
+   "intermediaries": "N/a"
+  },
+  {
+   "title": "Consumer Protection Cooperation Regulation (predecessor)",
+   "year": "2006",
+   "code": "EC 2006/2004",
+   "sector": "E-commerce & Consumer Protection",
+   "assessed": "Yes",
+   "intermediaries": "N/A"
+  },
+  {
+   "title": "Regulation on Information Accompanying Transfers of Funds (predecessor)",
+   "year": "2006",
+   "code": "1781/2006",
+   "sector": "law enforcement",
+   "assessed": "Yes",
+   "intermediaries": "Auditors or self-regulatory body to which the non-profit organisation report and subject to audit requirements"
+  },
+  {
+   "title": "Rental right and lending right and on certain rights related to copyright in the field of intellectual property",
+   "year": "2006",
+   "code": "2006/115/EC",
+   "sector": "IPR",
+   "assessed": "Yes",
+   "intermediaries": "Collecting societies (between authors and broadcasting organisations) and mediators (between collecting societies and broadcasting organisations)"
+  },
+  {
+   "title": "Audiovisual Media Services Directive",
+   "year": "2007",
+   "code": "2007/65/EC",
+   "sector": "Media",
+   "assessed": "",
+   "intermediaries": "N/A"
+  },
+  {
+   "title": "Payment Services Directive (PSD1)",
+   "year": "2007",
+   "code": "EC 2007/64",
+   "sector": "",
+   "assessed": "",
+   "intermediaries": "Insturance company or credit institutions (article 9)\n\nAuditors (Article 15)\n\nOut-of-court complaint and redress procedures"
+  },
+  {
+   "title": "Framework Decision on Data Protection in Police and Judicial Cooperation",
+   "year": "2008",
+   "code": "JHA 2008/977",
+   "sector": "Data & Privacy",
+   "assessed": "",
+   "intermediaries": "N/A"
+  },
+  {
+   "title": "Accreditation and Market Surveillance Regulation",
+   "year": "2008",
+   "code": "EC 2008/765",
+   "sector": "Trust & Safety",
+   "assessed": "",
+   "intermediaries": "Conformity assessment bodies, national accrediation bodies, and EA"
+  },
+  {
+   "title": "Common Framework for the Marketing of Products",
+   "year": "2008",
+   "code": "EC 2008/768",
+   "sector": "Trust & Safety",
+   "assessed": "",
+   "intermediaries": "Conformity assessment bodies and accredited in-house bodies"
+  },
+  {
+   "title": "legal protection of computer programs",
+   "year": "2009",
+   "code": "2009/24/EC",
+   "sector": "",
+   "assessed": "",
+   "intermediaries": "N/A"
+  },
+  {
+   "title": "Digital agenda for Europe",
+   "year": "",
+   "code": "",
+   "sector": "",
+   "assessed": "",
+   "intermediaries": ""
+  },
+  {
+   "title": "i2010: European Information Society",
+   "year": "",
+   "code": "",
+   "sector": "",
+   "assessed": "",
+   "intermediaries": ""
+  },
+  {
+   "title": "Audio-visual Media Services Directive (AVMSD)",
+   "year": "2010",
+   "code": "EU 2010/13",
+   "sector": "Media",
+   "assessed": "",
+   "intermediaries": "N/A"
+  },
+  {
+   "title": "Directive on Consumer Rights (CRD)",
+   "year": "2011",
+   "code": "EU 2011/83",
+   "sector": "E-commerce & Consumer Protection",
+   "assessed": "",
+   "intermediaries": "public bodies or their representatives, consumer protection organisations, professional organisations\n\nCodes owners"
+  },
+  {
+   "title": "European Standardization Regulation",
+   "year": "2012",
+   "code": "EU 2012/1025",
+   "sector": "Trust & Safety",
+   "assessed": "",
+   "intermediaries": "The European Court of Auditors and the European organisations that represent SMEs, consumers, and environmental or social interests"
+  },
+  {
+   "title": "Roaming Regulation (predecessor)",
+   "year": "2012",
+   "code": "EU 2012/531",
+   "sector": "Connectivity",
+   "assessed": "",
+   "intermediaries": "Dispute resoultion under the framework directive"
+  },
+  {
+   "title": "Orphan Works Directive",
+   "year": "2012",
+   "code": "EU 2012/28",
+   "sector": "IPR",
+   "assessed": "",
+   "intermediaries": "N/A"
+  },
+  {
+   "title": "Connecting Europe Facility Regulation (predecessor)",
+   "year": "2013",
+   "code": "EU 2013/1316",
+   "sector": "Connectivity",
+   "assessed": "",
+   "intermediaries": "N/A"
+  },
+  {
+   "title": "PSI Amendment Directive",
+   "year": "2013",
+   "code": "EU 2013/37",
+   "sector": "Data & Privacy",
+   "assessed": "",
+   "intermediaries": "N/A"
+  },
+  {
+   "title": "ENISA Regulation (predecessor)",
+   "year": "2013",
+   "code": "EU 2013/526",
+   "sector": "Cybersecurity",
+   "assessed": "",
+   "intermediaries": "Court of auditors & the Commission internal auditor\n\nIndependent evaluator - Supervises ENISA’s administrative conduct and receives complaints, including challenges concerning access to documents.\n\nOm"
+  },
+  {
+   "title": "Directive on Attacks Against Information Systems",
+   "year": "2013",
+   "code": "EU 2013/40",
+   "sector": "Law Enforcement",
+   "assessed": "",
+   "intermediaries": "N/A"
+  },
+  {
+   "title": "Consumer ADR Directive",
+   "year": "2013",
+   "code": "EU 2013/11",
+   "sector": "E-commerce & Consumer Protection",
+   "assessed": "",
+   "intermediaries": "ADR entities are the principal regulatory intermediaries, combining dispute resolution, monitoring and feedback functions. Consumer assistance bodies and ADR networks perform secondary referral and co"
+  },
+  {
+   "title": "Online Dispute Resolution Regulation",
+   "year": "2013",
+   "code": "EU 2013/524",
+   "sector": "E-commerce & Consumer Protection",
+   "assessed": "",
+   "intermediaries": "N/A"
+  },
+  {
+   "title": "Electromagnetic compatibility Directive (EMC)",
+   "year": "2014",
+   "code": "EU 2014/30",
+   "sector": "Trust & Safety",
+   "assessed": "",
+   "intermediaries": "Notified bodies and insurance companies"
+  },
+  {
+   "title": "Radio Equipment Directive (RED)",
+   "year": "2014",
+   "code": "EU 2014/53",
+   "sector": "Connectivity",
+   "assessed": "",
+   "intermediaries": "Notified bodies, testing laboratories, and insurance companies (unless the member state assume liability)."
+  },
+  {
+   "title": "eIDAS Regulation",
+   "year": "2014",
+   "code": "EU 2014/910",
+   "sector": "Trust & Safety",
+   "assessed": "",
+   "intermediaries": "Conformity assessment bodies (aas indirectly also NAB)\n\nInsurance companies\n\nCertification bodies for qualitifed electronic signature creation and electronic seal creation devices"
+  },
+  {
+   "title": "Technology Transfer Block Exemption",
+   "year": "2014",
+   "code": "EC 2014/316",
+   "sector": "Competition & Single Market",
+   "assessed": "",
+   "intermediaries": ""
+  },
+  {
+   "title": "e-invoicing Directive",
+   "year": "2014",
+   "code": "EU 2014/55",
+   "sector": "Finance",
+   "assessed": "",
+   "intermediaries": ""
+  },
+  {
+   "title": "Joint Undertaking Regulation (predecessor act)",
+   "year": "2014",
+   "code": "EU 2014/557",
+   "sector": "Research & Innovation",
+   "assessed": "",
+   "intermediaries": ""
+  },
+  {
+   "title": "Joint Undertaking Regulation (predecessor act)",
+   "year": "2014",
+   "code": "EU 2014/558",
+   "sector": "Research & Innovation",
+   "assessed": "",
+   "intermediaries": ""
+  },
+  {
+   "title": "Joint Undertaking Regulation (predecessor act)",
+   "year": "2014",
+   "code": "EU 2014/559",
+   "sector": "Research & Innovation",
+   "assessed": "",
+   "intermediaries": ""
+  },
+  {
+   "title": "Joint Undertaking Regulation (predecessor act)",
+   "year": "2014",
+   "code": "EU 2014/560",
+   "sector": "Research & Innovation",
+   "assessed": "",
+   "intermediaries": ""
+  },
+  {
+   "title": "Joint Undertaking Regulation (predecessor act)",
+   "year": "2014",
+   "code": "EU 2014/561",
+   "sector": "Research & Innovation",
+   "assessed": "",
+   "intermediaries": ""
+  },
+  {
+   "title": "Joint Undertaking Regulation (predecessor act)",
+   "year": "2014",
+   "code": "EU 2014/642",
+   "sector": "Research & Innovation",
+   "assessed": "",
+   "intermediaries": ""
+  },
+  {
+   "title": "Broadband Cost Reduction Directive",
+   "year": "2014",
+   "code": "EU 2014/61",
+   "sector": "Connectivity",
+   "assessed": "",
+   "intermediaries": ""
+  },
+  {
+   "title": "Guidelines for Trans-European Telecommunications Networks",
+   "year": "2014",
+   "code": "EU 2014/283",
+   "sector": "Connectivity",
+   "assessed": "",
+   "intermediaries": ""
+  },
+  {
+   "title": "Collective Rights Management Directive",
+   "year": "2014",
+   "code": "EU 2014/26",
+   "sector": "IPR",
+   "assessed": "",
+   "intermediaries": ""
+  },
+  {
+   "title": "European Investigation Order Directive",
+   "year": "2014",
+   "code": "EU 2014/41",
+   "sector": "Law Enforcement",
+   "assessed": "",
+   "intermediaries": ""
+  }
+ ],
+ "Rotem_LoA_rows": {
+  "2019/1150": 4,
+  "2019/790": 9,
+  "2022/2065": 22
+ },
+ "Rotem_LoI_rows": {
+  "2019/1150": 4,
+  "2019/790": 9
+ },
+ "Codex_package_events_by_case": {
+  "CASE_01": 3,
+  "CASE_02": 1,
+  "CASE_03": 6,
+  "CASE_04": 3,
+  "CASE_05": 3
+ },
+ "Codex_package_cases": [
+  {
+   "case": "CASE_01",
+   "instrument": "Regulation (EC) 874/2004",
+   "celex": "32004R0874"
+  },
+  {
+   "case": "CASE_02",
+   "instrument": "Directive 89/336/EEC",
+   "celex": "31989L0336"
+  },
+  {
+   "case": "CASE_03",
+   "instrument": "Directive 91/263/EEC",
+   "celex": "31991L0263"
+  },
+  {
+   "case": "CASE_04",
+   "instrument": "Directive 86/361/EEC",
+   "celex": "31986L0361"
+  },
+  {
+   "case": "CASE_05",
+   "instrument": "Digital Services Act",
+   "celex": "32022R2065"
+  }
+ ],
+ "R4_DSA_art21_22_37_42_rows": 16
+}

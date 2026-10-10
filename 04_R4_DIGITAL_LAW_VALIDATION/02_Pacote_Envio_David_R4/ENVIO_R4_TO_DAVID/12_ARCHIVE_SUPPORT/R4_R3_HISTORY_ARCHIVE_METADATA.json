@@ -1,0 +1,12 @@
+﻿{
+    "archive_path":  "G:\\Meu Drive\\VSCODE_WORK_IN_PROGRESS\\PRJ-DAVID-R3.zip",
+    "archive_file_name":  "PRJ-DAVID-R3.zip",
+    "archive_size_bytes":  3363189,
+    "archive_last_write_time_utc":  "2026-09-26T09:37:02.6740000Z",
+    "archive_sha256":  "DBF2C57CE66512A20563A455686B683CAD1C03DD03F8812C47FA49BD94D49713",
+    "extraction_staging":  "C:\\PROJETOS\\GITHUB\\git-PRJ-REGULATORY-INTERMEDIARIES--Prf-David\\R4_CROSS_DOMAIN_VALIDATION\\01_baseline\\R3_HISTORY_STAGING",
+    "extraction_preserved_archive_relative_paths":  true,
+    "inventory_file":  "C:\\PROJETOS\\GITHUB\\git-PRJ-REGULATORY-INTERMEDIARIES--Prf-David\\R4_CROSS_DOMAIN_VALIDATION\\R4_R3_HISTORY_FILE_INVENTORY.csv",
+    "inventoried_file_count":  127,
+    "inventory_generated_utc":  "2026-09-26T09:41:41.9098685Z"
+}

@@ -1,0 +1,6 @@
+Case: V8_C1_SCF
+Legal source SHA-256 before: CF8C60FC233311436DFDD3EE236D0C8399EDA55FEA174610E91B5594F84A0408
+Legal source SHA-256 after:  CF8C60FC233311436DFDD3EE236D0C8399EDA55FEA174610E91B5594F84A0408
+Legal source unchanged from expected: True
+Freeze manifest SHA-256: 49090D6E169BEE7F178B89580E042882A550824939B6F636E96EC3D3F652B547
+Manifest covers five source/method inputs and ten analytical outputs; manifest and checksum record are excluded from inventory.

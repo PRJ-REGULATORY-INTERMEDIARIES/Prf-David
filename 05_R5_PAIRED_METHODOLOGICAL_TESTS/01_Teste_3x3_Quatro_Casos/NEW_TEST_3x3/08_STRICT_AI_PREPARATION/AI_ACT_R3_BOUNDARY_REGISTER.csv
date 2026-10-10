@@ -1,0 +1,9 @@
+boundary_id,relation_id,provision,boundary_issue,disposition,reason
+B01,AI-R10,Article 77(1)-(3),Rights authority versus market surveillance authority role assignment,UNCERTAIN_NOT_COUNTED_AS_SUPPORTED_RIT,The act grants rights-protection authorities powers within jurisdiction and requires MSA testing on request; R-T identity is not uniform across national mandates.
+B02,AI-R11,Article 40,Harmonised standard-setting as legal mediation,UNCERTAIN_NOT_COUNTED_AS_SUPPORTED_RIT,Standards can produce a presumption of conformity, but the R3 gate requires an identifiable regulator-target relation mediated by a distinct actor; no architecture inference substitutes for that evidence.
+B03,AI-R13,Article 69,Experts called by Member States,UNCERTAIN_NOT_COUNTED_AS_SUPPORTED_RIT,Expert support is explicit, but target-specific R-T enforcement relations are not established by Article 69 alone.
+B04,AI-R09,Articles 74-75,AI Office and market-surveillance authority relation,LEGAL_RELATION_NON_RIT,The Office is a regulator with its own enforcement powers; institutional cooperation/information exchange does not make it an intermediary in this relation.
+B05,AI-R12,Article 90,Scientific panel qualified alert,NOT_SUPPORTED_AS_SEPARATE_RIT,The supported expert mediation is captured in AI-R05 where Commission/AI Office evaluates a provider; the alert provision alone is not a second regulator-to-provider intermediation relation.
+B06,AI-R14,"Article 57(4),(10)",Other authorities in sandboxes,NOT_SUPPORTED,Cooperation/association does not demonstrate mediation of an identifiable R-T relation.
+B07,AI-R15,Article 40(2),Board/advisory consultation,NOT_SUPPORTED,Consultation in preparation of a standards request does not by itself satisfy the three-condition RIT gate.
+B08,AI-R16,Article 85,Complainants,NOT_SUPPORTED_AS_REGULATORY_INTERMEDIARIES,A complainant may trigger market surveillance but is not an R under the frozen relational role definitions.

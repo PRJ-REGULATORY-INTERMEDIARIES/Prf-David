@@ -1,0 +1,44 @@
+celex_id: 32003L0087
+official_title: "Directive 2003/87/EC of the European Parliament and of the Council of 13 October 2003 establishing a scheme for greenhouse gas emission allowance trading within the Community and amending Council Directive 96/61/EC (Text with EEA relevance)"
+source_file: 01_sources/32003L0087/source_original_en.pdf
+source_sha256: B3941901E4FE1AF3DEFCFFA323C00A5C6F7F44C51C9EA5785C7A995C3BD68445
+source_url: "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX%3A32003L0087&from=EN"
+retrieval_timestamp: "2026-09-20T16:29:32.7498487-03:00"
+source_version: ORIGINAL_ACT_AS_ADOPTED
+corpus_generation_timestamp: "2026-09-20T16:52:05.1525327-03:00"
+generated_files:
+  - act_full.md
+  - recitals.md
+  - operative.md
+  - act_numbered.md
+  - article_index.csv
+generated_file_sha256:
+  act_full.md: 32A1C8D512382FB9EE3F598ED143C2D3D60E9CA3074F1819C934640C9419E1CF
+  recitals.md: 20F4A52674E2BFE28DF6F9A537E8BFB8BEACF81DA52F708D1DDC2272877F9E01
+  operative.md: 1F8E64F0B82C78BBC1310FE7321660ADEBD43B7A1128BD6B4BC8F8B7822A35F4
+  act_numbered.md: 3CB22173FB4C2914B423F5508E928851B36E33D60BCEFB992594888604F30415
+  article_index.csv: D5CF79C10A090B85ED75577EA84F1AFE8E6F42AB026187C15A5889507A905BFB
+normalization_operations:
+  - remove Official Journal page headers and form-feed page separators
+  - trim extraction-only leading/trailing whitespace
+  - repair line-wrap hyphenation when the continuation begins with lowercase text
+  - preserve paragraph, heading, numbering, table and annex line structure
+  - no substantive rewriting, summarization or inference
+structural_counts:
+  recitals: 30
+  articles: 33
+  annexes: 5
+  titles: 0
+  chapters: 0
+  sections: 0
+  words: 8477
+  characters: 55223
+quality_checks:
+  pdf_pages: 15
+  first_article: 1
+  last_article: 33
+  first_recital: 1
+  last_recital: 30
+  source_hash_matches_phase1: True
+  corpus_status: CORPUS_TEXT_REQUIRES_REVIEW
+  source_to_corpus_fidelity: STRUCTURAL_CHECK_PASS_REVIEW_REQUIRED

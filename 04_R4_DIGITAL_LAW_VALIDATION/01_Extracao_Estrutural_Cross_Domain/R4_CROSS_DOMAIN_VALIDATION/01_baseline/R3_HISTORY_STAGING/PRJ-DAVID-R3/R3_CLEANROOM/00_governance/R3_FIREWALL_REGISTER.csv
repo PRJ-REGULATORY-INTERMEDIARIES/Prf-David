@@ -1,0 +1,10 @@
+firewall_id,forbidden_input_category,location_or_pattern,access_status,reason
+FW-001,Pilot A,"prior Pilot A folders or files",NOT_INSPECTED,"Forbidden empirical input under R3 clean-room rule"
+FW-002,R2 and R2.1,"prior R2/R2.1 folders or files",NOT_INSPECTED,"Forbidden empirical input under R3 clean-room rule"
+FW-003,Versioned prior outputs,"v1.3 and v1.4 folders or files",NOT_INSPECTED,"Forbidden empirical input under R3 clean-room rule"
+FW-004,Prior datasets,"previous Excel, CSV, database or dataset outputs",NOT_INSPECTED,"Forbidden empirical input under R3 clean-room rule"
+FW-005,Prior corpora,"previous legal-text corpora, source collections or normalized texts",NOT_INSPECTED,"Forbidden empirical input under R3 clean-room rule"
+FW-006,Prior coding,"prior actor maps, relation maps, mechanism assignments or adjudications",NOT_INSPECTED,"Forbidden empirical input under R3 clean-room rule"
+FW-007,Prior review and model outputs,"prior human-review outputs, model outputs, explanatory notes or case summaries",NOT_INSPECTED,"Forbidden empirical input under R3 clean-room rule"
+FW-008,Current project legacy notes,"C:/PROJETOS/ICM-PMO/10_PROGRAMAS/GP5_JRG/R2_notes/",NOT_INSPECTED,"Registered as a firewall location; not opened or used"
+FW-009,External prior materials,"any prior empirical material outside the new R3_CLEANROOM directory",NOT_INSPECTED,"Registered by category; no substantive inspection performed"

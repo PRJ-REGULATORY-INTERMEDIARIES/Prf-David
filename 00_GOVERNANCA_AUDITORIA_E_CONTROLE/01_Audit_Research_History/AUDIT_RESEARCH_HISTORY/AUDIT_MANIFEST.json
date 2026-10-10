@@ -1,0 +1,59 @@
+{
+  "audit_title": "Forensic reconstruction of research project",
+  "audit_date": "2026-10-01",
+  "timezone": "America/Sao_Paulo",
+  "workspace_root": "G:\\Meu Drive\\PRJ-David\\Prf-David",
+  "completion_status": "COMPLETED_WITH_LIMITATIONS",
+  "read_only": true,
+  "git_baseline": {
+    "branch": "main",
+    "head": "a12999c14614f99b1ca0a51950b74c2a4beb58a7",
+    "status_short_branch": "main...origin/main [ahead 1]",
+    "preexisting_change_lines": 1158,
+    "worktrees": "one",
+    "nested_repositories_or_submodules": "none found"
+  },
+  "source_coverage": {
+    "files_inventoried_before_audit": 1499,
+    "git_commits": 12,
+    "git_change_rows": 1158,
+    "areas": [
+      "Before_R2",
+      "Bibliografia",
+      "RELATIONAL_LEXIMETRICS_PILOT",
+      "R4_CROSS_DOMAIN_VALIDATION",
+      "WORK_2_1",
+      "ENVIO_R4_TO_DAVID",
+      "Enviados",
+      "AUTONOMOUS_ROTEM_COMPARISON_20260930_2047",
+      "CODEX_ROTEM_SHARE_PACKAGE_20260930_2153"
+    ],
+    "inventory_paths_exhaustive_within_workspace": true,
+    "semantic_read_all_files": false,
+    "binary_content_comparison_complete": false
+  },
+  "limitations": [
+    "DOCX/XLSX/PDF/ZIP internals were not bulk extracted",
+    "No experiment rerun or scientific dataset modified",
+    "No independent verification of reported email dispatch",
+    "Agent sessions outside workspace not accessed",
+    "Task-level working hours not recoverable"
+  ],
+  "outputs": [
+    "01_FILE_INVENTORY.csv",
+    "01_REPOSITORY_INVENTORY.md",
+    "02_BINARY_ARTIFACT_COMPARISON.md",
+    "02_COMPLETE_CHANGE_REGISTER.csv",
+    "02_GIT_DIFF_ANALYSIS.md",
+    "03_AGENT_ACTIVITY_NARRATIVE.md",
+    "03_AGENT_ACTIVITY_REGISTER.csv",
+    "04_SCIENTIFIC_WORK_RECONSTRUCTION.md",
+    "05_HUMAN_DECISIONS_AND_VALIDATION.md",
+    "06_COMPLETE_DELIVERABLE_REGISTER.csv",
+    "06_DELIVERABLES_NARRATIVE.md",
+    "07_COMPLETE_RESEARCH_TIMELINE.md",
+    "08_RESEARCH_EFFORT_ASSESSMENT.md",
+    "09_COMPLETE_RESEARCH_ACTIVITY_REPORT.md",
+    "AUDIT_MANIFEST.json"
+  ]
+}

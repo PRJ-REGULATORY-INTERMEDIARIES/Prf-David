@@ -1,0 +1,344 @@
+{
+  "case_id": "case_01",
+  "celex": "32021R1119",
+  "relations": [
+    {
+      "case_id": "case_01",
+      "celex": "32021R1119",
+      "relation_id": "case_01-rel-001",
+      "source_location": "Article 6(1)-(3)",
+      "evidence_quote": "Where, based on the assessments referred to in paragraphs 1 and 2 of this Article, the Commission finds that Union measures are inconsistent with the climate-neutrality objective set out in Article 2(1) or inconsistent with ensuring progress on adaptation as referred to in Article 5, or that the progress towards that climate-neutrality objective or on adaptation as referred to in Article 5 is insufficient, it shall take the necessary measures in accordance with the Treaties.",
+      "R": [
+        {
+          "label": "European Commission",
+          "role": "assesses the collective progress of all Member States towards the climate-neutrality and adaptation objectives and reviews the consistency of Union measures with those objectives; takes necessary measures if progress is insufficient or measures inconsistent",
+          "evidence_refs": ["Art6(1)", "Art6(2)", "Art6(3)"]
+        }
+      ],
+      "I": [],
+      "T": [
+        {
+          "label": "Member States (collectively)",
+          "role": "subject of the Commission's periodic assessment of collective progress towards the climate-neutrality objective and on adaptation",
+          "evidence_refs": ["Art6(1)(a)", "Art6(1)(b)"]
+        }
+      ],
+      "action": [
+        "assess collective progress towards the climate-neutrality objective and adaptation",
+        "review consistency of Union measures with those objectives",
+        "take necessary measures if progress is insufficient or measures inconsistent"
+      ],
+      "object": [
+        "collective progress of Member States towards the climate-neutrality objective and adaptation",
+        "consistency of Union measures with the climate-neutrality objective and adaptation"
+      ],
+      "mediating_function": [],
+      "mechanism": "monitoring_supervision",
+      "relation_type": "direct",
+      "confidence": "medium",
+      "external_context_required": false,
+      "coder_note": "[reviewer_attention: routine] R (European Commission) is explicitly named and performs the focal assessment/review function; T is Member States collectively, whose progress and whose contribution to Union-measure consistency is assessed. No third actor performs a demonstrated mediating function within Article 6 itself (the EEA's Article 8(4) assistance to this same assessment cycle is coded separately as an intermediated relation, case_01-rel-003, since it applies across both Articles 6 and 7). Confidence is medium rather than high because paragraph 3's follow-up ('the necessary measures in accordance with the Treaties') is open-ended and may resolve into ordinary legislative proposals addressed to the co-legislature rather than direct action on Member States; the corpus does not specify which. Coded as direct rather than intermediated because no distinct third-party mediator is documented within Article 6 for this specific supervisory function."
+    },
+    {
+      "case_id": "case_01",
+      "celex": "32021R1119",
+      "relation_id": "case_01-rel-002",
+      "source_location": "Article 7(1)-(3)",
+      "evidence_quote": "Where the Commission finds, after due consideration of the collective progress assessed in accordance with Article 6(1), that a Member State’s measures are inconsistent with the climate-neutrality objective set out in Article 2(1) or inconsistent with ensuring progress on adaptation as referred to in Article 5, it may issue recommendations to that Member State.",
+      "R": [
+        {
+          "label": "European Commission",
+          "role": "assesses consistency of national measures and may issue recommendations to a Member State found inconsistent",
+          "evidence_refs": ["Art7(1)(a)", "Art7(2)"]
+        }
+      ],
+      "I": [],
+      "T": [
+        {
+          "label": "Member States",
+          "role": "individually assessed for consistency of national measures; recipient of Commission recommendations; must notify the Commission of intended follow-up and report on it in the subsequent national energy and climate progress report",
+          "evidence_refs": ["Art7(1)(a)", "Art7(2)", "Art7(3)(a)", "Art7(3)(b)"]
+        }
+      ],
+      "action": [
+        "assess consistency of national measures with the climate-neutrality and adaptation objectives",
+        "issue recommendations to a Member State",
+        "publish recommendations",
+        "notify the Commission of intended follow-up",
+        "report on how recommendations were addressed"
+      ],
+      "object": [
+        "national measures identified from integrated national energy and climate plans, national long-term strategies and biennial progress reports",
+        "the recommendations issued"
+      ],
+      "mediating_function": [],
+      "mechanism": "monitoring_supervision",
+      "relation_type": "direct",
+      "confidence": "high",
+      "external_context_required": false,
+      "coder_note": "[reviewer_attention: routine] Clear, fully textual R-T structure: the Commission assesses national measures (based on documents Member States submit under Regulation (EU) 2018/1999, whose detailed content is not reproduced in this corpus but whose submission-and-assessment relationship is independently established by Article 7(1)(a) itself) and may issue recommendations directly to the Member State concerned, which must notify the Commission and report back. No third-party intermediary performs a mediating function in this cycle; the relation is direct. High confidence because the recommendation-notify-report sequence is fully and unambiguously stated in Article 7(2)-(3)."
+    },
+    {
+      "case_id": "case_01",
+      "celex": "32021R1119",
+      "relation_id": "case_01-rel-003",
+      "source_location": "Article 8(4) (cf. Recital 37)",
+      "evidence_quote": "The EEA shall assist the Commission in the preparation of the assessments referred to in Articles 6 and 7, in accordance with its annual work programme.",
+      "R": [
+        {
+          "label": "European Commission",
+          "role": "conducts the Article 6/7 assessments of Member States' collective progress and national measures, which can lead to recommendations or further necessary measures",
+          "evidence_refs": ["Art8(4)"]
+        }
+      ],
+      "I": [
+        {
+          "label": "European Environment Agency (EEA)",
+          "role": "assists the Commission in preparing the Article 6 and Article 7 assessments of Member States, in accordance with its annual work programme",
+          "evidence_refs": ["Art8(4)", "Recital37"]
+        }
+      ],
+      "T": [
+        {
+          "label": "Member States",
+          "role": "subject of the assessments that the EEA helps the Commission prepare",
+          "evidence_refs": ["Art8(4)", "Art6(1)", "Art7(1)"]
+        }
+      ],
+      "action": [
+        "assist the Commission in preparing assessments of Member States' progress and national measures"
+      ],
+      "object": [
+        "the Article 6/Article 7 assessments of Member States' progress and national measures"
+      ],
+      "mediating_function": [
+        "preparing/supplying analytical input that is institutionally integrated into the Commission's periodic supervisory assessment of Member States"
+      ],
+      "mechanism": "monitoring_supervision",
+      "relation_type": "intermediated",
+      "confidence": "medium",
+      "external_context_required": false,
+      "coder_note": "[reviewer_attention: conceptual_boundary] Applying the self-check: R (Commission) is clearly identifiable and performs an established supervisory function (Article 6/7 assessments of Member States, which can lead to recommendations or other necessary measures). T (Member States) is the actor class assessed. I (EEA) is textually and institutionally distinct from both. What I does: Article 8(4) states in mandatory terms that 'the EEA shall assist the Commission in the preparation of the assessments referred to in Articles 6 and 7' -- the EEA's assistance is integrated into producing the specific assessment product the Commission uses to determine Member States' status and to decide on recommendations or further measures. This matches the guidance's own example of intermediation without coercive authority: producing information institutionally integrated into R's supervision of T. This is not mere scientific reference or generic consultation (contrast the Advisory Board/JRC treatment in case_01-rel-004): Article 8(4) singles out the EEA with an affirmative institutional duty to assist in preparing the very assessment that operationalises Commission oversight of Member States, reinforced by Recital 37 ('The EEA should assist the Commission, as appropriate and in accordance with its annual work programme'). I would still call this intermediation even if the actor were not a familiar EU agency, because the textual hook is a specific assist-in-preparation duty tied to a named supervisory instrument, not a bare mention. Confidence is medium, not high, because the corpus does not specify the substantive depth of the EEA's contribution (e.g. whether it drafts, verifies, or merely compiles inputs)."
+    },
+    {
+      "case_id": "case_01",
+      "celex": "32021R1119",
+      "relation_id": "case_01-rel-004",
+      "source_location": "Article 8(3)(b)",
+      "evidence_quote": "reports of the EEA, the Advisory Board and the Commission’s Joint Research Centre;",
+      "R": [
+        {
+          "label": "European Commission",
+          "role": "bases its Article 6/7 assessments of Member States partly on reports of the Advisory Board and the JRC",
+          "evidence_refs": ["Art8(3)(b)"]
+        }
+      ],
+      "I": [
+        {
+          "label": "European Scientific Advisory Board on Climate Change",
+          "role": "its reports are listed as one of several bases for the Commission's Article 6/7 assessments of Member States",
+          "evidence_refs": ["Art8(3)(b)"]
+        },
+        {
+          "label": "Commission's Joint Research Centre",
+          "role": "its reports are listed as one of several bases for the Commission's Article 6/7 assessments of Member States",
+          "evidence_refs": ["Art8(3)(b)"]
+        }
+      ],
+      "T": [
+        {
+          "label": "Member States",
+          "role": "subject of the assessments partly informed by these reports",
+          "evidence_refs": ["Art8(3)(b)", "Art6(1)", "Art7(1)"]
+        }
+      ],
+      "action": [
+        "produce reports used as one of several bases for the Commission's assessment"
+      ],
+      "object": [
+        "the Article 6/Article 7 assessments of Member States' progress and national measures"
+      ],
+      "mediating_function": [
+        "supplying reports listed among several inputs to the Commission's assessment; institutional weight and integration of this input relative to the EEA's explicit assist duty is unclear"
+      ],
+      "mechanism": "information_transmission",
+      "relation_type": "uncertain",
+      "confidence": "low",
+      "external_context_required": false,
+      "coder_note": "[reviewer_attention: conceptual_boundary] Article 8(3)(b) lists 'reports of the EEA, the Advisory Board and the Commission's Joint Research Centre' as one of several bases (alongside general statistics/data and 'the best available and most recent scientific evidence, including the latest reports of the IPCC') for the Commission's Article 6/7 assessments of Member States. Unlike the EEA's Article 8(4)/Recital 37 assist-in-preparation duty (case_01-rel-003), the Advisory Board and the JRC are given no analogous affirmative institutional duty here; they are simply named as report sources in a list that also includes plainly non-mediating inputs (general statistics, IPCC evidence). Condition D (demonstrated mediating function) is unclear: being one of several listed report sources could constitute institutionally integrated information supply (supporting intermediated), or could be the excluded case of mere scientific reference supporting the Commission's own assessment. This cannot be responsibly settled from the text alone, so relation_type is coded uncertain rather than forced to intermediated or excluded as not_supported. There is also a live possible_overcoding risk if this record is read to license treating any cited report source as an intermediary; see companion uncertainty log entry case_01-unc-003."
+    },
+    {
+      "case_id": "case_01",
+      "celex": "32021R1119",
+      "relation_id": "case_01-rel-005",
+      "source_location": "Article 10",
+      "evidence_quote": "The Commission shall engage with sectors of the economy within the Union that choose to prepare indicative voluntary roadmaps towards achieving the climate-neutrality objective set out in Article 2(1). The Commission shall monitor the development of such roadmaps.",
+      "R": [
+        {
+          "label": "European Commission",
+          "role": "engages with and monitors sectors preparing voluntary roadmaps; facilitates dialogue and sharing of best practice",
+          "evidence_refs": ["Art10"]
+        }
+      ],
+      "I": [],
+      "T": [
+        {
+          "label": "sectors of the economy that choose to prepare indicative voluntary roadmaps",
+          "role": "engaged with and monitored by the Commission regarding the development of their voluntary roadmaps",
+          "evidence_refs": ["Art10"]
+        }
+      ],
+      "action": [
+        "engage with sectors preparing voluntary roadmaps",
+        "monitor the development of such roadmaps",
+        "facilitate dialogue at Union level",
+        "share best practice among relevant stakeholders"
+      ],
+      "object": [
+        "indicative voluntary sectoral roadmaps towards the climate-neutrality objective"
+      ],
+      "mediating_function": [],
+      "mechanism": "coordination",
+      "relation_type": "direct",
+      "confidence": "low",
+      "external_context_required": false,
+      "coder_note": "[reviewer_attention: conceptual_boundary] Article 10 gives the Commission an engagement and monitoring role toward sectors of the economy that voluntarily choose to prepare roadmaps; participation is explicitly optional ('that choose to'), and Recital 7 describes the roadmaps as 'indicative voluntary roadmaps' with no documented legal consequence attached to non-participation or non-compliance. Coded as direct because the Commission performs an active engagement/monitoring function directed at an identifiable class of addressees, but confidence is low: given the voluntary, non-binding character of the roadmaps and the absence of any documented compliance consequence, a secondary reviewer may reasonably conclude this does not rise to the level of a 'regulatory relationship' at all (possible reclassification to not_supported)."
+    },
+    {
+      "case_id": "case_01",
+      "celex": "32021R1119",
+      "relation_id": "case_01-rel-006",
+      "source_location": "Article 13(6)(a) (amending Article 15(1) of Regulation (EU) 2018/1999)",
+      "evidence_quote": "each Member State shall prepare and submit to the Commission its long-term strategy with a 30-year perspective and consistent with the Union’s climate-neutrality objective set out in Article 2(1) of Regulation (EU) 2021/1119.",
+      "R": [
+        {
+          "label": "European Commission",
+          "role": "recipient of Member States' long-term strategies",
+          "evidence_refs": ["Art13(6)(a)"]
+        }
+      ],
+      "I": [],
+      "T": [
+        {
+          "label": "Member States",
+          "role": "must prepare and submit a long-term strategy consistent with the climate-neutrality objective",
+          "evidence_refs": ["Art13(6)(a)"]
+        }
+      ],
+      "action": ["prepare and submit long-term strategy to the Commission"],
+      "object": ["long-term strategy with a 30-year perspective"],
+      "mediating_function": [],
+      "mechanism": "reporting",
+      "relation_type": "direct",
+      "confidence": "high",
+      "external_context_required": false,
+      "coder_note": "[reviewer_attention: routine] Fully reproduced amended text of Article 15(1) of Regulation (EU) 2018/1999, inserted by Article 13(6)(a) of this Regulation, unambiguously establishes a direct Member-State-to-Commission reporting obligation for a long-term strategy consistent with the Article 2(1) climate-neutrality objective. No intermediary is documented in this specific obligation. Distinguished from case_01-rel-002 because it concerns a distinct reporting instrument (the 30-year long-term strategy) rather than the national energy and climate plans/progress reports underlying the Article 7 recommendation cycle."
+    },
+    {
+      "case_id": "case_01",
+      "celex": "32021R1119",
+      "relation_id": "case_01-rel-007",
+      "source_location": "Article 5(4)",
+      "evidence_quote": "Member States shall regularly update the strategies and include the related updated information in the reports to be submitted under Article 19(1) of Regulation (EU) 2018/1999.",
+      "R": [],
+      "I": [],
+      "T": [
+        {
+          "label": "Member States",
+          "role": "must include updated national adaptation strategy information in reports submitted under Article 19(1) of Regulation (EU) 2018/1999",
+          "evidence_refs": ["Art5(4)"]
+        }
+      ],
+      "action": ["include updated adaptation-strategy information in reports submitted under Article 19(1) of Regulation (EU) 2018/1999"],
+      "object": ["updated national adaptation strategy information"],
+      "mediating_function": [],
+      "mechanism": "reporting",
+      "relation_type": "uncertain",
+      "confidence": "low",
+      "external_context_required": true,
+      "coder_note": "[reviewer_attention: source_limit] Article 5(4) requires Member States to include updated national-adaptation-strategy information 'in the reports to be submitted under Article 19(1) of Regulation (EU) 2018/1999,' but the content of Article 19(1) of that Regulation -- including the identity of the recipient of those reports -- is not reproduced in this corpus. Although the recipient is plausibly the Commission by analogy to the reporting architecture elsewhere in this Regulation (e.g. Articles 6, 7, 13(6)(a)), the instructions do not permit filling this gap by plausibility or external institutional knowledge, so R is left as an empty/unresolved array and the relation is coded uncertain with external_context_required set to true. A necessary element (identity of R) cannot be responsibly settled from the frozen corpus alone."
+    }
+  ],
+  "uncertainties": [
+    {
+      "uncertainty_id": "case_01-unc-001",
+      "source_location": "Article 3(1)-(3)",
+      "evidence_quote": "providing scientific advice and issuing reports on existing and proposed Union measures, climate targets and indicative greenhouse gas budgets, and their coherence with the objectives of this Regulation and the Union’s international commitments under the Paris Agreement;",
+      "issue_type": "advice_vs_mediation",
+      "description": "The Advisory Board's general mandate is to 'serve as a point of reference for the Union on scientific knowledge relating to climate change' and to provide scientific advice/reports on Union measures and targets generally. This is a broad advisory function directed at 'the Union' as a whole, not textually tied to mediating a specific, identifiable R-T supervisory relationship (contrast case_01-rel-003, where the EEA's Article 8(4) duty is explicitly tied to preparing the Article 6/7 assessments of Member States). Considered and rejected as a basis for a main-matrix intermediated or uncertain relation because no specific R-T pair is connected by this general advisory function within Article 3 itself.",
+      "external_context_required": false
+    },
+    {
+      "uncertainty_id": "case_01-unc-002",
+      "source_location": "Article 4(4)",
+      "evidence_quote": "The projected indicative Union greenhouse gas budget shall be based on the best available science, take into account the advice of the Advisory Board as well as, where adopted, the relevant Union legislation implementing the Union 2030 climate target.",
+      "issue_type": "advice_vs_mediation",
+      "description": "The Commission must take into account the Advisory Board's advice when publishing the indicative Union GHG budget accompanying a future Union 2040 target proposal. This is advice to the regulator on the regulator's own internal target-setting exercise; there is no external target (e.g. Member States) regulated by this specific action, so it does not fit the R-I-T structure. Considered and rejected as an intermediation candidate.",
+      "external_context_required": false
+    },
+    {
+      "uncertainty_id": "case_01-unc-003",
+      "source_location": "Article 8(3)(b)",
+      "evidence_quote": "reports of the EEA, the Advisory Board and the Commission’s Joint Research Centre;",
+      "issue_type": "assistance_vs_intermediation_boundary",
+      "description": "Companion reasoning for case_01-rel-004 (coded uncertain in the main matrix). The Advisory Board and JRC are listed as report sources among several bases for the Commission's Article 6/7 assessments of Member States, but without the EEA's explicit Article 8(4)/Recital 37 assist-in-preparation duty. Whether being a listed report source rises to a demonstrated mediating function (Condition D) or is mere scientific reference cannot be responsibly settled from the text; flagged for secondary-reviewer attention, including the risk of possible_overcoding if extended too readily to any cited information source (the same list also includes IPCC reports and general statistics, which are not coded as intermediaries).",
+      "external_context_required": false
+    },
+    {
+      "uncertainty_id": "case_01-unc-004",
+      "source_location": "Article 3(4); Article 12 (new Article 10a(4) of Regulation (EC) No 401/2009)",
+      "evidence_quote": "each Member State is invited to establish a national climate advisory body, responsible for providing expert scientific advice on climate policy to the relevant national authorities as prescribed by the Member State concerned. Where a Member State decides to establish such an advisory body, it shall inform the EEA thereof.",
+      "issue_type": "domestic_advisory_body_and_thin_notification",
+      "description": "Two distinct candidates were considered and rejected here. (1) The optional national climate advisory body providing advice to 'the relevant national authorities' operates entirely within a Member State's own domestic institutional architecture; it does not mediate an EU-level R-T relationship between an EU regulator and Member States, and establishment is merely 'invited', not required. (2) The duty to 'inform the EEA' if such a body is established is a bare administrative notification with no demonstrated regulatory function or consequence documented in this corpus (no evident action the EEA takes on the basis of this information). Neither meets the evidentiary bar for a main-matrix relation.",
+      "external_context_required": false
+    },
+    {
+      "uncertainty_id": "case_01-unc-005",
+      "source_location": "Article 12, inserting Article 10a(3) and (5) of Regulation (EC) No 401/2009",
+      "evidence_quote": "The Advisory Board shall establish its annual work programme independently, and when doing so it shall consult the Management Board. The chairperson of the Advisory Board shall inform the Management Board and the Executive Director of that programme and its implementation.",
+      "issue_type": "internal_governance_not_regulatory_relationship",
+      "description": "The EEA Management Board appoints Advisory Board members, and the Advisory Board consults/informs the Management Board and Executive Director on its work programme. This is internal EEA/Advisory Board governance and coordination, with no external regulated target; it does not present an R-I-T structure and was rejected as a candidate relation.",
+      "external_context_required": false
+    },
+    {
+      "uncertainty_id": "case_01-unc-006",
+      "source_location": "Article 13(7)(b) (amending Article 17(4) first subparagraph of Regulation (EU) 2018/1999)",
+      "evidence_quote": "The Commission, assisted by the Energy Union Committee referred to in point (b) of Article 44(1), shall adopt implementing acts to set out the structure, format, technical details and process for the information referred to in paragraphs 1 and 2 of this Article, including a methodology for the reporting on the phasing out of energy subsidies, in particular for fossil fuels, pursuant to point (d) of Article 25.",
+      "issue_type": "comitology_assistance_possible_intermediation",
+      "description": "The Commission is 'assisted by the Energy Union Committee' when adopting implementing acts that set the structure/format of Member States' reporting obligations. This could be read as a form of delegated/procedural intermediation between the Commission (R) and Member States (T, as reporters), but comitology committees are typically composed of Member State representatives assisting the Commission's own exercise of implementing powers -- which is different in kind from an independent third party mediating a relationship with an external target. The composition and role of the Energy Union Committee under Article 44(1) of Regulation (EU) 2018/1999, and the applicable comitology procedure, are not reproduced in this corpus, so this cannot be responsibly adjudicated without that external material.",
+      "external_context_required": true
+    },
+    {
+      "uncertainty_id": "case_01-unc-007",
+      "source_location": "Article 5(5)",
+      "evidence_quote": "By 30 July 2022, the Commission shall adopt guidelines setting out common principles and practices for the identification, classification and prudential management of material physical climate risks when planning, developing, executing and monitoring projects and programmes for projects.",
+      "issue_type": "target_unidentified",
+      "description": "The Commission is required to adopt guidelines on managing physical climate risk in 'projects and programmes for projects', but the text does not name the actor(s) that plan/develop/execute/monitor such projects (e.g. Member State authorities, EU-funded programme managers, or private project promoters). Recital 33 describes existing Multiannual Financial Framework programmes' climate-risk screening of projects, which may be related context, but it is not textually linked to Article 5(5) as its addressee. T cannot be responsibly assigned without importing external, programme-specific knowledge.",
+      "external_context_required": true
+    },
+    {
+      "uncertainty_id": "case_01-unc-008",
+      "source_location": "Article 2(2); Article 5(1)",
+      "evidence_quote": "The relevant Union institutions and the Member States shall take the necessary measures at Union and national level, respectively, to enable the collective achievement of the climate-neutrality objective set out in paragraph 1, taking into account the importance of promoting both fairness and solidarity among Member States and cost-effectiveness in achieving this objective.",
+      "issue_type": "foundational_obligation_no_distinct_regulator",
+      "description": "These are foundational objective-setting/obligation provisions naming duty-bearers (Union institutions and Member States) but do not themselves identify a distinct supervisory R overseeing compliance (the closest oversight mechanism is the Commission's Article 6 assessment, already coded separately as case_01-rel-001). Considered and treated as not meeting the R-I-T structural test on their own, notwithstanding their centrality to the Act's architecture.",
+      "external_context_required": false
+    },
+    {
+      "uncertainty_id": "case_01-unc-009",
+      "source_location": "Article 5(4)",
+      "evidence_quote": "Member States shall regularly update the strategies and include the related updated information in the reports to be submitted under Article 19(1) of Regulation (EU) 2018/1999.",
+      "issue_type": "external_context_required_recipient_unnamed",
+      "description": "Companion reasoning for case_01-rel-007 (coded uncertain in the main matrix). The recipient/R of the Article 19(1) reports referenced here is not named in this corpus; Regulation (EU) 2018/1999's Article 19(1) content is not reproduced. Cannot responsibly assign R without external context.",
+      "external_context_required": true
+    },
+    {
+      "uncertainty_id": "case_01-unc-010",
+      "source_location": "Recital 22",
+      "evidence_quote": "the Commission has committed itself to developing a regulatory framework for certification of carbon removals based on robust and transparent carbon accounting to monitor and verify the authenticity of carbon removals, while ensuring that there are no negative impacts on the environment, in particular biodiversity, on public health or on social or economic objectives.",
+      "issue_type": "non_operative_forward_looking_recital",
+      "description": "Recital 22 narrates a Commission communication announcing a future regulatory framework for certification/monitoring/verification of carbon removals. This is thematically close to intermediation (certification, verification) but is non-binding recital narration of a future initiative, not an operative provision of this Regulation, and creates no obligation or actor relationship in the corpus as it stands. Not coded as a relation; noted for completeness given its topical proximity to the construct.",
+      "external_context_required": false
+    }
+  ]
+}

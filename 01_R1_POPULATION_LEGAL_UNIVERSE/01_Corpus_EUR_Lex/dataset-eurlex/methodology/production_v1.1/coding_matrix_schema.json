@@ -1,0 +1,139 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "dataset-eurlex/production-v1.1/coding-matrix-record",
+  "title": "dataset-eurlex production R-I-T coding matrix record (v1.1)",
+  "description": "Common source-bounded relation record for the three-case production workflow. It is a proposal until researcher adjudication. Supersedes production-v1.0 by adding an explicit operative/recital evidentiary layer and a structured third-actor functional test, per PRODUCTION_CHANGELOG.md v1.1.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "case_id",
+    "celex",
+    "relation_id",
+    "source_location",
+    "evidence_quote",
+    "operative_anchor_location",
+    "contextual_support",
+    "R",
+    "I",
+    "T",
+    "action",
+    "object",
+    "mediating_function",
+    "mechanism",
+    "relation_type",
+    "third_actor_test",
+    "confidence",
+    "external_context_required",
+    "coder_note"
+  ],
+  "properties": {
+    "case_id": {"type": "string", "minLength": 1},
+    "celex": {"type": "string", "minLength": 1},
+    "relation_id": {"type": "string", "minLength": 1},
+    "source_location": {"type": "string", "minLength": 1},
+    "evidence_quote": {"type": "string", "minLength": 1},
+    "operative_anchor_location": {
+      "type": ["string", "null"],
+      "description": "The specific enacting-terms (article/paragraph/point) location that anchors this relation. Required (non-null) whenever relation_type is 'intermediated' or 'direct'. Null only for 'uncertain', 'not_supported', or when the only supporting text is a recital (in which case the finding belongs in the uncertainty log as a contextual candidate, not in the main matrix as a positive relation_type)."
+    },
+    "contextual_support": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "Recitals or other non-operative context consulted to interpret this relation. May be empty. Recitals here may explain purpose or institutional design; they never substitute for operative_anchor_location."
+    },
+    "R": {"$ref": "#/$defs/actor_array"},
+    "I": {"$ref": "#/$defs/actor_array"},
+    "T": {"$ref": "#/$defs/actor_array"},
+    "action": {"type": "array", "items": {"type": "string"}},
+    "object": {"type": "array", "items": {"type": "string"}},
+    "mediating_function": {"type": "array", "items": {"type": "string"}},
+    "mechanism": {
+      "type": "string",
+      "enum": [
+        "reporting",
+        "verification",
+        "certification",
+        "auditing",
+        "monitoring_supervision",
+        "ranking_rating",
+        "standard_setting",
+        "enforcement_support",
+        "coordination",
+        "information_transmission",
+        "delegated_implementation",
+        "accreditation",
+        "other_mechanism",
+        "none_or_direct"
+      ]
+    },
+    "relation_type": {
+      "type": "string",
+      "enum": ["intermediated", "direct", "uncertain", "not_supported"]
+    },
+    "third_actor_test": {
+      "oneOf": [
+        {"type": "null"},
+        {"$ref": "#/$defs/third_actor_test"}
+      ],
+      "description": "Null when no third actor beyond R and T was seriously considered for this relation (e.g. a clean direct R-T relation, or a not_supported passage). Required (non-null) whenever I is non-empty, whenever relation_type is 'intermediated', and whenever a third actor was seriously considered and rejected (in which case the rejected candidate and this test still belong in the uncertainty log, not necessarily in the main matrix)."
+    },
+    "confidence": {
+      "type": "string",
+      "enum": ["high", "medium", "low", "not_assessed"]
+    },
+    "external_context_required": {"type": "boolean"},
+    "coder_note": {"type": "string"}
+  },
+  "$defs": {
+    "actor": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["label", "role", "evidence_refs"],
+      "properties": {
+        "label": {"type": "string", "minLength": 1},
+        "role": {"type": "string", "minLength": 1},
+        "evidence_refs": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "actor_array": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/actor"}
+    },
+    "test_dimension": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["result", "note"],
+      "properties": {
+        "result": {"type": "string", "enum": ["YES", "NO", "UNCLEAR"]},
+        "note": {"type": "string"}
+      }
+    },
+    "third_actor_test": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["distinction", "function", "regulatory_integration", "evidence", "counterfactual"],
+      "properties": {
+        "distinction": {
+          "$ref": "#/$defs/test_dimension",
+          "description": "Is the candidate actor X analytically distinct from R and from T?"
+        },
+        "function": {
+          "$ref": "#/$defs/test_dimension",
+          "description": "Does the text attribute to X a specific action or competence relevant to this relation?"
+        },
+        "regulatory_integration": {
+          "$ref": "#/$defs/test_dimension",
+          "description": "Does that function participate in the way R affects, supervises, informs, evaluates, or structures T's conduct -- as opposed to merely supporting R's own internal process?"
+        },
+        "evidence": {
+          "$ref": "#/$defs/test_dimension",
+          "description": "Is this connection supported by the normative (operative) text, not merely by a recital or by institutional plausibility?"
+        },
+        "counterfactual": {
+          "$ref": "#/$defs/test_dimension",
+          "description": "If X's function were removed from the reconstruction, would a relevant step of the R-to-T regulatory mechanism be lost? ('NO' here is a strong signal against classifying X as I even if the other four dimensions lean YES.)"
+        }
+      }
+    }
+  }
+}

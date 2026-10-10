@@ -1,0 +1,12 @@
+This folder contains the complete traceable package for the R4 digital structural-validation round. Start with 00_START_HERE/README_R4_FOR_DAVID.md. The final consolidated delivery dataset is 01_FINAL_R4_DATASET/R4_Digital_Validation_Dashboard.xlsx. Supporting folders preserve the source data, methodological decisions, human adjudications, AI-assisted validation, model provenance, freeze records, integrity hashes and reproducibility materials used to produce the final R4 results.
+
+Scope: R4 digital structural validation round. This is not the Green x Digital governance comparison.
+
+RIT_CODING             = NOT_STARTED
+MECHANISM_CODING       = NOT_STARTED
+ROTEM_CODING_CONSULTED = NO
+R4_3                   = NOT_STARTED
+CORPUS_WIDE_REPAIR     = NOT_EXECUTED
+
+Human researcher and final methodological authority: Igor Caires Machado.
+AI systems assisted with extraction, structural review, QA and sensitivity analysis; AI output is not autonomous ground truth.

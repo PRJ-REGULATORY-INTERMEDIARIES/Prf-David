@@ -1,0 +1,28 @@
+case_id: case_02
+celex: 32023R0956
+source:
+  file: ../source/act_official.xhtml
+  sha256: c47e2793e7b92333ce9a891aba18924ff21b15b2745fffda98348b04b15a770e
+counts:
+  articles: 36
+  recitals: 82
+  annexes: 6
+derived_files:
+  act_full.md:
+    sha256: e3db2574f3ea1b3b083bd5015d2693819fcd4298680f50e016493015e79e9ac0
+    byte_size: 169827
+  act_operative.md:
+    sha256: 82e252e4c2eb57c3c2caecd0dd61f1b9d09bd9e7d7cc0bad716052f51df16d6f
+    byte_size: 120166
+  act_recitals.md:
+    sha256: cb4efa64e85ec6161ef38360fc49728512200008d1d88d130bae521dc11cd421
+    byte_size: 48956
+normalization_rules:
+- no_translation
+- no_summarization
+- no_paraphrasing
+- no_semantic_labels
+- article_paragraph_numbering_preserved_verbatim
+- whitespace_normalized_only
+act_operative_is_primary_coding_corpus: true
+act_recitals_is_contextual_only: true

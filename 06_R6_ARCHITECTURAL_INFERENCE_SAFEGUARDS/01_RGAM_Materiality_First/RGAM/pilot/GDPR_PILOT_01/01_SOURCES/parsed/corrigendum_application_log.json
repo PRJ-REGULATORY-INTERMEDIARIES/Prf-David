@@ -1,0 +1,144 @@
+[
+ {
+  "article": 37,
+  "paragraph": "1",
+  "point": "(c)",
+  "applied": true,
+  "old": "special categories of data pursuant to Article 9 and personal data relating to criminal convictions",
+  "new": "special categories of data pursuant to Article 9 or personal data relating to criminal convictions"
+ },
+ {
+  "article": 41,
+  "paragraph": "3",
+  "point": null,
+  "applied": true,
+  "old": "draft criteria for accreditation",
+  "new": "draft requirements for accreditation"
+ },
+ {
+  "article": 41,
+  "paragraph": "5",
+  "point": null,
+  "applied": true,
+  "old": "if the conditions for accreditation are not, or are no longer, met",
+  "new": "if the requirements for accreditation are not, or are no longer, met"
+ },
+ {
+  "article": 42,
+  "paragraph": "7",
+  "point": null,
+  "applied": true,
+  "old": "provided that the relevant requirements continue to be met",
+  "new": "provided that the relevant criteria continue to be met"
+ },
+ {
+  "article": 42,
+  "paragraph": "7",
+  "point": null,
+  "applied": true,
+  "old": "where the requirements for the certification are not or are no longer met",
+  "new": "where the criteria for the certification are not or are no longer met"
+ },
+ {
+  "article": 43,
+  "paragraph": "3",
+  "point": null,
+  "applied": true,
+  "old": "shall take place on the basis of criteria approved",
+  "new": "shall take place on the basis of requirements approved"
+ },
+ {
+  "article": 43,
+  "paragraph": "6",
+  "point": null,
+  "applied": true,
+  "old": " The Board shall collate all certification mechanisms and data protection seals in a register and shall make them publicly available by any appropriate means.",
+  "new": ""
+ },
+ {
+  "article": 57,
+  "paragraph": "1",
+  "point": "(p)",
+  "applied": true,
+  "old": "draft and publish the criteria for accreditation",
+  "new": "draft and publish the requirements for accreditation"
+ },
+ {
+  "article": 64,
+  "paragraph": "1",
+  "point": "(c)",
+  "applied": true,
+  "old": "aims to approve the criteria for accreditation of a body pursuant to Article 41(3) or a certification body pursuant to Article 43(3);",
+  "new": "aims to approve the requirements for accreditation of a body pursuant to Article 41(3), of a certification body pursuant to Article 43(3) or the criteria for certification referred to in Article 42(5);"
+ },
+ {
+  "article": 64,
+  "paragraph": "6",
+  "point": null,
+  "applied": true,
+  "old": "The competent supervisory authority shall not adopt its draft decision referred to in paragraph 1 within the period",
+  "new": "The competent supervisory authority referred to in paragraph 1 shall not adopt its draft decision referred to in paragraph 1 within the period"
+ },
+ {
+  "article": 64,
+  "paragraph": "7",
+  "point": null,
+  "applied": true,
+  "old": "The supervisory authority referred to in paragraph 1 shall take utmost account",
+  "new": "The competent supervisory authority referred to in paragraph 1 shall take utmost account"
+ },
+ {
+  "article": 64,
+  "paragraph": "8",
+  "point": null,
+  "applied": true,
+  "old": "Where the supervisory authority concerned informs the Chair",
+  "new": "Where the competent supervisory authority referred to in paragraph 1 informs the Chair"
+ },
+ {
+  "article": 65,
+  "paragraph": "1",
+  "point": "(a)",
+  "applied": true,
+  "old": "a draft decision of the lead authority or the lead authority has rejected such an objection as being not relevant or reasoned",
+  "new": "a draft decision of the lead supervisory authority and the lead supervisory authority has not followed the objection or has rejected such an objection as being not relevant or reasoned"
+ },
+ {
+  "article": 69,
+  "paragraph": "2",
+  "point": null,
+  "applied": true,
+  "old": "requests by the Commission referred to in point (b) of Article 70(1) and in Article 70(2)",
+  "new": "requests by the Commission referred to in Article 70(1) and (2)"
+ },
+ {
+  "article": 70,
+  "paragraph": "1",
+  "point": "(l)",
+  "applied": true,
+  "old": "guidelines, recommendations and best practices referred to in points (e) and (f);",
+  "new": "guidelines, recommendations and best practices;"
+ },
+ {
+  "article": 70,
+  "paragraph": "1",
+  "point": "(o)",
+  "applied": true,
+  "old": "carry out the accreditation of certification bodies and its periodic review pursuant to Article 43 and maintain a public register of accredited bodies pursuant to Article 43(6) and of the accredited controllers or processors established in third countries pursuant to Article 42(7);",
+  "new": "approve the criteria of certification pursuant to Article 42(5) and maintain a public register of certification mechanisms and data protection seals and marks pursuant to Article 42(8) and of the certified controllers or processors established in third countries pursuant to Article 42(7);"
+ },
+ {
+  "article": 70,
+  "paragraph": "1",
+  "point": "(p)",
+  "applied": true,
+  "old": "specify the requirements referred to in Article 43(3) with a view to the accreditation of certification bodies under Article 42;",
+  "new": "approve the requirements referred to in Article 43(3) with a view to the accreditation of certification bodies referred to in Article 43;"
+ },
+ {
+  "article": "recital 71",
+  "applied": true,
+  "old": "secure personal data in a manner that takes account of the potential risks involved for the interests and rights of the data subject and that prevents, inter alia, discriminatory effects | or that result in measures having such an effect",
+  "new": "secure personal data in a manner that takes account of the potential risks involved for the interests and rights of the data subject, and prevent, inter alia, discriminatory effects | or processing that results in measures having such an effect"
+ }
+]

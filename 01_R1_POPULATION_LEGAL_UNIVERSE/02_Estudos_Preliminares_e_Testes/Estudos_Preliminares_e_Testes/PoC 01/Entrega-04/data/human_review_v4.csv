@@ -1,0 +1,48 @@
+review_id,stage,unit_id,reason,review_status,reviewer,approved,reviewed_at
+REV-V4-001,a2,AUD-01,Full human review required; AI layer not validated on Tier 1.,PENDING,NOT_YET_EXECUTED,0,NOT_YET_EXECUTED
+REV-V4-002,b2,AUD-01,Full human review required; AI layer not validated on Tier 1.,PENDING,NOT_YET_EXECUTED,0,NOT_YET_EXECUTED
+REV-V4-003,a2,AUD-02,Full human review required; AI layer not validated on Tier 1.,PENDING,NOT_YET_EXECUTED,0,NOT_YET_EXECUTED
+REV-V4-004,b2,AUD-02,Full human review required; AI layer not validated on Tier 1.,PENDING,NOT_YET_EXECUTED,0,NOT_YET_EXECUTED
+REV-V4-005,a2,AUD-03,Full human review required; AI layer not validated on Tier 1.,PENDING,NOT_YET_EXECUTED,0,NOT_YET_EXECUTED
+REV-V4-006,b2,AUD-03,Full human review required; AI layer not validated on Tier 1.,PENDING,NOT_YET_EXECUTED,0,NOT_YET_EXECUTED
+REV-V4-007,a2,AUD-04,Full human review required; AI layer not validated on Tier 1.,PENDING,NOT_YET_EXECUTED,0,NOT_YET_EXECUTED
+REV-V4-008,b2,AUD-04,Full human review required; AI layer not validated on Tier 1.,PENDING,NOT_YET_EXECUTED,0,NOT_YET_EXECUTED
+REV-V4-009,a2,AUD-05,Full human review required; AI layer not validated on Tier 1.,PENDING,NOT_YET_EXECUTED,0,NOT_YET_EXECUTED
+REV-V4-010,b2,AUD-05,Full human review required; AI layer not validated on Tier 1.,PENDING,NOT_YET_EXECUTED,0,NOT_YET_EXECUTED
+REV-V4-011,a2,AUD-06,Full human review required; AI layer not validated on Tier 1.,PENDING,NOT_YET_EXECUTED,0,NOT_YET_EXECUTED
+REV-V4-012,b2,AUD-06,Full human review required; AI layer not validated on Tier 1.,PENDING,NOT_YET_EXECUTED,0,NOT_YET_EXECUTED
+REV-V4-013,a2,AUD-07,Full human review required; AI layer not validated on Tier 1.,PENDING,NOT_YET_EXECUTED,0,NOT_YET_EXECUTED
+REV-V4-014,b2,AUD-07,Full human review required; AI layer not validated on Tier 1.,PENDING,NOT_YET_EXECUTED,0,NOT_YET_EXECUTED
+REV-V4-015,a2,AUD-08,Full human review required; AI layer not validated on Tier 1.,PENDING,NOT_YET_EXECUTED,0,NOT_YET_EXECUTED
+REV-V4-016,b2,AUD-08,Full human review required; AI layer not validated on Tier 1.,PENDING,NOT_YET_EXECUTED,0,NOT_YET_EXECUTED
+REV-V4-017,a2,AUD-09,Full human review required; AI layer not validated on Tier 1.,PENDING,NOT_YET_EXECUTED,0,NOT_YET_EXECUTED
+REV-V4-018,b2,AUD-09,Full human review required; AI layer not validated on Tier 1.,PENDING,NOT_YET_EXECUTED,0,NOT_YET_EXECUTED
+REV-V4-019,a2,AUD-10,Full human review required; AI layer not validated on Tier 1.,PENDING,NOT_YET_EXECUTED,0,NOT_YET_EXECUTED
+REV-V4-020,b2,AUD-10,Full human review required; AI layer not validated on Tier 1.,PENDING,NOT_YET_EXECUTED,0,NOT_YET_EXECUTED
+REV-V4-021,a2,AUD-11,Full human review required; AI layer not validated on Tier 1.,PENDING,NOT_YET_EXECUTED,0,NOT_YET_EXECUTED
+REV-V4-022,b2,AUD-11,Full human review required; AI layer not validated on Tier 1.,PENDING,NOT_YET_EXECUTED,0,NOT_YET_EXECUTED
+REV-V4-023,a2,AUD-12,Full human review required; AI layer not validated on Tier 1.,PENDING,NOT_YET_EXECUTED,0,NOT_YET_EXECUTED
+REV-V4-024,b2,AUD-12,Full human review required; AI layer not validated on Tier 1.,PENDING,NOT_YET_EXECUTED,0,NOT_YET_EXECUTED
+REV-V4-025,a2,AUD-13,Full human review required; AI layer not validated on Tier 1.,PENDING,NOT_YET_EXECUTED,0,NOT_YET_EXECUTED
+REV-V4-026,b2,AUD-13,Full human review required; AI layer not validated on Tier 1.,PENDING,NOT_YET_EXECUTED,0,NOT_YET_EXECUTED
+REV-V4-027,a2,AUD-14,Full human review required; AI layer not validated on Tier 1.,PENDING,NOT_YET_EXECUTED,0,NOT_YET_EXECUTED
+REV-V4-028,b2,AUD-14,Full human review required; AI layer not validated on Tier 1.,PENDING,NOT_YET_EXECUTED,0,NOT_YET_EXECUTED
+REV-V4-029,a2,AUD-15,Full human review required; AI layer not validated on Tier 1.,PENDING,NOT_YET_EXECUTED,0,NOT_YET_EXECUTED
+REV-V4-030,b2,AUD-15,Full human review required; AI layer not validated on Tier 1.,PENDING,NOT_YET_EXECUTED,0,NOT_YET_EXECUTED
+REV-V4-031,a2,AUD-16,Full human review required; AI layer not validated on Tier 1.,PENDING,NOT_YET_EXECUTED,0,NOT_YET_EXECUTED
+REV-V4-032,b2,AUD-16,Full human review required; AI layer not validated on Tier 1.,PENDING,NOT_YET_EXECUTED,0,NOT_YET_EXECUTED
+REV-V4-033,a2,AUD-17,Full human review required; AI layer not validated on Tier 1.,PENDING,NOT_YET_EXECUTED,0,NOT_YET_EXECUTED
+REV-V4-034,b2,AUD-17,Full human review required; AI layer not validated on Tier 1.,PENDING,NOT_YET_EXECUTED,0,NOT_YET_EXECUTED
+REV-V4-035,a2,AUD-18,Full human review required; AI layer not validated on Tier 1.,PENDING,NOT_YET_EXECUTED,0,NOT_YET_EXECUTED
+REV-V4-036,b2,AUD-18,Full human review required; AI layer not validated on Tier 1.,PENDING,NOT_YET_EXECUTED,0,NOT_YET_EXECUTED
+REV-V4-037,a2,AUD-19,Full human review required; AI layer not validated on Tier 1.,PENDING,NOT_YET_EXECUTED,0,NOT_YET_EXECUTED
+REV-V4-038,b2,AUD-19,Full human review required; AI layer not validated on Tier 1.,PENDING,NOT_YET_EXECUTED,0,NOT_YET_EXECUTED
+REV-V4-039,a2,AUD-20,Full human review required; AI layer not validated on Tier 1.,PENDING,NOT_YET_EXECUTED,0,NOT_YET_EXECUTED
+REV-V4-040,b2,AUD-20,Full human review required; AI layer not validated on Tier 1.,PENDING,NOT_YET_EXECUTED,0,NOT_YET_EXECUTED
+REV-V4-041,c,RIT-001,Full human review required; inherited relationship and AI proposal must be checked separately.,PENDING,NOT_YET_EXECUTED,0,NOT_YET_EXECUTED
+REV-V4-042,c,RIT-002,Full human review required; inherited relationship and AI proposal must be checked separately.,PENDING,NOT_YET_EXECUTED,0,NOT_YET_EXECUTED
+REV-V4-043,c,RIT-003,Full human review required; inherited relationship and AI proposal must be checked separately.,PENDING,NOT_YET_EXECUTED,0,NOT_YET_EXECUTED
+REV-V4-044,c,RIT-004,Full human review required; inherited relationship and AI proposal must be checked separately.,PENDING,NOT_YET_EXECUTED,0,NOT_YET_EXECUTED
+REV-V4-045,c,RIT-005,Full human review required; inherited relationship and AI proposal must be checked separately.,PENDING,NOT_YET_EXECUTED,0,NOT_YET_EXECUTED
+REV-V4-046,c,RIT-006,Full human review required; inherited relationship and AI proposal must be checked separately.,PENDING,NOT_YET_EXECUTED,0,NOT_YET_EXECUTED
+REV-V4-047,c,RIT-007,Full human review required; inherited relationship and AI proposal must be checked separately.,PENDING,NOT_YET_EXECUTED,0,NOT_YET_EXECUTED

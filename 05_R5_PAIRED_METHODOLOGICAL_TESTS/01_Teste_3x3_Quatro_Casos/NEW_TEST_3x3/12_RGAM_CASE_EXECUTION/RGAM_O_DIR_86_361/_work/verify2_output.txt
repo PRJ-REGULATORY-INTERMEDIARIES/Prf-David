@@ -1,0 +1,34 @@
+PASS | V1 evidence span verbatim in one cited unit and <=400 chars (ST/NA/QR/PD)
+PASS | V2 NA/QR statement_ids equal the STs listing them as derived records
+PASS | V3 no orphan PD (informational: PD that are not a party/bearer of any NA/QR listed) | {'orphans': [], 'not_party_or_bearer': ['PD-012']}
+PASS | V4 no QR prohibition; NA prohibition iff constraint_only=Y
+PASS | V5 epistemic ceilings: NA/QR documented or legal_constitution_evidenced only; PD material establishment not_assessed
+PASS | V6 derived records state derivation_rule and cite >=2 units or cross-reference
+PASS | V6b direct records have blank derivation_rule
+PASS | V7 every S has pattern rule, governance question, QR members, mechanism, warrant, boundary, competing grouping
+PASS | V7b every S default_status = S
+PASS | V8 every A states I1-I4 (all fields), rival grouping, anticircularity=Y
+PASS | V8b INTEGRATED only if I1-I4 all SATISFIED
+PASS | V9 every INTEGRATED/OVERLAPPING A queued (vacuous if none) | ['INDETERMINATE', 'INDETERMINATE']
+PASS | V10 ARCH status_profile tallies recompute from member records
+PASS | V11 instrument status_profile tallies recompute | Positions/devices: 12 documented (0 material_establishment_evidenced: not assessed). 4 relations documented; 35 relations legal_constitution_evidenced; 4 assignments documented; 16 assignments legal_c
+PASS | V12 summary record_counts recompute | SOURCE_UNIT_INVENTORY=93; UNIT_SCREENING=93; INSTITUTIONAL_STATEMENTS=86; NORMATIVE_ASSIGNMENTS=20; POSITIONS_AND_DEVICES=12; QUALIFIED_RELATIONS=39; EXTERNAL_REFERENCES=10; SUBCONFIGURATIONS=6; ARCHITECTURE_CANDIDATES=2; PROPERTY_REGISTER=15; CLOSURE_REGISTER=6; PROVENANCE_LINKS=746; UNCERTAINTY_LO
+PASS | V13 hq_open_count = queue length; unresolved_ext_count = EXT with constitutive_dependency Y
+PASS | V14 every ESCALATED_TO_HQ uncertainty is referenced by an HQ item (directly, or through an affected record that carries an hq_id or is an HQ record_ref)
+PASS | V15 HQ record_refs resolve; question/competing/recommendation/reason filled; human_* blank
+PASS | V16 HQ trigger codes in vocabulary
+PASS | V17 hq_ids resolve
+PASS | V18 EXT cite non-recital units
+PASS | V19 every unit inventoried and screened once in source order; Yes iff statements; 93 units
+PASS | V20 every ST/NA/PD/QR/EXT/SC/ARCH/PROP record has provenance rows
+PASS | V20b CL-01 links to every unit
+PASS | V21 trace selection recomputes (seed, eligible list, drawn, largest) | (3556072404, ['ARCH-01', 'ARCH-02', 'SC-01', 'SC-02', 'SC-03', 'SC-05', 'SC-06'], 'SC-05', 'ARCH-02')
+PASS | V22 trace chains include every member QR/NA of the traced S/ARCH
+PASS | V23 EXT fixed fields
+PASS | V24 deviation log has gap_ref for GAP-01,03,04,05,06,07 (GAP-02 not applicable: no provision amending another act) | ['', 'GAP-01', 'GAP-03', 'GAP-04', 'GAP-05', 'GAP-06', 'GAP-07']
+PASS | V25 no leaked internal authoring keys in output text
+PASS | V26 no numeric score/ranking/threshold in output text
+PASS | V27 PROP closure_dependency=Y has closure_ref
+PASS | V28 PROP bearers resolve; status vocabulary; fallacy_check=Y
+PASS | V29 closure result vocabulary
+FAILS: 0

@@ -1,0 +1,15 @@
+﻿variable,n_candidates,raw_agreement,agreement_count,disagreement_count,cohen_kappa_descriptive,interpretation
+relationship_existence,17,0.941,16,1,0.0,descriptive only; simulated model passes and small purposive sample
+actor_a,17,0.941,16,1,0.921,descriptive only; simulated model passes and small purposive sample
+actor_b,17,0.824,14,3,0.804,descriptive only; simulated model passes and small purposive sample
+actor_i,17,0.765,13,4,0.443,descriptive only; simulated model passes and small purposive sample
+actor_a_role,17,0.941,16,1,0.892,descriptive only; simulated model passes and small purposive sample
+actor_b_role,17,0.824,14,3,0.766,descriptive only; simulated model passes and small purposive sample
+actor_i_role,17,0.765,13,4,0.447,descriptive only; simulated model passes and small purposive sample
+action,17,0.941,16,1,0.936,descriptive only; simulated model passes and small purposive sample
+object,17,1.0,17,0,1.0,descriptive only; simulated model passes and small purposive sample
+function,17,0.941,16,1,0.927,descriptive only; simulated model passes and small purposive sample
+mechanism,17,0.941,16,1,0.937,descriptive only; simulated model passes and small purposive sample
+device,17,0.941,16,1,0.934,descriptive only; simulated model passes and small purposive sample
+relationship_type,17,0.588,10,7,0.528,descriptive only; simulated model passes and small purposive sample
+intermediary_status,17,0.882,15,2,0.469,descriptive only; simulated model passes and small purposive sample

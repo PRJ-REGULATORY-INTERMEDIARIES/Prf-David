@@ -1,0 +1,26 @@
+R1_units_exist PASS 
+R1_screened_eq_total PASS 
+R2_statements PASS 
+R3_ids_resolve PASS 
+R3_accountable_via_empty_or_accountability PASS 
+R4_qr_parties_modality_status PASS 
+R5_provenance_and_derived PASS 
+R6_arch_outcomes_hq PASS 
+R7_closure PASS 
+R8_ext_not_checked PASS 
+R9_human_cols_blank PASS 
+R10_trace PASS 
+spans_le_400_verbatim True
+screen_issues 0
+unresolved_keys 0
+no_prohibition_QR True
+na_prohibition_constraint_only_Y True
+headers_equal_templates True
+unique_ids True
+counts {'W_DECLARATION': 1, 'SOURCE_UNIT_INVENTORY': 558, 'UNIT_SCREENING': 558, 'INSTITUTIONAL_STATEMENTS': 174, 'NORMATIVE_ASSIGNMENTS': 65, 'POSITIONS_AND_DEVICES': 27, 'QUALIFIED_RELATIONS': 101, 'EXTERNAL_REFERENCES': 33, 'SUBCONFIGURATIONS': 11, 'ARCHITECTURE_CANDIDATES': 7, 'PROPERTY_REGISTER': 19, 'CLOSURE_REGISTER': 7, 'PROVENANCE_LINKS': 2855, 'UNCERTAINTY_LOG': 44, 'HUMAN_REVIEW_QUEUE': 16, 'TRACE_DEMONSTRATIONS': 2, 'INSTRUMENT_LEVEL_SUMMARY': 1, 'PROTOCOL_DEVIATION_LOG': 12, 'RUN_METADATA': 1}
+screen_counts {'yes': 433, 'no': 125, 'uncertain': 0}
+trace {'draw': ('SC-05', 'sc.ENFORCE', 78, 8), 'largest': ('ARCH-07', 'arch.WHOLE', 283, 14), 'eligible': ['ARCH-01', 'ARCH-02', 'ARCH-04', 'ARCH-05', 'ARCH-07', 'SC-01', 'SC-02', 'SC-03', 'SC-04', 'SC-05', 'SC-06', 'SC-08', 'SC-09'], 'select': 'SEEDED_DRAW among candidate S/ARCH records citing units from >= 2 distinct parts (chapters/annexes) of the instrument, over the list sorted by id, seed = integer value of the first 8 hex digits of the case source SHA-256 (3296602003); index = random.Random(seed).randrange(len(list)) (Python 3)'}
+down_coded 24
+outcomes {'ARCH-01 arch.LIFECYCLE': 'INTEGRATED', 'ARCH-02 arch.ASSURANCE': 'INDETERMINATE', 'ARCH-03 arch.TRANSITION': 'INDETERMINATE', 'ARCH-04 arch.DELEGATION': 'INDETERMINATE', 'ARCH-05 arch.SCOPEMGMT': 'INTEGRATED', 'ARCH-06 arch.CIRCUMVENTION': 'INDETERMINATE', 'ARCH-07 arch.WHOLE': 'OVERLAPPING_OR_PARTIALLY_INTEGRATED'}
+status_profile QUALIFIED_RELATIONS: 83 legal_constitution_evidenced; 18 documented; 0 material_establishment_evidenced (never carried by relations); 0 exercise_evidenced. NORMATIVE_ASSIGNMENTS: 52 legal_constitution_evidenced; 13 documented; 0 material_establishment_evidenced; 0 exercise_evidenced. POSITIONS_AND_DEVICES: 0 legal_constitution_evidenced; 27 documented; material establishment not_assessed for all; 0 exercise_evidenced. Legal status of norm at the 2026-01-01 reference: in_force for all coded norms; no not_yet_applicable, suspended, expired_or_repealed or conditional_on_further_act status asserted.
+end 2026-10-06T19:43:24Z

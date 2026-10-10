@@ -1,0 +1,19 @@
+file,bytes,sha256,recovery_status,frozen,last_known_stage
+build_pair.py,28243,a61c1bfbc62b37ad66aff071b78c99ba81da6c03cc0bb5598cc71878d0f68773,WORKING_SCRIPT_NOT_A_ROUND1_ARTIFACT,NO,"SCF spec authored (units C0-C4, 11 cards); builder not yet run"
+verif.py,5783,31c81341468496c2457c3ec1c1f56de10570fcb35272ebd8bf57c97e9b343785,WORKING_SCRIPT_NOT_A_ROUND1_ARTIFACT,NO,"SCF spec authored (units C0-C4, 11 cards); builder not yet run"
+spec_scf.py,57767,255288fdaf859e6a3463a5fbddff0b46e1d782beca4c8436211a48bab9578d9e,WORKING_SCRIPT_NOT_A_ROUND1_ARTIFACT,NO,"SCF spec authored (units C0-C4, 11 cards); builder not yet run"
+verify.py,3347,007b0b518554915dcd32ce387a1787dddf7994ef60ef4921826a3afa0c25c346,WORKING_SCRIPT_NOT_A_ROUND1_ARTIFACT,NO,"SCF spec authored (units C0-C4, 11 cards); builder not yet run"
+verify2.py,3066,abbde23e75d54685ea7fe589dde6446ee2a30b0e295600ffd3c788dc24bc4945,WORKING_SCRIPT_NOT_A_ROUND1_ARTIFACT,NO,"SCF spec authored (units C0-C4, 11 cards); builder not yet run"
+art.py,697,d2823fcea59d8e9d2d11a44f46b0ab8bf9fe22fb8791050b8c035b677e3078d0,WORKING_SCRIPT_NOT_A_ROUND1_ARTIFACT,NO,"SCF spec authored (units C0-C4, 11 cards); builder not yet run"
+PAIR_SOURCE_AND_FREEZE_VERIFICATION.md,0,,NOT_CREATED,NO,interruption occurred before first build
+PAIR_COMPARATIVE_UNIT_REGISTER.csv,0,,NOT_CREATED,NO,interruption occurred before first build
+PAIR_MATCH_REGISTER.csv,0,,NOT_CREATED,NO,interruption occurred before first build
+PAIR_MATERIAL_DIFFERENCE_REGISTER.csv,0,,NOT_CREATED,NO,interruption occurred before first build
+PAIR_EVALUATION_DIMENSIONS.csv,0,,NOT_CREATED,NO,interruption occurred before first build
+PAIR_HUMAN_REVIEW_QUEUE.csv,0,,NOT_CREATED,NO,interruption occurred before first build
+PAIR_HUMAN_REVIEW_CARDS.md,0,,NOT_CREATED,NO,interruption occurred before first build
+PAIR_IDENTITY_KEY.csv,0,,NOT_CREATED,NO,interruption occurred before first build
+PAIR_PRE_ADJUDICATION_SUMMARY.md,0,,NOT_CREATED,NO,interruption occurred before first build
+PAIR_COMPARISON_QA.md,0,,NOT_CREATED,NO,interruption occurred before first build
+PAIR_ROUND1_FREEZE_MANIFEST.csv,0,,NOT_CREATED,NO,interruption occurred before first build
+PAIR_ROUND1_FREEZE_MANIFEST_SHA256.txt,0,,NOT_CREATED,NO,interruption occurred before first build

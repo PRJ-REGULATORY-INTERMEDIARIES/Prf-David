@@ -1,0 +1,53 @@
+{
+	"folders": [
+		{
+			"name": "Prf-David [R1-R7 Research Pipeline]",
+			"path": "."
+		}
+	],
+	"settings": {
+		"folder-customization.folders": [
+			{
+				"path": "Prf-David\\00_GOVERNANCA_AUDITORIA_E_CONTROLE\\",
+				"color": "foldercustomization.AnsiColor162"
+			},
+			{
+				"path": "Prf-David\\01_R1_POPULATION_LEGAL_UNIVERSE\\",
+				"color": "foldercustomization.AnsiColor44"
+			},
+			{
+				"path": "Prf-David\\02_R2_RELATIONAL_CALIBRATION\\",
+				"color": "foldercustomization.AnsiColor44"
+			},
+			{
+				"path": "Prf-David\\03_R3_DATASET_ARCHITECTURE_LEXIMETRICS\\",
+				"color": "foldercustomization.AnsiColor44"
+			},
+			{
+				"path": "Prf-David\\04_R4_DIGITAL_LAW_VALIDATION\\",
+				"color": "foldercustomization.AnsiColor44"
+			},
+			{
+				"path": "Prf-David\\05_R5_PAIRED_METHODOLOGICAL_TESTS\\",
+				"color": "foldercustomization.AnsiColor44"
+			},
+			{
+				"path": "Prf-David\\06_R6_ARCHITECTURAL_INFERENCE_SAFEGUARDS\\",
+				"color": "foldercustomization.AnsiColor44"
+			},
+			{
+				"path": "Prf-David\\07_R7_SUBSTANTIVE_INTERMEDIATION_PAPERS\\",
+				"color": "foldercustomization.AnsiColor44"
+			},
+			{
+				"path": "Prf-David\\90_COMUNICACOES_E_DESPACHOS\\",
+				"color": "foldercustomization.AnsiColor162"
+			},
+			{
+				"path": "Prf-David\\99_REFERENCIAS_E_BIBLIOGRAFIA\\",
+				"color": "foldercustomization.AnsiColor240"
+			}
+		],
+		"gdl.openTarget": "cursor"
+	}
+}

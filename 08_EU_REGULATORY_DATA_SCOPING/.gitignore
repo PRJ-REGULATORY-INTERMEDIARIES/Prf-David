@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+.vscode/*.log
+.pytest_cache/
+.DS_Store
+outputs/*
+!outputs/.gitkeep
+data/raw/*
+!data/raw/.gitkeep
+data/ai_runs/*
+!data/ai_runs/.gitkeep

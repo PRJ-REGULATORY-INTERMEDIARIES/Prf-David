@@ -1,0 +1,6 @@
+category,count,status,interpretation
+LEXICAL_ONLY,20,OBSERVED_SAMPLE,All held-out units were selected from A1 hits; no substantive A2 pass was executed.
+BOTH,0,NOT_MEASURED,Requires substantive A2 outputs on the same provision set.
+SEMANTIC_AI_ONLY,0,NOT_MEASURED,Dry-run placeholders cannot establish AI-only discovery.
+HUMAN,0,NOT_MEASURED,No new human discovery adjudication has been completed.
+A1_TOTAL,1092,OBSERVED,Full lexical screening total across the five-act PoC corpus.

@@ -1,0 +1,7 @@
+CASE_ID,A_MULTI_REGULATOR_TARGET_ACTIVITIES,B_IDENTIFICATION_RECOGNITION,C_ASSURANCE_AUDIT_MONITOR_EVAL_TRANSMISSION,D_COMPOSITE_RELATION_ALIGNMENT,E_CONDITION_MODALITY,E1,E2,E3,E4,E5,E6,E7,HUMAN_BASELINE,ROTEM_UNIT_IMPLEMENTED
+CASE_01,PRIMARY,secondary (selection by Registry),secondary (audit),PRIMARY,secondary,X,X,,X,,,,YES,NO (act-level)
+CASE_02,,PRIMARY (insurance; vetting of bodies),secondary (assurance),,,,,X,X,,X,,YES,NO (act-level)
+CASE_03,secondary,secondary (designation; insurance Annex V),PRIMARY,secondary,,X,,,X,X,,,YES,NO (act-level)
+CASE_04,,,secondary (assurance/opinion),secondary,PRIMARY,,,,X,,,X,YES,"NO (act-level, single)"
+CASE_05,PRIMARY,secondary (selection by target),PRIMARY,secondary,PRIMARY,X,X,,X,X,,X,NO,YES
+CASE_06,secondary,PRIMARY (vetting),PRIMARY (transmission),secondary,PRIMARY,,X,X,X,X,,X,NO,YES

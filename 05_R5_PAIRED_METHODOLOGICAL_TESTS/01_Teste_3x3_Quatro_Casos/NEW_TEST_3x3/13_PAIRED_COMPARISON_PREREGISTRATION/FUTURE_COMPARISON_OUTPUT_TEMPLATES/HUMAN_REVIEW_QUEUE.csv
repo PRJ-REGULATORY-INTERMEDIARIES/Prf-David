@@ -1,0 +1,1 @@
+case_id,comparison_run_id,protocol_manifest_sha256,hq_id,comparison_proposition_id,trigger_codes,common_legal_evidence_refs,proposition_a,proposition_b,exact_disagreement,exact_human_question,v8_record_refs,rgam_record_refs,priority,status,created_at

@@ -1,0 +1,14 @@
+{
+  "capsule_id": "RGAM_C1_SCF",
+  "instrument_title": "Regulation (EU) 2023/955 — Social Climate Fund",
+  "celex": "32023R0955",
+  "language": "EN",
+  "version_and_scope": "Original act OJ L 130 16 May 2023",
+  "official_source_url": "https://publications.europa.eu/resource/cellar/9dd87fa1-f383-11ed-a05c-01aa75ed71a1.0006.03/DOC_1",
+  "corpus_scope": "FULL_OFFICIAL_INSTRUMENT",
+  "article_count_metadata": 29,
+  "annex_count_metadata": 5,
+  "controlling_source_file": "LEGAL_SOURCE/32023R0955_official_en.html",
+  "source_sha256": "cf8c60fc233311436dfdd3ee236d0c8399eda55fea174610e91b5594f84a0408",
+  "corpus_register_status": "VERIFIED_COMPLETE"
+}

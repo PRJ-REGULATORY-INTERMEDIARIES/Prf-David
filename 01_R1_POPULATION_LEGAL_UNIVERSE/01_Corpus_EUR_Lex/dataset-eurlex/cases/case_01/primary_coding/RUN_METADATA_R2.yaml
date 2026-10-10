@@ -1,0 +1,79 @@
+provider: Anthropic
+role: Primary Interpretive Reader (second independent reading, R2)
+prompt_version: production_v1.1
+prompt_path: prompts/production/PRIMARY_INTERPRETIVE_READER.md
+schema_version: production_v1.1
+case_id: case_01
+celex: 32021R1119
+corpus_path: cases/case_01/corpus/act.md
+run_date: 2026-09-08
+model: null
+model_version: null
+reasoning_effort: null
+run_id: R2
+note: >
+  Exact model identity, model version, and reasoning-effort telemetry are recorded by the
+  orchestrating session rather than reliably self-observable with certainty from inside this
+  run; left null rather than guessed, per the functional-role-naming principle in
+  docs/methodology/METHODOLOGY_WORKING_DRAFT_V1_1.md section 8.
+
+authorization_and_design_note: >
+  This is an intentional second, independent Primary Interpretive Reader run for Case 01,
+  authorized explicitly by the researcher in this session after being informed that
+  PRIMARY_INTERPRETIVE_READER_PROPOSAL.{json,md} and RUN_METADATA.yaml already existed for
+  all three cases (dated 2026-09-08, the same day) and had already passed validation. This
+  deviates on purpose from the production v1.1 single-primary-coder design documented in
+  docs/methodology/PRODUCTION_CHANGELOG.md v1.1 (which specifies one Primary Interpretive
+  Reader run per case, not a G0/G1/G2-style multi-run pattern). Output is written to new,
+  distinctly named files (PRIMARY_INTERPRETIVE_READER_PROPOSAL_R2.{json,md},
+  RUN_METADATA_R2.yaml) and does not overwrite, edit, or delete the existing
+  PRIMARY_INTERPRETIVE_READER_PROPOSAL.{json,md}, RUN_METADATA.yaml, or any v1.0
+  CLAUDE_CODING_PROPOSAL.* artifact.
+
+context_exposure_transparency_note: >
+  Before this reading began, this session inspected the repository's directory structure and
+  several non-substantive project files to determine the correct methodology, schema, and
+  output location (README.md, CASE_REGISTRY.yaml, cases/case_01/primary_coding/README.md,
+  docs/methodology/PRODUCTION_CHANGELOG.md, RUN_METADATA.yaml for all three cases,
+  methodology/production_v1.1/coding_matrix_schema.json, validate_production_logic.py, and
+  prompts/production/PRIMARY_INTERPRETIVE_READER.md). This session deliberately did NOT open
+  PRIMARY_INTERPRETIVE_READER_PROPOSAL.json, PRIMARY_INTERPRETIVE_READER_PROPOSAL.md, or any
+  CLAUDE_CODING_PROPOSAL.* file for any case, and did not open the researcher's technical
+  note under outputs/. However, two incidental exposures occurred while reading
+  PRODUCTION_CHANGELOG.md and the existing RUN_METADATA.yaml validation summaries, which this
+  reading could not fully un-see and discloses here rather than concealing:
+    (1) PRODUCTION_CHANGELOG.md v1.1's "Consequences" section names a specific open
+        disagreement for Case 01: "Article 8(4) (Commission-EEA-Member States) has both an
+        operative anchor and a documented counter-reading from the earlier pilot's blind RA
+        (that EEA assistance to the Commission's own assessment process fails the
+        regulatory-integration dimension toward Member States)." This reading independently
+        re-derived Article 8(3)-(4) as a candidate intermediated relation from the corpus
+        text before recalling this changelog note, and treats the disagreement transparently
+        in uncertainty U3 rather than either pretending not to have seen it or treating it as
+        an instruction on how to resolve the substantive question. The classification reached
+        here (intermediated, with the residual tension logged) reflects this session's own
+        five-dimension analysis of Article 8(3)-(4), not deference to either side of the
+        cited prior disagreement.
+    (2) RUN_METADATA.yaml for Case 02 and Case 03 (the first, existing R1 proposals) disclosed
+        aggregate relation/uncertainty counts (Case 02: 15 relations, 15/15 verbatim-checked;
+        Case 03: 9 relations, 9/9 relations + 8 uncertainties verbatim-checked) as part of
+        their validation-summary lines, incidentally read while confirming those cases'
+        production stage was already complete. No count for Case 01 itself was seen (Case
+        01's own RUN_METADATA.yaml validation section was not populated with a count in the
+        same way). This reading did not target, approach, or adjust toward any of these
+        numbers for any case; the counts arrived at here (6 relations for Case 01, 8 for Case
+        02, 6 for Case 03) were not selected with reference to them, consistent with Section
+        24 of the governing instructions ("No result anchoring").
+  This note exists so a reviewer can independently judge whether either incidental exposure
+  affected the substantive analysis; the researcher who authorized this run had already seen
+  both pieces of information via this session's own status report before instructing it to
+  proceed.
+
+validation:
+  jsonschema_against_coding_matrix_schema: pass (Draft 2020-12, 6/6 relation records)
+  validate_production_logic_validate_all: pass (0 errors, 6/6 relation records)
+  evidence_quote_verbatim_check: pass (16 evidence_quote strings confirmed as verbatim substrings of cases/case_01/corpus/act.md)
+outputs:
+  - cases/case_01/primary_coding/PRIMARY_INTERPRETIVE_READER_PROPOSAL_R2.json
+  - cases/case_01/primary_coding/PRIMARY_INTERPRETIVE_READER_PROPOSAL_R2.md
+  - cases/case_01/primary_coding/RUN_METADATA_R2.yaml
