@@ -1,0 +1,55 @@
+search_id,family,resource_set,platform,query,language,rationale
+SR-G2-001,core_legal_texts,A,DEU,EUR-Lex,en,Official legal corpus entries in the EU open data catalogue
+SR-G2-002,core_legal_texts,A,DEU,legislation in force,en,Bulk or structured distributions of EU acts in force
+SR-G2-003,core_legal_texts,A,DEU,Official Journal of the European Union,en,Official Journal data distributions
+SR-G2-004,core_legal_texts,A,DEU,CELLAR,en,Publications Office repository entries
+SR-G2-005,identifiers_standards,A,DEU,European Legislation Identifier,en,ELI-related datasets and registers
+SR-G2-006,case_law,A,DEU,Court of Justice case law,en,Case-law collections and ECLI resources
+SR-G2-007,legislative_process,A,DEU,legislative procedure,en,Datasets on the law-making process
+SR-G2-008,delegation_implementation,A,DEU,comitology,en,Committees and implementing acts
+SR-G2-009,delegation_implementation,A,DEU,delegated acts,en,Delegated-act registers
+SR-G2-010,legislative_process,A,DEU,Council votes,en,Voting records
+SR-G2-011,transposition,A,DEU,national transposition measures,en,Transposition data
+SR-G2-012,enforcement,B,DEU,infringement,en,Infringement procedures and decisions
+SR-G2-013,conformity_accreditation,B,DEU,notified bodies,en,Conformity assessment bodies
+SR-G2-014,regulatory_intermediaries,B,DEU,trusted flaggers,en,DSA-designated entities
+SR-G2-015,transparency_participation,B,DEU,transparency register,en,Interest representation registers
+SR-G2-016,transparency_participation,B,DEU,expert groups,en,Commission expert groups register
+SR-G2-017,authorities_supervision,B,DEU,competent authorities,en,Registers of national competent authorities
+SR-G2-018,enforcement,B,DEU,sanctions penalties decisions,en,Enforcement and sanction datasets
+SR-G2-019,enforcement,B,DEU,state aid decisions,en,Competition and State aid case data
+SR-G2-020,conformity_accreditation,B,DEU,accreditation,en,Accreditation bodies data
+SR-G2-021,authorisation_licensing,B,DEU,register of authorised,en,Authorisation and licensing registers
+SR-G2-022,transparency_participation,B,DEU,public consultation feedback,en,Better Regulation participation data
+SR-G2-023,multilingual_sensitivity,A,DEU,législation de l'Union européenne,fr,Sensitivity check in French
+SR-G2-024,multilingual_sensitivity,B,DEU,benannte Stellen,de,Sensitivity check in German
+SR-G2-025,academic_legal_corpora,A,ZEN,EUR-Lex corpus,en,Research corpora derived from EUR-Lex
+SR-G2-026,academic_legal_corpora,A,ZEN,European Union legislation dataset,en,Research datasets on EU legislation
+SR-G2-027,academic_legislative_process,A,ZEN,EU legislative procedures dataset,en,Research datasets on EU law-making
+SR-G2-028,academic_case_law,A,ZEN,Court of Justice of the European Union dataset,en,Research datasets on CJEU case law
+SR-G2-029,academic_implementation,AB,ZEN,transposition EU directives dataset,en,Research datasets on transposition and compliance
+SR-G2-030,academic_governance,B,ZEN,EU agencies dataset regulatory,en,Research datasets on agencies and regulators
+SR-G2-031,academic_governance,B,ZEN,infringement proceedings European Commission dataset,en,Research datasets on enforcement
+SR-G2-032,academic_governance,B,ZEN,GDPR enforcement decisions dataset,en,Sectoral enforcement datasets
+SR-G2-033,academic_legal_corpora,A,DVN,European Union legislation,en,Social-science replication and data deposits
+SR-G2-034,academic_implementation,AB,DVN,EU directives transposition compliance,en,Compliance datasets
+SR-G2-035,academic_governance,B,DVN,European Union regulatory agencies,en,Agency and regulator datasets
+SR-G2-036,academic_case_law,A,DVN,Court of Justice European Union,en,CJEU datasets
+SR-G2-037,academic_legal_corpora,A,DCT,eur-lex,en,DOI-registered datasets mentioning EUR-Lex
+SR-G2-038,academic_governance,B,DCT,European Union regulatory governance,en,DOI-registered governance datasets
+SR-G2-039,academic_legislative_process,A,DCT,European Union legislative,en,DOI-registered legislative datasets
+SR-G2-040,data_papers,A,OAX,new dataset European Union legislation,en,Publications introducing datasets on EU legislation
+SR-G2-041,data_papers,A,OAX,EUR-Lex corpus,en,Publications introducing EUR-Lex-derived corpora
+SR-G2-042,data_papers,AB,OAX,dataset EU infringement proceedings compliance,en,Publications introducing compliance datasets
+SR-G2-043,data_papers,B,OAX,dataset European Union agencies regulatory governance,en,Publications introducing regulatory governance datasets
+SR-G2-044,data_papers,A,OAX,dataset delegated implementing acts comitology,en,Publications introducing delegation datasets
+SR-G2-045,data_papers,A,OAX,Court of Justice of the European Union database dataset,en,Publications introducing CJEU databases
+SR-G2-046,legal_nlp_benchmarks,A,HF,eurlex,en,Hugging Face datasets derived from EUR-Lex
+SR-G2-047,legal_nlp_benchmarks,A,HF,eur-lex,en,Spelling variant
+SR-G2-048,legal_nlp_benchmarks,A,HF,cjeu,en,Case-law NLP datasets
+SR-G2-049,legal_nlp_benchmarks,A,HF,europarl,en,Parliamentary corpora
+SR-G2-050,legal_nlp_benchmarks,A,HF,acquis,en,Acquis-derived corpora
+SR-G2-051,legal_nlp_benchmarks,B,HF,gdpr,en,Regulatory-domain NLP datasets
+SR-G2-052,code_hosted_datasets,A,GH,eurlex dataset,en,Code-hosted corpora and extraction pipelines
+SR-G2-053,code_hosted_datasets,A,GH,eu legislation dataset,en,Code-hosted datasets
+SR-G2-054,code_hosted_datasets,B,GH,gdpr fines dataset,en,Code-hosted enforcement trackers

@@ -1,0 +1,528 @@
+discovery_id,entry_type,resource_id,origin,search_id,platform,query,language,executed_at_utc,total_reported,hits_returned,hits_linked_to_resources,hit_rank,platform_record_id,hit_title,evidence_id,note
+DL-0001,SEARCH_RUN,,,SR-G2-001,DEU,EUR-Lex,en,2026-10-10T11:43:14+00:00,49367,25,4,,,,EVS-001,first 25 results screened by title
+DL-0002,SEARCH_RUN,,,SR-G2-002,DEU,legislation in force,en,2026-10-10T11:43:19+00:00,1526009,25,2,,,,EVS-002,first 25 results screened by title
+DL-0003,SEARCH_RUN,,,SR-G2-003,DEU,Official Journal of the European Union,en,2026-10-10T11:43:25+00:00,1195302,25,1,,,,EVS-003,first 25 results screened by title
+DL-0004,SEARCH_RUN,,,SR-G2-004,DEU,CELLAR,en,2026-10-10T11:43:32+00:00,4184,25,0,,,,EVS-004,first 25 results screened by title
+DL-0005,SEARCH_RUN,,,SR-G2-005,DEU,European Legislation Identifier,en,2026-10-10T11:43:37+00:00,107914,25,11,,,,EVS-005,first 25 results screened by title
+DL-0006,SEARCH_RUN,,,SR-G2-006,DEU,Court of Justice case law,en,2026-10-10T11:43:42+00:00,1195844,25,1,,,,EVS-006,first 25 results screened by title
+DL-0007,SEARCH_RUN,,,SR-G2-007,DEU,legislative procedure,en,2026-10-10T11:43:47+00:00,29825,25,1,,,,EVS-007,first 25 results screened by title
+DL-0008,SEARCH_RUN,,,SR-G2-008,DEU,comitology,en,2026-10-10T11:43:51+00:00,2,2,2,,,,EVS-008,first 25 results screened by title
+DL-0009,SEARCH_RUN,,,SR-G2-009,DEU,delegated acts,en,2026-10-10T11:43:54+00:00,34269,25,0,,,,EVS-009,first 25 results screened by title
+DL-0010,SEARCH_RUN,,,SR-G2-010,DEU,Council votes,en,2026-10-10T11:43:57+00:00,39591,25,1,,,,EVS-010,first 25 results screened by title
+DL-0011,SEARCH_RUN,,,SR-G2-011,DEU,national transposition measures,en,2026-10-10T11:44:00+00:00,1667861,25,4,,,,EVS-011,first 25 results screened by title
+DL-0012,SEARCH_RUN,,,SR-G2-012,DEU,infringement,en,2026-10-10T11:44:05+00:00,404,25,0,,,,EVS-012,first 25 results screened by title
+DL-0013,SEARCH_RUN,,,SR-G2-013,DEU,notified bodies,en,2026-10-10T11:44:09+00:00,23399,25,7,,,,EVS-013,first 25 results screened by title
+DL-0014,SEARCH_RUN,,,SR-G2-014,DEU,trusted flaggers,en,2026-10-10T11:44:14+00:00,2103,25,0,,,,EVS-014,first 25 results screened by title
+DL-0015,SEARCH_RUN,,,SR-G2-015,DEU,transparency register,en,2026-10-10T11:44:18+00:00,70878,25,1,,,,EVS-015,first 25 results screened by title
+DL-0016,SEARCH_RUN,,,SR-G2-016,DEU,expert groups,en,2026-10-10T11:44:22+00:00,52410,25,1,,,,EVS-016,first 25 results screened by title
+DL-0017,SEARCH_RUN,,,SR-G2-017,DEU,competent authorities,en,2026-10-10T11:44:25+00:00,1665281,25,0,,,,EVS-017,first 25 results screened by title
+DL-0018,SEARCH_RUN,,,SR-G2-018,DEU,sanctions penalties decisions,en,2026-10-10T11:44:30+00:00,19351,25,1,,,,EVS-018,first 25 results screened by title
+DL-0019,SEARCH_RUN,,,SR-G2-019,DEU,state aid decisions,en,2026-10-10T11:44:34+00:00,175647,25,1,,,,EVS-019,first 25 results screened by title
+DL-0020,SEARCH_RUN,,,SR-G2-020,DEU,accreditation,en,2026-10-10T11:44:38+00:00,988,25,0,,,,EVS-020,first 25 results screened by title
+DL-0021,SEARCH_RUN,,,SR-G2-021,DEU,register of authorised,en,2026-10-10T11:44:41+00:00,1115918,25,0,,,,EVS-021,first 25 results screened by title
+DL-0022,SEARCH_RUN,,,SR-G2-022,DEU,public consultation feedback,en,2026-10-10T11:44:45+00:00,651882,25,0,,,,EVS-022,first 25 results screened by title
+DL-0023,SEARCH_RUN,,,SR-G2-023,DEU,législation de l'Union européenne,fr,2026-10-10T11:44:52+00:00,1615326,25,1,,,,EVS-023,first 25 results screened by title
+DL-0024,SEARCH_RUN,,,SR-G2-024,DEU,benannte Stellen,de,2026-10-10T11:44:59+00:00,36297,25,0,,,,EVS-024,first 25 results screened by title
+DL-0025,SEARCH_RUN,,,SR-G2-025,ZEN,EUR-Lex corpus,en,2026-10-10T11:45:03+00:00,361184,25,3,,,,EVS-025,first 25 results screened by title
+DL-0026,SEARCH_RUN,,,SR-G2-026,ZEN,European Union legislation dataset,en,2026-10-10T11:45:08+00:00,1005508,25,1,,,,EVS-026,first 25 results screened by title
+DL-0027,SEARCH_RUN,,,SR-G2-027,ZEN,EU legislative procedures dataset,en,2026-10-10T11:45:13+00:00,384476,25,4,,,,EVS-027,first 25 results screened by title
+DL-0028,SEARCH_RUN,,,SR-G2-028,ZEN,Court of Justice of the European Union dataset,en,2026-10-10T11:45:19+00:00,6049746,25,1,,,,EVS-028,first 25 results screened by title
+DL-0029,SEARCH_RUN,,,SR-G2-029,ZEN,transposition EU directives dataset,en,2026-10-10T11:45:25+00:00,339504,25,1,,,,EVS-029,first 25 results screened by title
+DL-0030,SEARCH_RUN,,,SR-G2-030,ZEN,EU agencies dataset regulatory,en,2026-10-10T11:45:30+00:00,398518,25,1,,,,EVS-030,first 25 results screened by title
+DL-0031,SEARCH_RUN,,,SR-G2-031,ZEN,infringement proceedings European Commission dataset,en,2026-10-10T11:45:35+00:00,1096725,25,1,,,,EVS-031,first 25 results screened by title
+DL-0032,SEARCH_RUN,,,SR-G2-032,ZEN,GDPR enforcement decisions dataset,en,2026-10-10T11:45:45+00:00,363108,25,0,,,,EVS-032,first 25 results screened by title
+DL-0033,SEARCH_RUN,,,SR-G2-033,DVN,European Union legislation,en,2026-10-10T11:45:50+00:00,20900,25,3,,,,EVS-033,first 25 results screened by title
+DL-0034,SEARCH_RUN,,,SR-G2-034,DVN,EU directives transposition compliance,en,2026-10-10T11:45:54+00:00,14691,25,4,,,,EVS-034,first 25 results screened by title
+DL-0035,SEARCH_RUN,,,SR-G2-035,DVN,European Union regulatory agencies,en,2026-10-10T11:45:57+00:00,30425,25,3,,,,EVS-035,first 25 results screened by title
+DL-0036,SEARCH_RUN,,,SR-G2-036,DVN,Court of Justice European Union,en,2026-10-10T11:46:01+00:00,225627,25,1,,,,EVS-036,first 25 results screened by title
+DL-0037,SEARCH_RUN,,,SR-G2-037,DCT,eur-lex,en,2026-10-10T11:46:05+00:00,101,25,0,,,,EVS-037,first 25 results screened by title
+DL-0038,SEARCH_RUN,,,SR-G2-038,DCT,European Union regulatory governance,en,2026-10-10T11:46:09+00:00,58,25,0,,,,EVS-038,first 25 results screened by title
+DL-0039,SEARCH_RUN,,,SR-G2-039,DCT,European Union legislative,en,2026-10-10T11:46:12+00:00,853,25,1,,,,EVS-039,first 25 results screened by title
+DL-0040,SEARCH_RUN,,,SR-G2-040,OAX,new dataset European Union legislation,en,2026-10-10T11:46:16+00:00,81338,25,4,,,,EVS-040,first 25 results screened by title
+DL-0041,SEARCH_RUN,,,SR-G2-041,OAX,EUR-Lex corpus,en,2026-10-10T11:46:20+00:00,3322,25,5,,,,EVS-041,first 25 results screened by title
+DL-0042,SEARCH_RUN,,,SR-G2-042,OAX,dataset EU infringement proceedings compliance,en,2026-10-10T11:46:25+00:00,4017,25,0,,,,EVS-042,first 25 results screened by title
+DL-0043,SEARCH_RUN,,,SR-G2-043,OAX,dataset European Union agencies regulatory governance,en,2026-10-10T11:46:29+00:00,43370,25,0,,,,EVS-043,first 25 results screened by title
+DL-0044,SEARCH_RUN,,,SR-G2-044,OAX,dataset delegated implementing acts comitology,en,2026-10-10T11:46:32+00:00,108,25,1,,,,EVS-044,first 25 results screened by title
+DL-0045,SEARCH_RUN,,,SR-G2-045,OAX,Court of Justice of the European Union database dataset,en,2026-10-10T11:46:36+00:00,13194,25,2,,,,EVS-045,first 25 results screened by title
+DL-0046,SEARCH_RUN,,,SR-G2-046,HF,eurlex,en,2026-10-10T11:46:40+00:00,,25,7,,,,EVS-046,first 25 results screened by title
+DL-0047,SEARCH_RUN,,,SR-G2-047,HF,eur-lex,en,2026-10-10T11:46:42+00:00,,25,1,,,,EVS-047,first 25 results screened by title
+DL-0048,SEARCH_RUN,,,SR-G2-048,HF,cjeu,en,2026-10-10T11:46:44+00:00,,5,2,,,,EVS-048,first 25 results screened by title
+DL-0049,SEARCH_RUN,,,SR-G2-049,HF,europarl,en,2026-10-10T11:46:47+00:00,,25,1,,,,EVS-049,first 25 results screened by title
+DL-0050,SEARCH_RUN,,,SR-G2-050,HF,acquis,en,2026-10-10T11:46:49+00:00,,25,2,,,,EVS-050,first 25 results screened by title
+DL-0051,SEARCH_RUN,,,SR-G2-051,HF,gdpr,en,2026-10-10T11:46:51+00:00,,25,1,,,,EVS-051,first 25 results screened by title
+DL-0052,SEARCH_RUN,,,SR-G2-052,GH,eurlex dataset,en,2026-10-10T11:46:54+00:00,13,13,4,,,,EVS-052,first 25 results screened by title
+DL-0053,SEARCH_RUN,,,SR-G2-053,GH,eu legislation dataset,en,2026-10-10T11:46:56+00:00,3,3,1,,,,EVS-053,first 25 results screened by title
+DL-0054,SEARCH_RUN,,,SR-G2-054,GH,gdpr fines dataset,en,2026-10-10T11:46:59+00:00,3,3,2,,,,EVS-054,first 25 results screened by title
+DL-0055,SEARCH_RUN,,,SR-G2-055,DCAT,,en,2026-10-10T12:31:14+00:00,212,100,0,,,,EVS-055,100 results; depth: Complete enumeration: 212 catalogues reported by the service
+DL-0056,SEARCH_RUN,,,SR-G2-056,DCAT,,en,2026-10-10T12:31:17+00:00,212,100,0,,,,EVS-056,100 results; depth: Complete enumeration
+DL-0057,SEARCH_RUN,,,SR-G2-057,DCAT,,en,2026-10-10T12:31:20+00:00,212,12,0,,,,EVS-057,12 results; depth: Complete enumeration
+DL-0058,SEARCH_RUN,,,SR-G2-058,DEUF,,en,2026-10-10T12:31:23+00:00,1734130,1,0,,,,EVS-058,1 results; depth: Single call; facets only
+DL-0059,SEARCH_RUN,,,SR-G2-059,DEUC,,en,2026-10-10T12:31:56+00:00,13,13,6,,,,EVS-059,13 results; depth: Complete enumeration: facet probe SR-G2-058 reported 13 datasets
+DL-0060,SEARCH_RUN,,,SR-G2-060,DEUC,,en,2026-10-10T12:32:00+00:00,2,2,0,,,,EVS-060,2 results; depth: Complete enumeration: facet probe SR-G2-058 reported 2 datasets
+DL-0061,SEARCH_RUN,,,SR-G2-061,DEUC,,en,2026-10-10T12:32:03+00:00,251,100,16,,,,EVS-061,100 results; depth: Complete enumeration: facet probe SR-G2-058 reported 251 datasets
+DL-0062,SEARCH_RUN,,,SR-G2-062,DEUC,,en,2026-10-10T12:32:07+00:00,251,100,0,,,,EVS-062,100 results; depth: Complete enumeration: facet probe SR-G2-058 reported 251 datasets
+DL-0063,SEARCH_RUN,,,SR-G2-063,DEUC,,en,2026-10-10T12:32:10+00:00,251,51,0,,,,EVS-063,51 results; depth: Complete enumeration: facet probe SR-G2-058 reported 251 datasets
+DL-0064,SEARCH_RUN,,,SR-G2-064,DEUC,,en,2026-10-10T12:32:14+00:00,31,31,12,,,,EVS-064,31 results; depth: Complete enumeration: facet probe SR-G2-058 reported 31 datasets
+DL-0065,SEARCH_RUN,,,SR-G2-065,DEUC,,en,2026-10-10T12:32:17+00:00,13,13,4,,,,EVS-065,13 results; depth: Complete enumeration: facet probe SR-G2-058 reported 13 datasets
+DL-0066,SEARCH_RUN,,,SR-G2-066,DEUC,,en,2026-10-10T12:32:21+00:00,24,24,11,,,,EVS-066,24 results; depth: Complete enumeration: facet probe SR-G2-058 reported 24 datasets
+DL-0067,SEARCH_RUN,,,SR-G2-067,DEUC,,en,2026-10-10T12:32:24+00:00,2,2,0,,,,EVS-067,2 results; depth: Complete enumeration: facet probe SR-G2-058 reported 2 datasets
+DL-0068,SEARCH_RUN,,,SR-G2-068,DEUC,,en,2026-10-10T12:32:27+00:00,14,14,12,,,,EVS-068,14 results; depth: Complete enumeration: facet probe SR-G2-058 reported 14 datasets
+DL-0069,SEARCH_RUN,,,SR-G2-069,DEUC,,en,2026-10-10T12:32:30+00:00,16,16,4,,,,EVS-069,16 results; depth: Complete enumeration: facet probe SR-G2-058 reported 16 datasets
+DL-0070,SEARCH_RUN,,,SR-G2-070,DEUC,,en,2026-10-10T12:32:33+00:00,19,19,2,,,,EVS-070,19 results; depth: Complete enumeration: facet probe SR-G2-058 reported 19 datasets
+DL-0071,SEARCH_RUN,,,SR-G2-071,DEUC,,en,2026-10-10T12:32:36+00:00,46,46,10,,,,EVS-071,46 results; depth: Complete enumeration: facet probe SR-G2-058 reported 46 datasets
+DL-0072,SEARCH_RUN,,,SR-G2-072,DEUC,,en,2026-10-10T12:32:39+00:00,2,2,0,,,,EVS-072,2 results; depth: Complete enumeration: facet probe SR-G2-058 reported 2 datasets
+DL-0073,SEARCH_RUN,,,SR-G2-073,DEUC,,en,2026-10-10T12:32:42+00:00,15,15,2,,,,EVS-073,15 results; depth: Complete enumeration: facet probe SR-G2-058 reported 15 datasets
+DL-0074,SEARCH_RUN,,,SR-G2-074,DEUC,,en,2026-10-10T12:32:46+00:00,2,2,1,,,,EVS-074,2 results; depth: Complete enumeration: facet probe SR-G2-058 reported 2 datasets
+DL-0075,SEARCH_RUN,,,SR-G2-075,DEUC,,en,2026-10-10T12:32:48+00:00,4,4,4,,,,EVS-075,4 results; depth: Complete enumeration: facet probe SR-G2-058 reported 4 datasets
+DL-0076,SEARCH_RUN,,,SR-G2-076,DEUC,,en,2026-10-10T12:32:51+00:00,12,12,5,,,,EVS-076,12 results; depth: Complete enumeration: facet probe SR-G2-058 reported 12 datasets
+DL-0077,SEARCH_RUN,,,SR-G2-077,DEUC,,en,2026-10-10T12:32:54+00:00,90,90,0,,,,EVS-077,90 results; depth: Complete enumeration: facet probe SR-G2-058 reported 90 datasets
+DL-0078,SEARCH_RUN,,,SR-G2-078,DEUC,,en,2026-10-10T12:32:58+00:00,4,4,0,,,,EVS-078,4 results; depth: Complete enumeration: facet probe SR-G2-058 reported 4 datasets
+DL-0079,SEARCH_RUN,,,SR-G2-079,DEUC,,en,2026-10-10T12:33:01+00:00,82,82,0,,,,EVS-079,82 results; depth: Complete enumeration: facet probe SR-G2-058 reported 82 datasets
+DL-0080,SEARCH_RUN,,,SR-G2-080,DEUC,,en,2026-10-10T12:33:04+00:00,47,47,6,,,,EVS-080,47 results; depth: Complete enumeration: facet probe SR-G2-058 reported 47 datasets
+DL-0081,SEARCH_RUN,,,SR-G2-081,DEUC,,en,2026-10-10T12:33:08+00:00,28,28,7,,,,EVS-081,28 results; depth: Complete enumeration: facet probe SR-G2-058 reported 28 datasets
+DL-0082,SEARCH_RUN,,,SR-G2-082,DEUC,,en,2026-10-10T12:33:11+00:00,14,14,13,,,,EVS-082,14 results; depth: Complete enumeration: facet probe SR-G2-058 reported 14 datasets
+DL-0083,SEARCH_RUN,,,SR-G2-083,DEUC,,en,2026-10-10T12:33:14+00:00,138,100,0,,,,EVS-083,100 results; depth: Complete enumeration: facet probe SR-G2-058 reported 138 datasets
+DL-0084,SEARCH_RUN,,,SR-G2-084,DEUC,,en,2026-10-10T12:33:18+00:00,138,38,0,,,,EVS-084,38 results; depth: Complete enumeration: facet probe SR-G2-058 reported 138 datasets
+DL-0085,SEARCH_RUN,,,SR-G2-085,DEUC,,en,2026-10-10T12:33:21+00:00,3,3,2,,,,EVS-085,3 results; depth: Complete enumeration: facet probe SR-G2-058 reported 3 datasets
+DL-0086,SEARCH_RUN,,,SR-G2-086,DEUC,,en,2026-10-10T12:33:24+00:00,23,23,5,,,,EVS-086,23 results; depth: Complete enumeration: facet probe SR-G2-058 reported 23 datasets
+DL-0087,SEARCH_RUN,,,SR-G2-087,DEUC,,en,2026-10-10T12:33:27+00:00,1,1,0,,,,EVS-087,1 results; depth: Complete enumeration: facet probe SR-G2-058 reported 1 datasets
+DL-0088,SEARCH_RUN,,,SR-G2-088,DEUC,,en,2026-10-10T12:33:29+00:00,1,1,0,,,,EVS-088,1 results; depth: Complete enumeration: facet probe SR-G2-058 reported 1 datasets
+DL-0089,SEARCH_RUN,,,SR-G2-089,DEUC,,en,2026-10-10T12:33:32+00:00,35,35,13,,,,EVS-089,35 results; depth: Complete enumeration: facet probe SR-G2-058 reported 35 datasets
+DL-0090,SEARCH_RUN,,,SR-G2-090,DEUC,,en,2026-10-10T12:33:35+00:00,19,19,1,,,,EVS-090,19 results; depth: Complete enumeration: facet probe SR-G2-058 reported 19 datasets
+DL-0091,SEARCH_RUN,,,SR-G2-091,DEUC,,en,2026-10-10T12:33:38+00:00,13,13,1,,,,EVS-091,13 results; depth: Complete enumeration: facet probe SR-G2-058 reported 13 datasets
+DL-0092,SEARCH_RUN,,,SR-G2-092,DEUC,,en,2026-10-10T12:33:41+00:00,9,9,2,,,,EVS-092,9 results; depth: Complete enumeration: facet probe SR-G2-058 reported 9 datasets
+DL-0093,SEARCH_RUN,,,SR-G2-093,DEUC,,en,2026-10-10T12:33:44+00:00,4,4,4,,,,EVS-093,4 results; depth: Complete enumeration: facet probe SR-G2-058 reported 4 datasets
+DL-0094,SEARCH_RUN,,,SR-G2-094,DEUC,,en,2026-10-10T12:33:46+00:00,3,3,0,,,,EVS-094,3 results; depth: Complete enumeration: facet probe SR-G2-058 reported 3 datasets
+DL-0095,SEARCH_RUN,,,SR-G2-095,DEUC,,en,2026-10-10T12:33:49+00:00,29,29,0,,,,EVS-095,29 results; depth: Complete enumeration: facet probe SR-G2-058 reported 29 datasets
+DL-0096,SEARCH_RUN,,,SR-G2-096,DEUC,,en,2026-10-10T12:33:52+00:00,4,4,0,,,,EVS-096,4 results; depth: Complete enumeration: facet probe SR-G2-058 reported 4 datasets
+DL-0097,SEARCH_RUN,,,SR-G2-097,DEUC,,en,2026-10-10T12:33:55+00:00,11,11,0,,,,EVS-097,11 results; depth: Complete enumeration: facet probe SR-G2-058 reported 11 datasets
+DL-0098,SEARCH_RUN,,,SR-G2-098,DEUC,,en,2026-10-10T12:33:58+00:00,16,16,0,,,,EVS-098,16 results; depth: Complete enumeration: facet probe SR-G2-058 reported 16 datasets
+DL-0099,SEARCH_RUN,,,SR-G2-099,DEUC,,en,2026-10-10T12:34:01+00:00,3,3,1,,,,EVS-099,3 results; depth: Complete enumeration: facet probe SR-G2-058 reported 3 datasets
+DL-0100,SEARCH_RUN,,,SR-G2-100,DEUC,,en,2026-10-10T12:34:04+00:00,19,19,0,,,,EVS-100,19 results; depth: Complete enumeration: facet probe SR-G2-058 reported 19 datasets
+DL-0101,SEARCH_RUN,,,SR-G2-101,DEUC,,en,2026-10-10T12:34:08+00:00,11,11,1,,,,EVS-101,11 results; depth: Complete enumeration: facet probe SR-G2-058 reported 11 datasets
+DL-0102,SEARCH_RUN,,,SR-G2-102,DEUC,,en,2026-10-10T12:34:12+00:00,57,57,2,,,,EVS-102,57 results; depth: Complete enumeration: facet probe SR-G2-058 reported 57 datasets
+DL-0103,SEARCH_RUN,,,SR-G2-103,DEUC,,en,2026-10-10T12:34:14+00:00,388,100,1,,,,EVS-103,100 results; depth: Complete enumeration: facet probe SR-G2-058 reported 388 datasets
+DL-0104,SEARCH_RUN,,,SR-G2-104,DEUC,,en,2026-10-10T12:34:20+00:00,388,100,0,,,,EVS-104,100 results; depth: Complete enumeration: facet probe SR-G2-058 reported 388 datasets
+DL-0105,SEARCH_RUN,,,SR-G2-105,DEUC,,en,2026-10-10T12:34:25+00:00,388,100,0,,,,EVS-105,100 results; depth: Complete enumeration: facet probe SR-G2-058 reported 388 datasets
+DL-0106,SEARCH_RUN,,,SR-G2-106,DEUC,,en,2026-10-10T12:34:30+00:00,388,88,0,,,,EVS-106,88 results; depth: Complete enumeration: facet probe SR-G2-058 reported 388 datasets
+DL-0107,SEARCH_RUN,,,SR-G2-107,DEUC,,en,2026-10-10T12:34:33+00:00,140,100,5,,,,EVS-107,100 results; depth: Complete enumeration: facet probe SR-G2-058 reported 140 datasets
+DL-0108,SEARCH_RUN,,,SR-G2-108,DEUC,,en,2026-10-10T12:34:37+00:00,140,40,0,,,,EVS-108,40 results; depth: Complete enumeration: facet probe SR-G2-058 reported 140 datasets
+DL-0109,SEARCH_RUN,,,SR-G2-109,DEUC,register,en,2026-10-10T12:37:17+00:00,2,2,0,,,,EVS-109,"2 results; depth: Filtered, first 100 results; catalogue holds 727 datasets"
+DL-0110,SEARCH_RUN,,,SR-G2-110,DEUC,list of,en,2026-10-10T12:37:20+00:00,579,100,1,,,,EVS-110,"100 results; depth: Filtered, first 100 results; catalogue holds 727 datasets"
+DL-0111,SEARCH_RUN,,,SR-G2-111,DEUC,designated,en,2026-10-10T12:37:25+00:00,3,3,0,,,,EVS-111,"3 results; depth: Filtered, first 100 results; catalogue holds 727 datasets"
+DL-0112,SEARCH_RUN,,,SR-G2-112,DEUC,digital services,en,2026-10-10T12:37:28+00:00,110,100,0,,,,EVS-112,"100 results; depth: Filtered, first 100 results; catalogue holds 727 datasets"
+DL-0113,SEARCH_RUN,,,SR-G2-113,DEUC,regulatory authorities,en,2026-10-10T12:37:32+00:00,58,58,0,,,,EVS-113,"58 results; depth: Filtered, first 100 results; catalogue holds 727 datasets"
+DL-0114,SEARCH_RUN,,,SR-G2-114,DEUC,database,en,2026-10-10T12:37:36+00:00,31,31,0,,,,EVS-114,"31 results; depth: Filtered, first 100 results; catalogue holds 727 datasets"
+DL-0115,SEARCH_RUN,,,SR-G2-115,DEUC,regulation,en,2026-10-10T12:37:39+00:00,74,74,1,,,,EVS-115,"74 results; depth: Filtered, first 100 results; catalogue holds 4306 datasets"
+DL-0116,SEARCH_RUN,,,SR-G2-116,DEUC,legislation,en,2026-10-10T12:37:42+00:00,15,15,0,,,,EVS-116,"15 results; depth: Filtered, first 100 results; catalogue holds 4306 datasets"
+DL-0117,SEARCH_RUN,,,SR-G2-117,DEUC,compliance,en,2026-10-10T12:37:46+00:00,5,5,2,,,,EVS-117,"5 results; depth: Filtered, first 100 results; catalogue holds 4306 datasets"
+DL-0118,SEARCH_RUN,,,SR-G2-118,DEUC,register,en,2026-10-10T12:37:49+00:00,72,72,0,,,,EVS-118,"72 results; depth: Filtered, first 100 results; catalogue holds 4306 datasets"
+DL-0119,SEARCH_RUN,,,SR-G2-119,DEU,market surveillance,en,2026-10-10T12:37:53+00:00,57695,25,2,,,,EVS-119,first 25 results screened by title
+DL-0120,SEARCH_RUN,,,SR-G2-120,DEU,rapid alert system dangerous products,en,2026-10-10T12:37:57+00:00,243903,25,0,,,,EVS-120,first 25 results screened by title
+DL-0121,SEARCH_RUN,,,SR-G2-121,DEU,authorised economic operators,en,2026-10-10T12:38:03+00:00,182988,25,0,,,,EVS-121,first 25 results screened by title
+DL-0122,SEARCH_RUN,,,SR-G2-122,DEU,type-approval vehicles,en,2026-10-10T12:38:07+00:00,160225,25,0,,,,EVS-122,first 25 results screened by title
+DL-0123,SEARCH_RUN,,,SR-G2-123,DEU,medical devices database,en,2026-10-10T12:38:12+00:00,60207,25,0,,,,EVS-123,first 25 results screened by title
+DL-0124,SEARCH_RUN,,,SR-G2-124,DEU,energy labelling product database,en,2026-10-10T12:38:17+00:00,127222,25,0,,,,EVS-124,first 25 results screened by title
+DL-0125,SEARCH_RUN,,,SR-G2-125,DEU,plant protection products authorisation,en,2026-10-10T12:38:20+00:00,154755,25,0,,,,EVS-125,first 25 results screened by title
+DL-0126,SEARCH_RUN,,,SR-G2-126,DEU,railway safety authority,en,2026-10-10T12:38:25+00:00,178603,25,0,,,,EVS-126,first 25 results screened by title
+DL-0127,SEARCH_RUN,,,SR-G2-127,DEU,financial supervisory authorities register,en,2026-10-10T12:38:28+00:00,1666386,25,0,,,,EVS-127,first 25 results screened by title
+DL-0128,SEARCH_RUN,,,SR-G2-128,DEU,credit institutions register,en,2026-10-10T12:38:34+00:00,101871,25,0,,,,EVS-128,first 25 results screened by title
+DL-0129,SEARCH_RUN,,,SR-G2-129,DEU,payment institutions register,en,2026-10-10T12:38:39+00:00,103100,25,0,,,,EVS-129,first 25 results screened by title
+DL-0130,SEARCH_RUN,,,SR-G2-130,DEU,conformity assessment bodies,en,2026-10-10T12:38:44+00:00,49161,25,0,,,,EVS-130,first 25 results screened by title
+DL-0131,SEARCH_RUN,,,SR-G2-131,DEU,certification bodies register,en,2026-10-10T12:38:48+00:00,83829,25,0,,,,EVS-131,first 25 results screened by title
+DL-0132,SEARCH_RUN,,,SR-G2-132,DEU,restrictive measures sanctions list,en,2026-10-10T12:38:51+00:00,190623,25,0,,,,EVS-132,first 25 results screened by title
+DL-0133,SEARCH_RUN,,,SR-G2-133,DEU,inspection reports,en,2026-10-10T12:38:55+00:00,76140,25,0,,,,EVS-133,first 25 results screened by title
+DL-0134,SEARCH_RUN,,,SR-G2-134,DEU,infringement cases Commission,en,2026-10-10T12:38:58+00:00,50082,25,0,,,,EVS-134,first 25 results screened by title
+DL-0135,SEARCH_RUN,,,SR-G2-135,DEU,whistleblowing authorities,en,2026-10-10T12:39:02+00:00,1665195,25,0,,,,EVS-135,first 25 results screened by title
+DL-0136,SEARCH_RUN,,,SR-G2-136,DEU,lobby register,en,2026-10-10T12:39:06+00:00,66097,25,0,,,,EVS-136,first 25 results screened by title
+DL-0137,SEARCH_RUN,,,SR-G2-137,DEU,national competent authorities list,en,2026-10-10T12:39:09+00:00,1668367,25,0,,,,EVS-137,first 25 results screened by title
+DL-0138,SEARCH_RUN,,,SR-G2-138,DEU,European networks of regulators,en,2026-10-10T12:39:15+00:00,1130512,25,0,,,,EVS-138,first 25 results screened by title
+DL-0139,SEARCH_RUN,,,SR-G2-139,DEU,autorités de surveillance du marché,fr,2026-10-10T12:39:21+00:00,1726794,25,0,,,,EVS-139,first 25 results screened by title
+DL-0140,SEARCH_RUN,,,SR-G2-140,DEU,registre des sanctions,fr,2026-10-10T12:39:28+00:00,787732,25,0,,,,EVS-140,first 25 results screened by title
+DL-0141,SEARCH_RUN,,,SR-G2-141,DEU,Marktüberwachung Behörden,de,2026-10-10T12:39:32+00:00,1663892,25,0,,,,EVS-141,first 25 results screened by title
+DL-0142,SEARCH_RUN,,,SR-G2-142,ZEN,notified bodies dataset,en,2026-10-10T12:39:37+00:00,324178,25,0,,,,EVS-142,first 25 results screened by title
+DL-0143,SEARCH_RUN,,,SR-G2-143,ZEN,regulatory agencies Europe dataset,en,2026-10-10T12:39:47+00:00,490229,25,0,,,,EVS-143,first 25 results screened by title
+DL-0144,SEARCH_RUN,,,SR-G2-144,ZEN,market surveillance dataset,en,2026-10-10T12:39:54+00:00,402660,25,0,,,,EVS-144,first 25 results screened by title
+DL-0145,SEARCH_RUN,,,SR-G2-145,ZEN,REACH dataset,en,2026-10-10T12:39:59+00:00,336019,25,0,,,,EVS-145,first 25 results screened by title
+DL-0146,SEARCH_RUN,,,SR-G2-146,ZEN,EU agencies delegation dataset,en,2026-10-10T12:40:07+00:00,351890,25,0,,,,EVS-146,first 25 results screened by title
+DL-0147,SEARCH_RUN,,,SR-G2-147,ZEN,comitology dataset,en,2026-10-10T12:40:23+00:00,295697,25,0,,,,EVS-147,first 25 results screened by title
+DL-0148,SEARCH_RUN,,,SR-G2-148,ZEN,delegated acts dataset,en,2026-10-10T12:40:27+00:00,323682,25,0,,,,EVS-148,first 25 results screened by title
+DL-0149,SEARCH_RUN,,,SR-G2-149,ZEN,trilogue dataset,en,2026-10-10T12:40:42+00:00,295714,25,0,,,,EVS-149,first 25 results screened by title
+DL-0150,SEARCH_RUN,,,SR-G2-150,ZEN,impact assessment dataset European Commission,en,2026-10-10T12:40:50+00:00,1330060,25,0,,,,EVS-150,first 25 results screened by title
+DL-0151,SEARCH_RUN,,,SR-G2-151,ZEN,public consultation dataset European Commission,en,2026-10-10T12:40:58+00:00,1181628,25,0,,,,EVS-151,first 25 results screened by title
+DL-0152,SEARCH_RUN,,,SR-G2-152,ZEN,preliminary reference dataset Court of Justice,en,2026-10-10T12:41:03+00:00,5613984,25,1,,,,EVS-152,first 25 results screened by title
+DL-0153,SEARCH_RUN,,,SR-G2-153,ZEN,transposition dataset,en,2026-10-10T12:41:09+00:00,296964,25,0,,,,EVS-153,first 25 results screened by title
+DL-0154,SEARCH_RUN,,,SR-G2-154,DVN,notified bodies,en,2026-10-10T12:41:13+00:00,6582,25,0,,,,EVS-154,first 25 results screened by title
+DL-0155,SEARCH_RUN,,,SR-G2-155,DVN,EU agencies,en,2026-10-10T12:41:18+00:00,19011,25,1,,,,EVS-155,first 25 results screened by title
+DL-0156,SEARCH_RUN,,,SR-G2-156,DVN,comitology,en,2026-10-10T12:41:21+00:00,1,1,0,,,,EVS-156,first 25 results screened by title
+DL-0157,SEARCH_RUN,,,SR-G2-157,DVN,delegated acts,en,2026-10-10T12:41:24+00:00,7490,25,0,,,,EVS-157,first 25 results screened by title
+DL-0158,SEARCH_RUN,,,SR-G2-158,DVN,impact assessment European Commission,en,2026-10-10T12:41:28+00:00,44772,25,0,,,,EVS-158,first 25 results screened by title
+DL-0159,SEARCH_RUN,,,SR-G2-159,DVN,infringement proceedings,en,2026-10-10T12:41:32+00:00,1820,25,0,,,,EVS-159,first 25 results screened by title
+DL-0160,SEARCH_RUN,,,SR-G2-160,DVN,trilogue,en,2026-10-10T12:41:35+00:00,0,0,0,,,,EVS-160,no results
+DL-0161,SEARCH_RUN,,,SR-G2-161,DVN,regulatory agencies Europe,en,2026-10-10T12:41:38+00:00,21773,25,0,,,,EVS-161,first 25 results screened by title
+DL-0162,SEARCH_RUN,,,SR-G2-162,DNS,EU legislation,en,2026-10-10T12:41:42+00:00,128,25,2,,,,EVS-162,first 25 results screened by title
+DL-0163,SEARCH_RUN,,,SR-G2-163,DNS,European Union regulation,en,2026-10-10T12:41:45+00:00,571,25,0,,,,EVS-163,first 25 results screened by title
+DL-0164,SEARCH_RUN,,,SR-G2-164,DNS,European Union agencies,en,2026-10-10T12:41:49+00:00,548,25,0,,,,EVS-164,first 25 results screened by title
+DL-0165,SEARCH_RUN,,,SR-G2-165,B2F,EU legislation,en,2026-10-10T12:41:52+00:00,231,25,0,,,,EVS-165,first 25 results screened by title
+DL-0166,SEARCH_RUN,,,SR-G2-166,B2F,EU regulation,en,2026-10-10T12:41:57+00:00,407,25,0,,,,EVS-166,first 25 results screened by title
+DL-0167,SEARCH_RUN,,,SR-G2-167,B2F,European Union agencies,en,2026-10-10T12:42:01+00:00,59,25,0,,,,EVS-167,first 25 results screened by title
+DL-0168,SEARCH_RUN,,,SR-G2-168,OAX,notified bodies dataset,en,2026-10-10T12:42:05+00:00,41442,25,1,,,,EVS-168,first 25 results screened by title
+DL-0169,SEARCH_RUN,,,SR-G2-169,OAX,European regulatory agencies dataset,en,2026-10-10T12:42:09+00:00,175332,25,1,,,,EVS-169,first 25 results screened by title
+DL-0170,SEARCH_RUN,,,SR-G2-170,OAX,dataset of EU delegated acts,en,2026-10-10T12:42:13+00:00,7466,25,0,,,,EVS-170,first 25 results screened by title
+DL-0171,SEARCH_RUN,,,SR-G2-171,OAX,dataset of Council voting EU legislation,en,2026-10-10T12:42:17+00:00,8367,25,1,,,,EVS-171,first 25 results screened by title
+DL-0172,SEARCH_RUN,,,SR-G2-172,OAX,dataset trilogues European Parliament,en,2026-10-10T12:42:21+00:00,470,25,0,,,,EVS-172,first 25 results screened by title
+DL-0173,SEARCH_RUN,,,SR-G2-173,OAX,impact assessments dataset European Commission,en,2026-10-10T12:42:25+00:00,255732,25,0,,,,EVS-173,first 25 results screened by title
+DL-0174,SEARCH_RUN,,,SR-G2-174,OAX,dataset EU consolidated legislation,en,2026-10-10T12:42:29+00:00,19553,25,0,,,,EVS-174,first 25 results screened by title
+DL-0175,SEARCH_RUN,,,SR-G2-175,OAX,data paper European Union law dataset,en,2026-10-10T12:42:33+00:00,148937,25,1,,,,EVS-175,first 25 results screened by title
+DL-0176,SEARCH_RUN,,,SR-G2-176,OAX,dataset regulatory networks Europe,en,2026-10-10T12:42:37+00:00,292718,25,0,,,,EVS-176,first 25 results screened by title
+DL-0177,SEARCH_RUN,,,SR-G2-177,OAX,dataset European Commission decisions,en,2026-10-10T12:42:41+00:00,256723,25,2,,,,EVS-177,first 25 results screened by title
+DL-0178,SEARCH_RUN,,,SR-G2-178,DCT,European Union agencies,en,2026-10-10T12:42:45+00:00,224,25,0,,,,EVS-178,first 25 results screened by title
+DL-0179,SEARCH_RUN,,,SR-G2-179,DCT,comitology,en,2026-10-10T12:42:49+00:00,4,4,1,,,,EVS-179,first 25 results screened by title
+DL-0180,SEARCH_RUN,,,SR-G2-180,DCT,transposition,en,2026-10-10T12:42:52+00:00,785,25,0,,,,EVS-180,first 25 results screened by title
+DL-0181,SEARCH_RUN,,,SR-G2-181,DCT,infringement,en,2026-10-10T12:42:55+00:00,1051,25,1,,,,EVS-181,first 25 results screened by title
+DL-0182,SEARCH_RUN,,,SR-G2-182,HF,eu-law,en,2026-10-10T12:42:59+00:00,,7,0,,,,EVS-182,first 25 results screened by title
+DL-0183,SEARCH_RUN,,,SR-G2-183,HF,eu legislation,en,2026-10-10T12:43:01+00:00,,1,0,,,,EVS-183,first 25 results screened by title
+DL-0184,SEARCH_RUN,,,SR-G2-184,HF,european parliament,en,2026-10-10T12:43:03+00:00,,11,0,,,,EVS-184,first 25 results screened by title
+DL-0185,SEARCH_RUN,,,SR-G2-185,HF,legislative,en,2026-10-10T12:43:06+00:00,,25,0,,,,EVS-185,first 25 results screened by title
+DL-0186,SEARCH_RUN,,,SR-G2-186,GH,eu legislation data,en,2026-10-10T12:43:08+00:00,23,23,0,,,,EVS-186,first 25 results screened by title
+DL-0187,SEARCH_RUN,,,SR-G2-187,GH,european regulation dataset,en,2026-10-10T12:43:11+00:00,3,3,0,,,,EVS-187,first 25 results screened by title
+DL-0188,SEARCH_RUN,,,SR-G2-188,GH,legislative procedure dataset,en,2026-10-10T12:43:14+00:00,0,0,0,,,,EVS-188,no results
+DL-0189,SEARCH_RUN,,,SR-G2-189,GH,comitology,en,2026-10-10T12:43:16+00:00,1,1,0,,,,EVS-189,first 25 results screened by title
+DL-0190,SEARCH_RUN,,,SR-G2-190,GH,transposition data,en,2026-10-10T12:43:19+00:00,420,25,0,,,,EVS-190,first 25 results screened by title
+DL-0191,SEARCH_RUN,,,SR-G2-191,OAX,new dataset European Union legislation,en,2026-10-10T12:43:22+00:00,81338,25,0,,,,EVS-191,25 results; depth: SR-G2-040 linked at least 5 hits to resources on page 0; page 1 added to test whether the yield continues
+DL-0192,SEARCH_RUN,,,SR-G2-192,OAX,EUR-Lex corpus,en,2026-10-10T12:43:26+00:00,3322,25,0,,,,EVS-192,25 results; depth: SR-G2-041 linked at least 5 hits to resources on page 0; page 1 added to test whether the yield continues
+DL-0193,SEARCH_RUN,,,SR-G2-193,ZEN,EUR-Lex corpus,en,2026-10-10T12:43:29+00:00,361187,25,0,,,,EVS-193,25 results; depth: SR-G2-025 linked at least 5 hits to resources on page 0; page 1 added to test whether the yield continues
+DL-0194,SEARCH_RUN,,,SR-G2-194,ZEN,EU legislative procedures dataset,en,2026-10-10T12:43:35+00:00,384492,25,0,,,,EVS-194,25 results; depth: SR-G2-027 linked at least 5 hits to resources on page 0; page 1 added to test whether the yield continues
+DL-0195,SEARCH_RUN,,,SR-G2-195,DVN,EU directives transposition compliance,en,2026-10-10T12:43:43+00:00,14691,25,0,,,,EVS-195,25 results; depth: SR-G2-034 linked at least 5 hits to resources on page 0; page 1 added to test whether the yield continues
+DL-0196,SEARCH_RUN,,,SR-G2-196,DVN,European Union legislation,en,2026-10-10T12:43:47+00:00,20900,25,0,,,,EVS-196,25 results; depth: SR-G2-033 linked at least 5 hits to resources on page 0; page 1 added to test whether the yield continues
+DL-0197,RESOURCE_DISCOVERY,MR-0001,SEED,,,,,,,,,,,,,Record of the exploratory inventory (inputs/seed_inventory_v0_1.csv); not found by a registered search.
+DL-0198,SEED_REFOUND_BY_SEARCH,MR-0001,SEED,SR-G2-002,DEU,,,,,,,1,eu-legislation-in-force,EU legislation currently in force,EVS-002,"The seed, one of its distributions or its data paper was returned by this search."
+DL-0199,SEED_REFOUND_BY_SEARCH,MR-0001,SEED,SR-G2-007,DEU,,,,,,,1,eu-legislative-procedures,EU legislative procedures,EVS-007,"The seed, one of its distributions or its data paper was returned by this search."
+DL-0200,SEED_REFOUND_BY_SEARCH,MR-0001,SEED,SR-G2-023,DEU,,,,,,,6,eu-legislation-basic-acts,EU legislation - basic acts,EVS-023,"The seed, one of its distributions or its data paper was returned by this search."
+DL-0201,RESOURCE_DISCOVERY,MR-0002,SEED,,,,,,,,,,,,,Record of the exploratory inventory (inputs/seed_inventory_v0_1.csv); not found by a registered search.
+DL-0202,RESOURCE_DISCOVERY,MR-0003,SEED,,,,,,,,,,,,,Record of the exploratory inventory (inputs/seed_inventory_v0_1.csv); not found by a registered search.
+DL-0203,SEED_REFOUND_BY_SEARCH,MR-0003,SEED,SR-G2-001,DEU,,,,,,,4,eur-lex-data-dump,EUR-Lex data dump,EVS-001,"The seed, one of its distributions or its data paper was returned by this search."
+DL-0204,RESOURCE_DISCOVERY,MR-0004,SEED,,,,,,,,,,,,,Record of the exploratory inventory (inputs/seed_inventory_v0_1.csv); not found by a registered search.
+DL-0205,SEED_REFOUND_BY_SEARCH,MR-0004,SEED,SR-G2-003,DEU,,,,,,,6,official-journals-of-the-european-union-2023,Official Journals of the European Union 2023,EVS-003,"The seed, one of its distributions or its data paper was returned by this search."
+DL-0206,RESOURCE_DISCOVERY,MR-0005,SEED,,,,,,,,,,,,,Record of the exploratory inventory (inputs/seed_inventory_v0_1.csv); not found by a registered search.
+DL-0207,RESOURCE_DISCOVERY,MR-0006,SEED,,,,,,,,,,,,,Record of the exploratory inventory (inputs/seed_inventory_v0_1.csv); not found by a registered search.
+DL-0208,RESOURCE_DISCOVERY,MR-0007,SEED,,,,,,,,,,,,,Record of the exploratory inventory (inputs/seed_inventory_v0_1.csv); not found by a registered search.
+DL-0209,RESOURCE_DISCOVERY,MR-0008,SEED,,,,,,,,,,,,,Record of the exploratory inventory (inputs/seed_inventory_v0_1.csv); not found by a registered search.
+DL-0210,RESOURCE_DISCOVERY,MR-0009,SEED,,,,,,,,,,,,,Record of the exploratory inventory (inputs/seed_inventory_v0_1.csv); not found by a registered search.
+DL-0211,RESOURCE_DISCOVERY,MR-0010,SEED,,,,,,,,,,,,,Record of the exploratory inventory (inputs/seed_inventory_v0_1.csv); not found by a registered search.
+DL-0212,RESOURCE_DISCOVERY,MR-0011,SEED,,,,,,,,,,,,,Record of the exploratory inventory (inputs/seed_inventory_v0_1.csv); not found by a registered search.
+DL-0213,SEED_REFOUND_BY_SEARCH,MR-0011,SEED,SR-G2-010,DEU,,,,,,,7,council-votes-on-legislative-acts,[DISCONTINUED] Council votes on legislative acts,EVS-010,"The seed, one of its distributions or its data paper was returned by this search."
+DL-0214,RESOURCE_DISCOVERY,MR-0012,SEED,,,,,,,,,,,,,Record of the exploratory inventory (inputs/seed_inventory_v0_1.csv); not found by a registered search.
+DL-0215,RESOURCE_DISCOVERY,MR-0013,SEED,,,,,,,,,,,,,Record of the exploratory inventory (inputs/seed_inventory_v0_1.csv); not found by a registered search.
+DL-0216,RESOURCE_DISCOVERY,MR-0014,SEED,,,,,,,,,,,,,Record of the exploratory inventory (inputs/seed_inventory_v0_1.csv); not found by a registered search.
+DL-0217,RESOURCE_DISCOVERY,MR-0015,SEED,,,,,,,,,,,,,Record of the exploratory inventory (inputs/seed_inventory_v0_1.csv); not found by a registered search.
+DL-0218,SEED_REFOUND_BY_SEARCH,MR-0015,SEED,SR-G2-008,DEU,,,,,,,1,comitology-register,Comitology Register,EVS-008,"The seed, one of its distributions or its data paper was returned by this search."
+DL-0219,RESOURCE_DISCOVERY,MR-0016,SEED,,,,,,,,,,,,,Record of the exploratory inventory (inputs/seed_inventory_v0_1.csv); not found by a registered search.
+DL-0220,SEED_REFOUND_BY_SEARCH,MR-0016,SEED,SR-G2-016,DEU,,,,,,,16,sg-regexp,Register of Commission Expert Groups and other similar entities,EVS-016,"The seed, one of its distributions or its data paper was returned by this search."
+DL-0221,RESOURCE_DISCOVERY,MR-0017,SEED,,,,,,,,,,,,,Record of the exploratory inventory (inputs/seed_inventory_v0_1.csv); not found by a registered search.
+DL-0222,SEED_REFOUND_BY_SEARCH,MR-0017,SEED,SR-G2-015,DEU,,,,,,,3,transparency-register,Transparency Register,EVS-015,"The seed, one of its distributions or its data paper was returned by this search."
+DL-0223,RESOURCE_DISCOVERY,MR-0018,SEED,,,,,,,,,,,,,Record of the exploratory inventory (inputs/seed_inventory_v0_1.csv); not found by a registered search.
+DL-0224,RESOURCE_DISCOVERY,MR-0019,SEED,,,,,,,,,,,,,Record of the exploratory inventory (inputs/seed_inventory_v0_1.csv); not found by a registered search.
+DL-0225,RESOURCE_DISCOVERY,MR-0020,SEED,,,,,,,,,,,,,Record of the exploratory inventory (inputs/seed_inventory_v0_1.csv); not found by a registered search.
+DL-0226,RESOURCE_DISCOVERY,MR-0021,SEED,,,,,,,,,,,,,Record of the exploratory inventory (inputs/seed_inventory_v0_1.csv); not found by a registered search.
+DL-0227,RESOURCE_DISCOVERY,MR-0022,SEED,,,,,,,,,,,,,Record of the exploratory inventory (inputs/seed_inventory_v0_1.csv); not found by a registered search.
+DL-0228,RESOURCE_DISCOVERY,MR-0023,SEED,,,,,,,,,,,,,Record of the exploratory inventory (inputs/seed_inventory_v0_1.csv); not found by a registered search.
+DL-0229,SEED_REFOUND_BY_SEARCH,MR-0023,SEED,SR-G2-005,DEU,,,,,,,8,european-case-law-identifier-ecli,European Case Law Identifier (ECLI),EVS-005,"The seed, one of its distributions or its data paper was returned by this search."
+DL-0230,RESOURCE_DISCOVERY,MR-0024,SEED,,,,,,,,,,,,,Record of the exploratory inventory (inputs/seed_inventory_v0_1.csv); not found by a registered search.
+DL-0231,RESOURCE_DISCOVERY,MR-0025,SEED,,,,,,,,,,,,,Record of the exploratory inventory (inputs/seed_inventory_v0_1.csv); not found by a registered search.
+DL-0232,RESOURCE_DISCOVERY,MR-0026,SEED,,,,,,,,,,,,,Record of the exploratory inventory (inputs/seed_inventory_v0_1.csv); not found by a registered search.
+DL-0233,RESOURCE_DISCOVERY,MR-0027,SEED,,,,,,,,,,,,,Record of the exploratory inventory (inputs/seed_inventory_v0_1.csv); not found by a registered search.
+DL-0234,RESOURCE_DISCOVERY,MR-0028,SEED,,,,,,,,,,,,,Record of the exploratory inventory (inputs/seed_inventory_v0_1.csv); not found by a registered search.
+DL-0235,RESOURCE_DISCOVERY,MR-0029,SEED,,,,,,,,,,,,,Record of the exploratory inventory (inputs/seed_inventory_v0_1.csv); not found by a registered search.
+DL-0236,RESOURCE_DISCOVERY,MR-0030,SEED,,,,,,,,,,,,,Record of the exploratory inventory (inputs/seed_inventory_v0_1.csv); not found by a registered search.
+DL-0237,RESOURCE_DISCOVERY,MR-0031,SEED,,,,,,,,,,,,,Record of the exploratory inventory (inputs/seed_inventory_v0_1.csv); not found by a registered search.
+DL-0238,RESOURCE_DISCOVERY,MR-0032,SEED,,,,,,,,,,,,,Record of the exploratory inventory (inputs/seed_inventory_v0_1.csv); not found by a registered search.
+DL-0239,RESOURCE_DISCOVERY,MR-0033,SEED,,,,,,,,,,,,,Record of the exploratory inventory (inputs/seed_inventory_v0_1.csv); not found by a registered search.
+DL-0240,RESOURCE_DISCOVERY,MR-0034,SEED,,,,,,,,,,,,,Record of the exploratory inventory (inputs/seed_inventory_v0_1.csv); not found by a registered search.
+DL-0241,RESOURCE_DISCOVERY,MR-0035,SEED,,,,,,,,,,,,,Record of the exploratory inventory (inputs/seed_inventory_v0_1.csv); not found by a registered search.
+DL-0242,SEED_REFOUND_BY_SEARCH,MR-0035,SEED,SR-G2-046,HF,,,,,,,2,coastalcph/multi_eurlex,coastalcph/multi_eurlex,EVS-046,"The seed, one of its distributions or its data paper was returned by this search."
+DL-0243,SEED_REFOUND_BY_SEARCH,MR-0035,SEED,SR-G2-052,GH,,,,,,,1,nlpaueb/multi-eurlex,nlpaueb/multi-eurlex — MultiEURLEX - A multi-lingual and multi-label legal document classification dataset for zero-shot cross-lingual transfer,EVS-052,"The seed, one of its distributions or its data paper was returned by this search."
+DL-0244,RESOURCE_DISCOVERY,MR-0036,SEED,,,,,,,,,,,,,Record of the exploratory inventory (inputs/seed_inventory_v0_1.csv); not found by a registered search.
+DL-0245,SEED_REFOUND_BY_SEARCH,MR-0036,SEED,SR-G2-046,HF,,,,,,,1,NLP-AUEB/eurlex,NLP-AUEB/eurlex,EVS-046,"The seed, one of its distributions or its data paper was returned by this search."
+DL-0246,RESOURCE_DISCOVERY,MR-0037,SEED,,,,,,,,,,,,,Record of the exploratory inventory (inputs/seed_inventory_v0_1.csv); not found by a registered search.
+DL-0247,SEED_REFOUND_BY_SEARCH,MR-0037,SEED,SR-G2-041,OAX,,,,,,,24,https://openalex.org/W1625582487,The JRC-Acquis: A Multilingual Aligned Parallel Corpus with 20+ Languages,EVS-041,"The seed, one of its distributions or its data paper was returned by this search."
+DL-0248,SEED_REFOUND_BY_SEARCH,MR-0037,SEED,SR-G2-050,HF,,,,,,,9,FrancophonIA/The_JRC-Acquis_Corpus_v3.0,FrancophonIA/The_JRC-Acquis_Corpus_v3.0,EVS-050,"The seed, one of its distributions or its data paper was returned by this search."
+DL-0249,RESOURCE_DISCOVERY,MR-0038,SEED,,,,,,,,,,,,,Record of the exploratory inventory (inputs/seed_inventory_v0_1.csv); not found by a registered search.
+DL-0250,SEED_REFOUND_BY_SEARCH,MR-0038,SEED,SR-G2-050,HF,,,,,,,8,FrancophonIA/DGT-Acquis,FrancophonIA/DGT-Acquis,EVS-050,"The seed, one of its distributions or its data paper was returned by this search."
+DL-0251,RESOURCE_DISCOVERY,MR-0039,SEED,,,,,,,,,,,,,Record of the exploratory inventory (inputs/seed_inventory_v0_1.csv); not found by a registered search.
+DL-0252,RESOURCE_DISCOVERY,MR-0040,SEED,,,,,,,,,,,,,Record of the exploratory inventory (inputs/seed_inventory_v0_1.csv); not found by a registered search.
+DL-0253,RESOURCE_DISCOVERY,MR-0041,SEED,,,,,,,,,,,,,Record of the exploratory inventory (inputs/seed_inventory_v0_1.csv); not found by a registered search.
+DL-0254,RESOURCE_DISCOVERY,MR-0042,SYSTEMATIC_SEARCH,SR-G2-001,DEU,,,,,,,1,eur-lex-statistics,EUR-Lex — Content statistics,EVS-001,
+DL-0255,RESOURCE_DISCOVERY,MR-0043,SYSTEMATIC_SEARCH,SR-G2-001,DEU,,,,,,,6,eli-european-legislation-identifier-eurlex,ELI (European Legislation Identifier) - EU (EUR-Lex),EVS-001,
+DL-0256,RESOURCE_DISCOVERY,MR-0043,SYSTEMATIC_SEARCH,SR-G2-005,DEU,,,,,,,7,eli-european-legislation-identifier-eurlex,ELI (European Legislation Identifier) - EU (EUR-Lex),EVS-005,
+DL-0257,RESOURCE_DISCOVERY,MR-0044,SYSTEMATIC_SEARCH,SR-G2-005,DEU,,,,,,,1,eli-european-legislation-identifier-ireland,ELI (European Legislation Identifier) - Ireland,EVS-005,
+DL-0258,RESOURCE_DISCOVERY,MR-0044,SYSTEMATIC_SEARCH,SR-G2-005,DEU,,,,,,,2,eli-european-legislation-identifier-denmark,ELI (European Legislation Identifier) - Denmark,EVS-005,
+DL-0259,RESOURCE_DISCOVERY,MR-0044,SYSTEMATIC_SEARCH,SR-G2-005,DEU,,,,,,,3,eli-european-legislation-identifier-italy,ELI (European Legislation Identifier) - Italy,EVS-005,
+DL-0260,RESOURCE_DISCOVERY,MR-0044,SYSTEMATIC_SEARCH,SR-G2-005,DEU,,,,,,,4,eli-european-legislation-identifier-luxembourg,ELI (European Legislation Identifier) - Luxembourg,EVS-005,
+DL-0261,RESOURCE_DISCOVERY,MR-0044,SYSTEMATIC_SEARCH,SR-G2-005,DEU,,,,,,,5,eli-european-legislation-identifier-finland,ELI (European Legislation Identifier) - Finland,EVS-005,
+DL-0262,RESOURCE_DISCOVERY,MR-0045,SYSTEMATIC_SEARCH,SR-G2-001,DEU,,,,,,,3,doi-10-48804-tk4ier,The EUR-Lex Retrieval Dataset,EVS-001,
+DL-0263,RESOURCE_DISCOVERY,MR-0045,SYSTEMATIC_SEARCH,SR-G2-052,GH,,,,,,,5,christofkoolen/eurlex-retrieval-dataset,christofkoolen/eurlex-retrieval-dataset,EVS-052,
+DL-0264,RESOURCE_DISCOVERY,MR-0046,SYSTEMATIC_SEARCH,SR-G2-002,DEU,,,,,,,11,76896b14-993e-4401-83de-b72e0fbf6052,Annotation of Reporting obligations in EU legislation dataset,EVS-002,
+DL-0265,RESOURCE_DISCOVERY,MR-0047,SYSTEMATIC_SEARCH,SR-G2-011,DEU,,,,,,,4,transposition-single-market-scoreboard,Transposition - Single Market Scoreboard,EVS-011,
+DL-0266,RESOURCE_DISCOVERY,MR-0048,SYSTEMATIC_SEARCH,SR-G2-011,DEU,,,,,,,3,4fooxuq9patlfvdp9b8zjg,[DISCONTINUED] Transposition deficit,EVS-011,
+DL-0267,RESOURCE_DISCOVERY,MR-0049,SYSTEMATIC_SEARCH,SR-G2-011,DEU,,,,,,,1,liste-des-directives-europeennes-et-transpositions-nationales,List of European directives and national transpositions,EVS-011,
+DL-0268,RESOURCE_DISCOVERY,MR-0050,SYSTEMATIC_SEARCH,SR-G2-011,DEU,,,,,,,11,6c7e214e-34df-474e-9b1b-4e68347fda96,Transposed/implemented EU legislation,EVS-011,
+DL-0269,RESOURCE_DISCOVERY,MR-0051,SYSTEMATIC_SEARCH,SR-G2-006,DEU,,,,,,,8,90e10857-1222-4b7e-b8ab-86b8409def6b,Cases before the Court of Justice and the General Court of the EU,EVS-006,
+DL-0270,RESOURCE_DISCOVERY,MR-0052,SYSTEMATIC_SEARCH,SR-G2-018,DEU,,,,,,,24,sanctions,Sanctions,EVS-018,
+DL-0271,RESOURCE_DISCOVERY,MR-0053,SYSTEMATIC_SEARCH,SR-G2-019,DEU,,,,,,,5,state-aid-legislation,State aid legislation,EVS-019,
+DL-0272,RESOURCE_DISCOVERY,MR-0054,SYSTEMATIC_SEARCH,SR-G2-013,DEU,,,,,,,2,https-dcat-swedac-se-dataset-a63c7f38-e07b-e611-8fbf-00155d020210,Notified body (17025),EVS-013,
+DL-0273,RESOURCE_DISCOVERY,MR-0054,SYSTEMATIC_SEARCH,SR-G2-013,DEU,,,,,,,3,https-dcat-swedac-se-dataset-17ededba-df7b-e611-8fbf-00155d020210,Notified body (17020),EVS-013,
+DL-0274,RESOURCE_DISCOVERY,MR-0054,SYSTEMATIC_SEARCH,SR-G2-013,DEU,,,,,,,4,https-dcat-swedac-se-dataset-7abf428d-444c-f011-860f-005056ae1051,Notified body (17029),EVS-013,
+DL-0275,RESOURCE_DISCOVERY,MR-0054,SYSTEMATIC_SEARCH,SR-G2-013,DEU,,,,,,,5,https-dcat-swedac-se-dataset-3eeadfdc-e07b-e611-8fbf-00155d020210,Notified body (17024),EVS-013,
+DL-0276,RESOURCE_DISCOVERY,MR-0054,SYSTEMATIC_SEARCH,SR-G2-013,DEU,,,,,,,6,https-dcat-swedac-se-dataset-fe7827f5-df7b-e611-8fbf-00155d020210,Notified body (17021),EVS-013,
+DL-0277,RESOURCE_DISCOVERY,MR-0054,SYSTEMATIC_SEARCH,SR-G2-013,DEU,,,,,,,7,https-dcat-swedac-se-dataset-47993575-e07b-e611-8fbf-00155d020210,Notified body (17065),EVS-013,
+DL-0278,RESOURCE_DISCOVERY,MR-0054,SYSTEMATIC_SEARCH,SR-G2-013,DEU,,,,,,,8,https-dcat-swedac-se-dataset-b0e15926-a122-f111-862c-005056ae1051,Notified body (17029/14065),EVS-013,
+DL-0279,RESOURCE_DISCOVERY,MR-0055,SYSTEMATIC_SEARCH,SR-G2-025,ZEN,,,,,,,1,10.5281/zenodo.1442401,"Exported Definitions, References, Document Structure from EU Legislations",EVS-025,
+DL-0280,RESOURCE_DISCOVERY,MR-0056,SYSTEMATIC_SEARCH,SR-G2-027,ZEN,,,,,,,6,10.5281/zenodo.4626030,Lexparency.org legislative corpus,EVS-027,
+DL-0281,RESOURCE_DISCOVERY,MR-0057,SYSTEMATIC_SEARCH,SR-G2-025,ZEN,,,,,,,4,10.5281/zenodo.12837276,MultiLegalPile: A 689GB Multilingual Legal Corpus,EVS-025,
+DL-0282,RESOURCE_DISCOVERY,MR-0058,SYSTEMATIC_SEARCH,SR-G2-046,HF,,,,,,,5,joelniklaus/eurlex_resources,joelniklaus/eurlex_resources,EVS-046,
+DL-0283,RESOURCE_DISCOVERY,MR-0059,SYSTEMATIC_SEARCH,SR-G2-025,ZEN,,,,,,,20,10.5281/zenodo.3926736,Court of Justice of the EU case citations and full texts,EVS-025,
+DL-0284,RESOURCE_DISCOVERY,MR-0059,SYSTEMATIC_SEARCH,SR-G2-028,ZEN,,,,,,,21,10.5281/zenodo.4228652,Court of Justice of the EU case similarity and relevance analysis,EVS-028,
+DL-0285,RESOURCE_DISCOVERY,MR-0060,SYSTEMATIC_SEARCH,SR-G2-027,ZEN,,,,,,,4,10.5281/zenodo.20085298,"Corpus of the EU Parliament Debates (EUPDCorp), 1999-2024",EVS-027,
+DL-0286,RESOURCE_DISCOVERY,MR-0061,SYSTEMATIC_SEARCH,SR-G2-027,ZEN,,,,,,,9,10.5281/zenodo.19360604,V4 EU Directives Transposition and Voting Dataset (National and EP Levels),EVS-027,
+DL-0287,RESOURCE_DISCOVERY,MR-0062,SYSTEMATIC_SEARCH,SR-G2-029,ZEN,,,,,,,4,10.5281/zenodo.22029209,Subnational European Environmental Infringements (SEEI) Dataset,EVS-029,
+DL-0288,RESOURCE_DISCOVERY,MR-0063,SYSTEMATIC_SEARCH,SR-G2-031,ZEN,,,,,,,5,10.5281/zenodo.22802512,Competition Law Enforcement Dataset (CLED),EVS-031,
+DL-0289,RESOURCE_DISCOVERY,MR-0064,SYSTEMATIC_SEARCH,SR-G2-030,ZEN,,,,,,,13,10.5281/zenodo.19153215,Dataset on Traditional Food Notifications under EU Regulation (2018–2026): OpenEFSA-derived and curated data,EVS-030,
+DL-0290,RESOURCE_DISCOVERY,MR-0065,SYSTEMATIC_SEARCH,SR-G2-026,ZEN,,,,,,,7,10.5281/zenodo.6806666,The European Arrest Warrant Before the Irish Courts: Datasets covering 2010 - 2020,EVS-026,
+DL-0291,RESOURCE_DISCOVERY,MR-0066,SYSTEMATIC_SEARCH,SR-G2-027,ZEN,,,,,,,14,10.5281/zenodo.7763552,Spamming the regulator: Exploring a new lobbying strategy in EU competition procedures,EVS-027,
+DL-0292,RESOURCE_DISCOVERY,MR-0067,SYSTEMATIC_SEARCH,SR-G2-033,DVN,,,,,,,1,doi:10.7910/DVN/1GFLRM,"Legislative Proposals in the European Union, 1965-2013",EVS-033,
+DL-0293,RESOURCE_DISCOVERY,MR-0068,SYSTEMATIC_SEARCH,SR-G2-033,DVN,,,,,,,2,doi:10.7910/DVN/1BARB6,National Parliaments in the European Union Dataset (NPdata),EVS-033,
+DL-0294,RESOURCE_DISCOVERY,MR-0069,SYSTEMATIC_SEARCH,SR-G2-033,DVN,,,,,,,12,doi:10.7910/DVN/D1EP1J,"Replication Data for: ’The sources of national obligations and flexibility in European Union legislative acts (1979-2019)’. Franchino, Fabio, Marta Migliorati and Giovanni Pagano",EVS-033,
+DL-0295,RESOURCE_DISCOVERY,MR-0069,SYSTEMATIC_SEARCH,SR-G2-039,DCT,,,,,,,1,10.7910/dvn/d1ep1j,"Replication Data for: ’The sources of national obligations and flexibility in European Union legislative acts (1979-2019)’. Franchino, Fabio, Marta Migliorati and Giovanni Pagano",EVS-039,
+DL-0296,RESOURCE_DISCOVERY,MR-0070,SYSTEMATIC_SEARCH,SR-G2-034,DVN,,,,,,,18,doi:10.7910/DVN/2ROLNQ,Replication Data for: Analyzing EU Policies: The Transposition of Directives,EVS-034,
+DL-0297,RESOURCE_DISCOVERY,MR-0071,SYSTEMATIC_SEARCH,SR-G2-034,DVN,,,,,,,19,doi:10.7910/DVN/F68K9S,Replication Data for: Comparing transposition in the 27 member states of the EU: The impact of discretion and legal fit,EVS-034,
+DL-0298,RESOURCE_DISCOVERY,MR-0072,SYSTEMATIC_SEARCH,SR-G2-034,DVN,,,,,,,22,doi:10.7910/DVN/NFIFH6,Replication Data for: The transposition of European law in EU member states: between process and politics,EVS-034,
+DL-0299,RESOURCE_DISCOVERY,MR-0073,SYSTEMATIC_SEARCH,SR-G2-035,DVN,,,,,,,8,doi:10.7910/DVN/MBLRZW,"Replication data for: Arras, S. and J. Beyers (2019) Access to European Union agencies. Usual suspects or balanced interest representation in open and closed consultations? Journal of Common Market Studies (in press)",EVS-035,
+DL-0300,RESOURCE_DISCOVERY,MR-0074,SYSTEMATIC_SEARCH,SR-G2-035,DVN,,,,,,,4,doi:10.7910/DVN/KOP4D7,Replication Data for: Who feeds information to regulators? Stakeholder diversity in European Union regulatory agency consultations,EVS-035,
+DL-0301,RESOURCE_DISCOVERY,MR-0075,SYSTEMATIC_SEARCH,SR-G2-035,DVN,,,,,,,13,doi:10.7910/DVN/WGZ4XN,"Replication Data for: Beyers, J. and S. Arras (2020). ""Stakeholder consultations and the legitimacy of regulatory decision-making: A survey experiment in Belgium."" Regulation & Governance DOI: 10.1111/rego.12323.",EVS-035,
+DL-0302,RESOURCE_DISCOVERY,MR-0076,SYSTEMATIC_SEARCH,SR-G2-036,DVN,,,,,,,19,doi:10.7910/DVN/JJXMZW,"Delegation, Compliance, and Judicial Decision-making in the Court of Justice of the European Union",EVS-036,
+DL-0303,RESOURCE_DISCOVERY,MR-0077,SYSTEMATIC_SEARCH,SR-G2-034,DVN,,,,,,,16,doi:10.7910/DVN/HXZAUQ,Accounting enforcement in EU (*The data is restricted until the publication of article),EVS-034,
+DL-0304,RESOURCE_DISCOVERY,MR-0078,SYSTEMATIC_SEARCH,SR-G2-040,OAX,,,,,,,3,https://openalex.org/W2086682298,A new dataset on decision-making in the European Union before and after the 2004 and 2007 enlargements (DEUII),EVS-040,
+DL-0305,RESOURCE_DISCOVERY,MR-0079,SYSTEMATIC_SEARCH,SR-G2-040,OAX,,,,,,,5,https://openalex.org/W4387022400,EUPROPS: A new dataset on policymaking in the European Union from 1958 to 2021,EVS-040,
+DL-0306,RESOURCE_DISCOVERY,MR-0080,SYSTEMATIC_SEARCH,SR-G2-040,OAX,,,,,,,21,https://openalex.org/W4416951891,A dataset on EU legislation for the digital world,EVS-040,
+DL-0307,RESOURCE_DISCOVERY,MR-0081,SYSTEMATIC_SEARCH,SR-G2-040,OAX,,,,,,,23,https://openalex.org/W3118862330,Facilitating access to data on European Union laws,EVS-040,
+DL-0308,RESOURCE_DISCOVERY,MR-0082,SYSTEMATIC_SEARCH,SR-G2-041,OAX,,,,,,,4,https://openalex.org/W4414414741,EUR-Lex-Triples: A Legal Relation Extraction Dataset from European Legislation,EVS-041,
+DL-0309,RESOURCE_DISCOVERY,MR-0083,SYSTEMATIC_SEARCH,SR-G2-041,OAX,,,,,,,6,https://openalex.org/W4385573683,EUR-Lex-Sum: A Multi- and Cross-lingual Dataset for Long-form Summarization in the Legal Domain,EVS-041,
+DL-0310,RESOURCE_DISCOVERY,MR-0083,SYSTEMATIC_SEARCH,SR-G2-046,HF,,,,,,,6,dennlinger/eur-lex-sum,dennlinger/eur-lex-sum,EVS-046,
+DL-0311,RESOURCE_DISCOVERY,MR-0084,SYSTEMATIC_SEARCH,SR-G2-041,OAX,,,,,,,15,https://openalex.org/W7128633160,LEMUR: A Corpus for Robust Fine-Tuning of Multilingual Law Embedding Models for Retrieval,EVS-041,
+DL-0312,RESOURCE_DISCOVERY,MR-0085,SYSTEMATIC_SEARCH,SR-G2-041,OAX,,,,,,,10,https://openalex.org/W2971491398,Lithuanian corpus of the EU primary and secondary law acts of the period 2015-2017,EVS-041,
+DL-0313,RESOURCE_DISCOVERY,MR-0086,SYSTEMATIC_SEARCH,SR-G2-044,OAX,,,,,,,3,https://openalex.org/W7134881831,"Dataset on Comitology Provisions in EU Regulations and Directives - Technical Description, Variables, and Frequency Distributions",EVS-044,
+DL-0314,RESOURCE_DISCOVERY,MR-0087,SYSTEMATIC_SEARCH,SR-G2-045,OAX,,,,,,,1,https://openalex.org/W4409984022,The European Court of Justice Dataset: Legal Issues and Doctrine,EVS-045,
+DL-0315,RESOURCE_DISCOVERY,MR-0087,SYSTEMATIC_SEARCH,SR-G2-045,OAX,,,,,,,2,https://openalex.org/W7147303699,The European Court of Justice Dataset: Legal Issues and Doctrine,EVS-045,
+DL-0316,RESOURCE_DISCOVERY,MR-0088,SYSTEMATIC_SEARCH,SR-G2-046,HF,,,,,,,7,ddrg/super_eurlex,ddrg/super_eurlex,EVS-046,
+DL-0317,RESOURCE_DISCOVERY,MR-0089,SYSTEMATIC_SEARCH,SR-G2-046,HF,,,,,,,24,thekop79/EURLex-4K,thekop79/EURLex-4K,EVS-046,
+DL-0318,RESOURCE_DISCOVERY,MR-0090,SYSTEMATIC_SEARCH,SR-G2-047,HF,,,,,,,18,dglover1/mapa-eur-lex,dglover1/mapa-eur-lex,EVS-047,
+DL-0319,RESOURCE_DISCOVERY,MR-0091,SYSTEMATIC_SEARCH,SR-G2-048,HF,,,,,,,1,larimo/cjeu-paragraph-retrieval,larimo/cjeu-paragraph-retrieval,EVS-048,
+DL-0320,RESOURCE_DISCOVERY,MR-0092,SYSTEMATIC_SEARCH,SR-G2-048,HF,,,,,,,5,davidwickerhf/cjeu-opendata,davidwickerhf/cjeu-opendata,EVS-048,
+DL-0321,RESOURCE_DISCOVERY,MR-0093,SYSTEMATIC_SEARCH,SR-G2-049,HF,,,,,,,1,Helsinki-NLP/europarl,Helsinki-NLP/europarl,EVS-049,
+DL-0322,RESOURCE_DISCOVERY,MR-0094,SYSTEMATIC_SEARCH,SR-G2-046,HF,,,,,,,23,mteb/eurlex-multilingual,mteb/eurlex-multilingual,EVS-046,
+DL-0323,RESOURCE_DISCOVERY,MR-0095,SYSTEMATIC_SEARCH,SR-G2-051,HF,,,,,,,24,isaacus/gdpr-holdings-retrieval,isaacus/gdpr-holdings-retrieval,EVS-051,
+DL-0324,RESOURCE_DISCOVERY,MR-0096,BACKWARD_FORWARD_DISCOVERY,SR-G2-052,GH,,,,,,,8,IDHEAP-UnitePolsoc/CEPS_EURLex,IDHEAP-UnitePolsoc/CEPS_EURLex — Using a large text dataset of EU legislation to look for 'welfare chauvinist' trends in EU politics.,EVS-052,Dataset located through a hit that uses or cites it.
+DL-0325,RESOURCE_DISCOVERY,MR-0097,SYSTEMATIC_SEARCH,SR-G2-053,GH,,,,,,,1,nature-of-eu-rules/data-extraction,nature-of-eu-rules/data-extraction — Data extraction scripts for the Nature of EU Rules project,EVS-053,
+DL-0326,RESOURCE_DISCOVERY,MR-0098,SYSTEMATIC_SEARCH,SR-G2-052,GH,,,,,,,10,JakobVokac/EURLex_CrossReferenceDataset_SiKDD2026,JakobVokac/EURLex_CrossReferenceDataset_SiKDD2026 — SiKDD 2026 Workshop paper Dataset + Code.,EVS-052,
+DL-0327,RESOURCE_DISCOVERY,MR-0099,SYSTEMATIC_SEARCH,SR-G2-054,GH,,,,,,,2,martinhengge/GDPR,martinhengge/GDPR — Dataset of 842 GDPR violations and sanctions from July 2018 until January 2022. The data is extended by various characteristics of the fined organizations.,EVS-054,
+DL-0328,RESOURCE_DISCOVERY,MR-0100,SYSTEMATIC_SEARCH,SR-G2-054,GH,,,,,,,1,sandykramb/GDPR-fines-Dataset,sandykramb/GDPR-fines-Dataset — GDPR fines dataset (2018 - 2021),EVS-054,
+DL-0329,RESOURCE_DISCOVERY,MR-0101,BACKWARD_FORWARD_DISCOVERY,,,,,,,,,,,,EVC-0002,Named or linked in the captured page https://op.europa.eu/en/web/cellar/cellar-data/metadata/knowledge-graph
+DL-0330,RESOURCE_DISCOVERY,MR-0102,BACKWARD_FORWARD_DISCOVERY,,,,,,,,,,,,EVC-0008,Named or linked in the captured page https://oeil.europarl.europa.eu/oeil/en/find-out-more
+DL-0331,RESOURCE_DISCOVERY,MR-0103,BACKWARD_FORWARD_DISCOVERY,,,,,,,,,,,,EVC-0037,Named or linked in the captured page https://joint-research-centre.ec.europa.eu/language-technology-resources/dgt-acquis_en
+DL-0332,RESOURCE_DISCOVERY,MR-0104,BACKWARD_FORWARD_DISCOVERY,,,,,,,,,,,,EVC-0025,Named or linked in the captured page https://digital-strategy.ec.europa.eu/en/policies/trusted-flaggers-under-dsa
+DL-0333,RESOURCE_DISCOVERY,MR-0105,BACKWARD_FORWARD_DISCOVERY,,,,,,,,,,,,EVC-0025,Named or linked in the captured page https://digital-strategy.ec.europa.eu/en/policies/trusted-flaggers-under-dsa
+DL-0334,RESOURCE_DISCOVERY,MR-0106,SYSTEMATIC_SEARCH,SR-G2-005,DEU,,,,,,,2,eli-european-legislation-identifier-denmark,ELI (European Legislation Identifier) - Denmark,EVS-005,
+DL-0335,RESOURCE_DISCOVERY,MR-0107,SYSTEMATIC_SEARCH,SR-G2-005,DEU,,,,,,,3,eli-european-legislation-identifier-italy,ELI (European Legislation Identifier) - Italy,EVS-005,
+DL-0336,RESOURCE_DISCOVERY,MR-0108,SYSTEMATIC_SEARCH,SR-G2-005,DEU,,,,,,,4,eli-european-legislation-identifier-luxembourg,ELI (European Legislation Identifier) - Luxembourg,EVS-005,
+DL-0337,RESOURCE_DISCOVERY,MR-0109,SYSTEMATIC_SEARCH,SR-G2-005,DEU,,,,,,,5,eli-european-legislation-identifier-finland,ELI (European Legislation Identifier) - Finland,EVS-005,
+DL-0338,RESOURCE_DISCOVERY,MR-0110,SYSTEMATIC_SEARCH,SR-G2-059,DEUC,,,,,,,4,acer-remit-european-register-of-market-participants,ACER REMIT: European Register of Market participants,EVS-059,
+DL-0339,RESOURCE_DISCOVERY,MR-0111,SYSTEMATIC_SEARCH,SR-G2-059,DEUC,,,,,,,3,acer-rdrc,ACER's REMIT Data Reference Centre,EVS-059,
+DL-0340,RESOURCE_DISCOVERY,MR-0112,SYSTEMATIC_SEARCH,SR-G2-059,DEUC,,,,,,,2,acer-iiap,ACER's Inside Information Access Point,EVS-059,
+DL-0341,RESOURCE_DISCOVERY,MR-0113,SYSTEMATIC_SEARCH,SR-G2-059,DEUC,,,,,,,10,acer-remit-list-of-registered-reporting-mechanisms-rrms,ACER REMIT: List of Registered Reporting Mechanisms (RRMs),EVS-059,
+DL-0342,RESOURCE_DISCOVERY,MR-0114,SYSTEMATIC_SEARCH,SR-G2-059,DEUC,,,,,,,8,acer-remit-list-of-organised-market-places,ACER REMIT: List of Organised Market Places,EVS-059,
+DL-0343,RESOURCE_DISCOVERY,MR-0115,SYSTEMATIC_SEARCH,SR-G2-059,DEUC,,,,,,,7,acer-remit-list-of-standard-contracts,ACER REMIT: List of Standard Contracts,EVS-059,
+DL-0344,RESOURCE_DISCOVERY,MR-0116,SYSTEMATIC_SEARCH,SR-G2-061,DEUC,,,,,,,2,eba-risk-dashboard-2019,EBA Risk Dashboard 2019,EVS-061,
+DL-0345,RESOURCE_DISCOVERY,MR-0116,SYSTEMATIC_SEARCH,SR-G2-061,DEUC,,,,,,,5,eba-risk-dashboard-2020,EBA Risk Dashboard 2020,EVS-061,
+DL-0346,RESOURCE_DISCOVERY,MR-0116,SYSTEMATIC_SEARCH,SR-G2-061,DEUC,,,,,,,20,eba-risk-dashboard-2016,EBA Risk Dashboard 2016,EVS-061,
+DL-0347,RESOURCE_DISCOVERY,MR-0116,SYSTEMATIC_SEARCH,SR-G2-061,DEUC,,,,,,,79,eba-risk-dashboard-2015,EBA Risk Dashboard 2015,EVS-061,
+DL-0348,RESOURCE_DISCOVERY,MR-0117,SYSTEMATIC_SEARCH,SR-G2-061,DEUC,,,,,,,1,eu-wide-transparency-exercise-results-2021,EU-wide transparency exercise results 2021,EVS-061,
+DL-0349,RESOURCE_DISCOVERY,MR-0117,SYSTEMATIC_SEARCH,SR-G2-061,DEUC,,,,,,,42,eu-wide-transparency-exercise-results-2019-templates-capital-leverage-p-l-rwas-and-financial-assets,"EU-wide transparency exercise results 2019 - Templates (Capital, Leverage, P&L, RWAs and Financial Assets)",EVS-061,
+DL-0350,RESOURCE_DISCOVERY,MR-0117,SYSTEMATIC_SEARCH,SR-G2-061,DEUC,,,,,,,69,eu-wide-transparency-exercise-results-2019-market-risk,EU-wide transparency exercise results 2019 - Market risk,EVS-061,
+DL-0351,RESOURCE_DISCOVERY,MR-0117,SYSTEMATIC_SEARCH,SR-G2-061,DEUC,,,,,,,72,eu-wide-transparency-exercise-results-2019-credit-risk,EU-wide transparency exercise results 2019 - Asset quality,EVS-061,
+DL-0352,RESOURCE_DISCOVERY,MR-0117,SYSTEMATIC_SEARCH,SR-G2-061,DEUC,,,,,,,85,eu-wide-transparency-exercise-results-autumn-2020,EU-wide transparency exercise results Autumn 2020,EVS-061,
+DL-0353,RESOURCE_DISCOVERY,MR-0118,SYSTEMATIC_SEARCH,SR-G2-061,DEUC,,,,,,,3,stress-sns-bank-nv,Stress test for bank: SNS BANK NV,EVS-061,
+DL-0354,RESOURCE_DISCOVERY,MR-0118,SYSTEMATIC_SEARCH,SR-G2-061,DEUC,,,,,,,4,exercise-banco-bpi-sa,"Capital Exercise for bank: BANCO BPI, SA",EVS-061,
+DL-0355,RESOURCE_DISCOVERY,MR-0118,SYSTEMATIC_SEARCH,SR-G2-061,DEUC,,,,,,,7,stress-banco-bpi-sa,"Stress test for bank: BANCO BPI, SA",EVS-061,
+DL-0356,RESOURCE_DISCOVERY,MR-0118,SYSTEMATIC_SEARCH,SR-G2-061,DEUC,,,,,,,8,stress-bank-of-ireland,Stress test for bank: BANK OF IRELAND,EVS-061,
+DL-0357,RESOURCE_DISCOVERY,MR-0118,SYSTEMATIC_SEARCH,SR-G2-061,DEUC,,,,,,,9,stress-alpha-bank-,Stress test for bank: ALPHA BANK,EVS-061,
+DL-0358,RESOURCE_DISCOVERY,MR-0119,SYSTEMATIC_SEARCH,SR-G2-061,DEUC,,,,,,,6,supervisory-actions-and-measures-2010,Supervisory actions and measures 2010,EVS-061,
+DL-0359,RESOURCE_DISCOVERY,MR-0119,SYSTEMATIC_SEARCH,SR-G2-061,DEUC,,,,,,,95,supervisory-actions-and-measures-2011,Supervisory actions and measures 2011,EVS-061,
+DL-0360,RESOURCE_DISCOVERY,MR-0120,SYSTEMATIC_SEARCH,SR-G2-064,DEUC,,,,,,,5,list-of-investment-firms,List of investment firms,EVS-064,
+DL-0361,RESOURCE_DISCOVERY,MR-0121,SYSTEMATIC_SEARCH,SR-G2-064,DEUC,,,,,,,11,list-of-registered-and-certified-credit-rating-agencies,Registered and certified credit rating agencies,EVS-064,
+DL-0362,RESOURCE_DISCOVERY,MR-0122,SYSTEMATIC_SEARCH,SR-G2-064,DEUC,,,,,,,16,trade_reps,Registered trade repositories,EVS-064,
+DL-0363,RESOURCE_DISCOVERY,MR-0123,SYSTEMATIC_SEARCH,SR-G2-064,DEUC,,,,,,,27,esma-benchmarks-administrators-register,Benchmarks administrators register,EVS-064,
+DL-0364,RESOURCE_DISCOVERY,MR-0124,SYSTEMATIC_SEARCH,SR-G2-064,DEUC,,,,,,,6,esma-third-country-benchmarks,Third country benchmarks,EVS-064,
+DL-0365,RESOURCE_DISCOVERY,MR-0125,SYSTEMATIC_SEARCH,SR-G2-064,DEUC,,,,,,,22,mifid_si,Systematic internalisers,EVS-064,
+DL-0366,RESOURCE_DISCOVERY,MR-0126,SYSTEMATIC_SEARCH,SR-G2-064,DEUC,,,,,,,14,tied-agents,Tied agents,EVS-064,
+DL-0367,RESOURCE_DISCOVERY,MR-0127,SYSTEMATIC_SEARCH,SR-G2-064,DEUC,,,,,,,9,euveca_eusef,Venture Capital and Social Entrepreneurship Funds,EVS-064,
+DL-0368,RESOURCE_DISCOVERY,MR-0128,SYSTEMATIC_SEARCH,SR-G2-064,DEUC,,,,,,,7,ifrs-enforcement,IFRS enforcement,EVS-064,
+DL-0369,RESOURCE_DISCOVERY,MR-0129,SYSTEMATIC_SEARCH,SR-G2-064,DEUC,,,,,,,2,non-eea_ccp,List of applicant central counterparties (CCPs) established in non-EEA countries,EVS-064,
+DL-0370,RESOURCE_DISCOVERY,MR-0130,SYSTEMATIC_SEARCH,SR-G2-064,DEUC,,,,,,,17,sfd,Settlement Finality Directive notifications,EVS-064,
+DL-0371,RESOURCE_DISCOVERY,MR-0131,SYSTEMATIC_SEARCH,SR-G2-064,DEUC,,,,,,,18,short_selling,List of market makers and authorised primary dealers,EVS-064,
+DL-0372,RESOURCE_DISCOVERY,MR-0132,SYSTEMATIC_SEARCH,SR-G2-065,DEUC,,,,,,,12,register-of-insurance-undertakings,EIOPA - Register of Insurance Undertakings,EVS-065,
+DL-0373,RESOURCE_DISCOVERY,MR-0133,SYSTEMATIC_SEARCH,SR-G2-065,DEUC,,,,,,,10,register-of-institutions-for-occupational-retirement-provision-iorp,EIOPA - Register of Institutions for Occupational Retirement Provision,EVS-065,
+DL-0374,RESOURCE_DISCOVERY,MR-0134,SYSTEMATIC_SEARCH,SR-G2-065,DEUC,,,,,,,13,register-of-iorps-prudential-provisions,EIOPA - Register of IORPs Prudential Provisions,EVS-065,
+DL-0375,RESOURCE_DISCOVERY,MR-0135,SYSTEMATIC_SEARCH,SR-G2-065,DEUC,,,,,,,6,database-of-pension-plans-and-products-in-the-eea,EIOPA - Database of pension plans and products in the EEA,EVS-065,
+DL-0376,RESOURCE_DISCOVERY,MR-0136,SYSTEMATIC_SEARCH,SR-G2-066,DEUC,,,,,,,18,candidate-list-of-substances-of-very-high-concern-for-authorisation,Candidate List of Substances of Very High Concern for Authorisation,EVS-066,
+DL-0377,RESOURCE_DISCOVERY,MR-0137,SYSTEMATIC_SEARCH,SR-G2-066,DEUC,,,,,,,23,authorisation-list,Authorisation list,EVS-066,
+DL-0378,RESOURCE_DISCOVERY,MR-0138,SYSTEMATIC_SEARCH,SR-G2-008,DEU,,,,,,,2,echa-recommendation-for-inclusion-in-the-autorisation-list,ECHA recommendation for inclusion in the Autorisation List,EVS-008,
+DL-0379,RESOURCE_DISCOVERY,MR-0139,SYSTEMATIC_SEARCH,SR-G2-066,DEUC,,,,,,,11,restricted-list-reach,Restricted substances by Annex XVII to REACH Regulation,EVS-066,
+DL-0380,RESOURCE_DISCOVERY,MR-0140,SYSTEMATIC_SEARCH,SR-G2-066,DEUC,,,,,,,13,echa-classification-and-labelling-inventory,ECHA classification and labelling inventory,EVS-066,
+DL-0381,RESOURCE_DISCOVERY,MR-0141,SYSTEMATIC_SEARCH,SR-G2-066,DEUC,,,,,,,12,ec-inventory,EC Inventory,EVS-066,
+DL-0382,RESOURCE_DISCOVERY,MR-0142,SYSTEMATIC_SEARCH,SR-G2-066,DEUC,,,,,,,14,pre-registered-substances-reach,List of pre-registered substances under REACH,EVS-066,
+DL-0383,RESOURCE_DISCOVERY,MR-0143,SYSTEMATIC_SEARCH,SR-G2-066,DEUC,,,,,,,24,dossier-evaluation-decisions,REACH dossier evaluation decisions,EVS-066,
+DL-0384,RESOURCE_DISCOVERY,MR-0144,SYSTEMATIC_SEARCH,SR-G2-066,DEUC,,,,,,,19,community-rolling-action-plan,Community Rolling Action Plan,EVS-066,
+DL-0385,RESOURCE_DISCOVERY,MR-0145,SYSTEMATIC_SEARCH,SR-G2-066,DEUC,,,,,,,16,biocidal-products,List of authorised biocidal products,EVS-066,
+DL-0386,RESOURCE_DISCOVERY,MR-0146,SYSTEMATIC_SEARCH,SR-G2-066,DEUC,,,,,,,17,biocidal-products-list-of-active-substances-and-suppliers,Biocidal products: list of active substances and suppliers,EVS-066,
+DL-0387,RESOURCE_DISCOVERY,MR-0147,SYSTEMATIC_SEARCH,SR-G2-066,DEUC,,,,,,,15,persistent-organic-pollutants,Persistent Organic Pollutants,EVS-066,
+DL-0388,RESOURCE_DISCOVERY,MR-0148,SYSTEMATIC_SEARCH,SR-G2-068,DEUC,,,,,,,3,eradis-european-railway-agency-database-of-interoperability-and-safety,ERADIS - European Railway Agency Database of Interoperability and Safety,EVS-068,
+DL-0389,RESOURCE_DISCOVERY,MR-0149,SYSTEMATIC_SEARCH,SR-G2-068,DEUC,,,,,,,4,eradis-safety-certificates-database,ERADIS - Safety Certificates Database,EVS-068,
+DL-0390,RESOURCE_DISCOVERY,MR-0150,SYSTEMATIC_SEARCH,SR-G2-068,DEUC,,,,,,,11,eradis-licences-database,ERADIS - Licences Database,EVS-068,
+DL-0391,RESOURCE_DISCOVERY,MR-0151,SYSTEMATIC_SEARCH,SR-G2-068,DEUC,,,,,,,13,eradis-ecm-certificates-database,ERADIS - Entity in Charge of Maintenance Certificates Database,EVS-068,
+DL-0392,RESOURCE_DISCOVERY,MR-0152,SYSTEMATIC_SEARCH,SR-G2-068,DEUC,,,,,,,1,eradis-certification-bodies-database,ERADIS - Certification bodies database,EVS-068,
+DL-0393,RESOURCE_DISCOVERY,MR-0153,SYSTEMATIC_SEARCH,SR-G2-068,DEUC,,,,,,,14,eradis-csm-assessment-body-database,ERADIS - CSM Assessment Body Database,EVS-068,
+DL-0394,RESOURCE_DISCOVERY,MR-0154,SYSTEMATIC_SEARCH,SR-G2-068,DEUC,,,,,,,8,eradis-national-safety-authorities-and-national-investigation-bodies-annual-reports,ERADIS - National Safety Authorities and National Investigation Bodies Annual Reports,EVS-068,
+DL-0395,RESOURCE_DISCOVERY,MR-0155,SYSTEMATIC_SEARCH,SR-G2-068,DEUC,,,,,,,9,eratv-european-register-of-authorised-types-of-vehicles,ERATV - European Register of Authorised Types of Vehicles,EVS-068,
+DL-0396,RESOURCE_DISCOVERY,MR-0156,SYSTEMATIC_SEARCH,SR-G2-068,DEUC,,,,,,,10,list-of-vehicle-keeper-markings-vkms,VKM - Vehicle Keeper Marking Register,EVS-068,
+DL-0397,RESOURCE_DISCOVERY,MR-0157,SYSTEMATIC_SEARCH,SR-G2-068,DEUC,,,,,,,12,era-knowledge-graph,ERA Knowledge Graph,EVS-068,
+DL-0398,RESOURCE_DISCOVERY,MR-0158,SYSTEMATIC_SEARCH,SR-G2-068,DEUC,,,,,,,2,era-ontology,ERA - Vocabulary/Ontology version 3.0.0,EVS-068,
+DL-0399,RESOURCE_DISCOVERY,MR-0159,SYSTEMATIC_SEARCH,SR-G2-068,DEUC,,,,,,,7,erail-investigations,Railway accident and incident investigations,EVS-068,
+DL-0400,RESOURCE_DISCOVERY,MR-0160,SYSTEMATIC_SEARCH,SR-G2-069,DEUC,,,,,,,15,thetis-port-state-control-information-system-thetis,Thetis port state control information system - THETIS,EVS-069,
+DL-0401,RESOURCE_DISCOVERY,MR-0161,SYSTEMATIC_SEARCH,SR-G2-069,DEUC,,,,,,,12,safe-sea-net,Vessel traffic monitoring - SafeSeaNet,EVS-069,
+DL-0402,RESOURCE_DISCOVERY,MR-0162,SYSTEMATIC_SEARCH,SR-G2-069,DEUC,,,,,,,9,accident-investigation-emcip,Accident investigation – EMCIP,EVS-069,
+DL-0403,RESOURCE_DISCOVERY,MR-0163,SYSTEMATIC_SEARCH,SR-G2-069,DEUC,,,,,,,13,co2-emissions-data,CO2 emissions data from maritime transport,EVS-069,
+DL-0404,RESOURCE_DISCOVERY,MR-0164,SYSTEMATIC_SEARCH,SR-G2-070,DEUC,,,,,,,18,openfoodtox-efsa-s-chemical-hazards-database,OpenFoodTox: EFSA's chemical hazards database,EVS-070,
+DL-0405,RESOURCE_DISCOVERY,MR-0165,SYSTEMATIC_SEARCH,SR-G2-070,DEUC,,,,,,,13,pesticide-ecotoxicology-tier-1-endpoints-database,Pesticide ecotoxicology Tier 1 endpoints database,EVS-070,
+DL-0406,RESOURCE_DISCOVERY,MR-0166,SYSTEMATIC_SEARCH,SR-G2-071,DEUC,,,,,,,2,paediatric-investigation-plans,Medicine data: paediatric investigation plans (PIP),EVS-071,
+DL-0407,RESOURCE_DISCOVERY,MR-0166,SYSTEMATIC_SEARCH,SR-G2-071,DEUC,,,,,,,4,referrals-human,Medicine data: referrals for human medicines,EVS-071,
+DL-0408,RESOURCE_DISCOVERY,MR-0166,SYSTEMATIC_SEARCH,SR-G2-071,DEUC,,,,,,,9,rare-disease-orphan-designations,Medicine data: rare disease (orphan) designations,EVS-071,
+DL-0409,RESOURCE_DISCOVERY,MR-0166,SYSTEMATIC_SEARCH,SR-G2-071,DEUC,,,,,,,12,patient-safety,Medicine data: periodic safety update report (PSUR) single assessments,EVS-071,
+DL-0410,RESOURCE_DISCOVERY,MR-0166,SYSTEMATIC_SEARCH,SR-G2-071,DEUC,,,,,,,15,veterinary-medicines-published-by-the-ema,Medicine data: European public assessment reports (EPAR) for veterinary medicines,EVS-071,
+DL-0411,RESOURCE_DISCOVERY,MR-0167,SYSTEMATIC_SEARCH,SR-G2-071,DEUC,,,,,,,21,suspected-adverse-drug-reaction-reports,European database of suspected adverse drug reaction reports (EudraVigilance),EVS-071,
+DL-0412,RESOURCE_DISCOVERY,MR-0168,SYSTEMATIC_SEARCH,SR-G2-071,DEUC,,,,,,,14,eu-veterinary-medicinal-product-database,EU Veterinary Medicinal Product Database,EVS-071,
+DL-0413,RESOURCE_DISCOVERY,MR-0169,SYSTEMATIC_SEARCH,SR-G2-071,DEUC,,,,,,,5,sme-register,European Medicines Agency's SME Register,EVS-071,
+DL-0414,RESOURCE_DISCOVERY,MR-0170,SYSTEMATIC_SEARCH,SR-G2-071,DEUC,,,,,,,30,parallel-distribution-pd-register,Parallel Distribution (PD) register,EVS-071,
+DL-0415,RESOURCE_DISCOVERY,MR-0171,SYSTEMATIC_SEARCH,SR-G2-071,DEUC,,,,,,,6,spor-data-management-services,"Substance, product, organisation and referential (SPOR) master data",EVS-071,
+DL-0416,RESOURCE_DISCOVERY,MR-0172,SYSTEMATIC_SEARCH,SR-G2-073,DEUC,,,,,,,5,edps-opinions,European Data Protection Supervisor opinions,EVS-073,
+DL-0417,RESOURCE_DISCOVERY,MR-0173,SYSTEMATIC_SEARCH,SR-G2-073,DEUC,,,,,,,9,edps-register-of-processing-operations,European Data Protection Supervisor register of processing operations,EVS-073,
+DL-0418,RESOURCE_DISCOVERY,MR-0174,SYSTEMATIC_SEARCH,SR-G2-074,DEUC,,,,,,,1,cpvo-applications-and-titles-in-force-database,Community Plant and Variety Office - Applications and titles in force database,EVS-074,
+DL-0419,RESOURCE_DISCOVERY,MR-0175,SYSTEMATIC_SEARCH,SR-G2-075,DEUC,,,,,,,1,euipo-links-between-euipo-and-epo-owner-information,IP rights in EU: Links between EUIPO and EPO owner information,EVS-075,
+DL-0420,RESOURCE_DISCOVERY,MR-0175,SYSTEMATIC_SEARCH,SR-G2-075,DEUC,,,,,,,2,euipo-designs,IP rights in EU: EU Design applications,EVS-075,
+DL-0421,RESOURCE_DISCOVERY,MR-0175,SYSTEMATIC_SEARCH,SR-G2-075,DEUC,,,,,,,3,euipo-trade-mark-and-design-owners,IP rights in EU: Trade mark and design owners,EVS-075,
+DL-0422,RESOURCE_DISCOVERY,MR-0175,SYSTEMATIC_SEARCH,SR-G2-075,DEUC,,,,,,,4,euipo-eu-trade-mark-applications,IP rights in EU: EU Trade mark applications,EVS-075,
+DL-0423,RESOURCE_DISCOVERY,MR-0176,SYSTEMATIC_SEARCH,SR-G2-076,DEUC,,,,,,,1,north-sea-and-western-waters-joint-deployment-plan,North Sea Joint Deployment Plan,EVS-076,
+DL-0424,RESOURCE_DISCOVERY,MR-0176,SYSTEMATIC_SEARCH,SR-G2-076,DEUC,,,,,,,2,western-waters-joint-deployment-plan-duplicated,Northern Western Waters Joint Deployment Plan,EVS-076,
+DL-0425,RESOURCE_DISCOVERY,MR-0176,SYSTEMATIC_SEARCH,SR-G2-076,DEUC,,,,,,,3,nafo-neafc-joint-deployment-plan,NAFO Joint Deployment Plan,EVS-076,
+DL-0426,RESOURCE_DISCOVERY,MR-0176,SYSTEMATIC_SEARCH,SR-G2-076,DEUC,,,,,,,5,western-waters-joint-deployment-plan-southern-western-waters-duplicated,Southern Western Waters Joint Deployment Plan,EVS-076,
+DL-0427,RESOURCE_DISCOVERY,MR-0176,SYSTEMATIC_SEARCH,SR-G2-076,DEUC,,,,,,,8,western-waters-joint-deployment-plan,Western Waters Joint Deployment Plan,EVS-076,
+DL-0428,RESOURCE_DISCOVERY,MR-0177,SYSTEMATIC_SEARCH,SR-G2-080,DEUC,,,,,,,4,state-aid-transparency-public-search,State Aid - Transparency - Public Search,EVS-080,
+DL-0429,RESOURCE_DISCOVERY,MR-0178,SYSTEMATIC_SEARCH,SR-G2-080,DEUC,,,,,,,12,ju4o7sraedhz4ompwcwidq,Aid by main objectives - million EUR,EVS-080,
+DL-0430,RESOURCE_DISCOVERY,MR-0178,SYSTEMATIC_SEARCH,SR-G2-080,DEUC,,,,,,,13,nywhjt0h8nifj3nwwxgjpw,"Agriculture aid - million EUR, % of GDP",EVS-080,
+DL-0431,RESOURCE_DISCOVERY,MR-0178,SYSTEMATIC_SEARCH,SR-G2-080,DEUC,,,,,,,14,remcplve1wjrosy3cmhzbg,Share of aid instruments - % of total,EVS-080,
+DL-0432,RESOURCE_DISCOVERY,MR-0178,SYSTEMATIC_SEARCH,SR-G2-080,DEUC,,,,,,,15,32qw3x5lqipui8y6c1lfhg,Aid by main objectives - % of GDP,EVS-080,
+DL-0433,RESOURCE_DISCOVERY,MR-0178,SYSTEMATIC_SEARCH,SR-G2-080,DEUC,,,,,,,16,vzo0vqtpcgmt3x8ybgtj8q,Agriculture aid by objective - million EUR,EVS-080,
+DL-0434,RESOURCE_DISCOVERY,MR-0179,SYSTEMATIC_SEARCH,SR-G2-081,DEUC,,,,,,,28,the-eu-single-market-scoreboard,The EU Single Market Scoreboard,EVS-081,
+DL-0435,RESOURCE_DISCOVERY,MR-0180,SYSTEMATIC_SEARCH,SR-G2-081,DEUC,,,,,,,6,zj3hnjzkkkghb6snpffoa,Domestic and international postal services (USP) - mail delivery speed (2004-2011),EVS-081,
+DL-0436,RESOURCE_DISCOVERY,MR-0180,SYSTEMATIC_SEARCH,SR-G2-081,DEUC,,,,,,,7,ow3wmj5k2sfo3twgnhwohg,"International inbound and outbound postal traffic, letter mail and parcel services",EVS-081,
+DL-0437,RESOURCE_DISCOVERY,MR-0180,SYSTEMATIC_SEARCH,SR-G2-081,DEUC,,,,,,,10,6rfqhnqyw7hdfi1hiudhg,"Domestic postal traffic, letter mail and parcel services",EVS-081,
+DL-0438,RESOURCE_DISCOVERY,MR-0180,SYSTEMATIC_SEARCH,SR-G2-081,DEUC,,,,,,,11,a8dauunquehp5opyrguxg,Domestic and international postal services (USP) - letter mail (2004-2011),EVS-081,
+DL-0439,RESOURCE_DISCOVERY,MR-0180,SYSTEMATIC_SEARCH,SR-G2-081,DEUC,,,,,,,12,aull4riroghyz2g9jghq,"Turnover from the provision of postal services, domestically",EVS-081,
+DL-0440,RESOURCE_DISCOVERY,MR-0181,SYSTEMATIC_SEARCH,SR-G2-081,DEUC,,,,,,,26,ecertis,eCertis: EU Procurement Certification,EVS-081,
+DL-0441,RESOURCE_DISCOVERY,MR-0182,SYSTEMATIC_SEARCH,SR-G2-082,DEUC,,,,,,,1,u3yjqnr7wx2gjkbqmajsya,European Union Register on Nutrition and Health Claims,EVS-082,
+DL-0442,RESOURCE_DISCOVERY,MR-0183,SYSTEMATIC_SEARCH,SR-G2-082,DEUC,,,,,,,2,feed-additives,EU Feed Additives,EVS-082,
+DL-0443,RESOURCE_DISCOVERY,MR-0184,SYSTEMATIC_SEARCH,SR-G2-082,DEUC,,,,,,,3,restored_rasff,Food and Feed Alert Notifications,EVS-082,
+DL-0444,RESOURCE_DISCOVERY,MR-0185,SYSTEMATIC_SEARCH,SR-G2-082,DEUC,,,,,,,5,eu-food-additives,EU Food Additives,EVS-082,
+DL-0445,RESOURCE_DISCOVERY,MR-0186,SYSTEMATIC_SEARCH,SR-G2-082,DEUC,,,,,,,13,food-flavourings,EU Food Flavourings,EVS-082,
+DL-0446,RESOURCE_DISCOVERY,MR-0187,SYSTEMATIC_SEARCH,SR-G2-082,DEUC,,,,,,,14,smoke-flavourings,EU Smoke Flavourings,EVS-082,
+DL-0447,RESOURCE_DISCOVERY,MR-0188,SYSTEMATIC_SEARCH,SR-G2-082,DEUC,,,,,,,8,gvhafrwlxgnvlvqovgxhlq,Food Enzymes,EVS-082,
+DL-0448,RESOURCE_DISCOVERY,MR-0189,SYSTEMATIC_SEARCH,SR-G2-082,DEUC,,,,,,,6,re1hukiczvl7dnpj7lj3eg,Food Contact Materials,EVS-082,
+DL-0449,RESOURCE_DISCOVERY,MR-0190,SYSTEMATIC_SEARCH,SR-G2-082,DEUC,,,,,,,11,xt4uwrpbr87xhm7ta3ffaw,EU Novel Food (Novel foods and food ingredients),EVS-082,
+DL-0450,RESOURCE_DISCOVERY,MR-0191,SYSTEMATIC_SEARCH,SR-G2-082,DEUC,,,,,,,12,pesticides,EU Pesticides,EVS-082,
+DL-0451,RESOURCE_DISCOVERY,MR-0192,SYSTEMATIC_SEARCH,SR-G2-082,DEUC,,,,,,,9,agricultural-vegetable-catalogue-new,Agricultural and Vegetable Catalogue,EVS-082,
+DL-0452,RESOURCE_DISCOVERY,MR-0193,SYSTEMATIC_SEARCH,SR-G2-082,DEUC,,,,,,,10,d8uawjykvujrmnfrfyedpw,Community List of Approved Basic Material for Forest Reproduction Material (Catalogue Forestry),EVS-082,
+DL-0453,RESOURCE_DISCOVERY,MR-0194,SYSTEMATIC_SEARCH,SR-G2-082,DEUC,,,,,,,7,health-and-food-audits-and-analysis,Health and Food Audits and Analysis,EVS-082,
+DL-0454,RESOURCE_DISCOVERY,MR-0195,SYSTEMATIC_SEARCH,SR-G2-085,DEUC,,,,,,,2,consolidated-list-of-persons-groups-and-entities-subject-to-eu-financial-sanctions,"Consolidated list of persons, groups and entities subject to EU financial sanctions",EVS-085,
+DL-0455,RESOURCE_DISCOVERY,MR-0196,SYSTEMATIC_SEARCH,SR-G2-085,DEUC,,,,,,,3,consolidated-list-of-persons-subject-under-eu-sanctions-to-travel-restrictions,"Consolidated list of persons subject, under EU sanctions, to travel restrictions",EVS-085,
+DL-0456,RESOURCE_DISCOVERY,MR-0197,SYSTEMATIC_SEARCH,SR-G2-086,DEUC,,,,,,,18,authorised-economic-operator,Authorised Economic Operator,EVS-086,
+DL-0457,RESOURCE_DISCOVERY,MR-0198,SYSTEMATIC_SEARCH,SR-G2-086,DEUC,,,,,,,20,seed-system-for-exchange-of-excise-data,SEED (System for Exchange of Excise Data),EVS-086,
+DL-0458,RESOURCE_DISCOVERY,MR-0199,SYSTEMATIC_SEARCH,SR-G2-086,DEUC,,,,,,,15,european-binding-tariff-information,European Binding Tariff Information,EVS-086,
+DL-0459,RESOURCE_DISCOVERY,MR-0200,SYSTEMATIC_SEARCH,SR-G2-086,DEUC,,,,,,,17,the-registered-exporter-system,The Registered Exporter system,EVS-086,
+DL-0460,RESOURCE_DISCOVERY,MR-0201,SYSTEMATIC_SEARCH,SR-G2-086,DEUC,,,,,,,19,vies-vat-information-exchange-system,VIES (VAT Information Exchange System),EVS-086,
+DL-0461,RESOURCE_DISCOVERY,MR-0202,SYSTEMATIC_SEARCH,SR-G2-089,DEUC,,,,,,,10,eu-ecolabel-products,EU Ecolabel Products,EVS-089,
+DL-0462,RESOURCE_DISCOVERY,MR-0203,SYSTEMATIC_SEARCH,SR-G2-089,DEUC,,,,,,,30,timber-imports-licences-and-enforcement-under-flegt,"Timber imports, licences and enforcement under FLEGT",EVS-089,
+DL-0463,RESOURCE_DISCOVERY,MR-0204,SYSTEMATIC_SEARCH,SR-G2-089,DEUC,,,,,,,31,illegally-harvested-timber-and-products-under-the-timber-regulation,Illegally harvested timber and products under the Timber Regulation,EVS-089,
+DL-0464,RESOURCE_DISCOVERY,MR-0205,SYSTEMATIC_SEARCH,SR-G2-089,DEUC,,,,,,,12,wildlife-trade-under-cites,Wildlife trade under CITES,EVS-089,
+DL-0465,RESOURCE_DISCOVERY,MR-0206,SYSTEMATIC_SEARCH,SR-G2-089,DEUC,,,,,,,19,illegal-wildlife-trade-seizures-under-cites,Illegal wildlife trade (seizures) under CITES,EVS-089,
+DL-0466,RESOURCE_DISCOVERY,MR-0207,SYSTEMATIC_SEARCH,SR-G2-089,DEUC,,,,,,,29,compliance-reports-on-suphur-content-in-shipping-fuels,Compliance reports on suphur content in (shipping) fuels,EVS-089,
+DL-0467,RESOURCE_DISCOVERY,MR-0208,SYSTEMATIC_SEARCH,SR-G2-089,DEUC,,,,,,,11,data-on-operating-hours-of-certain-combustion-plants-under-the-industrial-emissions-directive-ied,Data on operating hours of certain combustion plants under the Industrial Emissions Directive (IED),EVS-089,
+DL-0468,RESOURCE_DISCOVERY,MR-0208,SYSTEMATIC_SEARCH,SR-G2-089,DEUC,,,,,,,20,data-on-fuel-used-by-combustions-benefiting-from-derogations-under-the-industrial-emissions-directive-ied,Data on fuel used by combustions benefiting from derogations under the Industrial Emissions Directive (IED),EVS-089,
+DL-0469,RESOURCE_DISCOVERY,MR-0209,SYSTEMATIC_SEARCH,SR-G2-089,DEUC,,,,,,,1,implementation-report-on-waste-from-extractive-industries-mining-waste,Implementation report on waste from extractive industries (mining waste),EVS-089,
+DL-0470,RESOURCE_DISCOVERY,MR-0209,SYSTEMATIC_SEARCH,SR-G2-089,DEUC,,,,,,,4,implementation-report-and-country-fiches-on-the-environment-liability-directive-eld,Implementation report and country fiches on the Environment Liability Directive (ELD),EVS-089,
+DL-0471,RESOURCE_DISCOVERY,MR-0209,SYSTEMATIC_SEARCH,SR-G2-089,DEUC,,,,,,,9,implementation-report-under-the-landfill-directive,Implementation report under the Landfill Directive,EVS-089,
+DL-0472,RESOURCE_DISCOVERY,MR-0209,SYSTEMATIC_SEARCH,SR-G2-089,DEUC,,,,,,,18,implementation-reports-of-the-eu-waste-legislation,Implementation reports of the EU waste legislation,EVS-089,
+DL-0473,RESOURCE_DISCOVERY,MR-0209,SYSTEMATIC_SEARCH,SR-G2-089,DEUC,,,,,,,21,implementation-report-on-major-accidents-under-the-seveso-iii-directive,Implementation report on major accidents under the Seveso III Directive,EVS-089,
+DL-0474,RESOURCE_DISCOVERY,MR-0210,SYSTEMATIC_SEARCH,SR-G2-090,DEUC,,,,,,,15,eu-air-safety-list,EU Air Safety List,EVS-090,
+DL-0475,RESOURCE_DISCOVERY,MR-0211,SYSTEMATIC_SEARCH,SR-G2-091,DEUC,,,,,,,9,radd-european-commission-radioactive-discharges-database,RADD European Commission Radioactive Discharges Database,EVS-091,
+DL-0476,RESOURCE_DISCOVERY,MR-0212,SYSTEMATIC_SEARCH,SR-G2-092,DEUC,,,,,,,3,european-commission-meetings-with-interest-representatives,European Commission - Meetings with interest representatives,EVS-092,
+DL-0477,RESOURCE_DISCOVERY,MR-0213,SYSTEMATIC_SEARCH,SR-G2-092,DEUC,,,,,,,4,sg-dpo,Register of the Data Protection Officer,EVS-092,
+DL-0478,RESOURCE_DISCOVERY,MR-0214,SYSTEMATIC_SEARCH,SR-G2-093,DEUC,,,,,,,1,cases-analysed-by-the-regulatory-scrutiny-board-at-its-meetings,Cases analysed by the Regulatory Scrutiny Board at its meetings,EVS-093,
+DL-0479,RESOURCE_DISCOVERY,MR-0214,SYSTEMATIC_SEARCH,SR-G2-093,DEUC,,,,,,,2,list-of-impact-assessments-and-the-accompanying-opinions-of-the-regulatory-scrutiny-board,List of impact assessments and the accompanying opinions of the Regulatory Scrutiny Board,EVS-093,
+DL-0480,RESOURCE_DISCOVERY,MR-0214,SYSTEMATIC_SEARCH,SR-G2-093,DEUC,,,,,,,3,the-regulatory-scrutiny-board-annual-reports,The Regulatory Scrutiny Board annual reports,EVS-093,
+DL-0481,RESOURCE_DISCOVERY,MR-0214,SYSTEMATIC_SEARCH,SR-G2-093,DEUC,,,,,,,4,regulatory-scrutiny-board-opinions-on-evaluations-and-fitness-checks,Regulatory Scrutiny Board opinions on evaluations and fitness checks,EVS-093,
+DL-0482,RESOURCE_DISCOVERY,MR-0215,SYSTEMATIC_SEARCH,SR-G2-099,DEUC,,,,,,,1,public-access-requests,[DISCONTINUED] Metadata of the database on requests for public access to Council documents,EVS-099,
+DL-0483,RESOURCE_DISCOVERY,MR-0216,SYSTEMATIC_SEARCH,SR-G2-101,DEUC,,,,,,,6,the-community-fishing-fleet-register,The Community Fishing Fleet Register,EVS-101,
+DL-0484,RESOURCE_DISCOVERY,MR-0217,SYSTEMATIC_SEARCH,SR-G2-102,DEUC,,,,,,,10,eambrosia-eu-geographical-indications-register,eAmbrosia - EU geographical indications register,EVS-102,
+DL-0485,RESOURCE_DISCOVERY,MR-0218,SYSTEMATIC_SEARCH,SR-G2-102,DEUC,,,,,,,6,inventory-of-recognised-producer-organisations,Inventory of recognised producer organisations in the EU's agricultural sector,EVS-102,
+DL-0486,RESOURCE_DISCOVERY,MR-0219,SYSTEMATIC_SEARCH,SR-G2-115,DEUC,,,,,,,22,6f87069d-7af9-48c1-b0fc-e3fd541eda95,European market surveillance of motor vehicles - Altitude Simulation Dataset,EVS-115,
+DL-0487,RESOURCE_DISCOVERY,MR-0219,SYSTEMATIC_SEARCH,SR-G2-117,DEUC,,,,,,,2,2d763699-54e4-4b6a-abb2-b1aa2df47300,European market surveillance of motor vehicles - 2020-2021 Emissions Dataset,EVS-117,
+DL-0488,RESOURCE_DISCOVERY,MR-0219,SYSTEMATIC_SEARCH,SR-G2-117,DEUC,,,,,,,3,6fc2c9ce-4d2c-4be0-9c20-8997192af876,European market surveillance of motor vehicles - 2019 Emissions Dataset,EVS-117,
+DL-0489,RESOURCE_DISCOVERY,MR-0219,SYSTEMATIC_SEARCH,SR-G2-119,DEU,,,,,,,5,b5998c27-e829-49e0-8cbb-2ca3495d06bf,European market surveillance of motor vehicles - 2022 Emissions Dataset,EVS-119,
+DL-0490,RESOURCE_DISCOVERY,MR-0219,SYSTEMATIC_SEARCH,SR-G2-119,DEU,,,,,,,6,8b5fe269-7a91-4541-a69f-1563a51509ca,European market surveillance of motor vehicles - 2023 Emissions Dataset,EVS-119,
+DL-0491,RESOURCE_DISCOVERY,MR-0220,SYSTEMATIC_SEARCH,SR-G2-107,DEUC,,,,,,,3,european-parliament-lists-of-declarations,European Parliament - Lists of Declarations,EVS-107,
+DL-0492,RESOURCE_DISCOVERY,MR-0220,SYSTEMATIC_SEARCH,SR-G2-107,DEUC,,,,,,,24,european-parliament-agenda-of-the-bureau-and-the-conference-of-presidents,European Parliament - Agenda of the Bureau and the Conference of Presidents,EVS-107,
+DL-0493,RESOURCE_DISCOVERY,MR-0220,SYSTEMATIC_SEARCH,SR-G2-107,DEUC,,,,,,,26,european-parliament-plenary-documents-committee-documents,European Parliament - Committee documents,EVS-107,
+DL-0494,RESOURCE_DISCOVERY,MR-0220,SYSTEMATIC_SEARCH,SR-G2-107,DEUC,,,,,,,27,european-parliament-budget-decisions-annual-budget,European Parliament - Budget decisions - Annual budget,EVS-107,
+DL-0495,RESOURCE_DISCOVERY,MR-0220,SYSTEMATIC_SEARCH,SR-G2-107,DEUC,,,,,,,51,european-parliament-plenary-documents-amendments-to-reports,European Parliament - Plenary Documents - Amendments to Reports,EVS-107,
+DL-0496,RESOURCE_DISCOVERY,MR-0221,SYSTEMATIC_SEARCH,SR-G2-110,DEUC,,,,,,,76,elrc_287,Unofficial Consolidated legislative texts (Slovene),EVS-110,
+DL-0497,RESOURCE_DISCOVERY,MR-0222,SYSTEMATIC_SEARCH,SR-G2-103,DEUC,,,,,,,28,eu-open-data-portal-all-datasets-and-their-metadata,EU Open Data Portal - all datasets and their metadata,EVS-103,
+DL-0498,RESOURCE_DISCOVERY,MR-0223,SYSTEMATIC_SEARCH,SR-G2-162,DNS,,,,,,,10,doi:10.17026/DANS-XJR-FGSG,Decision making in the European Union 2003,EVS-162,
+DL-0499,RESOURCE_DISCOVERY,MR-0224,SYSTEMATIC_SEARCH,SR-G2-177,OAX,,,,,,,10,https://openalex.org/W7155551492,DEU IV - Decision-Making in the European Union,EVS-177,
+DL-0500,RESOURCE_DISCOVERY,MR-0225,SYSTEMATIC_SEARCH,SR-G2-162,DNS,,,,,,,14,doi:10.17026/DANS-X8U-M3DD,Formal independence index of European Union agencies,EVS-162,
+DL-0501,RESOURCE_DISCOVERY,MR-0226,SYSTEMATIC_SEARCH,SR-G2-168,OAX,,,,,,,14,https://openalex.org/W7204453716,European Dataset of EU AI Act Implementation: National Competent Authorities and Governance Models Across EU/EEA Member States,EVS-168,
+DL-0502,RESOURCE_DISCOVERY,MR-0227,SYSTEMATIC_SEARCH,SR-G2-169,OAX,,,,,,,4,https://openalex.org/W4394404792,"Replication data - Shaping EU agencies’ rulemaking: Interest groups, national regulatory agencies and the European Aviation Safety Agency",EVS-169,
+DL-0503,RESOURCE_DISCOVERY,MR-0228,SYSTEMATIC_SEARCH,SR-G2-175,OAX,,,,,,,9,https://openalex.org/W3128240439,EfSoLaw: a new data set on the evolution of soft law in the European Union,EVS-175,
+DL-0504,RESOURCE_DISCOVERY,MR-0229,SYSTEMATIC_SEARCH,SR-G2-181,DCT,,,,,,,7,10.5281/zenodo.23187783,Infringements in the European Union,EVS-181,
+DL-0505,RESOURCE_DISCOVERY,MR-0230,SYSTEMATIC_SEARCH,SR-G2-179,DCT,,,,,,,3,10.6084/m9.figshare.14221704,Contested comitology? The overlooked importance of the EU Commission,EVS-179,
+DL-0506,RESOURCE_DISCOVERY,MR-0231,SYSTEMATIC_SEARCH,SR-G2-152,ZEN,,,,,,,5,10.5281/zenodo.3843265,EU Law before the Irish Superior Courts 2008-2018,EVS-152,
+DL-0507,RESOURCE_DISCOVERY,MR-0232,SYSTEMATIC_SEARCH,SR-G2-155,DVN,,,,,,,14,doi:10.7910/DVN/VPLNUF,Measuring Salience in EU Legislative Politics,EVS-155,
+DL-0508,RESOURCE_DISCOVERY,MR-0233,SYSTEMATIC_SEARCH,SR-G2-171,OAX,,,,,,,4,https://openalex.org/W4417536599,Vote choices in the Council of the European Union 2010 to 2021,EVS-171,
+DL-0509,RESOURCE_DISCOVERY,MR-0234,SYSTEMATIC_SEARCH,SR-G2-177,OAX,,,,,,,21,https://openalex.org/W7204236018,ProofAML — European Union Sanctions & PEP Dataset,EVS-177,
+DL-0510,RESOURCE_DISCOVERY,MR-0235,BACKWARD_FORWARD_DISCOVERY,,,,,,,,,,,,EVC-0111,Named or linked in the captured page https://huggingface.co/api/datasets/Helsinki-NLP/europarl
+DL-0511,RESOURCE_DISCOVERY,MR-0236,OTHER,,,,,,,,,,,,EVC-0155,Institutional sweep step SW-012: page title of the application that the ICSMS and NANDO addresses resolve to
+DL-0512,RESOURCE_DISCOVERY,MR-0237,OTHER,,,,,,,,,,,,EVC-0155,Institutional sweep step SW-012: address registered for ICSMS redirected to SMCS
+DL-0513,RESOURCE_DISCOVERY,MR-0238,OTHER,,,,,,,,,,,,EVC-0156,Institutional sweep step SW-013: page title
+DL-0514,RESOURCE_DISCOVERY,MR-0239,OTHER,,,,,,,,,,,,EVC-0157,Institutional sweep step SW-014: page title
+DL-0515,RESOURCE_DISCOVERY,MR-0240,OTHER,,,,,,,,,,,,EVC-0158,Institutional sweep step SW-015: page title
+DL-0516,RESOURCE_DISCOVERY,MR-0241,OTHER,,,,,,,,,,,,EVC-0159,Institutional sweep step SW-016: page title
+DL-0517,RESOURCE_DISCOVERY,MR-0242,OTHER,,,,,,,,,,,,EVC-0160,Institutional sweep step SW-017: register home page
+DL-0518,RESOURCE_DISCOVERY,MR-0243,OTHER,,,,,,,,,,,,EVC-0163,Institutional sweep step SW-020: page title
+DL-0519,RESOURCE_DISCOVERY,MR-0244,OTHER,,,,,,,,,,,,EVC-0165,Institutional sweep step SW-022: page read
+DL-0520,RESOURCE_DISCOVERY,MR-0245,OTHER,,,,,,,,,,,,EVC-0166,Institutional sweep step SW-023: page read
+DL-0521,RESOURCE_DISCOVERY,MR-0246,OTHER,,,,,,,,,,,,EVC-0172,Institutional sweep step SW-029: index page read
+DL-0522,RESOURCE_DISCOVERY,MR-0247,OTHER,,,,,,,,,,,,EVC-0173,Institutional sweep step SW-030: index page read
+DL-0523,RESOURCE_DISCOVERY,MR-0248,OTHER,,,,,,,,,,,,EVC-0176,Institutional sweep step SW-033: page read
+DL-0524,RESOURCE_DISCOVERY,MR-0249,OTHER,,,,,,,,,,,,EVC-0182,Institutional sweep step SW-039: page read
+DL-0525,RESOURCE_DISCOVERY,MR-0250,OTHER,,,,,,,,,,,,EVC-0151,Institutional sweep step SW-008: named under Tools on the BEREC home page
+DL-0526,RESOURCE_DISCOVERY,MR-0251,OTHER,,,,,,,,,,,,EVC-0151,Institutional sweep step SW-008: named under Tools on the BEREC home page
+DL-0527,RESOURCE_DISCOVERY,MR-0252,OTHER,,,,,,,,,,,,EVC-0185,Institutional sweep step SW-042: page title

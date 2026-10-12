@@ -1,0 +1,4 @@
+ERROR tests/test_mapping_base.py::MappingBaseTest::test_real_base_has_no_validation_error_including_evidence_hashes
+ERROR tests/test_mapping_base.py::MappingBaseTest::test_seed_inventory_is_byte_identical_to_g0
+ERROR tests/test_mapping_base.py::MappingBaseTest::test_the_41_seeds_keep_their_identifiers_in_order
+12 failed, 6 passed, 8 errors in 2.82s

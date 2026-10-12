@@ -1,0 +1,143 @@
+search_id,family,resource_set,platform,query,language,rationale,param,page,depth_rationale
+SR-G2-055,catalogue_enumeration,AB,DCAT,,en,List all catalogues harvested by data.europa.eu to identify EU institutional catalogues (page 0 of 3),,0,Complete enumeration: 212 catalogues reported by the service
+SR-G2-056,catalogue_enumeration,AB,DCAT,,en,List all catalogues harvested by data.europa.eu (page 1 of 3),,1,Complete enumeration
+SR-G2-057,catalogue_enumeration,AB,DCAT,,en,List all catalogues harvested by data.europa.eu (page 2 of 3),,2,Complete enumeration
+SR-G2-058,facet_probe,AB,DEUF,,en,Facet counts of all datasets by catalogue and by publisher classification,,0,Single call; facets only
+SR-G2-059,institutional_catalogue_enumeration,B,DEUC,,en,"All datasets of the data.europa.eu catalogue ""acer"" (page 0 of 1)",acer,0,Complete enumeration: facet probe SR-G2-058 reported 13 datasets
+SR-G2-060,institutional_catalogue_enumeration,B,DEUC,,en,"All datasets of the data.europa.eu catalogue ""berec_office"" (page 0 of 1)",berec_office,0,Complete enumeration: facet probe SR-G2-058 reported 2 datasets
+SR-G2-061,institutional_catalogue_enumeration,B,DEUC,,en,"All datasets of the data.europa.eu catalogue ""eba"" (page 0 of 3)",eba,0,Complete enumeration: facet probe SR-G2-058 reported 251 datasets
+SR-G2-062,institutional_catalogue_enumeration,B,DEUC,,en,"All datasets of the data.europa.eu catalogue ""eba"" (page 1 of 3)",eba,1,Complete enumeration: facet probe SR-G2-058 reported 251 datasets
+SR-G2-063,institutional_catalogue_enumeration,B,DEUC,,en,"All datasets of the data.europa.eu catalogue ""eba"" (page 2 of 3)",eba,2,Complete enumeration: facet probe SR-G2-058 reported 251 datasets
+SR-G2-064,institutional_catalogue_enumeration,B,DEUC,,en,"All datasets of the data.europa.eu catalogue ""esma"" (page 0 of 1)",esma,0,Complete enumeration: facet probe SR-G2-058 reported 31 datasets
+SR-G2-065,institutional_catalogue_enumeration,B,DEUC,,en,"All datasets of the data.europa.eu catalogue ""eiopa"" (page 0 of 1)",eiopa,0,Complete enumeration: facet probe SR-G2-058 reported 13 datasets
+SR-G2-066,institutional_catalogue_enumeration,B,DEUC,,en,"All datasets of the data.europa.eu catalogue ""echa"" (page 0 of 1)",echa,0,Complete enumeration: facet probe SR-G2-058 reported 24 datasets
+SR-G2-067,institutional_catalogue_enumeration,B,DEUC,,en,"All datasets of the data.europa.eu catalogue ""easa"" (page 0 of 1)",easa,0,Complete enumeration: facet probe SR-G2-058 reported 2 datasets
+SR-G2-068,institutional_catalogue_enumeration,B,DEUC,,en,"All datasets of the data.europa.eu catalogue ""era"" (page 0 of 1)",era,0,Complete enumeration: facet probe SR-G2-058 reported 14 datasets
+SR-G2-069,institutional_catalogue_enumeration,B,DEUC,,en,"All datasets of the data.europa.eu catalogue ""emsa"" (page 0 of 1)",emsa,0,Complete enumeration: facet probe SR-G2-058 reported 16 datasets
+SR-G2-070,institutional_catalogue_enumeration,B,DEUC,,en,"All datasets of the data.europa.eu catalogue ""efsa"" (page 0 of 1)",efsa,0,Complete enumeration: facet probe SR-G2-058 reported 19 datasets
+SR-G2-071,institutional_catalogue_enumeration,B,DEUC,,en,"All datasets of the data.europa.eu catalogue ""emea"" (page 0 of 1)",emea,0,Complete enumeration: facet probe SR-G2-058 reported 46 datasets
+SR-G2-072,institutional_catalogue_enumeration,B,DEUC,,en,"All datasets of the data.europa.eu catalogue ""enisa"" (page 0 of 1)",enisa,0,Complete enumeration: facet probe SR-G2-058 reported 2 datasets
+SR-G2-073,institutional_catalogue_enumeration,B,DEUC,,en,"All datasets of the data.europa.eu catalogue ""edps"" (page 0 of 1)",edps,0,Complete enumeration: facet probe SR-G2-058 reported 15 datasets
+SR-G2-074,institutional_catalogue_enumeration,B,DEUC,,en,"All datasets of the data.europa.eu catalogue ""cpvo"" (page 0 of 1)",cpvo,0,Complete enumeration: facet probe SR-G2-058 reported 2 datasets
+SR-G2-075,institutional_catalogue_enumeration,B,DEUC,,en,"All datasets of the data.europa.eu catalogue ""oami"" (page 0 of 1)",oami,0,Complete enumeration: facet probe SR-G2-058 reported 4 datasets
+SR-G2-076,institutional_catalogue_enumeration,B,DEUC,,en,"All datasets of the data.europa.eu catalogue ""cfca"" (page 0 of 1)",cfca,0,Complete enumeration: facet probe SR-G2-058 reported 12 datasets
+SR-G2-077,institutional_catalogue_enumeration,B,DEUC,,en,"All datasets of the data.europa.eu catalogue ""frontex"" (page 0 of 1)",frontex,0,Complete enumeration: facet probe SR-G2-058 reported 90 datasets
+SR-G2-078,institutional_catalogue_enumeration,B,DEUC,,en,"All datasets of the data.europa.eu catalogue ""osha"" (page 0 of 1)",osha,0,Complete enumeration: facet probe SR-G2-058 reported 4 datasets
+SR-G2-079,institutional_catalogue_enumeration,B,DEUC,,en,"All datasets of the data.europa.eu catalogue ""ecdc"" (page 0 of 1)",ecdc,0,Complete enumeration: facet probe SR-G2-058 reported 82 datasets
+SR-G2-080,institutional_catalogue_enumeration,B,DEUC,,en,"All datasets of the data.europa.eu catalogue ""comp"" (page 0 of 1)",comp,0,Complete enumeration: facet probe SR-G2-058 reported 47 datasets
+SR-G2-081,institutional_catalogue_enumeration,B,DEUC,,en,"All datasets of the data.europa.eu catalogue ""grow"" (page 0 of 1)",grow,0,Complete enumeration: facet probe SR-G2-058 reported 28 datasets
+SR-G2-082,institutional_catalogue_enumeration,B,DEUC,,en,"All datasets of the data.europa.eu catalogue ""sante"" (page 0 of 1)",sante,0,Complete enumeration: facet probe SR-G2-058 reported 14 datasets
+SR-G2-083,institutional_catalogue_enumeration,B,DEUC,,en,"All datasets of the data.europa.eu catalogue ""just"" (page 0 of 2)",just,0,Complete enumeration: facet probe SR-G2-058 reported 138 datasets
+SR-G2-084,institutional_catalogue_enumeration,B,DEUC,,en,"All datasets of the data.europa.eu catalogue ""just"" (page 1 of 2)",just,1,Complete enumeration: facet probe SR-G2-058 reported 138 datasets
+SR-G2-085,institutional_catalogue_enumeration,B,DEUC,,en,"All datasets of the data.europa.eu catalogue ""fisma"" (page 0 of 1)",fisma,0,Complete enumeration: facet probe SR-G2-058 reported 3 datasets
+SR-G2-086,institutional_catalogue_enumeration,B,DEUC,,en,"All datasets of the data.europa.eu catalogue ""taxud"" (page 0 of 1)",taxud,0,Complete enumeration: facet probe SR-G2-058 reported 23 datasets
+SR-G2-087,institutional_catalogue_enumeration,B,DEUC,,en,"All datasets of the data.europa.eu catalogue ""trade"" (page 0 of 1)",trade,0,Complete enumeration: facet probe SR-G2-058 reported 1 datasets
+SR-G2-088,institutional_catalogue_enumeration,B,DEUC,,en,"All datasets of the data.europa.eu catalogue ""home"" (page 0 of 1)",home,0,Complete enumeration: facet probe SR-G2-058 reported 1 datasets
+SR-G2-089,institutional_catalogue_enumeration,B,DEUC,,en,"All datasets of the data.europa.eu catalogue ""env"" (page 0 of 1)",env,0,Complete enumeration: facet probe SR-G2-058 reported 35 datasets
+SR-G2-090,institutional_catalogue_enumeration,B,DEUC,,en,"All datasets of the data.europa.eu catalogue ""move"" (page 0 of 1)",move,0,Complete enumeration: facet probe SR-G2-058 reported 19 datasets
+SR-G2-091,institutional_catalogue_enumeration,B,DEUC,,en,"All datasets of the data.europa.eu catalogue ""ener"" (page 0 of 1)",ener,0,Complete enumeration: facet probe SR-G2-058 reported 13 datasets
+SR-G2-092,institutional_catalogue_enumeration,B,DEUC,,en,"All datasets of the data.europa.eu catalogue ""sg"" (page 0 of 1)",sg,0,Complete enumeration: facet probe SR-G2-058 reported 9 datasets
+SR-G2-093,institutional_catalogue_enumeration,B,DEUC,,en,"All datasets of the data.europa.eu catalogue ""rsb"" (page 0 of 1)",rsb,0,Complete enumeration: facet probe SR-G2-058 reported 4 datasets
+SR-G2-094,institutional_catalogue_enumeration,B,DEUC,,en,"All datasets of the data.europa.eu catalogue ""olaf"" (page 0 of 1)",olaf,0,Complete enumeration: facet probe SR-G2-058 reported 3 datasets
+SR-G2-095,institutional_catalogue_enumeration,B,DEUC,,en,"All datasets of the data.europa.eu catalogue ""europol"" (page 0 of 1)",europol,0,Complete enumeration: facet probe SR-G2-058 reported 29 datasets
+SR-G2-096,institutional_catalogue_enumeration,B,DEUC,,en,"All datasets of the data.europa.eu catalogue ""lisa"" (page 0 of 1)",lisa,0,Complete enumeration: facet probe SR-G2-058 reported 4 datasets
+SR-G2-097,institutional_catalogue_enumeration,B,DEUC,,en,"All datasets of the data.europa.eu catalogue ""easo"" (page 0 of 1)",easo,0,Complete enumeration: facet probe SR-G2-058 reported 11 datasets
+SR-G2-098,institutional_catalogue_enumeration,B,DEUC,,en,"All datasets of the data.europa.eu catalogue ""fra"" (page 0 of 1)",fra,0,Complete enumeration: facet probe SR-G2-058 reported 16 datasets
+SR-G2-099,institutional_catalogue_enumeration,B,DEUC,,en,"All datasets of the data.europa.eu catalogue ""consil"" (page 0 of 1)",consil,0,Complete enumeration: facet probe SR-G2-058 reported 3 datasets
+SR-G2-100,institutional_catalogue_enumeration,B,DEUC,,en,"All datasets of the data.europa.eu catalogue ""eca"" (page 0 of 1)",eca,0,Complete enumeration: facet probe SR-G2-058 reported 19 datasets
+SR-G2-101,institutional_catalogue_enumeration,B,DEUC,,en,"All datasets of the data.europa.eu catalogue ""mare"" (page 0 of 1)",mare,0,Complete enumeration: facet probe SR-G2-058 reported 11 datasets
+SR-G2-102,institutional_catalogue_enumeration,B,DEUC,,en,"All datasets of the data.europa.eu catalogue ""agri"" (page 0 of 1)",agri,0,Complete enumeration: facet probe SR-G2-058 reported 57 datasets
+SR-G2-103,institutional_catalogue_enumeration,A,DEUC,,en,"All datasets of the data.europa.eu catalogue ""publ"" (page 0 of 4)",publ,0,Complete enumeration: facet probe SR-G2-058 reported 388 datasets
+SR-G2-104,institutional_catalogue_enumeration,A,DEUC,,en,"All datasets of the data.europa.eu catalogue ""publ"" (page 1 of 4)",publ,1,Complete enumeration: facet probe SR-G2-058 reported 388 datasets
+SR-G2-105,institutional_catalogue_enumeration,A,DEUC,,en,"All datasets of the data.europa.eu catalogue ""publ"" (page 2 of 4)",publ,2,Complete enumeration: facet probe SR-G2-058 reported 388 datasets
+SR-G2-106,institutional_catalogue_enumeration,A,DEUC,,en,"All datasets of the data.europa.eu catalogue ""publ"" (page 3 of 4)",publ,3,Complete enumeration: facet probe SR-G2-058 reported 388 datasets
+SR-G2-107,institutional_catalogue_enumeration,A,DEUC,,en,"All datasets of the data.europa.eu catalogue ""ep"" (page 0 of 2)",ep,0,Complete enumeration: facet probe SR-G2-058 reported 140 datasets
+SR-G2-108,institutional_catalogue_enumeration,A,DEUC,,en,"All datasets of the data.europa.eu catalogue ""ep"" (page 1 of 2)",ep,1,Complete enumeration: facet probe SR-G2-058 reported 140 datasets
+SR-G2-109,catalogue_filtered,B,DEUC,register,en,"Datasets of catalogue cnect (727 datasets, too many to enumerate): registers",cnect,0,"Filtered, first 100 results; catalogue holds 727 datasets"
+SR-G2-110,catalogue_filtered,B,DEUC,list of,en,"Datasets of catalogue cnect (727 datasets, too many to enumerate): lists of designated or authorised entities",cnect,0,"Filtered, first 100 results; catalogue holds 727 datasets"
+SR-G2-111,catalogue_filtered,B,DEUC,designated,en,"Datasets of catalogue cnect (727 datasets, too many to enumerate): designations",cnect,0,"Filtered, first 100 results; catalogue holds 727 datasets"
+SR-G2-112,catalogue_filtered,B,DEUC,digital services,en,"Datasets of catalogue cnect (727 datasets, too many to enumerate): DSA/DMA related data",cnect,0,"Filtered, first 100 results; catalogue holds 727 datasets"
+SR-G2-113,catalogue_filtered,B,DEUC,regulatory authorities,en,"Datasets of catalogue cnect (727 datasets, too many to enumerate): national regulatory authorities",cnect,0,"Filtered, first 100 results; catalogue holds 727 datasets"
+SR-G2-114,catalogue_filtered,B,DEUC,database,en,"Datasets of catalogue cnect (727 datasets, too many to enumerate): databases",cnect,0,"Filtered, first 100 results; catalogue holds 727 datasets"
+SR-G2-115,catalogue_filtered,AB,DEUC,regulation,en,"Datasets of catalogue jrc (4306 datasets, too many to enumerate): regulation-related datasets",jrc,0,"Filtered, first 100 results; catalogue holds 4306 datasets"
+SR-G2-116,catalogue_filtered,AB,DEUC,legislation,en,"Datasets of catalogue jrc (4306 datasets, too many to enumerate): legislation-related datasets",jrc,0,"Filtered, first 100 results; catalogue holds 4306 datasets"
+SR-G2-117,catalogue_filtered,AB,DEUC,compliance,en,"Datasets of catalogue jrc (4306 datasets, too many to enumerate): compliance and enforcement",jrc,0,"Filtered, first 100 results; catalogue holds 4306 datasets"
+SR-G2-118,catalogue_filtered,AB,DEUC,register,en,"Datasets of catalogue jrc (4306 datasets, too many to enumerate): registers",jrc,0,"Filtered, first 100 results; catalogue holds 4306 datasets"
+SR-G2-119,governance_thematic,B,DEU,market surveillance,en,Regulatory-governance theme not covered by round 1; free text over all catalogues,,0,
+SR-G2-120,governance_thematic,B,DEU,rapid alert system dangerous products,en,Regulatory-governance theme not covered by round 1; free text over all catalogues,,0,
+SR-G2-121,governance_thematic,B,DEU,authorised economic operators,en,Regulatory-governance theme not covered by round 1; free text over all catalogues,,0,
+SR-G2-122,governance_thematic,B,DEU,type-approval vehicles,en,Regulatory-governance theme not covered by round 1; free text over all catalogues,,0,
+SR-G2-123,governance_thematic,B,DEU,medical devices database,en,Regulatory-governance theme not covered by round 1; free text over all catalogues,,0,
+SR-G2-124,governance_thematic,B,DEU,energy labelling product database,en,Regulatory-governance theme not covered by round 1; free text over all catalogues,,0,
+SR-G2-125,governance_thematic,B,DEU,plant protection products authorisation,en,Regulatory-governance theme not covered by round 1; free text over all catalogues,,0,
+SR-G2-126,governance_thematic,B,DEU,railway safety authority,en,Regulatory-governance theme not covered by round 1; free text over all catalogues,,0,
+SR-G2-127,governance_thematic,B,DEU,financial supervisory authorities register,en,Regulatory-governance theme not covered by round 1; free text over all catalogues,,0,
+SR-G2-128,governance_thematic,B,DEU,credit institutions register,en,Regulatory-governance theme not covered by round 1; free text over all catalogues,,0,
+SR-G2-129,governance_thematic,B,DEU,payment institutions register,en,Regulatory-governance theme not covered by round 1; free text over all catalogues,,0,
+SR-G2-130,governance_thematic,B,DEU,conformity assessment bodies,en,Regulatory-governance theme not covered by round 1; free text over all catalogues,,0,
+SR-G2-131,governance_thematic,B,DEU,certification bodies register,en,Regulatory-governance theme not covered by round 1; free text over all catalogues,,0,
+SR-G2-132,governance_thematic,B,DEU,restrictive measures sanctions list,en,Regulatory-governance theme not covered by round 1; free text over all catalogues,,0,
+SR-G2-133,governance_thematic,B,DEU,inspection reports,en,Regulatory-governance theme not covered by round 1; free text over all catalogues,,0,
+SR-G2-134,governance_thematic,B,DEU,infringement cases Commission,en,Regulatory-governance theme not covered by round 1; free text over all catalogues,,0,
+SR-G2-135,governance_thematic,B,DEU,whistleblowing authorities,en,Regulatory-governance theme not covered by round 1; free text over all catalogues,,0,
+SR-G2-136,governance_thematic,B,DEU,lobby register,en,Regulatory-governance theme not covered by round 1; free text over all catalogues,,0,
+SR-G2-137,governance_thematic,B,DEU,national competent authorities list,en,Regulatory-governance theme not covered by round 1; free text over all catalogues,,0,
+SR-G2-138,governance_thematic,B,DEU,European networks of regulators,en,Regulatory-governance theme not covered by round 1; free text over all catalogues,,0,
+SR-G2-139,multilingual_sensitivity,B,DEU,autorités de surveillance du marché,fr,French sensitivity check: market surveillance authorities,,0,
+SR-G2-140,multilingual_sensitivity,B,DEU,registre des sanctions,fr,French sensitivity check: sanctions registers,,0,
+SR-G2-141,multilingual_sensitivity,B,DEU,Marktüberwachung Behörden,de,German sensitivity check: market surveillance authorities,,0,
+SR-G2-142,academic_governance,AB,ZEN,notified bodies dataset,en,"Governance and process datasets in Zenodo (round-2 plan, block 3)",,0,
+SR-G2-143,academic_governance,AB,ZEN,regulatory agencies Europe dataset,en,"Governance and process datasets in Zenodo (round-2 plan, block 3)",,0,
+SR-G2-144,academic_governance,AB,ZEN,market surveillance dataset,en,"Governance and process datasets in Zenodo (round-2 plan, block 3)",,0,
+SR-G2-145,academic_governance,AB,ZEN,REACH dataset,en,"Governance and process datasets in Zenodo (round-2 plan, block 3)",,0,
+SR-G2-146,academic_governance,AB,ZEN,EU agencies delegation dataset,en,"Governance and process datasets in Zenodo (round-2 plan, block 3)",,0,
+SR-G2-147,academic_governance,AB,ZEN,comitology dataset,en,"Governance and process datasets in Zenodo (round-2 plan, block 3)",,0,
+SR-G2-148,academic_governance,AB,ZEN,delegated acts dataset,en,"Governance and process datasets in Zenodo (round-2 plan, block 3)",,0,
+SR-G2-149,academic_governance,AB,ZEN,trilogue dataset,en,"Governance and process datasets in Zenodo (round-2 plan, block 3)",,0,
+SR-G2-150,academic_governance,AB,ZEN,impact assessment dataset European Commission,en,"Governance and process datasets in Zenodo (round-2 plan, block 3)",,0,
+SR-G2-151,academic_governance,AB,ZEN,public consultation dataset European Commission,en,"Governance and process datasets in Zenodo (round-2 plan, block 3)",,0,
+SR-G2-152,academic_governance,AB,ZEN,preliminary reference dataset Court of Justice,en,"Governance and process datasets in Zenodo (round-2 plan, block 3)",,0,
+SR-G2-153,academic_governance,AB,ZEN,transposition dataset,en,"Governance and process datasets in Zenodo (round-2 plan, block 3)",,0,
+SR-G2-154,academic_governance,AB,DVN,notified bodies,en,"Governance and process datasets in Harvard Dataverse (round-2 plan, block 3)",,0,
+SR-G2-155,academic_governance,AB,DVN,EU agencies,en,"Governance and process datasets in Harvard Dataverse (round-2 plan, block 3)",,0,
+SR-G2-156,academic_governance,AB,DVN,comitology,en,"Governance and process datasets in Harvard Dataverse (round-2 plan, block 3)",,0,
+SR-G2-157,academic_governance,AB,DVN,delegated acts,en,"Governance and process datasets in Harvard Dataverse (round-2 plan, block 3)",,0,
+SR-G2-158,academic_governance,AB,DVN,impact assessment European Commission,en,"Governance and process datasets in Harvard Dataverse (round-2 plan, block 3)",,0,
+SR-G2-159,academic_governance,AB,DVN,infringement proceedings,en,"Governance and process datasets in Harvard Dataverse (round-2 plan, block 3)",,0,
+SR-G2-160,academic_governance,AB,DVN,trilogue,en,"Governance and process datasets in Harvard Dataverse (round-2 plan, block 3)",,0,
+SR-G2-161,academic_governance,AB,DVN,regulatory agencies Europe,en,"Governance and process datasets in Harvard Dataverse (round-2 plan, block 3)",,0,
+SR-G2-162,academic_other_repository,AB,DNS,EU legislation,en,"Dutch social-science and humanities data stations (DANS), not covered in round 1",,0,
+SR-G2-163,academic_other_repository,AB,DNS,European Union regulation,en,"Dutch social-science and humanities data stations (DANS), not covered in round 1",,0,
+SR-G2-164,academic_other_repository,AB,DNS,European Union agencies,en,"Dutch social-science and humanities data stations (DANS), not covered in round 1",,0,
+SR-G2-165,academic_other_repository,AB,B2F,EU legislation,en,"EUDAT B2FIND aggregates European research-data repositories, not covered in round 1",,0,
+SR-G2-166,academic_other_repository,AB,B2F,EU regulation,en,"EUDAT B2FIND aggregates European research-data repositories, not covered in round 1",,0,
+SR-G2-167,academic_other_repository,AB,B2F,European Union agencies,en,"EUDAT B2FIND aggregates European research-data repositories, not covered in round 1",,0,
+SR-G2-168,data_papers,AB,OAX,notified bodies dataset,en,"Publications presenting governance or process datasets (round-2 plan, block 3)",,0,
+SR-G2-169,data_papers,AB,OAX,European regulatory agencies dataset,en,"Publications presenting governance or process datasets (round-2 plan, block 3)",,0,
+SR-G2-170,data_papers,AB,OAX,dataset of EU delegated acts,en,"Publications presenting governance or process datasets (round-2 plan, block 3)",,0,
+SR-G2-171,data_papers,AB,OAX,dataset of Council voting EU legislation,en,"Publications presenting governance or process datasets (round-2 plan, block 3)",,0,
+SR-G2-172,data_papers,AB,OAX,dataset trilogues European Parliament,en,"Publications presenting governance or process datasets (round-2 plan, block 3)",,0,
+SR-G2-173,data_papers,AB,OAX,impact assessments dataset European Commission,en,"Publications presenting governance or process datasets (round-2 plan, block 3)",,0,
+SR-G2-174,data_papers,AB,OAX,dataset EU consolidated legislation,en,"Publications presenting governance or process datasets (round-2 plan, block 3)",,0,
+SR-G2-175,data_papers,AB,OAX,data paper European Union law dataset,en,"Publications presenting governance or process datasets (round-2 plan, block 3)",,0,
+SR-G2-176,data_papers,AB,OAX,dataset regulatory networks Europe,en,"Publications presenting governance or process datasets (round-2 plan, block 3)",,0,
+SR-G2-177,data_papers,AB,OAX,dataset European Commission decisions,en,"Publications presenting governance or process datasets (round-2 plan, block 3)",,0,
+SR-G2-178,academic_governance,AB,DCT,European Union agencies,en,DOI-registered datasets on governance and implementation topics,,0,
+SR-G2-179,academic_governance,AB,DCT,comitology,en,DOI-registered datasets on governance and implementation topics,,0,
+SR-G2-180,academic_governance,AB,DCT,transposition,en,DOI-registered datasets on governance and implementation topics,,0,
+SR-G2-181,academic_governance,AB,DCT,infringement,en,DOI-registered datasets on governance and implementation topics,,0,
+SR-G2-182,legal_nlp_benchmarks,A,HF,eu-law,en,Hub datasets not matched by round-1 queries,,0,
+SR-G2-183,legal_nlp_benchmarks,A,HF,eu legislation,en,Hub datasets not matched by round-1 queries,,0,
+SR-G2-184,legal_nlp_benchmarks,A,HF,european parliament,en,Hub datasets not matched by round-1 queries,,0,
+SR-G2-185,legal_nlp_benchmarks,A,HF,legislative,en,Hub datasets not matched by round-1 queries,,0,
+SR-G2-186,code_hosted_datasets,AB,GH,eu legislation data,en,Code-hosted datasets not matched by round-1 queries,,0,
+SR-G2-187,code_hosted_datasets,AB,GH,european regulation dataset,en,Code-hosted datasets not matched by round-1 queries,,0,
+SR-G2-188,code_hosted_datasets,AB,GH,legislative procedure dataset,en,Code-hosted datasets not matched by round-1 queries,,0,
+SR-G2-189,code_hosted_datasets,AB,GH,comitology,en,Code-hosted datasets not matched by round-1 queries,,0,
+SR-G2-190,code_hosted_datasets,AB,GH,transposition data,en,Code-hosted datasets not matched by round-1 queries,,0,
+SR-G2-191,depth,A,OAX,new dataset European Union legislation,en,Second page of SR-G2-040,,1,SR-G2-040 linked at least 5 hits to resources on page 0; page 1 added to test whether the yield continues
+SR-G2-192,depth,A,OAX,EUR-Lex corpus,en,Second page of SR-G2-041,,1,SR-G2-041 linked at least 5 hits to resources on page 0; page 1 added to test whether the yield continues
+SR-G2-193,depth,A,ZEN,EUR-Lex corpus,en,Second page of SR-G2-025,,1,SR-G2-025 linked at least 5 hits to resources on page 0; page 1 added to test whether the yield continues
+SR-G2-194,depth,A,ZEN,EU legislative procedures dataset,en,Second page of SR-G2-027,,1,SR-G2-027 linked at least 5 hits to resources on page 0; page 1 added to test whether the yield continues
+SR-G2-195,depth,A,DVN,EU directives transposition compliance,en,Second page of SR-G2-034,,1,SR-G2-034 linked at least 5 hits to resources on page 0; page 1 added to test whether the yield continues
+SR-G2-196,depth,A,DVN,European Union legislation,en,Second page of SR-G2-033,,1,SR-G2-033 linked at least 5 hits to resources on page 0; page 1 added to test whether the yield continues

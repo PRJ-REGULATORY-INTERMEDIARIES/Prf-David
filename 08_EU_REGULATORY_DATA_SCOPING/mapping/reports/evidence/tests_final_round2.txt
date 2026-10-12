@@ -1,0 +1,28 @@
+# round 2 final checks — 2026-10-10T13:39:18Z
+## pytest (full suite)
+........................................................................ [ 94%]
+........                                                                 [100%]
+152 passed in 130.00s (0:02:09)
+## validator
+WARNING levels         MR-0005: historical status VERIFIED but identity level IDENTITY_PARTIAL (name or maintainer inferred or from the seed)
+WARNING levels         MR-0018: historical status VERIFIED but identity level IDENTITY_PARTIAL (name or maintainer inferred or from the seed)
+WARNING levels         MR-0023: historical status VERIFIED but identity level IDENTITY_PARTIAL (name or maintainer inferred or from the seed)
+WARNING levels         MR-0034: historical status VERIFIED but identity level IDENTITY_PARTIAL (name or maintainer inferred or from the seed)
+0 error(s), 4 warning(s)
+## per file
+     13 tests/test_agreement_pairs.py
+     12 tests/test_evidence_capture.py
+     26 tests/test_mapping_base.py
+     39 tests/test_mapping_round2.py
+     17 tests/test_pilot_a_instruments.py
+     14 tests/test_pilot_a_packets_v2.py
+     10 tests/test_pilot_a_required_groups.py
+      4 tests/test_pipeline.py
+     17 tests/test_validation_vocabularies.py
+## capture log hashes (G1 tool)
+193 log entries; 0 problem(s)
+## cli.py check (earlier instrument, unchanged)
+[WARNING] Same URL in records ['SEED_EU03', 'SEED_EU07']: https://data.europa.eu/en/ELDS (candidate duplicate; human decision required)
+[WARNING] No documented systematic search hits: only seed set or empty inventory.
+[WARNING] No canonical dataset inclusion decisions: scientific results not available.
+No structural errors.

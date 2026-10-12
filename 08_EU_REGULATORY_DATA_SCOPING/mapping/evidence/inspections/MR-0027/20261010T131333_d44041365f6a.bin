@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="utf-8">
+
+    <title>Download - DSA transparency database</title>
+
+    <meta content="width=device-width,initial-scale=1" name="viewport" />
+    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+    <script>
+        var cl = document.querySelector('html').classList;
+        cl.remove('no-js');
+        cl.add('has-js');
+    </script>
+
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.8.2/pikaday.js"
+        crossorigin="anonymous"
+    ></script>
+
+    <link rel="icon" href="https://transparency.dsa.ec.europa.eu/favicon.ico" type="image/x-icon">
+
+    <link
+        rel="stylesheet"
+        href="https://transparency.dsa.ec.europa.eu/static/ecl/styles/optional/ecl-reset.css"
+        media="screen"
+    />
+
+    <link
+        rel="stylesheet"
+        href="https://transparency.dsa.ec.europa.eu/static/ecl/styles/ecl-ec.css"
+        crossorigin="anonymous"
+        media="screen"
+    >
+
+    <link
+        rel="stylesheet"
+        href="https://transparency.dsa.ec.europa.eu/static/ecl/styles/optional/ecl-ec-utilities.css"
+        crossorigin="anonymous"
+        media="screen"
+    />
+
+    <link
+        rel="stylesheet"
+        href="https://transparency.dsa.ec.europa.eu/static/ecl/styles/ecl-ec-print.css"
+        crossorigin="anonymous"
+        media="print"
+    >
+
+    <link rel="stylesheet" href="/css/app.css">
+
+
+        
+</head>
+<body class="ecl">
+<div id="root" style="padding-top: 0 !important;">
+
+    <header class="ecl-site-header ecl-site-header--has-menu" data-ecl-auto-init="SiteHeader">
+    <div class="ecl-site-header__background">
+        <div class="ecl-site-header__header">
+            <div class="ecl-site-header__container ecl-container">
+                <div class="ecl-site-header__top" data-ecl-site-header-top>
+                    <a href="https://transparency.dsa.ec.europa.eu"
+                       class="ecl-link ecl-link--standalone ecl-site-header__logo-link"
+                       aria-label="European Commission">
+                        <picture class="ecl-picture ecl-site-header__picture" title="European Commission">
+                            <source srcset="https://transparency.dsa.ec.europa.eu/static/ecl/images/logo/positive/logo-ec--en.svg"
+                                media="(min-width: 576px)">
+                            <source srcset="https://transparency.dsa.ec.europa.eu/static/ecl/images/logo/logo-ec--mute.svg"
+                                media="(min-width: 1px)">
+                            <img class="ecl-site-header__logo-image"
+                                 src="https://transparency.dsa.ec.europa.eu/static/ecl/images/logo/positive/logo-ec--en.svg"
+                                 alt="European Commission logo"/>
+                        </picture>
+                    </a>
+                    <div class="ecl-site-header__action">
+
+                                                
+                        <div class="ecl-site-header__login-container">
+
+            <a class="ecl-button ecl-button--tertiary ecl-site-header__login-toggle"
+           href="https://transparency.dsa.ec.europa.eu/profile/start">
+            <svg class="ecl-icon ecl-icon--s ecl-site-header__icon"
+                 focusable="false"
+                 aria-hidden="false"
+                 role="img"
+            >
+                <title>Log in</title>
+                <use xlink:href="/static/ecl/images/icons/sprites/icons.svg#log-in"></use>
+
+            </svg>
+                Log in</a>
+        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+
+        <div class="ecl-site-header__banner">
+            <div class="ecl-container">
+                <div class="ecl-site-header__site-name">DSA transparency database</div>
+            </div>
+        </div>
+
+
+        <nav class="ecl-menu"
+             data-ecl-menu
+             data-ecl-menu-max-lines="2"
+             data-ecl-auto-init="Menu"
+             data-ecl-menu-label-open="Menu"
+             data-ecl-menu-label-close="Close

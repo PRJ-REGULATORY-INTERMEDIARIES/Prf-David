@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>EEA - Reporting Obligations Database</title>
+    <link rel="stylesheet" type="text/css" href="/css/print.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/handheld.css" media="handheld"/>
+    <link rel="stylesheet" type="text/css" href="/css/screen.css" media="screen"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.16/css/dataTables.bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/eionet2007.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/jquery-ui-1.14.1.min.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/application.css"/>
+
+
+    <script type="text/javascript" src="/js/jquery-3.7.1.min.js"></script>
+    <script type="text/javascript" src="/js/jquery-ui-1.14.1.min.js"></script>
+    <script type="text/javascript" src="/js/pageops.js"></script>
+    <script type="text/javascript" src="/js/mark_special_links.js"></script>
+    <script type="text/javascript" src="/js/util.js"></script>
+    <script type="text/javascript" src="/js/editor.js"></script>
+    <script type="text/javascript" src="/js/helpModal.js"></script>
+
+    <script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/dataTables.bootstrap.min.js"></script>
+    <script type="text/javascript" src="/js/moment.min.js"></script>
+    <script type="text/javascript" src="/js/datetime-moment.js"></script>
+
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon"/>
+    <link rel="icon" href="/images/eealogo256x256.png" type="image/png"/>
+</head>
+<body>
+<div id="container">
+    <div>
+        <div id="toolribbon">
+            <div id="lefttools">
+                <a id="skiplink" href="#workarea" accesskey="2">
+                    <span>Skip to content</span>
+                </a>
+                <a id="eealink" href="https://www.eea.europa.eu/">EEA</a>
+            </div>
+            <div id="righttools">
+                
+                <a id="loginlink" href="/login">Login</a>
+                <a id="printlink" title="Print this page" href="javascript:this.print();">
+                    <span>Print</span>
+                </a>
+                <a id="fullscreenlink" href="javascript:toggleFullScreenMode()" title="Switch to/from full screen mode">
+                    <span>Switch to/from full screen mode</span>
+                </a>
+                <a href="/about"><span>About</span></a>
+                <form action="/simpleSearch">
+                    <div id="freesrchform">
+                        <label for="freesrchfld">Search</label>
+                        <input type="text" id="freesrchfld" name="expression" placeholder="Search ROD" size="10"/>
+                        <button id="freesrchbtn" type="submit">
+                            <img src="/images/button_go.gif" alt="Go"/>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!-- toolribbon -->
+        <div id="pagehead">
+            <a title="Frontpage" id="imageTop" href="/">
+                <img src="/images/eea-print-logo.gif" alt="Logo" id="logo" width="428" height="87"/>
+            </a>
+            <div id="networktitle">Eionet</div>
+            <div id="sitetitle">Reporting Obligations Database (ROD)</div>
+            <div id="sitetagline">Networking improving Europe's environment</div>
+        </div>
+        <div class="breadcrumbtrail">
+            <div class="breadcrumbhead">You are here:</div>
+            <div class="breadcrumbitem eionetaccronym">
+                <a href="https://www.eionet.europa.eu">Eionet</a>
+            </div>
+            
+                <div class="breadcrumbitem">
+                    <a href="/">ROD</a>
+                </div>
+                
+            
+                
+                <div class="breadcrumbitemlast">EEA - Reporting Obligati...</div>
+            
+            <div class="breadcrumbtail">
+            </div>
+        </div>
+        <div id="leftcolumn">
+            <div class="localnav">
+                <ul>
+                    <li class="current"><a href="/">Home</a></li>
+                    <li><a href="/spatial">Countries/territories</a></li>
+                    <li><a href="/obligations">Obligations</a></li>
+                    <li><a href="/clients">Clients</a></li>
+                    <li><a href="/subscribe">Subscribe</a></li>
+                    <li><a href="/versions">Global History</a></li>
+                    <li><a href="/instruments">Legal instruments</a></li>
+                    <li><a href="/obligations?anmode=P">Core data flows</a></li>
+                    <li><a href="/obligations?anmode=F">EEA data flows</a></li>
+
+                    <!--  li sec:authorize-url="/datasets">
+                      <a href="obligations.html" th:href="@{/obligations}">Obligations</a>
+                    </li -->
+                    
+                    <!--<li th:class="${activeTab == 'analysis'}? 'current' : null"><a href="analysis.html" th:href="@{/analysis}">Database statistics</a></li>-->
+                    <li><a href="/advancedSearch">Advanced search</a></li>
+                    <li><a href="/help">Help</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="title-modal" style="display: none;">
+    <input type="hidden" name="hrefHelpModal" id="hrefHelpModal" value="/help.do">
+    <div id="help-text"></div>
+</div>
+    <div id="workarea">
+        <div class="leftworkarea">
+            <h1>What is ROD?</h1>
+            
+            <p>
+                ROD is the EEA's reporting obligations database. It contains records
+                describing environmental reporting obligations that countries have towards
+                international organisations. ROD is part of Reportnet. Reportnet is
+                group of web applications and processes developed by the EEA to support
+                international environmental reporting.
+            </p>
+            <h2>What are reporting obligations?</h2>
+            <p>
+                Reporting obligations are requirements to provide information
+                agreed between countries and international bodies such as the EEA or
+                international conventions. Reporting obligations provide the basis for
+                most environmental information flows.
+            </p>
+            <h2>What does ROD cover?</h2>
+            <p>
+                ROD includes all environmental reporting obligations that EEA member
+                countries have towards DG environment, European marine conventions,
+                Eurostat, OECD, UN, UNECE, as well as the EEA itself. To learn more
+                about ROD, the status of the contents and the intended users, please
+                check out the <a href="/help">general help</a> section.
+            </p>
+
+            <div id="drop-operations">
+                <ul class="nav nav-tabs" role="tablist">
+                    <li role="tab_item1" class="search active"><a href="#tab_item1" aria-controls="tab_item1" role="tab" data-toggle="tab" aria-expanded="false" class="searchSection" title="Search reporting obligations">Search reporting obligations</a></li>
+                    <li role="tab_item2" class="search"><a href="#tab_item2" aria-controls="tab_item2" role="tab" data-toggle="tab" aria-expanded="false" class="searchSection" title="Search">Search</a></li>
+                </ul>
+            </div>
+            <div id="filters" class="tab-content">
+
+                <div role="tabpanel" class="filter tab-pane active" id="tab_item1">
+                    <a class="helpButton" onclick="helpFunction('HELP_SEARCH1')" title="Help on this field"></a>
+                    <div style="clear:both"></div>
+                    <form action="/obligations/search" method="POST" name="f"><input type="hidden" name="_csrf" value="457046f3-6305-4690-b852-b7636d84d914"/>
+                        <div class="row">
+                            <div class="labeldiv">
+                                <label for="selCountries">Country or territory</label>
+                            </div>
+                            <div class="input">
+                                <select name="spatialId" id="selCountries" class="smalltext">
+                                    <option value="0" label="Any country or territory"></option>
+                                    <option value="2">Albania</option>
+                                    <option value="110">Algeria</option>
+                                    <option value="96">Andorra</option>
+                                    <option value="97">Armenia</option>
+                                    <option value="3">Austria</option>
+                                    <option value="98">Azerbaijan</option>
+                                    <option value="4">Belarus</option>
+                                    <option value="5">Belgium</option>
+                                    <option value="6">Bosnia and Herzegovina</option>
+                                    <option value="7">Bulgaria</option>
+                                    <option value="8">Croatia</option>
+                                    <option value="9">Cyprus</option>
+                                    <option value="10">Czechia</option>
+                                    <option value="11">Denmark</option>
+                                    <option value="109">Egypt</option>
+                                    <option value="12">Estonia</option>
+                                    <option value="1">European Union</option>
+                                    <option value="13">Finland</option>
+                                    <option value="14">France</option>
+                                    <option value="99">Georgia</option>
+                                    <option value="15">Germany</option>
+                                    <option value="114">Gibraltar</option>
+                                    <option value="16">Greece</option>
+                                    <option value="120">Greenland</option>
+                                    <option value="17">Hungary</option>
+                                    <option value="18">Iceland</option>
+                                    <option value="20">Ireland</option>
+                                    <option value="116">Israel</option>
+                                    <option value="19">Italy</option>
+                                    <option value="108">Jordan</option>
+                                    <option value="100">Kazakhstan</option>
+                                    <option value="42">Kosovo under the UNSCR 1244/99</option>
+                                    <option value="101">Kyrgyzstan</option>
+                                    <option value="21">Latvia</option>
+                                    <option value="117">Lebanon</option>
+                                    <option value="111">Libya</option>
+                                    <option value="102">Liechtenstein</option>
+                                    <option value="22">Lithuania</option>
+                                    <option value="23">Luxembourg</option>
+                                    <option value="25">Malta</option>
+                                    <option value="26">Moldova</option>
+                                    <option value="103">Monaco</option>
+                                    <option value="115">Montenegro</option>
+                                    <option value="112">Morocco</option>
+                                    <option value="27">Netherlands</option>
+                                    <option value="24">North Macedonia</option>
+                                    <option value="28">Norway</option>
+                                    <option value="118">Palestine</option>
+                                    <option value="29">Poland</option>
+                                    <option value="30">Portugal</option>
+                                    <option value="31">Romania</option>
+                                    <option value="32">Russian Federation</option>
+                                    <option value="104">San Marino</option>
+                                    <option value="41">Serbia</option>
+                                    <option value="33">Slovakia</option>
+                                    <option value="34">Slovenia</option>
+                                    <option value="35">Spain</option>
+                                    <option value="36">Sweden</option>
+                                    <option value="37">Switzerland</option>
+                                    <option value="119">Syria</option>
+                                    <option value="105">Tajikistan</option>
+                                    <option value="113">Tunisia</option>
+                                    <option value="38">Türkiye</option>
+                                    <option value="106">Turkmenistan</option>
+                                    <option value="39">Ukraine</option>
+                                    <option value="40">United Kingdom</option>
+                                    <option value="122">United Kingdom (Northern Ireland)</option>
+                                    <option value="107">Uzbekistan</option>
+                                    <option value="121">Vatican City</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="labeldiv">
+                                <label for="selIssues">Issue</label>
+                            </div>
+                            <div class="input">
+                                <select name="issueId" id="selIssues" class="smalltext">
+                                    <option value="0" label="All issues"></option>
+                                    <option value="6">Air pollution</option>
+                                    <option value="14">Biodiversity Change and Nature</option>
+                                    <option value="10">Chemicals</option>
+                                    <option value="1">Climate Change</option>
+                                    <option value="8">Natural Resources</option>
+                                    <option value="7">Noise</option>
+                                    <option value="2">Ozone Depletion</option>
+                                    <option value="4">Soil</option>
+                                    <option value="12">Various other issues</option>
+                                    <option value="13">Waste</option>
+                                    <option value="15">Water</option>
+                                    <option value="NI" label="No issue allocated"></option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="labeldiv">
+                                <label for="selClients">Organisation</label>
+                            </div>
+                            <div class="input">
+                                <select name="clientId" id="client_list" class="smalltext">
+                                    <option value="0" label="Any organisation"></option>
+                                    <option value="50">ACCOBAMS - ACCOBAMS Secretariat</option>
+                                    <option value="68">Alpine Convention Secretariat</option>
+                                    <option value="8">AMAP - Arctic Council, AMAP Secretariat</option>
+                                    <option value="72">HELCOM - Baltic Marine Environment Protection Commission (Helsinki Commission)</option>
+                                    <option value="6">SBC - Basel Convention</option>
+                                    <option value="63">Bern Convention</option>
+                                    <option value="55">BCH - Biosafety Clearing House</option>
+                                    <option value="24">BSC - Black Sea Commission</option>
+                                    <option value="84">Bonn Agreement Secretariat</option>
+                                    <option value="82">CAR/RCU - Caribbean Regional Co-ordinating Unit</option>
+                                    <option value="58">CITES - CITES Secretariat</option>
+                                    <option value="71">CCAMLR - Commission for the Conservation of Antarctic Marine Living Resources</option>
+                                    <option value="77">CSD - Commission on Sustainable Development</option>
+                                    <option value="70">CEP - Committee for Environmental Protection</option>
+                                    <option value="59">DG ENV - Committee for the Habitats Directive, European Commission</option>
+                                    <option value="75">CST - Committee on Science and Technology</option>
+                                    <option value="81">CAR/RCU - Conference of the Parties to the Cartagena Convention, via the Caribbean Region...</option>
+                                    <option value="42">CBD - Convention on Biological Diversity</option>
+                                    <option value="38">MAP - Coordinating Unit for the Mediterranean Action Plan</option>
+                                    <option value="78">CCE - Coordination Center for Effects</option>
+                                    <option value="62">COE - Council of Europe</option>
+                                    <option value="105">Council - Council of the European Union</option>
+                                    <option value="109">Directorate-General for European Civil Protection and Humanitarian Aid</option>
+                                    <option value="90">EFTA Surv - EFTA Surveillance Authority</option>
+                                    <option value="108">EnCS - Energy Community Secretariat</option>
+                                    <option value="65">EUROBATS - EUROBATS Secretariat</option>
+                                    <option value="104">Commission - European Commission</option>
+                                    <option value="99">DG Clima - European Commission, Directorate General Climate Action</option>
+                                    <option value="2">DG ENV (EC) - European Commission, Directorate General Environment</option>
+                                    <option value="100">DG AGRI - European Commission, Directorate General for Agriculture and Rural Development</option>
+                                    <option value="101">DG Energy - European Commission, Directorate General for Energy</option>
+                                    <option value="102">DG MARE - European Commission, Directorate General for Maritime Affairs and Fisheries</option>
+                                    <option value="103">DG REGIO - European Commission, Directorate General for Regional and Urban Policy</option>
+                                    <option value="10">European Council</option>
+                                    <option value="3">EEA - European Environment Agency</option>
+                                    <option value="89">EFTA - European Free Trade Agreement Secretariat</option>
+                                    <option value="12">EP&amp;C - European Parliament and Council</option>
+                                    <option value="7">EUROSTAT - Eurostat</option>
+                                    <option value="61">FAO Forestry Resources Assessment Programme</option>
+                                    <option value="60">FAO - Food and Agriculture Organization</option>
+                                    <option value="83">HELCOM - Helsinki Commission</option>
+                                    <option value="107">H2020 RM - Horizon 2020 Review and Monitoring Group</option>
+                                    <option value="14">ICPDR - International Commission for the Protection of the Danube River</option>
+                                    <option value="15">ICPE / IKSE / MKOL - International Commission for the Protection of the Elbe</option>
+                                    <option value="79">ICP M&amp;M - International Cooperative Programme on Modelling and Mapping of Critical Levels...</option>
+                                    <option value="23">ICES - International Council for the Exploration of the Sea</option>
+                                    <option value="25">IMO - International Maritime Organisation</option>
+                                    <option value="66">IWC - International Whaling Commission</option>
+                                    <option value="98">JRC - Joint Research Centre - European Commission</option>
+                                    <option value="86">National Authorities, International Organisations, Public, Scientific Community...</option>
+                                    <option value="16">ICPOAP - Oder Commission</option>
+                                    <option value="39">OECD - Organization for Economic Cooperation and Development</option>
+                                    <option value="4">OSPAR - OSPAR Convention</option>
+                                    <option value="69">PCC - Programme Co-ordinating Centre</option>
+                                    <option value="49">Ramsar Bureau and the Scientific and Technical Review Panel</option>
+                                    <option value="48">Ramsar Convention</option>
+                                    <option value="37">ICPR (RHINE) - Rhine Commission</option>
+                                    <option value="67">SC-IWC - Scientific Committee, via the IWC Secretariat</option>
+                                    <option value="106">UfMS - Secretariat of the Union for the Mediterranean</option>
+                                    <option value="73">ITTO - The International Tropical Timber Organisation</option>
+                                    <option value="93">TMAP - Trilateral Monitoring and Assessment Group</option>
+                                    <option value="35">UNFCCC - UN Framework Convention on Climate Change</option>
+                                    <option value="74">UNCCD - UNCCD, Permanent Secretariat</option>
+                                    <option value="34">UNECE - UNECE Environment and Human Settlements Division</option>
+                                    <option value="1">OZONE - UNEP - Ozone Secretariat</option>
+                                    <option value="44">CMS - UNEP-CMS Secretariat</option>
+                                    <option value="45">AEWA - UNEP/AEWA Secretariat</option>
+                                    <option value="46">ASCOBANS - UNEP/ASCOBANS Secretariat</option>
+                                    <option value="54">UNESCO - UNESCO World Heritage Centre</option>
+                                    <option value="11">UN - United Nations</option>
+                                    <option value="51">UNESCO - United Nations Educational, Scientific and Cultural Organization</option>
+                                    <option value="41">UNEP - United Nations Environment Programme</option>
+                                    <option value="97">UNSD - United Nations Statistics Division</option>
+                                    <option value="92">WHO - World Health Organization</option>
+                                    <option value="53">World Heritage Committee, UNESCO World Heritage Centre</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="labeldiv">
+                                <label for="isterminated"></label>
+                            </div>
+                            <div class="input inputcheck">
+                                <input type="checkbox" name="terminate" id="isterminated" value="Y"><input type="hidden" name="_terminate" value="on"/><label>Include terminated obligations</label>
+                            </div>
+                        </div>
+                        <p class="actions">
+                            <input name="filter" value="Search" class="mediumbuttonb searchButton" type="submit"/>
+                            <input name="Reset" value="Reset" class="mediumbuttonb " type="reset"/>
+                        </p>
+                    </form>
+                </div>
+
+                <div role="tabpanel" class="filter tab-pane" id="tab_item2">
+                    <form action="/simpleSearch" class="searchDatasetsForm" method="POST"><input type="hidden" name="_csrf" value="457046f3-6305-4690-b852-b7636d84d914"/>
+                        <div class="row">
+                            <div class="labeldiv">
+                                <label for="queryfld">ROD website</label>
+                            </div>
+                            <div class="input">
+                                <input id="queryfld" maxlength="255" name="expression" value="" type="text" class="smalltext">
+                            </div>
+                        </div>
+                        <p class="actions">
+                            <input name="execute" value="Search" class="go_btn" type="submit">
+                        </p>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+        <div id="rightcolumn" class="quickjumps">
+<!--            <span name="rightColumn" id="rightColumn" th:field="${news}" th:utext="${news}"></span>-->
+        </div>
+    </div>
+</div>
+<!-- container -->
+<div id="pagefoot">
+    <p><a href="/disclaimer">Disclaimer</a> | <a href="mailto:ServiceDesk@eea.europa.eu?subject=Feedback%20from%20the%20ROD%20website">Feedback</a> | Copyright: <a rel="license" href="https://creativecommons.org/licenses/by/2.5/dk/deed.en_GB"
+                                                                                                                                                                          title="Creative Commons Attribution License"><img alt="Creative Commons Attribution License"
+                                                                                                                                                                                                                            src="https://i.creativecommons.org/l/by/2.5/dk/80x15.png"/></a>
+    </p>
+    <p><a href="https://www.eea.europa.eu/"><b>European Environment Agency</b></a>
+        <br/>Kgs. Nytorv 6, DK-1050 Copenhagen K, Denmark - Phone: +45 3336 7100</p>
+</div>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+  <head>
+    <meta charset="utf-8" />
+<meta name="format-detection" content="telephone=no" />
+<meta name="description" content="Discover the single point of access to open data from European countries, EU institutions, agencies and bodies and other European countries." />
+<link rel="canonical" href="https://data.europa.eu/en" />
+<meta name="robots" content="index, follow" />
+<link rel="shortlink" href="https://data.europa.eu/en" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>div#sliding-popup, div#sliding-popup .eu-cookie-withdraw-banner, .eu-cookie-withdraw-tab {background: #196FD2} div#sliding-popup.eu-cookie-withdraw-wrapper { background: transparent; } #sliding-popup h1, #sliding-popup h2, #sliding-popup h3, #sliding-popup p, #sliding-popup label, #sliding-popup div, .eu-cookie-compliance-more-button, .eu-cookie-compliance-secondary-button, .eu-cookie-withdraw-tab { color: #ffffff;} .eu-cookie-withdraw-tab { border-color: #ffffff;}</style>
+<script type="application/ld+json">{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "GovernmentOrganization",
+            "@id": "https://data.europa.eu/en",
+            "name": "data.europa.eu",
+            "sameAs": [
+                "https://www.facebook.com/data.europa.eu",
+                "https://twitter.com/EU_opendata",
+                "https://www.youtube.com/user/PublicationsOffice\u0022",
+                "https://www.linkedin.com/company/publications-office-of-the-european-union"
+            ],
+            "url": "https://data.europa.eu/en",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://data.europa.eu/themes/custom/edp3/dist/ecl/preset-eu/dist/images/logo/standard-version/positive/logo-eu--en.svg"
+            },
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": [
+                    "20",
+                    "rue de Reims"
+                ],
+                "postalCode": "2417",
+                "addressCountry": "Luxembourg"
+            }
+        },
+        {
+            "@type": "WebSite",
+            "@id": "https://data.europa.eu/en",
+            "name": "data.europa.eu",
+            "url": "https://data.europa.eu/en"
+        }
+    ]
+}</script>
+<link rel="icon" href="/themes/contrib/oe_theme/images/favicons/eu/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="alternate" hreflang="x-default" href="https://data.europa.eu/en" />
+<link rel="alternate" hreflang="en" href="https://data.europa.eu/en" />
+<link rel="alternate" hreflang="bg" href="https://data.europa.eu/bg" />
+<link rel="alternate" hreflang="es" href="https://data.europa.eu/es" />
+<link rel="alternate" hreflang="cs" href="https://data.europa.eu/cs" />
+<link rel="alternate" hreflang="da" href="https://data.europa.eu/da" />
+<link rel="alternate" hreflang="de" href="https://data.europa.eu/de" />
+<link rel="alternate" hreflang="et" href="https://data.europa.eu/et" />
+<link rel="alternate" hreflang="el" href="https://data.europa.eu/el" />
+<link rel="alternate" hreflang="fr" href="https://data.europa.eu/fr" />
+<link rel="alternate" hreflang="ga" href="https://data.europa.eu/ga" />
+<link rel="alternate" hreflang="hr" href="https://data.europa.eu/hr" />
+<link rel="alternate" hreflang="it" href="https://data.europa.eu/it" />
+<link rel="alternate" hreflang="lt" href="https://data.europa.eu/lt" />
+<link rel="alternate" hreflang="lv" href="https://data.europa.eu/lv" />
+<link rel=

@@ -1,0 +1,414 @@
+{
+ "round1": {
+  "rows": 105,
+  "individuation": {
+   "INDIVIDUATED": 88,
+   "CANDIDATE_SEPARATE": 10,
+   "CANDIDATE_NOT_INDEPENDENT": 5,
+   "GROUP_PENDING_SPLIT": 2
+  },
+  "status": {
+   "PARTIALLY_VERIFIED": 41,
+   "VERIFIED": 31,
+   "DISCOVERED": 30,
+   "INACCESSIBLE": 2,
+   "INDETERMINATE": 1
+  },
+  "origin": {
+   "SYSTEMATIC_SEARCH": 58,
+   "SEED": 41,
+   "BACKWARD_FORWARD_DISCOVERY": 6
+  },
+  "set_all": {
+   "A": 70,
+   "B": 30,
+   "AB": 5
+  },
+  "category": {
+   "DATASET": 41,
+   "CORPUS": 13,
+   "ADMINISTRATIVE_REGISTER": 12,
+   "BENCHMARK": 10,
+   "REPOSITORY": 8,
+   "INDETERMINATE": 4,
+   "ACCESS_PORTAL": 3,
+   "STANDARD_OR_VOCABULARY": 3,
+   "CATALOGUE": 3,
+   "DATA_DISTRIBUTION": 2,
+   "API": 2,
+   "INFRASTRUCTURE": 2,
+   "SOFTWARE_OR_PIPELINE": 2
+  },
+  "eligibility": {
+   "INCLUDE": 91,
+   "UNCERTAIN": 14
+  },
+  "territory": {
+   "EU": 85,
+   "NATIONAL_EU_CONNECTED": 13,
+   "EU_EEA_PLUS": 4,
+   "NOT_ASSESSED": 2,
+   "INTERNATIONAL": 1
+  },
+  "licence_stated": 37,
+  "temporal_stated": 17,
+  "formats_stated": 29,
+  "maintainer_stated": 98,
+  "conditions_stated": 5,
+  "families_set_B": {
+   "European Commission": 14,
+   "Academic, individual, civic or national": 14,
+   "Other EU agencies and bodies": 3,
+   "Publications Office": 2,
+   "Not assessed": 1,
+   "Financial supervision (ESMA, EBA, EIOPA, SRB, ECB)": 1
+  },
+  "relations_type": {
+   "overlaps_with": 9,
+   "derived_from": 8,
+   "links_to": 6,
+   "distribution_of": 3,
+   "uses": 2,
+   "part_of": 2,
+   "access_interface_for": 1,
+   "catalogues": 1
+  },
+  "relations_status": {
+   "CANDIDATE": 20,
+   "SUPPORTED": 12
+  },
+  "endpoints_status": {
+   "ACCESSIBLE": 46,
+   "NOT_TESTED": 27,
+   "JS_ONLY_SHELL": 8,
+   "BLOCKED_TO_TOOL": 2,
+   "NETWORK_ERROR": 2,
+   "AUTH_REQUIRED": 1
+  },
+  "endpoints_role": {
+   "DESCRIPTION_PAGE": 24,
+   "CATALOGUE_ENTRY": 12,
+   "SEARCH_INTERFACE": 11,
+   "ACCESS_PORTAL": 10,
+   "BULK_DOWNLOAD": 9,
+   "CODE_REPOSITORY": 5,
+   "DOCUMENTATION": 4,
+   "MIRROR_OR_REDISTRIBUTION": 4,
+   "API": 3,
+   "SPARQL_ENDPOINT": 2,
+   "REPOSITORY_RECORD": 1,
+   "DATA_PAPER": 1
+  },
+  "evidence": {
+   "SEARCH_RESPONSE": 54,
+   "PAGE_CAPTURE": 52,
+   "ACCESS_FAILURE": 5,
+   "HISTORICAL_CAPTURE": 1
+  },
+  "searches": 54,
+  "searches_platform": {
+   "DEU": 24,
+   "ZEN": 8,
+   "OAX": 6,
+   "HF": 6,
+   "DVN": 4,
+   "DCT": 3,
+   "GH": 3
+  },
+  "searches_zero_linked": 14,
+  "hits_returned": 1251,
+  "hits_linked": 91
+ },
+ "round2_live": {
+  "rows": 252,
+  "individuation": {
+   "INDIVIDUATED": 229,
+   "CANDIDATE_NOT_INDEPENDENT": 11,
+   "CANDIDATE_SEPARATE": 10,
+   "GROUP_PENDING_SPLIT": 2
+  },
+  "status": {
+   "VERIFIED": 201,
+   "PARTIALLY_VERIFIED": 28,
+   "DISCOVERED": 20,
+   "INACCESSIBLE": 2,
+   "INDETERMINATE": 1
+  },
+  "origin": {
+   "SYSTEMATIC_SEARCH": 187,
+   "SEED": 41,
+   "OTHER": 17,
+   "BACKWARD_FORWARD_DISCOVERY": 7
+  },
+  "set_all": {
+   "B": 161,
+   "A": 84,
+   "AB": 7
+  },
+  "category": {
+   "ADMINISTRATIVE_REGISTER": 99,
+   "DATASET": 85,
+   "CORPUS": 15,
+   "INFRASTRUCTURE": 11,
+   "BENCHMARK": 10,
+   "REPOSITORY": 8,
+   "CATALOGUE": 6,
+   "STANDARD_OR_VOCABULARY": 5,
+   "INDETERMINATE": 4,
+   "ACCESS_PORTAL": 3,
+   "DATA_DISTRIBUTION": 2,
+   "API": 2,
+   "SOFTWARE_OR_PIPELINE": 2
+  },
+  "eligibility": {
+   "INCLUDE": 214,
+   "UNCERTAIN": 38
+  },
+  "territory": {
+   "EU": 221,
+   "NATIONAL_EU_CONNECTED": 19,
+   "EU_EEA_PLUS": 9,
+   "NOT_ASSESSED": 2,
+   "INTERNATIONAL": 1
+  },
+  "level_individuated": {
+   "LEVEL_I_DATA": 203,
+   "LEVEL_II_INFRASTRUCTURE": 26
+  },
+  "level_all": {
+   "LEVEL_I_DATA": 217,
+   "LEVEL_II_INFRASTRUCTURE": 29,
+   "UNASSIGNED": 4,
+   "DISTRIBUTION_OF_LEVEL_I": 2
+  },
+  "identity": {
+   "IDENTITY_VERIFIED": 229,
+   "IDENTITY_PARTIAL": 21,
+   "NOT_VERIFIED": 2
+  },
+  "availability": {
+   "NOT_TESTED": 160,
+   "DATA_AVAILABILITY_VERIFIED": 61,
+   "ACCESS_FAILED": 14,
+   "LANDING_PAGE_ONLY": 13,
+   "LISTING_ONLY": 3,
+   "DOCUMENT_ONLY": 1
+  },
+  "capability": {
+   "NOT_ASSESSED": 217,
+   "CAPABILITY_VERIFIED": 35
+  },
+  "set_x_level_individuated": {
+   "A|LEVEL_II_INFRASTRUCTURE": 9,
+   "A|LEVEL_I_DATA": 60,
+   "AB|LEVEL_II_INFRASTRUCTURE": 2,
+   "B|LEVEL_I_DATA": 138,
+   "AB|LEVEL_I_DATA": 5,
+   "B|LEVEL_II_INFRASTRUCTURE": 15
+  },
+  "availability_by_level": {
+   "LEVEL_II_INFRASTRUCTURE|NOT_TESTED": 24,
+   "LEVEL_I_DATA|NOT_TESTED": 130,
+   "DISTRIBUTION_OF_LEVEL_I|NOT_TESTED": 2,
+   "LEVEL_II_INFRASTRUCTURE|DATA_AVAILABILITY_VERIFIED": 2,
+   "UNASSIGNED|NOT_TESTED": 4,
+   "LEVEL_I_DATA|ACCESS_FAILED": 13,
+   "LEVEL_I_DATA|LANDING_PAGE_ONLY": 12,
+   "LEVEL_I_DATA|DATA_AVAILABILITY_VERIFIED": 59,
+   "LEVEL_I_DATA|DOCUMENT_ONLY": 1,
+   "LEVEL_I_DATA|LISTING_ONLY": 2,
+   "LEVEL_II_INFRASTRUCTURE|LISTING_ONLY": 1,
+   "LEVEL_II_INFRASTRUCTURE|LANDING_PAGE_ONLY": 1,
+   "LEVEL_II_INFRASTRUCTURE|ACCESS_FAILED": 1
+  },
+  "availability_by_set": {
+   "A|NOT_TESTED": 50,
+   "A|DATA_AVAILABILITY_VERIFIED": 25,
+   "A|ACCESS_FAILED": 3,
+   "AB|NOT_TESTED": 7,
+   "A|LANDING_PAGE_ONLY": 2,
+   "B|LANDING_PAGE_ONLY": 11,
+   "B|NOT_TESTED": 103,
+   "B|DATA_AVAILABILITY_VERIFIED": 36,
+   "A|DOCUMENT_ONLY": 1,
+   "A|LISTING_ONLY": 3,
+   "B|ACCESS_FAILED": 11
+  },
+  "licence_stated": 158,
+  "temporal_stated": 28,
+  "formats_stated": 155,
+  "maintainer_stated": 245,
+  "conditions_stated": 5,
+  "families_set_B": {
+   "European Commission": 64,
+   "Other EU agencies and bodies": 54,
+   "Financial supervision (ESMA, EBA, EIOPA, SRB, ECB)": 24,
+   "Academic, individual, civic or national": 21,
+   "Publications Office": 3,
+   "Not assessed": 1,
+   "Parliament, Council, Court": 1
+  },
+  "relations_type": {
+   "derived_from": 12,
+   "overlaps_with": 11,
+   "part_of": 10,
+   "links_to": 6,
+   "distribution_of": 3,
+   "catalogues": 2,
+   "uses": 2,
+   "access_interface_for": 1,
+   "successor_of": 1
+  },
+  "relations_status": {
+   "CANDIDATE": 28,
+   "SUPPORTED": 20
+  },
+  "endpoints_status": {
+   "NOT_TESTED": 276,
+   "ACCESSIBLE": 132,
+   "HTTP_ERROR": 12,
+   "JS_ONLY_SHELL": 9,
+   "NETWORK_ERROR": 7,
+   "BLOCKED_TO_TOOL": 3,
+   "AUTH_REQUIRED": 1
+  },
+  "endpoints_role": {
+   "BULK_DOWNLOAD": 135,
+   "CATALOGUE_ENTRY": 131,
+   "ACCESS_PORTAL": 111,
+   "DESCRIPTION_PAGE": 26,
+   "SEARCH_INTERFACE": 12,
+   "API": 8,
+   "CODE_REPOSITORY": 5,
+   "DOCUMENTATION": 4,
+   "MIRROR_OR_REDISTRIBUTION": 4,
+   "SPARQL_ENDPOINT": 2,
+   "REPOSITORY_RECORD": 1,
+   "DATA_PAPER": 1
+  },
+  "evidence": {
+   "SEARCH_RESPONSE": 196,
+   "PAGE_CAPTURE": 148,
+   "DATA_PEEK": 106,
+   "ACCESS_FAILURE": 45,
+   "HISTORICAL_CAPTURE": 1
+  },
+  "searches": 196,
+  "searches_platform": {
+   "DEUC": 60,
+   "DEU": 47,
+   "ZEN": 22,
+   "OAX": 18,
+   "DVN": 14,
+   "HF": 10,
+   "GH": 8,
+   "DCT": 7,
+   "DCAT": 3,
+   "DNS": 3,
+   "B2F": 3,
+   "DEUF": 1
+  },
+  "searches_zero_linked": 114,
+  "hits_returned": 5333,
+  "hits_linked": 267
+ },
+ "round2_new_only": {
+  "rows": 147,
+  "individuation": {
+   "INDIVIDUATED": 139,
+   "CANDIDATE_NOT_INDEPENDENT": 6,
+   "GROUP_PENDING_SPLIT": 2
+  },
+  "status": {
+   "VERIFIED": 124,
+   "DISCOVERED": 16,
+   "PARTIALLY_VERIFIED": 7
+  },
+  "origin": {
+   "SYSTEMATIC_SEARCH": 129,
+   "OTHER": 17,
+   "BACKWARD_FORWARD_DISCOVERY": 1
+  },
+  "set": {
+   "B": 131,
+   "A": 14,
+   "AB": 2
+  },
+  "category": {
+   "ADMINISTRATIVE_REGISTER": 87,
+   "DATASET": 44,
+   "INFRASTRUCTURE": 9,
+   "CATALOGUE": 3,
+   "STANDARD_OR_VOCABULARY": 2,
+   "CORPUS": 2
+  },
+  "level": {
+   "LEVEL_I_DATA": 133,
+   "LEVEL_II_INFRASTRUCTURE": 14
+  },
+  "availability": {
+   "NOT_TESTED": 98,
+   "DATA_AVAILABILITY_VERIFIED": 27,
+   "ACCESS_FAILED": 13,
+   "LANDING_PAGE_ONLY": 9
+  },
+  "identity": {
+   "IDENTITY_VERIFIED": 139,
+   "IDENTITY_PARTIAL": 8
+  },
+  "families_set_B": {
+   "Other EU agencies and bodies": 51,
+   "European Commission": 50,
+   "Financial supervision (ESMA, EBA, EIOPA, SRB, ECB)": 23,
+   "Academic, individual, civic or national": 7,
+   "Parliament, Council, Court": 1,
+   "Publications Office": 1
+  }
+ },
+ "status_changes": {
+  "PARTIALLY_VERIFIED->VERIFIED": 33,
+  "DISCOVERED->VERIFIED": 13,
+  "DISCOVERED->PARTIALLY_VERIFIED": 13
+ },
+ "sweep": {
+  "CAPTURED": 34,
+  "FAILED": 14
+ },
+ "lynx": {
+  "ABSENT_SCOPE_OPEN": 45,
+  "RELATED": 5,
+  "NOT_APPLICABLE": 3,
+  "MATCHED_AS_ENDPOINT": 2,
+  "MATCHED": 1
+ },
+ "inspections": {
+  "n": 106,
+  "availability": {
+   "DATA_AVAILABILITY_VERIFIED": 61,
+   "LANDING_PAGE_ONLY": 20,
+   "ACCESS_FAILED": 19,
+   "LISTING_ONLY": 5,
+   "DOCUMENT_ONLY": 1
+  },
+  "content_kind": {
+   "TABULAR": 21,
+   "HTML": 20,
+   "": 19,
+   "ARCHIVE": 18,
+   "JSON": 8,
+   "XML": 6,
+   "REPOSITORY_LISTING": 5,
+   "COMPRESSED": 4,
+   "PARQUET": 4,
+   "PDF_DOCUMENT": 1
+  },
+  "http": {
+   "206": 59,
+   "200": 28,
+   "404": 11,
+   "": 5,
+   "500": 2,
+   "504": 1
+  }
+ }
+}

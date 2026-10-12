@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <title>Dumps |  [ParlTrack]</title>
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+
+    <meta content="" property="og:image" />
+    <meta content="" property="og:title" />
+    <meta content="" property="og:description" />
+    <meta name="description" content="">
+
+
+    <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
+
+
+    <link href="/static/css/semantic.min.css" rel="stylesheet" type="text/css" />
+    <link href="/static/css/base.css" rel="stylesheet" type="text/css" />
+    <script src="/static/js/jquery.min.js"></script>
+    <script src="/static/js/semantic.min.js"></script>
+    <script src="/static/js/jquery.address.min.js"></script>
+    <script src="/static/js/protect_address.js"></script>
+    <noscript>
+       <link href="/static/css/noscript.css" rel="stylesheet" type="text/css" />
+    </noscript>
+  </head>
+  <body class="">
+	  <div class="ribbon"><span>BETA</span></div>
+<div class="content">
+  <div class="ui stackable menu">
+      <a class="header item" href="/">Home</a>
+      <a class="item" href="/meps">MEPs</a>
+      <a class="item" href="/dossiers">Dossiers</a>
+      <a class="item" href="/committees">Committees</a>
+      <a class="item" href="/subjects">Subjects</a>
+      <a class="item" href="/blog">Blog</a>
+      <a class="item" href="/about">About</a>
+      <a class="item active" href="/dumps">Dumps</a>
+	  <div class="right menu">
+	  	 <div class="ui right aligned category search item">
+	  		<div class="ui transparent icon input">
+           <form action="/search" method="get">
+              <input class="prompt" type="text" placeholder="Search.." name="q">
+           </form>
+	  		</div>
+	  		<div class="results"></div>
+	  	 </div>
+    </div>
+  </div>
+
+<div class="ui vertical segment">
+  <div class="ui center aligned stackable grid container">
+    <div class="row">
+       <div class="sixteen wide left aligned column">
+          <h1>Dumps</h1>
+          <p>Parltrack publishes complete dumps of its database on a daily basis. These dumps are in JSON format, and they are compressed with the <del><a href="https://www.nongnu.org/lzip/lzip.html">lzip</a>[1] tool</del>zstd tool (since 2024-11-11).</p>
+          <p>Due to most of the dumps being between 400 and 800 megabytes (at the time of writing in mid 2019) they might not be suitable to load all at once since when loaded into RAM they might use significantly more memory. To facilitate a record-by-record stream processing of these dumps, they are formatted in the following way, each line is one record, each prefixed either with:
+          <ul>
+             <li>'[' for the first record,</li>
+             <li>',' for the other records,</li>
+             <li>']' on its own for the last line</li>
+          </ul>
+          This means you can read the uncompressed JSON line-by-line, strip of the first character and process the rest of the line as JSON, you can stop processing if after stripping the first character an empty string remains, this means the end of the JSON stream.
+          </p>
+          <p>All data is available under the <a href="http://www.opendatacommons.org/licenses/odbl/">Open Database License v1.0</a> (ODBL) license.</p>
+
+          <table class="ui table">
+             <thead>
+                <tr><th>Table</th><th>Description</th><th>Dump</th><th>Size</th><th>Last Updated</th><th>Schema</th><th>Previous dumps</th></tr>
+             </thead>
+
+             <tr>
+                <td>Scraper Log</td>
+                
+                   <td>This contains all the logs from the last scraping.</td> 
+                   <td><a href="/logs/2026-07-24.log.zst">2026-07-24.log.zst</a> (<a href="/log/2026-07-24">summary</a>)</td>
+                   <td>110.5 KiB</td>
+                   <td>2026-07-24</td>
+                
+                <td>
+              

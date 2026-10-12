@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">90</int>
+  <lst name="params">
+    <str name="q">{!join from=id to=_root_}+(ae_entityTypeCode:MIF)</str>
+    <str name="indent">true</str>
+    <str name="fq">(type_s:parent)(entity_type:aeActivity)(entity_type:aeActivityHistory)</str>
+    <str name="rows">1000</str>
+    <str name="wt">xml</str>
+  </lst>
+</lst>
+<result name="response" numFound="82509" start="0" numFoundExact="true">
+  <doc>
+    <str name="id">aeActivity147</str>
+    <str name="ac_serviceName">Reception and transmission of orders</str>
+    <str name="ac_authorisationNotificationDateStr">12/09/2006</str>
+    <str name="ac_status">Active</str>
+    <str name="ac_comment"/>
+    <str name="entity_type">aeActivity</str>
+    <str name="_root_">ae42</str>
+    <str name="type_s">child</str>
+    <str name="ac_authorisationEndDate"/>
+    <date name="ac_authorisationNotificationDate">2006-09-12T00:00:00Z</date>
+    <long name="_version_">1861996368975888384</long>
+    <date name="timestamp">2026-04-09T12:35:14.329Z</date></doc>
+  <doc>
+    <str name="id">aeActivity214807</str>
+    <str name="ac_serviceName">Execution of orders</str>
+    <str name="ac_authorisationNotificationDateStr">12/09/2006</str>
+    <str name="ac_status">Active</str>
+    <str name="ac_comment"/>
+    <str name="entity_type">aeActivity</str>
+    <str name="_root_">ae42</str>
+    <str name="type_s">child</str>
+    <str name="ac_authorisationEndDate"/>
+    <date name="ac_authorisationNotificationDate">2006-09-12T00:00:00Z</date>
+    <long name="_version_">1861996368975888384</long>
+    <date name="timestamp">2026-04-09T12:35:14.329Z</date></doc>
+  <doc>
+    <str name="id">aeActivity145</str>
+    <str name="ac_serviceName">Portfolio Management</str>
+    <str name="ac_authorisationNotificationDateStr">12/09/2006</str>
+    <str name="ac_status">Active</str>
+    <str name="ac_comment"/>
+    <str name="entity_type">aeActivity</str>
+    <str name="_root_">ae42</str>
+    <str name="type_s">child</str>
+    <str name="ac_authorisationEndDate"/>
+    <date name="ac_authorisationNotificationDate">2006-09-12T00:00:00Z</date>
+    <long name="_version_">1861996368975888384</long>
+    <date name="timestamp">2026-04-09T12:35:14.329Z</date></doc>
+  <doc>
+    <str name="id">aeActivity146</str>
+    <str name="ac_serviceName">Investment advice</str>
+    <str name="ac_authorisationNotificationDateStr">12/09/2006</str>
+    <str name="ac_status">Active</str>
+    <str name="ac_comment"/>
+    <str name="entity_type">aeActivity</str>
+    <str name="_root_">ae42</str>
+    <str name="type_s">child</str>
+    <str name="ac_authorisationEndDate"/>
+    <date name="ac_authorisationNotificationDate">2006-09-12T00:00:00Z</date>
+    <long name="_version_">1861996368975888384</long>
+    <date name="timestamp">2026-04-09T12:35:14.329Z</date></doc>
+  <doc>
+    <str name="id">aeActivity214808</str>
+    <str name="ac_serviceName">Advice on capital structure</str>
+    <str name="ac_authorisationNotificationDateStr">12/09/2006</str>
+    <str name="ac_status">Active</str>
+    <str name="ac_comment"/>
+    <str name="entity_type">aeActivity</str>
+    <str name="_root_">ae42</str>
+    <str name="type_s">child</str>
+    <str name="ac_authorisationEndDate"/>
+    <date name="ac_authorisationNotificationDate">2006-09-12T00:00:00Z</date>
+    <long name="_version_">1861996368975888384</long>
+    <date name="timestamp">2026-04-09T12:35:14.329Z</date></doc>
+  <doc>
+    <str name="id">aeActivity148</str>
+    <str name="ac_serviceName">Research and financial analysis</str>
+    <str name="ac_authorisationNotificationDateStr">12/09/2006</str>
+    <str name="ac_status">Active</str>
+    <str name="ac_comment"/>
+    <str name="entity_type">aeActivity</str>
+    <str name="_root_">ae42</str>
+    <str name="type_s">child</str>
+    <str name="ac_authorisationEndDate"/>
+    <date name="ac_authorisationNotificationDate">2006-09-12T00:00:00Z</date>
+    <long name="_version_">1861996368975888384</long>
+    <date name="timestamp">2026-04-09T12:3

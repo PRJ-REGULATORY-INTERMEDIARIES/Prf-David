@@ -1,0 +1,29 @@
+CASE_ID,CELEX,DATE,SUBJECT,KEYWORDS,PAR_ID
+0,61963CJ0075,1964-03-19,['Social security for migrant workers'],"['Reference for a preliminary ruling: Centrale Raad van Beroep', 'Netherlands']",[0]
+1,61968CJ0023,1969-02-25,['Privileges and immunities'],"[""Reference for a preliminary ruling: Gerechtshof 's-Gravenhage"", 'Netherlands']",[1]
+2,61968CJ0028,1969-05-07,['Social security for migrant workers'],"['Reference for a preliminary ruling: Cour de cassation', 'France']","[2, 3, 4]"
+3,61968CJ0029,1969-06-24,['Taxation'],"['Reference for a preliminary ruling: Finanzgericht des Saarlandes', 'Germany']",[5]
+4,61969CJ0002,1969-07-01,"['Common customs tariff', 'Free movement of goods', 'Customs Union', 'Taxation', 'Charges having an equivalent effect']","['Reference for a preliminary ruling: Vredegerecht Antwerpen (2e kanton)', 'Belgium']","[10, 11]"
+5,61968CJ0024,1969-07-01,"['Taxation', 'Charges having an equivalent effect', 'Agriculture and Fisheries', 'Free movement of goods', 'Customs Union']",,"[6, 7, 8, 9]"
+6,61969CJ0001,1969-07-09,"['Agriculture and Fisheries', 'Transport', 'Regional policy', 'Fruit and vegetables']",,[12]
+7,61969CJ0010,1969-07-09,"['Competition', 'Agreements, decisions and concerted practices']","['Reference for a preliminary ruling: Tribunal de commerce de Bruxelles', 'Belgium']",[13]
+8,61969CJ0029,1969-11-12,"['Milk products', 'Agriculture and Fisheries']","['Reference for a preliminary ruling: Verwaltungsgericht Stuttgart', 'Germany']","[16, 17]"
+9,61969CJ0027,1969-11-12,['Social security for migrant workers'],"['Reference for a preliminary ruling: Cour supérieure de justice', 'Grand Duchy of Luxemburg']","[14, 15]"
+10,61968CJ0010,1969-12-10,"['Agriculture and Fisheries', 'Sugar']",,[18]
+11,61969CJ0006,1969-12-10,"['Protective measures', 'State aids', 'Conjunctural policy', 'Balance of payments', 'Competition']",,"[19, 20, 21, 22, 23]"
+12,61969CJ0012,1969-12-10,['Staff regulations and employment conditions - EC'],,[24]
+13,61969CJ0034,1969-12-10,['Social security for migrant workers'],"[""Reference for a preliminary ruling: Cour d'appel de Paris"", 'France']",[25]
+14,61969CJ0013,1970-02-04,['Staff regulations and employment conditions - EC'],,"[26, 27, 28, 29, 30]"
+15,61969CJ0031,1970-02-17,"['Rice', 'Cereals', 'Beef and veal', 'Sugar', 'Agriculture and Fisheries', 'Fruit and vegetables', 'Pigmeat', 'Oils and fats', 'Eggs and poultry']",,"[31, 32, 33, 34, 35, 36]"
+16,61969CJ0038,1970-02-18,"['Common customs tariff', 'Free movement of goods', 'Customs Union', 'Protective measures']",,"[37, 38]"
+17,61969CJ0040,1970-02-18,"['Eggs and poultry', 'Customs Union', 'Free movement of goods', 'Common customs tariff', 'Agriculture and Fisheries']","['Reference for a preliminary ruling: Bundesfinanzhof', 'Germany']",[39]
+18,61969CJ0024,1970-04-14,['Staff regulations and employment conditions - EC'],,[40]
+19,61969CJ0068,1970-04-14,['Social security for migrant workers'],"['Reference for a preliminary ruling: Bundessozialgericht', 'Germany']","[41, 42]"
+20,61969CJ0064,1970-04-16,"['Monetary measures in the field of agriculture', 'Agriculture and Fisheries', 'Cereals']",,"[43, 44]"
+21,61969CJ0077,1970-05-05,"['Taxation', 'Internal taxation']",,[45]
+22,61969CJ0074,1970-06-18,"['Customs Union', 'Common customs tariff', 'Free movement of goods', 'Agriculture and Fisheries', 'Cereals']","['Reference for a preliminary ruling: Bundesfinanzhof', 'Germany']","[46, 47]"
+23,61969CJ0047,1970-06-25,"['Taxation', 'State aids', 'Competition']",,"[48, 49, 50, 51, 52, 53, 54, 55, 56]"
+24,61969CJ0023,1970-07-09,['Staff regulations and employment conditions - EC'],,[57]
+25,61969CJ0026,1970-07-09,"['External relations', 'Oils and fats', 'Agriculture and Fisheries']",,"[58, 59, 60, 61]"
+26,61969CJ0041,1970-07-15,"['Agreements, decisions and concerted practices', 'Competition']",,"[62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79]"
+27,61970CJ0009,1970-10-06,"['Transport', 'Taxation', 'Approximation of laws', 'Value added tax']","['Reference for a preliminary ruling: Finanzgericht München', 'Germany']","[80, 81]"

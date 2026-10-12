@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+
+<lst name="responseHeader">
+  <int name="status">0</int>
+  <int name="QTime">122</int>
+  <lst name="params">
+    <str name="q">{!parent which="type_s:parent"} and ac_serviceName:"SHRS (shares)"</str>
+    <str name="indent">true</str>
+    <str name="fq">ae_entityTypeCode:MIS</str>
+    <str name="rows">1000</str>
+    <str name="wt">xml</str>
+  </lst>
+</lst>
+<result name="response" numFound="56" start="0" numFoundExact="true">
+  <doc>
+    <str name="id">ae30513</str>
+    <str name="ae_entityTypeCode">MIS</str>
+    <date name="ae_lastUpdate">2018-04-05T00:00:00Z</date>
+    <str name="ae_lastUpdateStr">05/04/2018</str>
+    <str name="ae_micLeiEsmaId">VFSI</str>
+    <str name="ae_lei">549300XG5LFGN1IGYC71</str>
+    <str name="ae_headOfficeLei"/>
+    <str name="ae_entityName">Virtu Financial Ireland Limited</str>
+    <arr name="collectorParent">
+      <str>Virtu Financial Ireland Limited</str>
+    </arr>
+    <str name="ae_officeType">Head office</str>
+    <str name="ae_competentAuthority">Central Bank of Ireland (CBI)</str>
+    <str name="ae_homeMemberState">IRELAND</str>
+    <str name="ae_hostMemberState"/>
+    <str name="ae_headOfficeAddress">Whitaker Court, 3rd Floor, Block C, 28-29 Sir John Rogerson's Quay, Dublin 2</str>
+    <str name="ae_branchAddress"/>
+    <str name="ae_comment"/>
+    <str name="ae_status">Active</str>
+    <date name="ae_authorisationNotificationDate">2018-01-03T00:00:00Z</date>
+    <str name="ae_authorisationNotificationDateStr">03/01/2018</str>
+    <str name="ae_authorisationWithdrawalEndDateStr"/>
+    <str name="entity_type">ae</str>
+    <str name="type_s">parent</str>
+    <str name="ae_entityTypeLabel">Systematic internaliser</str>
+    <str name="_root_">ae30513</str>
+    <long name="ae_dbId">30513</long>
+    <str name="ae_website"/>
+    <str name="ae_commercialName"/>
+    <str name="ae_legalform"/>
+    <long name="_version_">1861998862247395329</long>
+    <date name="timestamp">2026-04-09T13:14:52.103Z</date></doc>
+  <doc>
+    <str name="id">ae28788</str>
+    <str name="ae_entityTypeCode">MIS</str>
+    <date name="ae_lastUpdate">2018-03-09T00:00:00Z</date>
+    <str name="ae_lastUpdateStr">09/03/2018</str>
+    <str name="ae_micLeiEsmaId">LASP</str>
+    <str name="ae_lei">213800UYAHIRLZ4NSN67</str>
+    <str name="ae_headOfficeLei"/>
+    <str name="ae_entityName">Lån &amp; Spar Bank A/S</str>
+    <arr name="collectorParent">
+      <str>Lån &amp; Spar Bank A/S</str>
+    </arr>
+    <str name="ae_officeType">Head office</str>
+    <str name="ae_competentAuthority">Finanstilsynet</str>
+    <str name="ae_homeMemberState">DENMARK</str>
+    <str name="ae_hostMemberState"/>
+    <str name="ae_headOfficeAddress">Højbro Plads 9-11, 1200 København K</str>
+    <str name="ae_branchAddress"/>
+    <str name="ae_comment"/>
+    <str name="ae_status">Active</str>
+    <date name="ae_authorisationNotificationDate">2018-01-16T00:00:00Z</date>
+    <str name="ae_authorisationNotificationDateStr">16/01/2018</str>
+    <str name="ae_authorisationWithdrawalEndDateStr"/>
+    <str name="entity_type">ae</str>
+    <str name="type_s">parent</str>
+    <str name="ae_entityTypeLabel">Systematic internaliser</str>
+    <str name="_root_">ae28788</str>
+    <long name="ae_dbId">28788</long>
+    <str name="ae_website"/>
+    <str name="ae_commercialName"/>
+    <str name="ae_legalform"/>
+    <long name="_version_">1861998865485398017</long>
+    <date name="timestamp">2026-04-09T13:14:55.191Z</date></doc>
+  <doc>
+    <str name="id">ae27780</str>
+    <str name="ae_entityTypeCode">MIS</str>
+    <date name="ae_lastUpdate">2017-12-28T00:00:00Z</date>
+    <str name="ae_lastUpdateStr">28/12/2017</str>
+    <str name="ae_micLeiEsmaId">BAAD</str>
+    <str name="ae_lei">529900JFOPPEDUR61H13</str>
+    <str name="ae_headOfficeLei"/>
+    <str name="ae_entityName">Baader Bank Aktiengesellschaft</str>
+    <arr name="collectorParent">
+      <str>Baader Bank Aktiengesellschaft</str>
+    </arr>
+    <str name="ae_officeType">Head office</str>
+    <str name="ae_competentAuthority">Federal Financial Supervisory 

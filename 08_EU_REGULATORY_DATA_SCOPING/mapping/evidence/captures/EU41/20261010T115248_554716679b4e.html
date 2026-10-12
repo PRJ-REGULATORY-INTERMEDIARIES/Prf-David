@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <title>Dumps |  [ParlTrack]</title>
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+
+    <meta content="" property="og:image" />
+    <meta content="" property="og:title" />
+    <meta content="" property="og:description" />
+    <meta name="description" content="">
+
+
+    <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
+
+
+    <link href="/static/css/semantic.min.css" rel="stylesheet" type="text/css" />
+    <link href="/static/css/base.css" rel="stylesheet" type="text/css" />
+    <script src="/static/js/jquery.min.js"></script>
+    <script src="/static/js/semantic.min.js"></script>
+    <script src="/static/js/jquery.address.min.js"></script>
+    <script src="/static/js/protect_address.js"></script>
+    <noscript>
+       <link href="/static/css/noscript.css" rel="stylesheet" type="text/css" />
+    </noscript>
+  </head>
+  <body class="">
+	  <div class="ribbon"><span>BETA</span></div>
+<div class="content">
+  <div class="ui stackable menu">
+      <a class="header item" href="/">Home</a>
+      <a class="item" href="/meps">MEPs</a>
+      <a class="item" href="/dossiers">Dossiers</a>
+      <a class="item" href="/committees">Committees</a>
+      <a class="item" href="/subjects">Subjects</a>
+      <a class="item" href="/blog">Blog</a>
+      <a class="item" href="/about">About</a>
+      <a class="item active" href="/dumps">Dumps</a>
+	  <div class="right menu">
+	  	 <div class="ui right aligned category search item">
+	  		<div class="ui transparent icon input">
+           <form action="/search" method="get">
+              <input class="prompt" type="text" placeholder="Search.." name="q">
+           </form>
+	  		</div>
+	  		<div class="results"></div>
+	  	 </div>
+    </div>
+  </div>
+
+<div class="ui vertical segment">
+  <div class="ui center aligned stackable grid container">
+    <div class="row">
+       <div class="sixteen wide left aligned column">
+          <h1>Dumps</h1>
+          <p>Parltrack publishes complete dumps of its database on a daily basis. These dumps are in JSON format, and they are compressed with the <del><a href="https://www.nongnu.org/lzip/lzip.html">lzip</a>[1] tool</del>zstd tool (since 2024-11-11).</p>
+          <p>Due to most of the dumps being between 400 and 800 megabytes (at the time of writing in mid 2019) they might not be suitable to load all at once since when loaded into RAM they might use significantly more memory. To facilitate a record-by-record stream processing of these dumps, they are formatted in the following way, each line is one record, each prefixed either with:
+          <ul>
+             <li>'[' for the first record,</li>
+             <li>',' for the other records,</li>
+             <li>']' on its own for the last line</li>
+          </ul>
+          This means you can read the uncompressed JSON line-by-line, strip of the first character and process the rest of the line as JSON, you can stop processing if after stripping the first character an empty string remains, this means the end of the JSON stream.
+          </p>
+          <p>All data is available under the <a href="http://www.opendatacommons.org/licenses/odbl/">Open Database License v1.0</a> (ODBL) license.</p>
+
+          <table class="ui table">
+             <thead>
+                <tr><th>Table</th><th>Description</th><th>Dump</th><th>Size</th><th>Last Updated</th><th>Schema</th><th>Previous dumps</th></tr>
+             </thead>
+
+             <tr>
+                <td>Scraper Log</td>
+                
+                   <td>This contains all the logs from the last scraping.</td> 
+                   <td><a href="/logs/2026-07-24.log.zst">2026-07-24.log.zst</a> (<a href="/log/2026-07-24">summary</a>)</td>
+                   <td>110.5 KiB</td>
+                   <td>2026-07-24</td>
+                
+                <td>
+                </td>
+                <td>
+                
+                      <ul>
+                         
+                            <li><a href="/logs/2026-07-23.log.zst">2026-07-23</a> (<a href="/log/2026-07-23">summary</a>)</li>
+                         
+                            <li><a href="/logs/2026-07-22.log.zst">2026-07-22</a> (<a href="/log/2026-07-22">summary</a>)</li>
+                         
+                            <li><a href="/logs/2026-07-21.log.zst">2026-07-21</a> (<a href="/log/2026-07-21">summary</a>)</li>
+                         
+                      </ul>
+                
+                </td>
+             </tr>
+
+             <tr>
+                <td>MEPs</td>
+                
+                   <td>This dump contains all the basic information about the MEPs</td> 
+                   <td><a href="/dumps/ep_meps.json.zst">ep_meps.json.zst</a></td>
+                   <td>8.9 MiB</td>
+                   <td>2026-07-24</td>
+                
+                <td>
+                   <ul>
+                      <li><a href="/schemas/ep_meps">v2.0 schema</a></li>
+                      <li><a href="/schemas/ep_meps_v1">v1.0 schema</a></li>
+                   </ul>
+                </td>
+                <td>
+                
+                      <ul>
+                         
+                            <li><a href="/dumps/arch/ep_meps-2026-07-23.json.zst">2026-07-23</a></li>
+                         
+                            <li><a href="/dumps/arch/ep_meps-2026-07-22.json.zst">2026-07-22</a></li>
+                         
+                            <li><a href="/dumps/arch/ep_meps-2026-07-21.json.zst">2026-07-21</a></li>
+                         
+                      </ul>
+                
+                </td>
+             </tr>
+
+
+             <tr>
+                <td>Dossiers</td>
+                
+                   <td>This dump contains all the basic information about the dossiers in the EP</td>
+                   <td><a href="/dumps/ep_dossiers.json.zst">ep_dossiers.json.zst</a></td>
+                   <td>52.7 MiB</td>
+                   <td>2026-07-24</td>
+                
+                <td>
+                   <ul>
+                      <li><a href="/schemas/ep_dossiers">v2.0 schema</a></li>
+                      <li><a href="/schemas/ep_dossiers_v1">v1.0 schema</a></li>
+                   </ul>
+                </td>
+                <td>
+                
+                   <ul>
+                      
+                         <li><a href="/dumps/arch/ep_dossiers-2026-07-23.json.zst">2026-07-23</a></li>
+                      
+                         <li><a href="/dumps/arch/ep_dossiers-2026-07-22.json.zst">2026-07-22</a></li>
+                      
+                         <li><a href="/dumps/arch/ep_dossiers-2026-07-21.json.zst">2026-07-21</a></li>
+                      
+                   </ul>
+                
+                </td>
+             </tr>
+
+             <tr>
+                <td>MEP Activities</td>
+                
+                   <td>This dump contains most of the activities of MEPs (such as plenary speeches, questions, interpellations, etc)</td>
+                   <td><a href="/dumps/ep_mep_activities.json.zst">ep_mep_activities.json.zst</a></td>
+                   <td>47.4 MiB</td>
+                   <td>2026-07-24</td>
+                
+                <td><a href="/schemas/ep_mep_activities">schema</a></td>
+                <td>
+                
+                   <ul>
+                      
+                         <li><a href="/dumps/arch/ep_mep_activities-2026-07-23.json.zst">2026-07-23</a></li>
+                      
+                         <li><a href="/dumps/arch/ep_mep_activities-2026-07-22.json.zst">2026-07-22</a></li>
+                      
+                         <li><a href="/dumps/arch/ep_mep_activities-2026-07-21.json.zst">2026-07-21</a></li>
+                      
+                   </ul>
+                
+                </td>
+             </tr>
+
+             <tr>
+                <td>MEP Plenary Amendments</td>
+                
+                   <td>This dump contains most of the plenary amendments</td>
+                   <td><a href="/dumps/ep_plenary_amendments.json.zst">ep_plenary_amendments.json.zst</a></td>
+                   <td>6.7 MiB</td>
+                   <td>2026-07-24</td>
+                
+                <td><a href="/schemas/ep_plenary_amendments">schema</a></td>
+                <td>
+                
+                   <ul>
+                      
+                         <li><a href="/dumps/arch/ep_plenary_amendments-2026-07-23.json.zst">2026-07-23</a></li>
+                      
+                         <li><a href="/dumps/arch/ep_plenary_amendments-2026-07-22.json.zst">2026-07-22</a></li>
+                      
+                         <li><a href="/dumps/arch/ep_plenary_amendments-2026-07-21.json.zst">2026-07-21</a></li>
+                      
+                   </ul>
+                
+                </td>
+             </tr>
+
+             <tr>
+                <td>MEP Plenary Votes</td>
+                
+                   <td>This dump contains most of the plenary roll-call votes</td>
+                   <td><a href="/dumps/ep_votes.json.zst">ep_votes.json.zst</a></td>
+                   <td>10.7 MiB</td>
+                   <td>2026-03-28</td>
+                
+                <td><a href="/schemas/ep_votes">schema</a></td>
+                <td>
+                
+                   <ul>
+                      
+                         <li><a href="/dumps/arch/ep_votes-2026-03-27.json.zst">2026-03-27</a></li>
+                      
+                         <li><a href="/dumps/arch/ep_votes-2026-03-14.json.zst">2026-03-14</a></li>
+                      
+                         <li><a href="/dumps/arch/ep_votes-2026-03-13.json.zst">2026-03-13</a></li>
+                      
+                   </ul>
+                
+                </td>
+             </tr>
+
+             <tr>
+                <td>Committee Amendments</td>
+                
+                   <td>This dump contains most of the committee amendments</td>
+                   <td><a href="/dumps/ep_amendments.json.zst">ep_amendments.json.zst</a></td>
+                   <td>114.4 MiB</td>
+                   <td>2026-02-03</td>
+                
+                <td><a href="/schemas/ep_amendments">schema</a></td>
+                <td>
+                
+                   <ul>
+                      
+                         <li><a href="/dumps/arch/ep_amendments-2026-01-31.json.zst">2026-01-31</a></li>
+                      
+                         <li><a href="/dumps/arch/ep_amendments-2026-01-30.json.zst">2026-01-30</a></li>
+                      
+                         <li><a href="/dumps/arch/ep_amendments-2026-01-29.json.zst">2026-01-29</a></li>
+                      
+                   </ul>
+                
+                </td>
+             </tr>
+
+             <tr>
+                <td>MEP Committee Votes</td>
+                
+                   <td>This dump contains most of the committee roll-call votes</td>
+                   <td><a href="/dumps/ep_com_votes.json.zst">ep_com_votes.json.zst</a></td>
+                   <td>28.1 KiB</td>
+                   <td>2026-07-24</td>
+                
+                <td><a href="/schemas/ep_com_votes">schema</a></td>
+                <td>
+                
+                   <ul>
+                      
+                         <li><a href="/dumps/arch/ep_com_votes-2026-07-23.json.zst">2026-07-23</a></li>
+                      
+                         <li><a href="/dumps/arch/ep_com_votes-2026-07-22.json.zst">2026-07-22</a></li>
+                      
+                         <li><a href="/dumps/arch/ep_com_votes-2026-07-21.json.zst">2026-07-21</a></li>
+                      
+                   </ul>
+                
+                </td>
+             </tr>
+
+             <tr>
+                <td>Committee Agendas</td>
+                
+                   <td>This dump contains most of the committee agendas</td>
+                   <td><a href="/dumps/ep_comagendas.json.zst">ep_comagendas.json.zst</a></td>
+                   <td>1.2 MiB</td>
+                   <td>2026-02-28</td>
+                
+                <td><a href="/schemas/ep_comagendas">schema</a></td>
+                <td>
+                
+                   <ul>
+                      
+                         <li><a href="/dumps/arch/ep_comagendas-2026-02-27.json.zst">2026-02-27</a></li>
+                      
+                         <li><a href="/dumps/arch/ep_comagendas-2026-02-26.json.zst">2026-02-26</a></li>
+                      
+                         <li><a href="/dumps/arch/ep_comagendas-2026-02-25.json.zst">2026-02-25</a></li>
+                      
+                   </ul>
+                
+                </td>
+             </tr>
+
+          </table>
+
+          <p>[1] previously parltrack used xz, but due to claims <a href="https://www.nongnu.org/lzip/xz_inadequate.html">xz being inadequate for long-term archiving</a> we switched to lzip.</p>
+       </div>
+    </div>
+  </div>
+</div>
+
+</div>
+
+<div class="ui inverted vertical footer segment">
+  <div class="ui container">
+     <div class="eight wide column">
+      <div class="ui inverted header">
+         <div class="smalltext"><i class="twitter icon"></i><a href="https://twitter.com/parltrack">@parltrack</a></div>
+         <div class="smalltext"><i class="mastodon icon"></i><a rel="me" href="https://eupolicy.social/@parltrack">@parltrack@eupolicy.social</a></div>
+         <div class="smalltext"><i class="envelope icon"></i><span class="protected_address" data-key="9rx3H1fLFKqJ@nU5gu+XAlBay4hctSdEWGsVPIZN6M0i7TCmkvQb-8w.2YeD_zROpjo" data-ctext="2Me-_eMibn2Me-_eMibx.em">[javascript protected email address]</span></div>
+      </div>
+     </div>
+      <div class="ui stackable inverted equal height stackable grid">
+        <div class="eight wide column">
+           <div class="ui inverted list">
+              <div class="smalltext"><a href="https://github.com/parltrack/parltrack/">code</a> <a href="https://www.gnu.org/licenses/agpl.html">AGPLv3.0+</a></div>
+              <div class="smalltext"><a href="/dumps">data</a> <a href="http://www.opendatacommons.org/licenses/odbl/">ODBLv1.0</a></div>
+              <div class="smalltext">site content <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC-By-Sa-3.0</a></div>
+          </div>
+        </div>
+        <div class="eight wide right aligned bottom aligned column">
+          <h4 class="ui inverted header">ParlTrack - 2011-2024</h4>
+          <div class="ui inverted list">
+             <div class="smalltext"><a href="http://www.europarl.europa.eu/tools/disclaimer/default_en.htm">© European Union, 2011 – Source: European Parliament</a></div>
+             <div class="smalltext">Hosted by <a href="https://as250.net/">AS250.net Foundation</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  </body>
+</html>

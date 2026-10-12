@@ -1,0 +1,24 @@
+# pytest, full suite, after G2 round 1 — 2026-10-10T12:12:04Z
+........................................................................ [ 63%]
+.........................................                                [100%]
+113 passed in 8.34s
+# unittest discover
+Ran 113 tests in 6.598s
+
+OK
+# per file
+     13 tests/test_agreement_pairs.py
+     12 tests/test_evidence_capture.py
+     26 tests/test_mapping_base.py
+     17 tests/test_pilot_a_instruments.py
+     14 tests/test_pilot_a_packets_v2.py
+     10 tests/test_pilot_a_required_groups.py
+      4 tests/test_pipeline.py
+     17 tests/test_validation_vocabularies.py
+# cli.py check (earlier instrument, unchanged)
+[WARNING] Same URL in records ['SEED_EU03', 'SEED_EU07']: https://data.europa.eu/en/ELDS (candidate duplicate; human decision required)
+[WARNING] No documented systematic search hits: only seed set or empty inventory.
+[WARNING] No canonical dataset inclusion decisions: scientific results not available.
+No structural errors.
+# capture_evidence verify
+57 log entries; 0 problem(s)

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2011 sp1 (http://www.altova.com) by European Food Safety Authority (EFSA) (European Food Safety Authority (EFSA)) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="IUCLID_EXTRACT_CFTEFSAPPR201003">
+		<xs:annotation>
+			<xs:documentation>Completion of data entry of pesticide ecotoxicology Tier 1 study endpoints in a XML schema – database </xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence maxOccurs="unbounded">
+				<xs:element name="study">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="documentReferencePK"/>
+							<xs:element name="substanceKey"/>
+							<xs:element name="substanceDesc"/>
+							<xs:element name="CASNO" minOccurs="0"/>
+							<xs:element name="ECNO" minOccurs="0"/>
+							<xs:element name="studyName"/>
+							<xs:element name="endpointKind"/>
+							<xs:sequence maxOccurs="unbounded">
+								<xs:element name="guideline" minOccurs="0">
+									<xs:complexType>
+										<xs:sequence>
+											<xs:element name="qualifier" minOccurs="0"/>
+											<xs:element name="name" minOccurs="0"/>
+											<xs:element name="deviation" minOccurs="0"/>
+										</xs:sequence>
+									</xs:complexType>
+								</xs:element>
+							</xs:sequence>
+							<xs:sequence maxOccurs="unbounded">
+								<xs:element name="reference" minOccurs="0">
+									<xs:complexType>
+										<xs:sequence>
+											<xs:element name="type" minOccurs="0"/>
+											<xs:element name="year" minOccurs="0"/>
+											<xs:element name="title" minOccurs="0"/>
+											<xs:element name="reportNo" minOccurs="0"/>
+											<xs:element name="company" minOccurs="0"/>
+											<xs:element name="companyStudyNo" minOccurs="0"/>
+										</xs:sequence>
+									</xs:complexType>
+								</xs:element>
+							</xs:sequence>
+							<xs:element name="resutType" minOccurs="0"/>
+							<xs:element name="reliability" minOccurs="0"/>
+							<xs:element name="rationalReliability" minOccurs="0"/>
+							<xs:element name="GLPCompliance" minOccurs="0"/>
+							<xs:element name="testMaterial" minOccurs="0"/>
+							<xs:element name="testMaterialIndicator" minOccurs="0"/>
+							<xs:element name="applicationMethod" minOccurs="0"/>
+							<xs:element name="analyticalMonitoring" minOccurs="0"/>
+							<xs:element name="vehicle" minOccurs="0"/>
+							<xs:element name="testType" minOccurs="0"/>
+							<xs:element name="medium" minOccurs="0"/>
+							<xs:element name="testDuration" minOccurs="0"/>
+							<xs:element name="limitTest" minOccurs="0"/>
+							<xs:element name="exposureDurationValue" minOccurs="0"/>
+							<xs:element name="exposureDurationUnit" minOccurs="0"/>
+							<xs:sequence maxOccurs="unbounded">
+								<xs:element name="endpoint" minOccurs="0">
+									<xs:complexType>
+										<xs:sequence>
+											<xs:element name="organism" minOccurs="0"/>
+											<xs:element name="expDurationValue" minOccurs="0"/>
+											<xs:element name="expDurationUnit" minOccurs="0"/>
+											<xs:element name="endpointType" minOccurs="0"/>
+											<xs:element name="minQualifier" minOccurs="0"/>
+											<xs:element name="minValue" minOccurs="0"/>
+											<xs:element name="maxQualifier" minOccurs="0"/>
+											<xs:element name="maxValue" minOccurs="0"/>
+											<xs:element name="endpointUnit" minOccurs="0"/>
+											<xs:element name="basisConc" minOccurs="0"/>
+											<xs:element name="effectConcType" minOccurs="0"/>
+											<xs:element name="basisEffect" minOccurs="0"/>
+											<xs:element name="remarks" minOccurs="0"/>
+										</xs:sequence>
+									</xs:complexType>
+								</xs:element>
+							</xs:sequence>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

@@ -1,0 +1,232 @@
+{
+  "_meta": {
+    "purpose": "Controlled vocabularies of the G2 mapping base (mapping/data/*.csv). Read by mapping/scripts/validate_mapping.py.",
+    "status": "v1.1 working vocabularies (round 2, 2026-10-10): levels and evidence kinds added; round-1 values unchanged.",
+    "relation_to_earlier_work": "Independent of schemas/vocabularies.json (Pilot A), which is preserved unchanged. The resource classes FPL/REP/DSE/API/COD/REG/AUX of SOURCE_TAXONOMY_v0_2_DRAFT are not applied here; see the crosswalk in mapping/protocol/INDEPENDENT_MAPPING_REORIENTATION_v1_0.md."
+  },
+  "resource_category": [
+    "DATASET",
+    "CORPUS",
+    "REPOSITORY",
+    "INFRASTRUCTURE",
+    "API",
+    "ACCESS_PORTAL",
+    "SEARCH_INTERFACE",
+    "CATALOGUE",
+    "DATA_DISTRIBUTION",
+    "BENCHMARK",
+    "ADMINISTRATIVE_REGISTER",
+    "DESCRIPTIVE_PAGE",
+    "STANDARD_OR_VOCABULARY",
+    "SOFTWARE_OR_PIPELINE",
+    "INDETERMINATE"
+  ],
+  "category_status": [
+    "CANDIDATE",
+    "CONFIRMED"
+  ],
+  "resource_set": [
+    "A",
+    "B",
+    "AB"
+  ],
+  "territorial_scope": [
+    "EU",
+    "EU_EEA_PLUS",
+    "NATIONAL_EU_CONNECTED",
+    "INTERNATIONAL",
+    "NOT_ASSESSED"
+  ],
+  "individuation_status": [
+    "INDIVIDUATED",
+    "CANDIDATE_SEPARATE",
+    "CANDIDATE_NOT_INDEPENDENT",
+    "GROUP_PENDING_SPLIT"
+  ],
+  "verification_status": [
+    "DISCOVERED",
+    "PARTIALLY_VERIFIED",
+    "VERIFIED",
+    "INACCESSIBLE",
+    "OUT_OF_SCOPE",
+    "INDETERMINATE"
+  ],
+  "eligibility_preliminary": [
+    "INCLUDE",
+    "UNCERTAIN",
+    "EXCLUDE"
+  ],
+  "classification_basis": [
+    "AGENT_PROVISIONAL",
+    "RESEARCHER_CONFIRMED"
+  ],
+  "researcher_confirmed": [
+    "NO",
+    "YES"
+  ],
+  "discovery_origin": [
+    "SEED",
+    "SYSTEMATIC_SEARCH",
+    "BACKWARD_FORWARD_DISCOVERY",
+    "EXPERT_SUGGESTION",
+    "OTHER"
+  ],
+  "field_basis": [
+    "PRIMARY_PAGE",
+    "API_METADATA",
+    "SEED_UNVERIFIED",
+    "AGENT_INFERENCE",
+    "OPERATIONAL_INSPECTION"
+  ],
+  "endpoint_role": [
+    "DESCRIPTION_PAGE",
+    "ACCESS_PORTAL",
+    "SEARCH_INTERFACE",
+    "API",
+    "SPARQL_ENDPOINT",
+    "BULK_DOWNLOAD",
+    "CATALOGUE_ENTRY",
+    "REPOSITORY_RECORD",
+    "CODE_REPOSITORY",
+    "DOCUMENTATION",
+    "MIRROR_OR_REDISTRIBUTION",
+    "DATA_PAPER"
+  ],
+  "endpoint_url_source": [
+    "SEED",
+    "PRIMARY_PAGE",
+    "API_METADATA",
+    "SEARCH_HIT",
+    "AGENT"
+  ],
+  "auth_required": [
+    "YES",
+    "NO",
+    "UNKNOWN"
+  ],
+  "access_status": [
+    "ACCESSIBLE",
+    "JS_ONLY_SHELL",
+    "AUTH_REQUIRED",
+    "BLOCKED_TO_TOOL",
+    "HTTP_ERROR",
+    "NETWORK_ERROR",
+    "NOT_TESTED"
+  ],
+  "relation_type": [
+    "same_resource_as",
+    "distribution_of",
+    "derived_from",
+    "access_interface_for",
+    "catalogues",
+    "part_of",
+    "links_to",
+    "overlaps_with",
+    "successor_of",
+    "uses"
+  ],
+  "relation_confidence": [
+    "HIGH",
+    "MEDIUM",
+    "LOW"
+  ],
+  "relation_status": [
+    "SUPPORTED",
+    "CANDIDATE"
+  ],
+  "relation_basis": [
+    "PRIMARY_PAGE",
+    "API_METADATA",
+    "AGENT_INFERENCE"
+  ],
+  "discovery_entry_type": [
+    "SEARCH_RUN",
+    "RESOURCE_DISCOVERY",
+    "SEED_REFOUND_BY_SEARCH"
+  ],
+  "evidence_type": [
+    "PAGE_CAPTURE",
+    "ACCESS_FAILURE",
+    "SEARCH_RESPONSE",
+    "HISTORICAL_CAPTURE",
+    "DATA_PEEK"
+  ],
+  "evidence_outcome": [
+    "CAPTURED",
+    "FAILED",
+    "EXECUTED",
+    "READ"
+  ],
+  "decision_type": [
+    "IDENTITY",
+    "ACCESS",
+    "EVIDENCE_CONFLICT",
+    "INDIVIDUATION",
+    "NOT_INDIVIDUATED",
+    "SCREENING",
+    "SCOPE_OPEN",
+    "TAXONOMY",
+    "NEGATIVE_RESULT"
+  ],
+  "decided_by": [
+    "AGENT_PROVISIONAL",
+    "RESEARCHER"
+  ],
+  "not_assessed_token": "NOT_ASSESSED",
+  "resource_level": [
+    "LEVEL_I_DATA",
+    "LEVEL_II_INFRASTRUCTURE",
+    "DISTRIBUTION_OF_LEVEL_I",
+    "UNASSIGNED"
+  ],
+  "identity_level": [
+    "IDENTITY_VERIFIED",
+    "IDENTITY_PARTIAL",
+    "NOT_VERIFIED"
+  ],
+  "data_availability_level": [
+    "DATA_AVAILABILITY_VERIFIED",
+    "DOCUMENT_ONLY",
+    "LANDING_PAGE_ONLY",
+    "LISTING_ONLY",
+    "ACCESS_FAILED",
+    "NOT_TESTED"
+  ],
+  "capability_level": [
+    "CAPABILITY_VERIFIED",
+    "NOT_ASSESSED"
+  ],
+  "capability": [
+    "SCHEMA_FIELDS_OBSERVED",
+    "FIELD_CELEX",
+    "FIELD_ELI",
+    "FIELD_ECLI",
+    "FIELD_LEGAL_BASIS",
+    "FIELD_DECISION_OR_SANCTION",
+    "FIELD_COUNTRY_OR_MEMBER_STATE",
+    "FIELD_DATE",
+    "FIELD_ENTITY_NAME",
+    "FIELD_ENTITY_ID"
+  ],
+  "capability_method": [
+    "SCHEMA_LISTING",
+    "FIELD_NAME_MATCH"
+  ],
+  "sweep_outcome": [
+    "CAPTURED",
+    "FAILED",
+    "NOT_RUN"
+  ],
+  "lynx_match_status": [
+    "MATCHED",
+    "MATCHED_AS_ENDPOINT",
+    "RELATED",
+    "ABSENT_SCOPE_OPEN",
+    "NOT_APPLICABLE"
+  ],
+  "lynx_scope": [
+    "EU_LEVEL",
+    "EU_LINK_VIA_ELI_ONLY",
+    "NON_EU"
+  ]
+}

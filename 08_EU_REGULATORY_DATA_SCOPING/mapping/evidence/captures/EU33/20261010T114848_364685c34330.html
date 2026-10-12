@@ -1,0 +1,1280 @@
+<!--
+  Copyright 2024 European Union
+
+  Licensed under the EUPL, Version 1.2 or – as soon they will be approved by the European
+  Commission – subsequent versions of the EUPL (the "Licence"); You may not use this work except in
+  compliance with the Licence. You may obtain a copy of the Licence at:
+  https://joinup.ec.europa.eu/software/page/eupl
+
+  Unless required by applicable law or agreed to in writing, software distributed under the Licence
+  is distributed on an "AS IS" basis, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express
+  or implied. See the Licence for the specific language governing permissions and limitations under
+  the Licence
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TED Open Data Service</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="src/assets/style.css">
+
+    <!-- Favicon (if applicable) -->
+    <link rel="icon" type="image/png" href="src/assets/ted-logo.png">
+
+    <!-- CodeMirror v6 injects its own styles, no CSS links needed -->
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+</head>
+
+<body>
+    <!-- Piwik PRO WEB Analytics code -->
+    <script type="text/javascript">
+        (function (window, document, dataLayerName, id) {
+            window[dataLayerName] = window[dataLayerName] || [], window[dataLayerName].push({ start: (new Date).getTime(), event: "stg.start" }); var scripts = document.getElementsByTagName('script')[0], tags = document.createElement('script');
+            var qP = []; dataLayerName !== "dataLayer" && qP.push("data_layer_name=" + dataLayerName); var qPString = qP.length > 0 ? ("?" + qP.join("&")) : "";
+            tags.async = !0, tags.src = "https://analytics.webanalytics.op.europa.eu/" + id + ".js" + qPString, scripts.parentNode.insertBefore(tags, scripts);
+            !function (a, n, i) { a[n] = a[n] || {}; for (var c = 0; c < i.length; c++)!function (i) { a[n][i] = a[n][i] || {}, a[n][i].api = a[n][i].api || function () { var a = [].slice.call(arguments, 0); "string" == typeof a[0] && window[dataLayerName].push({ event: n + "." + i + ":" + a[0], parameters: [].slice.call(arguments, 1) }) } }(i[c]) }(window, "ppms", ["tm", "cm"]);
+        })(window, document, 'dataLayer', '363c8269-fce7-42d6-88eb-0abc9e22ea96');
+    </script>
+    <!-- End Piwik PRO WEB Analytics code -->
+    <!-- Scrollable header — globan + EU logo row -->
+    <!-- EU Global Banner -->
+    <div class="eu-globan">
+        <div class="eu-globan__content">
+            <img src="./src/assets/eu.svg" class="eu-globan__flag" alt="" loading="lazy">
+            <span class="eu-globan__text">An official website of the European Union</span>
+            <button class="eu-globan__button" aria-expanded="false" aria-controls="eu-globan-dropdown">
+                How do you know?
+                <svg aria-hidden="true" focusable="false" class="eu-globan__arrow" width="12" height="12" viewBox="0 0 48 48" fill="currentColor"><path d="m45 30.12-2.73 2.82-18.24-18.36L5.73 33 3 30.18 24.03 9z"></path></svg>
+            </button>
+            <div id="eu-globan-dropdown" class="eu-globan__dropdown" hidden>
+                <p>All official European Union website addresses are in the <b>europa.eu</b> domain.</p>
+                <p class="eu-globan__dropdown-link"><a href="https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/search-all-eu-institutions-and-bodies_en" target="_blank" rel="noopener noreferrer">See all EU institutions and bodies</a></p>
+            </div>
+        </div>
+    </div>
+    <header class="site-header site-header--scrollable">
+        <div class="site-header__wrapper">
+            <div class="site-header__upper">
+                <a href="https://european-union.europa.eu/index_en" target="_blank" rel="noopener noreferrer">
+                    <img src="./src/assets/logo-eu--en.svg" alt="European Union" class="site-header__logo-desktop">
+                    <img src="./src/assets/logo-eu--mobile.svg" alt="European Union" class="site-header__logo-mobile">
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Sticky header — title row + nav tabs -->
+    <div class="sticky-nav">
+    <header class="site-header site-header--sticky">
+        <div class="site-header__wrapper">
+            <div class="site-header__lower">
+                <div class="d-flex align-items-center gap-3">
+                    <a href="https://ted.europa.eu" target="_blank" rel="noopener noreferrer" class="site-header__title">EU tenders</a>
+                </div>
+                <div class="d-flex align-items-center justify-content-between">
+                    <div>
+                        <a href="#" class="site-header__subtitle">Ted <span class="site-header__dot">&#9632;</span> Open Data Service</a>
+                        <span class="site-header__description">Explore and reuse EU public procurement data</span>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <span id="data-period" class="small site-header__data-period"></span>
+                        <span id="data-period-info" class="bi bi-info-circle ms-1 site-header__data-period" tabindex="0" role="img"
+                           aria-label="Data period information" style="display: none; cursor: help;"
+                           data-bs-toggle="tooltip" data-bs-placement="bottom"
+                           title="Publication dates of the earliest and most recent notices available in our dataset."></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <ul class="nav nav-tabs w-100 d-flex align-items-center" role="tablist">
+            <li role="presentation" aria-hidden="true" class="nav-tabs-spacer-left"></li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-content"
+                    type="button" role="tab" aria-controls="home-tab-content" aria-selected="true">Home</button>
+            </li>
+            <!-- Search tab — instance lane input. Always visible.
+                 Icon mirrors carousel slide 2 (look inside a notice). -->
+            <li class="nav-item" role="presentation" id="app-tab-search-item">
+                <button class="nav-link" id="app-tab-search" data-bs-toggle="tab" data-bs-target="#app-search"
+                    type="button" role="tab" aria-controls="app-search" aria-selected="false"><i class="bi bi-search"></i> Inspect</button>
+            </li>
+            <!-- Library tab — icon mirrors carousel slide 3. -->
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="query-library-tab" data-bs-toggle="tab" data-bs-target="#query-library"
+                    type="button" role="tab" aria-controls="query-library" aria-selected="false"><i class="bi bi-collection"></i> Explore</button>
+            </li>
+            <!-- Editor tab — icon mirrors carousel slide 4. -->
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="query-editor-tab" data-bs-toggle="tab" data-bs-target="#query-editor"
+                    type="button" role="tab" aria-controls="query-editor" aria-selected="false"><i class="bi bi-code-square"></i> Customize</button>
+            </li>
+            <!-- Data — tabular SELECT results lane. Hidden on cold load
+                 (both result tabs are mutually exclusive — see Stage 12 "mutual
+                 exclusion" rule: at any time, at most ONE of the two result tabs
+                 is visible, determined by the last query's type).
+                 Icon mirrors carousel slide 5 (use the data). -->
+            <li class="nav-item" role="presentation" id="query-results-tab-item" style="display: none;">
+                <button class="nav-link" id="query-results-tab" data-bs-toggle="tab" data-bs-target="#query-results"
+                    type="button" role="tab" aria-controls="query-results" aria-selected="false"><i class="bi bi-download"></i> Reuse</button>
+            </li>
+            <!-- Data — graph (CONSTRUCT/DESCRIBE) results lane. Same
+                 visible label as the SELECT lane above so the user sees one
+                 conceptual "Data" tab whose contents auto-pick the right
+                 rendering based on the query type. The element ID stays
+                 #app-tab-explorer for JS stability — only the label changes.
+                 Hidden on cold load; revealed by DataView._onFacetChanged or
+                 by the QueryEditor SELECT/CONSTRUCT routing branch. -->
+            <li class="nav-item" role="presentation" id="app-tab-explorer-item" style="display: none;">
+                <button class="nav-link" id="app-tab-explorer" data-bs-toggle="tab" data-bs-target="#app-explorer"
+                    type="button" role="tab" aria-controls="app-explorer" aria-selected="false"><i class="bi bi-download"></i> Reuse</button>
+            </li>
+            <!-- Stage 12 — push Help to the right side of the nav,
+                 mirroring the standalone explorer's nav layout. -->
+            <li class="flex-grow-1"></li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="help-tab" data-bs-toggle="tab" data-bs-target="#help" type="button" role="tab"
+                    aria-controls="help" aria-selected="false"><i class="bi bi-question-circle"></i> Help</button>
+            </li>
+            <li role="presentation" aria-hidden="true" class="nav-tabs-spacer-right"></li>
+        </ul>
+    </nav>
+    </div>
+
+    <main class="tab-content h-100">
+
+        <!-- Home -->
+        <!-- Carousel layout. Each slide highlights one capability of the
+             merged app. Manual navigation only (no auto-rotation) so
+             institutional copy has reading time. Slides 2-4 reuse the
+             existing button IDs (lookup-notice, try-query-library,
+             start-tour) so HomeTab.js wires them up unchanged. -->
+        <div class="tab-pane w-100 fade show active" id="home-tab-content" role="tabpanel" aria-labelledby="home-tab">
+            <div id="home-carousel" class="carousel slide home-carousel" data-bs-ride="false" data-bs-interval="false" aria-roledescription="carousel" aria-label="TED Open Data capabilities">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#home-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Welcome"></button>
+                    <button type="button" data-bs-target="#home-carousel" data-bs-slide-to="1" aria-label="Look inside a notice"></button>
+                    <button type="button" data-bs-target="#home-carousel" data-bs-slide-to="2" aria-label="Curated queries"></button>
+                    <button type="button" data-bs-target="#home-carousel" data-bs-slide-to="3" aria-label="Write your own query"></button>
+                    <button type="button" data-bs-target="#home-carousel" data-bs-slide-to="4" aria-label="Take the data anywhere"></button>
+                </div>
+
+                <div class="carousel-inner">
+                    <!-- Slide 1: Intro — includes the three CTAs so a user
+                         who doesn't flip the carousel still has every entry
+                         point visible. The buttons duplicate the ones on
+                         slides 2-4 but with unique IDs (home-cta-*) so the
+                         JS can wire them up alongside the slide-specific
+                         ones without ID collisions. -->
+                    <div class="carousel-item active">
+                        <div class="home-carousel-slide">
+                            <h1 class="display-4" style="font-weight: 400; color:#333333"><span style="color: var(--ted-primary, #2c862d); font-weight: 500;">Ted</span> open data</h1>
+                            <p class="lead">Explore our data&ensp;—&ensp;Understand it&ensp;—&ensp;Use it</p>
+                            <p class="home-carousel-body mb-2">
+                                TED notices hold a wealth of information on EU public procurement.
+                                <br/>We organise this information as a knowledge graph and publish it
+                                for analysis and re-use.
+                            </p>
+                            <p class="home-carousel-body">
+                                We invite you to explore, understand and use this information in your
+                                research and applications.
+                            </p>
+                            <div class="home-carousel-cta-row mt-4">
+                                <button type="button" id="home-cta-lookup" class="btn btn-outline-secondary"><i class="bi bi-1-circle"></i> Look inside a notice</button>
+                                <button type="button" id="home-cta-library" class="btn btn-outline-secondary"><i class="bi bi-2-circle"></i> Try our query library</button>
+                                <button type="button" id="home-cta-editor" class="btn btn-outline-secondary"><i class="bi bi-3-circle"></i> Write your own query</button>
+                                <button type="button" id="home-cta-reuse" class="btn btn-outline-secondary"><i class="bi bi-4-circle"></i> Get your data</button>
+                            </div>
+                            <p class="home-carousel-body small mt-4 mb-0" style="color: #9ba3ab;">
+                                Tenders Electronic Daily (TED) is the Supplement to the Official Journal
+                                of the European Union,<br/> managed by the Publications Office of the European Union.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Slide 2: Look inside a notice — see how ePO represents one notice -->
+                    <div class="carousel-item">
+                        <div class="home-carousel-slide">
+                            <i class="bi bi-search home-carousel-icon"></i>
+                            <h2 class="display-5 mt-3">Look inside a notice</h2>
+                            <p class="home-carousel-body lead mt-3">
+                                Begin by looking at how the eProcurement Ontology represents a single notice.
+                                Enter a publication number to select a real notice and explore its knowledge graph.
+                            </p>
+                            <button type="button" id="lookup-notice" class="btn btn-primary mt-3">Try it now →</button>
+                        </div>
+                    </div>
+
+                    <!-- Slide 3: Curated queries — learn from worked examples -->
+                    <div class="carousel-item">
+                        <div class="home-carousel-slide">
+                            <i class="bi bi-collection home-carousel-icon"></i>
+                            <h2 class="display-5 mt-3">Try our query library</h2>
+                            <p class="home-carousel-body lead mt-3">
+                                When you are familiar with the basic notice representation, move to learning how to query the entire dataset. 
+                                Our query library provides several examples organised by topic.
+                                <br/>You can run and customise them to learn how the data is queried in practice.
+                            </p>
+                            <button type="button" id="try-query-library" class="btn btn-primary mt-3">Try it now →</button>
+                        </div>
+                    </div>
+
+                    <!-- Slide 4: Write your own — experiment freely -->
+                    <div class="carousel-item">
+                        <div class="home-carousel-slide">
+                            <i class="bi bi-code-square home-carousel-icon"></i>
+                            <h2 class="display-5 mt-3">Write your own query</h2>
+                            <p class="home-carousel-body lead mt-3">
+                                Once you know your way around, our SPARQL editor lets you experiment with your own
+                                queries and of course customise the ones we provide. Autocomplete and syntax checking based on
+                                the eProcurement Ontology help you build what you need, one question at a time.
+                            </p>
+                            <button type="button" id="start-tour" class="btn btn-primary mt-3">Try it now →</button>
+                        </div>
+                    </div>
+
+                    <!-- Slide 5: Use the data — retrieve, share, build with it -->
+                    <div class="carousel-item">
+                        <div class="home-carousel-slide">
+                            <i class="bi bi-download home-carousel-icon"></i>
+                            <h2 class="display-5 mt-3">Use the data</h2>
+                            <p class="home-carousel-body lead mt-3">
+                                When you find what you need, take it home. Look for the
+                                <strong style="white-space: nowrap;"><i class="bi bi-download"></i>&nbsp;Download</strong>
+                                button to get the results in the format that fits your work. Look for the
+                                <strong style="white-space: nowrap;"><i class="bi bi-plug"></i>&nbsp;Connect your app</strong>
+                                button to call the same query from your own application and keep it up
+                                to date with live data all the time.
+                            </p>
+                            <button type="button" id="home-cta-get-started" class="btn btn-outline-primary mt-3">Get started →</button>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#home-carousel" data-bs-slide="prev" aria-label="Previous slide">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#home-carousel" data-bs-slide="next" aria-label="Next slide">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div> <!-- Close home-tab-content div -->
+
+        <!-- ═══ SEARCH TAB ═══ -->
+        <!-- Notice search input + history dropdown + lucky link.
+             Trimmed from explorer's index.html: the SPARQL mode toggle and
+             the panel-sparql wrapper are removed because the merged app
+             has only one editor (in the Query Editor tab). -->
+        <div class="tab-pane w-100 fade pt-2 px-3 pb-3" id="app-search" role="tabpanel" aria-labelledby="app-tab-search">
+            <div id="panel-notice" class="search-hero">
+
+                <!-- Top half: search area, split into title-lane + input-lane -->
+                <div class="search-hero-top">
+                    <div class="search-hero-title-lane">
+                        <div class="search-hero-inner tab-prompt">
+                            Look up a notice to see how the eProcurement Ontology represents it
+                            <button type="button" class="tour-trigger" id="inspect-tour-trigger"
+                                    data-bs-toggle="tooltip" data-bs-placement="top"
+                                    title="Take a quick tour of this tab"
+                                    aria-label="Take a quick tour of this tab">
+                                <i class="bi bi-play-circle"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="search-hero-input-lane">
+                        <div class="search-hero-inner d-flex align-items-center gap-2">
+                            <label for="search-input" class="visually-hidden">Publication number</label>
+                            <input type="text" id="search-input" class="form-control form-control-lg search-hero-input"
+                                   placeholder="Enter publication number" list="search-history" autocomplete="off">
+                            <datalist id="search-history"></datalist>
+                            <button type="button" id="search-btn" class="btn btn-lg search-hero-btn" title="Search">
+                                <i class="bi bi-search"></i>
+                            </button>
+                            <div class="dropdown">
+                                <button class="btn btn-lg search-hero-btn dropdown-toggle" type="button"
+                                        id="history-btn" data-bs-toggle="dropdown" aria-expanded="false"
+                                        title="Recent items">
+                                    <i class="bi bi-clock-history"></i>
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu-end" id="history-menu"
+                                    style="max-height: 300px; overflow-y: auto; min-width: 280px;">
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="search-hero-inner mt-2 lucky-hint">
+                            or <a href="#" id="lucky-link">click here to pick a random notice</a>
+                        </div>
+
+                        <!-- Surfaced when a shared ?facet= URL fails to parse or validate. -->
+                        <div id="url-load-error" class="search-hero-inner alert alert-warning alert-dismissible fade show mt-3" role="alert" style="display: none;">
+                            <span id="url-load-error-text"></span>
+                            <button type="button" class="btn-close" aria-label="Close" id="url-load-error-close"></button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bottom half: procedure preview card (populated by NoticeView after a search) -->
+                <div class="search-hero-bottom">
+                    <div id="notice-results" class="card shadow-sm" style="display: none;">
+                        <div class="card-header" id="procedure-card-title"></div>
+                        <div class="card-body p-0">
+                            <div id="notice-loading" class="text-center text-muted py-2" style="display: none;">
+                                <span class="spinner-border spinner-border-sm"></span> Loading...
+                            </div>
+                            <div id="notice-error" class="alert alert-danger py-2 m-2" style="display: none;"></div>
+                            <div id="procedures-container"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Query Library -->
+        <div class="tab-pane w-100 fade" id="query-library" role="tabpanel" aria-labelledby="query-library-tab">
+            <div class="container-fluid d-flex flex-column flex-grow-1">
+                <div class="row flex-grow-1">
+                    <div class="col-md-4 d-flex flex-column">
+                        <div class="d-flex align-items-center mb-2">
+                            <h5 class="mb-0">Query Library</h5>
+                            <a href="#" id="explore-tour-trigger"
+                               class="ms-2 text-muted"
+                               data-bs-toggle="tooltip" data-bs-placement="top"
+                               title="Take a quick tour of this tab">
+                                <i class="bi bi-play-circle"></i>
+                            </a>
+                            <a href="https://github.com/OP-TED/ted-open-data-examples/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener noreferrer"
+                               id="contribute-query-link"
+                               class="ms-auto small text-muted text-decoration-none"
+                               data-bs-toggle="tooltip" data-bs-placement="top"
+                               title="Want to contribute a query? See the contributing guide.">
+                                <i class="bi bi-info-circle"></i> Contribute
+                            </a>
+                        </div>
+                        <div class="accordion-container">
+                            <div class="accordion accordion-flush flex-grow-1" id="query-accordion">
+                                <!-- Categories and queries will be populated here -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-8 d-flex flex-column" id="query-library-display">
+                        <div id="select-query-message" class="text-center" style="margin-top: 33vh;">
+                            <p class="tab-prompt">Select a query from the available categories on the left.</p>
+                        </div>
+                        <h5 id="query-title" class="mb-2 d-none">Query Title</h5>
+                        <div class="card flex-grow-1 border-0 m-0 p-0 d-none" id="query-card">
+                            <div class="card-body d-flex flex-column p-0">
+                                <div id="query-details" class="px-0 pb-2">
+                                    <p id="query-description" class="mb-2">Select a query to see its description.</p>
+                                    <div id="query-action-buttons" class="d-flex justify-content-start mb-3 gap-2">
+                                        <button type="button" id="customise-query-button" class="btn btn-outline-secondary" disabled>Customise</button>
+                                        <button type="button" id="try-query-button" class="btn btn-primary" disabled>Run query</button>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center mb-2">
+                                    <h6 class="text-muted mb-0">SPARQL query</h6>
+                                    <button type="button" id="copy-sparql-button" class="btn btn-sm btn-outline-secondary ms-auto" title="Copy SPARQL to clipboard"><i class="bi bi-clipboard"></i> Copy</button>
+                                </div>
+                                <div id="query-sparql" role="region" aria-label="SPARQL query preview"></div>
+                                <div id="query-action-buttons-bottom" class="d-flex justify-content-end p-3 gap-2">
+                                    <button type="button" class="btn btn-outline-secondary query-customise-btn" disabled>Customise</button>
+                                    <button type="button" class="btn btn-primary query-try-btn" disabled>Run query</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- Close query-library div -->
+
+        <!-- Main Container -->
+        <div class="tab-pane w-100 fade" id="query-editor" role="tabpanel" aria-labelledby="query-editor-tab">
+            <!-- Query Form -->
+            <form id="query-form" class="d-flex flex-column h-100">
+                <div class="d-flex align-items-center mb-1">
+                    <div class="mb-0">
+                        <h5 class="mb-0 d-inline">Query Editor</h5>
+                        <button type="button" class="tour-trigger" id="customize-tour-trigger"
+                                data-bs-toggle="tooltip" data-bs-placement="top"
+                                title="Take a quick tour of this tab"
+                                aria-label="Take a quick tour of this tab">
+                            <i class="bi bi-play-circle"></i>
+                        </button>
+                    </div>
+                    <button class="btn btn-sm btn-outline-secondary ms-auto" type="button" id="copy-editor-sparql" title="Copy SPARQL to clipboard">
+                        <i class="bi bi-clipboard"></i> Copy
+                    </button>
+                    <button class="btn btn-sm btn-outline-secondary ms-1" type="button" id="clear-editor" title="Clear the editor">
+                        <i class="bi bi-trash"></i> Clear
+                    </button>
+                    <button type="submit" class="btn btn-sm btn-primary ms-1" id="run-query-button-top" disabled>
+                        <i class="bi bi-play-fill"></i> Run
+                    </button>
+                </div>
+                <p class="small text-muted mb-2" id="query-label">Compose or refine your query in SPARQL</p>
+
+                <div class="flex-grow-1 d-flex flex-column">
+                    <div class="form-group flex-grow-1 d-flex flex-column">
+                        <div id="query" class="flex-grow-1" role="textbox" aria-labelledby="query-label" aria-multiline="true"></div>
+                    </div>
+                </div>
+
+                <div class="mt-2 d-flex justify-content-end">
+                    <button type="submit" class="btn btn-primary" id="run-query-button" disabled>Run query</button>
+                </div>
+            </form>
+        </div> <!-- Close query-editor div -->
+
+        <!-- Query Results (SELECT lane) -->
+        <div class="tab-pane w-100 fade" id="query-results" role="tabpanel" aria-labelledby="query-results-tab">
+            <!-- Slim results toolbar — hint on the left, Connect your app +
+                 Download as… on the right. Mirrors the visual weight
+                 of the breadcrumb bar on the graph lane: flat, a
+                 single thin bottom border, no fill. Toggled via
+                 #copy-url-alert (the id is kept for JS back-compat,
+                 the class has changed from `alert` to a custom bar). -->
+            <div id="copy-url-alert" class="results-toolbar d-none">
+                <div id="alert-message" class="results-toolbar-hint"
+                     title="Query results">
+                    <h5 class="mb-0 d-inline">Query results</h5>
+                    <button type="button" class="tour-trigger" id="reuse-select-tour-trigger"
+                            data-bs-toggle="tooltip" data-bs-placement="top"
+                            title="Take a quick tour of this tab"
+                            aria-label="Take a quick tour of this tab">
+                        <i class="bi bi-play-circle"></i>
+                    </button>
+                    <p class="small text-muted mb-0" id="query-execution-time" style="display: none;">Execution time: <span id="query-execution-time-value"></span></p>
+                </div>
+                <div class="results-toolbar-actions">
+                    <button id="connect-button" class="btn btn-sm btn-primary" type="button"
+                            aria-expanded="false" aria-haspopup="dialog">
+                        <i class="bi bi-plug"></i> Connect your app
+                    </button>
+                    <div class="dropdown d-inline-block">
+                        <button id="download-as-button" class="btn btn-sm btn-outline-primary dropdown-toggle" type="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="bi bi-download"></i> Download as…
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="download-as-button">
+                            <li><a class="dropdown-item" href="#" data-download-format="application/sparql-results+json">JSON</a></li>
+                            <li><a class="dropdown-item" href="#" data-download-format="text/csv">CSV</a></li>
+                            <li><a class="dropdown-item" href="#" data-download-format="text/tab-separated-values">TSV</a></li>
+                            <li><a class="dropdown-item" href="#" data-download-format="application/vnd.ms-excel">Spreadsheet</a></li>
+                            <li><a class="dropdown-item" href="#" data-download-format="application/sparql-results+xml">XML</a></li>
+                        </ul>
+                    </div>
+                    <!-- Taking the data away, and looking at it here, are two
+                         different jobs; the rule says so. Hidden with the
+                         toggle, which only appears for chartable results. -->
+                    <div id="results-view-toggle" class="d-none d-flex align-items-center">
+                        <div class="vr button-row-divider"></div>
+                        <div class="btn-group btn-group-sm" role="group" aria-label="Switch between table and chart view">
+                            <input type="radio" class="btn-check" name="results-view" id="results-view-table" value="table" checked>
+                            <label class="btn btn-outline-secondary px-4" for="results-view-table">
+                                <i class="bi bi-table"></i> Table
+                            </label>
+                            <input type="radio" class="btn-check" name="results-view" id="results-view-chart" value="chart">
+                            <label class="btn btn-outline-secondary px-4" for="results-view-chart">
+                                <i class="bi bi-bar-chart"></i> Chart
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Friendly error state — shown when a SELECT query fails.
+                 Replaces the previous red alert-danger banner with a
+                 calmer empty-state view in the same register as the
+                 graph lane's #data-not-found: centred icon + title +
+                 message. The message slot is populated at runtime by
+                 QueryEditor.js with a user-readable explanation. -->
+            <div id="results-error-state" class="text-center py-5" role="status" aria-live="polite" style="display: none;">
+                <div class="mb-3" style="font-size: 3rem; color: #adb5bd;">
+                    <i class="bi bi-exclamation-circle"></i>
+                </div>
+                <h5 class="text-muted mb-2">Something went wrong</h5>
+                <p id="results-error-message" class="text-muted mb-0"></p>
+                <!-- Optional server-side detail block, populated at
+                     runtime by QueryEditor._renderSelectLaneError
+                     when classifyError returns a non-null detail.
+                     A dedicated element (not a generic querySelector
+                     on <pre>) means a future template addition of an
+                     unrelated <pre> cannot be trashed by the reset
+                     logic. -->
+                <pre id="results-error-detail" class="mt-3 mb-0 small text-muted text-center" style="white-space: pre-wrap; display: none;"></pre>
+            </div>
+
+            <!-- Results Section -->
+            <div id="results">
+                <p class="text-muted">Query results will appear here...</p>
+            </div>
+            <div id="chart-settings" class="d-none d-flex align-items-center justify-content-end gap-3 flex-wrap my-3 px-2">
+                <div class="d-flex align-items-center gap-1">
+                    <label for="chart-type-select" class="small text-muted mb-0">Type:</label>
+                    <select id="chart-type-select" class="form-select form-select-sm" style="width: auto;">
+                        <option value="bar">Bar</option>
+                        <option value="line">Line</option>
+                        <option value="pie">Pie</option>
+                        <option value="scatter">Scatter</option>
+                    </select>
+                </div>
+                <div class="d-flex align-items-center gap-1">
+                    <label for="chart-x-select" class="small text-muted mb-0">X:</label>
+                    <select id="chart-x-select" class="form-select form-select-sm" style="width: auto;"></select>
+                </div>
+                <div class="d-flex align-items-center gap-1">
+                    <label for="chart-y-select" class="small text-muted mb-0">Y:</label>
+                    <select id="chart-y-select" class="form-select form-select-sm" style="width: auto;"></select>
+                </div>
+                <div class="d-flex align-items-center gap-1">
+                    <label for="chart-group-select" class="small text-muted mb-0">Group:</label>
+                    <select id="chart-group-select" class="form-select form-select-sm" style="width: auto;"></select>
+                </div>
+            </div>
+            <div id="chart-container" class="d-none" style="width: 100%; height: 500px;"></div>
+        </div> <!-- Close query-results div -->
+
+        <!-- ═══ EXPLORE TAB ═══ -->
+        <!-- Instance-lane output: tree/turtle/backlinks rendering of an
+             RDF graph (a single notice or a custom CONSTRUCT/DESCRIBE
+             result). The tab itself is hidden via #app-tab-explorer-item
+             above until DataView._onFacetChanged reveals it. -->
+        <div class="tab-pane w-100 fade pt-2 px-3 pb-3" id="app-explorer" role="tabpanel" aria-labelledby="app-tab-explorer">
+
+            <div id="data-card" style="display: none;">
+                <!-- Top row: breadcrumb on the left, view mode radios on the right -->
+                <div class="d-flex align-items-center justify-content-between mb-2 data-sticky-header">
+                    <nav aria-label="breadcrumb">
+                        <ol id="data-breadcrumb" class="breadcrumb mb-0 small"></ol>
+                    </nav>
+                    <div class="btn-group btn-group-sm" role="group" id="data-view-mode-toggle" aria-label="Change graph view">
+                        <input type="radio" class="btn-check" name="view-mode" id="view-tree" value="tree" checked>
+                        <label class="btn btn-outline-secondary" for="view-tree">
+                            <i class="bi bi-diagram-3"></i> Tree
+                        </label>
+                        <input type="radio" class="btn-check" name="view-mode" id="view-turtle" value="turtle">
+                        <label class="btn btn-outline-secondary" for="view-turtle">
+                            <i class="bi bi-code-slash"></i> Turtle
+                        </label>
+                        <input type="radio" class="btn-check" name="view-mode" id="view-backlinks" value="backlinks">
+                        <label class="btn btn-outline-secondary" for="view-backlinks">
+                            <i class="bi bi-box-arrow-in-left"></i> Backlinks
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Procedure timeline (collapsible, collapsed by default) -->
+                <div id="explorer-procedure-mini" class="card shadow-sm mb-3" style="display: none;">
+                    <div class="card-header py-1 small d-flex align-items-center" style="cursor: pointer;"
+                         data-bs-toggle="collapse" data-bs-target="#explorer-procedure-body" role="button"
+                         aria-expanded="false" aria-controls="explorer-procedure-body">
+                        <i class="bi bi-chevron-right me-2 explorer-procedure-chevron"></i>
+                        <span id="explorer-procedure-title"></span>
+                    </div>
+                    <div class="collapse" id="explorer-procedure-body">
+                        <div class="card-body p-0">
+                            <div id="explorer-procedures-container"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Page title with inline Copy URL + Download as… buttons.
+                     Rectangular outline-secondary buttons matching the
+                     SELECT-lane results toolbar styling so the two lanes
+                     of the Data tab feel visually consistent. The buttons
+                     sit right-aligned on the same row as the title via
+                     ms-auto.
+
+                     Both levels wrap. A notice title is long enough to leave
+                     no room for the buttons on a narrow window, and neither
+                     button can give any width back — both are text-nowrap.
+                     So the pair drops below the title, and below each other
+                     if even that is too wide, rather than off the edge. -->
+                <div class="d-flex align-items-center flex-wrap gap-2 mt-3 mb-3">
+                    <h5 id="data-card-title" class="mb-0"></h5>
+                    <button type="button" class="tour-trigger" id="reuse-graph-tour-trigger"
+                            data-bs-toggle="tooltip" data-bs-placement="top"
+                            title="Take a quick tour of this tab"
+                            aria-label="Take a quick tour of this tab">
+                        <i class="bi bi-play-circle"></i>
+                    </button>
+                    <!-- The two travel together, and stay at the right edge
+                         whichever row they end up on. -->
+                    <div class="d-flex flex-wrap justify-content-end gap-2 ms-auto">
+                        <button type="button" id="data-share-btn"
+                                class="btn btn-sm btn-outline-secondary text-nowrap"
+                                title="Copy shareable URL" style="display: none;">
+                            <i class="bi bi-share"></i> Share view
+                        </button>
+                        <!-- Stage 10 — Download menu for the loaded RDF graph.
+                             Visible whenever the data card itself is visible
+                             (handled by DataView). Three formats: Turtle (the
+                             best fidelity, served from the rawTurtle already in
+                             memory), N-Triples (re-fetched), RDF/XML (re-fetched). -->
+                        <div class="dropdown" id="data-download-menu" style="display: none;">
+                            <button type="button"
+                                    class="btn btn-sm btn-outline-primary dropdown-toggle text-nowrap"
+                                    id="data-download-btn"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="bi bi-download"></i> Download as…
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="data-download-btn">
+                                <li><a class="dropdown-item" href="#" data-download-format="text/turtle">Turtle</a></li>
+                                <li><a class="dropdown-item" href="#" data-download-format="application/rdf+xml">RDF/XML</a></li>
+                                <li><a class="dropdown-item" href="#" data-download-format="application/n-triples">N-Triples</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="data-loading" class="loading-overlay" role="status" aria-live="polite" aria-label="Loading graph" style="display: none;">
+                    <div class="spinner-border spinner-border-sm text-secondary" role="status"></div>
+                </div>
+
+                <div id="tree-search" class="tree-search" style="display: none;">
+                    <div class="tree-search__input-wrapper">
+                        <div class="tree-search__input-group">
+                            <i class="bi bi-search tree-search__icon"></i>
+                            <input type="text" id="tree-search-input" class="form-control form-control-sm"
+                                   placeholder="Search in tree (min. 3 characters, Enter to jump)" autocomplete="off">
+                            <button type="button" id="tree-search-clear" class="tree-search__clear" title="Clear search"><i class="bi bi-x-lg"></i></button>
+                        </div>
+                        <span id="tree-search-count" class="tree-search__count"></span>
+                        <button type="button" id="tree-search-prev" class="btn btn-sm btn-outline-secondary" title="Previous match" disabled><i class="bi bi-chevron-up"></i></button>
+                        <button type="button" id="tree-search-next" class="btn btn-sm btn-outline-secondary" title="Next match" disabled><i class="bi bi-chevron-down"></i></button>
+                    </div>
+                </div>
+                <div id="tree-container" class="tree-view"></div>
+                <div id="turtle-container" style="display: none;"></div>
+                <div id="backlinks-container" style="display: none;">
+                    <div id="backlinks-loading" class="text-center text-muted py-2" style="display: none;">
+                        <span class="spinner-border spinner-border-sm"></span> Loading backlinks...
+                    </div>
+                    <div id="backlinks-content"></div>
+                </div>
+
+                <!-- Shown when a notice-number search returns zero triples. Replaces
+                     the empty tree view with a clear "not found" message so the
+                     user doesn't have to interpret "0 triples" as "doesn't exist". -->
+                <div id="data-not-found" class="text-center py-5" role="status" aria-live="polite" style="display: none;">
+                    <div class="mb-3" style="font-size: 3rem; color: #adb5bd;">
+                        <i class="bi bi-search"></i>
+                    </div>
+                    <h5 class="text-muted mb-2">Notice not found</h5>
+                    <p class="text-muted mb-0">
+                        No notice with publication number
+                        <code id="data-not-found-pub"></code>
+                        was found in the dataset.
+                    </p>
+                    <p class="text-muted small mt-3 mb-0">
+                        Double-check the publication number, or
+                        <a href="#" id="data-not-found-lucky">click here to pick a random notice</a>.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Safety-net placeholder. Normally unreachable because the
+                 Explore tab itself is hidden when there's no current facet,
+                 but kept as a fallback in case the tab is ever shown without
+                 loaded content. -->
+            <div id="data-placeholder" class="text-center text-muted py-5 fst-italic">
+                Use the Inspect tab to select a notice; its graph
+                will appear here.
+            </div>
+
+            <!-- Friendly error state — lives at tab level (outside the
+                 data card) so the chrome — breadcrumb, timeline,
+                 view-mode radios, title — is hidden when the error is
+                 shown. Same register as #data-not-found. -->
+            <div id="data-error-state" class="text-center py-5" role="status" aria-live="polite" style="display: none;">
+                <div class="mb-3" style="font-size: 3rem; color: #adb5bd;">
+                    <i class="bi bi-exclamation-circle"></i>
+                </div>
+                <h5 class="text-muted mb-2">Something went wrong</h5>
+                <p id="data-error-message" class="text-muted mb-0"></p>
+                <!-- Optional server-side detail block; see
+                     #results-error-detail for rationale. -->
+                <pre id="data-error-detail" class="mt-3 mb-0 small text-muted text-center" style="white-space: pre-wrap; display: none;"></pre>
+            </div>
+        </div> <!-- Close app-explorer div -->
+
+        <!-- Help -->
+        <div class="tab-pane w-100 fade" id="help" role="tabpanel" aria-labelledby="help-tab">
+            <div class="container-fluid mt-4">
+                <div class="row">
+                    <!-- Left Column - Help Content -->
+                    <div class="col-lg-8">
+                        <h2>Help</h2>
+                        <p>
+                            The TED Open Data Service lets you explore the entire collection of public procurement data
+                            published by the Publications Office of the EU. You can look up individual notices and inspect
+                            their full RDF graph, or write SPARQL queries to extract custom datasets across many notices.
+                            Both flows use the same Linked Open Data backend and the same eProcurement Ontology (ePO).
+                        </p>
+                        <p>
+                            For a broader introduction to TED Open Data, ePO, and SPARQL, visit our
+                            <a href="https://docs.ted.europa.eu/" target="_blank" rel="noopener noreferrer">documentation website</a>.
+                        </p>
+
+                        <h3>Looking up a notice</h3>
+                        <ul>
+                            <li>Use the <b>Search</b> tab to look up a notice by its publication number (e.g. <code>00676595-2024</code>).</li>
+                            <li>Click <b>pick a random notice</b> to explore a recent notice chosen at random.</li>
+                            <li>Results appear in the <b>Query Results</b> tab as a collapsible tree of RDF triples.</li>
+                            <li>Use <b>Tree</b> view for a hierarchical, navigable structure.</li>
+                            <li>Use <b>Turtle</b> view to see the raw RDF serialization.</li>
+                            <li>Use <b>Backlinks</b> view to see which other resources reference the current one.</li>
+                            <li>Click the <i class="bi bi-clock-history"></i> history button in the Search tab to revisit a past search; click <b>Clear history</b> at the bottom of that menu to wipe the list.</li>
+                        </ul>
+
+                        <h4>Navigating the tree</h4>
+                        <ul>
+                            <li>Click any <span class="badge text-info-emphasis bg-info-subtle">type</span> badge to drill into that resource. Badge text reads "Type identifier" (e.g. "Lot LOT-0001", "SettledContract CON-0001") or just "Type" when the resource has no identifier.</li>
+                            <li>Your path is shown as a breadcrumb at the top of the Query Results tab. Click any step to jump back.</li>
+                            <li>Each nested card shows a subject (e.g. a Lot, an Organization) with its properties.</li>
+                            <li>Click the <i class="bi bi-house-door"></i> icon in the breadcrumb to return to the notice you started with.</li>
+                        </ul>
+
+                        <h4>Procedure timeline</h4>
+                        <p>
+                            When you search a notice, its procedure timeline is shown as a collapsible mini-card above the tree.
+                            Every notice within the same procedure is listed with colour-coded cards:
+                            <span class="text-success">green</span> for the original publication,
+                            <span class="text-warning">yellow</span> for subsequent amendments
+                            (marked with a <code>v2</code>, <code>v3</code>, … badge next to the publication number).
+                            Cards are ordered oldest-first; same-day amendments are broken by version.
+                            Click any notice in the timeline to navigate to it.
+                        </p>
+
+                        <h4>Sharing a notice view</h4>
+                        <p>
+                            Click the <i class="bi bi-share"></i> share button next to the notice title to copy a URL
+                            that loads the current notice or sub-resource directly. Paste it into an email, a ticket, or
+                            another browser tab to share your exploration. Click the <i class="bi bi-download"></i>
+                            download button to export the RDF data as Turtle, RDF/XML, or N-Triples.
+                        </p>
+
+                        <h3>Writing SPARQL queries</h3>
+                        <ul>
+                            <li>Use the <b>Query Library</b> tab to explore suggested SPARQL queries. These will help you get started.</li>
+                            <li>Use the <b>Query Editor</b> tab to compose your SPARQL query.</li>
+                            <li>To test your query use the <b>Run query</b> button.</li>
+                            <li>SELECT and ASK results are displayed in the <b>Query Results</b> tab as a table — or as an interactive chart (bar, line, pie, scatter) via the <b>Table / Chart</b> toggle when the results are chartable.</li>
+                            <li>CONSTRUCT and DESCRIBE results are displayed in the <b>Query Results</b> tab as an RDF graph (the same tree/turtle/backlinks view used by notice lookup).</li>
+                            <li>For SELECT queries, the <b>Connect your app</b> button gives you the link, and the commands, to run the same query from your own tools.<br/>
+                                You can use this URL to run your query and retrieve live results directly into <b>Excel</b>, <b>Power BI</b>, or any application that can get data from the web.</li>
+                            <li>To download a copy of the data retrieved by a SELECT query, use the <b>Download</b> button.</li>
+                        </ul>
+
+                        <h4>Autocomplete in the editor</h4>
+                        <p>The query editor provides autocomplete suggestions as you type:</p>
+                        <ul>
+                            <li>Type <code>PREFIX </code> to see available namespace prefixes</li>
+                            <li>Type <code>epo:</code> followed by a class or property name to see ePO ontology suggestions</li>
+                            <li>Type <code>a </code> after a subject to see available ePO classes</li>
+                            <li>SPARQL keywords are suggested as you type</li>
+                            <li>Type <code>prefixes</code> to insert all standard PREFIX declarations at once</li>
+                            <li>Type <code>currency</code> to insert a currency-conversion snippet — an exchange-rate lookup table plus a <code>BIND</code> that converts monetary amounts to EUR</li>
+                            <li>Press <b>Ctrl+Space</b> to manually trigger suggestions at any time</li>
+                        </ul>
+                        <p class="small text-muted">Autocomplete covers terms from ePO v3 (Standard Forms) and v4 (eForms). Version-specific terms are labelled <code>(v3)</code> or <code>(v4)</code> in the suggestions; terms common to both versions have no label.</p>
+                        <p class="small text-muted">
+                            The exchange rates in the <code>currency</code> snippet are approximate and provided only to
+                            illustrate how conversion can be expressed in SPARQL. They are sourced from the European
+                            Commission's monthly
+                            <a href="https://ec.europa.eu/budg/inforeuro/" target="_blank" rel="noopener noreferrer">InforEuro</a>
+                            accounting rates and refreshed periodically. Amounts are converted at the latest available
+                            rate — not the rate at the time each notice was published — so do not rely on the result for
+                            precise or legally meaningful figures.
+                        </p>
+
+                        <h4>Query Library</h4>
+                        <p>
+                            The Query Library provides example SPARQL queries to help you get started.
+                            Pick one and press <b>Run query</b>. Where a query has values you can change — a
+                            date, a period, an identifier — you are asked for them first, so you can ask about
+                            the day or range you care about without editing any SPARQL. Press
+                            <b>Customise</b> instead to open the query in the editor and change it yourself.
+                        </p>
+                        <p>
+                            If you'd like to contribute new queries, improve existing ones, or add comments to make them clearer,
+                            see the <a href="https://github.com/OP-TED/ted-open-data-examples/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener noreferrer">contributing guide</a>.
+                            It also explains how to let readers change a query's values.
+                        </p>
+
+                        <h3>Questions &amp; feedback</h3>
+                        <p>
+                            For questions and feedback, please visit our <a href="https://github.com/OP-TED/ted-open-data/discussions" target="_blank" rel="noopener noreferrer">GitHub Discussions</a> forum.
+                        </p>
+                    </div>
+
+                    <!-- Right Column - release notes, then the components list.
+                         Both are reference material; neither competes with the
+                         help text beside them. -->
+                    <div class="col-lg-4">
+                        <!-- Carried in a card, like the components list below
+                             it: the column holds two reference panels rather
+                             than a heading competing with the one beside it. -->
+                        <!-- overflow-hidden: the accordion inside runs to the
+                             card's edge, and its last item has square corners
+                             that would otherwise cover the card's rounded ones. -->
+                        <div class="card mb-4 overflow-hidden">
+                            <div class="card-header">
+                                <!-- An h2 set to look like an h5: the releases
+                                     below it are h3, and a parent heading must
+                                     not sit at a lower level than its children. -->
+                                <h2 class="card-title h5 mb-0">What's new</h2>
+                            </div>
+                            <div class="card-body p-0">
+                        <div class="accordion accordion-flush" id="release-notes-accordion">
+                            <!-- 2.4.0 — expanded by default -->
+                            <div class="accordion-item">
+                                <h3 class="accordion-header ted-accordion-header" id="release-2-4-0-header">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#release-2-4-0" aria-expanded="true" aria-controls="release-2-4-0">
+                                        August 2026
+                                    </button>
+                                </h3>
+                                <div id="release-2-4-0" class="accordion-collapse collapse show"
+                                     aria-labelledby="release-2-4-0-header" data-bs-parent="#release-notes-accordion">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li><b>Run a query without editing SPARQL</b>Press "Run query" on a Query Library entry and, where the query has values to change, you are asked for them first — a date picker for a date, "Between … and …" for a period — already filled in with the query's own values.</li>
+                                            <li><b>Connect your app</b>The "Copy endpoint URL" button is now "Connect your app". It offers the query link in JSON, CSV, TSV or XML (e.g. for Excel or Power BI), the raw SPARQL text, and the same request as a cURL, wget or PowerShell command.</li>
+                                            <li><b>Copy property path</b>Every card and row in the tree view now has an actions menu. It copies a ready-to-use SPARQL triple pattern snippet, copies the value, or opens the SPARQL reference card.</li>
+                                            <li><b>Ontology-aligned badge labels</b>Tree view badges now show ePO ontology class names (e.g. "Contract") instead of mapping-specific names (e.g. "SettledContract").</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 2.3.0 — collapsed -->
+                            <div class="accordion-item">
+                                <h3 class="accordion-header ted-accordion-header" id="release-2-3-0-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#release-2-3-0" aria-expanded="false" aria-controls="release-2-3-0">
+                                        July 2026
+                                    </button>
+                                </h3>
+                                <div id="release-2-3-0" class="accordion-collapse collapse"
+                                     aria-labelledby="release-2-3-0-header" data-bs-parent="#release-notes-accordion">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li><b>Chart visualization</b>SELECT query results can now be displayed as interactive charts (bar, line, pie, scatter) via a Table/Chart toggle when results are chartable.</li>
+                                            <li><b>Exchange rate snippet</b>Type <code>currency</code> in the editor to insert a currency conversion lookup table with EUR exchange rates, refreshed automatically from InforEuro.</li>
+                                            <li><b>Clickable URLs in results</b>Web URLs in SELECT result tables are now rendered as clickable links.</li>
+                                            <li><b>Query execution time</b>Elapsed time is displayed in the results toolbar after each query runs.</li>
+                                            <li><b>Not-found notice tracking</b>Notices that don't exist are kept in search history with a "not found" badge, so you know which numbers you already tried.</li>
+                                            <li><b>ePO v3 + v4 autocomplete</b>Editor now recognises terms from both Standard Forms (v3) and eForms (v4) ontology versions.</li>
+                                            <li><b>Guided tours</b>Each tab has a play icon that launches an interactive walkthrough.</li>
+                                            <li><b>Query Library improvements</b>"Try this query" and "Customise" buttons, copy SPARQL to clipboard, error handling with retry.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 2.2.0 — collapsed -->
+                            <div class="accordion-item">
+                                <h3 class="accordion-header ted-accordion-header" id="release-2-2-0-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#release-2-2-0" aria-expanded="false" aria-controls="release-2-2-0">
+                                        May 2026
+                                    </button>
+                                </h3>
+                                <div id="release-2-2-0" class="accordion-collapse collapse"
+                                     aria-labelledby="release-2-2-0-header" data-bs-parent="#release-notes-accordion">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li><b>ePO 3 (Standard Forms) support</b>The Inspect tab now works for older notices published under Standard Forms, not just eForms. A fallback query finds notices by their identifier value when the primary lookup returns no results.</li>
+                                            <li><b>22 new SPARQL queries added</b>New categories Stats, Federated queries and Contracts created and 22 new SPARQL queries have been added.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 2.1.0 — collapsed -->
+                            <div class="accordion-item">
+                                <h3 class="accordion-header ted-accordion-header" id="release-2-1-0-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#release-2-1-0" aria-expanded="false" aria-controls="release-2-1-0">
+                                        April 2026
+                                    </button>
+                                </h3>
+                                <div id="release-2-1-0" class="accordion-collapse collapse"
+                                     aria-labelledby="release-2-1-0-header" data-bs-parent="#release-notes-accordion">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li><b>Search in tree</b>A search bar above the tree view lets you find specific properties or values within a notice. Type at least 3 characters and use the arrow buttons to jump between matches.</li>
+                                            <li><b>SPARQL reference card</b>Click the code icon on any tree resource to see its PREFIX declaration, prefixed name, and IRI — ready to copy into your SPARQL query.</li>
+                                            <li><b>Meaningful Turtle prefixes</b>The Turtle view now uses human-readable namespace prefixes (e.g. <code>epo:</code>) instead of auto-generated ones.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 2.0.0 — collapsed -->
+                            <div class="accordion-item">
+                                <h3 class="accordion-header ted-accordion-header" id="release-2-0-0-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#release-2-0-0" aria-expanded="false" aria-controls="release-2-0-0">
+                                        March 2026
+                                    </button>
+                                </h3>
+                                <div id="release-2-0-0" class="accordion-collapse collapse"
+                                     aria-labelledby="release-2-0-0-header" data-bs-parent="#release-notes-accordion">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li><b>Inspect tab</b>Look up any notice by publication number and explore its full RDF graph as an interactive tree, raw Turtle, or backlinks view.</li>
+                                            <li><b>Procedure timeline</b>See all notices belonging to the same procurement procedure, ordered chronologically with colour-coded cards (green for originals, yellow for amendments).</li>
+                                            <li><b>Share and download</b>Copy a shareable URL that reproduces your exact view, or download the RDF data as Turtle, RDF/XML, or N-Triples.</li>
+                                            <li><b>Home tab</b>A carousel introduction with quick-start CTAs for each workflow.</li>
+                                            <li><b>Redesigned layout</b>EU institutional header, sticky navigation, and a unified tab structure (Inspect, Explore, Customize).</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                            </div>
+                        </div>
+
+                        <!-- Third-Party Components -->
+                        <div class="card" id="third-party-components">
+                            <div class="card-header">
+                                <h5 class="card-title mb-0">Third-Party Components</h5>
+                            </div>
+                            <div class="card-body">
+                                <h6>Application</h6>
+                                <ul class="list-unstyled">
+                                    <li class="mb-3">
+                                        <strong>Bootstrap</strong> (v5.3.8)
+                                        <br><small class="text-muted">CSS framework for styling and components</small>
+                                        <br><small class="text-secondary">License: MIT</small>
+                                    </li>
+                                    <li class="mb-3">
+                                        <strong>Bootstrap Icons</strong> (v1.11.3)
+                                        <br><small class="text-muted">Icon library</small>
+                                        <br><small class="text-secondary">License: MIT</small>
+                                    </li>
+                                    <li class="mb-3">
+                                        <strong>CodeMirror</strong> (v6)
+                                        <br><small class="text-muted">Code editor</small>
+                                        <br><small class="text-secondary">License: MIT</small>
+                                    </li>
+                                    <li class="mb-3">
+                                        <strong>codemirror-lang-sparql</strong> (v2.0.0)
+                                        <br><small class="text-muted">SPARQL syntax highlighting for CodeMirror</small>
+                                        <br><small class="text-secondary">License: MIT</small>
+                                    </li>
+                                    <li class="mb-3">
+                                        <strong>codemirror-lang-turtle</strong> (v0.0.2)
+                                        <br><small class="text-muted">Turtle syntax highlighting for CodeMirror</small>
+                                        <br><small class="text-secondary">License: MIT</small>
+                                    </li>
+                                    <li class="mb-3">
+                                        <strong>sparqljs</strong> (v3.7.4)
+                                        <br><small class="text-muted">SPARQL query parser and generator</small>
+                                        <br><small class="text-secondary">License: MIT</small>
+                                    </li>
+                                    <li class="mb-3">
+                                        <strong>N3.js</strong> (v1.23.1)
+                                        <br><small class="text-muted">RDF / Turtle parser used by the notice browser</small>
+                                        <br><small class="text-secondary">License: MIT</small>
+                                    </li>
+                                    <li class="mb-3">
+                                        <strong>js-yaml</strong> (v4.1.0)
+                                        <br><small class="text-muted">YAML parser and dumper</small>
+                                        <br><small class="text-secondary">License: MIT</small>
+                                    </li>
+                                </ul>
+
+                                <h6 class="mt-4">Development Tools</h6>
+                                <ul class="list-unstyled">
+                                    <li class="mb-3">
+                                        <strong>Express</strong> (v4.17.1)
+                                        <br><small class="text-muted">Local CORS proxy server</small>
+                                        <br><small class="text-secondary">License: MIT</small>
+                                    </li>
+                                    <li class="mb-3">
+                                        <strong>cors</strong> (v2.8.5)
+                                        <br><small class="text-muted">CORS middleware for Express</small>
+                                        <br><small class="text-secondary">License: MIT</small>
+                                    </li>
+                                    <li class="mb-3">
+                                        <strong>node-fetch</strong> (v2.6.1)
+                                        <br><small class="text-muted">Fetch API for Node.js</small>
+                                        <br><small class="text-secondary">License: MIT</small>
+                                    </li>
+                                    <li class="mb-3">
+                                        <strong>https-proxy-agent</strong> (v7.0.5)
+                                        <br><small class="text-muted">Corporate proxy support</small>
+                                        <br><small class="text-secondary">License: MIT</small>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+    <!-- Institutional footer — page-level zone, full width, below main -->
+    <div class="ted-institutional-footer">
+        <div class="three-columns">
+            <div class="col-md-12 col-lg-4">
+                <div class="ted-footer__rich-text">
+                    <div style="font-size: 14px;">This website is managed by:</div>
+                    <div style="margin-top: 0.5rem; font-size: 14px;">
+                        <img alt="Publications Office of the European Union" src="src/assets/op-logo.png" width="80" style="display: block; margin-bottom: 0.35rem;">
+                        <a href="https://op.europa.eu/en/home" target="_blank" rel="noopener noreferrer" style="font-weight: bold; color: #003399; font-size: 14px;">Publications Office of the European Union</a><br>
+                        <span style="color: #003399; font-size: 14px;">Law | Data | Publications</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 col-lg-4">
+                <h3 class="ted-footer__title">Need Help?</h3>
+                <ul class="ul-footer">
+                    <li class="li-footer"><a href="https://ted.europa.eu/en/help-page" target="_blank" rel="noopener noreferrer">Help</a></li>
+                    <li class="li-footer"><a href="https://ted.europa.eu/en/contact" target="_blank" rel="noopener noreferrer">Contact the TED Helpdesk</a></li>
+                </ul>
+                <h3 class="ted-footer__title">Follow us</h3>
+                <ul class="ul-footer">
+                    <li class="li-footer">
+                        <a href="https://x.com/EUPublications" target="_blank" rel="noopener noreferrer"><img src="src/assets/x-logo.png" class="icon-footer" alt="X" style="height:18px;width:18px;vertical-align:middle;display:inline;margin-right:0.35rem;"><span>X/Twitter</span></a>
+                        <a href="https://www.youtube.com/playlist?list=PLT5rARDev_rkQdFimoHlpv2Och1H0uBLs" target="_blank" rel="noopener noreferrer" style="margin-left:2rem;"><img src="src/assets/yt-logo.png" class="icon-footer-2nd" alt="YouTube" style="height:18px;width:18px;vertical-align:middle;display:inline;margin-right:0.35rem;"><span>YouTube</span></a>
+                    </li>
+                </ul>
+                <h3 class="ted-footer__title">Legal</h3>
+                <ul class="ul-footer">
+                    <li class="li-footer"><a href="https://ted.europa.eu/en/legal-notice" target="_blank" rel="noopener noreferrer">Legal Notice</a></li>
+                    <li class="li-footer"><a href="https://ted.europa.eu/en/cookie-choice" target="_blank" rel="noopener noreferrer">Cookies</a></li>
+                    <li class="li-footer"><a href="https://ted.europa.eu/en/accessibility" target="_blank" rel="noopener noreferrer">Accessibility</a></li>
+                </ul>
+            </div>
+            <div class="col-md-12 col-lg-4">
+                <h3 class="ted-footer__title">About us</h3>
+                <ul class="ul-footer">
+                    <li class="li-footer"><a href="https://ted.europa.eu/en/about-ted" target="_blank" rel="noopener noreferrer">About TED</a></li>
+                </ul>
+                <h3 class="ted-footer__title">Other services</h3>
+                <ul class="ul-footer">
+                    <li class="li-footer"><a href="https://ted.europa.eu/TED/main/HomePage.do" target="_blank" rel="noopener noreferrer">EU tenders</a></li>
+                    <li class="li-footer"><a href="https://data.europa.eu/en" target="_blank" rel="noopener noreferrer">European data</a></li>
+                    <li class="li-footer"><a href="https://op.europa.eu/en/web/eu-vocabularies" target="_blank" rel="noopener noreferrer">EU vocabularies</a></li>
+                    <li class="li-footer"><a href="https://cordis.europa.eu/" target="_blank" rel="noopener noreferrer">EU research results</a></li>
+                    <li class="li-footer"><a href="https://op.europa.eu/en/web/who-is-who" target="_blank" rel="noopener noreferrer">EU Whoiswho</a></li>
+                    <li class="li-footer"><a href="https://op.europa.eu/en/web/librarians-corner" target="_blank" rel="noopener noreferrer">EU publications</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="three-columns">
+            <div class="col-md-12 col-lg-4">
+                <div class="ls-footer-logo" style="margin-bottom: 0.75rem; margin-top: 2.5rem;">
+                    <img alt="European Union" src="src/assets/EU-flag.png" style="max-height:54px;width:auto;">
+                </div>
+                <div class="ted-footer__rich-text">
+                    <p class="byline-footer">Discover more on <a href="https://europa.eu/en/home" target="_blank" rel="noopener noreferrer">europa.eu</a></p>
+                </div>
+            </div>
+            <div class="col-md-12 col-lg-4">
+                <h3 class="ted-footer__title">Contact the EU</h3>
+                <ul class="ul-footer">
+                    <li class="li-footer"><a href="tel:0080067891011">Call us 00 800 6 7 8 9 10 11</a></li>
+                    <li class="li-footer"><a href="https://european-union.europa.eu/contact-eu/call-us_en" target="_blank" rel="noopener noreferrer">Use other Telephone options</a></li>
+                    <li class="li-footer"><a href="https://european-union.europa.eu/contact-eu/write-us_en" target="_blank" rel="noopener noreferrer">Write to us via our contact forms</a></li>
+                    <li class="li-footer"><a href="https://european-union.europa.eu/contact-eu/meet-us_en" target="_blank" rel="noopener noreferrer">Meet us at one of the EU centres</a></li>
+                </ul>
+            </div>
+            <div class="col-md-12 col-lg-4">
+                <h3 class="ted-footer__title">Social Media</h3>
+                <ul class="ul-footer">
+                    <li class="li-footer"><a href="https://european-union.europa.eu/contact-eu/social-media-channels_en#/search" target="_blank" rel="noopener noreferrer">Search of EU social media channels</a></li>
+                </ul>
+                <h3 class="ted-footer__title">EU institutions and bodies</h3>
+                <ul class="ul-footer">
+                    <li class="li-footer"><a href="https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/search-all-eu-institutions-and-bodies_en" target="_blank" rel="noopener noreferrer">Search all EU institutions and bodies</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Clear editor confirmation modal -->
+    <!-- The values a query offers to have changed, asked for at the moment
+         of running it. A query that declares none never opens this. -->
+    <div class="modal fade" id="query-parameters-modal" tabindex="-1" aria-labelledby="query-parameters-label"
+         aria-describedby="query-parameters-intro" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header" style="background-color: #f5f5f5;">
+                    <h6 class="modal-title" id="query-parameters-label">Run query</h6>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p class="text-body-secondary small mb-3" id="query-parameters-intro">
+                        Change these values to ask about something else, or run the query as it stands.
+                    </p>
+                    <!-- What is wrong with a value is said beneath the
+                         control it is wrong in, so a reader looking at the
+                         field is looking at the complaint about it. -->
+                    <div id="query-parameters-fields" class="row g-3"></div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-sm btn-outline-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-sm btn-primary" id="query-parameters-run">Run query</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="clear-confirm-modal" tabindex="-1" aria-labelledby="clear-confirm-label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-sm">
+            <div class="modal-content">
+                <div class="modal-header" style="background-color: #f5f5f5;">
+                    <h6 class="modal-title" id="clear-confirm-label">Clear editor</h6>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    This will remove all text from the editor. Continue?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-sm btn-outline-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-sm btn-ted-danger" id="clear-confirm-ok">Clear</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Connect dialog — how to run this query from outside the site.
+         The format chosen at the top governs every snippet below it, so
+         what you copy always matches what you picked. Filled at open time
+         by QueryResults; the lists of formats differ per lane. -->
+    <div id="connect-panel">
+                <div class="connect-body">
+                    <div class="connect-primary">
+                        <p>
+                            Paste this link into Excel, Power BI, or any tool that reads data from
+                            the web. It re-runs your query and returns fresh data every time.
+                        </p>
+                        <!-- A split button: copy on the left, the format it will
+                             return on the right. One click for the act, and the
+                             choice visible without opening anything. -->
+                        <div class="btn-group">
+                            <button class="btn btn-sm btn-primary connect-copy" type="button" data-connect-copy="link">
+                                <i class="bi bi-clipboard"></i> Copy link
+                            </button>
+                            <button class="btn btn-sm btn-primary dropdown-toggle connect-format-toggle" type="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false"
+                                    aria-label="Choose the format the link returns">
+                                <span data-connect-format-name="link">JSON</span>
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end" data-connect-format-menu="link"></ul>
+                        </div>
+                    </div>
+
+                    <hr class="connect-rule">
+
+                    <div class="connect-secondary">
+                        <p class="mb-2">
+                            If you want to run this in a terminal, or in an app that speaks
+                            SPARQL, use one of the buttons below.
+                        </p>
+                        <div class="connect-commands">
+                            <!-- A menu of formats, each of which copies. The
+                                 format is part of the act rather than a setting
+                                 carried on the button. -->
+                            <div class="dropdown">
+                                <button class="btn btn-sm btn-outline-secondary dropdown-toggle" type="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false"
+                                        title="Copy a cURL command — macOS, Linux">
+                                    <i class="bi bi-clipboard"></i> cURL
+                                </button>
+                                <ul class="dropdown-menu" data-connect-copy-menu="curl"></ul>
+                            </div>
+                            <div class="dropdown">
+                                <button class="btn btn-sm btn-outline-secondary dropdown-toggle" type="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false"
+                                        title="Copy a wget command — Linux">
+                                    <i class="bi bi-clipboard"></i> wget
+                                </button>
+                                <ul class="dropdown-menu" data-connect-copy-menu="wget"></ul>
+                            </div>
+                            <div class="dropdown">
+                                <button class="btn btn-sm btn-outline-secondary dropdown-toggle" type="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false"
+                                        title="Copy a PowerShell command — Windows">
+                                    <i class="bi bi-clipboard"></i> PowerShell
+                                </button>
+                                <ul class="dropdown-menu" data-connect-copy-menu="powershell"></ul>
+                            </div>
+                            <!-- The commands end here. What follows is the query
+                                 itself, which is not one — and has no format:
+                                 the text is the same whatever the endpoint is
+                                 asked to return. -->
+                            <div class="vr button-row-divider"></div>
+                            <button class="btn btn-sm btn-outline-secondary connect-copy" type="button"
+                                    data-connect-copy="sparql" title="Copy the SPARQL query, to put into your own code">
+                                <i class="bi bi-clipboard"></i> SPARQL
+                            </button>
+                        </div>
+                    </div>
+                </div>
+    </div>
+
+    <!-- Toast Container — one shared toast reused by both Copy URL
+         buttons (SELECT lane in the editor, graph lane on the data
+         card title). The title + body are set at call time so each
+         button can explain what its specific URL is for. -->
+    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+        <div id="copy-url-toast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header">
+                <strong class="me-auto" id="copy-url-toast-title">URL copied</strong>
+                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div class="toast-body" id="copy-url-toast-body">
+                The URL is on your clipboard.
+            </div>
+        </div>
+        <div id="query-progress-toast" class="toast" aria-hidden="true" data-bs-autohide="false">
+            <div class="toast-body d-flex align-items-center gap-2 py-2 px-3">
+                <div class="progress flex-grow-1 position-relative" style="min-width: 120px; height: 1rem;">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 0%"></div>
+                    <span id="query-timer" class="position-absolute w-100 text-center small text-white" style="top: 0; left: 0; line-height: 1rem; font-size: 0.65rem; font-weight: 600;"></span>
+                </div>
+                <button type="button" id="stop-query-button" class="btn btn-sm p-0 btn-ted-danger-icon" aria-label="Cancel query"><i class="bi bi-x-circle-fill"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Apache ECharts (query-results charting) is ~1 MB, so it is lazy-loaded
+         on the first switch to Chart view by ChartView._loadECharts() rather
+         than shipped to every page load. -->
+
+
+    <!-- N3 (Turtle parser) — used by the ported explorer modules
+         (sparqlService.js parses CONSTRUCT/DESCRIBE results into quads).
+         Loaded as a global from a CDN rather than bundled, matching how
+         the standalone explorer ships it. The script exposes `window.N3`
+         which sparqlService asserts on use. -->
+    <script src="https://cdn.jsdelivr.net/npm/n3@1.23.1/browser/n3.min.js"></script>
+
+    <!-- JavaScript File -->
+    <script src="src/js/script.js" type="module" defer></script>
+
+    <!-- CodeMirror v6 is loaded as ES modules from within JS files -->
+</body>
+
+</html>

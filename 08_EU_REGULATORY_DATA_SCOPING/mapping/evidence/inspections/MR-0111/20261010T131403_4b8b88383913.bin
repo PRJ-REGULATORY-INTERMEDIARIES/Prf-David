@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="description" content="ACER CHEST Application"/>
+    <meta name="author" content=""/>
+    <link rel="icon" href="/chest/chest-favicon.ico">
+
+    
+    <title>REMIT Data Reference Centre</title>
+    <!-- CSS -->
+    
+    <link rel="stylesheet" href="/chest/css/bootstrap-42e933a5d09f8f6cb138dd0082980dad.css"/>
+    <link rel="stylesheet" href="/chest/css/dataTables.bootstrap4-e0b15a6329cd4d9b64fdf06450c2acb7.css"/>
+    <link rel="stylesheet" href="/chest/css/gijgo.min-d115f04113c66cd080f0a183ec45e031.css"/>
+    <link rel="stylesheet" href="/chest/css/bootstrap-datepicker3-be8fd7a445f9fbbf62f47f2c6e7d257a.css"/>
+    <link rel="stylesheet" href="/chest/css/fixedsticky-c53dd4117b259739e92f90ceeae3435b.css"/>
+    <link rel="stylesheet" href="/chest/css/daterangepicker-2fba2a36f4a0188d6ac539e97ac788c4.css"/>
+    <link rel="stylesheet" href="/chest/css/select2-b38fc0c28779953527f5e1ba435357e3.css"/>
+    <link rel="stylesheet" href="/chest/css/chest-custom-4a2c078e8f3b84d897ce5cb7f6a3e5dd.css"/>
+    <link rel="stylesheet" href="/chest/css/jquery-ui.min-0812829eed70febd770e8a8bfec5d495.css"/>
+
+    <!-- JavaScript -->
+    
+    <script type="text/javascript" src="/chest/e219a922d9482c1b176cf3687dbc7dbc97487db5/js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="/chest/e219a922d9482c1b176cf3687dbc7dbc97487db5/js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="/chest/e219a922d9482c1b176cf3687dbc7dbc97487db5/js/tether.min.js"></script>
+    <script type="text/javascript" src="/chest/e219a922d9482c1b176cf3687dbc7dbc97487db5/js/popper.js"></script>
+    <script type="text/javascript" src="/chest/e219a922d9482c1b176cf3687dbc7dbc97487db5/js/tooltip.js"></script>
+    <script type="text/javascript" src="/chest/e219a922d9482c1b176cf3687dbc7dbc97487db5/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/chest/e219a922d9482c1b176cf3687dbc7dbc97487db5/js/jquery.dataTables.js"></script>
+    <script type="text/javascript" src="/chest/e219a922d9482c1b176cf3687dbc7dbc97487db5/js/dataTables.bootstrap4.js"></script>
+    <script type="text/javascript" src="/chest/e219a922d9482c1b176cf3687dbc7dbc97487db5/js/fixedsticky.js"></script>
+    <script type="text/javascript" src="/chest/e219a922d9482c1b176cf3687dbc7dbc97487db5/js/moment.min.js"></script>
+    <script type="text/javascript" src="/chest/e219a922d9482c1b176cf3687dbc7dbc97487db5/js/daterangepicker.js"></script>
+    <script type="text/javascript" src="/chest/e219a922d9482c1b176cf3687dbc7dbc97487db5/js/gijgo.min.js"></script>
+    <script type="text/javascript" src="/chest/e219a922d9482c1b176cf3687dbc7dbc97487db5/js/bootstrap-datepicker.min.js"></script>
+    <script type="text/javascript" src="/chest/e219a922d9482c1b176cf3687dbc7dbc97487db5/js/select2.js"></script>
+
+    
+
+  </head>
+
+  <body>
+
+    <script>
+      var contextPath = "\/chest\/";
+      var i18nMessages = {};
+    </script>
+
+    <!-- Header -->
+    <div>
+
+      
+
+      <nav class="navbar navbar-toggleable-md  navbar-inverse nav-bg-color">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <span style="margin-left:18px"><a href="http://aegis.acer.europa.eu"><img class="logo" src="/chest/img/logo-with-text-5d575261f1d04b308a1c8fbfd41611ff.png" alt="Acer logo"></a></span>
+
+        <span class="badge app-badge">CHEST APPLICATION</span>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            
+             
+            
+            
+            <li class="nav-item">
+              <form id="dataItemSearchForm" action="/chest/dataitemsearch/search" me
