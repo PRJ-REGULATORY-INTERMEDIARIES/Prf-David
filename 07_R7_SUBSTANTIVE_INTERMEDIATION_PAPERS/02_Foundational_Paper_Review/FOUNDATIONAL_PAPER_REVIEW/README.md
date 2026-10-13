@@ -1,40 +1,42 @@
-# Revisão científica da V6 — índice de continuidade
+# Scientific Review of V6 — Continuity Index
 
-**Projeto:** PRJ – David Levi-Faur  
-**Data de registro:** 2026-10-03  
-**Objeto:** *Law and the Architectures of Governance: Towards a Relational Leximetrics Approach*, versão de 2 outubro de 2026.  
-**Estado:** `WORKING_ANALYTICAL_NOTE` — documento de trabalho para discussão; não representa aprovação, instrução editorial ou validação metodológica de David, Rotem ou demais colaboradores.
+**Project:** PRJ-David Levi-Faur  
+**Record date:** 3 October 2026  
+**Subject:** *Law and the Architectures of Governance: Towards a Relational Leximetrics Approach*, version dated 2 October 2026.  
+**Status:** `WORKING_ANALYTICAL_NOTE` — a discussion document; it does **not** constitute approval, editorial instructions or methodological validation by David, Rotem or other collaborators.
 
-## Finalidade
+## Purpose
 
-Preservar de maneira auditável a análise retomada após a execução interrompida do Astra Ultra; fornecer uma base de discussão do artigo fundacional sem alterar o manuscrito original, o codebook de Rotem, os dados do piloto ou decisões metodológicas vigentes.
+Preserve a traceable analysis resumed after the interrupted Astra Ultra execution, and provide a basis for discussing the foundational paper **without changing** the source manuscript, Rotem's codebook, pilot data or existing methodological decisions.
 
-## Conteúdo desta pasta
+## Contents of this folder
 
-1. [`01_DIAGNOSTICO_CIENTIFICO_V6.md`](01_DIAGNOSTICO_CIENTIFICO_V6.md) — tese central, contribuição original, pontos conceituais e inferenciais, rastreabilidade, limitações e prioridades.
-2. [`02_ARQUITETURA_EDITORIAL_ARTIGO_FUNDACIONAL.md`](02_ARQUITETURA_EDITORIAL_ARTIGO_FUNDACIONAL.md) — opções de publicação, proposta condicional de artigo fundacional e relação com um eventual artigo metodológico.
-3. [`03_PROTOCOLO_DEMONSTRACAO_EMPIRICA.md`](03_PROTOCOLO_DEMONSTRACAO_EMPIRICA.md) — desenho de exemplo jurídico real para testar a passagem texto → enunciados → relações → configuração → arquitetura.
-4. [`04_REGISTRO_QUESTOES_DECISOES.md`](04_REGISTRO_QUESTOES_DECISOES.md) — pontos pendentes, evidência, interlocução necessária e condições para avanço.
+1. [`01_DIAGNOSTICO_CIENTIFICO_V6.md`](01_DIAGNOSTICO_CIENTIFICO_V6.md) — Central thesis, originality claims, conceptual and inferential issues, traceability, limitations and priorities.
+2. [`02_ARQUITETURA_EDITORIAL_ARTIGO_FUNDACIONAL.md`](02_ARQUITETURA_EDITORIAL_ARTIGO_FUNDACIONAL.md) — Publication options, a conditional foundational-paper proposal and its relationship with a possible methodological article.
+3. [`03_PROTOCOLO_DEMONSTRACAO_EMPIRICA.md`](03_PROTOCOLO_DEMONSTRACAO_EMPIRICA.md) — Design for a real legal example testing the sequence legal text → statements → relationships → configuration → architecture.
+4. [`04_REGISTRO_QUESTOES_DECISOES.md`](04_REGISTRO_QUESTOES_DECISOES.md) — Open issues, evidence, relevant consultations and conditions for next steps.
 
-## Fontes e hierarquia de evidência
+The original Portuguese filenames have been retained to preserve references to existing research artifacts.
 
-- **S1 — Fonte primária:** `Enviados/Artigo v6/draft v6  Law_and_Governance_Architectures_Revised.docx`. Quando possível, as notas apontam para as seções do próprio manuscrito. Há uma cópia fornecida nesta conversa; o original da pasta do projeto não foi modificado.
-- **S2 — Auditoria de execução:** `ASTRA_EXECUTION_RECOVERY_REPORT.md`, já gerado na raiz do projeto pelo Codex. Relata os achados parciais que puderam ser recuperados dos registros da execução interrompida; não constitui revisão científica concluída.
-- **S3 — Análise de trabalho:** discussão analítica de 2026-10-03 sobre objetivo e desenho do artigo fundacional. As propostas editoriais e o protocolo empírico abaixo são recomendações para debate, não conclusões dos autores do manuscrito.
-- **S4 — Histórico metodológico do projeto:** PILOT_03 — 19 decisões adjudicadas e 14 impactos retrospectivos, gate histórico `ONTOLOGY_STABLE_WITH_REVISIONS` (não é validação ampliada nem autorização de produção). Conferir documentos originais do projeto antes de citar resultados externamente.
+## Evidence sources and hierarchy
 
-**Nota de rastreabilidade:** marcações `B###`, quando citadas, provêm da numeração de blocos na extração reportada em S2, não são paginação nem identificação editorial estável. Para comentários a David, preferir a seção e o trecho concreto na versão efetivamente compartilhada.
+- **S1 — Primary source:** `Enviados/Artigo v6/draft v6  Law_and_Governance_Architectures_Revised.docx`. When possible, notes refer to the manuscript's own sections. A copy was provided in the working conversation; the source file in the project folder was not changed.
+- **S2 — Execution audit:** `ASTRA_EXECUTION_RECOVERY_REPORT.md`, generated previously at project root by Codex. It describes partial findings recovered after an interrupted execution; it is not a completed scientific review.
+- **S3 — Working analysis:** the 3 October 2026 discussion of the foundational article's purpose and design. The editorial suggestions and empirical protocol are recommendations for discussion, not conclusions of the manuscript authors.
+- **S4 — Project methodology history:** PILOT_03 records 19 researcher adjudications and 14 retrospective impacts, with the historical gate `ONTOLOGY_STABLE_WITH_REVISIONS`. This does not constitute expanded validation or permission to enter production. Consult the underlying records before making external claims.
 
-## Regras de preservação
+**Traceability note:** `B###` labels, where cited, derive from block numbering in the extraction reported in S2. They are not stable page or editorial references. Comments for David should preferentially cite sections and passages in the specific manuscript version being discussed.
 
-- Não transformar hipóteses em achados validados; verificar diretamente os dispositivos legais na demonstração empírica.
-- Não confundir mapa conceitual abrangente com codebook exaustivo: David explicitou que os projetos de codificação selecionam subconjuntos pertinentes.
-- Não sobrescrever versões do DOCX, codebook, datasets ou artefatos de adjudicação.
-- Toda decisão que modifique ontologia, regras de inferência ou fluxo produtivo requer registro humano explícito.
+## Preservation rules
 
-## Próxima etapa recomendada
+- Do not turn hypotheses into validated findings; verify the legal provisions used in the empirical demonstration.
+- Do not confuse a comprehensive conceptual map with an exhaustive operational codebook. David explicitly distinguished the two and described selecting subsets relevant to individual coding projects.
+- Do not overwrite DOCX versions, codebooks, datasets or adjudication artifacts.
+- Any decision changing the ontology, inferential rules or production workflow requires an explicit researcher-authored record.
 
-1. Selecionar o microcaso legislativo real e fechar o corpus de dispositivos.
-2. Executar uma codificação ilustrativa, com evidência por passagem e stopping rule aplicado a cada salto.
-3. Rever os achados ontológicos à luz dos resultados do exemplo, sem presumir sua resolução.
-4. Discutir com David a arquitetura editorial: um artigo integrado ou fundacional + metodologia aprofundada.
+## Recommended next steps
+
+1. Select the real legal micro-case and delimit the provisions to be examined.
+2. Run an illustrative coding exercise with passage-specific evidence and a stopping rule at each inferential step.
+3. Revisit ontological questions in light of the demonstration without assuming they have been resolved.
+4. Discuss the editorial strategy with David: one integrated article or a foundational paper alongside a more detailed methodological paper.
