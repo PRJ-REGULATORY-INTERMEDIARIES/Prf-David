@@ -1,49 +1,52 @@
-﻿ÍNDICE PERMANENTE — RELATÓRIOS DE ESTADO DO PROJETO
-PRJ-David / Prf-David / RELATORIOS_DE_ESTADO_DO_PROJETO
-Criado em: 03 de outubro de 2026
+# Permanent Index — Project Status Reports
 
+**Project:** PRJ-David / Prf-David / `RELATORIOS_DE_ESTADO_DO_PROJETO`  
+**Created:** 3 October 2026
 
-FINALIDADE
-Esta pasta guarda fotografias documentais datadas da situação científica, metodológica, organizacional e administrativa do PRJ-David. Para obter uma visão imediata do projeto, abra o relatório com a DATA DE CORTE mais recente. Para recuperar a história, compare os relatórios cronologicamente. Relatórios passados não devem ser reescritos para se ajustarem a informações posteriores; correções devem ser lançadas em snapshot novo e referenciar o anterior.
+## Purpose
 
+This folder preserves dated documentary snapshots of the project's scientific, methodological, organizational and administrative status. For an immediate overview, read the report with the latest **cutoff date**. To reconstruct the history, compare reports chronologically. Do not rewrite earlier snapshots to accommodate later information; corrections must appear in a new snapshot that references the previous one.
 
-CONVENÇÃO DE NOMES
-AAAA-MM-DD__RELATORIO_DE_ESTADO__PRJ-DAVID.md
-O título interno deve explicitar data de corte, identificador, status documental, fontes consultadas, limitações, decisões pendentes, situação por frente de trabalho e diferenças desde o relatório anterior.
-A edição Google Docs pode acompanhar o arquivo .md para facilitar leitura; o .md é o registro textual portátil, apto a entrar no histórico Git local.
+## File naming convention
 
+`YYYY-MM-DD__RELATORIO_DE_ESTADO__PRJ-DAVID.md`
 
-RELATÓRIOS DISPONÍVEIS (MAIS RECENTE PRIMEIRO)
+The internal report heading should specify the cutoff date, identifier, document status, sources consulted, limitations, pending decisions, workstream-by-workstream status and changes since the previous report.
 
+A Google Docs reading copy may accompany each Markdown file. The Markdown file is the portable textual record suitable for the local Git history.
 
-03/10/2026 — PRJ-DAVID-STATUS-2026-10-03
-Arquivo principal: 2026-10-03__RELATORIO_DE_ESTADO__PRJ-DAVID.md
-Visualizar no Google Drive: https://drive.google.com/file/d/18xmAZwpD6_W7mqULe0g-UN0m_NeWsuaI/view
-Edição de leitura Google Docs: https://docs.google.com/document/d/1RAxFE0RvLiIA_VBe3OdO8xEEnKIBWnMMmgkQNmtDz3U/edit
-Escopo: situação documentada até 03/10; histórico R2/R3/R4, PILOT_01–03, Rotem, ARQGOV, V6 e novas propostas fundacionais.
-Estado: snapshot documental; validação científica externa e autorizações de produção NÃO inferidas.
+## Available reports — most recent first
 
+### 3 October 2026 — PRJ-DAVID-STATUS-2026-10-03
 
-PROCEDIMENTO PARA PRÓXIMOS SNAPSHOTS
-1. Consultar o índice e o último relatório datado.
-2. Ler fontes atualizadas desde o snapshot anterior e descrever explicitamente o que não foi acessado.
-3. Separar eventos novos, decisões autorais/humanas, resultados técnicos, avaliações e hipóteses.
-4. Registrar variações dos estados e gates, não reclassificar historicamente um gate antigo.
-5. Criar novo arquivo datado; adicionar entrada no topo deste índice e preservar todos os anteriores.
-6. Quando houver resposta de David ou Rotem, cumprir RESUMPTION_PROTOCOL.md antes de alterar baselines congelados.
+- **Primary file:** `2026-10-03__RELATORIO_DE_ESTADO__PRJ-DAVID.md`
+- [View on Google Drive](https://drive.google.com/file/d/18xmAZwpD6_W7mqULe0g-UN0m_NeWsuaI/view)
+- [Read the Google Docs copy](https://docs.google.com/document/d/1RAxFE0RvLiIA_VBe3OdO8xEEnKIBWnMMmgkQNmtDz3U/edit)
+- **Scope:** status documented through 3 October, with R2/R3/R4 history, PILOT_01–03, Rotem, ARQGOV, V6 and new foundational-paper proposals.
+- **Status:** documentary snapshot; no external scientific validation or authorization to start production is inferred.
 
+## Procedure for future snapshots
 
-PRINCIPAIS FONTES DE CONTINUIDADE (FORA DESTA PASTA)
-../RESEARCH_CLOSEOUT_2026-10-01.md
-../EXTERNAL_REVIEW_REGISTER.md
-../RESUMPTION_PROTOCOL.md
-../AUDIT_RESEARCH_HISTORY/
-../RELATIONAL_LEXIMETRICS_PILOT/
-../R4_CROSS_DOMAIN_VALIDATION/
-../CODEX_ROTEM_SHARE_PACKAGE_20260930_2153/
-../Enviados/Artigo v6/
-../FOUNDATIONAL_PAPER_REVIEW/
-../ASTRA_EXECUTION_RECOVERY_REPORT.md
+1. Read this index and the most recent dated report.
+2. Check sources updated since the previous snapshot and document what could not be accessed.
+3. Separate new events, human/author decisions, technical outputs, evaluations and hypotheses.
+4. Record changes in status and research gates; do not retrospectively reclassify an earlier gate.
+5. Create a new dated file, add its entry to the top of this index and preserve all earlier versions.
+6. When David or Rotem responds, follow `RESUMPTION_PROTOCOL.md` before changing frozen baselines.
 
+## Main continuity sources outside this folder
 
-IMPORTANTE: indexação e histórico são instrumentos de rastreabilidade. Não equivalem a validação independente dos resultados.
+- `../RESEARCH_CLOSEOUT_2026-10-01.md`
+- `../EXTERNAL_REVIEW_REGISTER.md`
+- `../RESUMPTION_PROTOCOL.md`
+- `../AUDIT_RESEARCH_HISTORY/`
+- `../RELATIONAL_LEXIMETRICS_PILOT/`
+- `../R4_CROSS_DOMAIN_VALIDATION/`
+- `../CODEX_ROTEM_SHARE_PACKAGE_20260930_2153/`
+- `../Enviados/Artigo v6/`
+- `../FOUNDATIONAL_PAPER_REVIEW/`
+- `../ASTRA_EXECUTION_RECOVERY_REPORT.md`
+
+Some path names retain their original Portuguese wording for traceability.
+
+**Important:** indexing and historical snapshots support traceability; they are not independent validation of research findings.
