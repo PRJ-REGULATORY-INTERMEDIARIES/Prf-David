@@ -1,52 +1,30 @@
-# PoC 01 — Produto final: codificação de intermediários regulatórios
+# PoC 01 — Final Research Package: Regulatory Intermediary Coding
 
-Pacote completo do exercício de codificação de intermediários regulatórios
-na legislação da UE sobre transição verde (proposta do Prof. David
-Levi-Faur). Contém tudo que existe hoje, validado ou não — ver a divisão
-abaixo.
+Complete package for a regulatory-intermediary coding exercise using EU green-transition legislation, based on a research proposal by Professor David Levi-Faur. The package preserves both validated and provisional work; see the distinctions below.
 
-## `Entrega-02/` — codificação humana v3 (validada)
+## `Entrega-02/` — Human coding, v3 (validated within the original exercise)
 
-O produto principal, pronto para uso e leitura:
+The main material for reading and further use:
 
-- **`ARTIGO_VALIDACAO.qmd` / `.docx`** — o trabalho em formato de artigo
-  acadêmico (Resumo → Introdução → Método → Resultados → Validação →
-  Discussão → Conclusão), com figuras e tabelas. Ponto de entrada
-  recomendado.
-- **`RELATORIO_FINAL_APRESENTACAO.qmd` / `.docx`** — relatório de
-  apresentação passo a passo do exercício, mais longo e didático.
-- **`RESEARCH_NOTE_v3.md` / `.docx`** — nota curta, em inglês, pronta para
-  enviar ao Prof. Levi-Faur.
-- **Codebooks e documentação metodológica**: `RIT_CODEBOOK_v3.md`,
-  `SCREENING_CODEBOOK_v3.md`, `DATA_DICTIONARY_v3.md`, `VARIABLE_MAP_v3.md`,
-  `METHODOLOGY_v3.md`, `SCREENING_VALIDATION_v3.md`,
-  `RELATIONSHIP_VALIDATION_PROTOCOL_v3.md`, `CHANGELOG_v3.md`.
-- **`scripts/`** — pipeline reprodutível (`collect.py`, `screening_v3.py`).
-- **`data/`** — os 3 datasets do pipeline (`screening_hits_v3.csv` — 1.079
-  linhas; `candidate_adjudications_v3.csv` — 10 candidatos; e
-  `rit_relationships_v3.csv` — 7 relações R-I-T) mais `actors_v3.csv`.
-- **`figures/`** — as 4 figuras usadas nos documentos acima.
+- **`ARTIGO_VALIDACAO.qmd` / `.docx`** — academic-paper format (Abstract → Introduction → Methods → Results → Validation → Discussion → Conclusion), including figures and tables. Recommended starting point.
+- **`RELATORIO_FINAL_APRESENTACAO.qmd` / `.docx`** — an extended, step-by-step presentation report.
+- **`RESEARCH_NOTE_v3.md` / `.docx`** — concise English research note prepared for Professor Levi-Faur.
+- **Codebooks and methodological documentation:** `RIT_CODEBOOK_v3.md`, `SCREENING_CODEBOOK_v3.md`, `DATA_DICTIONARY_v3.md`, `VARIABLE_MAP_v3.md`, `METHODOLOGY_v3.md`, `SCREENING_VALIDATION_v3.md`, `RELATIONSHIP_VALIDATION_PROTOCOL_v3.md`, `CHANGELOG_v3.md`.
+- **`scripts/`** — reproducible pipeline (`collect.py`, `screening_v3.py`).
+- **`data/`** — three main pipeline datasets (`screening_hits_v3.csv` — 1,079 rows; `candidate_adjudications_v3.csv` — 10 candidates; `rit_relationships_v3.csv` — 7 R–I–T relationships), plus `actors_v3.csv`.
+- **`figures/`** — four figures used in these research documents.
 
-## `Entrega-03/` — camada de codificação assistida por IA (protocolo pronto, ainda não executado)
+## `Entrega-03/` — AI-assisted coding layer (protocol ready; not yet executed at that stage)
 
-Design completo (protocolos, JSON Schemas, prompts, scripts de
-orquestração) para incorporar um LLM como codificador interpretativo
-assistido, testado de ponta a ponta em modo `dry_run` (sem chamada real à
-API, sem custo). **Nenhum resultado real existe ainda** — ver
-`Entrega-03/CHANGELOG_v4.md` e `Entrega-03/MODEL_SELECTION_PROTOCOL.md`
-para os pré-requisitos antes de rodar de verdade (confirmar `model` id e
-preço atual no painel da OpenAI).
+Complete design (protocols, JSON Schemas, prompts and orchestration scripts) for incorporating an LLM as an assisted interpretive coder. The pipeline passed an end-to-end `dry_run` test without a real API request or cost. **No real model output was available at the time this archived version was prepared.** See `Entrega-03/CHANGELOG_v4.md` and `Entrega-03/MODEL_SELECTION_PROTOCOL.md` for historical prerequisites, including checking the chosen `model` identifier and prevailing API price.
 
-## O que fica de fora deste pacote, de propósito
+## Materials intentionally excluded
 
-- **`../v1/`** — versões anteriores (v1/v2) do exercício, superadas,
-  mantidas só para histórico em `Prf-David/v1/`, não copiadas aqui.
-- **`../Inputs/`** — materiais de origem do próprio Prof. David (a
-  proposta dele em `.docx` e o flyer do WhatsApp com contato pessoal) —
-  não fazem parte do produto que você produziu, então não estão neste
-  pacote.
+- **`../v1/`** — superseded v1/v2 exercise versions, retained separately for historical traceability and not copied into this package.
+- **`../Inputs/`** — source materials provided directly by Professor David, including his original `.docx` proposal and a WhatsApp flyer containing personal contact information. These inputs are not a product of this coding exercise.
 
-## Nota sobre caminhos relativos
-`Entrega-02/` e `Entrega-03/` precisam continuar como pastas irmãs dentro
-deste mesmo diretório — os scripts e a documentação de `Entrega-03/`
-referenciam `../Entrega-02/...` internamente. Não mova uma sem a outra.
+## Relative-path dependency
+
+`Entrega-02/` and `Entrega-03/` must remain sibling directories within the same parent folder. Scripts and documentation in `Entrega-03/` reference `../Entrega-02/...`. Do not move one without the other.
+
+The original directory names are preserved because changing them would break existing research references.
