@@ -1,139 +1,84 @@
-# PoC — Screening (Stage A) + codificação R-I-T (Stage B) em 4 atos da UE (transição verde)
+# Proof of Concept — Stage A Screening and Stage B R–I–T Coding in Four EU Green-Transition Acts
 
-Prova de conceito para a candidatura a Research Assistant/Partner do Prof.
-David Levi-Faur ("Governance by and of Intermediaries"). Estrutura em dois
-estágios, seguindo a revisão crítica de 05/09/2026 (ver `RIT_CODING.md`):
+This proof of concept was prepared for the Research Assistant/Partner application to Professor David Levi-Faur (*Governance by and of Intermediaries*). It follows the two-stage structure established after the critical review of 5 September 2026 (see `RIT_CODING.md`):
 
-- **Stage A — screening lexical**: "este parágrafo tem um sinal textual
-  associado a um mecanismo de intermediação?" — este arquivo e
-  `CODEBOOK.md`.
-- **Stage B — codificação R-I-T**: "existe aqui um regulatory intermediary,
-  entre quem e quem, sob que desenho institucional?" — `RIT_CODING.md`, a
-  partir dos parágrafos que o Stage A localiza.
-- **Validação**: `GOLD_STANDARD_VALIDATION.md` mede precision/recall/F1 do
-  Stage A contra leitura manual sem regex.
-- **Porquê de cada escolha metodológica**: `METODOLOGIA.md`.
+- **Stage A — lexical screening:** “Does this paragraph contain a textual signal associated with an intermediation mechanism?” See this README and `CODEBOOK.md`.
+- **Stage B — R–I–T coding:** “Is there a regulatory intermediary here, between whom, and under what institutional arrangement?” See `RIT_CODING.md`, using the paragraphs retrieved in Stage A.
+- **Validation:** `GOLD_STANDARD_VALIDATION.md` measures Stage A precision, recall and F1 against manual reading without regular expressions.
+- **Methodological rationale:** `METODOLOGIA.md` documents why particular design decisions were adopted.
 
-O Stage A não é a entrega final — é o funil que torna o Stage B viável em
-escala. Um match de alta confiança no Stage A é um "high-confidence textual
-hit", não uma confirmação de que a arquitetura R-I-T está presente naquele
-dispositivo; por isso a v3 do schema usa `screening_confidence`
-(`high`/`low`) em vez de `status` (`confirmado`/`candidato`), e reserva
-`intermediary_validated=1` só para as linhas efetivamente codificadas em
-Stage B.
+Stage A is not the final research output: it is the screening funnel that makes Stage B feasible at scale. A high-confidence Stage A match is a **high-confidence textual hit**, not confirmation that an R–I–T architecture is present in the provision. Therefore, schema v3 uses `screening_confidence` (`high`/`low`) rather than `status` (`confirmed`/`candidate`) and reserves `intermediary_validated=1` for observations actually coded in Stage B.
 
-## Atos analisados
+## EU acts examined
 
-| Ato | CELEX | Mecanismo-alvo | Por que este ato |
+| Act | CELEX | Target mechanism | Selection rationale |
 |---|---|---|---|
-| CSRD (Corporate Sustainability Reporting Directive) | `32022L2464` | reportar + auditoria | Obriga reporte de sustentabilidade e sua garantia (assurance) por auditor/provedor independente |
-| Rótulo Ecológico da UE (EU Ecolabel) | `32010R0066` | certificação | "Competent Bodies" certificam produtos com base em critérios ambientais |
-| Referenciais Climáticos (Climate Benchmarks) | `32019R2089` | ranking/rating (validade condicional — ver `RIT_CODING.md`) | Cria categorias de índices de referência (benchmarks) alinhados ao clima, com requisitos de metodologia para os administradores |
-| Verificação e Acreditação no EU ETS | `32018R2067` | auditoria (+ certificação) | Regula os verificadores de emissões de gases de efeito estufa e sua acreditação |
+| Corporate Sustainability Reporting Directive (CSRD) | `32022L2464` | Reporting and auditing | Sustainability reporting obligations with assurance by auditors/independent providers. |
+| EU Ecolabel | `32010R0066` | Certification | Competent bodies assess products against environmental criteria. |
+| Climate Benchmarks | `32019R2089` | Ranking/rating (conditional construct validity; see `RIT_CODING.md`) | Creates climate-aligned benchmark categories and methodological requirements for benchmark administrators. |
+| Verification and Accreditation under the EU ETS | `32018R2067` | Auditing (plus certification) | Regulates greenhouse-gas emissions verifiers and their accreditation. |
 
-## Como rodar
+## Running the scripts
 
-```
+```bash
 cd scripts
-python collect.py <CELEX> <slug>            # repetir para cada ato
-python codebook_screen.py <slug> <CELEX>    # repetir para cada ato
+python collect.py <CELEX> <slug>           # Repeat for each act
+python codebook_screen.py <slug> <CELEX>   # Repeat for each act
 python combine.py csrd ecolabel climate_benchmarks ets_verification
 ```
 
-Saída: `data/<slug>_raw.html`, `data/<slug>_dataset.csv` por ato (Stage A), e
-`data/combined_dataset.csv` com os 4 juntos. `data/rit_coded_sample.csv` é o
-Stage B (codificação manual, não gerada pelo script).
+Outputs include `data/<slug>_raw.html` and `data/<slug>_dataset.csv` for each act (Stage A), plus `data/combined_dataset.csv` combining the four. `data/rit_coded_sample.csv` represents Stage B (manual coding, not generated by the script).
 
-## Resultados do Stage A (screening)
+## Stage A screening results
 
-Cada linha carrega `screening_confidence` (`high`/`low`), `provision_type`
-(`recital`/`article`), `amended_act` (quando aplicável) e
-`intermediary_validated` (0 por padrão; 1 nas 76 linhas cobertas pelo Stage
-B). Resumo: **764 de 1.079 linhas (71%) saem como `high`**, sem necessidade
-de checagem humana imediata; **315 (29%) ficam como `low`**.
+Each observation records `screening_confidence` (`high`/`low`), `provision_type` (`recital`/`article`), `amended_act` (if applicable) and `intermediary_validated` (0 by default, 1 for the 76 rows covered by Stage B). In the original screening results, **764 of 1,079 rows (71%)** were classified `high` without requiring immediate human checking; **315 (29%)** were classified `low`.
 
-| Ato | Parágrafos | Artigos | Total | high | low |
-|---|---|---|---|---|---|
-| CSRD | 1.084 | 32 | 559 | 472 | 87 |
-| Ecolabel | 394 | 20 | 94 | 73 | 21 |
+| Act | Paragraphs | Articles | Total hits | High | Low |
+|---|---:|---:|---:|---:|---:|
+| CSRD | 1,084 | 32 | 559 | 472 | 87 |
+| EU Ecolabel | 394 | 20 | 94 | 73 | 21 |
 | Climate Benchmarks | 208 | 7 | 61 | 37 | 24 |
-| ETS Verificação | 1.067 | 79 | 365 | 182 | 183 |
-| **Total** | | | **1.079** | **764 (71%)** | **315 (29%)** |
+| EU ETS Verification | 1,067 | 79 | 365 | 182 | 183 |
+| **Total** | | | **1,079** | **764 (71%)** | **315 (29%)** |
 
-Cada um dos 4 atos tem um mecanismo claramente dominante e coerente com o
-motivo da escolha (tabela acima) — os quatro mecanismos da proposta do David
-têm pelo menos um ato-âncora com sinal forte, embora com validade de
-construto diferente entre eles (ver `RIT_CODING.md` para o caso condicional
-de Climate Benchmarks).
+Each act has a dominant mechanism consistent with its original selection rationale. The four mechanisms in David's proposal have at least one anchor act with strong lexical signals, although construct validity differs across mechanisms, particularly for Climate Benchmarks (see `RIT_CODING.md`).
 
-**`provision_type`, medido, não suposto:** dos 1.079 hits, 890 (82%) caem em
-`article` e 189 (18%) em `recital`. Na CSRD especificamente, 413 de 559
-(74%) são `article`. Isso corrige uma suposição de uma rodada anterior deste
-documento, que afirmava que "a maioria dos hits vem do preâmbulo" sem ter
-medido — a maioria, na verdade, já cai em dispositivo operativo.
+**Measured, not assumed:** of the 1,079 hits, 890 (82%) are in `article` and 189 (18%) in `recital`. For the CSRD, 413 of 559 hits (74%) are in `article`. This corrects an earlier unmeasured assumption that most hits came from preambular text; most actually occur in operative provisions.
 
-**Ponto fraco remanescente, documentado em vez de escondido:** no ETS, o
-mecanismo "reportar" ficou com só 5 `high` contra 119 `low`. Não é falha da
-regra — o vocabulário de reporte do ETS ("emission report", "verification
-report") está estruturalmente colado ao processo de auditoria (é o documento
-que o verificador audita), então a regra corretamente hesita em confirmar
-sozinha se aquele trecho é sobre o dever de reportar em si ou só menciona o
-relatório enquanto objeto da verificação. Fica como `low` de propósito — ver
-`METODOLOGIA.md`, seção 9.
+**Documented remaining limitation:** in the EU ETS, the reporting mechanism produced only 5 `high` compared with 119 `low` hits. This reflects the structure of ETS reporting vocabulary, where “emission report” and “verification report” often refer to the document being audited. The screening rule appropriately avoids automatically deciding whether a provision establishes a reporting duty or merely mentions a report as an object of verification; see `METODOLOGIA.md`, section 9.
 
-## Validação
-`GOLD_STANDARD_VALIDATION.md` cobre a validação rigorosa (leitura manual sem
-regex, precision/recall/F1: 100% / 94,3% / 97,1% sobre 35 unidades
-julgadas). Abaixo, a validação qualitativa original por amostra:
+## Validation
 
-- **CSRD — reportar/auditoria**: hits relevantes ("reporting requirement",
-  "sustainability report", "auditor", "assurance engagement").
-- **Ecolabel — certificação**: limpo, com atribuição de artigo (Art. 4, 9,
-  20).
-- **Climate Benchmarks — ranking/rating**: hits lexicalmente limpos, mas ver
-  o alerta de validade de construto em `RIT_CODING.md`, seção 3.
-- **ETS Verificação — auditoria e certificação**: limpo e com atribuição de
-  artigo. Os hits de "certificação" nesse ato são sobre a acreditação dos
-  próprios verificadores — ver achado abaixo.
+`GOLD_STANDARD_VALIDATION.md` documents manual non-regex validation of Stage A: precision 100%, recall 94.3% and F1 97.1%, based on **35 judged units**. These figures are sample-specific and must not be generalized to the full corpus. The original qualitative case checks included:
 
-## Achado que vale registrar
-No ETS, o mecanismo dominante nos hits automáticos não foi "auditoria" (87
-linhas: 70 high + 17 low) e sim "certificação" (149 linhas: 107 high + 42
-low), quase toda por "accreditation". Ao ler o texto, isso não é ruído: o
-regime cria um **auditor que é, ele próprio, credenciado por um organismo de
-acreditação** — os dois mecanismos aparecem empilhados no mesmo ato, um
-garantindo o outro. Codificado explicitamente em `RIT_CODING.md`, seção 4,
-como parte da tríade R-I-T do EU ETS.
+- **CSRD — reporting and auditing:** relevant examples included “reporting requirement”, “sustainability report”, “auditor” and “assurance engagement”.
+- **EU Ecolabel — certification:** comparatively clear hits with article references (Articles 4, 9 and 20).
+- **Climate Benchmarks — ranking/rating:** lexically clear hits but with a construct-validity caveat in `RIT_CODING.md`, section 3.
+- **EU ETS Verification — auditing and certification:** relatively clear article-level attribution; certification references concerned accreditation of the verifiers themselves.
 
-## Limitações conhecidas
-- Os 29% de hits `low` ainda não foram revisados um a um fora dos 4 artigos
-  cobertos pelo Stage B; são a fila de verificação humana, não um resultado
-  final.
-- `GOLD_STANDARD_VALIDATION.md` usa os artigos mais ricos de cada ato, não
-  uma amostra aleatória — os números de precision/recall são um teto
-  otimista, não uma estimativa para o corpus inteiro.
-- Fonte é a página HTML da EUR-Lex por CELEX, não a API SPARQL/Cellar —
-  adequado para 4 atos escolhidos a dedo. Antes de migrar para SPARQL/Cellar
-  em escala, falta um passo anterior: **definir a população** ("o que conta
-  como legislação da UE sobre transição verde?") — SPARQL resolve *retrieval*,
-  não define o universo. Ver `METODOLOGIA.md`, seção 10.
-- O Stage B (`RIT_CODING.md`) cobre 4 provisões, não o corpus — é prova de
-  que o passo é executável a partir do Stage A, não uma codificação em
-  escala.
+## Research observation
 
-## Arquivos
-- `scripts/collect.py` — coleta o HTML de um ato por CELEX.
-- `scripts/codebook_screen.py` — Stage A: aplica a triagem lexical e gera o
-  CSV por ato.
-- `scripts/combine.py` — junta os CSVs por ato em `combined_dataset.csv`.
-- `data/*_raw.html` — HTML bruto de cada um dos 4 atos.
-- `data/*_dataset.csv` — dataset de saída do Stage A por ato.
-- `data/combined_dataset.csv` — os 4 juntos, com coluna `ato`.
-- `data/rit_coded_sample.csv` — Stage B: codificação R-I-T manual das 4
-  provisões-âncora.
-- `CODEBOOK.md` — strings, ontologia (ator/mecanismo/instrumento) e
-  contagens do Stage A.
-- `RIT_CODING.md` — leitura das 4 codificações R-I-T, incluindo o caso
-  condicional de Climate Benchmarks.
-- `GOLD_STANDARD_VALIDATION.md` — precision/recall/F1 do Stage A.
-- `METODOLOGIA.md` — porquê de cada escolha de desenho.
+In the EU ETS automated screening, the mechanism with the greatest number of hits was not “auditing” (87: 70 high + 17 low) but “certification” (149: 107 high + 42 low), largely because of “accreditation”. Direct reading suggests that this is substantive rather than mere noise: the regulatory arrangement establishes **an auditor who must themselves be accredited by an accreditation body**. The two mechanisms appear together, with one providing assurance for the other. This point is discussed in `RIT_CODING.md`, section 4, in the EU ETS R–I–T analysis.
+
+## Known limitations
+
+- The 29% of `low` hits were not reviewed individually outside the four articles addressed by Stage B. These observations form a human-review queue, not a final finding.
+- `GOLD_STANDARD_VALIDATION.md` sampled mechanism-rich articles rather than a random sample. The precision and recall results should be interpreted as an optimistic upper bound, not as estimates for the entire corpus.
+- Legal text acquisition used EUR-Lex webpages addressed by CELEX, **not** the SPARQL/CELLAR API. This was adequate for four purposefully chosen acts. Before scaling acquisition, the research population must first be defined (e.g., what counts as EU green-transition legislation?). SPARQL solves retrieval; it does not define the legal universe. See `METODOLOGIA.md`, section 10.
+- Stage B (`RIT_CODING.md`) covers four provisions rather than the full corpus. It demonstrates that relational coding is feasible after screening, not that full-scale coding has been achieved.
+
+## Key files
+
+- `scripts/collect.py` — retrieves each act's HTML by CELEX.
+- `scripts/codebook_screen.py` — applies Stage A lexical screening and writes an act-level CSV.
+- `scripts/combine.py` — combines act-level CSV files into `combined_dataset.csv`.
+- `data/*_raw.html` — raw HTML for the four acts.
+- `data/*_dataset.csv` — Stage A output by act.
+- `data/combined_dataset.csv` — combined screening output with an act identifier column.
+- `data/rit_coded_sample.csv` — manually coded Stage B sample of four anchor provisions.
+- `CODEBOOK.md` — lexical strings, actor/mechanism/instrument ontology and screening counts.
+- `RIT_CODING.md` — four R–I–T analyses, including the conditional Climate Benchmarks case.
+- `GOLD_STANDARD_VALIDATION.md` — Stage A precision/recall/F1 assessment.
+- `METODOLOGIA.md` — methodological rationale.
+
+**Historical-context note:** this README records the design and results of an early proof of concept, not the status of the entire R1–R7 research programme. Original file paths and names have been retained for provenance.
