@@ -1,64 +1,64 @@
-# mapping/ — Mapeamento sistemático de dados legislativos e regulatórios da UE
+# mapping/ — Systematic Mapping of EU Legislative and Regulatory Data
 
-Pesquisa independente, sob responsabilidade científica de Igor Caires Machado. Iniciada no gate G2 (2026-10-10) por reorientação do estudo *EU Regulatory Data Scoping*. Tudo o que é de G0 a G1-READY fica fora desta pasta e não foi alterado.
+Independent research under the scientific responsibility of Igor Caires Machado. Initiated at gate G2 (10 October 2026) after a redirection of the *EU Regulatory Data Scoping* study. All G0 through G1-READY artifacts remain outside this folder and were not modified.
 
-**Estado:** rodada 2 concluída (2026-10-10). 252 candidatos a recurso, todos com classificação provisória feita por agente de IA; nenhuma linha confirmada por pesquisador. O estado da rodada 1 (105 candidatos) está congelado em `snapshots/round1/`.
+**Status:** Round 2 completed (10 October 2026). The inventory contains **252 candidate resources**, all provisionally classified by an AI agent; **none of these rows has been confirmed by a human researcher**. The Round 1 state (105 candidates) is preserved in `snapshots/round1/`.
 
-## Por onde começar
+## Where to start
 
-| Quero | Abrir |
+| Purpose | Open |
 |---|---|
-| Entender a mudança de rumo | `protocol/INDEPENDENT_MAPPING_REORIENTATION_v1_0.md` |
-| Saber como se busca e se verifica | `protocol/SYSTEMATIC_MAPPING_PROTOCOL_v1_0_DRAFT.md` |
-| Ver os resultados | `reports/G2_INITIAL_MAPPING_REPORT.md` |
-| Ver o que vem a seguir | `reports/G2_NEXT_ROUND_PLAN.md` |
-| Avaliar publicação | `reports/PUBLICATION_POTENTIAL_NOTE.md` |
-| Usar os dados | `data/resources.csv` e `data/DATA_DICTIONARY.md` |
+| Understand why the study was redirected | [Independent mapping reorientation](protocol/INDEPENDENT_MAPPING_REORIENTATION_v1_0.md) |
+| Review search and verification procedures | [Systematic mapping protocol](protocol/SYSTEMATIC_MAPPING_PROTOCOL_v1_0_DRAFT.md) |
+| Read the initial results | [Initial G2 report](reports/G2_INITIAL_MAPPING_REPORT.md) |
+| Review the next steps | [Next-round plan](reports/G2_NEXT_ROUND_PLAN.md) |
+| Assess publication potential | [Publication potential note](reports/PUBLICATION_POTENTIAL_NOTE.md) |
+| Inspect the data tables | [Resources table](data/resources.csv) and [data dictionary](data/DATA_DICTIONARY.md) |
 
-## Rodada 2
+## Round 2 documentation
 
-| Quero | Abrir |
+| Purpose | Open |
 |---|---|
-| Resultados da rodada 2 | `reports/G2_ROUND2_RESULTS.md` |
-| Separação dados e infraestrutura; níveis de evidência | `protocol/AMENDMENT_A01_DATA_VS_INFRASTRUCTURE_v1_0.md` |
-| Comparação com o LYNX e antecedentes | `reports/PRIOR_ART_AND_LYNX_COMPARISON.md` |
-| Proposta de validação humana | `protocol/HUMAN_VALIDATION_PROPOSAL_v0_1.md` |
-| O que mudou em arquivos da rodada 1 | `CHANGES_ROUND2.md` |
+| Results of the second round | [Round 2 results](reports/G2_ROUND2_RESULTS.md) |
+| Data/infrastructure distinction and evidence levels | [Amendment A01](protocol/AMENDMENT_A01_DATA_VS_INFRASTRUCTURE_v1_0.md) |
+| LYNX comparison and previous research | [Prior art and LYNX comparison](reports/PRIOR_ART_AND_LYNX_COMPARISON.md) |
+| Proposed human validation | [Human validation proposal](protocol/HUMAN_VALIDATION_PROPOSAL_v0_1.md) |
+| Changes made to Round 1 files | [Round 2 changes](CHANGES_ROUND2.md) |
 
-## Conteúdo
+## Folder structure
 
-```
+```text
 mapping/
-  protocol/    reorientação, protocolo, registro de consultas da rodada
-  curation/    julgamentos provisórios da rodada, com a base de cada campo
-  data/        tabelas geradas (não editar à mão) e dicionário de dados
-  schemas/     vocabulários controlados
-  scripts/     busca registrada, construtor, validador
-  evidence/    respostas de busca e capturas de páginas, com registros e hashes
-  reports/     relatório, plano, nota de publicação, saídas de teste
+  protocol/    Research reorientation, protocol and round-specific search records
+  curation/    Provisional coding judgments and evidence for each field
+  data/        Generated data tables (do not edit manually) and data dictionary
+  schemas/     Controlled vocabularies
+  scripts/     Recorded searches, deterministic builder and validator
+  evidence/    Search responses and captured source pages, with logs and checksums
+  reports/     Reports, future-work plan, publication note and test outputs
   MANIFEST.sha256
 ```
 
-## Refazer
+## Reproduce the local outputs
 
+```bash
+python mapping/scripts/build_mapping_base.py   # Rebuild tables from curation and evidence
+python mapping/scripts/validate_mapping.py     # Run consistency checks
+python -m unittest discover -s tests            # 152 tests: 87 earlier, 26 from Round 1 and 39 from Round 2
 ```
-python mapping/scripts/build_mapping_base.py     # gera as tabelas a partir da curadoria e das evidências
-python mapping/scripts/validate_mapping.py       # verificações de consistência
-python -m unittest discover -s tests             # 152 testes: 87 anteriores, 26 da rodada 1 e 39 da rodada 2
-```
 
-Nada disso usa a rede. Só `mapping_search.py run` e `scripts/capture_evidence.py capture` fazem requisições.
+These commands do not use the network. Network requests are made only by `mapping_search.py run` and `scripts/capture_evidence.py capture`.
 
-## Nova rodada
+## Start another round
 
-1. Criar `protocol/SEARCH_QUERIES_G2_ROUND<n>.csv` e executar `python mapping/scripts/mapping_search.py run --registry <arquivo>`.
-2. Capturar páginas com `scripts/capture_evidence.py` (pasta de saída `mapping/evidence/captures`).
-3. Acrescentar os julgamentos num arquivo de curadoria; reconstruir; validar.
-4. Identificadores `MR-nnnn` nunca são reutilizados; evidência nunca é apagada.
+1. Create `protocol/SEARCH_QUERIES_G2_ROUND<n>.csv` and run `python mapping/scripts/mapping_search.py run --registry <file>`.
+2. Capture relevant pages with `scripts/capture_evidence.py` (output directory: `mapping/evidence/captures`).
+3. Add provisional coding decisions to a curation file, then rebuild and validate the tables.
+4. Never reuse `MR-nnnn` identifiers and never delete historical evidence.
 
-## Avisos
+## Interpretation and preservation cautions
 
-- `VERIFIED` significa que nome e localização constam de fonte primária preservada. Nenhum dataset foi aberto.
-- `NOT_ASSESSED` significa não coletado, não inexistente.
-- Falha de acesso não é evidência de ausência.
-- `evidence/` contém cópias de páginas de terceiros. Antes de publicar a pasta, decidir se elas podem ser redistribuídas.
+- `VERIFIED` means that a resource's name and location were found in a preserved primary source. **No complete dataset was opened.**
+- `NOT_ASSESSED` means not collected or examined, **not** that something does not exist.
+- An access failure is not evidence of absence.
+- `evidence/` contains third-party webpage captures. Before publishing that folder, establish whether redistribution is permitted.
